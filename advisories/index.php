@@ -42,7 +42,7 @@ $page_meta_description = "";
 
 			<h3>How to Report Security Threats?</h3>
 
-			<p>We are in the process of putting together resources to deal with future security issues. Meanwhile please contact <a href="mailto:eran@hueniverse.com">Eran Hammer-Lahav</a> with any concerns. Please <span class="caps">DO NOT</span> discuss unknown security threats in public as they are likely to be used by attacker before a solution can be applied.</p>
+			<p>Please report any concerns to the <a href="https://www.ietf.org/mailman/listinfo/oauth">OAuth mailing list</a>. Please <span class="caps">DO NOT</span> discuss unknown security threats in public as they are likely to be used by attacker before a solution can be applied.</p>
     </div>
 
 <?php require('../includes/_footer.php'); ?>
