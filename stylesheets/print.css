@@ -1,0 +1,11 @@
+body{font-family:Georgia,Times,serif;line-height:1.5;color:#000;background:none;font-size:11pt}
+img{float:left;margin:1.5em 1.5em 1.5em 0}
+p img.top{margin-top:0}
+hr{background:#ccc;color:#ccc;width:100%;height:2px;margin:2em 0;padding:0;border:none}
+blockquote{margin:1.5em 0;padding:1em;border:0.2em solid #ccc;font-style:italic;font-size:0.9em}
+.small,.small p{font-size:0.9em}
+.large,.large p{font-size:1.1em}
+.quiet,.quiet p{color:#999}
+.hide{display:none}
+a:link,a:visited{background:transparent;font-weight:bold;text-decoration:underline}
+a:link:after,a:visited:after{content:" (" attr(href) ") ";font-size:90%}

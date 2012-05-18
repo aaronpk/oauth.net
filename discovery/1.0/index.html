@@ -1,0 +1,609 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>OAuth Discovery 1.0</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="OAuth Discovery 1.0" />
+	<link href="/stylesheets/spec.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<p class="obsolete-note">
+	This specification draft expired and marked as obsolete by its author.
+	Implementers are discouraged from implementing products using the methods described
+	in this specification. No update is expected. This draft will be
+	replace by the OAuth 2.0 effort in the IETF.
+</p>
+<p />
+<span style="float:right">March 31, 2008</span>
+<br />
+<span style="float:right">Eran Hammer-Lahav</span>
+<h1><br />OAuth Discovery 1.0 Draft 2</h1>
+
+<h3>Abstract</h3>
+
+<p>
+        OAuth Core 1.0 defines a protocol for delegating user access to
+        Consumer applications without sharing the user&#8217;s private credentials.
+        The protocol specifies a set of configuration values that enable
+        Consumers to find and communicate with Service Providers. However,
+        OAuth Core leaves the process of communicating that information
+        undefined.
+
+</p>
+<p>
+        The discovery protocol provides a way for Consumers to receive
+        the required configuration data from Service Providers in a
+        machine-readable format. It creates an extendable framework for
+        communicating current and future services.
+
+</p>
+<p>
+        The protocol has been designed to keep the workflow as simple as
+        possible, use existing discovery practices, and maintaining strong
+        flexibility, allowing Service Providers to structure their
+        configuration as needed.
+
+</p><a name="toc"></a><br /><hr />
+<h3>Table of Contents</h3>
+<p class="toc">
+<a href="#anchor1">1.</a>&nbsp;
+Notation and Conventions<br />
+<a href="#anchor2">2.</a>&nbsp;
+Definitions<br />
+<a href="#anchor3">3.</a>&nbsp;
+Scope and Limitations<br />
+<a href="#anchor4">4.</a>&nbsp;
+Discovery Workflow<br />
+<a href="#anchor5">5.</a>&nbsp;
+Configuration Retrieval<br />
+<a href="#anchor6">6.</a>&nbsp;
+Descriptor Structure<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#oauth_endpoints_types">6.1.</a>&nbsp;
+OAuth Endpoints<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#consumer_identity_types">6.2.</a>&nbsp;
+Consumer Identity<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#request_parameter_types">6.3.</a>&nbsp;
+Request Parameter Methods<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#request_signature_types">6.4.</a>&nbsp;
+Request Signature Methods<br />
+<a href="#consumer_identity">7.</a>&nbsp;
+Establish Consumer Identity<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#static_alloc">7.1.</a>&nbsp;
+Static Allocation<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#manual_alloc">7.2.</a>&nbsp;
+Out-of-band Allocation<br />
+<a href="#anchor7">Appendix&nbsp;A.</a>&nbsp;
+Appendix A - Example<br />
+<a href="#rfc.references1">8.</a>&nbsp;
+References<br />
+<a href="#rfc.authors">&#167;</a>&nbsp;
+Author&#8217;s Address<br />
+</p>
+<br clear="all" />
+
+<a name="anchor1"></a><br /><hr />
+
+<a name="rfc.section.1"></a><h3>1.&nbsp;
+Notation and Conventions</h3>
+
+<p>
+        The key words &#8220;MUST&#8221;, &#8220;MUST NOT&#8221;, &#8220;REQUIRED&#8221;, &#8220;SHALL&#8221;, &#8220;SHALL NOT&#8221;,
+        &#8220;SHOULD&#8221;, &#8220;SHOULD NOT&#8221;, &#8220;RECOMMENDED&#8221;, &#8220;MAY&#8221;, and &#8220;OPTIONAL&#8221; in this
+        document are to be interpreted as described in <a class='info' href='#RFC2119'>[RFC2119]<span> (</span><span class='info'>Bradner, B., &ldquo;Key words for use in RFCs to Indicate Requirement Levels,&rdquo; .</span><span>)</span></a>.
+        Domain name examples use <a class='info' href='#RFC2606'>[RFC2606]<span> (</span><span class='info'>Eastlake, D. and A. Panitz, &ldquo;Reserved Top Level DNS Names,&rdquo; .</span><span>)</span></a>.
+
+</p>
+<p>
+        Unless otherwise noted, this specification is written as a direct
+        continuation of <a class='info' href='#OAuth Core 1.0'>[OAuth Core 1.0]<span> (</span><span class='info'>OAuth, OCW., &ldquo;OAuth Core 1.0,&rdquo; .</span><span>)</span></a>, inheriting the
+        definitions and guidelines set by it.
+
+</p>
+<a name="anchor2"></a><br /><hr />
+
+<a name="rfc.section.2"></a><h3>2.&nbsp;
+Definitions</h3>
+
+<p>
+        </p>
+<blockquote class="text"><dl>
+<dt>OAuth Discovery:</dt>
+<dd>
+            A general name for the workflow described in this specification.
+
+</dd>
+<dt>OAuth Configuration:</dt>
+<dd>
+            The information needed by Consumers to perform the workflow defined in  
+            <a class='info' href='#OAuth Core 1.0'>[OAuth Core 1.0]<span> (</span><span class='info'>OAuth, OCW., &ldquo;OAuth Core 1.0,&rdquo; .</span><span>)</span></a> successfully and access Protected Resources.
+
+</dd>
+<dt>OAuth Descriptor</dt>
+<dd>
+            The XRDS-Simple <tt>XRD</tt> element containing the
+            OAuth Configuration, located by performing discovery on the Protected Resource URI.
+
+</dd>
+<dt>Consumer Identity:</dt>
+<dd>
+            The Consumer Key, Consumer Secret, and any other information used
+            to establish an identity for the Consumer such as public key.
+
+</dd>
+</dl></blockquote><p>
+
+</p>
+<a name="anchor3"></a><br /><hr />
+
+<a name="rfc.section.3"></a><h3>3.&nbsp;
+Scope and Limitations</h3>
+
+<p>
+        While a fully automated discovery process of authentication,
+        authorization, and service utilization is a highly desirable, OAuth
+        Discovery is inheritably limited. OAuth does not address the methods in
+        which Protected Resources are accessed. Without clear standards of the
+        Protected Resources methods, any discovery protocol will eventually
+        require some form of manual interaction.
+
+</p>
+<p>
+        In many cases, Consumer Key allocation requires human interaction. This
+        is done for legal, compliance, or other reasons, which hinder automated
+        discovery without prior manual registration.
+
+</p>
+<p>
+        However, combined with other specifications, the entire process can be
+        fully automated from authentication, through authorization, to service utilization.
+        While OAuth Discovery alone cannot provide a fully automated workflow, it
+        strongly enables it.
+
+</p>
+<p>
+        OAuth Discovery is designed to address two workflows:
+
+        </p>
+<ul class="text">
+<li>
+            Automatic initiation - When the Protected Resource endpoint is
+            known, the Consumer attempts accessing it without any authorization
+            credentials, causing the request to fail. The failure reply
+            contains the information needed to perform discovery.
+
+</li>
+<li>
+            Out-of-band initiation - The information needed to perform discovery is
+            provided by the Service Provider in ways not specified by this
+            specification. This information allows the Consumer to configure
+            its resources automatically instead of hard-coding the OAuth
+            endpoints and properties.
+
+</li>
+</ul><p>
+
+</p>
+<p>
+        Service Providers MUST support automatic initiation, and MAY support
+        out-of-band initiation by providing the information needed through
+        documentation or other means.
+
+</p>
+<a name="anchor4"></a><br /><hr />
+
+<a name="rfc.section.4"></a><h3>4.&nbsp;
+Discovery Workflow</h3>
+
+<p>
+        The OAuth Discovery workflow follows the process defined in <a class='info' href='#XRDS-Simple 1.0'>[XRDS&#8209;Simple 1.0]<span> (</span><span class='info'>Hammer-Lahav, E., &ldquo;XRDS-Simple 1.0,&rdquo; .</span><span>)</span></a>
+        to locate and parse the machine-readable information containing the necessary OAuth Configuration.
+        Each Protected Resource supporting OAuth Discovery MUST identify the location of its
+        OAuth Configuration contained within a <a class='info' href='#XRDS-Simple 1.0'>Resource Description Document<span> (</span><span class='info'>Hammer-Lahav, E., &ldquo;XRDS-Simple 1.0,&rdquo; .</span><span>)</span></a> [XRDS&#8209;Simple 1.0].
+
+</p>
+<p>
+        Unless provided by the Service Provider out-of-band, the Consumer uses the Protected Resource URI to retrieve the resource&#8217;s description which in turn
+        points to the location of the associated OAuth Configuration. The OAuth Configuration MAY reside in
+        the same document or in a separate document. While both Service Providers and Consumers play a role
+        in the workflow, it is focused on actions performed by Consumers. The workflow includes the following steps:
+
+        </p>
+<ol class="text">
+<li>Retrieve OAuth Configuration.
+</li>
+<li>Parse OAuth Descriptor.
+</li>
+<li>Establish Consumer Identity.
+</li>
+</ol><p>
+
+</p>
+<p>
+        Once all steps have been performed, the Consumers have the required
+        information needed to obtain an Access Token as defined in <a class='info' href='#OAuth Core 1.0'>[OAuth Core 1.0]<span> (</span><span class='info'>OAuth, OCW., &ldquo;OAuth Core 1.0,&rdquo; .</span><span>)</span></a> sections 6
+        and access the Protected Resource following the workflow defined in <a class='info' href='#OAuth Core 1.0'>[OAuth Core 1.0]<span> (</span><span class='info'>OAuth, OCW., &ldquo;OAuth Core 1.0,&rdquo; .</span><span>)</span></a> sections 7.
+
+</p>
+<a name="anchor5"></a><br /><hr />
+
+<a name="rfc.section.5"></a><h3>5.&nbsp;
+Configuration Retrieval</h3>
+
+<p>
+        The Consumer retrieves the Resource Description Document using the
+        Protected Resource URI by following the retrieval protocol defined in <a class='info' href='#XRDS-Simple 1.0'>[XRDS&#8209;Simple 1.0]<span> (</span><span class='info'>Hammer-Lahav, E., &ldquo;XRDS-Simple 1.0,&rdquo; .</span><span>)</span></a>
+        section 5. If the retrieval protocol is successful, the Consumer retrieves
+        the Resource Description Document. If the retrieval protocol fails, it
+        SHALL be assumed that the Service Provider does not support OAuth Discovery.
+
+</p>
+<p>
+        Using the selection protocol defined in <a class='info' href='#XRDS-Simple 1.0'>[XRDS&#8209;Simple 1.0]<span> (</span><span class='info'>Hammer-Lahav, E., &ldquo;XRDS-Simple 1.0,&rdquo; .</span><span>)</span></a>
+        section 7.2, the Consumer finds the location of the OAuth Configuration, identified by the
+        service type <tt>http://oauth.net/discovery/1.0</tt>, and specified by
+        the <tt>URI</tt> element. The <tt>URI</tt> element MUST
+        include an absolute HTTP(S) URI or a URI fragment only. If the URI includes only a fragment,
+        it indicated an internal reference to an <tt>XRD</tt> element within the same document.
+
+</p>
+<p>
+        If the OAuth Configuration location is in another document, the Consumer retrieves the OAuth Configuration XRDS-Simple document following
+        the workflow defined in <a class='info' href='#XRDS-Simple 1.0'>[XRDS&#8209;Simple 1.0]<span> (</span><span class='info'>Hammer-Lahav, E., &ldquo;XRDS-Simple 1.0,&rdquo; .</span><span>)</span></a> section 5.2. Once the OAuth Configuration document has been obtained, the Consumer
+        locates the referenced <tt>XRD</tt> element using the workflow defined in <a class='info' href='#XRDS-Simple 1.0'>[XRDS&#8209;Simple 1.0]<span> (</span><span class='info'>Hammer-Lahav, E., &ldquo;XRDS-Simple 1.0,&rdquo; .</span><span>)</span></a> section 7.1.
+        The selected <tt>XRD</tt> element is referred to as the OAuth Descriptor.
+
+</p>
+<a name="anchor6"></a><br /><hr />
+
+<a name="rfc.section.6"></a><h3>6.&nbsp;
+Descriptor Structure</h3>
+
+<p>
+        The OAuth Descriptor - a valid XRDS-Simple <tt>XRD</tt> element - contains the OAuth Configuration
+        indentifying the OAuth endpoints and their attributes. The OAuth Descriptor define services which provide the
+        necessary information needed to interact with an OAuth-enabled Service Provider. 
+
+</p>
+<p>
+        Each OAuth endpoint and property is assigned a type identifier used by Service Providers to document their OAuth implementation, and
+        by Consumers to lookup endpoints and their properties. XRDS-Simple provide a simple mechanism for
+        specifying the type and characteristics of resources, which in this case are the OAuth endpoints.
+
+</p>
+<p>
+        The OAuth Descriptor MUST include at least one <tt>Service</tt> element for each of the
+        <a class='info' href='#oauth_endpoints_types'>OAuth Endpoints<span> (</span><span class='info'>OAuth Endpoints</span><span>)</span></a>. The OAuth Descriptor MUST include at least one of the two types
+        defined in <a class='info' href='#consumer_identity_types'>Section&nbsp;6.2<span> (</span><span class='info'>Consumer Identity</span><span>)</span></a>, unless another method of obtaining a Consumer Identity is specified using
+        and extension type. The types defined in <a class='info' href='#oauth_endpoints_types'>Section&nbsp;6.1<span> (</span><span class='info'>OAuth Endpoints</span><span>)</span></a> and
+        <a class='info' href='#consumer_identity_types'>Section&nbsp;6.2<span> (</span><span class='info'>Consumer Identity</span><span>)</span></a> are all mutually exclusive, and <tt>Service</tt> elements MUST NOT
+        include more than one of these types. Other types MAY be combined with the types defined in the two sections.
+
+</p>
+<p>
+        <tt>Service</tt> elements for each of the <a class='info' href='#oauth_endpoints_types'>OAuth Endpoints<span> (</span><span class='info'>OAuth Endpoints</span><span>)</span></a> MUST include
+        at least one type from <a class='info' href='#request_parameter_types'>Section&nbsp;6.3<span> (</span><span class='info'>Request Parameter Methods</span><span>)</span></a> and one type from <a class='info' href='#request_signature_types'>Section&nbsp;6.4<span> (</span><span class='info'>Request Signature Methods</span><span>)</span></a>, unless
+        otherwise specific, or other request parameter methods and request signature methods are specified using an extension type.
+
+</p>
+<a name="oauth_endpoints_types"></a><br /><hr />
+
+<a name="rfc.section.6.1"></a><h3>6.1.&nbsp;
+OAuth Endpoints</h3>
+
+<p>
+          To identify the OAuth endpoints, each is given a unique type identifier:
+
+          </p>
+<blockquote class="text"><dl>
+<dt>Request Token:</dt>
+<dd>
+              <tt>http://oauth.net/core/1.0/endpoint/request</tt> - <a class='info' href='#OAuth Core 1.0'>[OAuth Core 1.0]<span> (</span><span class='info'>OAuth, OCW., &ldquo;OAuth Core 1.0,&rdquo; .</span><span>)</span></a> section 6.1.1.
+              <tt>Service</tt> elements of this type MUST include at least one <tt>URI</tt> child element,
+              and their HTTP method defaults to <tt>POST</tt> unless a <tt>simple:httpMethod</tt> attribute provided.
+
+</dd>
+<dt>User Authorization:</dt>
+<dd>
+              <tt>http://oauth.net/core/1.0/endpoint/authorize</tt> - <a class='info' href='#OAuth Core 1.0'>[OAuth Core 1.0]<span> (</span><span class='info'>OAuth, OCW., &ldquo;OAuth Core 1.0,&rdquo; .</span><span>)</span></a> section 6.2.1.
+              <tt>Service</tt> elements of this type MUST include at least one <tt>URI</tt> child element,
+              and use HTTP <tt>GET</tt> even if no <tt>simple:httpMethod</tt> attribute provided. MUST NOT
+              specify other HTTP methods. The User Authorization endpoint does not support signature methods and types from <a class='info' href='#request_signature_types'>Section&nbsp;6.4<span> (</span><span class='info'>Request Signature Methods</span><span>)</span></a>
+              SHOULD be omitted or ignored.
+
+</dd>
+<dt>Access Token:</dt>
+<dd>
+              <tt>http://oauth.net/core/1.0/endpoint/access</tt> - <a class='info' href='#OAuth Core 1.0'>[OAuth Core 1.0]<span> (</span><span class='info'>OAuth, OCW., &ldquo;OAuth Core 1.0,&rdquo; .</span><span>)</span></a> section 6.3.1.
+              <tt>Service</tt> elements of this type MUST include at least one <tt>URI</tt> child element,
+              and their HTTP method defaults to <tt>POST</tt> unless a <tt>simple:httpMethod</tt> attribute provided.
+
+</dd>
+<dt>Protected Resource:</dt>
+<dd>
+              <tt>http://oauth.net/core/1.0/endpoint/resource</tt> - <a class='info' href='#OAuth Core 1.0'>[OAuth Core 1.0]<span> (</span><span class='info'>OAuth, OCW., &ldquo;OAuth Core 1.0,&rdquo; .</span><span>)</span></a> section 7. If
+              a <tt>Service</tt> element of this type contains any <tt>URI</tt> child elements,
+              they SHALL be ignored for the purpose of OAuth Discovery.
+
+</dd>
+</dl></blockquote><p>
+
+</p>
+<a name="consumer_identity_types"></a><br /><hr />
+
+<a name="rfc.section.6.2"></a><h3>6.2.&nbsp;
+Consumer Identity</h3>
+
+<p>
+          OAuth requires a pre-arranged Consumer Identity in order to obtain
+          access. OAuth Discovery defines two service types for documenting
+          the methods in which Consumer Identity can be obtained:
+
+          </p>
+<blockquote class="text"><dl>
+<dt>Static allocation:</dt>
+<dd>
+              <tt>http://oauth.net/discovery/1.0/consumer-identity/static</tt>
+              - Includes the Consumer Identity within the OAuth Descriptor,
+              as defined in <a class='info' href='#static_alloc'>Section&nbsp;7.1<span> (</span><span class='info'>Static Allocation</span><span>)</span></a>.
+
+</dd>
+<dt>Out-of-band allocation:</dt>
+<dd>
+              <tt>http://oauth.net/discovery/1.0/consumer-identity/oob</tt>
+              - Documents a human-accessible endpoint through which a Consumer
+              Identity MAY be obtained as defined in <a class='info' href='#manual_alloc'>Section&nbsp;7.2<span> (</span><span class='info'>Out-of-band Allocation</span><span>)</span></a>.
+
+</dd>
+</dl></blockquote><p>
+
+</p>
+<a name="request_parameter_types"></a><br /><hr />
+
+<a name="rfc.section.6.3"></a><h3>6.3.&nbsp;
+Request Parameter Methods</h3>
+
+<p>
+          These types are used to document the request parameters methods supported by the
+          Service Provider as defined in <a class='info' href='#OAuth Core 1.0'>[OAuth Core 1.0]<span> (</span><span class='info'>OAuth, OCW., &ldquo;OAuth Core 1.0,&rdquo; .</span><span>)</span></a> section 5.2:
+
+          </p>
+<blockquote class="text"><dl>
+<dt>Authentication Header:</dt>
+<dd>
+              <tt>http://oauth.net/core/1.0/parameters/auth-header</tt>.
+
+</dd>
+<dt>HTTP POST Body:</dt>
+<dd>
+              <tt>http://oauth.net/core/1.0/parameters/post-body</tt>.
+
+</dd>
+<dt>URI Query Parameters:</dt>
+<dd>
+              <tt>http://oauth.net/core/1.0/parameters/uri-query</tt>.
+
+</dd>
+</dl></blockquote><p>
+
+</p>
+<a name="request_signature_types"></a><br /><hr />
+
+<a name="rfc.section.6.4"></a><h3>6.4.&nbsp;
+Request Signature Methods</h3>
+
+<p>
+          These types are used to document the signature methods supported by the Service
+          Provider:
+
+          </p>
+<blockquote class="text"><dl>
+<dt>HMAC-SHA1:</dt>
+<dd>
+              <tt>http://oauth.net/core/1.0/signature/HMAC-SHA1</tt> - <a class='info' href='#OAuth Core 1.0'>[OAuth Core 1.0]<span> (</span><span class='info'>OAuth, OCW., &ldquo;OAuth Core 1.0,&rdquo; .</span><span>)</span></a> section 9.2.
+
+</dd>
+<dt>RSA-SHA1:</dt>
+<dd>
+              <tt>http://oauth.net/core/1.0/signature/RSA-SHA1</tt> - <a class='info' href='#OAuth Core 1.0'>[OAuth Core 1.0]<span> (</span><span class='info'>OAuth, OCW., &ldquo;OAuth Core 1.0,&rdquo; .</span><span>)</span></a> section 9.3.
+
+</dd>
+<dt>PLAINTEXT:</dt>
+<dd>
+              <tt>http://oauth.net/core/1.0/signature/PLAINTEXT</tt> - <a class='info' href='#OAuth Core 1.0'>[OAuth Core 1.0]<span> (</span><span class='info'>OAuth, OCW., &ldquo;OAuth Core 1.0,&rdquo; .</span><span>)</span></a> section 9.4.
+
+</dd>
+</dl></blockquote><p>
+
+</p>
+<a name="consumer_identity"></a><br /><hr />
+
+<a name="rfc.section.7"></a><h3>7.&nbsp;
+Establish Consumer Identity</h3>
+
+<p>
+        <a class='info' href='#OAuth Core 1.0'>[OAuth Core 1.0]<span> (</span><span class='info'>OAuth, OCW., &ldquo;OAuth Core 1.0,&rdquo; .</span><span>)</span></a> requires Consumers to establish an
+        Consumer Identity prior to making OAuth requests, and leaves the
+        methods of establishing the Consumer Identity unspecified. The process
+        of establishing a Consumer Key and Consumer Secret can be complex
+        and can also require manual human interaction for legal, compliance,
+        and other reasons. However, there are some cases in which a simple
+        Consumer Identity is sufficient or not needed at all.
+
+</p>
+<p>
+        OAuth Discovery defines two Consumer Identity allocation scenarios: a statically allocated Consumer Identity or an endpoint through-which a
+        Consumer Identity MAY be established out-of-band. If a Consumer Identity has been established using the out-of-band method, the Consumer
+        SHOULD note the URI used, and check in future requests if other Protected Resources point to the same URI for obtaining a Consumer
+        Identity. If the same URI used to obtain a Consumer Identity is referenced by another Protected Resource, the Consumer MAY
+        use that identity to obtain an Access Token for the other resource.
+
+</p>
+<a name="static_alloc"></a><br /><hr />
+
+<a name="rfc.section.7.1"></a><h3>7.1.&nbsp;
+Static Allocation</h3>
+
+<p>
+          Static Consumer Identity allocation is used when no Consumer Identity is
+          needed. In this case the Service Provider does not desire
+          tracking individual Consumers, or might provide limited
+          accessibility to unidentified Consumers. In this scenario, the
+          Service Provider assigns a default Consumer Identity in the
+          OAuth Descriptor.
+
+</p>
+<p>
+          Static allocation is identified using the service type:
+          <tt>http://oauth.net/discovery/1.0/consumer-identity/static</tt>.
+          The <tt>Service</tt> element MUST include at least one <tt>LocalID</tt> element
+          with the Consumer Key encoded per <a class='info' href='#OAuth Core 1.0'>[OAuth Core 1.0]<span> (</span><span class='info'>OAuth, OCW., &ldquo;OAuth Core 1.0,&rdquo; .</span><span>)</span></a> section 5.1. Any <tt>URI</tt> element
+          included SHALL be ignored. Static allocation does not include a Consumer Secret which is defined as an empty string. For example:
+
+          </p>
+<div style='display: table; width: 0; margin-left: 3em; margin-right: auto'><pre>
+      &lt;Service&gt;
+        &lt;Type&gt;http://oauth.net/discovery/1.0/consumer-identity/static&lt;/Type&gt;
+        &lt;LocalID&gt;0685bd9184jfhq22&lt;/LocalID&gt;
+      &lt;/Service&gt;
+</pre></div><p>
+
+
+</p>
+<a name="manual_alloc"></a><br /><hr />
+
+<a name="rfc.section.7.2"></a><h3>7.2.&nbsp;
+Out-of-band Allocation</h3>
+
+<p>
+          Out-of-band Consumer Identity allocation is used when the Service Provider requires
+          a Consumer registration process that cannot be performed
+          automatically or has unique requirements the Consumer Developer must comply with.
+          OAuth Discovery does not address this scenario expect
+          for enabling the Service Provider to provide a human-readable
+          endpoint, and associating Consumer Identities obtained via that
+          endpoint to its URI, enabling Consumer Identity reusability. This allows Consumer to use OAuth
+          Discovery with manually pre-established Consumer Identities.
+
+</p>
+<p>
+          Out-of-band allocation is identified using the service type:
+          <tt>http://oauth.net/discovery/1.0/consumer-identity/oob</tt>.
+          The <tt>Service</tt> element MUST include at least one <tt>URI</tt> element.
+          If no HTTP method is specified, the URI method defaults to GET. The result value of the request is undefined. For example:
+
+          </p>
+<div style='display: table; width: 0; margin-left: 3em; margin-right: auto'><pre>
+      &lt;Service&gt;
+        &lt;Type&gt;http://oauth.net/discovery/1.0/consumer-identity/oob&lt;/Type&gt;
+        &lt;URI&gt;http://sp.example.com/consumer_apply&lt;/Type&gt;
+      &lt;/Service&gt;
+</pre></div><p>
+
+
+</p>
+<a name="anchor7"></a><br /><hr />
+
+<a name="rfc.section.A"></a><h3>Appendix A.&nbsp;
+Appendix A - Example</h3>
+
+<p>
+        This example demonstrate a simple Resource Description Document in which the Protected Resource&#8217;s descriptor points to the 
+        OAuth Configuration contained within the same document, and Consumer Identity allocation is provided statically. Each of the
+        OAuth HTTP endpoints support the <tt>HMAC-SHA1</tt> signature method, while HTTPS endpoints use the
+        <tt>PLAINTEXT</tt> signature method. The Service Provider in this example supports sending request parameters
+        via URI query and the <tt>Authorization</tt> header, except for requesting User authorization which only supports
+        the URI query method. The Service Provider does not support parameters in the HTTP body.
+
+        </p>
+<div style='display: table; width: 0; margin-left: 3em; margin-right: auto'><pre>
+  &lt;?xml version="1.0" encoding="UTF-8"?&gt;
+  &lt;XRDS xmlns="xri://$xrds"&gt;
+    &lt;XRD xml:id="oauth" xmlns:simple="http://xrds-simple.net/core/1.0" xmlns="xri://$XRD*($v*2.0)" version="2.0"&gt;
+      &lt;Type&gt;xri://$xrds*simple&lt;/Type&gt;
+      &lt;Expires&gt;2008-12-31T23:59:59Z&lt;/Expires&gt;
+      &lt;Service priority="10"&gt;
+        &lt;Type&gt;http://oauth.net/core/1.0/endpoint/request&lt;/Type&gt;
+        &lt;Type&gt;http://oauth.net/core/1.0/parameters/auth-header&lt;/Type&gt;
+        &lt;Type&gt;http://oauth.net/core/1.0/parameters/uri-query&lt;/Type&gt;
+        &lt;Type&gt;http://oauth.net/core/1.0/signature/PLAINTEXT&lt;/Type&gt;
+        &lt;URI&gt;https://api.example.com/session/request&lt;/URI&gt;
+      &lt;/Service&gt;
+      &lt;Service priority="10"&gt;
+        &lt;Type&gt;http://oauth.net/core/1.0/endpoint/authorize&lt;/Type&gt;
+        &lt;Type&gt;http://oauth.net/core/1.0/parameters/uri-query&lt;/Type&gt;
+        &lt;URI&gt;https://api.example.com/session/login&lt;/URI&gt;
+      &lt;/Service&gt;
+      &lt;Service priority="10"&gt;
+        &lt;Type&gt;http://oauth.net/core/1.0/endpoint/access&lt;/Type&gt;
+        &lt;Type&gt;http://oauth.net/core/1.0/parameters/auth-header&lt;/Type&gt;
+        &lt;Type&gt;http://oauth.net/core/1.0/parameters/uri-query&lt;/Type&gt;
+        &lt;Type&gt;http://oauth.net/core/1.0/signature/PLAINTEXT&lt;/Type&gt;
+        &lt;URI&gt;https://api.example.com/session/activate&lt;/URI&gt;
+      &lt;/Service&gt;
+      &lt;Service priority="10"&gt;
+        &lt;Type&gt;http://oauth.net/core/1.0/endpoint/resource&lt;/Type&gt;
+        &lt;Type&gt;http://oauth.net/core/1.0/parameters/auth-header&lt;/Type&gt;
+        &lt;Type&gt;http://oauth.net/core/1.0/parameters/uri-query&lt;/Type&gt;
+        &lt;Type&gt;http://oauth.net/core/1.0/signature/HMAC-SHA1&lt;/Type&gt;
+      &lt;/Service&gt;
+      &lt;Service priority="10"&gt;
+        &lt;Type&gt;http://oauth.net/discovery/1.0/consumer-identity/static&lt;/Type&gt;
+        &lt;LocalID&gt;0685bd9184jfhq22&lt;/LocalID&gt;
+      &lt;/Service&gt;
+    &lt;/XRD&gt;
+    &lt;XRD xmlns="xri://$XRD*($v*2.0)" version="2.0"&gt;
+      &lt;Type&gt;xri://$xrds*simple&lt;/Type&gt;
+      &lt;Service priority="10"&gt;
+        &lt;Type&gt;http://oauth.net/discovery/1.0&lt;/Type&gt;
+        &lt;URI&gt;#oauth&lt;/URI&gt;
+      &lt;/Service&gt;
+    &lt;/XRD&gt;
+  &lt;/XRDS&gt;
+</pre></div><p>
+
+
+</p>
+<a name="rfc.references1"></a><br /><hr />
+
+<h3>8.&nbsp;References</h3>
+<table width="99%" border="0">
+<tr><td class="author-text" valign="top"><a name="OAuth Core 1.0">[OAuth Core 1.0]</a></td>
+<td class="author-text">OAuth, OCW., &ldquo;<a href="http://oauth.net/core/1.0">OAuth Core 1.0</a>.&rdquo;</td></tr>
+<tr><td class="author-text" valign="top"><a name="RFC2119">[RFC2119]</a></td>
+<td class="author-text">Bradner, B., &ldquo;<a href="http://tools.ietf.org/html/rfc2119">Key words for use in RFCs to Indicate Requirement Levels</a>,&rdquo; RFC&nbsp;2119.</td></tr>
+<tr><td class="author-text" valign="top"><a name="RFC2606">[RFC2606]</a></td>
+<td class="author-text">Eastlake, D. and A. Panitz, &ldquo;<a href="http://tools.ietf.org/html/rfc2606">Reserved Top Level DNS Names</a>,&rdquo; RFC&nbsp;2606.</td></tr>
+<tr><td class="author-text" valign="top"><a name="XRDS-Simple 1.0">[XRDS-Simple 1.0]</a></td>
+<td class="author-text">Hammer-Lahav, E., &ldquo;<a href="http://xrds-simple.net/core/1.0">XRDS-Simple 1.0</a>.&rdquo;</td></tr>
+</table>
+
+<p><a name="rfc.authors"></a><br /><hr /></p>
+
+
+<h3>Author&#8217;s Address</h3>
+<table width="99%" border="0" cellpadding="0" cellspacing="0">
+<tr><td class="author-text">&nbsp;</td>
+<td class="author-text">Eran Hammer-Lahav</td></tr>
+<tr><td class="author-text">&nbsp;</td>
+<td class="author-text">Hueniverse</td></tr>
+<tr><td class="author" align="right">Email:&nbsp;</td>
+<td class="author-text"><a href="mailto:eran@hueniverse.com">eran@hueniverse.com</a></td></tr>
+</table>
+
+<!-- Yahoo! Web Analytics -->
+<script type="text/javascript" src="http://d.yimg.com/mi/ywa.js"></script>
+<script type="text/javascript">
+/*globals YWA*/
+var YWATracker = YWA.getTracker("1000297587062");
+/*
+YWATracker.setDocumentName("");
+YWATracker.setDocumentGroup("");
+*/
+YWATracker.submit();
+</script>
+<noscript>
+<div><img src="http://a.analytics.yahoo.com/p.pl?a=1000297587062&amp;js=no" width="1" height="1" alt="" /></div>
+</noscript>
+
+</body>
+</html>
