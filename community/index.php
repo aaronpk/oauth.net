@@ -39,6 +39,10 @@ $page_meta_description = "";
 			
 			<p>There is also an <a href="https://www.ietf.org/mailman/listinfo/oauth">OAuth mailing list</a> setup for work related to <span class="caps">IETF</span> standardization.</p>
 
+			<h3 id="edit-this-site">Edit This Site</h3>
+	
+			<p>The source code to this site is <a href="https://github.com/aaronpk/oauth.net">available on Github</a>. Feel free to submit pull requests with changes!</p>
+
 
     </div>
 <?php require('../includes/_footer.php'); ?>
