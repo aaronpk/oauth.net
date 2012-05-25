@@ -37,5 +37,6 @@ $page_meta_description = "";
     </ul>
   </div>
 
+	<?php include('../includes/_edit_banner.php'); ?>
 
 <?php require('../includes/_footer.php'); ?>

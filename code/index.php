@@ -131,5 +131,7 @@ $page_meta_description = "";
 			
 			<p>There is an XQuery OAuth Library written by Stephan Merkli and documented <a href="http://sausalito.28msec.com/latest/index.php?id=working_with_oauth">here</a>.</p>
 
+		<?php include('../includes/_edit_banner.php'); ?>
+
     </div>
 <?php require('../includes/_footer.php'); ?>
