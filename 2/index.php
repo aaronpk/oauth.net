@@ -43,7 +43,7 @@ $page_meta_description = "Resources and information related to the OAuth 2.0 pro
 				<li><a href="http://github.com/lukeredpath/LROAuth2Client">iPhone and iPad</a></li>
 				<li><a href="http://github.com/intridea/oauth2">Ruby Gem</a></li>
 				<li><a href="http://github.com/aflatter/oauth2-ruby">Ruby</a></li>
-				<li><a href="http://github.com/dgouldin/python-oauth2">Python</a></li>
+				<li><a href="http://github.com/litl/rauth">Python</a></li>
 			</ul>
 
     </div>
