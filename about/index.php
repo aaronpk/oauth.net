@@ -51,7 +51,7 @@ $page_secondary = "introduction";
 			<p>Everyday new website offer services which tie together functionality from other sites. A photo lab printing your online photos, a social network using your address book to look for friends, and APIs to build your own desktop application version of a popular site. These are all great services – what is not so great about some of the implementations available today is their request for your username and password to the other site. When you agree to share your secret credentials, not only you expose your password to someone else (yes, that same password you also use for online banking), you also give them full access to do as they wish. They can do anything they wanted – even change your password and lock you out.</p>
 			
 			
-			<p>This is what OAuth does, it allows the you the User to grant access to your private resources on one site (which is called the Service Provider), to another site (called Consumer, not to be confused with you, the User). While OpenID is all about using a single identity to sign into many sites, OAuth is about giving access to your stuff without sharing your identity at all (or its secret parts).</p>
+			<p>This is what OAuth does, it allows you, the User, to grant access to your private resources on one site (which is called the Service Provider), to another site (called Consumer, not to be confused with you, the User). While OpenID is all about using a single identity to sign into many sites, OAuth is about giving access to your stuff without sharing your identity at all (or its secret parts).</p>
 			
 			
 			<h3>OAuth and OpenID</h3>
