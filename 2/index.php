@@ -5,9 +5,8 @@ $page_section = "";
 $page_secondary = "";
 $page_meta_description = "Resources and information related to the OAuth 2.0 protocol.";
 
+require('../includes/_header.php');
 ?>
-<?php require('../includes/_header.php'); ?>
-
 <body class="<?php echo $page_section; ?>">
   <div class="container">
     <div id="header" class="column first last span-20">

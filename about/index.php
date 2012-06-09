@@ -4,10 +4,8 @@ $page_title = "Introduction &mdash; OAuthn";
 $page_section = "about";
 $page_secondary = "introduction";
 
+require('../includes/_header.php');
 ?>
-
-<?php require('../includes/_header.php'); ?>
-
 <body class="<?php echo $page_section; ?>">
   <div class="container">
     <div id="header" class="column first last span-20">

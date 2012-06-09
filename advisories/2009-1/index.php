@@ -1,14 +1,10 @@
 ﻿<?php
-
 $page_title = "OAuth Security Advisory 2009.1 &mdash; OAuth";
 $page_section = "advisories";
 $page_secondary = "2009.1";
 $page_meta_description = "";
-
+require('../../includes/_header.php');
 ?>
-
-<?php require('../../includes/_header.php'); ?>
-
 <body class="<?php echo $page_section; ?>">
   <div class="container">
     <div id="header" class="column first last span-20">

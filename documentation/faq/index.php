@@ -5,8 +5,8 @@ $page_section = "documentation";
 $page_secondary = "faq";
 $page_meta_description = "";
 
+require('../../includes/_header.php');
 ?>
-<?php require('../../includes/_header.php'); ?>
 
 <body class="<?php echo $page_section; ?>">
   <div class="container">

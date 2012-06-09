@@ -5,9 +5,8 @@ $page_section = "about";
 $page_secondary = "credits";
 $page_meta_description = "";
 
+require('../../includes/_header.php');
 ?>
-<?php require('../../includes/_header.php'); ?>
-
 <body class="<?php echo $page_section; ?>">
   <div class="container">
     <div id="header" class="column first last span-20">
@@ -29,9 +28,9 @@ $page_meta_description = "";
     <div id="main" class="column first last span-18 prepend-1 append-1">
       <h2>Credits</h2>
 			<p>
-				This site was designed by <a href="http://factoryjoe.com">Chris Messina</a> and is administered by <a href="http://larryhalff.com/">Larry Halff</a>, <a href="http://www.hueniverse.com/">Eran Hammer-Lahav</a> and Chris Messina.
+				This site was designed by <a href="http://factoryjoe.com">Chris Messina</a> and is administered by <a href="http://aaronparecki.com/">Aaron Parecki</a>.
 			</p>
-			<iframe id="fdbk_iframe_inline" allowTransparency="true" width="100%" height="500" scrolling="no" frameborder="0" style="margin-top:1.2em;" src="http://getsatisfaction.com/oauth/feedback/topics/new?display=inline&amp;style=idea"></iframe>
+			<?php require('../../includes/_edit_banner.php'); ?>
     </div>
 
 <?php require('../../includes/_footer.php'); ?>

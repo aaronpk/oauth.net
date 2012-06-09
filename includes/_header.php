@@ -1,11 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+<?php
+@header('X-Pingback: http://pingback.me/aaronpk/xmlrpc');
+?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
 	<title>
 <?php if ($page_title)
 { 
@@ -20,6 +21,7 @@
 	</title>
 	<link href="/stylesheets/style.css" rel="stylesheet" type="text/css" />
   <link href="/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" />	
+  <link rel="pingback" href="http://pingback.me/aaronpk/xmlrpc" />
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
