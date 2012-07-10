@@ -15,11 +15,16 @@ require('./includes/_header.php');
       </div>
       
       <div id="site-description" class="column span-18 append-1 prepend-1 first last">
-        <h3>An <strong>open protocol</strong> to allow <strong>secure API authorization </strong> in a <strong>simple</strong> and <strong>standard</strong> method from desktop and web applications.</h3>
+        <h3>An <strong>open protocol</strong> to allow <strong>secure authorization </strong> in a <strong>simple</strong> and <strong>standard</strong> method from web, mobile and desktop applications.</h3>
         <p id="read-more">
           <a href="http://tools.ietf.org/html/draft-ietf-oauth-v2">Read the OAuth 2 specification &raquo;</a>
         </p>
       </div>
+    </div>
+
+    <div class="column first last span-20" style="text-align: center; font-size: 16pt; line-height: 18pt; width: 660px; margin: 20px auto; float: none;">
+The OAuth 2.0 authorization framework enables a third-party
+   application to obtain limited access to an HTTP service.
     </div>
 
     <div id="main" class="column first last span-20">
@@ -32,8 +37,9 @@ require('./includes/_header.php');
           If you're building...
         </p>
         <ul>
+          <li>web applications</li>
           <li>desktop applications</li>
-          <li>dashboard widgets or gadgets</li>
+          <li>mobile applications</li>
           <li>Javascript or browser-based apps</li>
           <li>webpage widgets</li>
         </ul>
@@ -51,6 +57,7 @@ require('./includes/_header.php');
         </p>
         <ul>
           <li>web applications</li>
+          <li>mobile applications</li>
           <li>server-side APIs</li>
           <li>mashups</li>
         </ul>
