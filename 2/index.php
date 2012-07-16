@@ -30,19 +30,30 @@ require('../includes/_header.php');
 			<h3>Reading the spec</h3>
 			<p>The latest version of the spec can be found at <a href="http://tools.ietf.org/html/draft-ietf-oauth-v2">http://tools.ietf.org/html/draft-ietf-oauth-v2</a>.</p>
 			<h3>Implementations</h3>
-			<h4>Servers</h4>
+			<h4>Server Libraries</h4>
 			<ul>
-				<li><a href="http://groups.google.com/group/37signals-api/browse_thread/thread/86b0da52134c1b7e">37Signals (draft 5)</a></li>
-				<li><a href="http://developers.facebook.com/docs/authentication/">Facebook's Graph API (draft 0)</a> (see <a href="http://www.sociallipstick.com/?p=239">http://www.sociallipstick.com/?p=239</a>)</li>
-				<li><a href="http://github.com/aflatter/oauth2-ruby">Ruby oauth2-server (draft 0)</a></li>
+				<li><a href="https://github.com/nov/rack-oauth2">Ruby OAuth2 Server (draft 18)</a></li>
+				<li><a href="https://github.com/quizlet/oauth2-php">PHP OAuth 2 Server (draft 20)</a></li>
 			</ul>
-			<h4>Clients</h4>
+			<h4>Client Libraries</h4>
 			<ul>
 				<li><a href="http://github.com/leebyron/cocoa-oauth2">Cocoa</a></li>
 				<li><a href="http://github.com/lukeredpath/LROAuth2Client">iPhone and iPad</a></li>
 				<li><a href="http://github.com/intridea/oauth2">Ruby Gem</a></li>
 				<li><a href="http://github.com/aflatter/oauth2-ruby">Ruby</a></li>
 				<li><a href="http://github.com/litl/rauth">Python</a></li>
+			</ul>
+			<h4>Services that support OAuth 2</h4>
+			<ul>
+				<li><a href="http://groups.google.com/group/37signals-api/browse_thread/thread/86b0da52134c1b7e">37Signals (draft 5)</a></li>
+				<li><a href="http://developers.facebook.com/docs/authentication/">Facebook's Graph API</a> (see <a href="http://www.sociallipstick.com/?p=239">sociallipstick.com/?p=239</a>)</li>
+				<li><a href="https://developer.foursquare.com/overview/auth">Foursquare</a></li>
+				<li><a href="https://developers.geoloqi.com">Geoloqi</a></li>
+				<li><a href="http://developer.github.com/v3/oauth/">Github</a></li>
+				<li><a href="https://developers.google.com/accounts/docs/OAuth2">Google</a></li>
+				<li><a href="http://www.meetup.com/meetup_api/auth/#oauth2">Meetup</a></li>
+				<li><a href="http://www.salesforce.com/us/developer/docs/api_rest/Content/quickstart_oauth.htm">Salesforce</a></li>
+				<li><a href="http://msdn.microsoft.com/en-us/library/live/hh243647.aspx">Windows Live</a></li>
 			</ul>
 
     </div>
