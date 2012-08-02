@@ -32,16 +32,18 @@ require('../includes/_header.php');
 			<h3>Implementations</h3>
 			<h4>Server Libraries</h4>
 			<ul>
-				<li><a href="https://github.com/nov/rack-oauth2">Ruby OAuth2 Server (draft 18)</a></li>
+				<li><a href="http://incubator.apache.org/amber/download.html">Java (draft 22)</a></li>
 				<li><a href="https://github.com/quizlet/oauth2-php">PHP OAuth 2 Server (draft 20)</a></li>
+				<li><a href="https://github.com/nov/rack-oauth2">Ruby OAuth2 Server (draft 18)</a></li>
 			</ul>
 			<h4>Client Libraries</h4>
 			<ul>
 				<li><a href="http://github.com/leebyron/cocoa-oauth2">Cocoa</a></li>
 				<li><a href="http://github.com/lukeredpath/LROAuth2Client">iPhone and iPad</a></li>
+				<li><a href="http://incubator.apache.org/amber/download.html">Java (draft 22)</a></li>
+				<li><a href="http://github.com/litl/rauth">Python</a></li>
 				<li><a href="http://github.com/intridea/oauth2">Ruby Gem</a></li>
 				<li><a href="http://github.com/aflatter/oauth2-ruby">Ruby</a></li>
-				<li><a href="http://github.com/litl/rauth">Python</a></li>
 			</ul>
 			<h4>Services that support OAuth 2</h4>
 			<ul>
@@ -55,6 +57,8 @@ require('../includes/_header.php');
 				<li><a href="http://www.salesforce.com/us/developer/docs/api_rest/Content/quickstart_oauth.htm">Salesforce</a></li>
 				<li><a href="http://msdn.microsoft.com/en-us/library/live/hh243647.aspx">Windows Live</a></li>
 			</ul>
+
+		<?php include('../includes/_edit_banner.php'); ?>
 
     </div>
 <?php require('../includes/_footer.php'); ?>
