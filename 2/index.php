@@ -32,7 +32,12 @@ require('../includes/_header.php');
 			<h3>Implementations</h3>
 			<h4>Server Libraries</h4>
 			<ul>
-				<li><a href="http://incubator.apache.org/amber/download.html">Java (draft 22)</a></li>
+				<li>Java</a>
+				  <ul>
+				    <li><a href="http://incubator.apache.org/amber/download.html">Apache Amber (draft 22)</a>
+				    <li><a href="http://static.springsource.org/spring-security/oauth/">Spring Security for OAuth</a>
+			    </ul>
+				</li>
 				<li><a href="https://github.com/quizlet/oauth2-php">PHP OAuth 2 Server (draft 20)</a></li>
 				<li><a href="https://github.com/nov/rack-oauth2">Ruby OAuth2 Server (draft 18)</a></li>
 			</ul>
@@ -40,7 +45,13 @@ require('../includes/_header.php');
 			<ul>
 				<li><a href="http://github.com/leebyron/cocoa-oauth2">Cocoa</a></li>
 				<li><a href="http://github.com/lukeredpath/LROAuth2Client">iPhone and iPad</a></li>
-				<li><a href="http://incubator.apache.org/amber/download.html">Java (draft 22)</a></li>
+				<li>Java</a>
+				  <ul>
+				    <li><a href="http://incubator.apache.org/amber/download.html">Apache Amber (draft 22)</a>
+				    <li><a href="http://www.springsource.org/spring-social">Spring Social</a>
+				    <li><a href="http://static.springsource.org/spring-security/oauth/">Spring Security for OAuth</a>
+			    </ul>
+				</li>
 				<li><a href="http://github.com/litl/rauth">Python</a></li>
 				<li><a href="http://github.com/intridea/oauth2">Ruby Gem</a></li>
 				<li><a href="http://github.com/aflatter/oauth2-ruby">Ruby</a></li>
