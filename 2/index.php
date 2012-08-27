@@ -58,7 +58,7 @@ require('../includes/_header.php');
 			</ul>
 			<h4>Services that support OAuth 2</h4>
 			<ul>
-				<li><a href="http://groups.google.com/group/37signals-api/browse_thread/thread/86b0da52134c1b7e">37Signals (draft 5)</a></li>
+				<li><a href="http://groups.google.com/group/37signals-api/browse_thread/thread/86b0da52134c1b7e">37signals (draft 5)</a></li>
 				<li><a href="http://developers.facebook.com/docs/authentication/">Facebook's Graph API</a> (see <a href="http://www.sociallipstick.com/?p=239">sociallipstick.com/?p=239</a>)</li>
 				<li><a href="https://developer.foursquare.com/overview/auth">Foursquare</a></li>
 				<li><a href="https://developers.geoloqi.com">Geoloqi</a></li>
