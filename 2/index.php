@@ -68,6 +68,7 @@ require('../includes/_header.php');
 				<li><a href="https://developers.google.com/accounts/docs/OAuth2">Google</a></li>
 				<li><a href="http://www.meetup.com/meetup_api/auth/#oauth2">Meetup</a></li>
 				<li><a href="http://www.salesforce.com/us/developer/docs/api_rest/Content/quickstart_oauth.htm">Salesforce</a></li>
+				<li><a href="https://do.com">Do.com (draft 22)</a></li>
 				<li><a href="http://msdn.microsoft.com/en-us/library/live/hh243647.aspx">Windows Live</a></li>
 			</ul>
 
