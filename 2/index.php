@@ -63,7 +63,7 @@ require('../includes/_header.php');
 				<li><a href="http://developers.facebook.com/docs/authentication/">Facebook's Graph API</a> (see <a href="http://www.sociallipstick.com/?p=239">sociallipstick.com/?p=239</a>)</li>
 				<li><a href="https://developer.foursquare.com/overview/auth">Foursquare</a></li>
 				<li><a href="https://developers.geoloqi.com">Geoloqi</a></li>
-				<li><a href="http://developer.github.com/v3/oauth/">Github</a></li>
+				<li><a href="http://developer.github.com/v3/oauth/">GitHub</a></li>
 				<li><a href="https://developers.google.com/accounts/docs/OAuth2">Google</a></li>
 				<li><a href="http://www.meetup.com/meetup_api/auth/#oauth2">Meetup</a></li>
 				<li><a href="http://www.salesforce.com/us/developer/docs/api_rest/Content/quickstart_oauth.htm">Salesforce</a></li>
