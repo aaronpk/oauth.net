@@ -54,7 +54,12 @@ require('../includes/_header.php');
 				    <li><a href="http://static.springsource.org/spring-security/oauth/">Spring Security for OAuth</a>
 			    </ul>
 				</li>
-				<li><a href="http://github.com/litl/rauth">Python</a></li>
+                <li>Python
+                    <ul>
+                        <li><a href="http://github.com/demianbrecht/sanction">sanction</a></li>
+                        <li><a href="http://github.com/litl/rauth">rauth</a></li>
+                    </ul>
+                </li>
 				<li><a href="http://github.com/intridea/oauth2">Ruby Gem</a></li>
 				<li><a href="http://github.com/aflatter/oauth2-ruby">Ruby</a></li>
 				<li><a href="http://github.com/andreassolberg/jso">Javascript</a></li>
