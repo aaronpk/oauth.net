@@ -44,6 +44,7 @@ require('../includes/_header.php');
 			</ul>
 			<h4>Client Libraries</h4>
 			<ul>
+				<li><a href="http://www.phpclasses.org/package/7700-PHP-Authorize-and-access-APIs-using-OAuth.html">PHP</a></li>
 				<li><a href="http://github.com/leebyron/cocoa-oauth2">Cocoa</a></li>
 				<li><a href="http://github.com/lukeredpath/LROAuth2Client">iPhone and iPad</a></li>
 				<li><a href="http://github.com/nxtbgthng/OAuth2Client">iOS and Mac OS X (draft 10)</a></li>
