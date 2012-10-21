@@ -57,6 +57,7 @@ require('../includes/_header.php');
 				<li><a href="http://github.com/litl/rauth">Python</a></li>
 				<li><a href="http://github.com/intridea/oauth2">Ruby Gem</a></li>
 				<li><a href="http://github.com/aflatter/oauth2-ruby">Ruby</a></li>
+				<li><a href="http://github.com/andreassolberg/jso">Javascript</a></li>
 			</ul>
 			<h4>Services that support OAuth 2</h4>
 			<ul>
