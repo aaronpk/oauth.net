@@ -40,6 +40,7 @@ require('../includes/_header.php');
 			    </ul>
 				</li>
 				<li><a href="https://github.com/quizlet/oauth2-php">PHP OAuth 2 Server (draft 20)</a></li>
+				<li><a href="https://github.com/bshaffer/oauth2-server-php">PHP OAuth2 Server and Demo</a></li>
 				<li><a href="https://github.com/nov/rack-oauth2">Ruby OAuth2 Server (draft 18)</a></li>
 			</ul>
 			<h4>Client Libraries</h4>
