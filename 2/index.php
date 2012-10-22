@@ -42,6 +42,7 @@ require('../includes/_header.php');
 				<li><a href="https://github.com/quizlet/oauth2-php">PHP OAuth 2 Server (draft 20)</a></li>
 				<li><a href="https://github.com/bshaffer/oauth2-server-php">PHP OAuth2 Server and Demo</a></li>
 				<li><a href="https://github.com/nov/rack-oauth2">Ruby OAuth2 Server (draft 18)</a></li>
+				<li><a href="http://www.dotnetopenauth.net/">.NET DotNetOpenAuth</a></li>
 			</ul>
 			<h4>Client Libraries</h4>
 			<ul>
@@ -65,6 +66,7 @@ require('../includes/_header.php');
 				<li><a href="http://github.com/intridea/oauth2">Ruby Gem</a></li>
 				<li><a href="http://github.com/aflatter/oauth2-ruby">Ruby</a></li>
 				<li><a href="http://github.com/andreassolberg/jso">Javascript</a></li>
+				<li><a href="http://www.dotnetopenauth.net/">.NET DotNetOpenAuth</a></li>
 			</ul>
 			<h4>Services that support OAuth 2</h4>
 			<ul>
