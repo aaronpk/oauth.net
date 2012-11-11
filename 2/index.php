@@ -71,7 +71,12 @@ require('../includes/_header.php');
 				<li><a href="http://github.com/intridea/oauth2">Ruby Gem</a></li>
 				<li><a href="http://github.com/aflatter/oauth2-ruby">Ruby</a></li>
 				<li><a href="http://github.com/andreassolberg/jso">Javascript</a></li>
-				<li><a href="http://www.dotnetopenauth.net/">.NET DotNetOpenAuth</a></li>
+				<li>.NET
+					<ul>
+						<li><a href="http://www.dotnetopenauth.net/">DotNetOpenAuth</a></li>
+						<li><a href="http://www.springframework.net/social/">Spring Social for .NET</a></li>
+					</ul>
+				</li>
 			</ul>
 			<h4>Services that support OAuth 2</h4>
 			<ul>
