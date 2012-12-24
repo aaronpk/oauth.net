@@ -37,6 +37,7 @@ require('../includes/_header.php');
 				    <li><a href="http://incubator.apache.org/amber/download.html">Apache Amber (draft 22)</a>
 				    <li><a href="http://static.springsource.org/spring-security/oauth/">Spring Security for OAuth</a>
                                     <li><a href="https://github.com/OpenConextApps/apis">Apis Authorization Server (v2-31)</a>
+                                    <li><a href="http://www.restlet.org/">Restlet Framework (draft 30)</a>
 			          </ul>
 				</li>
                                 <li>PHP
@@ -60,6 +61,7 @@ require('../includes/_header.php');
 				    <li><a href="http://incubator.apache.org/amber/download.html">Apache Amber (draft 22)</a>
 				    <li><a href="http://www.springsource.org/spring-social">Spring Social</a>
 				    <li><a href="http://static.springsource.org/spring-security/oauth/">Spring Security for OAuth</a>
+                                    <li><a href="http://www.restlet.org/">Restlet Framework (draft 30)</a>
 			    </ul>
 				</li>
                 <li>Python
