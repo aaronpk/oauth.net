@@ -38,6 +38,7 @@ require('../includes/_header.php');
 				    <li><a href="http://static.springsource.org/spring-security/oauth/">Spring Security for OAuth</a>
                                     <li><a href="https://github.com/OpenConextApps/apis">Apis Authorization Server (v2-31)</a>
                                     <li><a href="http://www.restlet.org/">Restlet Framework (draft 30)</a>
+                                    <li><a href="http://cxf.apache.org/">Apache CXF</a>
 			          </ul>
 				</li>
                                 <li>PHP
