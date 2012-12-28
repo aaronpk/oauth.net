@@ -28,7 +28,7 @@ require('../includes/_header.php');
 			<p>hueniverse.com's <a href="http://hueniverse.com/2010/05/introducing-oauth-2-0/" title="Introducing OAuth 2.0 &laquo;  hueniverse">Introduction to OAuth 2.0</a> provides a great deal of background and information about the design decisions in OAuth 2.0.
 			<p>Questions, suggestions and protocol changes should be discussed on the <a href="https://www.ietf.org/mailman/listinfo/oauth">mailing list</a>.</p>
 			<h3>Reading the spec</h3>
-			<p>The latest version of the spec can be found at <a href="http://tools.ietf.org/html/draft-ietf-oauth-v2">http://tools.ietf.org/html/draft-ietf-oauth-v2</a>.</p>
+			<p>The final version of the spec can be found at <a href="http://tools.ietf.org/html/rfc6749">http://tools.ietf.org/html/rfc6749</a>.</p>
 			<h3>Implementations</h3>
 			<h4>Server Libraries</h4>
 			<ul>
@@ -38,6 +38,7 @@ require('../includes/_header.php');
 				    <li><a href="http://static.springsource.org/spring-security/oauth/">Spring Security for OAuth</a>
                                     <li><a href="https://github.com/OpenConextApps/apis">Apis Authorization Server (v2-31)</a>
                                     <li><a href="http://www.restlet.org/">Restlet Framework (draft 30)</a>
+                                    <li><a href="http://cxf.apache.org/">Apache CXF</a>
 			          </ul>
 				</li>
                                 <li>PHP
