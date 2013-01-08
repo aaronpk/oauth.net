@@ -64,7 +64,7 @@ require('../includes/_header.php');
 				</li>
                 <li>Python
                     <ul>
-                        <li><a href="http://github.com/snuts/sanction">sanction</a></li>
+                        <li><a href="http://github.com/demianbrecht/sanction">sanction</a></li>
                         <li><a href="http://github.com/litl/rauth">rauth</a></li>
                     </ul>
                 </li>
