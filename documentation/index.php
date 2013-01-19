@@ -29,7 +29,7 @@ require('../includes/_header.php');
   <div id="main" class="column first last span-18 prepend-1 append-1">
     <h2>Documentation</h2>
     <ul>
-      <li><a href="http://tools.ietf.org/html/draft-ietf-oauth-v2">OAuth 2.0 Working Draft</a> - the latest IETF proposal.</li>
+      <li><a href="http://tools.ietf.org/html/rfc6749">OAuth 2.0 Specification</a> - RFC 6749.</li>
       <li><a href="http://tools.ietf.org/html/rfc5849">RFC 5849: The OAuth 1.0 Protocol</a> - the final version of the OAuth 1.0 specification.</li>
       <li><a href="http://hueniverse.com/oauth/">OAuth Resource Center</a> from <a href="http://hueniverse.com">Eran Hammer-Lahav</a> the specifications editor, including a beginner's guide and tutorials.</li>
       <li>Community-driven support <strong><a href="/documentation/faq">FAQ</a></strong>.</li>
