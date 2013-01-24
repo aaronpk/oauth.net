@@ -17,7 +17,7 @@ require('../includes/_header.php');
 
       </div>
       <div id="secondary" class="column span-18 append-1 prepend-1 first last">
-      	 
+
       </div>
     </div>
 
@@ -41,13 +41,12 @@ require('../includes/_header.php');
                                     <li><a href="http://cxf.apache.org/">Apache CXF</a>
 			          </ul>
 				</li>
-                                <li>PHP
+				<li>PHP
 				  <ul>
-  				    <li><a href="https://github.com/quizlet/oauth2-php">PHP OAuth 2 Server (draft 20)</a></li>
-				    <li><a href="https://github.com/bshaffer/oauth2-server-php">PHP OAuth2 Server and Demo</a></li>
+				    <li><a href="https://github.com/bshaffer/oauth2-server-php">PHP OAuth2 Server</a> and <a href="https://github.com/bshaffer/oauth2-server-demo">Demo</a></li>
 				    <li><a href="https://github.com/fkooman/php-oauth">PHP OAuth 2.0</a> (AS with SAML/BrowserID AuthN, with management REST API, see <a href="https://frko.surfnetlabs.nl/workshop/">DEMO</a>)</li>
-                                  </ul>
-                                </li>
+				  </ul>
+				</li>
 				<li><a href="https://github.com/nov/rack-oauth2">Ruby OAuth2 Server (draft 18)</a></li>
 				<li><a href="http://www.dotnetopenauth.net/">.NET DotNetOpenAuth</a></li>
 			</ul>
