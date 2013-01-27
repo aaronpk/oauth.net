@@ -25,7 +25,6 @@ require('../includes/_header.php');
       <h2>OAuth 2.0</h2>
 
 			<p><img src="/images/oauth-2-sm.png" alt="OAuth 2.0 logo" style="float:right; margin: 0 0 8px 8px;" />OAuth 2.0 is the next evolution of the OAuth protocol which was originally created in late 2006. OAuth 2.0 focuses on client developer simplicity while providing specific authorization flows for web applications, desktop applications, mobile phones, and living room devices. This specification is being developed within the <a href="https://www.ietf.org/mailman/listinfo/oauth">IETF OAuth WG</a> and is based on the <a href="http://wiki.oauth.net/OAuth-WRAP">OAuth WRAP</a> proposal.</p>
-			<p>hueniverse.com's <a href="http://hueniverse.com/2010/05/introducing-oauth-2-0/" title="Introducing OAuth 2.0 &laquo;  hueniverse">Introduction to OAuth 2.0</a> provides a great deal of background and information about the design decisions in OAuth 2.0.
 			<p>Questions, suggestions and protocol changes should be discussed on the <a href="https://www.ietf.org/mailman/listinfo/oauth">mailing list</a>.</p>
 			<h3>Reading the spec</h3>
 			<p>The final version of the spec can be found at <a href="http://tools.ietf.org/html/rfc6749">http://tools.ietf.org/html/rfc6749</a>.</p>
