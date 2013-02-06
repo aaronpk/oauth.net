@@ -1,0 +1,1 @@
+An Oauth2 client implementation example for MarkLogic server. This library demonstrates OAuth2 authentication (much simpler than OAuth 1) with Facebook and Github. It relies on some conventions for configuring providers and mapping provider users to MarkLogic users.
