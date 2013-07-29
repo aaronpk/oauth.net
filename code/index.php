@@ -123,6 +123,10 @@ require('../includes/_header.php');
 			
 			<p><a href="http://romeda.org/">Blaine Cook</a>, <a href="http://stakeventures.com/">Pelle Braendgaard</a> and others have written a <a href="http://oauth.rubyforge.org/">library in Ruby</a>.</p>
 			
+			<h3>Scheme</h3>
+			
+			<p>Aleix Conchillo Flaque has contributed <a href="http://github.com/aconchillo/guile-oauth/">guile-oauth</a> an OAuth client module for Guile. It currently supports OAuth 1.0 and HMAC-SHA1 and PLAINTEXT authentication. It comes with a Twitter <a href="http://github.com/aconchillo/guile-oauth/blob/master/examples/oauth1/twitter.scm">example</a>.</p>
+			
                         <h3>Erlang</h3>
 
                         <p>Tim Fletcher published a <a href="https://github.com/tim/erlang-oauth/">library</a></p>
