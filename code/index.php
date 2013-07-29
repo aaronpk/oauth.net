@@ -117,6 +117,7 @@ require('../includes/_header.php');
 				<li><a href="http://simonwillison.net">Simon Willison</a> <a href="http://simonwillison.net/2008/Mar/22/wikinear/">released</a> the <a href="http://www.djangosnippets.org/snippets/655/">snippet</a> that handles OAuth in Wikinear.</li>
 				<li>Steve Marshall wrote a <a href="http://github.com/SteveMarshall/fire-eagle-python-binding/tree/master/fireeagle_api.py">comprehensive binding for Fire Eagle</a> that implements OAuth.</li>
 				<li><a href="http://stu.mp/">Joe Stump</a> (SimpleGeo) maintains the <a href="http://github.com/simplegeo/python-oauth2">python-oauth2 library</a> on GitHub.</li>
+				<li><a href="https://github.com/evonove/django-oauth-toolkit">Django OAuth Toolkit</a> is an OAuth2 Provider for Django built upon <a href="https://github.com/idan/oauthlib">oauthlib</a></li>
 			</ul>
 			
 			<h3>Ruby</h3>
