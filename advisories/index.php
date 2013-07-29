@@ -27,7 +27,7 @@ require('../includes/_header.php');
 
     <div id="main" class="column first last span-18 prepend-1 append-1">
       <h2>Security Advisories</h2>
-			<p>The OAuth community is committed to identifying and addressing any security issues raised relating to the OAuth protocol and extensions. Any identified threat will be publish on this page as soon as it is safe to do so. Due to the nature of many security threats, they cannot be disclosed before sufficient notice it given to vulnerable parties.</p>
+			<p>The OAuth community is committed to identifying and addressing any security issues raised relating to the OAuth protocol and extensions. Any identified threat will be published on this page as soon as it is safe to do so. Due to the nature of many security threats, they cannot be disclosed before sufficient notice is given to vulnerable parties.</p>
 
 			<h3>Known Threats</h3>
 
