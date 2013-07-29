@@ -54,6 +54,7 @@ require('../includes/_header.php');
 			<ul>
 				<li><a href="http://www.phpclasses.org/package/7700-PHP-Authorize-and-access-APIs-using-OAuth.html">PHP</a></li>
 				<li><a href="https://github.com/fkooman/php-oauth-client">PHP OAuth 2.0 client</a></li>
+                                <li><a href="https://github.com/ivan-novakov/php-openid-connect-client">OAuth2/OpenID Connect Client Library for PHP/Zend Framework 2</a></li>
 				<li><a href="http://github.com/leebyron/cocoa-oauth2">Cocoa</a></li>
 				<li><a href="http://github.com/lukeredpath/LROAuth2Client">iPhone and iPad</a></li>
 				<li><a href="http://github.com/nxtbgthng/OAuth2Client">iOS and Mac OS X (draft 10)</a></li>
