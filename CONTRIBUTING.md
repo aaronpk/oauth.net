@@ -1,13 +1,4 @@
-oauth.net
-=========
-
-This repository contains the source to the http://oauth.net website. Feel free to send pull requests with updates.
-
-The license that the oauth.net site uses places all content added on or after 2013-07-23 into the public domain. 
-Content added before that date by authors who have added a public domain declaration to their pull requests is also
-placed into the public domain.
-
-## Contributors Rights and Obligations
+## Contributing
 
 Similar to [Wikipedia's contributors' rights and obligations](http://en.wikipedia.org/wiki/Wikipedia:Copyrights#Contributors.27_rights_and_obligations), 
 by submitting content to the oauth.net repository, you release your work to the public domain, and thus grant 
@@ -29,4 +20,3 @@ However, you can never retract the public domain license for the copies of mater
 these copies will remain under public domain license.
 
 Note: This copyright information is based on the copyright statement from the [microformats wiki](http://microformats.org/wiki/copyrights). Please refer there for further clarification.
-
