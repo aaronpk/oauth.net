@@ -81,6 +81,11 @@ require('../includes/_header.php');
 						<li><a href="http://www.springframework.net/social/">Spring Social for .NET</a></li>
 					</ul>
 				</li>
+				<li>Qt/C++
+					<ul>
+						<a href="https://github.com/pipacs/o2">O2 (supports OAuth 1.0a and 2.0</a>
+					</ul>
+				</li>
 			</ul>
 			<h4>Services that support OAuth 2</h4>
 			<ul>
