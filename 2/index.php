@@ -49,6 +49,7 @@ require('../includes/_header.php');
 				</li>
 				<li><a href="https://github.com/nov/rack-oauth2">Ruby OAuth2 Server (draft 18)</a></li>
 				<li><a href="http://www.dotnetopenauth.net/">.NET DotNetOpenAuth</a></li>
+				<li><a href="https://github.com/kivra/oauth2">Erlang Oauth2 Server framework</a></li>
 			</ul>
 			<h4>Client Libraries</h4>
 			<ul>
