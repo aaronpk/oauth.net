@@ -47,6 +47,12 @@ require('../includes/_header.php');
 				    <li><a href="https://github.com/fkooman/php-oauth">PHP OAuth 2.0</a> (AS with SAML/BrowserID AuthN, with management REST API, see <a href="https://frko.surfnetlabs.nl/workshop/">DEMO</a>)</li>
 				  </ul>
 				</li>
+				<li>Python
+				  <ul>
+				    <li><a href="https://github.com/simplegeo/python-oauth2">Python OAuth2 Server</a></li>
+				    <li><a href="https://github.com/StartTheShift/pyoauth2">Python OAuth 2.0 Provider</a>, see <a href="http://tech.shift.com/post/39516330935/implementing-a-python-oauth-2-0-provider-part-1">Tutorial</a>)</li>
+				  </ul>
+				</li>
 				<li><a href="https://github.com/nov/rack-oauth2">Ruby OAuth2 Server (draft 18)</a></li>
 				<li><a href="http://www.dotnetopenauth.net/">.NET DotNetOpenAuth</a></li>
 			</ul>
