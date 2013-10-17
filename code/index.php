@@ -119,6 +119,7 @@ require('../includes/_header.php');
 				<li><a href="http://stu.mp/">Joe Stump</a> (SimpleGeo) maintains the <a href="http://github.com/simplegeo/python-oauth2">python-oauth2 library</a> on GitHub.</li>
 				<li><a href="https://github.com/evonove/django-oauth-toolkit">Django OAuth Toolkit</a> is an OAuth2 Provider for Django built upon <a href="https://github.com/idan/oauthlib">oauthlib</a></li>
 				<li><a href="http://www.bango29.com/">Batista Harahap</a> is writing an OAuth 1.0 reverse proxy available at <a href="https://github.com/tistaharahap/oauth1-provider-redis-py">Github here</a>.</li>
+				<li><a href="https://pypi.python.org/pypi/oauthlib">oauthlib</a> (sources on <a href="https://github.com/idan/oauthlib">GitHub</a>) A generic, spec-compliant, thorough implementation of the OAuth request-signing logic written by <a href="https://github.com/idan">Idan Gazit</a>.</li>
 			</ul>
 			
 			<h3>Ruby</h3>
