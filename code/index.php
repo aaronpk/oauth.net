@@ -111,7 +111,7 @@ require('../includes/_header.php');
 			<h3>Python</h3>
 			
 			<p><a href="https://github.com/maxcountryman">Max Countryman</a> maintains the <a href="https://github.com/litl/rauth">rauth</a> and it is considered the most up-to-date and unit-tested implementation of OAuth for Python.</p>
-			<p>Another great library is <a href="https://github.com/idan/oauthlib">OAuthlib</a> which implement the latest rfc standard sepcs of OAuth, including client and server.</p>
+			<p>Another great library is <a href="https://github.com/idan/oauthlib">OAuthlib</a> which implements the latest RFC, including client and server.</p>
 			<ul>
 			  <li><a href="http://leahculver.com/">Leah Culver</a> has written both a <a href="http://oauth.googlecode.com/svn/code/python/oauth/">library in Python 2.3</a> and offered an <a href="http://oauth.googlecode.com/svn/code/python/oauth/example/">example implementation</a>.</li>
 				<li>David Larlet has released an <a href="http://code.larlet.fr/django-oauth-plus/">OAuth Provider and Consumer</a> for Django. </li>
