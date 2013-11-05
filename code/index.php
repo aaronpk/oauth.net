@@ -110,8 +110,7 @@ require('../includes/_header.php');
 			
 			<h3>Python</h3>
 			
-			<p><a href="https://github.com/maxcountryman">Max Countryman</a> maintains the <a href="https://github.com/litl/rauth">rauth</a> and it is considered the most up-to-date and unit-tested implementation of OAuth for Python.</p>
-			<p>Another great library is <a href="https://github.com/idan/oauthlib">OAuthlib</a> which implements the latest RFC, including client and server.</p>
+			<p><a href="https://github.com/maxcountryman">Max Countryman</a> maintains <a href="https://github.com/litl/rauth">rauth</a>. It is considered the most up-to-date and unit-tested implementation of OAuth for Python.</p>
 			<ul>
 			  <li><a href="http://leahculver.com/">Leah Culver</a> has written both a <a href="http://oauth.googlecode.com/svn/code/python/oauth/">library in Python 2.3</a> and offered an <a href="http://oauth.googlecode.com/svn/code/python/oauth/example/">example implementation</a>.</li>
 				<li>David Larlet has released an <a href="http://code.larlet.fr/django-oauth-plus/">OAuth Provider and Consumer</a> for Django. </li>
@@ -121,6 +120,7 @@ require('../includes/_header.php');
 				<li><a href="https://github.com/evonove/django-oauth-toolkit">Django OAuth Toolkit</a> is an OAuth2 Provider for Django built upon <a href="https://github.com/idan/oauthlib">oauthlib</a></li>
 				<li><a href="https://github.com/lepture/flask-oauthlib">Flask-OAuthlib</a> is an OAuth/OAuth2 Client/Provider for Flask built upon <a href="https://github.com/idan/oauthlib">oauthlib</a></li>
 				<li><a href="http://www.bango29.com/">Batista Harahap</a> is writing an OAuth 1.0 reverse proxy available at <a href="https://github.com/tistaharahap/oauth1-provider-redis-py">Github here</a>.</li>
+				<li><a href="https://github.com/idan/oauthlib">OAuthlib</a> is a generic OAuth signing library; it is neither a client nor a server, but provides signing facilities for either.</li>
 			</ul>
 			
 			<h3>Ruby</h3>
