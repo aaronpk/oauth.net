@@ -71,7 +71,7 @@ require('../includes/_header.php');
 			
 			<p>John Kristian has contributed a <a href="http://oauth.googlecode.com/svn/code/javascript/">Javascript Library</a>.</p>
 			
-			<p>Marco Bettiolo has written a <a href="https://github.com/bettiolo/oauth-signature-js">Javascript OAuth Signature Generator</a>.</p>
+			<p><a href="http://github.com/bettiolo">Marco Bettiolo</a> from <a href="http://www.7digital.com/">7digital</a> has written a <a href="http://github.com/bettiolo/oauth-signature-js">Javascript OAuth Signature Generator</a>.</p>
 
 			<h3>Jifty</h3>
 			
