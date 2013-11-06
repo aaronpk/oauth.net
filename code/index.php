@@ -71,6 +71,8 @@ require('../includes/_header.php');
 			
 			<p>John Kristian has contributed a <a href="http://oauth.googlecode.com/svn/code/javascript/">Javascript Library</a>.</p>
 			
+			<p>Marco Bettiolo has written a <a href="https://github.com/bettiolo/oauth-signature-js">Javascript OAuth Signature Generator</a>.</p>
+
 			<h3>Jifty</h3>
 			
 			<p><a href="http://sartak.org">Shawn M Moore</a> has written an <a href="http://svn.jifty.org/index.cgi/jifty/browse/jifty/trunk/lib/Jifty/Plugin/OAuth">OAuth Plugin</a> for the <a href="http://jifty.org/">Jifty Framework</a>.</p>
