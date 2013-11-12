@@ -39,6 +39,8 @@ require('../includes/_header.php');
 			<p><a href="http://www.madgex.com/">Madgex</a> has <a href="http://siliconbea.ch/technology/dot-net/2008-09-05/bringing-oauth-to-dot-net-developers/">released</a> an open source <a href="http://code.google.com/p/oauth-dot-net/">OAuth library for .NET</a> (released under the <a href="http://www.opensource.org/licenses/mit-license.php"><span class="caps">MIT</span> License</a>). <a href="http://lab.madgex.com/oauth-net/gettingatarted01.aspx/">Documentation</a> and <a href="http://lab.madgex.com/oauth-net/">demos</a> are available.</p>
 			<p><a href="http://samondotnet.blogspot.com.au/2012/12/introduction-to-dotnetauth.html">DotNetAuth</a> is a consumer only implementation for both OAuth 1.0a and OAuth 2.0. This library is designed with extensibility in mind. So you developers can easily customize it to add support for any OAuth provider, even if the provider is not strictly following the OAuth rules and guidelines.</p>
 			
+			<p><a href="https://oauthserver.codeplex.com/">OAuthServer</a> a simple OAuth server 2.0 developed in C# to provide OAuth autentication for Active Directory Users. Released under Microsoft Public License (Ms-PL) and developed by Renzo Ciot @ <a href='http://www.tepestive.com'>Tempestive</a>.</p>
+			
 			<h4>C#</h4>
 			
 			<p><a href="http://eran.sandler.co.il">Eran Sandler</a> has contributed a <a href="http://oauth.googlecode.com/svn/code/csharp/">basic C# class</a> that performs signing.</p>
