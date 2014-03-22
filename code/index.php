@@ -71,6 +71,8 @@ require('../includes/_header.php');
 			
 			<h3>Javascript</h3>
 			
+			<p><a href="http://www.ddo.me">Ddo</a> has contributed a <a href="https://github.com/joeddo/oauth-1.0a">OAuth 1.0a Request Authorizer (Send OAuth request with your favorite HTTP client as request, jQuery.ajax...)</a></p>
+			
 			<p>John Kristian has contributed a <a href="http://oauth.googlecode.com/svn/code/javascript/">Javascript Library</a>.</p>
 			
 			<p><a href="http://github.com/bettiolo">Marco Bettiolo</a> from <a href="http://www.7digital.com/">7digital</a> has written a <a href="http://github.com/bettiolo/oauth-signature-js">Javascript OAuth Signature Generator</a>.</p>
