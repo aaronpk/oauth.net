@@ -53,6 +53,7 @@ require('../includes/_header.php');
 				    <li><a href="https://github.com/StartTheShift/pyoauth2">Python OAuth 2.0 Provider</a>, see <a href="http://tech.shift.com/post/39516330935/implementing-a-python-oauth-2-0-provider-part-1">Tutorial</a>)</li>
 				  </ul>
 				</li>
+				<li><a href="https://github.com/t1msh/node-oauth20-provider">NodeJS OAuth 2.0 Provider</a></li>
 				<li><a href="https://github.com/nov/rack-oauth2">Ruby OAuth2 Server (draft 18)</a></li>
 				<li><a href="http://www.dotnetopenauth.net/">.NET DotNetOpenAuth</a></li>
 				<li><a href="https://github.com/kivra/oauth2">Erlang Oauth2 Server framework</a></li>
