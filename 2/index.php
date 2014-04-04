@@ -49,7 +49,6 @@ require('../includes/_header.php');
 				</li>
 				<li>Python
 				  <ul>
-				    <li><a href="https://github.com/simplegeo/python-oauth2">Python OAuth2 Server</a></li>
 				    <li><a href="https://github.com/StartTheShift/pyoauth2">Python OAuth 2.0 Provider</a> (see <a href="http://tech.shift.com/post/39516330935/implementing-a-python-oauth-2-0-provider-part-1">Tutorial</a>)</li>
 				    <li><a href="https://github.com/idan/oauthlib">OAuthLib</a> (a generic implementation of the OAuth request-signing logic) is avaliable for <a href="https://github.com/evonove/django-oauth-toolkit">Django</a> and <a href="https://github.com/lepture/flask-oauthlib">Flask</a> web frameworks</li>
 				  </ul>
