@@ -27,11 +27,7 @@ require('../includes/_header.php');
 
 			<p>The OAuth community is dedicated improving the spec and library codebase, spreading awareness of the protocol and documenting and showing, through screencasts, wireframes, mockups and other illustrative designs, how best to put OAuth into use.</p>
 
-			<h3 id="mailing-lists">Mailing Lists</h3>
-			
-			<p>The <a href="http://groups.google.com/group/oauth/">OAuth Google Group</a> is where you can ask questions, get help, and get to know the rest of the OAuth community. You can <a href="http://groups.google.com/group/oauth/subscribe">subscribe</a> and <a href="http://groups.google.com/group/oauth/topics?hl=en">view the archives</a>.</p>
-			
-			<p>The <a href="https://www.ietf.org/mailman/listinfo/oauth">IETF OAuth mailing list</a> is for work related to <span class="caps">IETF</span> standardization.</p>
+      <p>The <a href="https://www.ietf.org/mailman/listinfo/oauth">IETF OAuth mailing list</a> is for work related to <span class="caps">IETF</span> standardization.</p>
 
       <p>
         <form action="http://www.google.com/search" method="get">
@@ -42,6 +38,11 @@ require('../includes/_header.php');
         </form>
       </p>
 
+			<a id="mailing-lists"></a>
+      <h3 id="support">Support</h3>
+			
+      <p>You can <a href="http://stackoverflow.com/search?q=oauth">search StackOverflow</a> for questions relating to provider-specific implementations of OAuth.</p>
+			
 			<?php include('../includes/_edit_banner.php'); ?>
 
     </div>

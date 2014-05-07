@@ -27,14 +27,46 @@ require('../includes/_header.php');
     </div>
 
   <div id="main" class="column first last span-18 prepend-1 append-1">
-    <h2>Documentation</h2>
+    <h2>OAuth 2.0 Core</h2>
     <ul>
-      <li><a href="http://tools.ietf.org/html/rfc6749">OAuth 2.0 Specification</a> - RFC 6749.</li>
-      <li><a href="http://tools.ietf.org/html/rfc5849">RFC 5849: The OAuth 1.0 Protocol</a> - the final version of the OAuth 1.0 specification.</li>
-      <li><a href="http://hueniverse.com/oauth/">OAuth Resource Center</a> from <a href="http://hueniverse.com">Eran Hammer-Lahav</a> the specifications editor, including a beginner's guide and tutorials.</li>
-      <li>Community-driven support <strong><a href="/documentation/faq">FAQ</a></strong>.</li>
-      <li>Obsoleted <a href="/documentation/spec">editions</a> of the OAuth 1.0 community specification.</li>
+      <li><a href="http://tools.ietf.org/html/rfc6749">OAuth 2.0 Framework</a> - RFC 6749.</li>
+      <li><a href="http://tools.ietf.org/html/rfc6750">Bearer Token Usage</a> - RFC 6750</li>
+      <li><a href="http://tools.ietf.org/html/rfc6819">Threat Model and Security Considerations</a> - RFC 6819</li>
     </ul>
+
+    <h2>Protocols Built on OAuth 2.0</h2>
+    <ul>
+      <li><a href="http://openid.net/connect/">Open ID Connect</a></li>
+      <li><a href="http://blue-button.github.io/blue-button-plus-pull/">Blue Button</a></li>
+      <li><a href="http://en.openei.org/wiki/Green_Button_Developer">Green Button</a></li>
+      <li><a href="https://kantarainitiative.org/confluence/display/uma/UMA+1.0+Core+Protocol">UMA</a></li>
+      <li><a href="http://www.gsma.com/oneapi/">GSMA OneAPI</a></li>
+    </ul>
+
+    <h2>OAuth 2.0 Extensions</h2>
+    <ul>
+      <li><a href="http://tools.ietf.org/html/draft-ietf-oauth-json-web-token">JSON Web Token</a></li>
+      <li><a href="http://tools.ietf.org/html/draft-ietf-oauth-assertions">OAuth Assertions Framework</a></li>
+      <li><a href="http://tools.ietf.org/html/draft-ietf-oauth-saml2-bearer">SAML2 Bearer Assertion</a> - for integrating with existing identity systems</li>
+      <li><a href="http://tools.ietf.org/html/draft-ietf-oauth-jwt-bearer">JWT Bearer Assertion</a> - for integrating with existing identity systems</li>
+    </ul>
+
+    <h2>Community Resources</h2>
+    <ul>
+      <li><a href="http://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified">OAuth 2.0 Simplified</a></li>
+      <li><a href="http://hueniverse.com/oauth/">OAuth Resource Center</a> from <a href="http://hueniverse.com">Eran Hammer-Lahav</a> the specifications editor, including a beginner's guide and tutorials.</li>
+    </ul>
+
+
+    <h2>Obsolete Versions of OAuth</h2>
+    <ul>
+      <li><a href="http://tools.ietf.org/html/rfc5849">RFC 5849: The OAuth 1.0 Protocol</a> - the final version of the OAuth 1.0 specification.</li>
+      <li><a href="http://tools.ietf.org/html/rfc5849">RFC 5849: The OAuth 1.0 Protocol</a> - the final version of the OAuth 1.0 specification.</li>
+      <li><a href="http://tools.ietf.org/html/draft-ietf-oauth-v2">OAuth 2.0 Working Draft</a> - the latest IETF proposal.</li>
+      <li><a href="/core/1.0">OAuth Core 1.0</a> was released December 4, 2007.</li>
+      <li><a href="/core/1.0a">OAuth Core 1.0 Revision A</a> was released June 24, 2009.</li>
+    </ul>
+
   </div>
 
 	<?php include('../includes/_edit_banner.php'); ?>
