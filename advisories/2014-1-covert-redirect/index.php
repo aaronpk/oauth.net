@@ -36,7 +36,8 @@ to direct the resulting OAuth Response to a malicious location rather than to th
 requesting client, thus exposing any returned secrets to the attacker.</p>
 
       <h3>Is Covert Redirect a New Threat?</h3>
-      <p><b>No.</b> <a href="http://tools.ietf.org/html/rfc6819#section-4.2.4">Section 4.2.4</a> 
+      <p><b>No.</b> <a href="http://tools.ietf.org/html/rfc6819#section-4.1.5">Section 4.1.5</a>
+and <a href="http://tools.ietf.org/html/rfc6819#section-4.2.4">Section 4.2.4</a>
         of the official OAuth 2.0 Threat Model (RFC 6819) details this threat, and
 <a href="http://tools.ietf.org/html/rfc6819#section-5.2.3.5">section 5.2.3.5 of the RFC</a> 
 documents the recommended 
