@@ -61,7 +61,6 @@ require('../includes/_header.php');
     <h2>Obsolete Versions of OAuth</h2>
     <ul>
       <li><a href="http://tools.ietf.org/html/rfc5849">RFC 5849: The OAuth 1.0 Protocol</a> - the final version of the OAuth 1.0 specification.</li>
-      <li><a href="http://tools.ietf.org/html/draft-ietf-oauth-v2">OAuth 2.0 Working Draft</a> - the latest IETF proposal.</li>
       <li><a href="/core/1.0">OAuth Core 1.0</a> was released December 4, 2007.</li>
       <li><a href="/core/1.0a">OAuth Core 1.0 Revision A</a> was released June 24, 2009.</li>
     </ul>

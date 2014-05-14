@@ -28,9 +28,7 @@ require('../includes/_header.php');
 			
 			<h2>Code</h2>
 			
-			<p>We have setup a <a href="http://oauth.googlecode.com/svn/">code repository</a> on <a href="http://code.google.com/p/oauth/">Google Code</a> for gathering libraries and other supporting examples. These libraries are contributed by members of the community and have not been tested or are necessarily known to work.</p>
-			
-			<p>If you would like to test them and report issues, please visit our <a href="http://code.google.com/p/oauth/issues/list">Issue Tracker</a>.</p>
+			<p>Below is a collection of OAuth 1 and 2 libraries. If you would like to make any changes to this page, you can <a href="https://github.com/aaronpk/oauth.net/blob/master/code/index.php">edit this page</a> and send a pull request.</p>
 			
 			<h3>DotNET</h3>
 			
