@@ -28,7 +28,7 @@ require('../../includes/_header.php');
    
       <h3>What is it?</h3>
       <p>Covert Redirect is a name given to an open redirector attack by security researcher Wang Jing
-in the summer of 2014.</p>
+in the Spring of 2014.</p>
       <p>It describes a process where a malicious attacker intercepts a request 
 from an OAuth Client to an OAuth 2.0 Authorization Server and alters a query parameter in 
 the request called "redirect_uri" with the intention of causing the OAuth Authorization Server 
@@ -56,10 +56,10 @@ expert in this area and you are impatient, we suggest you jump straight to the T
       <h3>Who Should be Concerned?</h3>
       <p>Anyone who deploys OAuth 2.0, either as a client or as an Authorization Service, should be 
 concerned. However this concern should not be new; anyone who deploys OAuth 2.0 should 
-be aware of and understand the mitigations for all of the threats in RFC 6819, not just this one. 
-If you do not care to read <a href="http://tools.ietf.org/html/rfc6819">RFC 6819</a>, and you 
+be aware of and understand the mitigations for all of the threats in <a href="http://tools.ietf.org/html/rfc6819">RFC 6819</a>, not just this one. 
+<!-- If you do not care to read <a href="http://tools.ietf.org/html/rfc6819">RFC 6819</a>, and you 
 just want to know about this one particular threat, 
-you can read a detailed analysis here, and also see detailed mitigation information below.</p>
+you can read a detailed analysis here, and also see detailed mitigation information below. --></p>
 
     
       <h3>Recommendations</h3>
