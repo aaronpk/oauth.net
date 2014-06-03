@@ -85,6 +85,7 @@ require('../includes/_header.php');
 				<li><a href="http://github.com/andreassolberg/jso">Javascript</a></li>
 				<li>.NET
 					<ul>
+						<li><a href="http://www.nuget.org/packages/Microsoft.Owin.Security.OAuth">OWIN Middleware</a></li>
 						<li><a href="http://www.dotnetopenauth.net/">DotNetOpenAuth</a></li>
 						<li><a href="http://www.springframework.net/social/">Spring Social for .NET</a></li>
 					</ul>
