@@ -85,7 +85,7 @@ require('../includes/_header.php');
 			
 			<p>Hongbo Yang released <a href="https://github.com/sprhawk/ytoolkit">YToolkit</a> with OAuth 1.0 and 2.0 support.</p>
 			
-			<p><a href="http://matrixpointer.com/karl">Karl Adam</a> released <a href="http://code.google.com/p/mpoauthconnection/">MPOAuthConnection</a>, a drop in component for Mac and iPhone apps to talk to OAuth web services.</p>
+			<p><a href="http://matrixpointer.com/karl">Karl Adam</a> released <a href="https://github.com/thekarladam/MPOAuth">MPOAuthConnection</a>, a drop in component for Mac and iPhone apps to talk to OAuth web services.</p>
 			
 			<h3>OCaml</h3>
 			
