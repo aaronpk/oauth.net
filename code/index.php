@@ -132,7 +132,7 @@ require('../includes/_header.php');
 			
 			<h3>Ruby</h3>
 			
-			<p><a href="http://romeda.org/">Blaine Cook</a>, <a href="http://stakeventures.com/">Pelle Braendgaard</a> and others have written a <a href="http://oauth.rubyforge.org/">library in Ruby</a>.</p>
+			<p><a href="http://romeda.org/">Blaine Cook</a>, <a href="http://stakeventures.com/">Pelle Braendgaard</a> and others have written a <a href="https://github.com/oauth-xx/oauth-ruby">library in Ruby</a>.</p>
 			
 			<h3>Scheme</h3>
 			
