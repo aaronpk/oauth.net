@@ -74,6 +74,7 @@ require('../includes/_header.php');
                         <li><a href="http://www.springsource.org/spring-social">Spring Social</a></li>
                         <li><a href="http://static.springsource.org/spring-security/oauth/">Spring Security for OAuth</a></li>
                         <li><a href="http://www.restlet.org/">Restlet Framework (draft 30)</a></li>
+                        <li><a href="https://github.com/fernandezpablo85/scribe-java">scribe-java</a></li>
                 </ul></li>
                 <li>Python
                     <ul>
