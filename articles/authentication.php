@@ -91,7 +91,7 @@ require('../includes/_header.php');
 
 			<h4 id="id-tokens">ID Tokens</h4>
 			
-			<p>The OpenID Connect ID Token is a signed JSON Web Token (JWT) that is given to the client application along side the regular OAuth access token. The ID Token contains a set of claims about the authentication session, including an identifier for the user (<code>sub</code>), the identifier for the identity provider who issued the token (<code>iss</code>), and the identifier of the client for which this token was created (<code>aud</code>). Additionally, the ID Token contains information about the token's valid (and usually short) lifetime as well as any information about the authentication context to be conveyed to the client, such as how long ago the user was presented with a primary authentication mecehanism. Since the format of the ID Token is known by the client, it is able to parse the content of the token directly and obtain this information without relying on an external service to do so. Furthermore, it is issued in addition to (and not in lieu of) an access token, allowing the access token to remain opaque to the client as it is defined in regular OAuth. Finally, the token itself is signed by the identity provider's public key, adding an additional layer of protection to the claims inside of it in addition to the TLS transport protection that was used to get the token in the first place, preventing a class of impersonation attacks. By applying a few simple checks to this ID token, a client can protect itself from a large number of common attacks.</p>
+			<p>The OpenID Connect ID Token is a signed <a href="https://tools.ietf.org/html/draft-ietf-oauth-json-web-token">JSON Web Token (JWT)</a> that is given to the client application along side the regular OAuth access token. The ID Token contains a set of claims about the authentication session, including an identifier for the user (<code>sub</code>), the identifier for the identity provider who issued the token (<code>iss</code>), and the identifier of the client for which this token was created (<code>aud</code>). Additionally, the ID Token contains information about the token's valid (and usually short) lifetime as well as any information about the authentication context to be conveyed to the client, such as how long ago the user was presented with a primary authentication mecehanism. Since the format of the ID Token is known by the client, it is able to parse the content of the token directly and obtain this information without relying on an external service to do so. Furthermore, it is issued in addition to (and not in lieu of) an access token, allowing the access token to remain opaque to the client as it is defined in regular OAuth. Finally, the token itself is signed by the identity provider's public key, adding an additional layer of protection to the claims inside of it in addition to the TLS transport protection that was used to get the token in the first place, preventing a class of impersonation attacks. By applying a few simple checks to this ID token, a client can protect itself from a large number of common attacks.</p>
 			
 			<h4 id="userinfo-endpoint">UserInfo Endpoint</h4>
 			
@@ -107,21 +107,35 @@ require('../includes/_header.php');
 			
 			<h4 id="advanced-oidc">Advanced capabilities</h4>
 			
-			<p>OpenID Connect also defines a number of advanced capabilities beyond standard OAuth that are suitable for higher security profiles and deployments, including (among others):
-				
+			<p>OpenID Connect also defines a number of advanced capabilities beyond standard OAuth that are suitable for higher security profiles and deployments, including (among others):</p>
+
 				<ul>
-					<li>Public key client authentication</li>
-					<li>Selecting and retrieving specific claims and values from the identity provider</li>
-					<li>Signing and encrypting OAuth requests</li>
-					<li>Session management over time</li>
+					<li><a href="http://openid.net/specs/openid-connect-core-1_0.html#ClientAuthentication">Public key and shared cyptographic secret client authentication</a></li>
+					<li><a href="http://openid.net/specs/openid-connect-core-1_0.html#ClaimsParameter">Selecting and retrieving specific claims and values from the identity provider</a></li>
+					<li><a href="http://openid.net/specs/openid-connect-core-1_0.html#JWTRequests">Signing and encrypting OAuth requests</a></li>
+					<li><a href="http://openid.net/specs/openid-connect-session-1_0.html">Session management beyond the initial authentication</a></li>
 				</ul>
-			</p>
+			
+			<h4 id="oauth-compatibility">Compatibility with OAuth 2.0</h4>
+			
+			<p>Even with all of this advanced functionality and robust authentication capability, OpenID Connect (by design) compatible with plain OAuth 2.0, making it a very good choice to deploy on top of an OAuth system for minimal developer effort. In fact, if a service is already using OAuth and the <a href="https://datatracker.ietf.org/wg/jose/charter/">JSON Object Signing and Encryption (JOSE)</a> specifications (including JWT), that service is already well on its way to supporting OpenID Connect already.</p>
 
             <h3 id="further-reading">Further Reading</h3>
 
 			<ul>
 				<li>In the article <a href="http://www.cloudidentity.com/blog/2013/01/02/oauth-2-0-and-sign-in-4/">OAuth 2.0 and Sign-in</a>, Vittorio Bertocci provides detail on the security boundaries between parties and why the authorization layer makes sense as the lower layer to build on top of.</li>
 				<li>Justin Richer presented a detailed overview of the technologies talked about here in <a href="http://www.slideshare.net/zeronine1/auth-in-the-extended-enterprise-mit-hackathon-2013">Auth* In the Extended Enterprise</a> at MIT.</li>
+				<li>John Bradley has written a series of articles relating to this topic, including:
+					<ul>
+						<li><a href="http://www.thread-safe.com/2012/02/more-on-oauth-implicit-flow-application.html">Vulnerabilities in the Implicit Flow</a></li>
+						<li><a href="http://www.thread-safe.com/2012/01/problem-with-oauth-for-authentication.html">The problem with using OAuth for authentication</a></li>
+						<li><a href="http://www.thread-safe.com/2012/02/why-we-need-idtoken-in-openid-connect.html">The need for an ID Token in OpenID Connect</a></li>
+						<li><a href="http://www.thread-safe.com/2012/01/solutions-for-using-oauth-20-for.html">Solutions for using Oauth 2.0 for authentication</a></li>
+						<li><a href="http://www.thread-safe.com/2012/02/designing-single-sign-on-system-using.html">Designing a single-sign-on-system using OAuth 2.0</a></li>
+						<li><a href="http://www.thread-safe.com/2012/04/followup-on-oauth-facebook-login.html">Facebook's OAuth login vulnerabilities</a></li>
+						<li><a href="http://www.thread-safe.com/2014/05/making-facebook-connect-safe.html">How to make Facebook Connect safe</a></li>
+					</ul>
+				</li>
 			</ul>
 			
             <?php include('../includes/_edit_banner.php'); ?>
