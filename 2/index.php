@@ -102,6 +102,7 @@ require('../includes/_header.php');
                 <li><a href="http://developers.box.com/oauth/">Box</a></li>
                 <li><a href="http://beeminder.com/api">Beeminder</a></li>
                 <li><a href="http://www.campaignmonitor.com/api/getting-started/#authenticating_with_oauth">Campaign Monitor</a></li>
+                <li><a href="https://clever.com/">Clever</a></li>
                 <li><a href="https://www.dropbox.com/developers/core/docs#oa2-authorize">Dropbox</a></li>
                 <li><a href="http://developers.facebook.com/docs/authentication/">Facebook's Graph API</a> (see <a href="http://www.sociallipstick.com/?p=239">sociallipstick.com/?p=239</a>)</li>
                 <li><a href="https://developer.foursquare.com/overview/auth">Foursquare</a></li>
