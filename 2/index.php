@@ -58,6 +58,16 @@ require('../includes/_header.php');
                 <li><a href="https://github.com/nov/rack-oauth2">Ruby OAuth2 Server (draft 18)</a></li>
                 <li><a href="http://www.dotnetopenauth.net/">.NET DotNetOpenAuth</a></li>
                 <li><a href="https://github.com/kivra/oauth2">Erlang Oauth2 Server framework</a></li>
+                <li>NodeJS
+                    <ul>
+                      <li><a href="https://github.com/mozilla/?query=fxa">Mozilla Firefox Accounts</a>. A full stack Identy Provider system developed to support Firefox market place and other services</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h4 id="proxy-services">Proxy services</h4>
+            <ul>
+              <li><a href="https://github.com/oauth-io">OAuth.io</a> (self hosted), and also you can use as <a href="https://oauth.io/">an external service</a></li>
             </ul>
 
             <h4 id="client-libraries">Client Libraries</h4>
