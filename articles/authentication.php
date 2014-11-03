@@ -1,9 +1,9 @@
 <?php
 
-$page_title = "User Authentication with OAuth 2.0 &mdash; OAuth";
-$page_section = "";
-$page_secondary = "";
-$page_meta_description = "Performing user authentication using the OAuth 2.0 protocol.";
+$page_title = "End User Authentication with OAuth 2.0 &mdash; OAuth";
+$page_section = "articles";
+$page_secondary = "authentication";
+$page_meta_description = "Performing end user authentication using the OAuth 2.0 protocol.";
 
 require('../includes/_header.php');
 ?>
@@ -24,12 +24,15 @@ require('../includes/_header.php');
         <div id="main" class="column first last span-18 prepend-1 append-1">
             <h2 id="oauth-2.0-authentication">User Authentication with OAuth 2.0</h2>
 			
-            <p>The <a href="http://tools.ietf.org/html/rfc6749">OAuth 2.0</a> specification defines a <i>delegation</i> protocol that is useful for conveying <i>authorization decisions</i> across a network of web-enabled applications and APIs. OAuth is used in a wide variety of applications, including providing mechanisms for user authentication. This has lead many developers to incorrectly conclude that OAuth is itself an <i>authentication</i> protocol and to mistakenly use it as such. Let's say that again, to be clear:</p>
+			<!-- Article compiled and edited by Justin Richer -->
+			
+            <p>The <a href="http://tools.ietf.org/html/rfc6749">OAuth 2.0</a> specification defines a <i>delegation</i> protocol that is useful for conveying <i>authorization decisions</i> across a network of web-enabled applications and APIs. OAuth is used in a wide variety of applications, including providing mechanisms for user authentication. This has lead many developers and API providers to incorrectly conclude that OAuth is itself an <i>authentication</i> protocol and to mistakenly use it as such. Let's say that again, to be clear:</p>
 			
 			<p><b>OAuth 2.0 is not an authentication protocol.</b></p>
 			
 			<p>Much of the confusion comes from the fact that OAuth is used <i>inside</i> of authentication protocols, and developers will see the OAuth components and interact with the OAuth flow and assume that by simply using OAuth, they can accomplish user authentication.</p>
-
+			
+			<p>This article is intended to help <i>service providers</i> and potential <i>identity providers</i> with the question of how to build an authentication and identity API using OAuth 2.0 as the base. Essentially, if you're saying "I have OAuth 2.0, and I need authentication and identity", then read on.</p>
 
 			<h4 id="what-is-authn">What is authentication?</h4>
 			
@@ -37,6 +40,8 @@ require('../includes/_header.php');
 			
 			<p>However, OAuth tells the application none of that. OAuth says absolutely nothing about the user, nor does it say how the user proved their presence or even if they're still there. As far as an OAuth client is concerned, it asked for a token, got a token, and eventually used that token to access some API. It doesn't know anything about who authorized the application or if there was even a user there at all. In fact, much of the point of OAuth is about giving this delegated access for use in situations where the <i>user is not present</i> on the connection between the client and the resource being accessed. This is great for client authorization, but it's really bad for authentication where the whole point is figuring out if the user is there or not (and who they are).</p>
 			
+			<p>As an additional confounder to our topic, an OAuth process does usually include several kinds of authentication in its process: the resource owner authenticates to the authorization server in the authorization step, the client authenticates to the authorization server in the token endpoint, and there may be others. The existence of these authentication events within the OAuth protocol does not translate to the Oauth protocol itself being able to reliably convet authenticaiton.</p>
+
 			<p>As it turns out, though, there are a handful of things that can be used along with OAuth to <i>create</i> an authentication and identity protocol on top of this delegation and authorization protocol. In nearly all of these cases, the core functionality of OAuth remains intact, and what's happening is that the user is <i>delegating access to their identity</i> to the application they're trying to log in to. The client application then becomes a consumer of the identity API, thereby finding out who authorized the client in the first place. One major benefit of building authentication on top of authorization in this way is that it allows for management of end-user consent, which is very important in cross-domain identity federation at internet scale. Another important benefit is that the user can delegate access to other protected APIs <i>along side</i> their identity at the same time, making it much simpler for both application developers and end users to manage. With one call, an application can find out if a user is logged in, what the app should call the user, download photos for printing, and post updates to their message stream. This simplicity is very compelling, but by doing both at the same time, many developers conflate the two functions.</p>
 
 
@@ -46,26 +51,30 @@ require('../includes/_header.php');
 			
 			<p>OAuth, in this metaphor, is chocolate. It's a versatile ingredient that is fundamental to a number of different things and can even be used on its own to great effect. Authentication is more like fudge. There are at least a few ingredients that must brought together in the right way to make it work, and OAuth can be one of these ingredients (perhaps the main ingredient) but it doesn't have to be involved at all. You need a recipe that says what to combine and how to combine them, and there are a large number of different recipes that say how that can be accomplished.</p>
 			
-			<p>And in fact, there are a number of well-known recipes out there for doing this with specific providers, like Facebook Connect, Sign In With Twitter, and OpenID Connect (which powers Google's sign-in system, among others). These recipes each add a number of items, such as a common profile API, to OAuth to create an authentication protocol.</p>
+			<p>And in fact, there are a number of well-known recipes out there for doing this with specific providers, like Facebook Connect, Sign In With Twitter, and OpenID Connect (which powers Google's sign-in system, among others). These recipes each add a number of items, such as a common profile API, to OAuth to create an authentication protocol. Can you build an authentication protocol without OAuth? Of course, there are many kinds out there, just as there are many kinds of <a href="http://whatscookingamerica.net/Candy/mashedpotatofudge.htm">non-chocolate fudge</a> to be had out there. But what we're here to talk about today is specifically authentication built on top of OAuth 2.0, what can go wrong, and how it can be made secure and delicious.</p>
 			
 			
             <h3 id="common-pitfalls">Common pitfalls for authentication using OAuth</h3>
 			
-			<p>Even though it's very possible to use OAuth to build an authentication protocol, there are a number of things that tend to trip up those who who do so, either on the side of the identity provider or on the side of the identity consumer.</p>
+			<p>Even though it's very possible to use OAuth to build an authentication protocol, there are a number of things that tend to trip up those who who do so, either on the side of the identity provider or on the side of the identity consumer. The practices described in this article are intended to inform potential identity providers of common risks as well as inform consumers of common mistakes that they can avoid when using an OAuth-based authentication system.</p>
 			
 			<h4 id="access-tokens">Access tokens as proof of authentication</h4>
 			
 			<p>Since an authentication usually occurs ahead of the issuance of an access token, it is tempting to consider reception of an access token of any type proof that such an authentication has occurred. However, mere posession of an access token doesn't tell the client anything on its own. In OAuth, the token is designed to be opaque to the client, but in the context of a user authentication, the client needs to be able to derive some information from the token.</p>
 			
-			<p>This problem stems from the fact that the client is not the intended <i>audience</i> of the OAuth access token. Instead, it is the <i>authorized presenter</i> of that token, and the <i>audience</i> is in fact the protected resource. The protected resource is not generally going to be in a position to tell if the user is still present by the token alone, since by the very nature and design of the OAuth protocol the user will not be available on the connection between the client and protected resource. To counter this, there needs to be an artifact that is directed at the client itself. This could be done by dual-purposing the access token, defining a format that the client could parse and understand. However, since general OAuth does not define a specific format or structure for the access token itself, protocols like OpenID Connect and Facebook Connect provide a secondary token along side the access token that communicates the authentication information directly to the client. This allows the primary access token to remain opaque to the client, just like in regular OAuth.</p>
+			<p>This problem stems from the fact that the client is not the intended <i>audience</i> of the OAuth access token. Instead, it is the <i>authorized presenter</i> of that token, and the <i>audience</i> is in fact the protected resource. The protected resource is not generally going to be in a position to tell if the user is still present by the token alone, since by the very nature and design of the OAuth protocol the user will not be available on the connection between the client and protected resource. To counter this, there needs to be an artifact that is directed at the client itself. This could be done by dual-purposing the access token, defining a format that the client could parse and understand. However, since general OAuth does not define a specific format or structure for the access token itself, protocols like OpenID Connect's ID Token and Facebook Connect's Signed Response provide a secondary token along side the access token that communicates the authentication information directly to the client. This allows the primary access token to remain opaque to the client, just like in regular OAuth.</p>
 			
 			<h4 id="protected-resource-access">Access of a protected API as proof of authentication</h4>
 			
-			<p>Since the access token can be traded for a set of user attributes, it is tempting to think that posession of a valid access token is enough to prove that a user is authenticated. This assumption turns out to be true in some cases, where the token was freshly minted in the context of a user being authenticated at the authorization server. However, that's not the only way to get an access token in OAuth. Refresh tokens and assertions can be used to get access tokens without the user being present, and in some cases access grants can occur without the user having to authenticate at all. Furthermore, the access token will generally be usable long after the user is no longer present. This means that if a client wants to make sure that an authentication is still valid, it's not sufficient to simply trade the token for the user's attributes again because the OAuth protected resource, the identity API, usually has no way of telling if the user is there.</p>
+			<p>Since the access token can be traded for a set of user attributes, it is tempting to think that posession of a valid access token is enough to prove that a user is authenticated. This assumption turns out to be true in some cases, where the token was freshly minted in the context of a user being authenticated at the authorization server. However, that's not the only way to get an access token in OAuth. Refresh tokens and assertions can be used to get access tokens without the user being present, and in some cases access grants can occur without the user having to authenticate at all.</p>
+			
+			<p>Furthermore, the access token will generally be usable long after the user is no longer present. Remember, since OAuth is a delegation protocol, this is fundamental to its design.This means that if a client wants to make sure that an authentication is still valid, it's not sufficient to simply trade the token for the user's attributes again because the OAuth protected resource, the identity API, often has no way of telling if the user is there or not.</p>
 						
 			<h4 id="access-token-injection">Injection of access tokens</p>
 			
-			<p>An additional threat occurs when clients accept access tokens from sources other than the return call from the token endpoint. This can occur if different parts of an application pass the access token between components in order to "share" access among them. This is problematic because it opens up a place for access tokens to potentially be injected into an application by an outside party. If the client application does not validate the access token through some mechanism, it has no way of differentiating between a valid token and an attack token. This can be mitigated by only accepting tokens directly from the authorization server's token enpdoint.</p>
+			<p>An additional (and very dangerous) threat occurs when clients accept access tokens from sources other than the return call from the token endpoint. This can occur for a client that uses the implicit flow (where the token is passed directly as a parameter in the URL hash) and don't properly use the OAuth <code>state</code> parameter. This issue can also occur if different parts of an application pass the access token between components in order to "share" access among them. This is problematic because it opens up a place for access tokens to potentially be injected into an application by an outside party (and potentially leak outside of the application). If the client application does not validate the access token through some mechanism, it has no way of differentiating between a valid token and an attack token.</p>
+			
+			<p>This can be mitigated by using the authorization code flow and only accepting tokens directly from the authorization server's token enpdoint, and by using a <code>state</code> value that is unguessable by an attacker.</p>
 
 			<h4 id="audience-restriction">Lack of audience restriction</h4>
 			
@@ -92,6 +101,8 @@ require('../includes/_header.php');
 			<h4 id="id-tokens">ID Tokens</h4>
 			
 			<p>The OpenID Connect ID Token is a signed <a href="https://tools.ietf.org/html/draft-ietf-oauth-json-web-token">JSON Web Token (JWT)</a> that is given to the client application along side the regular OAuth access token. The ID Token contains a set of claims about the authentication session, including an identifier for the user (<code>sub</code>), the identifier for the identity provider who issued the token (<code>iss</code>), and the identifier of the client for which this token was created (<code>aud</code>). Additionally, the ID Token contains information about the token's valid (and usually short) lifetime as well as any information about the authentication context to be conveyed to the client, such as how long ago the user was presented with a primary authentication mecehanism. Since the format of the ID Token is known by the client, it is able to parse the content of the token directly and obtain this information without relying on an external service to do so. Furthermore, it is issued in addition to (and not in lieu of) an access token, allowing the access token to remain opaque to the client as it is defined in regular OAuth. Finally, the token itself is signed by the identity provider's public key, adding an additional layer of protection to the claims inside of it in addition to the TLS transport protection that was used to get the token in the first place, preventing a class of impersonation attacks. By applying a few simple checks to this ID token, a client can protect itself from a large number of common attacks.</p>
+
+			<p>Since the ID Token is signed by the authorization server, it also provides a location to add detatched signatures over the authorization code (<code>c_hash</code>) and access token (<code>at_hash</code>). These hashes can be validated by the client while still keeping the authorization code and access token content opaque to the client, preventing a whole class of injection attacks.</p>
 			
 			<h4 id="userinfo-endpoint">UserInfo Endpoint</h4>
 			
@@ -107,7 +118,7 @@ require('../includes/_header.php');
 			
 			<h4 id="advanced-oidc">Advanced capabilities</h4>
 			
-			<p>OpenID Connect also defines a number of advanced capabilities beyond standard OAuth that are suitable for higher security profiles and deployments, including (among others):</p>
+			<p>OpenID Connect also defines a number of advanced capabilities beyond standard OAuth, including the following (among others):</p>
 
 				<ul>
 					<li><a href="http://openid.net/specs/openid-connect-core-1_0.html#ClientAuthentication">Public key and shared cyptographic secret client authentication</a></li>
