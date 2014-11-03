@@ -30,9 +30,9 @@ require('../includes/_header.php');
 			
 			<p><b>OAuth 2.0 is not an authentication protocol.</b></p>
 			
-			<p>Much of the confusion comes from the fact that OAuth is used <i>inside</i> of authentication protocols, and developers will see the OAuth components and interact with the OAuth flow and assume that by simply using OAuth, they can accomplish user authentication.</p>
+			<p>Much of the confusion comes from the fact that OAuth is used <i>inside</i> of authentication protocols, and developers will see the OAuth components and interact with the OAuth flow and assume that by simply using OAuth, they can accomplish user authentication. This turns out to be not only untrue, but also dangerous for service providers, developers, and end users.</p>
 			
-			<p>This article is intended to help <i>service providers</i> and potential <i>identity providers</i> with the question of how to build an authentication and identity API using OAuth 2.0 as the base. Essentially, if you're saying "I have OAuth 2.0, and I need authentication and identity", then read on.</p>
+			<p>This article is intended to help potential <i>identity providers</i> with the question of how to build an authentication and identity API using OAuth 2.0 as the base. Essentially, if you're saying "I have OAuth 2.0, and I need authentication and identity", then read on.</p>
 
 			<h4 id="what-is-authn">What is authentication?</h4>
 			
@@ -47,7 +47,7 @@ require('../includes/_header.php');
 
             <h4 id="chocolate-vs-fudge">Authentication vs. Authorization: a metaphor</h3>
 			
-			<p>To help clear things up, it may be helpful to think of the problem in terms of a metaphor: chocolate vs. fudge. From the start, the nature of these two things is quite different: chocolate is an ingredient, fudge is a confection. Chocolate can be used to make many different things, and it can even be used on its own. Fudge can be made out of many different things, and one of those things <i>might</i> be chocolate, but it takes more than one ingredient to make fudge happen and it might not even involve chocolate. As such, it's incorrect to say that <i>chocolate</i> equals <i>fudge</i>, or even to say that <i>chocolate</i> equals <i>chocolate fudge</i>.</p>
+			<p>To help clear things up, it may be helpful to think of the problem in terms of a metaphor: chocolate vs. fudge. From the start, the nature of these two things is quite different: chocolate is an ingredient, fudge is a confection. Chocolate can be used to make many different things, and it can even be used on its own. Fudge can be made out of many different things, and one of those things <i>might</i> be chocolate, but it takes more than one ingredient to make fudge happen and it might not even involve chocolate. As such, it's incorrect to say that <i>chocolate</i> equals <i>fudge</i>, and it's certainly overreaching to say that <i>chocolate</i> equals <i>chocolate fudge</i>.</p>
 			
 			<p>OAuth, in this metaphor, is chocolate. It's a versatile ingredient that is fundamental to a number of different things and can even be used on its own to great effect. Authentication is more like fudge. There are at least a few ingredients that must brought together in the right way to make it work, and OAuth can be one of these ingredients (perhaps the main ingredient) but it doesn't have to be involved at all. You need a recipe that says what to combine and how to combine them, and there are a large number of different recipes that say how that can be accomplished.</p>
 			
@@ -116,9 +116,15 @@ require('../includes/_header.php');
 			
 			<p>To counteract this, OpenID Connect defines a <a href="http://openid.net/specs/openid-connect-discovery-1_0.html">discovery</a> protocol that allows clients to easily fetch information on how to interact with a specific identity provider. On the other side of the transaction, OpenID Connect defines a <a href="http://openid.net/specs/openid-connect-registration-1_0.html">client registration</a> protocol that allows clients to be introduced to new identity providers. By using these two mechanisms and a common identity API, OpenID Connect can function at internet scale, where no parties have to know about each other ahead of time.</p>  
 			
+			<h4 id="oauth-compatibility">Compatibility with OAuth 2.0</h4>
+			
+			<p>Even with all of this robust authentication capability, OpenID Connect is (by design) still compatible with plain OAuth 2.0, making it a very good choice to deploy on top of an OAuth system with minimal developer effort. In fact, if a service is already using OAuth and the <a href="https://datatracker.ietf.org/wg/jose/charter/">JSON Object Signing and Encryption (JOSE)</a> specifications (including JWT), that service is already well on its way to supporting OpenID Connect already.</p>
+			
+			<p>To facilitate the building of good client applications, the OpenID Connect working group has published documents on building a <a href="">basic OpenID Connect client</a> using the authorization code flow as well as building an <a href="">implicit OpenID Connect client</a>. Both of these documents walk the developer through building a basic OAuth 2.0 client and adding the handful components necessary for OpenID Connect</p>
+
 			<h4 id="advanced-oidc">Advanced capabilities</h4>
 			
-			<p>OpenID Connect also defines a number of advanced capabilities beyond standard OAuth, including the following (among others):</p>
+			<p>While the core specification is fairly straightforward, not all use cases can be adequately addressed by the base mechanisms. To support advanced use cases including higher security deployments, OpenID Connect also defines a number of optional advanced capabilities beyond standard OAuth, including the following (among others):</p>
 
 				<ul>
 					<li><a href="http://openid.net/specs/openid-connect-core-1_0.html#ClientAuthentication">Public key and shared cyptographic secret client authentication</a></li>
@@ -127,15 +133,11 @@ require('../includes/_header.php');
 					<li><a href="http://openid.net/specs/openid-connect-session-1_0.html">Session management beyond the initial authentication</a></li>
 				</ul>
 			
-			<h4 id="oauth-compatibility">Compatibility with OAuth 2.0</h4>
-			
-			<p>Even with all of this advanced functionality and robust authentication capability, OpenID Connect (by design) compatible with plain OAuth 2.0, making it a very good choice to deploy on top of an OAuth system for minimal developer effort. In fact, if a service is already using OAuth and the <a href="https://datatracker.ietf.org/wg/jose/charter/">JSON Object Signing and Encryption (JOSE)</a> specifications (including JWT), that service is already well on its way to supporting OpenID Connect already.</p>
-
             <h3 id="further-reading">Further Reading</h3>
 
 			<ul>
-				<li>In the article <a href="http://www.cloudidentity.com/blog/2013/01/02/oauth-2-0-and-sign-in-4/">OAuth 2.0 and Sign-in</a>, Vittorio Bertocci provides detail on the security boundaries between parties and why the authorization layer makes sense as the lower layer to build on top of.</li>
-				<li>Justin Richer presented a detailed overview of the technologies talked about here in <a href="http://www.slideshare.net/zeronine1/auth-in-the-extended-enterprise-mit-hackathon-2013">Auth* In the Extended Enterprise</a> at MIT.</li>
+				<li>In the article <a href="http://www.cloudidentity.com/blog/2013/01/02/oauth-2-0-and-sign-in-4/">OAuth 2.0 and Sign-in</a>, Vittorio Bertocci provides detail on the security boundaries between parties and why the authorization layer makes sense as the lower layer to build on top of, and provides the source of the chocolate-vs-fudge metaphor stolen above.</li>
+				<li>Justin Richer presented a detailed overview of the technologies involved here and how they relate to each other in <a href="http://www.slideshare.net/zeronine1/auth-in-the-extended-enterprise-mit-hackathon-2013">Auth* In the Extended Enterprise</a> at MIT.</li>
 				<li>John Bradley has written a series of articles relating to this topic, including:
 					<ul>
 						<li><a href="http://www.thread-safe.com/2012/02/more-on-oauth-implicit-flow-application.html">Vulnerabilities in the Implicit Flow</a></li>
