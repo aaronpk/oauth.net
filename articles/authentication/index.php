@@ -5,7 +5,7 @@ $page_section = "articles";
 $page_secondary = "authentication";
 $page_meta_description = "Performing end user authentication using the OAuth 2.0 protocol.";
 
-require('../includes/_header.php');
+require('../../includes/_header.php');
 ?>
 <body class="<?php echo $page_section; ?>">
     <div class="container">
@@ -13,7 +13,7 @@ require('../includes/_header.php');
             <h1 id="site-name" class="column first span-5 prepend-1 append-1"><a href="/">OAuth</a></h1>
             <div id="primary" class="column span-13 last">
 
-                <?php require('../includes/_nav_primary.php'); ?>
+                <?php require('../../includes/_nav_primary.php'); ?>
 
             </div>
             <div id="secondary" class="column span-18 append-1 prepend-1 first last">
@@ -154,7 +154,7 @@ require('../includes/_header.php');
 				</li>
 			</ul>
 			
-            <?php include('../includes/_edit_banner.php'); ?>
+            <?php include('../../includes/_edit_banner.php'); ?>
 
         </div>
-        <?php require('../includes/_footer.php'); ?>
+        <?php require('../../includes/_footer.php'); ?>
