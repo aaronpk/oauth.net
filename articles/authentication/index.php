@@ -31,7 +31,7 @@ require('../../includes/_header.php');
 			
             <p>The <a href="http://tools.ietf.org/html/rfc6749">OAuth 2.0</a> specification defines a <i>delegation</i> protocol that is useful for conveying <i>authorization decisions</i> across a network of web-enabled applications and APIs. OAuth is used in a wide variety of applications, including providing mechanisms for user authentication. This has lead many developers and API providers to incorrectly conclude that OAuth is itself an <i>authentication</i> protocol and to mistakenly use it as such. Let's say that again, to be clear:</p>
 			
-			<p><b>OAuth 2.0 is not an authentication protocol.</b></p>
+			<div class="note"><b>OAuth 2.0 is not an authentication protocol.</b></div>
 			
 			<p>Much of the confusion comes from the fact that OAuth is used <i>inside</i> of authentication protocols, and developers will see the OAuth components and interact with the OAuth flow and assume that by simply using OAuth, they can accomplish user authentication. This turns out to be not only untrue, but also dangerous for service providers, developers, and end users.</p>
 			
@@ -48,7 +48,7 @@ require('../../includes/_header.php');
 			<p>As it turns out, though, there are a handful of things that can be used along with OAuth to <i>create</i> an authentication and identity protocol on top of this delegation and authorization protocol. In nearly all of these cases, the core functionality of OAuth remains intact, and what's happening is that the user is <i>delegating access to their identity</i> to the application they're trying to log in to. The client application then becomes a consumer of the identity API, thereby finding out who authorized the client in the first place. One major benefit of building authentication on top of authorization in this way is that it allows for management of end-user consent, which is very important in cross-domain identity federation at internet scale. Another important benefit is that the user can delegate access to other protected APIs <i>along side</i> their identity at the same time, making it much simpler for both application developers and end users to manage. With one call, an application can find out if a user is logged in, what the app should call the user, download photos for printing, and post updates to their message stream. This simplicity is very compelling, but by doing both at the same time, many developers conflate the two functions.</p>
 
 
-            <h4 id="chocolate-vs-fudge">Authentication vs. Authorization: a metaphor</h3>
+            <h4 id="chocolate-vs-fudge">Authentication vs. Authorization: a metaphor</h4>
 			
 			<p>To help clear things up, it may be helpful to think of the problem in terms of a metaphor: chocolate vs. fudge. From the start, the nature of these two things is quite different: chocolate is an ingredient, fudge is a confection. Chocolate can be used to make many different things, and it can even be used on its own. Fudge can be made out of many different things, and one of those things <i>might</i> be chocolate, but it takes more than one ingredient to make fudge happen and it might not even involve chocolate. As such, it's incorrect to say that <i>chocolate</i> equals <i>fudge</i>, and it's certainly overreaching to say that <i>chocolate</i> equals <i>chocolate fudge</i>.</p>
 			
@@ -73,7 +73,7 @@ require('../../includes/_header.php');
 			
 			<p>Furthermore, the access token will generally be usable long after the user is no longer present. Remember, since OAuth is a delegation protocol, this is fundamental to its design.This means that if a client wants to make sure that an authentication is still valid, it's not sufficient to simply trade the token for the user's attributes again because the OAuth protected resource, the identity API, often has no way of telling if the user is there or not.</p>
 						
-			<h4 id="access-token-injection">Injection of access tokens</p>
+			<h4 id="access-token-injection">Injection of access tokens</h4>
 			
 			<p>An additional (and very dangerous) threat occurs when clients accept access tokens from sources other than the return call from the token endpoint. This can occur for a client that uses the implicit flow (where the token is passed directly as a parameter in the URL hash) and don't properly use the OAuth <code>state</code> parameter. This issue can also occur if different parts of an application pass the access token between components in order to "share" access among them. This is problematic because it opens up a place for access tokens to potentially be injected into an application by an outside party (and potentially leak outside of the application). If the client application does not validate the access token through some mechanism, it has no way of differentiating between a valid token and an attack token.</p>
 			
