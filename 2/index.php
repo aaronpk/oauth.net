@@ -94,6 +94,10 @@ require('../includes/_header.php');
                     <ul>
                         <li><a href="https://github.com/pipacs/o2">O2 (supports OAuth 1.0a and 2.0</a></li>
                 </ul></li>
+                <li>Lua/Corona SDK
+                    <ul>
+                        <li><a href="http://selz.co/1kxjJVl">Corona/Lua OAuth 2.0 API</a></li>
+                </ul></li>
             </ul>
 
             <h4 id="services-that-support-oauth-2">Services that support OAuth 2</h4>
