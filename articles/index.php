@@ -19,7 +19,7 @@ require('../includes/_header.php');
       </div>
       <div id="secondary" class="column span-18 append-1 prepend-1 first last">
         <ul class="navigation">
-          <li><a class="selected" href="/advisories">Articles</a></li>
+          <li><a class="selected" href="/articles">Articles</a></li>
         </ul>
       </div>
     </div>
@@ -30,7 +30,7 @@ require('../includes/_header.php');
 
       <h3>End User Authentication with OAuth 2.0</h3>
 
-	  <p>While OAuth is not an authentication protocol on its own, there are a number of high-profile authentication protocols built with OAuth 2.0. This article seeks to expose common pitfalls and demonstrate <a href="/articles/authentication/">how to do end user authentication using OAuth 2.0</a> in a secure and reliable manner.</p>
+	  <p>While OAuth is not an authentication protocol on its own, there are a number of high-profile authentication protocols built with OAuth 2.0. This article seeks to expose common pitfalls and demonstrate <a href="/articles/authentication">how to do end user authentication using OAuth 2.0</a> in a secure and reliable manner.</p>
 	  
     </div>
 

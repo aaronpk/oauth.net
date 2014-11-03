@@ -17,7 +17,10 @@ require('../includes/_header.php');
 
             </div>
             <div id="secondary" class="column span-18 append-1 prepend-1 first last">
-
+				<ul class="navigation">
+					<li><a href="/articles">Articles</a></li>
+					<li><a class="selected" href="/articles/authentication">Authentication</a></li>
+				</ul>
             </div>
         </div>
 
