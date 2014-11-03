@@ -115,6 +115,10 @@ require('../includes/_header.php');
                 <li><a href="https://do.com">Do.com (draft 22)</a></li>
                 <li><a href="http://msdn.microsoft.com/en-us/library/live/hh243647.aspx">Windows Live</a></li>
             </ul>
+			
+			<h3>Legacy</h3>
+			
+			<p>For more information on OAuth 1.0 and 1.0a, see the <a href="/about">old About page</a>.</p>
 
             <?php include('../includes/_edit_banner.php'); ?>
 
