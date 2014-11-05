@@ -29,7 +29,11 @@ require('../includes/_header.php');
 			<h2>Code</h2>
 			
 			<p>Below is a collection of OAuth 1 and 2 libraries. If you would like to make any changes to this page, you can <a href="https://github.com/aaronpk/oauth.net/blob/master/code/index.php">edit this page</a> and send a pull request.</p>
+
+			<h3>C</h3>
 			
+			<p><a href="http://liboauth.sourceforge.net//">liboauth</a> a collection of POSIX-c functions implementing the OAuth Core <a href="http://tools.ietf.org/html/rfc5849">RFC 5849</a> standard.</p>
+
 			<h3>DotNET</h3>
 			
 			<p><a href="http://dotnetopenauth.net/">DotNetOpenAuth</a> a consumer and service provider implementation for OAuth 1.0 and 1.0a for .NET, written in C#.  It has built-in support for <span class="caps">HMAC</span>-SHA1, <span class="caps">RSA</span>-SHA1, and <span class="caps">PLAINTEXT</span> signature methods with extensibility to add others. It also includes the OpenID+OAuth extension. It works for <span class="caps">ASP</span>.NET as well as non-ASP.NET services, and works in partial trust shared hosting environments. Contributed by <a href="http://blog.nerdbank.net/">Andrew Arnott</a>.</p>
