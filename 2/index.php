@@ -121,6 +121,7 @@ require('../includes/_header.php');
                 <li><a href="http://developers.soundcloud.com/docs/api/reference">SoundCloud</a></li>
                 <li><a href="https://do.com">Do.com (draft 22)</a></li>
                 <li><a href="http://msdn.microsoft.com/en-us/library/live/hh243647.aspx">Windows Live</a></li>
+				<li><a href="http://www.timecockpit.com/blog/2014/10/31/Welcome-OAuth2-and-OpenID-Connect">time cockpit</a></li>
             </ul>
 			
 			<h3>Legacy</h3>
