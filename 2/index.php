@@ -88,12 +88,20 @@ require('../includes/_header.php');
 
             <h4 id="client-libraries">Client Libraries</h4>
             <ul>
-                <li><a href="http://www.phpclasses.org/package/7700-PHP-Authorize-and-access-APIs-using-OAuth.html">PHP</a></li>
-                <li><a href="https://github.com/fkooman/php-oauth-client">PHP OAuth 2.0 client</a></li>
-                <li><a href="https://github.com/ivan-novakov/php-openid-connect-client">OAuth2/OpenID Connect Client Library for PHP/Zend Framework 2</a></li>
-                <li><a href="http://github.com/leebyron/cocoa-oauth2">Cocoa</a></li>
-                <li><a href="http://github.com/lukeredpath/LROAuth2Client">iPhone and iPad</a></li>
-                <li><a href="http://github.com/nxtbgthng/OAuth2Client">iOS and Mac OS X (draft 10)</a></li>
+                <li>PHP
+                    <ul>
+                        <li><a href="http://www.phpclasses.org/package/7700-PHP-Authorize-and-access-APIs-using-OAuth.html">PHP</a></li>
+                        <li><a href="https://github.com/fkooman/php-oauth-client">PHP OAuth 2.0 client</a></li>
+                        <li><a href="https://github.com/ivan-novakov/php-openid-connect-client">OAuth2/OpenID Connect Client Library for PHP/Zend Framework 2</a></li>
+                    </ul>
+                </li>
+                <li>Objective C
+                    <ul>
+                        <li><a href="http://github.com/leebyron/cocoa-oauth2">Cocoa</a></li>
+                        <li><a href="http://github.com/lukeredpath/LROAuth2Client">iPhone and iPad</a></li>
+                        <li><a href="http://github.com/nxtbgthng/OAuth2Client">iOS and Mac OS X (draft 10)</a></li>
+                    </ul>
+                </li>
                 <li>Java
                     <ul>
                         <li><a href="http://oltu.apache.org/">Apache Oltu</a></li>
@@ -101,29 +109,42 @@ require('../includes/_header.php');
                         <li><a href="http://static.springsource.org/spring-security/oauth/">Spring Security for OAuth</a></li>
                         <li><a href="http://www.restlet.org/">Restlet Framework (draft 30)</a></li>
                         <li><a href="https://github.com/fernandezpablo85/scribe-java">scribe-java</a></li>
-                </ul></li>
+                    </ul>
+                </li>
                 <li>Python
                     <ul>
                         <li><a href="http://github.com/demianbrecht/sanction">sanction</a></li>
                         <li><a href="http://github.com/litl/rauth">rauth</a></li>
-                </ul></li>
-                <li><a href="http://github.com/intridea/oauth2">Ruby Gem</a></li>
-                <li><a href="http://github.com/aflatter/oauth2-ruby">Ruby</a></li>
-                <li><a href="http://github.com/andreassolberg/jso">Javascript</a></li>
+                    </ul>
+                </li>
+                <li>Ruby
+                    <ul>
+                        <li><a href="http://github.com/intridea/oauth2">Ruby Gem</a></li>
+                        <li><a href="http://github.com/aflatter/oauth2-ruby">Ruby</a></li>
+                    </ul>
+                </li>
+                <li>Javascript
+                    <ul>
+                        <li><a href="http://github.com/andreassolberg/jso">Javascript</a></li>
+                    </ul>
+                </li>
                 <li>.NET
                     <ul>
                         <li><a href="http://www.nuget.org/packages/Microsoft.Owin.Security.OAuth">OWIN Middleware</a></li>
                         <li><a href="http://www.dotnetopenauth.net/">DotNetOpenAuth</a></li>
                         <li><a href="http://www.springframework.net/social/">Spring Social for .NET</a></li>
-                </ul></li>
+                    </ul>
+                </li>
                 <li>Qt/C++
                     <ul>
                         <li><a href="https://github.com/pipacs/o2">O2 (supports OAuth 1.0a and 2.0</a></li>
-                </ul></li>
+                    </ul>
+                </li>
                 <li>Lua/Corona SDK
                     <ul>
                         <li><a href="http://selz.co/1kxjJVl">Corona/Lua OAuth 2.0 API</a></li>
-                </ul></li>
+                    </ul>
+                </li>
             </ul>
 
             <h4 id="services-that-support-oauth-2">Services that support OAuth 2</h4>
