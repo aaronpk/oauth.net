@@ -66,6 +66,8 @@ require('../includes/_header.php');
 			<p><a href="http://code.google.com/p/oauth-signpost/">OAuth Signpost</a> offers simple OAuth message signing for Java and Apache HttpComponents (Google Android ready!). Contributed by Matthias Kaeppler.</p>
 			
 			<p><a href="http://github.com/fernandezpablo85/scribe-java">Scribe</a> is a mature OAuth library for Java by <a href="http://github.com/fernandezpablo85" title="fernandezpablo85's Profile - GitHub">Pablo Fernandez</a> that is intended to work with all APIs. It has been <a href="http://developer.linkedin.com/message/4568" title="LinkedIn Developer Network: How To: LinkedIn OAuth with Java">featured in LinkedIn's developers forums</a> and works with Google, Yahoo, LinkedIn, Twitter, and Foursquare APIs out of the box.
+
+			<p><a href="https://github.com/kovacshuni/koauth">KOAauth</a> is a great library for both providers and consumers written by <a href="http://www.hunorkovacs.com">Hunor Kovács</a>. Originally it was intended for Scala but could be fully used in Java as well.</p>
 			
 			<h3>Javascript</h3>
 			
@@ -134,7 +136,11 @@ require('../includes/_header.php');
 			<h3>Ruby</h3>
 			
 			<p><a href="http://romeda.org/">Blaine Cook</a>, <a href="http://stakeventures.com/">Pelle Braendgaard</a> and others have written a <a href="https://github.com/oauth-xx/oauth-ruby">library in Ruby</a>.</p>
-			
+
+			<h3>Scala</h3>
+
+			<p>There is a great library for Scala named <a href="https://github.com/kovacshuni/koauth">koauth</a> written by <a href="http://www.hunorkovacs.com">Hunor Kovács</a>. It's both for consumer and provider.</p>
+
 			<h3>Scheme</h3>
 			
 			<p>Aleix Conchillo Flaque has contributed <a href="http://github.com/aconchillo/guile-oauth/">guile-oauth</a> an OAuth client module for Guile. It currently supports OAuth 1.0 and HMAC-SHA1 and PLAINTEXT authentication. It comes with a Twitter <a href="http://github.com/aconchillo/guile-oauth/blob/master/examples/oauth1/twitter.scm">example</a>.</p>
