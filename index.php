@@ -17,7 +17,7 @@ require('./includes/_header.php');
       <div id="site-description" class="column span-18 append-1 prepend-1 first last">
         <h3>An <strong>open protocol</strong> to allow <strong>secure authorization </strong> in a <strong>simple</strong> and <strong>standard</strong> method from web, mobile and desktop applications.</h3>
         <p id="read-more">
-          <a href="http://tools.ietf.org/html/rfc6749">Read the OAuth 2 specification &raquo;</a>
+          <a href="/2/">Learn more about OAuth 2.0 &raquo;</a>
         </p>
       </div>
     </div>
@@ -73,7 +73,7 @@ The OAuth 2.0 authorization framework enables a third-party
       </div>
 
   		<div class="note column span-20 first last">
-  			Learn more about the emerging <a href="/2/">OAuth 2.0 framework</a>.
+  			Learn more about the <a href="/2/">OAuth 2.0 framework</a>.
   		</div>
 
 			<div class="clear" />
