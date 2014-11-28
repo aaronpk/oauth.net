@@ -145,6 +145,11 @@ require('../includes/_header.php');
                         <li><a href="http://selz.co/1kxjJVl">Corona/Lua OAuth 2.0 API</a></li>
                     </ul>
                 </li>
+                <li>Dart
+                    <ul>
+                        <li><a href="https://pub.dartlang.org/packages/oauth2">Dart OAuth 2.0 Client</a></li>
+                    </ul>
+                </li>
             </ul>
 
             <h4 id="services-that-support-oauth-2">Services that support OAuth 2</h4>
