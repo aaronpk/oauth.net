@@ -61,6 +61,10 @@ require('../includes/_header.php');
 			
 			<p>Leslie P. Polzer contributed cl-oauth, which is available on <a href="http://github.com/skypher/cl-oauth/tree/master">GitHub</a> and <a href="http://gitorious.org/cl-oauth">Gitorious</a>. It currently supports <span class="caps">HMAC</span>-SHA1 authentication and comes with some SP convenience functions. It&#8217;s not polished yet but comes with a basic test suite and all you need to set up both Consumers and Service Providers.</p>
 			
+			<h3>Go</h3>
+
+			<p><a href="http://godoc.org/golang.org/x/oauth2">OAuth2</a> is an OAuth 2 client package. <a href="http://godoc.org/github.com/garyburd/go-oauth/oauth">Go-Oauth</a> is an OAuth 1 client package.</p>
+
 			<h3>Java</h3>		
 			
 			<p>A <a href="http://oauth.googlecode.com/svn/code/java/core/">Java library</a> and <a href="http://oauth.googlecode.com/svn/code/java/example/">examples</a> were contributed by John Kristian, Praveen Alavilli and Dirk Balfanz.</p>
