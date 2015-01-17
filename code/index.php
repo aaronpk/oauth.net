@@ -79,6 +79,8 @@ require('../includes/_header.php');
 			
 			<h3>Javascript</h3>
 			
+			<p><a href="https://github.com/simov">Simeon Velichkov</a> has written a <a href="https://github.com/simov/grant">OAuth middleware for Koa and Express</a>. 80+ supported providers for both OAuth and OAuth2 <a href="https://www.npmjs.com/package/grant">npm package</a>.</p>
+
 			<p><a href="http://www.ddo.me">Ddo</a> has contributed a <a href="https://github.com/joeddo/oauth-1.0a">OAuth 1.0a Request Authorizer (Send OAuth request with your favorite HTTP client as request, jQuery.ajax...)</a></p>
 			
 			<p>John Kristian has contributed a <a href="http://oauth.googlecode.com/svn/code/javascript/">Javascript Library</a>.</p>
