@@ -111,6 +111,11 @@ require('../includes/_header.php');
                         <li><a href="https://github.com/fernandezpablo85/scribe-java">scribe-java</a></li>
                     </ul>
                 </li>
+                <li>Scala
+                    <ul>
+                        <li><a href="http://silhouette.mohiva.com/">Silhouette</a></li>
+                    </ul>
+                </li>
                 <li>Python
                     <ul>
                         <li><a href="http://github.com/demianbrecht/sanction">sanction</a></li>
