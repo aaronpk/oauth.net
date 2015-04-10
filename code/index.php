@@ -32,7 +32,7 @@ require('../includes/_header.php');
 
 			<h3>C</h3>
 			
-			<p><a href="http://liboauth.sourceforge.net//">liboauth</a> a collection of POSIX-c functions implementing the OAuth Core <a href="http://tools.ietf.org/html/rfc5849">RFC 5849</a> standard.</p>
+			<p><a href="http://liboauth.sourceforge.net/">liboauth</a> a collection of POSIX-c functions implementing the OAuth Core <a href="http://tools.ietf.org/html/rfc5849">RFC 5849</a> standard.</p>
 
 			<h3>DotNET</h3>
 			
