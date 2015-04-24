@@ -30,6 +30,10 @@ require('../includes/_header.php');
 			
 			<p>Below is a collection of OAuth 1 and 2 libraries. If you would like to make any changes to this page, you can <a href="https://github.com/aaronpk/oauth.net/blob/master/code/index.php">edit this page</a> and send a pull request.</p>
 
+			<h3>ActionScript</h3>
+			
+			<p><a href="http://charlesbihis.github.io/actionscript-oauth2/">ActionScript OAuth 2</a> is a client library for Flash/Flex/AIR applications to integrate with OAuth 2-compliant service providers (announcement <a href="http://adobe.ly/LOmk7G">here</a>).  Contributed by <a href="http://www.whosicharles.com/">Charles Bihis</a>.</p>
+
 			<h3>C</h3>
 			
 			<p><a href="http://liboauth.sourceforge.net/">liboauth</a> a collection of POSIX-c functions implementing the OAuth Core <a href="http://tools.ietf.org/html/rfc5849">RFC 5849</a> standard.</p>
