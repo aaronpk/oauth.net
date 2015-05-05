@@ -127,7 +127,6 @@ require('../includes/_header.php');
 				<li>There is now an <a href="http://cakebaker.42dh.com/downloads/oauth-component-for-cakephp/">OAuth component for CakePHP</a>.</li>
 				<li>Justin Richer has developed <a href="http://community.elgg.org/pg/plugins/jricher/read/385119/oauth">a plugin</a> for the <a href="http://elgg.org/">Elgg</a> social networking platform, based on the <a href="http://oauth.googlecode.com/svn/code/php/">basic PHP library</a>. This library allows Elgg to act as both an OAuth client (to access other services) and server (allowing OAuth-protected access to the Elgg API). The library supports both version 1.0 and revision 1.0a simultaneously. Documentation can be found <a href="http://docs.elgg.org/wiki/OAuth">on the Elgg wiki</a>.</li>
 				<li><a href="http://framework.zend.com/wiki/pages/viewpage.action?pageId=37957">Zend_OAuth</a> was contributed by P&aacute;draic Brady. The source code can be found <a href="http://framework.zend.com/svn/framework/standard/incubator/library/Zend/Oauth/">here</a>.</li>
-				<li><a href="http://ohmyauth.com/">ohmy-auth</a> provides a simple fluent interface for OAuth 1.0a/2.0.</li>
 			</ul>
 			
 			<h3>Python</h3>
