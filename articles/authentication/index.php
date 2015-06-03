@@ -29,7 +29,7 @@ require('../../includes/_header.php');
 			
 			<!-- Article compiled and edited by Justin Richer -->
 			
-            <p>The <a href="http://tools.ietf.org/html/rfc6749">OAuth 2.0</a> specification defines a <i>delegation</i> protocol that is useful for conveying <i>authorization decisions</i> across a network of web-enabled applications and APIs. OAuth is used in a wide variety of applications, including providing mechanisms for user authentication. This has lead many developers and API providers to incorrectly conclude that OAuth is itself an <i>authentication</i> protocol and to mistakenly use it as such. Let's say that again, to be clear:</p>
+            <p>The <a href="http://tools.ietf.org/html/rfc6749">OAuth 2.0</a> specification defines a <i>delegation</i> protocol that is useful for conveying <i>authorization decisions</i> across a network of web-enabled applications and APIs. OAuth is used in a wide variety of applications, including providing mechanisms for user authentication. This has led many developers and API providers to incorrectly conclude that OAuth is itself an <i>authentication</i> protocol and to mistakenly use it as such. Let's say that again, to be clear:</p>
 			
 			<div class="note"><b>OAuth 2.0 is not an authentication protocol.</b></div>
 			
