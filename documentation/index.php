@@ -29,7 +29,7 @@ require('../includes/_header.php');
   <div id="main" class="column first last span-18 prepend-1 append-1">
     <h2>OAuth 2.0 Core</h2>
     <ul>
-      <li><a href="http://tools.ietf.org/html/rfc6749">OAuth 2.0 Framework</a> - RFC 6749.</li>
+      <li><a href="http://tools.ietf.org/html/rfc6749">OAuth 2.0 Framework</a> - RFC 6749</li>
       <li><a href="http://tools.ietf.org/html/rfc6750">Bearer Token Usage</a> - RFC 6750</li>
       <li><a href="http://tools.ietf.org/html/rfc6819">Threat Model and Security Considerations</a> - RFC 6819</li>
     </ul>
@@ -45,10 +45,10 @@ require('../includes/_header.php');
 
     <h2>OAuth 2.0 Extensions</h2>
     <ul>
-      <li><a href="http://tools.ietf.org/html/draft-ietf-oauth-json-web-token">JSON Web Token</a></li>
-      <li><a href="http://tools.ietf.org/html/draft-ietf-oauth-assertions">OAuth Assertions Framework</a></li>
-      <li><a href="http://tools.ietf.org/html/draft-ietf-oauth-saml2-bearer">SAML2 Bearer Assertion</a> - for integrating with existing identity systems</li>
-      <li><a href="http://tools.ietf.org/html/draft-ietf-oauth-jwt-bearer">JWT Bearer Assertion</a> - for integrating with existing identity systems</li>
+      <li><a href="http://tools.ietf.org/html/rfc7519">JSON Web Token</a> - RFC 7519</li>
+      <li><a href="http://tools.ietf.org/html/rfc7521">OAuth Assertions Framework</a> - RFC 7521</li>
+      <li><a href="http://tools.ietf.org/html/rfc7522">SAML2 Bearer Assertion</a> - RFC 7522, for integrating with existing identity systems</li>
+      <li><a href="http://tools.ietf.org/html/rfc7523">JWT Bearer Assertion</a> - RFC 7523, for integrating with existing identity systems</li>
     </ul>
 
     <h2>Community Resources</h2>
