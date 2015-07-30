@@ -103,7 +103,7 @@ require('../../includes/_header.php');
 
 			<h4 id="id-tokens">ID Tokens</h4>
 			
-			<p>The OpenID Connect ID Token is a signed <a href="https://tools.ietf.org/html/draft-ietf-oauth-json-web-token">JSON Web Token (JWT)</a> that is given to the client application along side the regular OAuth access token. The ID Token contains a set of claims about the authentication session, including an identifier for the user (<code>sub</code>), the identifier for the identity provider who issued the token (<code>iss</code>), and the identifier of the client for which this token was created (<code>aud</code>). Additionally, the ID Token contains information about the token's valid (and usually short) lifetime as well as any information about the authentication context to be conveyed to the client, such as how long ago the user was presented with a primary authentication mecehanism. Since the format of the ID Token is known by the client, it is able to parse the content of the token directly and obtain this information without relying on an external service to do so. Furthermore, it is issued in addition to (and not in lieu of) an access token, allowing the access token to remain opaque to the client as it is defined in regular OAuth. Finally, the token itself is signed by the identity provider's public key, adding an additional layer of protection to the claims inside of it in addition to the TLS transport protection that was used to get the token in the first place, preventing a class of impersonation attacks. By applying a few simple checks to this ID token, a client can protect itself from a large number of common attacks.</p>
+			<p>The OpenID Connect ID Token is a signed <a href="https://tools.ietf.org/html/draft-ietf-oauth-json-web-token">JSON Web Token (JWT)</a> that is given to the client application along side the regular OAuth access token. The ID Token contains a set of claims about the authentication session, including an identifier for the user (<code>sub</code>), the identifier for the identity provider who issued the token (<code>iss</code>), and the identifier of the client for which this token was created (<code>aud</code>). Additionally, the ID Token contains information about the token's valid (and usually short) lifetime as well as any information about the authentication context to be conveyed to the client, such as how long ago the user was presented with a primary authentication mechanism. Since the format of the ID Token is known by the client, it is able to parse the content of the token directly and obtain this information without relying on an external service to do so. Furthermore, it is issued in addition to (and not in lieu of) an access token, allowing the access token to remain opaque to the client as it is defined in regular OAuth. Finally, the token itself is signed by the identity provider's public key, adding an additional layer of protection to the claims inside of it in addition to the TLS transport protection that was used to get the token in the first place, preventing a class of impersonation attacks. By applying a few simple checks to this ID token, a client can protect itself from a large number of common attacks.</p>
 
 			<p>Since the ID Token is signed by the authorization server, it also provides a location to add detatched signatures over the authorization code (<code>c_hash</code>) and access token (<code>at_hash</code>). These hashes can be validated by the client while still keeping the authorization code and access token content opaque to the client, preventing a whole class of injection attacks.</p>
 			
@@ -154,6 +154,16 @@ require('../../includes/_header.php');
 				</li>
 			</ul>
 			
+      <div class="article-author-box">
+      	<div style="height:90px; float:left;">
+      		<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: 0; margin-right: 10px;" src="https://i.creativecommons.org/l/by/4.0/88x31.png" height="31" width="88" /></a>
+      	</div>
+        This article was written by <a href="https://twitter.com/zer0n1ne">Justin Richer</a> with input from the OAuth community
+      	and is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+      </div>
+
+      <br><br>
+
             <?php include('../../includes/_edit_banner.php'); ?>
 
         </div>

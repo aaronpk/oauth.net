@@ -390,3 +390,8 @@ clear: both;
 	
 /* @end */
 	
+.article-author-box {
+	padding: 6px;
+	border: 2px solid #e6ecf2;
+}
+
