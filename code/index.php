@@ -30,9 +30,13 @@ require('../includes/_header.php');
 			
 			<p>Below is a collection of OAuth 1 and 2 libraries. If you would like to make any changes to this page, you can <a href="https://github.com/aaronpk/oauth.net/blob/master/code/index.php">edit this page</a> and send a pull request.</p>
 
+			<h3>ActionScript</h3>
+			
+			<p><a href="http://charlesbihis.github.io/actionscript-oauth2/">ActionScript OAuth 2</a> is a client library for Flash/Flex/AIR applications to integrate with OAuth 2-compliant service providers (announcement <a href="http://adobe.ly/LOmk7G">here</a>).  Contributed by <a href="http://www.whosicharles.com/">Charles Bihis</a>.</p>
+
 			<h3>C</h3>
 			
-			<p><a href="http://liboauth.sourceforge.net//">liboauth</a> a collection of POSIX-c functions implementing the OAuth Core <a href="http://tools.ietf.org/html/rfc5849">RFC 5849</a> standard.</p>
+			<p><a href="http://liboauth.sourceforge.net/">liboauth</a> a collection of POSIX-c functions implementing the OAuth Core <a href="http://tools.ietf.org/html/rfc5849">RFC 5849</a> standard.</p>
 
 			<h3>DotNET</h3>
 			
@@ -61,6 +65,10 @@ require('../includes/_header.php');
 			
 			<p>Leslie P. Polzer contributed cl-oauth, which is available on <a href="http://github.com/skypher/cl-oauth/tree/master">GitHub</a> and <a href="http://gitorious.org/cl-oauth">Gitorious</a>. It currently supports <span class="caps">HMAC</span>-SHA1 authentication and comes with some SP convenience functions. It&#8217;s not polished yet but comes with a basic test suite and all you need to set up both Consumers and Service Providers.</p>
 			
+			<h3>Go</h3>
+
+			<p><a href="http://godoc.org/golang.org/x/oauth2">OAuth2</a> is an OAuth 2 client package. <a href="http://godoc.org/github.com/garyburd/go-oauth/oauth">Go-Oauth</a> is an OAuth 1 client package.</p>
+
 			<h3>Java</h3>		
 			
 			<p>A <a href="http://oauth.googlecode.com/svn/code/java/core/">Java library</a> and <a href="http://oauth.googlecode.com/svn/code/java/example/">examples</a> were contributed by John Kristian, Praveen Alavilli and Dirk Balfanz.</p>
@@ -75,6 +83,8 @@ require('../includes/_header.php');
 			
 			<h3>Javascript</h3>
 			
+			<p><a href="https://github.com/simov">Simeon Velichkov</a> has written a <a href="https://github.com/simov/grant">OAuth middleware for Koa and Express</a>. 80+ supported providers for both OAuth and OAuth2 <a href="https://www.npmjs.com/package/grant">npm package</a>.</p>
+
 			<p><a href="http://www.ddo.me">Ddo</a> has contributed a <a href="https://github.com/joeddo/oauth-1.0a">OAuth 1.0a Request Authorizer (Send OAuth request with your favorite HTTP client as request, jQuery.ajax...)</a></p>
 			
 			<p>John Kristian has contributed a <a href="http://oauth.googlecode.com/svn/code/javascript/">Javascript Library</a>.</p>
@@ -108,7 +118,7 @@ require('../includes/_header.php');
 			<h3>PHP</h3>
 			
 			<ul>
-				<li><a href="http://alexbilbie.com/">Alex Bilbie</a> has written an <a href="https://github.com/php-loep/oauth2-server">OAuth 2.0 server</a> which supports the main specification grants for authorisation, and can be used to secure an API with OAuth 2.0 access tokens.</li>
+				<li><a href="http://alexbilbie.com/">Alex Bilbie</a> has written an <a href="https://github.com/thephpleague/oauth2-server">OAuth 2.0 server</a> in PHP which supports the main specification grants for authorisation, and can be used to secure an API with OAuth 2.0 access tokens.</li>
 				<li>There is an <a href="http://php.net/oauth">extension to <span class="caps">PHP</span></a> that supports OAuth. It was written by <a href="http://jawed.name/">John Jawed</a>. An example can be found <a href="http://svn.php.net/viewvc/pecl/oauth/trunk/examples/">here</a> and a <a href="http://toys.lerdorf.com/archives/50-Using-pecloauth-to-post-to-Twitter.html">walkthrough</a> is also available. This <a href="http://pecl.php.net/package/oauth">pecl package</a> is considered the de facto standard by Rasmus Lerdorf.</li>
 				<li><a href="http://www.phpclasses.org/browse/author/1.html">Manuel Lemos</a> has written a <a href="http://www.phpclasses.org/package/7700-PHP-Authorize-and-access-APIs-using-OAuth.html"><span class="caps">PHP</span> OAuth class</a> that abstracts OAuth 1.0a and OAuth 2.0 in the same class. It provides built-in support to several popular OAuth servers, so you do not have to spend time configuring the respective end point URLs. It supports every other OAuth server through specific configuration variables, including some meant to workaround OAuth implementation glitches that some servers have. <a href="http://www.phpclasses.org/browse/file/42013.html">Documentation</a> and practical examples come with the class package.</li>
 				<li><a href="http://term.ie">Andy Smith</a> has written a <a href="http://oauth.googlecode.com/svn/code/php/">basic <span class="caps">PHP</span> library</a> for OAuth.</li>
@@ -117,7 +127,6 @@ require('../includes/_header.php');
 				<li>There is now an <a href="http://cakebaker.42dh.com/downloads/oauth-component-for-cakephp/">OAuth component for CakePHP</a>.</li>
 				<li>Justin Richer has developed <a href="http://community.elgg.org/pg/plugins/jricher/read/385119/oauth">a plugin</a> for the <a href="http://elgg.org/">Elgg</a> social networking platform, based on the <a href="http://oauth.googlecode.com/svn/code/php/">basic PHP library</a>. This library allows Elgg to act as both an OAuth client (to access other services) and server (allowing OAuth-protected access to the Elgg API). The library supports both version 1.0 and revision 1.0a simultaneously. Documentation can be found <a href="http://docs.elgg.org/wiki/OAuth">on the Elgg wiki</a>.</li>
 				<li><a href="http://framework.zend.com/wiki/pages/viewpage.action?pageId=37957">Zend_OAuth</a> was contributed by P&aacute;draic Brady. The source code can be found <a href="http://framework.zend.com/svn/framework/standard/incubator/library/Zend/Oauth/">here</a>.</li>
-				<li><a href="http://ohmyauth.com/">ohmy-auth</a> provides a simple fluent interface for OAuth 1.0a/2.0.</li>
 			</ul>
 			
 			<h3>Python</h3>

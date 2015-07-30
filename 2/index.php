@@ -46,14 +46,14 @@ require('../includes/_header.php');
                     <ul>
                         <li><a href="https://github.com/bshaffer/oauth2-server-php">PHP OAuth2 Server</a> and <a href="https://github.com/bshaffer/oauth2-demo-php">Demo</a></li>
                         <li><a href="https://github.com/thephpleague/oauth2-server">PHP OAuth 2.0 Auth and Resource Server</a> and <a href="https://github.com/lncd/oauth2-example-auth-server">Demo</a></li>
-                        <li><a href="https://github.com/fkooman/php-oauth">PHP OAuth 2.0</a> (AS with SAML/BrowserID AuthN, with management REST API, see <a href="https://frko.surfnetlabs.nl/workshop/">DEMO</a>)</li>
+                        <li><a href="https://github.com/fkooman/php-oauth">PHP OAuth 2.0</a> (AS with SAML/BrowserID AuthN, with management REST API)</li>
                         <li><a href="https://github.com/authbucket/oauth2">PHP OAuth2.0</a> for <a href="http://silex.sensiolabs.org/">Silex</a> and <a href="http://oauth2.authbucket.com/demo">Demo</a></li>
                         <li><a href="https://github.com/authbucket/oauth2-bundle">PHP OAuth2.0</a> for <a href="http://symfony.com/">Symfony</a> and <a href="http://oauth2-bundle.authbucket.com/demo">Demo</a></li>
                     </ul>
                 </li>
                 <li>Python
                     <ul>
-                        <li><a href="https://github.com/StartTheShift/pyoauth2">Python OAuth 2.0 Provider</a> (see <a href="http://tech.shift.com/post/39516330935/implementing-a-python-oauth-2-0-provider-part-1">Tutorial</a>)</li>
+                        <li><a href="https://github.com/NateFerrero/oauth2lib"> Python OAuth 2.0 Client + Server Library</a></li>
                         <li><a href="https://github.com/idan/oauthlib">OAuthLib</a> (a generic implementation of the OAuth request-signing logic) is avaliable for <a href="https://github.com/evonove/django-oauth-toolkit">Django</a> and <a href="https://github.com/lepture/flask-oauthlib">Flask</a> web frameworks</li>
                     </ul>
                 </li>
@@ -111,6 +111,11 @@ require('../includes/_header.php');
                         <li><a href="https://github.com/fernandezpablo85/scribe-java">scribe-java</a></li>
                     </ul>
                 </li>
+                <li>Scala
+                    <ul>
+                        <li><a href="http://silhouette.mohiva.com/">Silhouette</a></li>
+                    </ul>
+                </li>
                 <li>Python
                     <ul>
                         <li><a href="http://github.com/demianbrecht/sanction">sanction</a></li>
@@ -145,6 +150,11 @@ require('../includes/_header.php');
                         <li><a href="http://selz.co/1kxjJVl">Corona/Lua OAuth 2.0 API</a></li>
                     </ul>
                 </li>
+                <li>Dart
+                    <ul>
+                        <li><a href="https://pub.dartlang.org/packages/oauth2">Dart OAuth 2.0 Client</a></li>
+                    </ul>
+                </li>
             </ul>
 
             <h4 id="services-that-support-oauth-2">Services that support OAuth 2</h4>
@@ -160,10 +170,12 @@ require('../includes/_header.php');
                 <li><a href="https://developers.geoloqi.com">Geoloqi</a></li>
                 <li><a href="http://developer.github.com/v3/oauth/">GitHub</a></li>
                 <li><a href="https://developers.google.com/accounts/docs/OAuth2">Google</a></li>
+                <li><a href="https://dev.strato.com/hidrive">HiDrive</a></li>
                 <li><a href="http://www.meetup.com/meetup_api/auth/#oauth2">Meetup</a></li>
                 <li><a href="http://nationbuilder.com/api_quickstart">NationBuilder</a></li>
                 <li><a href="http://www.salesforce.com/us/developer/docs/api_rest/Content/quickstart_oauth.htm">Salesforce</a></li>
                 <li><a href="http://www.sharefile.com/">Citrix ShareFile</a></li>
+                <li><a href="https://api.slack.com/docs/oauth">Slack</a></li>
                 <li><a href="http://developers.soundcloud.com/docs/api/reference">SoundCloud</a></li>
                 <li><a href="https://do.com">Do.com (draft 22)</a></li>
                 <li><a href="http://msdn.microsoft.com/en-us/library/live/hh243647.aspx">Windows Live</a></li>
