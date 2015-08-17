@@ -90,8 +90,9 @@ require('../includes/_header.php');
             <ul>
                 <li>PHP
                     <ul>
-                        <li><a href="http://www.phpclasses.org/package/7700-PHP-Authorize-and-access-APIs-using-OAuth.html">PHP</a></li>
-                        <li><a href="https://github.com/fkooman/php-oauth-client">PHP OAuth 2.0 client</a></li>
+                        <li><a href="https://github.com/thephpleague/oauth2-client">league/oauth2-client</a>: OAuth 2.0 Client from <a href="https://thephpleague.com/">the League of Extraordinary Packages</a></li>
+                        <li><a href="http://www.phpclasses.org/package/7700-PHP-Authorize-and-access-APIs-using-OAuth.html">oauth-api</a> from <a href="http://www.phpclasses.org/">PHP Classes</a></li>
+                        <li><a href="https://github.com/fkooman/php-oauth-client">PHP OAuth 2.0 Authorization Code Grant Client</a></li>
                         <li><a href="https://github.com/ivan-novakov/php-openid-connect-client">OAuth2/OpenID Connect Client Library for PHP/Zend Framework 2</a></li>
                     </ul>
                 </li>
