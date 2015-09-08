@@ -123,7 +123,7 @@ require('../../includes/_header.php');
 			
 			<p>Even with all of this robust authentication capability, OpenID Connect is (by design) still compatible with plain OAuth 2.0, making it a very good choice to deploy on top of an OAuth system with minimal developer effort. In fact, if a service is already using OAuth and the <a href="https://datatracker.ietf.org/wg/jose/charter/">JSON Object Signing and Encryption (JOSE)</a> specifications (including JWT), that service is already well on its way to supporting OpenID Connect already.</p>
 			
-			<p>To facilitate the building of good client applications, the OpenID Connect working group has published documents on building a <a href="">basic OpenID Connect client</a> using the authorization code flow as well as building an <a href="">implicit OpenID Connect client</a>. Both of these documents walk the developer through building a basic OAuth 2.0 client and adding the handful components necessary for OpenID Connect</p>
+			<p>To facilitate the building of good client applications, the OpenID Connect working group has published documents on building a <a href="http://openid.net/specs/openid-connect-basic-1_0.html">basic OpenID Connect client</a> using the authorization code flow as well as building an <a href="http://openid.net/specs/openid-connect-implicit-1_0.html">implicit OpenID Connect client</a>. Both of these documents walk the developer through building a basic OAuth 2.0 client and adding the handful components necessary for OpenID Connect</p>
 
 			<h4 id="advanced-oidc">Advanced capabilities</h4>
 			
