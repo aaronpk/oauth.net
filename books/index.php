@@ -27,10 +27,12 @@ require('../includes/_header.php');
     <div id="main" class="column first last span-18 prepend-1 append-1">
       <h2>Books</h2>
 	  
-	  <a href="https://www.manning.com/books/oauth-2-in-action"><img src="oauth_in_action.jpg" alt="OAuth in Action Cover" title="OAuth in Action" style="float:left;"></a>
+	  <div>
+	  <a href="https://www.manning.com/books/oauth-2-in-action"><img src="oauth_in_action.jpg" alt="OAuth in Action Cover" title="OAuth in Action" style="float:left; max-width: 20%;"></a>
 			<p><a href="https://www.manning.com/books/oauth-2-in-action"><i>OAuth 2 in Action</i></a> by Justin Richer and Antonio Sanso covers the OAuth 2 protocol in depth, providing hands-on exercises for building clients, authorization servers, and protected resources in various configurations. The book covers the structure and components of an OAuth 2 system as well as several protocols that are built on and around OAuth 2.</p>
 			
 			<p>This book is currently available for <a href="https://www.manning.com/books/oauth-2-in-action">early-access pre-order from the publisher</a>. Pre-ordering the book gives you access to portions of the book in electronic format as it's being completed by the authors. You'll also be able to provide feadback during the production process.</p>
+	  </div>
     </div>
 
 <?php require('../includes/_footer.php'); ?>
