@@ -26,7 +26,7 @@ require('../includes/_header.php');
 
     <div id="main" class="column first last span-18 prepend-1 append-1">
       <h2>Articles</h2>
-			<p>The OAuth community is dedicated to help provide information on the proper use of the OAuth protocols through a series of articles on different topics.</p>
+			<p>The OAuth community is dedicated to helping provide information on the proper use of the OAuth protocols through a series of articles on different topics.</p>
 
       <h3>End User Authentication with OAuth 2.0</h3>
 

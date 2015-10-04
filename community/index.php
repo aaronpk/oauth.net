@@ -25,7 +25,7 @@ require('../includes/_header.php');
     <div id="main" class="column first last span-18 prepend-1 append-1">
       <h2>Community</h2>
 
-			<p>The OAuth community is dedicated improving the spec and library codebase, spreading awareness of the protocol and documenting and showing, through screencasts, wireframes, mockups and other illustrative designs, how best to put OAuth into use.</p>
+			<p>The OAuth community is dedicated to improving the spec and library codebase, spreading awareness of the protocol and documenting and showing, through screencasts, wireframes, mockups and other illustrative designs, how to best put OAuth to use.</p>
 
       <p>The <a href="https://www.ietf.org/mailman/listinfo/oauth">IETF OAuth mailing list</a> is for work related to <span class="caps">IETF</span> standardization.</p>
 
