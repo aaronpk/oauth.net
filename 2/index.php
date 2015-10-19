@@ -121,6 +121,7 @@ require('../includes/_header.php');
                     <ul>
                         <li><a href="http://github.com/demianbrecht/sanction">sanction</a></li>
                         <li><a href="http://github.com/litl/rauth">rauth</a></li>
+                        <li><a href="http://peterhudec.github.io/authomatic/">Authomatic</a></li>
                     </ul>
                 </li>
                 <li>Ruby
