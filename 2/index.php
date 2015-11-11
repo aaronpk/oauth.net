@@ -103,6 +103,11 @@ require('../includes/_header.php');
                         <li><a href="http://github.com/nxtbgthng/OAuth2Client">iOS and Mac OS X (draft 10)</a></li>
                     </ul>
                 </li>
+                <li>Swift
+                    <ul>
+                        <li><a href="https://github.com/dongri/OAuthSwif">OAuthSwift</a></li>
+                    </ul>
+                </li>
                 <li>Java
                     <ul>
                         <li><a href="http://oltu.apache.org/">Apache Oltu</a></li>
