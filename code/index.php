@@ -162,6 +162,10 @@ require('../includes/_header.php');
 
                         <p>Tim Fletcher published a <a href="https://github.com/tim/erlang-oauth/">library</a></p>
 
+			<h3>Swift</h3>
+
+			<p>Dongri Jin released <a href="https://github.com/dongri/OAuthSwift">OAuthSwift</a> an OAuth client module with OAuth 1.0 and 2.0 support.</p>
+
 			<h3>Others</h3>
 			
 			<p>Mark Atwood is working on <code>mod_auth_oauth</code>. <a href="http://casgroup.biz/">Michael Mealling</a> is working on support for <a href="http://ca.com/products/product.aspx?ID=5262">SiteMinder</a>. Anthony Webb and Dave Hoff of <a href="http://www.imified.com/">IMified</a> are working on an OAuth ColdFusion library.</p>
