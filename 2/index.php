@@ -105,7 +105,7 @@ require('../includes/_header.php');
                 </li>
                 <li>Swift
                     <ul>
-                        <li><a href="https://github.com/dongri/OAuthSwif">OAuthSwift</a></li>
+                        <li><a href="https://github.com/dongri/OAuthSwift">OAuthSwift</a></li>
                     </ul>
                 </li>
                 <li>Java
