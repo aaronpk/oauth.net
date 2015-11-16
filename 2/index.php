@@ -149,7 +149,7 @@ require('../includes/_header.php');
                 </li>
                 <li>Qt/C++
                     <ul>
-                        <li><a href="https://github.com/pipacs/o2">O2 (supports OAuth 1.0a and 2.0</a></li>
+                        <li><a href="https://github.com/pipacs/o2">O2 (supports OAuth 1.0a and 2.0)</a></li>
                     </ul>
                 </li>
                 <li>Lua/Corona SDK
