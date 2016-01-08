@@ -77,7 +77,7 @@ require('../includes/_header.php');
 			
 			<p><a href="http://code.google.com/p/oauth-signpost/">OAuth Signpost</a> offers simple OAuth message signing for Java and Apache HttpComponents (Google Android ready!). Contributed by Matthias Kaeppler.</p>
 			
-			<p><a href="http://github.com/fernandezpablo85/scribe-java">Scribe</a> is a mature OAuth library for Java by <a href="http://github.com/fernandezpablo85" title="fernandezpablo85's Profile - GitHub">Pablo Fernandez</a> that is intended to work with all APIs. It has been <a href="http://developer.linkedin.com/message/4568" title="LinkedIn Developer Network: How To: LinkedIn OAuth with Java">featured in LinkedIn's developers forums</a> and works with Google, Yahoo, LinkedIn, Twitter, and Foursquare APIs out of the box.
+			<p><a href="https://github.com/scribejava/scribejava">ScribeJava</a> is a mature OAuth library for Java by <a href="http://github.com/fernandezpablo85" title="fernandezpablo85's Profile - GitHub">Pablo Fernandez</a> and <a href="https://github.com/kullfar" title="kullfar's Profile - GitHub">Stas Gromov</a> that is intended to work with all APIs. It has been <a href="http://developer.linkedin.com/message/4568" title="LinkedIn Developer Network: How To: LinkedIn OAuth with Java">featured in LinkedIn's developers forums</a> and works with Google, Yahoo, LinkedIn, Twitter, and Foursquare APIs (and many more) out of the box.
 
 			<p><a href="https://github.com/kovacshuni/koauth">KOAauth</a> is a great library for both providers and consumers written by <a href="http://www.hunorkovacs.com">Hunor Kovács</a>. Originally it was intended for Scala but could be fully used in Java as well.</p>
 			
