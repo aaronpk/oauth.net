@@ -144,6 +144,7 @@ require('../includes/_header.php');
 				<li><a href="https://github.com/singingwolfboy/flask-dance">Flask-Dance</a> is another OAuth extension for Flask, built using <a href="http://flask.pocoo.org/docs/latest/blueprints/">blueprints</a>, <a href="http://docs.python-requests.org/en/latest/">requests</a>, and <a href="https://github.com/idan/oauthlib">oauthlib</a>.</li>
 				<li><a href="http://www.bango29.com/">Batista Harahap</a> is writing an OAuth 1.0 reverse proxy available at <a href="https://github.com/tistaharahap/oauth1-provider-redis-py">Github here</a>.</li>
 				<li><a href="https://pypi.python.org/pypi/oauthlib">oauthlib</a> (sources on <a href="https://github.com/idan/oauthlib">GitHub</a>) A generic, spec-compliant, thorough implementation of the OAuth request-signing logic written by <a href="https://github.com/idan">Idan Gazit</a>.</li>
+				<li><a href="http://www.tornadoweb.org/en/stable/">Tornado</a> has OAuth 1.0 and OAuth 2.0 Clients available as part of the core code in the <a href="http://www.tornadoweb.org/en/stable/auth.html">Tornado Auth package</a></li>
 			</ul>
 			
 			<h3>Ruby</h3>
