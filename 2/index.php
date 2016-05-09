@@ -50,6 +50,7 @@ require('../includes/_header.php');
                         <li><a href="https://github.com/fkooman/php-oauth">PHP OAuth 2.0</a> (AS with SAML/BrowserID AuthN, with management REST API)</li>
                         <li><a href="https://github.com/authbucket/oauth2">PHP OAuth2.0</a> for <a href="http://silex.sensiolabs.org/">Silex</a> and <a href="http://oauth2.authbucket.com/demo">Demo</a></li>
                         <li><a href="https://github.com/authbucket/oauth2-bundle">PHP OAuth2.0</a> for <a href="http://symfony.com/">Symfony</a> and <a href="http://oauth2-bundle.authbucket.com/demo">Demo</a></li>
+                        <li><a href="https://github.com/drahak/OAuth2">Nette OAuth2 provider</a> for <a href="https://nette.org">Nette framework</a> and <a href="https://github.com/drahak/Restful">Nette REST API bundle</a></li>
                     </ul>
                 </li>
                 <li>Python
