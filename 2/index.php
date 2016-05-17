@@ -86,6 +86,7 @@ require('../includes/_header.php');
             <h4 id="proxy-services">Proxy services</h4>
             <ul>
               <li><a href="https://github.com/oauth-io">OAuth.io</a> (self hosted), and also you can use as <a href="https://oauth.io/">an external service</a></li>
+              <li><a href="https://github.com/ssqsignon">SSQ signon</a> (self hosted), and also you can use as <a href="https://ssqsignon.com/">an external service</a></li>
             </ul>
 
             <h4 id="client-libraries">Client Libraries</h4>
