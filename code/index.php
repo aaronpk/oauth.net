@@ -129,6 +129,11 @@ require('../includes/_header.php');
 				<li><a href="http://framework.zend.com/wiki/pages/viewpage.action?pageId=37957">Zend_OAuth</a> was contributed by P&aacute;draic Brady. The source code can be found <a href="http://framework.zend.com/svn/framework/standard/incubator/library/Zend/Oauth/">here</a>.</li>
 			</ul>
 			
+			<h3>PowerShell</h3>
+			
+			<ul>
+				<li><a href="https://github.com/GlobalSign">GlobalSign</a> has written a reference client for PowerShell available <a href="https://github.com/GlobalSign/OAuth-2.0-client-examples/blob/master/PowerShell/Powershell-example.ps1">here</a></li>
+			</ul>
 			<h3>Python</h3>
 			
 			<p><a href="https://github.com/maxcountryman">Max Countryman</a> maintains the <a href="https://github.com/litl/rauth">rauth</a> and it is considered the most up-to-date and unit-tested implementation of OAuth for Python.</p>
