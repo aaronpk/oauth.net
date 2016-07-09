@@ -136,10 +136,12 @@ require('../includes/_header.php');
 			</ul>
 			<h3>Python</h3>
 			
-			<p><a href="https://github.com/maxcountryman">Max Countryman</a> maintains the <a href="https://github.com/litl/rauth">rauth</a> and it is considered the most up-to-date and unit-tested implementation of OAuth for Python.</p>
+			<p><a href="https://github.com/maxcountryman">Max Countryman</a> maintains the <a href="https://github.com/litl/rauth">rauth</a>. 
+			It is considered the most up-to-date and unit-tested implementation of OAuth for Python.</p>
 			<p>Another great library is <a href="https://github.com/idan/oauthlib">OAuthlib</a> which implements the latest RFC, including client and server.</p>
 			<ul>
-			  <li><a href="http://leahculver.com/">Leah Culver</a> has written both a <a href="http://oauth.googlecode.com/svn/code/python/oauth/">library in Python 2.3</a> and offered an <a href="http://oauth.googlecode.com/svn/code/python/oauth/example/">example implementation</a>.</li>
+				<li><a href="https://github.com/idan/oauthlib">OAuthlib</a> is a generic OAuth signing library; it is neither a client nor a server, but provides signing facilities for either.</li>
+				<li><a href="http://leahculver.com/">Leah Culver</a> has written both a <a href="http://oauth.googlecode.com/svn/code/python/oauth/">library in Python 2.3</a> and offered an <a href="http://oauth.googlecode.com/svn/code/python/oauth/example/">example implementation</a>.</li>
 				<li>David Larlet has released an <a href="http://code.larlet.fr/django-oauth-plus/">OAuth Provider and Consumer</a> for Django. </li>
 				<li><a href="http://simonwillison.net">Simon Willison</a> <a href="http://simonwillison.net/2008/Mar/22/wikinear/">released</a> the <a href="http://www.djangosnippets.org/snippets/655/">snippet</a> that handles OAuth in Wikinear.</li>
 				<li>Steve Marshall wrote a <a href="http://github.com/SteveMarshall/fire-eagle-python-binding/tree/master/fireeagle_api.py">comprehensive binding for Fire Eagle</a> that implements OAuth.</li>
