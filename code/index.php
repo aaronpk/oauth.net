@@ -138,7 +138,6 @@ require('../includes/_header.php');
 			
 			<p><a href="https://github.com/maxcountryman">Max Countryman</a> maintains the <a href="https://github.com/litl/rauth">rauth</a>. 
 			It is considered the most up-to-date and unit-tested implementation of OAuth for Python.</p>
-			<p>Another great library is <a href="https://github.com/idan/oauthlib">OAuthlib</a> which implements the latest RFC, including client and server.</p>
 			<ul>
 				<li><a href="https://github.com/idan/oauthlib">OAuthlib</a> is a generic OAuth signing library; it is neither a client nor a server, but provides signing facilities for either.</li>
 				<li><a href="http://leahculver.com/">Leah Culver</a> has written both a <a href="http://oauth.googlecode.com/svn/code/python/oauth/">library in Python 2.3</a> and offered an <a href="http://oauth.googlecode.com/svn/code/python/oauth/example/">example implementation</a>.</li>
