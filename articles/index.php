@@ -32,6 +32,9 @@ require('../includes/_header.php');
 
 	  <p>While OAuth is not an authentication protocol on its own, there are a number of high-profile authentication protocols built with OAuth 2.0. This article seeks to expose common pitfalls and demonstrate <a href="/articles/authentication">how to do end user authentication using OAuth 2.0</a> in a secure and reliable manner.</p>
 	  
+      <h3>OAuth 2 Simplified</h3>
+        <p>This post is an attempt to describe OAuth 2 in a simplified format to help developers and service providers implement the protocol.</p>
+        <p><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified">OAuth 2 Simplified</a> by Aaron Parecki</p>
     </div>
 
 <?php require('../includes/_footer.php'); ?>
