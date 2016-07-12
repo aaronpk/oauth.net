@@ -33,6 +33,11 @@ require('../includes/_header.php');
         <p>This book is currently available for <a href="https://www.manning.com/books/oauth-2-in-action">early-access pre-order from the publisher</a>. Pre-ordering the book gives you access to portions of the book in electronic format as it's being completed by the authors. You'll also be able to provide feedback during the production process.</p>
       </div>
 	
+      <div style="">
+        <?php require('../includes/_carbon.php'); ?>
+      </div>
+      <div style="clear:both; margin-bottom: 1em;"></div>
+
       <div>
         <a href="https://www.packtpub.com/application-development/mastering-oauth-2/?utm_source=GC-oauth.net&utm_medium=pod&utm_campaign=1784395407"><img src="mastering_oauth_2.jpg" alt="Mastering Oauth 2.0 Cover" title="Mastering OAuth 2.0" style="float:left; max-width: 25%; margin: 10px; border: 1px #ccc solid;"></a>
         <p><a href="https://www.packtpub.com/application-development/mastering-oauth-2/?utm_source=GC-oauth.net&utm_medium=pod&utm_campaign=1784395407"><i>Mastering OAuth 2.0</i></a> by Charles Bihis provides an in-depth view of the OAuth 2.0 protocol from a client perspective.  With a focus on practicality and security, this book explores the various ways in which a client can integrate with an OAuth 2.0 service provider, discussing caveats and best practices along the way.<p>

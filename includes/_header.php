@@ -22,7 +22,8 @@
 ?>
 	</title>
 	<link href="/stylesheets/style.css" rel="stylesheet" type="text/css" />
-  <link href="/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" />	
+  <link href="/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" /> 
+  <link href="/stylesheets/carbon.css" rel="stylesheet" type="text/css" />
   <link rel="pingback" href="http://pingback.me/aaronpk/xmlrpc" />
 <script type="text/javascript">
 

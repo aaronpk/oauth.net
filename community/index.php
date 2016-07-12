@@ -25,6 +25,8 @@ require('../includes/_header.php');
     <div id="main" class="column first last span-18 prepend-1 append-1">
       <h2>Community</h2>
 
+      <?php require('../includes/_carbon.php'); ?>
+      
 			<p>The OAuth community is dedicated to improving the spec and library codebase, spreading awareness of the protocol and documenting and showing, through screencasts, wireframes, mockups and other illustrative designs, how to best put OAuth to use.</p>
 
       <p>The <a href="https://www.ietf.org/mailman/listinfo/oauth">IETF OAuth mailing list</a> is for work related to <span class="caps">IETF</span> standardization.</p>
@@ -43,7 +45,7 @@ require('../includes/_header.php');
 			
       <p>You can <a href="http://stackoverflow.com/search?q=oauth">search StackOverflow</a> for questions relating to provider-specific implementations of OAuth.</p>
 			
-			<?php include('../includes/_edit_banner.php'); ?>
-
     </div>
+
+    <?php include('../includes/_edit_banner.php'); ?>
 <?php require('../includes/_footer.php'); ?>

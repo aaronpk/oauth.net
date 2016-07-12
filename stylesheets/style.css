@@ -110,6 +110,7 @@ p img       { float: left; margin:18px 18px 18px 0; padding:0; }
 p img.top   { margin-top:0; } /* Use this if the image is at the top of the <p>. */
  
 ul, ol      { margin: 0 0 18px 0; }
+ul ul       { margin-bottom: 0; }
 ul          { list-style-type:circle; }
 ol          { list-style-type: decimal; }
 dl          { margin: 0 0 18px 0; }
@@ -394,4 +395,3 @@ clear: both;
 	padding: 6px;
 	border: 2px solid #e6ecf2;
 }
-

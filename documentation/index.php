@@ -27,20 +27,13 @@ require('../includes/_header.php');
     </div>
 
   <div id="main" class="column first last span-18 prepend-1 append-1">
-    <h2>OAuth 2.0 Core</h2>
+    <?php require('../includes/_carbon.php'); ?>
+
+    <h2 style="clear:none;">OAuth 2.0 Core</h2>
     <ul>
       <li><a href="http://tools.ietf.org/html/rfc6749">OAuth 2.0 Framework</a> - RFC 6749</li>
       <li><a href="http://tools.ietf.org/html/rfc6750">Bearer Token Usage</a> - RFC 6750</li>
       <li><a href="http://tools.ietf.org/html/rfc6819">Threat Model and Security Considerations</a> - RFC 6819</li>
-    </ul>
-
-    <h2>Protocols Built on OAuth 2.0</h2>
-    <ul>
-      <li><a href="http://openid.net/connect/">Open ID Connect</a></li>
-      <li><a href="http://blue-button.github.io/blue-button-plus-pull/">Blue Button</a></li>
-      <li><a href="http://en.openei.org/wiki/Green_Button_Developer">Green Button</a></li>
-      <li><a href="https://kantarainitiative.org/confluence/display/uma/UMA+1.0+Core+Protocol">UMA</a></li>
-      <li><a href="http://www.gsma.com/oneapi/">GSMA OneAPI</a></li>
     </ul>
 
     <h2>OAuth 2.0 Extensions</h2>
@@ -52,10 +45,19 @@ require('../includes/_header.php');
       <li><a href="https://tools.ietf.org/html/rfc7662">OAuth 2.0 Token Introspection</a> - RFC 7662, to determine the active state and meta-information of a token</li>
     </ul>
 
+    <h2>Protocols Built on OAuth 2.0</h2>
+    <ul>
+      <li><a href="http://openid.net/connect/">Open ID Connect</a></li>
+      <li><a href="http://blue-button.github.io/blue-button-plus-pull/">Blue Button</a></li>
+      <li><a href="http://en.openei.org/wiki/Green_Button_Developer">Green Button</a></li>
+      <li><a href="https://kantarainitiative.org/confluence/display/uma/UMA+1.0+Core+Protocol">UMA</a></li>
+      <li><a href="http://www.gsma.com/oneapi/">GSMA OneAPI</a></li>
+    </ul>
+
     <h2>Community Resources</h2>
     <ul>
-      <li><a href="http://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified">OAuth 2.0 Simplified</a></li>
-      <li><a href="http://hueniverse.com/oauth/">OAuth Resource Center</a> from <a href="http://hueniverse.com">Eran Hammer-Lahav</a> the specifications editor, including a beginner's guide and tutorials.</li>
+      <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified">OAuth 2.0 Simplified</a></li>
+      <li><a href="/books/">Books about OAuth</a></li>
     </ul>
 
 

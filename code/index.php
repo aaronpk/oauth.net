@@ -28,6 +28,8 @@ require('../includes/_header.php');
 			
 			<h2>Code</h2>
 			
+			<?php require('../includes/_carbon.php'); ?>
+						
 			<p>Below is a collection of OAuth 1 and 2 libraries. If you would like to make any changes to this page, you can <a href="https://github.com/aaronpk/oauth.net/blob/master/code/index.php">edit this page</a> and send a pull request.</p>
 
 			<h3>ActionScript</h3>

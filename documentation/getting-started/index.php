@@ -54,6 +54,8 @@ require('../../includes/_header.php');
         </li>
         <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#resources">Resources</a></li>
       </ul>
-      
     </div>
+    
+    <?php include('../../includes/_edit_banner.php'); ?>
+
 <?php require('../../includes/_footer.php'); ?>

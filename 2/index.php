@@ -23,11 +23,15 @@ require('../includes/_header.php');
 
         <div id="main" class="column first last span-18 prepend-1 append-1">
             <h2 id="oauth-2.0">OAuth 2.0</h2>
-            <p><img src="/images/oauth-2-sm.png" alt="OAuth 2.0 logo" style="float:right; margin: 0 0 8px 8px;" />OAuth 2.0 is the next evolution of the OAuth protocol which was originally created in late 2006. OAuth 2.0 focuses on client developer simplicity while providing specific authorization flows for web applications, desktop applications, mobile phones, and living room devices. This specification is being developed within the <a href="https://www.ietf.org/mailman/listinfo/oauth">IETF OAuth WG</a> and is based on the <a href="http://wiki.oauth.net/OAuth-WRAP">OAuth WRAP</a> proposal.</p>
+            <p><img src="/images/oauth-2-sm.png" alt="OAuth 2.0 logo" style="float:right; margin: 0 0 8px 8px;" />OAuth 2.0 is the next evolution of the OAuth protocol which was originally created in late 2006. OAuth 2.0 focuses on client developer simplicity while providing specific authorization flows for web applications, desktop applications, mobile phones, and living room devices. This specification is being developed within the <a href="https://www.ietf.org/mailman/listinfo/oauth">IETF OAuth WG</a>.</p>
             <p>Questions, suggestions and protocol changes should be discussed on the <a href="https://www.ietf.org/mailman/listinfo/oauth">mailing list</a>.</p>
 
             <h3 id="reading-the-spec">Reading the spec</h3>
-            <p>The final version of the spec can be found at <a href="http://tools.ietf.org/html/rfc6749">http://tools.ietf.org/html/rfc6749</a>.</p>
+
+            <?php require('../includes/_carbon.php'); ?>
+
+            <p>The final version of the OAuth 2.0 core spec can be found at <a href="http://tools.ietf.org/html/rfc6749">http://tools.ietf.org/html/rfc6749</a>. See <a href="/documentation/">extensions and other documentation</a>.</p>
+
 
             <h3 id="implementations">Implementations</h3>
 

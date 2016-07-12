@@ -47,4 +47,6 @@ require('../includes/_header.php');
 			<p>Please report any concerns to the <a href="https://www.ietf.org/mailman/listinfo/oauth">OAuth mailing list</a>. Please <span class="caps">DO NOT</span> discuss unknown security threats in public as they are likely to be used by attacker before a solution can be applied.</p>
     </div>
 
+    <?php include('../includes/_edit_banner.php'); ?>
+
 <?php require('../includes/_footer.php'); ?>
