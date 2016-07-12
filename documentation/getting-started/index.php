@@ -29,41 +29,31 @@ require('../../includes/_header.php');
     <div id="main" class="column first last span-18 prepend-1 append-1">
       <h2>Getting Started</h2>
 			
-			<p><a href="http://hueniverse.com">Hueniverse</a> publishes a guide which covers many of the topics needed to understand and implement the protocol and is available in multiple parts.</p>
+			<p><a href="http://aaronparecki.com">Aaron Parecki</a> published a guide to OAuth 2.0 a guide which covers many of the topics needed to understand and implement the protocol and is available in multiple parts.</p>
 			
-			<p><h3>The <em><a href="http://hueniverse.com/oauth/">Beginner&#8217;s Guide to OAuth</a></em> includes:</h3></p>
-			
-			<h3>Part I: Overview</h3>
-			<ul>
-				<li>Introduction</li>
-				<li>End-user Benefits</li>
-				<li>Scope</li>
-				<li>Specification Structure</li>
-				<li>Definitions</li>
-			</ul>
-			
-			<h3>Part II: Protocol Workflow</h3>
-			<ul>
-				<li>End-use experience</li>
-				<li>Protocol requests</li>
-			</ul>
-			
-			<h3>Part III: Security Architecture</h3>
-			<ul>
-				<li>Beyond HTTP Basic Auth</li>
-				<li>Direct &amp; Delegated Access</li>
-				<li>Credentials</li>
-				<li>Signature and Hash</li>
-				<li>Secrets Limitations</li>
-				<li>Timestamp and Nonce</li>
-				<li>Signature Methods</li>
-				<li>Signature Base String</li>
-			</ul>
-
-			<h3>Part IV: Signing Requests</h3>
-			<ul>
-				<li>Complete interactive walkthrough on how to sign OAuth requests</li>
-			</ul>
-
+			<p><h3><em><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified">OAuth 2.0 Simplified</a></em> includes:</h3></p>
+      			
+      <ul>
+        <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#roles">Roles</a>: Applications, APIs and Users</li>
+        <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#creating-an-app">Creating an App</a></li>
+        <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#authorization">Authorization</a>: Obtaining an access token
+          <ul>
+            <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#web-server-apps">Web Server Apps</a></li>
+            <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#browser-based-apps">Browser-Based Apps</a></li>
+            <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#mobile-apps">Mobile Apps</a></li>
+            <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#others">Others</a></li>
+          </ul>
+        </li>
+        <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#making-authenticated-requests">Making Authenticated Requests</a></li>
+        <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#differences">Differences from OAuth 1.0</a>
+          <ul>
+            <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#authentication-and-signatures">Authentication and Signatures</a></li>
+            <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#user-experience-and-alternative-authorization-flows">User Experience and Alternative Authorization Flows</a></li>
+            <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#performance-at-scale">Performance at Scale</a></li>
+          </ul>
+        </li>
+        <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#resources">Resources</a></li>
+      </ul>
+      
     </div>
 <?php require('../../includes/_footer.php'); ?>
