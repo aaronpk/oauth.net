@@ -67,6 +67,7 @@ require('../includes/_header.php');
                     <ul>
                         <li><a href="https://github.com/t1msh/node-oauth20-provider">NodeJS OAuth 2.0 Provider</a></li>
                         <li><a href="https://github.com/mozilla/?query=fxa">Mozilla Firefox Accounts</a>. A full stack Identy Provider system developed to support Firefox market place and other services</li>
+                        <li><a href="https://github.com/jaredhanson/oauth2orize">OAuth2orize: toolkit to implement OAuth2 Authorization Servers</a></li>
                     </ul>
                 </li>
                 <li>Ruby
@@ -91,6 +92,7 @@ require('../includes/_header.php');
             <ul>
               <li><a href="https://github.com/oauth-io">OAuth.io</a> (self hosted), and also you can use as <a href="https://oauth.io/">an external service</a></li>
               <li><a href="https://github.com/ssqsignon">SSQ signon</a> (self hosted), and also you can use as <a href="https://ssqsignon.com/">an external service</a></li>
+              <li><a href="https://auth0.com">Auth0</a>: Authorization Server as a service (or self hosted)</li>
             </ul>
 
             <h4 id="client-libraries">Client Libraries</h4>
@@ -148,6 +150,13 @@ require('../includes/_header.php');
                         <li><a href="https://github.com/zalando/oauth2-client-js">OAuth2-client-js</a></li>
                     </ul>
                 </li>
+                <li>Node.js
+                    <ul>
+                        <li><a href="http://passportjs.org/">PassportJS</a></li>
+                        <li><a href="https://github.com/zalando/oauth2-client-js">OAuth2-client-js</a></li>
+                    </ul>
+                </li>
+                
                 <li>.NET
                     <ul>
                         <li><a href="http://www.nuget.org/packages/Microsoft.Owin.Security.OAuth">OWIN Middleware</a></li>
@@ -196,6 +205,7 @@ require('../includes/_header.php');
                 <li><a href="http://msdn.microsoft.com/en-us/library/live/hh243647.aspx">Windows Live</a></li>
 				<li><a href="http://www.timecockpit.com/blog/2014/10/31/Welcome-OAuth2-and-OpenID-Connect">time cockpit</a></li>
                  <li><a href="https://github.com/zalando-techmonkeys/baboon-proxy">Zalando's baboon-proxy</a></li>
+                 <li><a href="https://auth0.com">Auth0</a></li>
             </ul>
 			
 			<h3>Legacy</h3>
