@@ -45,6 +45,7 @@ require('../includes/_header.php');
                         <li><a href="https://github.com/OpenConextApps/apis">Apis Authorization Server (v2-31)</a></li>
                         <li><a href="http://www.restlet.org/">Restlet Framework (draft 30)</a></li>
                         <li><a href="http://cxf.apache.org/">Apache CXF</a></li>
+                        <li><a href="https://github.com/zalando/tokens">Tokens</a>: Java library for conveniently verifying and storing OAuth 2.0 service access tokens.</li>
                     </ul>
                 </li>
                 <li>PHP
