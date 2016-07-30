@@ -221,7 +221,7 @@ require('../includes/_header.php');
 			
 			<p>For more information on OAuth 1.0 and 1.0a, see the <a href="/about">old About page</a>.</p>
 
-            <?php include('../includes/_edit_banner.php'); ?>
-
         </div>
-        <?php require('../includes/_footer.php'); ?>
+    </div>
+    
+<?php require('../includes/_footer.php'); ?>
