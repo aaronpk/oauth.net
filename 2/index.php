@@ -73,7 +73,7 @@ require('../includes/_header.php');
                 </li>
                 <li>Ruby
                     <ul>
-                        <li><a href="https://github.com/nov/rack-oauth2">Ruby OAuth2 Server (draft 18)</a></li>
+                        <li><a href="https://github.com/nov/rack-oauth2">Ruby OAuth 2 Server (draft 18)</a></li>
                     </ul>
                 </li>
                 <li>.NET
@@ -84,12 +84,12 @@ require('../includes/_header.php');
                 </li>
                 <li>Erlang
                     <ul>
-                        <li><a href="https://github.com/kivra/oauth2">Erlang Oauth2 Server framework</a></li>
+                        <li><a href="https://github.com/kivra/oauth2">Erlang OAuth 2 Server framework</a></li>
                     </ul>
                 </li>
                 <li>Golang
                     <ul>
-                        <li><a href="https://github.com/go-oauth2/oauth2">Golang Oauth2 Server framework</a></li>
+                        <li><a href="https://github.com/go-oauth2/oauth2">Golang OAuth 2 Server framework</a></li>
                     </ul>
                 </li>
             </ul>

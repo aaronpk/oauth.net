@@ -163,6 +163,8 @@ require('../includes/_header.php');
 
 			<p>There is a great library for Scala named <a href="https://github.com/kovacshuni/koauth">koauth</a> written by <a href="http://www.hunorkovacs.com">Hunor Kovács</a>. It's both for consumer and provider.</p>
 
+			<p>The Play framework provides a <a href="https://playframework.com/documentation/2.0/ScalaOAuth">Scala implementation</a> of OAuth 1</p>
+
 			<h3>Scheme</h3>
 			
 			<p>Aleix Conchillo Flaque has contributed <a href="http://github.com/aconchillo/guile-oauth/">guile-oauth</a> an OAuth client module for Guile. It currently supports OAuth 1.0 and HMAC-SHA1 and PLAINTEXT authentication. It comes with a Twitter <a href="http://github.com/aconchillo/guile-oauth/blob/master/examples/oauth1/twitter.scm">example</a>.</p>
