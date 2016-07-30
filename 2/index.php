@@ -86,6 +86,11 @@ require('../includes/_header.php');
                         <li><a href="https://github.com/kivra/oauth2">Erlang Oauth2 Server framework</a></li>
                     </ul>
                 </li>
+                <li>Golang
+                    <ul>
+                        <li><a href="https://github.com/go-oauth2/oauth2">Golang Oauth2 Server framework</a></li>
+                    </ul>
+                </li>
             </ul>
 
             <h4 id="proxy-services">Proxy services</h4>
