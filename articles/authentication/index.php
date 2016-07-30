@@ -7,31 +7,30 @@ $page_meta_description = "Performing end user authentication using the OAuth 2.0
 
 require('../../includes/_header.php');
 ?>
-<body class="<?php echo $page_section; ?>">
-    <div class="container">
-        <div id="header" class="column first last span-20">
-            <h1 id="site-name" class="column first span-5 prepend-1 append-1"><a href="/">OAuth</a></h1>
-            <div id="primary" class="column span-13 last">
+<div class="container">
+    <div id="header" class="column first last span-20">
+        <h1 id="site-name" class="column first span-5 prepend-1 append-1"><a href="/">OAuth</a></h1>
+        <div id="primary" class="column span-13 last">
 
-                <?php require('../../includes/_nav_primary.php'); ?>
+            <?php require('../../includes/_nav_primary.php'); ?>
 
-            </div>
-            <div id="secondary" class="column span-18 append-1 prepend-1 first last">
-				<ul class="navigation">
-					<li><a href="/articles">Articles</a></li>
-					<li><a class="selected" href="/articles/authentication">Authentication</a></li>
-				</ul>
-            </div>
         </div>
+        <div id="secondary" class="column span-18 append-1 prepend-1 first last">
+					<ul class="navigation">
+						<li><a href="/articles">Articles</a></li>
+						<li><a class="selected" href="/articles/authentication">Authentication</a></li>
+					</ul>
+        </div>
+    </div>
 
-        <div id="main" class="column first last span-18 prepend-1 append-1">
-            <h2 id="oauth-2.0-authentication">User Authentication with OAuth 2.0</h2>
-			
-						<!-- Article compiled and edited by Justin Richer -->
+    <div id="main" class="column first last span-18 prepend-1 append-1">
+        <h2 id="oauth-2.0-authentication">User Authentication with OAuth 2.0</h2>
+	
+				<!-- Article compiled and edited by Justin Richer -->
 
-						<?php require('../../includes/_carbon.php'); ?>
+				<?php require('../../includes/_carbon.php'); ?>
 
-            <p>The <a href="http://tools.ietf.org/html/rfc6749">OAuth 2.0</a> specification defines a <i>delegation</i> protocol that is useful for conveying <i>authorization decisions</i> across a network of web-enabled applications and APIs. OAuth is used in a wide variety of applications, including providing mechanisms for user authentication. This has led many developers and API providers to incorrectly conclude that OAuth is itself an <i>authentication</i> protocol and to mistakenly use it as such. Let's say that again, to be clear:</p>
+        <p>The <a href="http://tools.ietf.org/html/rfc6749">OAuth 2.0</a> specification defines a <i>delegation</i> protocol that is useful for conveying <i>authorization decisions</i> across a network of web-enabled applications and APIs. OAuth is used in a wide variety of applications, including providing mechanisms for user authentication. This has led many developers and API providers to incorrectly conclude that OAuth is itself an <i>authentication</i> protocol and to mistakenly use it as such. Let's say that again, to be clear:</p>
 			
 			<div class="note"><b>OAuth 2.0 is not an authentication protocol.</b></div>
 			
@@ -131,14 +130,14 @@ require('../../includes/_header.php');
 			
 			<p>While the core specification is fairly straightforward, not all use cases can be adequately addressed by the base mechanisms. To support advanced use cases including higher security deployments, OpenID Connect also defines a number of optional advanced capabilities beyond standard OAuth, including the following (among others):</p>
 
-				<ul>
-					<li><a href="http://openid.net/specs/openid-connect-core-1_0.html#ClientAuthentication">Public key and shared cyptographic secret client authentication</a></li>
-					<li><a href="http://openid.net/specs/openid-connect-core-1_0.html#ClaimsParameter">Selecting and retrieving specific claims and values from the identity provider</a></li>
-					<li><a href="http://openid.net/specs/openid-connect-core-1_0.html#JWTRequests">Signing and encrypting OAuth requests</a></li>
-					<li><a href="http://openid.net/specs/openid-connect-session-1_0.html">Session management beyond the initial authentication</a></li>
-				</ul>
-			
-            <h3 id="further-reading">Further Reading</h3>
+			<ul>
+				<li><a href="http://openid.net/specs/openid-connect-core-1_0.html#ClientAuthentication">Public key and shared cyptographic secret client authentication</a></li>
+				<li><a href="http://openid.net/specs/openid-connect-core-1_0.html#ClaimsParameter">Selecting and retrieving specific claims and values from the identity provider</a></li>
+				<li><a href="http://openid.net/specs/openid-connect-core-1_0.html#JWTRequests">Signing and encrypting OAuth requests</a></li>
+				<li><a href="http://openid.net/specs/openid-connect-session-1_0.html">Session management beyond the initial authentication</a></li>
+			</ul>
+		
+      <h3 id="further-reading">Further Reading</h3>
 
 			<ul>
 				<li>In the article <a href="http://www.cloudidentity.com/blog/2013/01/02/oauth-2-0-and-sign-in-4/">OAuth 2.0 and Sign-in</a>, Vittorio Bertocci provides detail on the security boundaries between parties and why the authorization layer makes sense as the lower layer to build on top of, and provides the source of the chocolate-vs-fudge metaphor stolen above.</li>
@@ -165,8 +164,7 @@ require('../../includes/_header.php');
       </div>
 
       <br><br>
+    </div>
 
-            <?php include('../../includes/_edit_banner.php'); ?>
-
-        </div>
-        <?php require('../../includes/_footer.php'); ?>
+</div>
+<?php require('../../includes/_footer.php'); ?>

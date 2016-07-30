@@ -8,7 +8,6 @@ $page_meta_description = "";
 require('../../includes/_header.php');
 ?>
 
-<body class="<?php echo $page_section; ?>">
   <div class="container">
     <div id="header" class="column first last span-20">
       <h1 id="site-name" class="column first span-5 prepend-1 append-1"><a href="/">OAuth</a></h1>
@@ -38,8 +37,8 @@ require('../../includes/_header.php');
 
 	<p>The protocol is flexible in that it is adjustable to the actual security needs of different sites, and extensible through different signing algorithms and security features. It is also designed to work on mobile devices and explicitly supports desktop applications.</p>
 
-
 	<p>Finally, we worked hard to keep our focus on real-world scenarios and to be conscious of straying towards the impractical or utterly theoretical. Our discipline resulted in a taut protocol that can be easily read and implemented without a great deal of effort. To support this end, we hope to offer a <a href="/code">number of libraries</a> that will greatly reduce the amount of work necessary to <em>Do the Right Thing &trade;</em> or to  migrate from existing <span class="caps">API</span> protocols.</p>
     </div>
+  </div>
 
 <?php require('../../includes/_footer.php'); ?>

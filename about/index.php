@@ -1,12 +1,11 @@
 <?php
 
-$page_title = "Introduction &mdash; OAuthn";
+$page_title = "Introduction &mdash; OAuth";
 $page_section = "about";
 $page_secondary = "introduction";
 
 require('../includes/_header.php');
 ?>
-<body class="<?php echo $page_section; ?>">
   <div class="container">
     <div id="header" class="column first last span-20">
       <h1 id="site-name" class="column first span-5 prepend-1 append-1"><a href="/">OAuth</a></h1>
@@ -78,5 +77,6 @@ require('../includes/_header.php');
 			
 			<p><a href="http://oauth.net/core/1.0">OAuth Core 1.0</a>, the main protocol, was finalized in December. It is stable and ready to be implemented. <a href="http://oauth.net/code">Libraries</a> are already available for many popular platforms such as <span class="caps">PHP</span>, Rails, Python, .NET, C, and Perl. We expect most upcoming work to focus on implementations and the development of extensions to the protocol.</p>
 		</div>
+  </div>
 
 <?php require('../includes/_footer.php'); ?>

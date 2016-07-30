@@ -5,7 +5,6 @@ $page_secondary = "2014.1";
 $page_meta_description = "";
 require('../../includes/_header.php');
 ?>
-<body class="<?php echo $page_section; ?>">
   <div class="container">
     <div id="header" class="column first last span-20">
       <h1 id="site-name" class="column first span-5 prepend-1 append-1"><a href="/">OAuth</a></h1>
@@ -80,7 +79,7 @@ you can read a detailed analysis here, and also see detailed mitigation informat
         <li><a href="https://www.tbray.org/ongoing/When/201x/2014/05/03/Security-Farce">Security Farce</a> (Tim Bray)</li>
         <li><a href="http://nat.sakimura.org/2014/05/08/covert-redirect-is-not-new/">Covert Redirect is not new but...</a> (Nat Sakimura)</li>
       </ul>
-    
+    </div>
   </div>
 
 <?php require('../../includes/_footer.php'); ?>

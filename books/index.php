@@ -8,7 +8,6 @@ $page_meta_description = "";
 require('../includes/_header.php');
 ?>
 
-<body class="<?php echo $page_section; ?>">
   <div class="container">
     <div id="header" class="column first last span-20">
       <h1 id="site-name" class="column first span-5 prepend-1 append-1"><a href="/">OAuth</a></h1>
@@ -44,5 +43,6 @@ require('../includes/_header.php');
         <p>This book focuses on the client integration side of the OAuth 2.0 protocol and is ideal for client and application developers looking to integrate with OAuth 2.0 service providers in the most secure and effective way.</p>
       </div>
     </div>
-
+  </div>
+  
 <?php require('../includes/_footer.php'); ?>

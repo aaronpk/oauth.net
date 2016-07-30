@@ -7,7 +7,6 @@ $page_meta_description = "Resources and information related to the OAuth 2.0 pro
 
 require('../includes/_header.php');
 ?>
-<body class="<?php echo $page_section; ?>">
     <div class="container">
         <div id="header" class="column first last span-20">
             <h1 id="site-name" class="column first span-5 prepend-1 append-1"><a href="/">OAuth</a></h1>
@@ -195,14 +194,14 @@ require('../includes/_header.php');
             <h4 id="services-that-support-oauth-2">Services that support OAuth 2</h4>
             <ul>
                 <li><a href="http://groups.google.com/group/37signals-api/browse_thread/thread/86b0da52134c1b7e">37signals (draft 5)</a></li>
+                <li><a href="https://auth0.com">Auth0</a></li>
                 <li><a href="http://developers.box.com/oauth/">Box</a></li>
                 <li><a href="http://beeminder.com/api">Beeminder</a></li>
                 <li><a href="http://www.campaignmonitor.com/api/getting-started/#authenticating_with_oauth">Campaign Monitor</a></li>
                 <li><a href="https://clever.com/">Clever</a></li>
                 <li><a href="https://www.dropbox.com/developers/core/docs#oa2-authorize">Dropbox</a></li>
-                <li><a href="http://developers.facebook.com/docs/authentication/">Facebook's Graph API</a> (see <a href="http://www.sociallipstick.com/?p=239">sociallipstick.com/?p=239</a>)</li>
+                <li><a href="http://developers.facebook.com/docs/authentication/">Facebook's Graph API</a></li>
                 <li><a href="https://developer.foursquare.com/overview/auth">Foursquare</a></li>
-                <li><a href="https://developers.geoloqi.com">Geoloqi</a></li>
                 <li><a href="http://developer.github.com/v3/oauth/">GitHub</a></li>
                 <li><a href="https://developers.google.com/accounts/docs/OAuth2">Google</a></li>
                 <li><a href="https://dev.strato.com/hidrive">HiDrive</a></li>
@@ -215,8 +214,7 @@ require('../includes/_header.php');
                 <li><a href="https://do.com">Do.com (draft 22)</a></li>
                 <li><a href="http://msdn.microsoft.com/en-us/library/live/hh243647.aspx">Windows Live</a></li>
 				<li><a href="http://www.timecockpit.com/blog/2014/10/31/Welcome-OAuth2-and-OpenID-Connect">time cockpit</a></li>
-                 <li><a href="https://github.com/zalando-techmonkeys/baboon-proxy">Zalando's baboon-proxy</a></li>
-                 <li><a href="https://auth0.com">Auth0</a></li>
+                <li><a href="https://github.com/zalando-techmonkeys/baboon-proxy">Zalando's baboon-proxy</a></li>
             </ul>
 			
 			<h3>Legacy</h3>

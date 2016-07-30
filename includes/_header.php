@@ -1,5 +1,5 @@
 <?php
-@header('X-Pingback: http://webmention.io/aaronpk/xmlrpc');
+@header('X-Pingback: https://webmention.io/aaronpk/xmlrpc');
 @header('Link: <https://webmention.io/aaronpk/webmention>; rel="webmention"');
 
 ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
@@ -24,7 +24,7 @@
 	<link href="/stylesheets/style.css" rel="stylesheet" type="text/css" />
   <link href="/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" /> 
   <link href="/stylesheets/carbon.css" rel="stylesheet" type="text/css" />
-  <link rel="pingback" href="http://pingback.me/aaronpk/xmlrpc" />
+  <link rel="pingback" href="https://webmention.io/aaronpk/xmlrpc" />
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -39,3 +39,4 @@
 
 </script>
 </head>
+<body>

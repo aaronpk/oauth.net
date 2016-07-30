@@ -7,7 +7,6 @@ $page_meta_description = "";
 
 require('../../includes/_header.php');
 ?>
-<body class="<?php echo $page_section; ?>">
   <div class="container">
     <div id="header" class="column first last span-20">
       <h1 id="site-name" class="column first span-5 prepend-1 append-1"><a href="/">OAuth</a></h1>
@@ -32,5 +31,6 @@ require('../../includes/_header.php');
 			</p>
 			<?php require('../../includes/_edit_banner.php'); ?>
     </div>
+  </div>
 
 <?php require('../../includes/_footer.php'); ?>

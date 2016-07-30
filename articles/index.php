@@ -8,7 +8,6 @@ $page_meta_description = "";
 require('../includes/_header.php');
 ?>
 
-<body class="<?php echo $page_section; ?>">
   <div class="container">
     <div id="header" class="column first last span-20">
       <h1 id="site-name" class="column first span-5 prepend-1 append-1"><a href="/">OAuth</a></h1>
@@ -38,5 +37,6 @@ require('../includes/_header.php');
         <p>This post is an attempt to describe OAuth 2 in a simplified format to help developers and service providers implement the protocol.</p>
         <p><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified">OAuth 2 Simplified</a> by Aaron Parecki</p>
     </div>
+  </div>
 
 <?php require('../includes/_footer.php'); ?>

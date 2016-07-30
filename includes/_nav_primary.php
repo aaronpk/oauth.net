@@ -1,5 +1,5 @@
 <ul class="navigation">
-  <li id="nav-about"><a href="/2">About OAuth 2.0</a></li>
+  <li id="nav-about"><a href="/2">OAuth 2.0</a></li>
   <li id="nav-advisories"><a href="/advisories">Advisories</a></li>
   <li id="nav-articles"><a href="/articles">Articles</a></li>
   <li id="nav-documentation"><a href="/documentation">Documentation</a></li>
