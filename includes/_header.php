@@ -1,14 +1,11 @@
 <?php
 @header('X-Pingback: https://webmention.io/aaronpk/xmlrpc');
 @header('Link: <https://webmention.io/aaronpk/webmention>; rel="webmention"');
-
-?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+?><!DOCTYPE html>
+<html lang="en">
 <head>
-<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
 	<title>
 <?php if ($page_title)
 { 
@@ -25,6 +22,24 @@
   <link href="/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" /> 
   <link href="/stylesheets/carbon.css" rel="stylesheet" type="text/css" />
   <link rel="pingback" href="https://webmention.io/aaronpk/xmlrpc" />
+</head>
+<body>
+
+<?php if(time() > strtotime('2016-08-01') 
+         && time() < strtotime('2017-08-01')
+         && $_SERVER['SERVER_NAME'] == 'oauth.net'): ?>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MLQ3KK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MLQ3KK');</script>
+<!-- End Google Tag Manager -->
+<?php endif; ?>
+
+<?php if($_SERVER['SERVER_NAME'] == 'oauth.net'): ?>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -38,5 +53,5 @@
   })();
 
 </script>
-</head>
-<body>
+<?php endif; ?>
+
