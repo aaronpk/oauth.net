@@ -161,7 +161,7 @@ require('../includes/_header.php');
                         <li><a href="https://github.com/zalando/oauth2-client-js">OAuth2-client-js</a></li>
                     </ul>
                 </li>
-                
+
                 <li>.NET
                     <ul>
                         <li><a href="http://www.nuget.org/packages/Microsoft.Owin.Security.OAuth">OWIN Middleware</a></li>
@@ -195,6 +195,7 @@ require('../includes/_header.php');
             <ul>
                 <li><a href="http://groups.google.com/group/37signals-api/browse_thread/thread/86b0da52134c1b7e">37signals (draft 5)</a></li>
                 <li><a href="https://auth0.com">Auth0</a></li>
+                <li><a href="https://www.bookingsync.com">BookingSync</a></li>
                 <li><a href="http://developers.box.com/oauth/">Box</a></li>
                 <li><a href="http://beeminder.com/api">Beeminder</a></li>
                 <li><a href="http://www.campaignmonitor.com/api/getting-started/#authenticating_with_oauth">Campaign Monitor</a></li>
@@ -216,12 +217,12 @@ require('../includes/_header.php');
 				<li><a href="http://www.timecockpit.com/blog/2014/10/31/Welcome-OAuth2-and-OpenID-Connect">time cockpit</a></li>
                 <li><a href="https://github.com/zalando-techmonkeys/baboon-proxy">Zalando's baboon-proxy</a></li>
             </ul>
-			
+
 			<h3>Legacy</h3>
-			
+
 			<p>For more information on OAuth 1.0 and 1.0a, see the <a href="/about">old About page</a>.</p>
 
         </div>
     </div>
-    
+
 <?php require('../includes/_footer.php'); ?>
