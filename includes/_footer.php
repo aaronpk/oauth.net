@@ -13,7 +13,7 @@
 
     <?php if(time() > strtotime('2016-08-01') && time() < strtotime('2017-08-01')): ?>
       <div class="supported">
-        <a href="http://auth0.com/">Supported by <img src="/images/auth0.svg"></a>
+        <a href="http://auth0.com/">Supported by <img src="/images/auth0.svg" style="margin: 0 0.3em;"> Auth0</a>
       </div>
     <?php endif; ?>
   </div>
