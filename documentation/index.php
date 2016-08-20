@@ -36,6 +36,7 @@ require('../includes/_header.php');
     <ul>
       <li><a href="https://tools.ietf.org/html/draft-denniss-oauth-device-flow-00">OAuth 2.0 Device Flow</a></li>
       <li><a href="https://tools.ietf.org/html/rfc7662">OAuth 2.0 Token Introspection</a> - RFC 7662, to determine the active state and meta-information of a token</li>
+      <li><a href="https://tools.ietf.org/html/draft-ietf-oauth-spop-15">PKCE</a> - Proof Key for Code Exchange, better security for native apps</li>
       <li><a href="http://tools.ietf.org/html/rfc7519">JSON Web Token</a> - RFC 7519</li>
       <li><a href="http://tools.ietf.org/html/rfc7521">OAuth Assertions Framework</a> - RFC 7521</li>
       <li><a href="http://tools.ietf.org/html/rfc7522">SAML2 Bearer Assertion</a> - RFC 7522, for integrating with existing identity systems</li>
