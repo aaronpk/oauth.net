@@ -91,6 +91,11 @@ require('../includes/_header.php');
                         <li><a href="https://github.com/go-oauth2/oauth2">Golang OAuth 2 Server framework</a></li>
                     </ul>
                 </li>
+                <li>Perl
+                    <ul>
+                        <li><a href="https://github.com/Humanstate/mojolicious-plugin-oauth2-server">Perl OAuth2 Server on Mojolicious</a></li>
+                    </ul>
+                </li>
             </ul>
 
             <h4 id="proxy-services">Proxy services</h4>
@@ -187,6 +192,11 @@ require('../includes/_header.php');
                 <li>Golang
                     <ul>
                         <li><a href="https://github.com/golang/oauth2">Go OAuth 2.0 Client</a></li>
+                    </ul>
+                </li>
+                <li>Perl
+                    <ul>
+                        <li><a href="https://github.com/marcusramberg/Mojolicious-Plugin-OAuth2">OAuth support for Perl Mojolicious</a></li>
                     </ul>
                 </li>
             </ul>
