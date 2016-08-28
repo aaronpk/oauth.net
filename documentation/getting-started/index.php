@@ -27,10 +27,9 @@ require('../../includes/_header.php');
     <div id="main" class="column first last span-18 prepend-1 append-1">
       <h2>Getting Started</h2>
 			
-			<p><a href="http://aaronparecki.com">Aaron Parecki</a> published a guide to OAuth 2.0 a guide which covers many of the topics needed to understand and implement the protocol and is available in multiple parts.</p>
+			<p><a href="http://aaronparecki.com">Aaron Parecki</a> has published some guides to OAuth 2.0 which cover many of the topics needed to understand and implement clients and servers.</p>
 			
-			<p><h3><em><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified">OAuth 2.0 Simplified</a></em> includes:</h3></p>
-      			
+			<h3><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified">OAuth 2.0 Simplified</a></h3>
       <ul>
         <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#roles">Roles</a>: Applications, APIs and Users</li>
         <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#creating-an-app">Creating an App</a></li>

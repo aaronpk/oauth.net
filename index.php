@@ -45,7 +45,6 @@ require('./includes/_header.php');
         <li>desktop applications</li>
         <li>mobile applications</li>
         <li>Javascript or browser-based apps</li>
-        <li>webpage widgets</li>
       </ul>
       <p>
         OAuth is a simple way to publish and interact with protected data. It's also a safer and more secure way for people to give you access. We've kept it simple to save you time.
