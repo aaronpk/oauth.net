@@ -29,7 +29,7 @@ require('../../includes/_header.php');
 				This site was designed by <a href="http://factoryjoe.com">Chris Messina</a> and is administered by <a href="http://aaronparecki.com/">Aaron Parecki</a>.
 			</p>
       <p>
-        Many other people have contributed to the website by adding links to libraries and other resources. See <a href="https://github.com/aaronpk/oauth.net">more contributors on GitHub</a>.
+        Many other people have contributed to the website by adding links to libraries and other resources. See <a href="https://github.com/aaronpk/oauth.net/network/members">more contributors on GitHub</a>.
       </p>
 			<?php require('../../includes/_edit_banner.php'); ?>
     </div>
