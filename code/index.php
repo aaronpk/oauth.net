@@ -151,7 +151,11 @@ require('../includes/_header.php');
           <li><a href="https://github.com/zalando/oauth2-client-js">OAuth2-client-js</a></li>
         </ul>
       </li>
-
+      <li>Perl
+          <ul>
+              <li><a href="https://github.com/Humanstate/mojolicious-plugin-oauth2-server">Perl OAuth2 Server on Mojolicious</a></li>
+          </ul>
+      </li>
       <li>.NET
         <ul>
           <li><a href="http://www.nuget.org/packages/Microsoft.Owin.Security.OAuth">OWIN Middleware</a></li>
