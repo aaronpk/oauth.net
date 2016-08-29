@@ -175,7 +175,10 @@ require('../includes/_header.php');
 
     <h3>Swift</h3>
 
-    <p>Dongri Jin released <a href="https://github.com/dongri/OAuthSwift">OAuthSwift</a> an OAuth client module with OAuth 1.0 and 2.0 support.</p>
+    <ul>
+      <li>Dongri Jin released <a href="https://github.com/dongri/OAuthSwift">OAuthSwift</a> an OAuth client module with OAuth 1.0 and 2.0 support.</li>
+      <li>Pascal Pfiffner is maintaining <a href="https://github.com/p2/OAuth2">OAuth2</a>, a Swift library with support for dynamic client registration, OpenID connect and more.</li>
+    </ul>
 
     <h3>Others</h3>
     
