@@ -10,16 +10,14 @@ require('../includes/_header.php');
     <div id="header" class="column first last span-20">
       <h1 id="site-name" class="column first span-5 prepend-1 append-1"><a href="/">OAuth</a></h1>
       <div id="primary" class="column span-13 last">
-
-<?php require('../includes/_nav_primary.php'); ?>
-
+        <?php require('../includes/_nav_primary.php'); ?>
       </div>
-
       <div id="secondary" class="column span-18 append-1 prepend-1 first last">
         <ul class="navigation">
-          <li><a class="selected" href="/about">Introduction</a></li>
-          <li><a href="/about/design-goals">Design Goals</a></li>
-          <li><a href="/about/credits">Credits</a></li>         
+          <li><a class="selected" href="/about/">Introduction</a></li>
+          <li><a href="/about/design-goals/">Design Goals</a></li>
+          <li><a href="/about/community/">Community</a></li>
+          <li><a href="/about/credits/">Credits</a></li>
         </ul>
       </div>
     </div>

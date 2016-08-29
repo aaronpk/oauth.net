@@ -11,15 +11,9 @@ require('../../includes/_header.php');
     <div id="header" class="column first last span-20">
         <h1 id="site-name" class="column first span-5 prepend-1 append-1"><a href="/">OAuth</a></h1>
         <div id="primary" class="column span-13 last">
-
-            <?php require('../../includes/_nav_primary.php'); ?>
-
+          <?php require('../../includes/_nav_primary.php'); ?>
         </div>
         <div id="secondary" class="column span-18 append-1 prepend-1 first last">
-					<ul class="navigation">
-						<li><a href="/articles">Articles</a></li>
-						<li><a class="selected" href="/articles/authentication">Authentication</a></li>
-					</ul>
         </div>
     </div>
 
@@ -27,8 +21,6 @@ require('../../includes/_header.php');
         <h2 id="oauth-2.0-authentication">User Authentication with OAuth 2.0</h2>
 	
 				<!-- Article compiled and edited by Justin Richer -->
-
-				<?php require('../../includes/_carbon.php'); ?>
 
         <p>The <a href="http://tools.ietf.org/html/rfc6749">OAuth 2.0</a> specification defines a <i>delegation</i> protocol that is useful for conveying <i>authorization decisions</i> across a network of web-enabled applications and APIs. OAuth is used in a wide variety of applications, including providing mechanisms for user authentication. This has led many developers and API providers to incorrectly conclude that OAuth is itself an <i>authentication</i> protocol and to mistakenly use it as such. Let's say that again, to be clear:</p>
 			

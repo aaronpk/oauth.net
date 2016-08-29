@@ -75,10 +75,6 @@ require('./includes/_header.php');
       <a href="documentation/getting-started">Get started...</a>
     </div>
 
-    <div class="note column span-20 first last">
-      Learn more about the <a href="/2/">OAuth 2.0 framework</a>.
-    </div>
-
     <div class="clear"></div>
 
   </div>
