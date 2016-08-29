@@ -19,8 +19,8 @@
 ?>
 	</title>
 	<link href="/stylesheets/style.css" rel="stylesheet" type="text/css" />
-  <link href="/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" /> 
   <link href="/stylesheets/carbon.css" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" /> 
   <link rel="webmention" href="https://webmention.io/aaronpk/webmention" />
   <link rel="pingback" href="https://webmention.io/aaronpk/xmlrpc" />
 </head>

@@ -9,7 +9,7 @@ require('../includes/_header.php');
 ?>
 <div class="container">
   <div id="header" class="column first last span-20">
-    <h1 id="site-name" class="column first span-5 prepend-1 append-1"><a href="/">OAuth</a></h1>
+    <?php require('../includes/_site_name.php'); ?>
     <div id="primary" class="column span-13 last">
       <?php require('../includes/_nav_primary.php'); ?>
     </div>

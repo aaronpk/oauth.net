@@ -1,4 +1,5 @@
-body{font-family:Georgia,Times,serif;line-height:1.5;color:#000;background:none;font-size:11pt}
+#site-name a { text-indent: 0 }
+body{line-height:1.5;color:#000;background:none;font-size:11pt}
 img{float:left;margin:1.5em 1.5em 1.5em 0}
 p img.top{margin-top:0}
 hr{background:#ccc;color:#ccc;width:100%;height:2px;margin:2em 0;padding:0;border:none}
@@ -9,3 +10,8 @@ blockquote{margin:1.5em 0;padding:1em;border:0.2em solid #ccc;font-style:italic;
 .hide{display:none}
 a:link,a:visited{background:transparent;font-weight:bold;text-decoration:underline}
 a:link:after,a:visited:after{content:" (" attr(href) ") ";font-size:90%}
+#header a:link:after, #header a:visited:after, 
+  footer .supported a:link:after, footer .supported a:visited:after { content: ""; }
+#carbonads { display: none; }
+footer .follow { display: none; }
+footer .supported img { display: none; }
