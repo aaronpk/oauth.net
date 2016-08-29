@@ -56,7 +56,7 @@ body{text-align:center;margin:0}
 .clear:after,.container:after{content:".";display:block;height:0;clear:both;visibility:hidden}
 * html .clear{height:1%}
 .clear{display:block}
-h1,h2,h3,h4,h5,h6, p,ul,ol,dl,pre,form{padding-left:5px;padding-right:5px}
+p,ul,ol,dl,pre,form{padding-left:5px;padding-right:5px}
 table{margin-left:5px;margin-right:5px}
 img{margin:0 0 18px 0}
 .pull-1{margin-left:-70px}
@@ -96,7 +96,7 @@ h1,h2,h3,h4,h5,h6 {
 h1 { font-size: 30px; line-height:36px; padding:0 0 18px 0; }
 h2 { font-size: 20px; line-height:36px; }
 h3 { font-size: 16px; line-height:36px; }
-h4 { font-size: 14px; font-weight:bold; }
+h4 { font-size: 16px; font-weight:bold; }
 h5 { font-size: 12px; font-weight:bold; }
 h6 { font-size: 12px; }
  
@@ -279,6 +279,9 @@ ul.navigation li {
 #main h3 .caps {
 	font-size: 1.3em;
 }
+#main h4 {
+	padding-left: 0;
+}
 #main .hfeed .hentry {
 	list-style: none;
 	list-style-type: none;
@@ -390,6 +393,26 @@ clear: both;
 	
 /* @end */
 	
+
+.book-row {
+	display: flex;
+	flex-direction: row;
+}
+.book-row .left {
+	flex: 1 auto;
+}
+.book-row .left a {
+}
+.book-row .left img {
+	width: 180px;
+	margin-right: 1em;
+	border: 4px #ccc solid;
+}
+.book-row .right {
+	flex: 0 auto;
+}
+
+
 .article-author-box {
 	padding: 6px;
 	border: 2px solid #e6ecf2;
