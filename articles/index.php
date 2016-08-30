@@ -30,9 +30,13 @@ require('../includes/_header.php');
 	  
       <h3>OAuth 2 Simplified</h3>
 
-      <p>This post describes OAuth 2 in a simplified format to help developers and service providers implement the protocol.</p>
+      <p><i><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified">OAuth 2 Simplified</a></i> by <a href="https://aaronparecki.com">Aaron Parecki</a> describes OAuth 2 in a simplified format to help developers and service providers implement the protocol.</p>
       
-      <p><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified">OAuth 2 Simplified</a> by Aaron Parecki</p>
+
+      <h3>OAuth 2.0 Servers</h3>
+
+      <p><i><a href="https://www.oauth.com">OAuth 2.0 Servers</a></i>, written by <a href="https://aaronparecki.com">Aaron Parecki</a> and published by <a href="https://okta.com">Okta</a>, is a guide to building an OAuth 2.0 server, including many details that are not part of the spec.</p>
+
     </div>
   </div>
 
