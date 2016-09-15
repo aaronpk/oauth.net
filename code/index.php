@@ -147,6 +147,7 @@ require('../includes/_header.php');
       </li>
       <li>Node.js
         <ul>
+          <li><a href="https://github.com/simov/grant">Grant</a></li>
           <li><a href="http://passportjs.org/">PassportJS</a></li>
           <li><a href="https://github.com/zalando/oauth2-client-js">OAuth2-client-js</a></li>
         </ul>
