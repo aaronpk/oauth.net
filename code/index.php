@@ -83,6 +83,7 @@ require('../includes/_header.php');
       <li>Golang
         <ul>
           <li><a href="https://github.com/go-oauth2/oauth2">Golang OAuth 2 Server framework</a></li>
+          <li><a href="https://github.com/zalando/gin-oauth2">gin-oauth2</a>: middleware for Gin Framework users who also want to use OAuth2</li>
         </ul>
       </li>
     </ul>
