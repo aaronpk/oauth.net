@@ -119,6 +119,7 @@ require('../includes/_header.php');
           <li><a href="https://projects.spring.io/spring-security-oauth/">Spring Security OAuth</a></li>
           <li><a href="http://www.restlet.org/">Restlet Framework (draft 30)</a></li>
           <li><a href="https://github.com/scribejava/scribejava">ScribeJava</a></li>
+          <li><a href="https://github.com/dmfs/oauth2-essentials">oauth2-essentials</a></li>
         </ul>
       </li>
       <li>Scala
