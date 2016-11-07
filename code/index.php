@@ -80,7 +80,7 @@ require('../includes/_header.php');
           <li><a href="https://github.com/kivra/oauth2">Erlang OAuth 2 Server framework</a></li>
         </ul>
       </li>
-      <li>Golang
+      <li>Go
         <ul>
           <li><a href="https://github.com/go-oauth2/oauth2">Golang OAuth 2 Server framework</a></li>
           <li><a href="https://github.com/zalando/gin-oauth2">gin-oauth2</a>: middleware for Gin Framework users who also want to use OAuth2</li>
@@ -182,10 +182,9 @@ require('../includes/_header.php');
           <li><a href="https://pub.dartlang.org/packages/oauth2">Dart OAuth 2.0 Client</a></li>
         </ul>
       </li>
-      <li>Golang
+      <li>Go
         <ul>
-          <li><a href="https://github.com/golang/oauth2">Go OAuth 2.0 Client</a></li>
-          <li><a href="http://godoc.org/golang.org/x/oauth2">OAuth2</a></li>
+          <li><a href="http://godoc.org/golang.org/x/oauth2">Go OAuth 2.0 Client</a></li>
         </ul>
       </li>
       <li>ActionScript
