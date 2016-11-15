@@ -64,7 +64,7 @@ require('../includes/_header.php');
         <li><a href="https://oauth.com/oauth2-servers/token-introspection-endpoint/">Token Introspection Endpoint</a></li>
         <li><a href="https://oauth.com/oauth2-servers/the-resource-server/">The Resource Server</a></li>
         <li><a href="https://oauth.com/oauth2-servers/creating-documentation/">Creating Documentation</a></li>
-        <li><a href="https://oauth.com/oauth2-servers/additional-resources/">Differences Between OAuth 1 and 2</a></li>
+        <li><a href="https://oauth.com/oauth2-servers/differences-between-oauth-1-2/">Differences Between OAuth 1 and 2</a></li>
       </ul>
 
 <!-- 
