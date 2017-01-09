@@ -35,7 +35,7 @@ require('../includes/_header.php');
 
     <h3>OAuth 2.0 Extensions</h3>
     <ul>
-      <li><a href="https://tools.ietf.org/html/draft-denniss-oauth-device-flow-00">OAuth 2.0 Device Flow</a></li>
+      <li><a href="https://tools.ietf.org/html/draft-ietf-oauth-device-flow-03">OAuth 2.0 Device Flow</a></li>
       <li><a href="https://tools.ietf.org/html/rfc7662">OAuth 2.0 Token Introspection</a> - RFC 7662, to determine the active state and meta-information of a token</li>
       <li><a href="https://tools.ietf.org/html/draft-ietf-oauth-spop-15">PKCE</a> - Proof Key for Code Exchange, better security for native apps</li>
       <li><a href="https://tools.ietf.org/html/draft-ietf-oauth-native-apps-03">Native Apps</a> - Recommendations for using OAuth 2.0 with native apps</li>
