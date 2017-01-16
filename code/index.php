@@ -37,6 +37,7 @@ require('../includes/_header.php');
           <li><a href="http://www.restlet.org/">Restlet Framework (draft 30)</a></li>
           <li><a href="http://cxf.apache.org/">Apache CXF</a></li>
           <li><a href="https://github.com/zalando/tokens">Tokens</a>: Java library for conveniently verifying and storing OAuth 2.0 service access tokens.</li>
+          <li><a href="https://github.com/networknt/light-oauth2">Light OAuth2 - The fastest, lightest and cloud native OAuth 2.0 microservices</a></li>
         </ul>
       </li>
       <li>PHP
@@ -120,6 +121,7 @@ require('../includes/_header.php');
           <li><a href="http://www.restlet.org/">Restlet Framework (draft 30)</a></li>
           <li><a href="https://github.com/scribejava/scribejava">ScribeJava</a></li>
           <li><a href="https://github.com/dmfs/oauth2-essentials">oauth2-essentials</a></li>
+          <li><a href="https://github.com/networknt/light-java/tree/master/client">Light Java Client</a></li>
         </ul>
       </li>
       <li>Scala
