@@ -37,6 +37,7 @@ require('../includes/_header.php');
           <li><a href="http://www.restlet.org/">Restlet Framework (draft 30)</a></li>
           <li><a href="http://cxf.apache.org/">Apache CXF</a></li>
           <li><a href="https://github.com/zalando/tokens">Tokens</a>: Java library for conveniently verifying and storing OAuth 2.0 service access tokens.</li>
+          <li><a href="https://github.com/networknt/light-oauth2">Light OAuth2 - The fastest, lightest and cloud native OAuth 2.0 microservices</a></li>
         </ul>
       </li>
       <li>PHP
@@ -80,7 +81,7 @@ require('../includes/_header.php');
           <li><a href="https://github.com/kivra/oauth2">Erlang OAuth 2 Server framework</a></li>
         </ul>
       </li>
-      <li>Golang
+      <li>Go
         <ul>
           <li><a href="https://github.com/go-oauth2/oauth2">Golang OAuth 2 Server framework</a></li>
           <li><a href="https://github.com/zalando/gin-oauth2">gin-oauth2</a>: middleware for Gin Framework users who also want to use OAuth2</li>
@@ -119,6 +120,8 @@ require('../includes/_header.php');
           <li><a href="https://projects.spring.io/spring-security-oauth/">Spring Security OAuth</a></li>
           <li><a href="http://www.restlet.org/">Restlet Framework (draft 30)</a></li>
           <li><a href="https://github.com/scribejava/scribejava">ScribeJava</a></li>
+          <li><a href="https://github.com/dmfs/oauth2-essentials">oauth2-essentials</a></li>
+          <li><a href="https://github.com/networknt/light-java/tree/master/client">Light Java Client</a></li>
         </ul>
       </li>
       <li>Scala
@@ -181,10 +184,9 @@ require('../includes/_header.php');
           <li><a href="https://pub.dartlang.org/packages/oauth2">Dart OAuth 2.0 Client</a></li>
         </ul>
       </li>
-      <li>Golang
+      <li>Go
         <ul>
-          <li><a href="https://github.com/golang/oauth2">Go OAuth 2.0 Client</a></li>
-          <li><a href="http://godoc.org/golang.org/x/oauth2">OAuth2</a></li>
+          <li><a href="http://godoc.org/golang.org/x/oauth2">Go OAuth 2.0 Client</a></li>
         </ul>
       </li>
       <li>ActionScript

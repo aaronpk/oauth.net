@@ -15,7 +15,7 @@
       <div class="supported">
         <a href="http://auth0.com/">Supported by <img src="/images/auth0.svg" style="margin: 0 0.3em;"> Auth0</a>
         <?php if(time() > strtotime('2016-10-01')): ?>
-          <span style="margin-left:4px;">and <img src="/images/okta.jpg" height="20" style="margin-bottom: 2px;"> <a href="http://okta.com">Okta</a></span>
+          <span style="margin-left:4px;">and <a href="http://okta.com"><img src="/images/okta.jpg" height="20" style="margin-bottom: 2px;"> Okta</a></span>
         <?php endif; ?>
       </div>
     <?php else: ?>
