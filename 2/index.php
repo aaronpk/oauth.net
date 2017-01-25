@@ -56,9 +56,9 @@ require('../includes/_header.php');
 
     <h3>Community Resources</h3>
     <ul>
-      <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified">OAuth 2.0 Simplified</a></li>
+      <li><a href="https://aaronparecki.com/oauth-2-simplified/">OAuth 2.0 Simplified</a></li>
       <li><a href="/books/">Books about OAuth</a></li>
-      <li><a href="http://oauth.com/">OAuth 2.0 Servers</a> - a guide to building OAuth 2.0 servers by Aaron Parecki</li>
+      <li><a href="https://www.oauth.com/">OAuth 2.0 Servers</a> - a guide to building OAuth 2.0 servers by Aaron Parecki</li>
       <li><a href="https://alexbilbie.com/tag/oauth/">OAuth articles by Alex Bilbie</a></li>
     </ul>
 
