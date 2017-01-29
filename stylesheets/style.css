@@ -458,3 +458,12 @@ footer .source {
 footer .source a {
 	text-decoration: none;
 }
+
+.banner {
+	padding: 6px;
+	border: 1px #FEEA89 solid;
+	border-radius: 6px;
+	background: #FFFDD1;
+	margin: 1em 0;
+}
+

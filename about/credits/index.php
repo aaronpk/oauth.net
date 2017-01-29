@@ -25,9 +25,8 @@ require('../../includes/_header.php');
 
     <div id="main" class="column first last span-18 prepend-1 append-1">
       <h2>Credits</h2>
-			<p>
-				This site was designed by <a href="http://factoryjoe.com">Chris Messina</a> and is maintained by <a href="https://aaronparecki.com/">Aaron Parecki</a>.
-			</p>
+
+      <p>This website is maintained by <a href="https://aaronparecki.com/">Aaron Parecki</a>, and was designed by <a href="http://factoryjoe.com">Chris Messina</a>.</p>
       <p>
         Many other people have contributed to the website by adding links to libraries and other resources. See <a href="https://github.com/aaronpk/oauth.net/network/members">more contributors on GitHub</a>.
       </p>
