@@ -25,28 +25,28 @@ require('../includes/_header.php');
 
       <p>Below are some guides to OAuth 2.0 which cover many of the topics needed to understand and implement clients and servers.</p>
       
-      <h3><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified">OAuth 2.0 Simplified</a></h3>
+      <h3><a href="https://aaronparecki.com/oauth-2-simplified/">OAuth 2.0 Simplified</a></h3>
       <p><i>OAuth 2.0 Simplified</i>, written by <a href="https://aaronparecki.com">Aaron Parecki</a>, is a guide to OAuth 2.0 focused on writing clients that gives a clear overview of the spec at an introductory level.</p>
       <ul>
-        <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#roles">Roles</a>: Applications, APIs and Users</li>
-        <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#creating-an-app">Creating an App</a></li>
-        <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#authorization">Authorization</a>: Obtaining an access token
+        <li><a href="https://aaronparecki.com/oauth-2-simplified/#roles">Roles</a>: Applications, APIs and Users</li>
+        <li><a href="https://aaronparecki.com/oauth-2-simplified/#creating-an-app">Creating an App</a></li>
+        <li><a href="https://aaronparecki.com/oauth-2-simplified/#authorization">Authorization</a>: Obtaining an access token
           <ul>
-            <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#web-server-apps">Web Server Apps</a></li>
-            <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#browser-based-apps">Browser-Based Apps</a></li>
-            <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#mobile-apps">Mobile Apps</a></li>
-            <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#others">Others</a></li>
+            <li><a href="https://aaronparecki.com/oauth-2-simplified/#web-server-apps">Web Server Apps</a></li>
+            <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#single-page-apps">Single-Page Apps</a></li>
+            <li><a href="https://aaronparecki.com/oauth-2-simplified/#mobile-apps">Mobile Apps</a></li>
+            <li><a href="https://aaronparecki.com/oauth-2-simplified/#others">Others</a></li>
           </ul>
         </li>
-        <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#making-authenticated-requests">Making Authenticated Requests</a></li>
-        <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#differences">Differences from OAuth 1.0</a>
+        <li><a href="https://aaronparecki.com/oauth-2-simplified/#making-authenticated-requests">Making Authenticated Requests</a></li>
+        <li><a href="https://aaronparecki.com/oauth-2-simplified/#differences">Differences from OAuth 1.0</a>
           <ul>
-            <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#authentication-and-signatures">Authentication and Signatures</a></li>
-            <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#user-experience-and-alternative-authorization-flows">User Experience and Alternative Authorization Flows</a></li>
-            <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#performance-at-scale">Performance at Scale</a></li>
+            <li><a href="https://aaronparecki.com/oauth-2-simplified/#authentication-and-signatures">Authentication and Signatures</a></li>
+            <li><a href="https://aaronparecki.com/oauth-2-simplified/#user-experience-and-alternative-authorization-flows">User Experience and Alternative Authorization Flows</a></li>
+            <li><a href="https://aaronparecki.com/oauth-2-simplified/#performance-at-scale">Performance at Scale</a></li>
           </ul>
         </li>
-        <li><a href="https://aaronparecki.com/2012/07/29/2/oauth2-simplified#resources">Resources</a></li>
+        <li><a href="https://aaronparecki.com/oauth-2-simplified/#resources">Resources</a></li>
       </ul>
 
       <h3><a href="https://oauth.com">OAuth 2.0 Servers</a></h3>

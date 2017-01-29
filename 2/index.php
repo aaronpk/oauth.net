@@ -21,7 +21,7 @@ require('../includes/_header.php');
 
     <h2 id="oauth-2.0">OAuth 2.0</h2>
 
-    <p><img src="/images/oauth-2-sm.png" alt="OAuth 2.0 logo" style="float:right; margin: 0 0 8px 8px;" />OAuth 2.0 is the next evolution of the OAuth protocol which was originally created in late 2006. OAuth 2.0 focuses on client developer simplicity while providing specific authorization flows for web applications, desktop applications, mobile phones, and living room devices. This specification is being developed within the <a href="https://www.ietf.org/mailman/listinfo/oauth">IETF OAuth WG</a>.</p>
+    <p><img src="/images/oauth-2-sm.png" alt="OAuth 2.0 logo" style="float:right; margin: 0 0 8px 8px;" />OAuth 2.0 is the industry-standard protocol for authorization. OAuth 2.0 supersedes the work done on the original OAuth protocol created in 2006. OAuth 2.0 focuses on client developer simplicity while providing specific authorization flows for web applications, desktop applications, mobile phones, and living room devices. This specification is being developed within the <a href="https://www.ietf.org/mailman/listinfo/oauth">IETF OAuth WG</a>.</p>
     <p>Questions, suggestions and protocol changes should be discussed on the <a href="https://www.ietf.org/mailman/listinfo/oauth">mailing list</a>.</p>
 
     <?php require('../includes/_carbon.php'); ?>
@@ -45,21 +45,20 @@ require('../includes/_header.php');
       <li><a href="http://tools.ietf.org/html/rfc7523">JWT Bearer Assertion</a> - RFC 7523, for integrating with existing identity systems</li>
     </ul>
 
-    <h3>Protocols Built on OAuth 2.0</h3>
-    <ul>
-      <li><a href="http://openid.net/connect/">Open ID Connect</a></li>
-      <li><a href="http://blue-button.github.io/blue-button-plus-pull/">Blue Button</a></li>
-      <li><a href="http://en.openei.org/wiki/Green_Button_Developer">Green Button</a></li>
-      <li><a href="https://kantarainitiative.org/confluence/display/uma/UMA+1.0+Core+Protocol">UMA</a></li>
-      <li><a href="http://www.gsma.com/oneapi/">GSMA OneAPI</a></li>
-    </ul>
-
     <h3>Community Resources</h3>
     <ul>
       <li><a href="https://aaronparecki.com/oauth-2-simplified/">OAuth 2.0 Simplified</a></li>
       <li><a href="/books/">Books about OAuth</a></li>
       <li><a href="https://www.oauth.com/">OAuth 2.0 Servers</a> - a guide to building OAuth 2.0 servers by Aaron Parecki</li>
       <li><a href="https://alexbilbie.com/tag/oauth/">OAuth articles by Alex Bilbie</a></li>
+    </ul>
+
+    <h3>Protocols Built on OAuth 2.0</h3>
+    <ul>
+      <li><a href="http://openid.net/connect/">Open ID Connect</a></li>
+      <li><a href="https://docs.kantarainitiative.org/uma/rec-uma-core.html">UMA</a></li>
+      <li><a href="http://en.openei.org/wiki/Green_Button_Developer">Green Button</a></li>
+      <li><a href="http://blue-button.github.io/blue-button-plus-pull/">Blue Button</a> (obsolete)</li>
     </ul>
 
     <h3>Code and Services</h3>

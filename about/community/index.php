@@ -16,10 +16,10 @@ require('../../includes/_header.php');
       </div>
       <div id="secondary" class="column span-18 append-1 prepend-1 first last">
         <ul class="navigation">
-          <li><a href="/about/">Introduction</a></li>
+          <li><a href="/about/credits/">Credits</a></li>
+          <li><a href="/about/introduction/">Introduction</a></li>
           <li><a href="/about/design-goals/">Design Goals</a></li>
           <li><a class="selected" href="/about/community/">Community</a></li>
-          <li><a href="/about/credits/">Credits</a></li>
         </ul>
       </div>
     </div>

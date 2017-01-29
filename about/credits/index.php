@@ -15,10 +15,10 @@ require('../../includes/_header.php');
       </div>
       <div id="secondary" class="column span-18 append-1 prepend-1 first last">
         <ul class="navigation">
-          <li><a href="/about/">Introduction</a></li>
+          <li><a class="selected" href="/about/credits/">Credits</a></li>
+          <li><a href="/about/introduction/">Introduction</a></li>
           <li><a href="/about/design-goals/">Design Goals</a></li>
           <li><a href="/about/community/">Community</a></li>
-          <li><a class="selected" href="/about/credits/">Credits</a></li>
         </ul>
       </div>
     </div>
@@ -26,7 +26,7 @@ require('../../includes/_header.php');
     <div id="main" class="column first last span-18 prepend-1 append-1">
       <h2>Credits</h2>
 			<p>
-				This site was designed by <a href="http://factoryjoe.com">Chris Messina</a> and is administered by <a href="http://aaronparecki.com/">Aaron Parecki</a>.
+				This site was designed by <a href="http://factoryjoe.com">Chris Messina</a> and is maintained by <a href="https://aaronparecki.com/">Aaron Parecki</a>.
 			</p>
       <p>
         Many other people have contributed to the website by adding links to libraries and other resources. See <a href="https://github.com/aaronpk/oauth.net/network/members">more contributors on GitHub</a>.

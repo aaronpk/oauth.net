@@ -72,7 +72,7 @@ require('./includes/_header.php');
     <div class="clear"></div>
     
     <div class="get-started column span-20 first last">
-      <a href="documentation/getting-started">Get started...</a>
+      <a href="/getting-started/">Get started...</a>
     </div>
 
     <div class="clear"></div>
