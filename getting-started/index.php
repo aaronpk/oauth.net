@@ -155,6 +155,10 @@ require('../includes/_header.php');
 
       <p>You can find some excellent <a href="/books/">books</a> on OAuth 2.0.</p>
 
+      <h3>Consulting</h3>
+
+      <p>Find an <a href="/consulting/">OAuth consultant</a> to help your organization.</p>
+
     </div>
     
   </div>
