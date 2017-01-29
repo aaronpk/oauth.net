@@ -83,6 +83,7 @@ require('../includes/_header.php');
       </li>
       <li>Go
         <ul>
+          <li><a href="https://github.com/ory-am/hydra">An open source OAuth2 and OpenID Connect server for new and existing infrastructures. Written in Go.</a></li>
           <li><a href="https://github.com/go-oauth2/oauth2">Golang OAuth 2 Server framework</a></li>
           <li><a href="https://github.com/zalando/gin-oauth2">gin-oauth2</a>: middleware for Gin Framework users who also want to use OAuth2</li>
         </ul>
