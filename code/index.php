@@ -53,7 +53,9 @@ require('../includes/_header.php');
       <li>Python
         <ul>
           <li><a href="https://github.com/NateFerrero/oauth2lib"> Python OAuth 2.0 Client + Server Library</a></li>
-          <li><a href="https://github.com/evonove/django-oauth-toolkit">Django OAuth Toolkit</a> is an OAuth2 Provider for Django built upon <a href="https://github.com/idan/oauthlib">oauthlib</a></li>
+          <li><a href="http://python-social-auth-docs.readthedocs.io/en/latest/"> Python Social Auth</a> is an OAuth and OAuth2 client for a multitude of services.</li>
+          <li><a href="https://github.com/evonove/django-oauth-toolkit">Django OAuth Toolkit (DOT)</a> is an OAuth2 Provider for Django built upon <a href="https://github.com/idan/oauthlib">oauthlib</a></li>
+          <li><a href="https://github.com/evonove/django-oauth-toolkit">HHS OAuth2 Server</a> a health-centric Django project based on <a href="https://github.com/evonove/django-oauth-toolkit">DOT</a></li>
           <li><a href="https://github.com/lepture/flask-oauthlib">Flask-OAuthlib</a> is an OAuth2 Client/Provider for Flask built upon <a href="https://github.com/idan/oauthlib">oauthlib</a></li>
         </ul>
       </li>
