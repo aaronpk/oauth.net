@@ -150,7 +150,7 @@ require('../../includes/_header.php');
         <div style="height:90px; float:left;">
           <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: 0; margin-right: 10px;" src="https://i.creativecommons.org/l/by/4.0/88x31.png" height="31" width="88" /></a>
         </div>
-        This article was written by <a href="https://twitter.com/zer0n1ne">Justin Richer</a> with input from the OAuth community
+        This article was written by <a href="https://twitter.com/justin__richer">Justin Richer</a> with input from the OAuth community
         and is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
       </div>
 
