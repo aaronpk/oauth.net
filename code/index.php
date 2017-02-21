@@ -83,7 +83,8 @@ require('../includes/_header.php');
       </li>
       <li>Go
         <ul>
-          <li><a href="https://github.com/ory-am/hydra">Hydra</a> an open source OAuth2 and OpenID Connect server for new and existing infrastructures</li>
+          <li><a href="https://github.com/ory/fosite">Fosite</a>: Extensible security first OAuth 2.0 and OpenID Connect SDK for Go.</li>
+          <li><a href="https://github.com/RangelReale/osin">osin</a>: Golang OAuth2 server library </li>
           <li><a href="https://github.com/go-oauth2/oauth2">Golang OAuth 2 Server framework</a></li>
           <li><a href="https://github.com/zalando/gin-oauth2">gin-oauth2</a>: middleware for Gin Framework users who also want to use OAuth2</li>
         </ul>
@@ -204,6 +205,7 @@ require('../includes/_header.php');
 
     <h3 id="proxy-services">Proxy services</h3>
     <ul>
+       <li><a href="https://github.com/ory/hydra">Hydra</a> an open source OAuth2 and OpenID Connect server for new and existing infrastructures</li>
       <li><a href="https://github.com/oauth-io">OAuth.io</a> (self hosted), and also you can use as <a href="https://oauth.io/">an external service</a></li>
       <li><a href="https://github.com/ssqsignon">SSQ signon</a> (self hosted), and also you can use as <a href="https://ssqsignon.com/">an external service</a></li>
       <li><a href="https://auth0.com">Auth0</a>: Authorization Server as a service (or self hosted)</li>
