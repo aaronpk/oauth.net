@@ -31,6 +31,7 @@ require('../includes/_header.php');
       <li>Java
         <ul>
           <li><a href="https://github.com/mitreid-connect/OpenID-Connect-Java-Spring-Server">MitreID (with OpenID Connect)</a></li>
+          <li><a href="https://github.com/TransparentHealth/hhs_oauth_server">HHS OAuth2 Server (Healthcare focused)</a></li>
           <li><a href="http://oltu.apache.org/">Apache Oltu</a></li>
           <li><a href="https://projects.spring.io/spring-security-oauth/">Spring Security OAuth</a></li>
           <li><a href="https://github.com/OpenConextApps/apis">Apis Authorization Server (v2-31)</a></li>
