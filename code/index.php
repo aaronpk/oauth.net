@@ -19,11 +19,11 @@ require('../includes/_header.php');
   </div>
 
   <div id="main" class="column first last span-18 prepend-1 append-1">
-    
+
     <h2>Code</h2>
-    
+
     <?php require('../includes/_carbon.php'); ?>
-    
+
     <p>Below is a collection of libraries and services that support OAuth 2.0. If you would like to make any changes to this page, you can <a href="https://github.com/aaronpk/oauth.net/blob/master/code/index.php">edit this page</a>.</p>
 
     <h3 id="server-libraries">Server Libraries</h3>
@@ -69,7 +69,7 @@ require('../includes/_header.php');
       </li>
       <li>Ruby
         <ul>
-          <li><a href="https://github.com/nov/rack-oauth2">Ruby OAuth 2 Server (draft 18)</a></li>
+          <li><a href="https://github.com/nov/rack-oauth2">Rack::OAuth2 - OAuth 2.0 Server & Client Library in Ruby.</a></li>
         </ul>
       </li>
       <li>.NET
@@ -151,6 +151,7 @@ require('../includes/_header.php');
         <ul>
           <li><a href="http://github.com/intridea/oauth2">Ruby Gem</a></li>
           <li><a href="http://github.com/aflatter/oauth2-ruby">Ruby</a></li>
+          <li><a href="https://github.com/nov/rack-oauth2">Rack::OAuth2 - OAuth 2.0 Server & Client Library in Ruby.</a></li>
         </ul>
       </li>
       <li>Javascript
