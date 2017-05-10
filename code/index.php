@@ -182,6 +182,7 @@ require('../includes/_header.php');
       <li>Qt/C++
         <ul>
           <li><a href="https://github.com/pipacs/o2">O2 (supports OAuth 1.0a and 2.0)</a></li>
+          <li><a href="https://wiki.qt.io/New_Features_in_Qt_5.8">Qt Network Authentication (since 5.8, supports OAuth 1 and 2)</a></li>
         </ul>
       </li>
       <li>Lua/Corona SDK
