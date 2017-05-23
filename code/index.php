@@ -178,6 +178,7 @@ require('../includes/_header.php');
           <li><a href="http://www.dotnetopenauth.net/">DotNetOpenAuth</a></li>
           <li><a href="http://samondotnet.blogspot.com.au/2012/12/introduction-to-dotnetauth.html">DotNetAuth</a></li>
           <li><a href="http://www.springframework.net/social/">Spring Social for .NET</a></li>
+          <li><a href="https://github.com/xamarin/Xamarin.Auth">Xamarin.Auth</a></li>
         </ul>
       </li>
       <li>Qt/C++
