@@ -211,6 +211,11 @@ require('../includes/_header.php');
           <li><a href="https://github.com/GlobalSign/OAuth-2.0-client-examples/blob/master/PowerShell/Powershell-example.ps1">PowerShell client</a></li>
         </ul>
       </li>
+      <li>Elm
+        <ul>
+          <li><a href="http://package.elm-lang.org/packages/truqu/elm-oauth2/latest">elm-oauth2.0</a></li>
+        </ul>
+      </li>
     </ul>
 
     <h3 id="proxy-services">Proxy services</h3>
