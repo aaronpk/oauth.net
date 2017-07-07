@@ -219,6 +219,7 @@ require('../includes/_header.php');
       <li><a href="https://github.com/oauth-io">OAuth.io</a> (self hosted), and also you can use as <a href="https://oauth.io/">an external service</a></li>
       <li><a href="https://github.com/ssqsignon">SSQ signon</a> (self hosted), and also you can use as <a href="https://ssqsignon.com/">an external service</a></li>
       <li><a href="https://auth0.com">Auth0</a>: Authorization Server as a service (or self hosted)</li>
+      <li><a href="https://curity.io">Curity Identity Server</a>: A self hosted Authorization Server</li>
     </ul>
 
 
