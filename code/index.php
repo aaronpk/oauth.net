@@ -169,6 +169,7 @@ require('../includes/_header.php');
       </li>
       <li>Perl
           <ul>
+              <li><a href="https://github.com/perl-catalyst/CatalystX-OAuth2">Perl OAuth2 Server on Catalyst</a></li>
               <li><a href="https://github.com/Humanstate/mojolicious-plugin-oauth2-server">Perl OAuth2 Server on Mojolicious</a></li>
           </ul>
       </li>
