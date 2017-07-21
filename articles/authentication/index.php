@@ -1,6 +1,6 @@
 <?php
 
-$page_title = "End User Authentication with OAuth 2.0 &mdash; OAuth";
+$page_title = "User Authentication based on OAuth 2.0 &mdash; OAuth";
 $page_section = "articles";
 $page_secondary = "authentication";
 $page_meta_description = "Performing end user authentication using the OAuth 2.0 protocol.";
@@ -18,7 +18,7 @@ require('../../includes/_header.php');
     </div>
 
     <div id="main" class="column first last span-18 prepend-1 append-1">
-      <h2 id="oauth-2.0-authentication">User Authentication with OAuth 2.0</h2>
+      <h2 id="oauth-2.0-authentication">User Authentication based on OAuth 2.0</h2>
   
       <!-- Article compiled and edited by Justin Richer -->
 
