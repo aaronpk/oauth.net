@@ -35,7 +35,7 @@ require('../includes/_header.php');
 
       <h3>OAuth 2.0 Servers</h3>
 
-      <p><i><a href="https://www.oauth.com">OAuth 2.0 Servers</a></i>, written by <a href="https://aaronparecki.com">Aaron Parecki</a> and published by <a href="https://okta.com">Okta</a>, is a guide to building an OAuth 2.0 server, including many details that are not part of the spec.</p>
+      <p><i><a href="https://www.oauth.com">OAuth 2.0 Servers</a></i>, written by <a href="https://aaronparecki.com">Aaron Parecki</a> and published by <a href="https://developer.okta.com">Okta</a>, is a guide to building an OAuth 2.0 server, including many details that are not part of the spec.</p>
 
     </div>
   </div>
