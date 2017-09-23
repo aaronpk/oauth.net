@@ -222,23 +222,25 @@ require('../includes/_header.php');
 
     <h3 id="proxy-services">Proxy services</h3>
     <ul>
-       <li><a href="https://github.com/ory/hydra">Hydra</a> an open source OAuth2 and OpenID Connect server for new and existing infrastructures</li>
-      <li><a href="https://github.com/oauth-io">OAuth.io</a> (self hosted), and also you can use as <a href="https://oauth.io/">an external service</a></li>
-      <li><a href="https://github.com/ssqsignon">SSQ signon</a> (self hosted), and also you can use as <a href="https://ssqsignon.com/">an external service</a></li>
       <li><a href="https://auth0.com">Auth0</a>: Authorization Server as a service (or self hosted)</li>
       <li><a href="https://curity.io">Curity Identity Server</a>: A self hosted Authorization Server</li>
+      <li><a href="https://github.com/ory/hydra">Hydra</a> an open source OAuth2 and OpenID Connect server for new and existing infrastructures</li>
+      <li><a href="https://github.com/oauth-io">OAuth.io</a> (self hosted), and also you can use as <a href="https://oauth.io/">an external service</a></li>
+      <li><a href="https://developer.okta.com">Okta</a></li>
+      <li><a href="https://github.com/ssqsignon">SSQ signon</a> (self hosted), and also you can use as <a href="https://ssqsignon.com/">an external service</a></li>
     </ul>
 
 
     <h3 id="services-that-support-oauth-2">Services that support OAuth 2</h3>
     <ul>
       <li><a href="http://groups.google.com/group/37signals-api/browse_thread/thread/86b0da52134c1b7e">37signals (draft 5)</a></li>
-      <li><a href="https://auth0.com">Auth0</a></li>
       <li><a href="https://www.bookingsync.com">BookingSync</a></li>
       <li><a href="http://developers.box.com/oauth/">Box</a></li>
       <li><a href="http://beeminder.com/api">Beeminder</a></li>
       <li><a href="http://www.campaignmonitor.com/api/getting-started/#authenticating_with_oauth">Campaign Monitor</a></li>
+      <li><a href="http://www.sharefile.com/">Citrix ShareFile</a></li>
       <li><a href="https://clever.com/">Clever</a></li>
+      <li><a href="https://do.com">Do.com</a></li>
       <li><a href="https://www.dropbox.com/developers/core/docs#oa2-authorize">Dropbox</a></li>
       <li><a href="http://developers.facebook.com/docs/authentication/">Facebook's Graph API</a></li>
       <li><a href="https://developer.foursquare.com/overview/auth">Foursquare</a></li>
@@ -248,10 +250,8 @@ require('../includes/_header.php');
       <li><a href="http://www.meetup.com/meetup_api/auth/#oauth2">Meetup</a></li>
       <li><a href="http://nationbuilder.com/api_quickstart">NationBuilder</a></li>
       <li><a href="http://www.salesforce.com/us/developer/docs/api_rest/Content/quickstart_oauth.htm">Salesforce</a></li>
-      <li><a href="http://www.sharefile.com/">Citrix ShareFile</a></li>
       <li><a href="https://api.slack.com/docs/oauth">Slack</a></li>
       <li><a href="http://developers.soundcloud.com/docs/api/reference">SoundCloud</a></li>
-      <li><a href="https://do.com">Do.com (draft 22)</a></li>
       <li><a href="http://msdn.microsoft.com/en-us/library/live/hh243647.aspx">Windows Live</a></li>
       <li><a href="http://www.timecockpit.com/blog/2014/10/31/Welcome-OAuth2-and-OpenID-Connect">time cockpit</a></li>
       <li><a href="https://github.com/zalando-techmonkeys/baboon-proxy">Zalando's baboon-proxy</a></li>
