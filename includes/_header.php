@@ -27,7 +27,7 @@
 <body>
 
 <?php if(time() > strtotime('2016-08-01') 
-         && time() < strtotime('2018-08-01')
+         && time() < strtotime('2017-10-01')
          && $_SERVER['SERVER_NAME'] == 'oauth.net'): ?>
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MLQ3KK"
