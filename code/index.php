@@ -154,6 +154,11 @@ require('../includes/_header.php');
           <li><a href="https://github.com/nov/rack-oauth2">Rack::OAuth2 - OAuth 2.0 Server & Client Library in Ruby.</a></li>
         </ul>
       </li>
+      <li>ColdFusion / CFML
+        <ul>
+          <li><a href="https://github.com/coldfumonkeh/oauth2">OAuth2 - OAuth 2.0 Client Library for ColdFusion. Contains simple components for specific resource servers.</a></li>
+        </ul>
+      </li>
       <li>Javascript
         <ul>
           <li><a href="http://github.com/andreassolberg/jso">Javascript</a></li>
