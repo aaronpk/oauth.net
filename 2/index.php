@@ -52,8 +52,14 @@ require('../includes/_header.php');
     <h3>Community Resources</h3>
     <ul>
       <li><a href="https://aaronparecki.com/oauth-2-simplified/">OAuth 2.0 Simplified</a></li>
-      <li><a href="/books/">Books about OAuth</a></li>
-      <li><a href="https://www.oauth.com/">OAuth 2.0 Servers</a> - a guide to building OAuth 2.0 servers by Aaron Parecki</li>
+      <li>
+        <a href="/books/">Books about OAuth</a>
+        <ul>
+          <li><a href="https://oauth2simplified.com">OAuth 2.0 Simplified</a> by Aaron Parecki</li>
+          <li><a href="https://www.manning.com/books/oauth-2-in-action">OAuth 2 in Action</a> by Justin Richer and Antonio Sanso</li>
+          <li><a href="https://www.packtpub.com/application-development/mastering-oauth-2/?utm_source=GC-oauth.net&utm_medium=pod&utm_campaign=1784395407">Mastering OAuth 2.0</a> by Charles Bihis</li>
+        </ul>
+      </li>
       <li><a href="https://alexbilbie.com/tag/oauth/">OAuth articles by Alex Bilbie</a></li>
     </ul>
 

@@ -20,7 +20,18 @@ require('../includes/_header.php');
 
     <div id="main" class="column first last span-18 prepend-1 append-1">
       <h2>Books</h2>
-    
+
+      <div class="book-row">
+        <div class="left">
+          <a href="http://www.lulu.com/content/paperback-book/oauth-20-simplified/21188372" class="noprintexpand"><img src="oauth_2_simplified.jpg" alt="OAuth 2.0 Simplified Book Cover" title="OAuth 2.0 Simplified"></a>
+        </div>
+        <div class="right">
+          <p><a href="http://www.lulu.com/content/paperback-book/oauth-20-simplified/21188372"><i>OAuth 2.0 Simplified</i></a> by Aaron Parecki is a guide to building an OAuth 2.0 server. Through high-level overviews, step-by-step instructions, and real-world examples, you will learn how to take advantage of the OAuth 2.0 framework while building a secure API.</p>
+          <p>Whether you’re a software architect, application developer, project manager, or a casual programmer, this book will introduce you to the concepts of OAuth 2.0 and demonstrate what is required when building a server.</p>
+          <p>This book is currently available from <a href="http://www.lulu.com/content/paperback-book/oauth-20-simplified/21188372">Lulu.com</a> and <a href="">Amazon</a>.</p>
+        </div>
+      </div>
+
       <div class="book-row">
         <div class="left">
           <a href="https://www.manning.com/books/oauth-2-in-action" class="noprintexpand"><img src="oauth_in_action.jpg" alt="OAuth in Action Cover" title="OAuth in Action"></a>
