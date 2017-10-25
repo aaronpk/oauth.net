@@ -13,7 +13,7 @@ require('../includes/_header.php');
     <?php require('../includes/_site_name.php'); ?>
     <div id="primary" class="column span-13 last">
       <?php require('../includes/_nav_primary.php'); ?>
-4    </div>
+    </div>
     <div id="secondary" class="column span-18 append-1 prepend-1 first last">
     </div>
   </div>
