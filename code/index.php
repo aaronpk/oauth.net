@@ -44,7 +44,6 @@ require('../includes/_header.php');
         <ul>
           <li><a href="https://github.com/bshaffer/oauth2-server-php">PHP OAuth2 Server</a> and <a href="https://github.com/bshaffer/oauth2-demo-php">Demo</a></li>
           <li><a href="https://github.com/thephpleague/oauth2-server">PHP OAuth 2.0 Auth and Resource Server</a> and <a href="https://github.com/lncd/oauth2-example-auth-server">Demo</a></li>
-          <li><a href="https://github.com/fkooman/php-oauth">PHP OAuth 2.0</a> (AS with SAML/BrowserID AuthN, with management REST API)</li>
           <li><a href="https://github.com/authbucket/oauth2">PHP OAuth2.0</a> for <a href="http://silex.sensiolabs.org/">Silex</a> and <a href="http://oauth2.authbucket.com/demo">Demo</a></li>
           <li><a href="https://github.com/authbucket/oauth2-bundle">PHP OAuth2.0</a> for <a href="http://symfony.com/">Symfony</a> and <a href="http://oauth2-bundle.authbucket.com/demo">Demo</a></li>
           <li><a href="https://github.com/drahak/OAuth2">Nette OAuth2 provider</a> for <a href="https://nette.org">Nette framework</a> and <a href="https://github.com/drahak/Restful">Nette REST API bundle</a></li>
@@ -105,7 +104,7 @@ require('../includes/_header.php');
         <ul>
           <li><a href="https://github.com/thephpleague/oauth2-client">league/oauth2-client</a>: OAuth 2.0 Client from <a href="https://thephpleague.com/">the League of Extraordinary Packages</a></li>
           <li><a href="http://www.phpclasses.org/package/7700-PHP-Authorize-and-access-APIs-using-OAuth.html">oauth-api</a> from <a href="http://www.phpclasses.org/">PHP Classes</a></li>
-          <li><a href="https://github.com/fkooman/php-oauth-client">PHP OAuth 2.0 Authorization Code Grant Client</a></li>
+          <li><a href="https://github.com/fkooman/php-oauth2-client"> Very simple OAuth 2.0 client, PHP >= 5.4</a></li>
           <li><a href="https://github.com/ivan-novakov/php-openid-connect-client">OAuth2/OpenID Connect Client Library for PHP/Zend Framework 2</a></li>
         </ul>
       </li>
@@ -152,6 +151,11 @@ require('../includes/_header.php');
           <li><a href="http://github.com/intridea/oauth2">Ruby Gem</a></li>
           <li><a href="http://github.com/aflatter/oauth2-ruby">Ruby</a></li>
           <li><a href="https://github.com/nov/rack-oauth2">Rack::OAuth2 - OAuth 2.0 Server & Client Library in Ruby.</a></li>
+        </ul>
+      </li>
+      <li>ColdFusion / CFML
+        <ul>
+          <li><a href="https://github.com/coldfumonkeh/oauth2">OAuth2 - OAuth 2.0 Client Library for ColdFusion. Contains simple components for specific resource servers.</a></li>
         </ul>
       </li>
       <li>Javascript
