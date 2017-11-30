@@ -54,18 +54,18 @@ require('../includes/_header.php');
         <div class="right">
           <p><a href="https://www.amazon.com/Mastering-OAuth-2-0-Charles-Bihis/dp/1784395404?tag=oauthnet-20"><i>Mastering OAuth 2.0</i></a> by Charles Bihis provides an in-depth view of the OAuth 2.0 protocol from a client perspective.  With a focus on practicality and security, this book explores the various ways in which a client can integrate with an OAuth 2.0 service provider, discussing caveats and best practices along the way.<p>
           <p>This book focuses on the client integration side of the OAuth 2.0 protocol and is ideal for client and application developers looking to integrate with OAuth 2.0 service providers in the most secure and effective way.</p>
-          <p>This book is available from <a href="https://www.packtpub.com/application-development/mastering-oauth-2/?utm_source=GC-oauth.net&utm_medium=pod&utm_campaign=1784395407">Packt Pub</a> and <a href="https://www.amazon.com/Mastering-OAuth-2-0-Charles-Bihis/dp/1784395404?tag=oauthnet-20">Amazon</a>.</p>
+          <p>This book is available from <a href="https://www.packtpub.com/application-development/mastering-oauth-2/?utm_source=GC-oauth.net&utm_medium=pod&utm_campaign=1784395407">Packt</a> and <a href="https://www.amazon.com/Mastering-OAuth-2-0-Charles-Bihis/dp/1784395404?tag=oauthnet-20">Amazon</a>.</p>
         </div>
       </div>
 	    
       <div class="book-row">
         <div class="left">
-          <a href="https://www.packtpub.com/virtualization-and-cloud/oauth-20-cookbook" class="noprintexpand"><img src="OAuth2.0_Cookbook.jpg" alt="OAuth 2.0 Cookbook" title="OAuth 2.0 Cookbook"></a>
+          <a href="https://www.packtpub.com/virtualization-and-cloud/oauth-20-cookbook" class="noprintexpand"><img src="oauth-20-cookbook.png" alt="OAuth 2.0 Cookbook" title="OAuth 2.0 Cookbook"></a>
         </div>
         <div class="right">
-          <p><a href="https://www.packtpub.com/virtualization-and-cloud/oauth-20-cookbook"><i>OAuth 2.0 Cookbook</i></a> by Adolfo Eloy Nascimento provides a standard protocol for authorization and focuses on client development simplicity while providing specific authorization flows for web applications, desktop applications, mobile phones, and so on. This book also provides useful recipes for solving real-life problems using Spring Security and creating Android applications.<p>
-          <p>The book starts by presenting you how to interact with some public OAuth 2.0 protected APIs such as Facebook, LinkedIn and Google. Readers will also be able to implement their own OAuth 2.0 provider with Spring Security OAuth2. Next, the book will cover practical scenarios regarding some important OAuth 2.0 profiles such as Dynamic Client Registration, Token Introspection and how to revoke issued access tokens. Readers will then be introduced to the usage of JWT, OpenID Connect, and how to safely implement native mobile OAuth 2.0 Clients.</p>
-          <p>This book is available from <a href="https://www.packtpub.com/virtualization-and-cloud/oauth-20-cookbook">Packt</a> and <a href="https://www.amazon.com/dp/178829596X">Amazon</a>.</p>
+          <p><a href="https://www.packtpub.com/virtualization-and-cloud/oauth-20-cookbook"><i>OAuth 2.0 Cookbook</i></a> by Adolfo Eloy Nascimento provides useful recipes for solving real-life problems using Spring Security and creating Android applications.<p>
+          <p>The book starts by presenting you how to interact with some public OAuth 2.0 protected APIs such as Facebook, LinkedIn and Google. Readers will also be able to implement their own OAuth 2.0 provider with Spring Security OAuth2. Next, the book covers practical scenarios regarding some important OAuth 2.0 profiles such as Dynamic Client Registration, Token Introspection and how to revoke issued access tokens. Readers will then be introduced to the usage of JWT, OpenID Connect, and how to safely implement native mobile OAuth 2.0 Clients.</p>
+          <p>This book is available from <a href="https://www.packtpub.com/virtualization-and-cloud/oauth-20-cookbook">Packt</a> and <a href="https://www.amazon.com/dp/178829596X?tag=oauthnet-20">Amazon</a>.</p>
         </div>
       </div>	    
     </div>
