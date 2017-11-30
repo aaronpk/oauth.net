@@ -56,8 +56,9 @@ require('../includes/_header.php');
         <a href="/books/">Books about OAuth</a>
         <ul>
           <li><a href="https://oauth2simplified.com">OAuth 2.0 Simplified</a> by Aaron Parecki</li>
-          <li><a href="https://www.manning.com/books/oauth-2-in-action">OAuth 2 in Action</a> by Justin Richer and Antonio Sanso</li>
-          <li><a href="https://www.packtpub.com/application-development/mastering-oauth-2/?utm_source=GC-oauth.net&utm_medium=pod&utm_campaign=1784395407">Mastering OAuth 2.0</a> by Charles Bihis</li>
+          <li><a href="https://www.amazon.com/OAuth-2-Action-Justin-Richer/dp/161729327X/?tag=oauthnet-20">OAuth 2 in Action</a> by Justin Richer and Antonio Sanso</li>
+          <li><a href="https://www.amazon.com/Mastering-OAuth-2-0-Charles-Bihis/dp/1784395404?tag=oauthnet-20">Mastering OAuth 2.0</a> by Charles Bihis</li>
+          <li><a href="https://www.amazon.com/dp/178829596X?tag=oauthnet-20">OAuth 2.0 Cookbook</a> by Adolfo Eloy Nascimento</li>
         </ul>
       </li>
       <li><a href="https://alexbilbie.com/tag/oauth/">OAuth articles by Alex Bilbie</a></li>
