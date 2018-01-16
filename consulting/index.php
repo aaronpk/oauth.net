@@ -28,7 +28,6 @@ require('../includes/_header.php');
         <img src="aaronpk.jpg" style="width: 120px; height: 120px; border-radius: 60px; flex: 0 0;">
         <div style="flex: 1 0; margin-left: 10px;">
           <p><a href="https://aaronparecki.com/oauth/">Aaron Parecki</a> is available to provide OAuth training and consultation for you and your team. A typical consultation will involve a half-day or full-day session, starting with an introduction to OAuth 2.0 tailored to your needs, followed by spending time addressing the specific questions of your team relating to your product.</p>
-          <p>Email <a href="mailto:aaron@parecki.com?subject=OAuth Consulting">aaron@parecki.com</a> for availability.</p>
         </div>
       </div>
 

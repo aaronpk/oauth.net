@@ -43,6 +43,7 @@ require('../includes/_header.php');
       <li><a href="http://tools.ietf.org/html/rfc7521">OAuth Assertions Framework</a> - RFC 7521</li>
       <li><a href="http://tools.ietf.org/html/rfc7522">SAML2 Bearer Assertion</a> - RFC 7522, for integrating with existing identity systems</li>
       <li><a href="http://tools.ietf.org/html/rfc7523">JWT Bearer Assertion</a> - RFC 7523, for integrating with existing identity systems</li>
+      <li><a href="https://tools.ietf.org/wg/oauth/">OAuth WG Status Pages</a></li>
     </ul>
 
     <div class="banner">
@@ -68,6 +69,7 @@ require('../includes/_header.php');
     <ul>
       <li><a href="http://openid.net/connect/">Open ID Connect</a></li>
       <li><a href="https://docs.kantarainitiative.org/uma/rec-uma-core.html">UMA</a></li>
+      <li><a href="https://indieauth.spec.indieweb.org/">IndieAuth</a></li>
       <li><a href="http://en.openei.org/wiki/Green_Button_Developer">Green Button</a></li>
       <li><a href="http://blue-button.github.io/blue-button-plus-pull/">Blue Button</a> (obsolete)</li>
     </ul>
