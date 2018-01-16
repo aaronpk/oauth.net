@@ -37,6 +37,7 @@ require('../includes/_header.php');
     <ul>
       <li><a href="https://tools.ietf.org/html/draft-ietf-oauth-device-flow">OAuth 2.0 Device Flow</a></li>
       <li><a href="https://tools.ietf.org/html/rfc7662">OAuth 2.0 Token Introspection</a> - RFC 7662, to determine the active state and meta-information of a token</li>
+      <li><a href="https://tools.ietf.org/html/rfc7009">OAuth 2.0 Token Revocation</a> - RFC 7009, to signal that a previously obtained token is no longer needed</li>
       <li><a href="https://tools.ietf.org/html/rfc7636">PKCE</a> - Proof Key for Code Exchange, better security for native apps</li>
       <li><a href="https://tools.ietf.org/html/rfc8252">Native Apps</a> - Recommendations for using OAuth 2.0 with native apps</li>
       <li><a href="http://tools.ietf.org/html/rfc7519">JSON Web Token</a> - RFC 7519</li>
