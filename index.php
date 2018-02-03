@@ -21,11 +21,11 @@ require('./includes/_header.php');
     </div>
   </div>
 
-  <div class="column first last span-20" style="clear: both; text-align: center; font-size: 16pt; line-height: 18pt; width: 760px; margin: 20px auto; float: none;">
+  <div class="column first last span-20" style="clear: both; text-align: center; font-size: 16pt; line-height: 23pt; width: 760px; margin: 20px auto; float: none;">
     <div style="padding: 20px 0; display: flex; flex-direction: row;">
       <div style="width: 60%;">
-        The OAuth 2.0 authorization framework enables a third-party
-        application to obtain limited access to an HTTP service.
+        The OAuth 2.0 authorization framework enables third-party
+        applications to obtain limited access to a web service.
       </div>
       <div style="width: 40%;"><?php require('includes/_carbon.php'); ?></div>
     </div>
