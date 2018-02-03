@@ -1,0 +1,42 @@
+<?php
+$page_title = "OAuth 2.0 Bearer Token Usage";
+$page_section = "";
+$page_secondary = "";
+$page_meta_description = "OAuth 2.0 Bearer Token Usage - RFC 6750";
+require('../../includes/_header.php');
+?>
+<div class="container">
+  <div id="header" class="column first last span-20">
+    <?php require('../../includes/_site_name.php'); ?>
+    <div id="primary" class="column span-13 last">
+      <?php require('../../includes/_nav_primary.php'); ?>
+    </div>
+    <div id="secondary" class="column span-18 append-1 prepend-1 first last">
+      <ul class="breadcrumb">
+        <li><a href="/2/">OAuth 2.0</a> <span>&gt;</span> </li>
+        <li class="current">Bearer Tokens</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="main" class="column first last span-18 prepend-1 append-1">
+
+    <h2>RFC 6750: OAuth 2.0 Bearer Token Usage</h2>
+
+    <?php require('../../includes/_carbon.php'); ?>
+
+    <p><a href="http://tools.ietf.org/html/rfc6750" class="rfc">RFC 6750</a></p>
+
+    <p>Bearer Tokens are the predominant type of access token used with OAuth 2.0.</p>
+    <p>A Bearer Token is an opaque string, not intended to have any meaning to clients using it. Some servers will issue tokens that are a short string of hexadecimal characters, while others may use structured tokens such as <a href="/2/jwt/">JSON Web Tokens</a>.</p>
+    <p>More resources
+      <ul>
+        <li><a href="https://www.oauth.com/oauth2-servers/access-tokens/">Access Tokens</a> (oauth.com)</li>
+        <li><a href="https://auth0.com/blog/ten-things-you-should-know-about-tokens-and-cookies/">10 Things You Should Know about Tokens</a> (auth0.com)</li>
+      </ul>
+    </p>
+
+  </div>
+</div>
+
+<?php require('../../includes/_footer.php'); ?>

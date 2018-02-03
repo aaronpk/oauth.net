@@ -206,10 +206,10 @@ p.quiet   { color: #666; }
  
 /* @group Navigation */
 	
-ul.navigation, ul.navigation li {
+ul.navigation, ul.navigation li, ul.breadcrumb {
   list-style: none;
 }
-ul.navigation li {
+ul.navigation li, ul.breadcrumb li {
   display: inline;
   margin-right: 1.3em;
 }
@@ -234,25 +234,29 @@ ul.navigation li {
 	padding-top: 7px;
 	background-color: #f8fbfd;
 }
-#secondary ul.navigation {
+#secondary ul.navigation, #secondary ul.breadcrumb {
 	margin-bottom: 7px;
 }
-#secondary ul.navigation li {
+#secondary ul.navigation li, #secondary ul.breadcrumb li {
 	margin-right: 0;
 }
-#secondary ul.navigation li a {
+#secondary ul.navigation li a, #secondary ul.breadcrumb li a {
 	color: #515151;
 	text-decoration: none;
 	padding: 8px 24px 8px 24px;
 	margin-left: -4px;
 }
-#secondary ul.navigation li a.selected {
+#secondary ul.breadcrumb li.current {
+	padding: 8px 24px 8px 24px;
+}
+#secondary ul.navigation li a.selected, #secondary ul.breadcrumb li a.selected {
 	background-color: #515151;
 	color: #fff;
 }
-#secondary ul.navigation a:hover {
+#secondary ul.navigation a:hover, #secondary ul.breadcrumb a:hover {
 	background: #e5f1ff;
 }
+
 /* @end */
  
 /* @group Main */
@@ -341,7 +345,21 @@ ul.navigation li {
 #main pre {
 	overflow: auto;
 }
- 
+
+#main .rfc {
+	margin-top: 6px;
+	padding: 6px 12px;
+	border: 1px #87a8da solid;
+	border-radius: 4px;
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+	background: #f8fbfd;
+}
+#main .rfc:hover {
+	background: #dbe7ef;
+}
+
 /* @end */
 /* @group Footer */
  

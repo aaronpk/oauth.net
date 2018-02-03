@@ -1,0 +1,45 @@
+<?php
+$page_title = "OAuth 2.0 for Mobile and Native Apps";
+$page_section = "";
+$page_secondary = "";
+$page_meta_description = "OAuth 2.0 for Mobile and Native Apps - RFC 8252";
+require('../../includes/_header.php');
+?>
+<div class="container">
+  <div id="header" class="column first last span-20">
+    <?php require('../../includes/_site_name.php'); ?>
+    <div id="primary" class="column span-13 last">
+      <?php require('../../includes/_nav_primary.php'); ?>
+    </div>
+    <div id="secondary" class="column span-18 append-1 prepend-1 first last">
+      <ul class="breadcrumb">
+        <li><a href="/2/">OAuth 2.0</a> <span>&gt;</span> </li>
+        <li class="current">Native Apps</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="main" class="column first last span-18 prepend-1 append-1">
+
+    <h2>RFC 8252: OAuth 2.0 for Mobile and Native Apps</h2>
+
+    <?php require('../../includes/_carbon.php'); ?>
+
+    <p><a href="http://tools.ietf.org/html/rfc8252" class="rfc">RFC 8252</a></p>
+
+    <p>OAuth 2.0 for Native Apps (<a href="http://tools.ietf.org/html/rfc8252">RFC 8252</a>) describes security requirements and other recommendations for native and mobile applications using OAuth 2.0.</p>
+    <p>It describes things like not allowing the third-party application to open an embedded web view which is more susceptible to phishing attacks, as well as platform-specific recommendations on how to do so.</p>
+    <p>It also recommends using the <a href="/2/pkce/">PKCE extension</a> to further protect users.</p>
+
+    <p>More resources
+      <ul>
+        <li><a href="https://www.oauth.com/oauth2-servers/oauth2-clients/mobile-and-native-apps/">Mobile and Native Apps</a> (oauth.com)</li>
+        <li><a href="https://aaronparecki.com/oauth-2-simplified/#mobile-apps">Mobile Apps</a> (aaronparecki.com)</li>
+        <li><a href="https://developers.google.com/identity/protocols/OAuth2InstalledApp">OAuth 2.0 for Mobile &amp; Desktop Apps</a> (google.com)</li>
+      </ul>
+    </p>
+
+  </div>
+</div>
+
+<?php require('../../includes/_footer.php'); ?>
