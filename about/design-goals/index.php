@@ -9,22 +9,16 @@ require('../../includes/_header.php');
 ?>
 
   <div class="container">
-    <div id="header" class="column first last span-20">
-      <?php require('../../includes/_site_name.php'); ?>
-      <div id="primary" class="column span-13 last">
-        <?php require('../../includes/_nav_primary.php'); ?>
-      </div>
-      <div id="secondary" class="column span-18 append-1 prepend-1 first last">
-        <ul class="navigation">
-          <li><a href="/about/credits/">Credits</a></li>
-          <li><a href="/about/introduction/">Introduction</a></li>
-          <li><a class="selected" href="/about/design-goals/">Design Goals</a></li>
-          <li><a href="/about/community/">Community</a></li>
-        </ul>
-      </div>
-    </div>
+    <nav>
+      <ul class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/about/credits/">Credits</a></li>
+        <li class="breadcrumb-item"><a href="/about/introduction/">Introduction</a></li>
+        <li class="breadcrumb-item active">Design Goals</li>
+        <li class="breadcrumb-item"><a href="/about/community/">Community</a></li>
+      </ul>
+    </nav>
 
-    <div id="main" class="column first last span-18 prepend-1 append-1">
+    <div>
       <h2>Design Goals</h2>
 
       <p>In developing OAuth, we sought to invent as little as possible, following the Microformats approach to <a href="http://microformats.org/wiki/process#Document_Current_Behavior">pave existing cowpaths</a> and relying on conventions already established in protocols like Google&#8217;s <a href="http://code.google.com/apis/gdata/authsub.html">AuthSub</a>, <span class="caps">AOL</span>&#8217;s <a href="http://dev.aol.com/openauth">OpenAuth</a>, Yahoo&#8217;s <a href="http://developer.yahoo.com/auth/">BBAuth</a> and <a href="http://www.flickr.com/services/api/auth.howto.web.html">FlickrAuth</a> and Facebook&#8217;s <a href="http://developers.facebook.com/documentation.php?doc=auth">FacebookAuth</a>.</p>

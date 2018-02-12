@@ -9,16 +9,7 @@ require('../includes/_header.php');
 ?>
 
   <div class="container">
-    <div id="header" class="column first last span-20">
-      <?php require('../includes/_site_name.php'); ?>
-      <div id="primary" class="column span-13 last">
-        <?php require('../includes/_nav_primary.php'); ?>
-      </div>
-      <div id="secondary" class="column span-18 append-1 prepend-1 first last">
-      </div>
-    </div>
-
-    <div id="main" class="column first last span-18 prepend-1 append-1">
+    <div>
       <h2>Getting Started</h2>
       
       <?php require('../includes/_carbon.php'); ?>

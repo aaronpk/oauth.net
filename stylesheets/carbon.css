@@ -42,3 +42,10 @@
     color: #aaa;
     text-decoration: none;
   }
+
+@media(max-width: 600px) {
+  #carbonads {
+    float: none;
+    margin-bottom: 0.5em;
+  }
+}

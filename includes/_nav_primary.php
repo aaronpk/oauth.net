@@ -1,8 +1,22 @@
-<ul class="navigation">
-  <li id="nav-2"><a href="/2/">OAuth 2.0</a></li>
-  <li id="nav-code"><a href="/code/">Code</a></li>
-  <li id="nav-articles"><a href="/articles/">Articles</a></li>
-  <li id="nav-advisories"><a href="/advisories/">Security</a></li>
-  <li id="nav-books"><a href="/books/">Books</a></li>
-  <li id="nav-about"><a href="/about/credits/">About</a></li>
-</ul>
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <a class="navbar-brand" href="/"><img src="/images/oauth-logo-square.png" width="45" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item"><a class="nav-link" href="/2/">OAuth 2.0</a></li>
+      <li class="nav-item"><a class="nav-link" href="/code/">Code</a></li>
+      <li class="nav-item"><a class="nav-link" href="/articles/">Articles</a></li>
+      <li class="nav-item"><a class="nav-link" href="/advisories/">Security</a></li>
+      <li class="nav-item"><a class="nav-link" href="/books/">Books</a></li>
+      <li class="nav-item"><a class="nav-link" href="/about/credits/">About</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="print-header">
+  <span class="item"><img src="/images/oauth-logo-square.png" width="45" alt=""></span>
+  <span class="item">oauth.net<?= $_SERVER['REQUEST_URI'] ?></span>
+</div>
+

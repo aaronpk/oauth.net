@@ -5,7 +5,7 @@
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>
 <?php if ($page_title)
 { 
@@ -18,7 +18,8 @@
 
 ?>
 	</title>
-	<link href="/stylesheets/style.css" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/styles.css" rel="stylesheet" type="text/css" />
   <link href="/stylesheets/carbon.css" rel="stylesheet" type="text/css" />
   <link href="/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" /> 
   <link rel="webmention" href="https://webmention.io/aaronpk/webmention" />
@@ -60,3 +61,4 @@ var trackFooterClick = function(url) {
 </script>
 <?php endif; ?>
 
+<?php require(__DIR__.'/_nav_primary.php'); ?>

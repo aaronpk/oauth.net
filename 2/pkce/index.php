@@ -6,20 +6,13 @@ $page_meta_description = "PKCE - Proof Key for Code Exchange - OAuth 2.0 - RFC76
 require('../../includes/_header.php');
 ?>
 <div class="container">
-  <div id="header" class="column first last span-20">
-    <?php require('../../includes/_site_name.php'); ?>
-    <div id="primary" class="column span-13 last">
-      <?php require('../../includes/_nav_primary.php'); ?>
-    </div>
-    <div id="secondary" class="column span-18 append-1 prepend-1 first last">
-      <ul class="breadcrumb">
-        <li><a href="/2/">OAuth 2.0</a> <span>&gt;</span> </li>
-        <li class="current">PKCE</li>
-      </ul>
-    </div>
-  </div>
-
-  <div id="main" class="column first last span-18 prepend-1 append-1">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/2/">OAuth 2.0</a></li>
+      <li class="breadcrumb-item active">PKCE</li>
+    </ol>
+  </nav>
+  <div>
 
     <h2>RFC 7636: Proof Key for Code Exchange</h2>
 

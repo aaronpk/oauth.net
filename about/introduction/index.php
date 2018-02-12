@@ -6,22 +6,16 @@ $page_secondary = "introduction";
 require('../../includes/_header.php');
 ?>
   <div class="container">
-    <div id="header" class="column first last span-20">
-      <?php require('../../includes/_site_name.php'); ?>
-      <div id="primary" class="column span-13 last">
-        <?php require('../../includes/_nav_primary.php'); ?>
-      </div>
-      <div id="secondary" class="column span-18 append-1 prepend-1 first last">
-        <ul class="navigation">
-          <li><a href="/about/credits/">Credits</a></li>
-          <li><a class="selected" href="/about/introduction/">Introduction</a></li>
-          <li><a href="/about/design-goals/">Design Goals</a></li>
-          <li><a href="/about/community/">Community</a></li>
-        </ul>
-      </div>
-    </div>
+    <nav>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/about/credits/">Credits</a></li>
+        <li class="breadcrumb-item active">Introduction</li>
+        <li class="breadcrumb-item"><a href="/about/design-goals/">Design Goals</a></li>
+        <li class="breadcrumb-item"><a href="/about/community/">Community</a></li>
+      </ol>
+    </nav>
 
-    <div id="main" class="column first last span-18 prepend-1 append-1">
+    <div>
       <h2>Introduction</h2>
 
       <p><small style="font-size:0.8em;">Adapted from <a href="http://www.hueniverse.com/hueniverse/2007/09/explaining-oaut.html">Explaining OAuth</a>, published on September 05, 2007 by Eran Hammer-Lahav</small></p>

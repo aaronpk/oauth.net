@@ -8,7 +8,7 @@
 
   <div class="container">
     <div class="follow">
-      <a href="https://twitter.com/oauth_2" class="twitter-follow-button" data-show-count="false">Follow @oauth_2</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <a href="https://twitter.com/oauth_2" class="twitter-follow-button">@oauth_2</a>
     </div>
 
     <div class="supported">
@@ -22,6 +22,9 @@
   </div>
 
 </footer>
+
+<script src="/stylesheets/jquery-3.2.1.slim.min.js"></script>
+<script src="/stylesheets/bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 </html>

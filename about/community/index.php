@@ -9,22 +9,17 @@ require('../../includes/_header.php');
 ?>
 
   <div class="container">
-    <div id="header" class="column first last span-20">
-      <?php require('../../includes/_site_name.php'); ?>
-      <div id="primary" class="column span-13 last">
-        <?php require('../../includes/_nav_primary.php'); ?>
-      </div>
-      <div id="secondary" class="column span-18 append-1 prepend-1 first last">
-        <ul class="navigation">
-          <li><a href="/about/credits/">Credits</a></li>
-          <li><a href="/about/introduction/">Introduction</a></li>
-          <li><a href="/about/design-goals/">Design Goals</a></li>
-          <li><a class="selected" href="/about/community/">Community</a></li>
-        </ul>
-      </div>
-    </div>
 
-    <div id="main" class="column first last span-18 prepend-1 append-1">
+    <nav>
+      <ul class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/about/credits/">Credits</a></li>
+        <li class="breadcrumb-item"><a href="/about/introduction/">Introduction</a></li>
+        <li class="breadcrumb-item"><a href="/about/design-goals/">Design Goals</a></li>
+        <li class="breadcrumb-item active">Community</li>
+      </ul>
+    </nav>
+
+    <div>
       <h2>Community</h2>
 
       <?php require('../../includes/_carbon.php'); ?>
@@ -35,8 +30,11 @@ require('../../includes/_header.php');
 
       <p>
         <form action="http://www.google.com/search" method="get">
-          Search the Archives: <input type="text" class="search-query" name="q" placeholder="Search ietf.org/oauth">
-          <input type="submit" value="Search" />
+          <div class="form-group">
+            <label for="1">Search the Archives:</label>
+            <input type="text" class="form-control search-query" name="q" placeholder="Search ietf.org/oauth">
+          </div>
+          <input type="submit" value="Search" class="btn btn-light" />
           <input type="hidden" name="as_sitesearch" value="http://www.ietf.org/mail-archive/web/oauth/">
           <input type="hidden" name="tbs" value="sbd:1,cdr:1,cd_min:1/1/1999">
         </form>
@@ -49,6 +47,5 @@ require('../../includes/_header.php');
       
     </div>
 
-    <?php include('../../includes/_edit_banner.php'); ?>
   </div>
 <?php require('../../includes/_footer.php'); ?>

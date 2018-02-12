@@ -8,16 +8,7 @@ $page_meta_description = "Performing end user authentication using the OAuth 2.0
 require('../../includes/_header.php');
 ?>
   <div class="container">
-    <div id="header" class="column first last span-20">
-      <?php require('../../includes/_site_name.php'); ?>
-      <div id="primary" class="column span-13 last">
-        <?php require('../../includes/_nav_primary.php'); ?>
-      </div>
-      <div id="secondary" class="column span-18 append-1 prepend-1 first last">
-      </div>
-    </div>
-
-    <div id="main" class="column first last span-18 prepend-1 append-1">
+    <div>
       <h2 id="oauth-2.0-authentication">User Authentication with OAuth 2.0</h2>
   
       <!-- Article compiled and edited by Justin Richer -->

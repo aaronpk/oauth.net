@@ -1,6 +1,6 @@
 <?php
 
-$page_title = "Books &mdash; OAuth";
+$page_title = "Books about OAuth";
 $page_section = "books";
 $page_secondary = "";
 $page_meta_description = "";
@@ -9,17 +9,9 @@ require('../includes/_header.php');
 ?>
 
   <div class="container">
-    <div id="header" class="column first last span-20">
-      <?php require('../includes/_site_name.php'); ?>
-      <div id="primary" class="column span-13 last">
-        <?php require('../includes/_nav_primary.php'); ?>
-      </div>
-      <div id="secondary" class="column span-18 append-1 prepend-1 first last">
-      </div>
-    </div>
 
-    <div id="main" class="column first last span-18 prepend-1 append-1">
-      <h2>Books</h2>
+    <div>
+      <h2>Books about OAuth 2.0</h2>
 
       <div class="book-row">
         <div class="left">

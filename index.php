@@ -6,13 +6,6 @@ require('./includes/_header.php');
 ?>
 <div class="container">
   <div id="header" class="column first last span-20">
-
-    <?php require('./includes/_site_name.php'); ?>
-
-    <div id="primary" class="column span-13 last">
-      <?php require('./includes/_nav_primary.php'); ?>
-    </div>
-    
     <div id="site-description" class="column span-18 append-1 prepend-1 first last">
       <h3>An <strong>open protocol</strong> to allow <strong>secure authorization </strong> in a <strong>simple</strong> and <strong>standard</strong> method from web, mobile and desktop applications.</h3>
       <p id="read-more">

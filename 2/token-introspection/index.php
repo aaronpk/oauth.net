@@ -6,20 +6,14 @@ $page_meta_description = "An OAuth 2.0 extension to determine the active state a
 require('../../includes/_header.php');
 ?>
 <div class="container">
-  <div id="header" class="column first last span-20">
-    <?php require('../../includes/_site_name.php'); ?>
-    <div id="primary" class="column span-13 last">
-      <?php require('../../includes/_nav_primary.php'); ?>
-    </div>
-    <div id="secondary" class="column span-18 append-1 prepend-1 first last">
-      <ul class="breadcrumb">
-        <li><a href="/2/">OAuth 2.0</a> <span>&gt;</span> </li>
-        <li class="current">Token Introspection</li>
-      </ul>
-    </div>
-  </div>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/2/">OAuth 2.0</a></li>
+      <li class="breadcrumb-item active">Token Introspection</li>
+    </ol>
+  </nav>
 
-  <div id="main" class="column first last span-18 prepend-1 append-1">
+  <div>
 
     <h2>RFC 7662: Token Introspection</h2>
 

@@ -6,20 +6,15 @@ $page_meta_description = "";
 require('../../includes/_header.php');
 ?>
   <div class="container">
-    <div id="header" class="column first last span-20">
-      <?php require('../../includes/_site_name.php'); ?>
-      <div id="primary" class="column span-13 last">
-        <?php require('../../includes/_nav_primary.php'); ?>
-      </div>
-      <div id="secondary" class="column span-18 append-1 prepend-1 first last">
-        <ul class="navigation">
-          <li><a href="/advisories">Security Advisories</a></li>
-          <li><a class="selected" href="/advisories/2009-1">2009.1</a></li>
-        </ul>
-      </div>
-    </div>
 
-    <div id="main" class="column first last span-18 prepend-1 append-1">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/advisories/">Security Advisories</a></li>
+        <li class="breadcrumb-item active">2009.1</li>
+      </ol>
+    </nav>
+
+    <div>
 			<h2>OAuth Security Advisory: 2009.1</h2>
 			<p>23-April-2009</p>
 
