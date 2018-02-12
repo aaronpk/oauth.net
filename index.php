@@ -4,6 +4,7 @@ $page_title = "OAuth Community Site";
 
 require('./includes/_header.php');
 ?>
+
 <div class="container">
   <div id="header" class="column first last span-20">
     <div id="site-description" class="column span-18 append-1 prepend-1 first last">
@@ -24,12 +25,10 @@ require('./includes/_header.php');
     </div>
   </div>
 
-  <div id="main" class="column first last span-20">
+  <div class="row">
 
-    <div id="client-side" class="column span-9 append-1 first">
-      <p class="intro">
-        For Consumer developers...
-      </p>
+    <div id="client-side" class="col-md-6">
+      <h5>For Consumer developers...</h5>
       <p>
         If you're building...
       </p>
@@ -44,10 +43,8 @@ require('./includes/_header.php');
       </p>          
     </div>
 
-    <div id="server-side" class="column span-9 last">
-      <p class="intro">
-        For Service Provider developers...
-      </p>
+    <div id="server-side" class="col-md-6">
+      <h5>For Service Provider developers...</h5>
       <p>
         If you're supporting...
       </p>
@@ -64,9 +61,7 @@ require('./includes/_header.php');
     
     <div class="clear"></div>
     
-    <div class="get-started column span-20 first last">
-      <a href="/getting-started/">Get started...</a>
-    </div>
+    <a href="/getting-started/">Get started...</a>
 
     <div class="clear"></div>
 

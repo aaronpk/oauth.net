@@ -21,6 +21,37 @@ body .container {
 }
 
 
+#site-description {
+  padding-top: 2.4em;
+  padding-bottom: 2.4em;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 8px;
+}
+#site-description h3 {
+  font-size: 2em;
+  margin: 0;
+  font-weight: normal;
+}
+#site-description p#read-more {
+  text-align: right;
+  margin: 6px 0 0;
+}
+#site-description p#read-more a, #site-description p#read-more a:visited {
+  font-size: 1.4em;
+  color: #515151;
+}
+#site-description p#read-more a:hover {
+  color: #919191;
+}
+#site-description {
+  background-color: #C8F417;
+  border-top: 2px solid #fff;
+  color: #444;
+}
+
+
+
 .container {
   margin-top: 10px;
 }
