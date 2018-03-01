@@ -56,10 +56,6 @@ require('../includes/_header.php');
       <li><a href="https://tools.ietf.org/wg/oauth/">OAuth WG Status Pages</a></li>
     </ul>
 
-    <div class="banner">
-      Need help sorting through these specs and figuring out how they apply to your organization's development plans? Find an <a href="/consulting/">OAuth consultant</a>.
-    </div>
-
     <h3>Community Resources</h3>
     <ul>
       <li><a href="https://aaronparecki.com/oauth-2-simplified/">OAuth 2.0 Simplified</a></li>

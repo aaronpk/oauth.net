@@ -11,7 +11,10 @@ require('../includes/_header.php');
   <div class="container">
     <div>
       <h2>OAuth Consulting</h2>
-    
+
+      <p>The companies below are available for consulting on OAuth.</p>
+
+      <!--
       <div style="padding: 10px; border-radius: 8px; border: 1px #ccc solid; margin: 10px">
         <h3><a href="https://aaronparecki.com/oauth/">Aaron Parecki</a></h3>
 
@@ -22,6 +25,7 @@ require('../includes/_header.php');
           </div>
         </div>
       </div>
+      -->
 
       <div style="padding: 10px; border-radius: 8px; border: 1px #ccc solid; margin: 10px">
         <h3><a href="https://glyndelabs.com/">Glynde Labs</a></h3>
@@ -36,7 +40,9 @@ require('../includes/_header.php');
         </div>
       </div>
 
+      <p>Want to be listed here? <a href="https://github.com/aaronpk/oauth.net/blob/master/consulting/index.php">Send a pull request</a> with your information!</p>
+
     </div>
   </div>
-  
+
 <?php require('../includes/_footer.php'); ?>
