@@ -1,5 +1,5 @@
 <?php
-$page_title = "OAuth 2.0 Implicit Grant";
+$page_title = "OAuth 2.0 Implicit Grant Type";
 $page_section = "";
 $page_secondary = "";
 $page_meta_description = "The OAuth 2.0 implicit grant type";

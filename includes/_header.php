@@ -6,28 +6,17 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>
-<?php if ($page_title)
-{ 
-	echo $page_title;
-}
-	else
-{
-	echo "OAuth &mdash; An open protocol to allow secure API authorization in a simple and standard method from desktop and web applications.";
-}
-
-?>
-	</title>
+	<title><?php echo !empty($page_title) ? $page_title : "OAuth &mdash; An open protocol to allow secure API authorization in a simple and standard method from web, mobile, and desktop applications." ?></title>
   <link href="/stylesheets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <link href="/stylesheets/styles.css" rel="stylesheet" type="text/css" />
   <link href="/stylesheets/carbon.css" rel="stylesheet" type="text/css" />
-  <link href="/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" /> 
+  <link href="/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" />
   <link rel="webmention" href="https://webmention.io/aaronpk/webmention" />
   <link rel="pingback" href="https://webmention.io/aaronpk/xmlrpc" />
 </head>
 <body>
 
-<?php if(time() > strtotime('2016-08-01') 
+<?php if(time() > strtotime('2016-08-01')
          && time() < strtotime('2017-10-01')
          && $_SERVER['SERVER_NAME'] == 'oauth.net'): ?>
 <!-- Google Tag Manager -->

@@ -1,5 +1,5 @@
 <?php
-$page_title = "OAuth 2.0 Refresh Token";
+$page_title = "OAuth 2.0 Refresh Token Grant Type";
 $page_section = "";
 $page_secondary = "";
 $page_meta_description = "The OAuth 2.0 refresh token grant type";

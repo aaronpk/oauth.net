@@ -1,5 +1,5 @@
 <?php
-$page_title = "OAuth 2.0 Client Credentials";
+$page_title = "OAuth 2.0 Client Credentials Grant Type";
 $page_section = "";
 $page_secondary = "";
 $page_meta_description = "The OAuth 2.0 client credentials grant type";
