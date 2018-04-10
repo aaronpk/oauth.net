@@ -47,6 +47,12 @@ var trackFooterClick = function(url) {
      'hitCallback': function(){document.location = url;}
    });
 }
+var trackOutboundClick = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {
+     'transport': 'beacon',
+     'hitCallback': function(){document.location = url;}
+   });
+}
 </script>
 <?php endif; ?>
 

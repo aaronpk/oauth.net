@@ -28,6 +28,7 @@ require('../../../includes/_header.php');
 
     <p>More resources
       <ul>
+        <li><a href="https://developer.okta.com/blog/2018/04/10/oauth-authorization-code-grant-type">What is the OAuth 2.0 Authorization Code Grant?</a> (developer.okta.com)</li>
         <li><a href="https://www.oauth.com/oauth2-servers/access-tokens/authorization-code-request/">Authorization Code</a> (oauth.com)</li>
         <li><a href="https://aaronparecki.com/oauth-2-simplified/#web-server-apps">Web Server Apps</a> (aaronparecki.com)</li>
       </ul>
