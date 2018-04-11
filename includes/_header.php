@@ -57,3 +57,5 @@ var trackOutboundClick = function(url) {
 <?php endif; ?>
 
 <?php require(__DIR__.'/_nav_primary.php'); ?>
+<?php require(__DIR__.'/_new_banner.php'); ?>
+
