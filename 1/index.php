@@ -123,16 +123,17 @@ require('../includes/_header.php');
       <p><a href="https://github.com/maxcountryman">Max Countryman</a> maintains the <a href="https://github.com/litl/rauth">rauth</a>. 
       It is considered the most up-to-date and unit-tested implementation of OAuth for Python.</p>
       <ul>
-        <li><a href="https://github.com/idan/oauthlib">OAuthlib</a> is a generic OAuth signing library; it is neither a client nor a server, but provides signing facilities for either.</li>
+        <li><a href="https://github.com/oauthlib/oauthlib">OAuthlib</a> is a generic OAuth signing library; it is neither a client nor a server, but provides signing facilities for either.</li>
         <li><a href="http://leahculver.com/">Leah Culver</a> has written both a <a href="http://oauth.googlecode.com/svn/code/python/oauth/">library in Python 2.3</a> and offered an <a href="http://oauth.googlecode.com/svn/code/python/oauth/example/">example implementation</a>.</li>
         <li>David Larlet has released an <a href="http://code.larlet.fr/django-oauth-plus/">OAuth Provider and Consumer</a> for Django. </li>
         <li><a href="http://simonwillison.net">Simon Willison</a> <a href="http://simonwillison.net/2008/Mar/22/wikinear/">released</a> the <a href="http://www.djangosnippets.org/snippets/655/">snippet</a> that handles OAuth in Wikinear.</li>
         <li>Steve Marshall wrote a <a href="http://github.com/SteveMarshall/fire-eagle-python-binding/tree/master/fireeagle_api.py">comprehensive binding for Fire Eagle</a> that implements OAuth.</li>
         <li><a href="http://stu.mp/">Joe Stump</a> (SimpleGeo) maintains the <a href="http://github.com/simplegeo/python-oauth2">python-oauth2 library</a> on GitHub.</li>
-        <li><a href="https://github.com/lepture/flask-oauthlib">Flask-OAuthlib</a> is an OAuth/OAuth2 Client/Provider for Flask built upon <a href="https://github.com/idan/oauthlib">oauthlib</a></li>
-        <li><a href="https://github.com/singingwolfboy/flask-dance">Flask-Dance</a> is another OAuth extension for Flask, built using <a href="http://flask.pocoo.org/docs/latest/blueprints/">blueprints</a>, <a href="http://docs.python-requests.org/en/latest/">requests</a>, and <a href="https://github.com/idan/oauthlib">oauthlib</a>.</li>
+        <li><a href="https://github.com/lepture/flask-oauthlib">Flask-OAuthlib</a> is an OAuth/OAuth2 Client/Provider for Flask built upon <a href="https://github.com/oauthlib/oauthlib">oauthlib</a></li>
+        <li><a href="https://github.com/singingwolfboy/flask-dance">Flask-Dance</a> is another OAuth extension for Flask, built using <a href="http://flask.pocoo.org/docs/latest/blueprints/">blueprints</a>, <a href="http://docs.python-requests.org/en/latest/">requests</a>, and <a href="https://github.com/oauthlib/oauthlib">oauthlib</a>.</li>
         <li><a href="http://www.bango29.com/">Batista Harahap</a> is writing an OAuth 1.0 reverse proxy available at <a href="https://github.com/tistaharahap/oauth1-provider-redis-py">Github here</a>.</li>
-        <li><a href="https://pypi.python.org/pypi/oauthlib">oauthlib</a> (sources on <a href="https://github.com/idan/oauthlib">GitHub</a>) A generic, spec-compliant, thorough implementation of the OAuth request-signing logic written by <a href="https://github.com/idan">Idan Gazit</a>.</li>
+        <li><a href="https://pypi.python.org/pypi/oauthlib">oauthlib</a> (sources on <a href="https://github.com/oauthlib/oauthlib">GitHub</a>) A generic, spec-compliant, thorough implementation of the OAuth request-signing logic maintained by community.</li>
+        <li><a href="https://authlib.org/">Authlib</a> (sources on <a href="https://github.com/lepture/authlib">GitHub</a>) An ambitious authentication library for OAuth 1, OAuth 2, OpenID clients and servers.</li>
         <li><a href="http://www.tornadoweb.org/en/stable/">Tornado</a> has OAuth 1.0 and OAuth 2.0 Clients available as part of the core code in the <a href="http://www.tornadoweb.org/en/stable/auth.html">Tornado Auth package</a></li>
       </ul>
       
