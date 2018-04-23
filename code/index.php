@@ -217,7 +217,8 @@ require('../includes/_header.php');
       </li>
     </ul>
 
-    <h3 id="proxy-services">Proxy services</h3>
+    <h3 id="services">OAuth Services</h3>
+    <span id="proxy-services"></span>
     <ul>
       <li><a href="https://auth0.com">Auth0</a>: Authorization Server as a service (or self hosted)</li>
       <li><a href="https://curity.io">Curity Identity Server</a>: A self hosted Authorization Server</li>
@@ -228,30 +229,38 @@ require('../includes/_header.php');
     </ul>
 
 
-    <h3 id="services-that-support-oauth-2">Services that support OAuth 2</h3>
+    <h3 id="services-that-support-oauth-2">Services that Support OAuth 2</h3>
     <ul>
-      <li><a href="http://groups.google.com/group/37signals-api/browse_thread/thread/86b0da52134c1b7e">37signals (draft 5)</a></li>
+      <li><a href="https://github.com/basecamp/bc3-api">Basecamp</a></li>
+      <li><a href="http://api.beeminder.com/#client-oauth-oauth">Beeminder</a></li>
+      <li><a href="https://confluence.atlassian.com/bitbucket/oauth-on-bitbucket-cloud-238027431.html">BitBucket</a></li>
       <li><a href="https://www.bookingsync.com">BookingSync</a></li>
       <li><a href="http://developers.box.com/oauth/">Box</a></li>
-      <li><a href="http://beeminder.com/api">Beeminder</a></li>
+      <li><a href="https://buffer.com/developers/api/oauth">Buffer</a></li>
       <li><a href="http://www.campaignmonitor.com/api/getting-started/#authenticating_with_oauth">Campaign Monitor</a></li>
-      <li><a href="http://www.sharefile.com/">Citrix ShareFile</a></li>
       <li><a href="https://clever.com/">Clever</a></li>
       <li><a href="https://do.com">Do.com</a></li>
-      <li><a href="https://www.dropbox.com/developers/core/docs#oa2-authorize">Dropbox</a></li>
+      <li><a href="http://developer.dribbble.com/v1/oauth/">Dribbble</a></li>
+      <li><a href="https://www.dropbox.com/developers/reference/oauth-guide">Dropbox</a></li>
+      <li><a href="http://developer.exist.io/#oauth2-authentication">Exist</a></li>
       <li><a href="http://developers.facebook.com/docs/authentication/">Facebook's Graph API</a></li>
+      <li><a href="https://dev.fitbit.com/build/reference/web-api/oauth2/">FitBit</a></li>
       <li><a href="https://developer.foursquare.com/overview/auth">Foursquare</a></li>
-      <li><a href="http://developer.github.com/v3/oauth/">GitHub</a></li>
-      <li><a href="https://developers.google.com/accounts/docs/OAuth2">Google</a></li>
+      <li><a href="https://developer.github.com/v3/oauth/">GitHub</a></li>
+      <li><a href="https://developers.google.com/identity/protocols/OAuth2">Google</a></li>
       <li><a href="https://dev.strato.com/hidrive">HiDrive</a></li>
+      <li><a href="http://instagram.com/developer/authentication">Instagram</a></li>
+      <li><a href="https://developer.intuit.com/docs/00_quickbooks_online/2_build/10_authentication_and_authorization/10_oauth_2.0">Intuit</a></li>
+      <li><a href="https://developer.linkedin.com/docs/oauth2">LinkedIn</a></li>
       <li><a href="http://www.meetup.com/meetup_api/auth/#oauth2">Meetup</a></li>
       <li><a href="http://nationbuilder.com/api_quickstart">NationBuilder</a></li>
       <li><a href="http://www.salesforce.com/us/developer/docs/api_rest/Content/quickstart_oauth.htm">Salesforce</a></li>
+      <li><a href="https://api.sharefile.com/rest/oauth2.aspx">ShareFile</a></li>
       <li><a href="https://api.slack.com/docs/oauth">Slack</a></li>
       <li><a href="http://developers.soundcloud.com/docs/api/reference">SoundCloud</a></li>
-      <li><a href="http://msdn.microsoft.com/en-us/library/live/hh243647.aspx">Windows Live</a></li>
+      <li><a href="https://developer.spotify.com/web-api/authorization-guide/">Spotify</a></li>
       <li><a href="http://www.timecockpit.com/blog/2014/10/31/Welcome-OAuth2-and-OpenID-Connect">time cockpit</a></li>
-      <li><a href="https://github.com/zalando-techmonkeys/baboon-proxy">Zalando's baboon-proxy</a></li>
+      <li><a href="http://msdn.microsoft.com/en-us/library/live/hh243647.aspx">Windows Live</a></li>
     </ul>
 
     <h3 id="oauth-1">Legacy OAuth 1.0 Support</h3>
