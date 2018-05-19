@@ -16,7 +16,7 @@ require('../../../includes/_header.php');
 
   <div>
 
-    <h2>OAuth 2.0 Implicit</h2>
+    <h2>OAuth 2.0 Implicit Grant</h2>
 
     <?php require('../../../includes/_carbon.php'); ?>
 
