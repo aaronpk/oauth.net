@@ -28,6 +28,7 @@ require('../../includes/_header.php');
         <li><a href="https://www.oauth.com/oauth2-servers/pkce/">PKCE</a> (oauth.com)</li>
         <li><a href="https://aaronparecki.com/oauth-2-simplified/#mobile-apps">Mobile Apps</a> (aaronparecki.com)</li>
         <li><a href="https://developers.google.com/identity/protocols/OAuth2InstalledApp">OAuth 2.0 for Mobile &amp; Desktop Apps</a> (google.com)</li>
+        <li><a href="https://www.oauth.com/playground/authorization-code-with-pkce.html">PKCE Example on the OAuth 2.0 Playground</a></li>
       </ul>
     </p>
 
