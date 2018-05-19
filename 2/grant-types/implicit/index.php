@@ -24,7 +24,7 @@ require('../../../includes/_header.php');
 
     <p>The Implicit grant type is a simplified flow that can be used by public clients, where the access token is returned immediately without an extra authorization code exchange step.</p>
     <p>It is generally not recommended to use the implicit flow (and some servers prohibit this flow entirely). In the time since the spec was originally written, the industry best practice has changed to recommend that public clients should use either the <a href="/2/grant-types/authorization-code/">authorization code</a> flow without the client secret, or use the <a href="/2/pkce/">PKCE</a> extension instead.</p>
-    <p>More information can be found on the OAuth mailing list from: <a href="https://www.ietf.org/mail-archive/web/oauth/current/msg16966.html">Redhat</a>, <a href="https://www.ietf.org/mail-archive/web/oauth/current/msg16968.html">Deutsche Telekom</a>, and <a href="https://www.ietf.org/mail-archive/web/oauth/current/msg16967.html">Smart Health IT</a>.</p>
+    <p>More information can be found on the OAuth mailing list from: <a href="https://www.ietf.org/mail-archive/web/oauth/current/msg16966.html">Redhat</a>, <a href="https://www.ietf.org/mail-archive/web/oauth/current/msg16968.html">Deutsche Telekom</a>, and <a href="https://www.ietf.org/mail-archive/web/oauth/current/msg16967.html">Smart Health IT</a>, as well as <a href="https://www.ietf.org/mail-archive/web/oauth/current/msg18020.html">this thread</a>.</p>
 
     <p>More resources
       <ul>
