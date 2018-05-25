@@ -28,6 +28,7 @@ require('../../../includes/_header.php');
 
     <p>More resources
       <ul>
+        <li><a href="https://developer.okta.com/blog/2018/05/24/what-is-the-oauth2-implicit-grant-type">What is the OAuth 2.0 Implicit Grant Type?</a> (developer.okta.com)</li>
         <li><a href="https://aaronparecki.com/oauth-2-simplified/#single-page-apps">Single-Page Apps</a> (aaronparecki.com)</li>
         <li><a href="https://www.oauth.com/playground/implicit.html">Implicit Grant on the OAuth 2.0 Playground</a></li>
       </ul>

@@ -15,6 +15,10 @@ require('../includes/_header.php');
 
 			<p>The OAuth community is dedicated to helping provide information on the proper use of the OAuth protocols through a series of articles on different topics.</p>
 
+      <h3><a href="https://developer.okta.com/blog/2018/05/24/what-is-the-oauth2-implicit-grant-type">What is the OAuth 2.0 Implicit Grant Type?</a></h3>
+      <p><i><a href="https://developer.okta.com/blog/2018/05/24/what-is-the-oauth2-implicit-grant-type">What is the OAuth 2.0 Implicit Grant Type?</a></i> describes the implicit flow and its most common use cases.</p>
+
+
       <h3><a href="https://developer.okta.com/blog/2018/04/10/oauth-authorization-code-grant-type">What is the OAuth 2.0 Authorization Code Grant Type?</a></h3>
       <p><i><a href="https://developer.okta.com/blog/2018/04/10/oauth-authorization-code-grant-type">What is the OAuth 2.0 Authorization Code Grant Type?</a></i> describes the authorization code flow and its most common use cases.</p>
 
@@ -25,7 +29,7 @@ require('../includes/_header.php');
 
       <h3><a href="/articles/authentication">End User Authentication with OAuth 2.0</a></h3>
       <p>While OAuth is not an authentication protocol on its own, there are a number of high-profile authentication protocols built with OAuth 2.0. This article seeks to expose common pitfalls and demonstrate <a href="/articles/authentication">how to do end user authentication using OAuth 2.0</a> in a secure and reliable manner.</p>
-      
+
     </div>
   </div>
 
