@@ -22,7 +22,6 @@ require('../includes/_header.php');
       <li>Java
         <ul>
           <li><a href="https://github.com/mitreid-connect/OpenID-Connect-Java-Spring-Server">MitreID (with OpenID Connect)</a></li>
-          <li><a href="http://oltu.apache.org/">Apache Oltu</a></li>
           <li><a href="https://projects.spring.io/spring-security-oauth/">Spring Security OAuth</a></li>
           <li><a href="https://github.com/OpenConextApps/apis">Apis Authorization Server (v2-31)</a></li>
           <li><a href="http://www.restlet.org/">Restlet Framework (draft 30)</a></li>
@@ -111,7 +110,6 @@ require('../includes/_header.php');
       </li>
       <li>Java
         <ul>
-          <li><a href="http://oltu.apache.org/">Apache Oltu</a></li>
           <li><a href="https://projects.spring.io/spring-social/">Spring Social</a></li>
           <li><a href="https://projects.spring.io/spring-security-oauth/">Spring Security OAuth</a></li>
           <li><a href="http://www.restlet.org/">Restlet Framework (draft 30)</a></li>
