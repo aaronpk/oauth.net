@@ -116,6 +116,7 @@ require('../includes/_header.php');
           <li><a href="https://github.com/scribejava/scribejava">ScribeJava</a></li>
           <li><a href="https://github.com/dmfs/oauth2-essentials">oauth2-essentials</a></li>
           <li><a href="https://github.com/networknt/light-java/tree/master/client">Light Java Client</a></li>
+          <li><a href="https://github.com/google/google-oauth-java-client">Google OAuth Java Client</a></li>
         </ul>
       </li>
       <li>Scala
