@@ -51,6 +51,28 @@ body .container {
 }
 
 
+.article.card {
+  padding: 12px;
+  border: 1px #ddd solid;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.article.card .meta {
+  font-weight: bold;
+  color: #777;
+  margin-bottom: 6px;
+}
+.article.card .meta a {
+  color: #777;
+}
+.article.card .tags {
+  margin-bottom: 6px;
+  color: #777;
+}
+.article.card p:last-child {
+  margin-bottom: 0;
+}
+
 
 .container {
   margin-top: 10px;
