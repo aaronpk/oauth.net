@@ -29,6 +29,7 @@ require('../../../includes/_header.php');
       <ul>
         <li><a href="https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/">Client Credentials</a> (oauth.com)</li>
         <li><a href="https://aaronparecki.com/oauth-2-simplified/#client-credentials">Application Access</a> (aaronparecki.com)</li>
+        <li><a href="https://developer.okta.com/blog/2018/06/06/node-api-oauth-client-credentials">Secure a Node API with OAuth 2.0 Client Credentials</a> (developer.okta.com)</li>
       </ul>
     </p>
 

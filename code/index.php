@@ -22,7 +22,6 @@ require('../includes/_header.php');
       <li>Java
         <ul>
           <li><a href="https://github.com/mitreid-connect/OpenID-Connect-Java-Spring-Server">MitreID (with OpenID Connect)</a></li>
-          <li><a href="http://oltu.apache.org/">Apache Oltu</a></li>
           <li><a href="https://projects.spring.io/spring-security-oauth/">Spring Security OAuth</a></li>
           <li><a href="https://github.com/OpenConextApps/apis">Apis Authorization Server (v2-31)</a></li>
           <li><a href="http://www.restlet.org/">Restlet Framework (draft 30)</a></li>
@@ -91,7 +90,7 @@ require('../includes/_header.php');
         <ul>
           <li><a href="https://github.com/thephpleague/oauth2-client">league/oauth2-client</a>: OAuth 2.0 Client from <a href="https://thephpleague.com/">the League of Extraordinary Packages</a></li>
           <li><a href="http://www.phpclasses.org/package/7700-PHP-Authorize-and-access-APIs-using-OAuth.html">oauth-api</a> from <a href="http://www.phpclasses.org/">PHP Classes</a></li>
-          <li><a href="https://github.com/fkooman/php-oauth2-client"> Very simple OAuth 2.0 client, PHP >= 5.4</a></li>
+          <li><a href="https://git.tuxed.net/fkooman/php-oauth2-client">Very simple OAuth 2.0 client, PHP >= 5.4</a> (Composer: <code>fkooman/oauth2-client</code>)</li>
           <li><a href="https://github.com/ivan-novakov/php-openid-connect-client">OAuth2/OpenID Connect Client Library for PHP/Zend Framework 2</a></li>
         </ul>
       </li>
@@ -111,13 +110,13 @@ require('../includes/_header.php');
       </li>
       <li>Java
         <ul>
-          <li><a href="http://oltu.apache.org/">Apache Oltu</a></li>
           <li><a href="https://projects.spring.io/spring-social/">Spring Social</a></li>
           <li><a href="https://projects.spring.io/spring-security-oauth/">Spring Security OAuth</a></li>
           <li><a href="http://www.restlet.org/">Restlet Framework (draft 30)</a></li>
           <li><a href="https://github.com/scribejava/scribejava">ScribeJava</a></li>
           <li><a href="https://github.com/dmfs/oauth2-essentials">oauth2-essentials</a></li>
           <li><a href="https://github.com/networknt/light-java/tree/master/client">Light Java Client</a></li>
+          <li><a href="https://github.com/google/google-oauth-java-client">Google OAuth Java Client</a></li>
         </ul>
       </li>
       <li>Scala
