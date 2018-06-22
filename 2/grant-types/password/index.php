@@ -20,7 +20,7 @@ require('../../../includes/_header.php');
 
     <?php require('../../../includes/_carbon.php'); ?>
 
-    <p><a href="https://tools.ietf.org/html/rfc6749#section-1.3.3" class="rfc">RFC 6749 §1.3.3</a></p>
+    <p><a href="https://tools.ietf.org/html/rfc6749#section-1.3.3" class="rfc">tools.ietf.org/html/rfc6749#section-1.3.3</a></p>
 
     <p>The Password grant type is used by first-party clients to exchange a user's credentials for an access token.</p>
     <p>Since this involves the client asking the user for their password, it should not be used by third party clients. In this flow, the user's username and password are exchanged directly for an access token.</p>

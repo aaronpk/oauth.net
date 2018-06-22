@@ -18,7 +18,7 @@ require('../../includes/_header.php');
 
     <?php require('../../includes/_carbon.php'); ?>
 
-    <p><a href="http://tools.ietf.org/html/rfc7636" class="rfc">RFC 7636</a></p>
+    <p><a href="http://tools.ietf.org/html/rfc7636" class="rfc">tools.ietf.org/html/rfc7636</a></p>
 
     <p>PKCE (<a href="http://tools.ietf.org/html/rfc7636">RFC 7636</a>) is a technique to secure public clients that don't use a client secret.</p>
     <p>It is primarily used by native and mobile apps, but the technique can be applied to any public client as well. It requires additional support by the authorization server, so it is only supported on certain providers.</p>

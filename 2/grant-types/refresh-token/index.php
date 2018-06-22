@@ -20,7 +20,7 @@ require('../../../includes/_header.php');
 
     <?php require('../../../includes/_carbon.php'); ?>
 
-    <p><a href="https://tools.ietf.org/html/rfc6749#section-1.5" class="rfc">RFC 6749 §1.5</a></p>
+    <p><a href="https://tools.ietf.org/html/rfc6749#section-1.5" class="rfc">tools.ietf.org/html/rfc6749#section-1.5</a></p>
 
     <p>The Refresh Token grant type is used by clients to exchange a refresh token for an access token when the access token has expired.</p>
     <p>This allows clients to continue to have a valid access token without further interaction with the user.</p>

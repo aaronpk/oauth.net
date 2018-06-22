@@ -20,7 +20,7 @@ require('../../includes/_header.php');
 
     <?php require('../../includes/_carbon.php'); ?>
 
-    <p><a href="https://tools.ietf.org/html/draft-ietf-oauth-device-flow" class="rfc">Device Flow</a></p>
+    <p><a href="https://tools.ietf.org/html/draft-ietf-oauth-device-flow" class="rfc">tools.ietf.org/html/draft-ietf-oauth-device-flow</a></p>
 
     <p>The Device Flow is an OAuth 2.0 extension that enables devices with no browser or limited input capability to obtain an access token. This is commonly seen on Apple TV apps, or devices like hardware encoders that can stream video to a YouTube channel.</p>
 

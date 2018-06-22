@@ -18,7 +18,7 @@ require('../../includes/_header.php');
 
     <?php require('../../includes/_carbon.php'); ?>
 
-    <p><a href="http://tools.ietf.org/html/rfc6819" class="rfc">RFC 6819</a></p>
+    <p><a href="http://tools.ietf.org/html/rfc6819" class="rfc">tools.ietf.org/html/rfc6819</a></p>
 
     <p>The <a href="http://tools.ietf.org/html/rfc6819">Threat Model and Security Considerations</a> document was written to provide additional guidance beyond what is described in the core document. Much of this document was added after major providers had real implementation experience. The document describes many known attacks, either theoretical attacks or ones that have been demonstrated in the wild. It describes countermeasures for each.</p>
     <p>More resources
