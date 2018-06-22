@@ -9,6 +9,7 @@
       <li class="nav-item"><a class="nav-link" href="/2/">OAuth 2.0</a></li>
       <li class="nav-item"><a class="nav-link" href="/code/">Code</a></li>
       <li class="nav-item"><a class="nav-link" href="/articles/">Articles</a></li>
+      <li class="nav-item"><a class="nav-link" href="/videos/">Videos</a></li>
       <li class="nav-item"><a class="nav-link" href="/security/">Security</a></li>
       <li class="nav-item"><a class="nav-link" href="/books/">Books</a></li>
       <li class="nav-item"><a class="nav-link" href="/about/credits/">About</a></li>
