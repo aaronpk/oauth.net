@@ -23,7 +23,7 @@ require('../../includes/_header.php');
     <p><a href="http://tools.ietf.org/html/rfc6750" class="rfc">tools.ietf.org/html/rfc6750</a></p>
 
     <p>Bearer Tokens are the predominant type of access token used with OAuth 2.0.</p>
-    <p>A Bearer Token is an opaque string, not intended to have any meaning to clients using it. Some servers will issue tokens that are a short string of hexadecimal characters, while others may use structured tokens such as <a href="/2/jwt/">JSON Web Tokens</a>.</p>
+    <p>A Bearer Token is an opaque string, not intended to have any meaning to clients using it. Some servers will issue tokens that are a short string of hexadecimal characters, while others may use structured tokens such as <a href="https://jwt.io/">JSON Web Tokens</a>.</p>
     <p>More resources
       <ul>
         <li><a href="https://www.oauth.com/oauth2-servers/access-tokens/">Access Tokens</a> (oauth.com)</li>
