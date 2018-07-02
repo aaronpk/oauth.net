@@ -66,7 +66,8 @@ require('../includes/_header.php');
         <ul>
           <li><a href="http://www.dotnetopenauth.net/">.NET DotNetOpenAuth</a></li>
           <li><a href="https://oauthserver.codeplex.com/">OAuthServer</a> a simple OAuth server 2.0 developed in C# to provide OAuth authentication for Active Directory Users.</li>
-          <li><a href="https://github.com/thinktecture/Thinktecture.IdentityServer.v3">Thinktecture IdentityServer</a></li>
+          <li><a href="https://github.com/IdentityServer/IdentityServer3">IdentityServer 3</a></li>
+          <li><a href="https://github.com/IdentityServer/IdentityServer4">IdentityServer 4</a></li>
         </ul>
       </li>
       <li>Erlang
