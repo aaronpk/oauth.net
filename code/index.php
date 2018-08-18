@@ -150,6 +150,7 @@ require('../includes/_header.php');
         <ul>
           <li><a href="http://github.com/andreassolberg/jso">Javascript</a></li>
           <li><a href="https://github.com/zalando/oauth2-client-js">OAuth2-client-js</a></li>
+          <li><a href="https://github.com/salte-io/salte-auth">Salte Auth</a></li>
         </ul>
       </li>
       <li>Node.js
