@@ -83,6 +83,11 @@ require('../includes/_header.php');
           <li><a href="https://github.com/zalando/gin-oauth2">gin-oauth2</a>: middleware for Gin Framework users who also want to use OAuth2</li>
         </ul>
       </li>
+      <li>Kotlin
+        <ul>
+          <li><a href="https://github.com/adhesivee/kotlin-oauth2-server">Kotlin OAuth2 server</a>: Flexible OAuth2 server library</li>
+        </ul>
+      </li>
     </ul>
 
     <h3 id="client-libraries">Client Libraries</h3>
