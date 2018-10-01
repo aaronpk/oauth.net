@@ -1,3 +1,2 @@
 .DS_Store
-includes/.banner.php
-includes/.supported.php
+includes/.*.php
