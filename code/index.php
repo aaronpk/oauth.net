@@ -13,8 +13,6 @@ require('../includes/_header.php');
 
     <h2>Code</h2>
 
-    <?php require('../includes/_carbon.php'); ?>
-
     <p>Below is a collection of libraries and services that support OAuth 2.0. If you would like to make any changes to this page, you can <a href="https://github.com/aaronpk/oauth.net/blob/master/code/index.php">edit this page</a>.</p>
 
     <h3 id="server-libraries">Server Libraries</h3>

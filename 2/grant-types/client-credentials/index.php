@@ -18,8 +18,6 @@ require('../../../includes/_header.php');
 
     <h2>OAuth 2.0 Client Credentials Grant</h2>
 
-    <?php require('../../../includes/_carbon.php'); ?>
-
     <p><a href="https://tools.ietf.org/html/rfc6749#section-1.3.4" class="rfc">tools.ietf.org/html/rfc6749#section-1.3.4</a></p>
 
     <p>The Client Credentials grant type is used by clients to obtain an access token outside of the context of a user.</p>

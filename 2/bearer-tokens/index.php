@@ -18,8 +18,6 @@ require('../../includes/_header.php');
 
     <h2>RFC 6750: OAuth 2.0 Bearer Token Usage</h2>
 
-    <?php require('../../includes/_carbon.php'); ?>
-
     <p><a href="http://tools.ietf.org/html/rfc6750" class="rfc">tools.ietf.org/html/rfc6750</a></p>
 
     <p>Bearer Tokens are the predominant type of access token used with OAuth 2.0.</p>

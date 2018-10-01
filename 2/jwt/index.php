@@ -16,8 +16,6 @@ require('../../includes/_header.php');
 
     <h2>RFC 7519: JSON Web Token</h2>
 
-    <?php require('../../includes/_carbon.php'); ?>
-
     <p><a href="https://tools.ietf.org/html/rfc7519" class="rfc">tools.ietf.org/html/rfc7519</a></p>
 
     <p>JSON Web Token (JWT, <a href="https://tools.ietf.org/html/rfc7519">RFC 7519</a>) is a way to encode claims in a JSON document that is then signed.</p>

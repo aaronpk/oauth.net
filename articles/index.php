@@ -11,7 +11,6 @@ require('../includes/_header.php');
   <div class="container">
     <div>
       <h2>Articles</h2>
-      <?php require('../includes/_carbon.php'); ?>
 
 			<p>The OAuth community is dedicated to helping provide information on the proper use of the OAuth protocols through a series of articles on different topics.</p>
 

@@ -2,19 +2,18 @@
 <footer>
 
   <div class="source">
+    Follow <a href="https://twitter.com/oauth_2" class="twitter-follow-button">@oauth_2</a> on Twitter.
     Missing something?
-    <a href="https://github.com/aaronpk/oauth.net">Send a pull request</a>
+    <a href="https://github.com/aaronpk/oauth.net">Send a pull request</a>.
   </div>
 
   <div class="container">
-    <div class="follow">
-      <a href="https://twitter.com/oauth_2" class="twitter-follow-button">@oauth_2</a>
-    </div>
-
     <div class="supported">
       <?php if(file_exists(__DIR__.'/.supported.php')) { include(__DIR__.'/.supported.php'); } ?>
     </div>
   </div>
+
+  <?php require(__DIR__.'/../includes/_carbon.php'); ?>
 
 </footer>
 

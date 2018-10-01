@@ -34,9 +34,6 @@ require('../includes/_header.php');
         </div>
       </div>
 
-      <div>
-        <?php require('../includes/_carbon.php'); ?>
-      </div>
       <div style="clear:both; margin-bottom: 1em;"></div>
 
       <div class="book-row">

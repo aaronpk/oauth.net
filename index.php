@@ -21,7 +21,9 @@ require('./includes/_header.php');
         The OAuth 2.0 authorization framework enables third-party
         applications to obtain limited access to a web service.
       </div>
-      <div style="width: 40%;"><?php require('includes/_carbon.php'); ?></div>
+      <div style="width: 40%;">
+
+      </div>
     </div>
   </div>
 
@@ -40,7 +42,7 @@ require('./includes/_header.php');
       </ul>
       <p>
         OAuth is a simple way to publish and interact with protected data. It's also a safer and more secure way for people to give you access. We've kept it simple to save you time.
-      </p>          
+      </p>
     </div>
 
     <div id="server-side" class="col-md-6">
@@ -58,9 +60,9 @@ require('./includes/_header.php');
         If you're storing protected data on your users' behalf, they shouldn't be spreading their passwords around the web to get access to it. Use OAuth to give your users access to their data while protecting their account credentials.
       </p>
     </div>
-    
+
     <div class="clear"></div>
-    
+
     <a href="/getting-started/">Get started...</a>
 
     <div class="clear"></div>

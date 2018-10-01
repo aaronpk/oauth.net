@@ -11,11 +11,9 @@ require('../includes/_header.php');
   <div class="container">
     <div>
       <h2>Getting Started</h2>
-      
-      <?php require('../includes/_carbon.php'); ?>
 
       <p>Below are some guides to OAuth 2.0 which cover many of the topics needed to understand and implement clients and servers.</p>
-      
+
       <h3><a href="https://aaronparecki.com/oauth-2-simplified/">OAuth 2.0 Simplified</a></h3>
       <p><i>OAuth 2.0 Simplified</i>, written by <a href="https://aaronparecki.com">Aaron Parecki</a>, is a guide to OAuth 2.0 focused on writing clients that gives a clear overview of the spec at an introductory level.</p>
       <ul>
@@ -71,7 +69,7 @@ require('../includes/_header.php');
       <p>Find an <a href="/consulting/">OAuth consultant</a> to help your organization.</p>
 
     </div>
-    
+
   </div>
 
 <?php require('../includes/_footer.php'); ?>

@@ -16,8 +16,6 @@ require('../../includes/_header.php');
 
     <h2>RFC 7009: Token Revocation</h2>
 
-    <?php require('../../includes/_carbon.php'); ?>
-
     <p><a href="http://tools.ietf.org/html/rfc7009" class="rfc">tools.ietf.org/html/rfc7009</a></p>
 
     <p>The Token Revocation extension defines a mechanism for clients to indicate to the authorization server that an access token is no longer needed. This is used to enable a "log out" feature in clients, allowing the authorization server to clean up any security credentials associated with the authorization.</p>

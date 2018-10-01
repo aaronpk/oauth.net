@@ -16,8 +16,6 @@ require('../../includes/_header.php');
 
     <h2>RFC 7636: Proof Key for Code Exchange</h2>
 
-    <?php require('../../includes/_carbon.php'); ?>
-
     <p><a href="http://tools.ietf.org/html/rfc7636" class="rfc">tools.ietf.org/html/rfc7636</a></p>
 
     <p>PKCE (<a href="http://tools.ietf.org/html/rfc7636">RFC 7636</a>) is a technique to secure public clients that don't use a client secret.</p>

@@ -18,8 +18,6 @@ require('../../../includes/_header.php');
 
     <h2>OAuth 2.0 Implicit Grant</h2>
 
-    <?php require('../../../includes/_carbon.php'); ?>
-
     <p><a href="https://tools.ietf.org/html/rfc6749#section-1.3.2" class="rfc">tools.ietf.org/html/rfc6749#section-1.3.2</a></p>
 
     <p>The Implicit grant type is a simplified flow that can be used by public clients, where the access token is returned immediately without an extra authorization code exchange step.</p>

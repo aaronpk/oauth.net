@@ -18,8 +18,6 @@ require('../../../includes/_header.php');
 
     <h2>OAuth 2.0 Refresh Token</h2>
 
-    <?php require('../../../includes/_carbon.php'); ?>
-
     <p><a href="https://tools.ietf.org/html/rfc6749#section-1.5" class="rfc">tools.ietf.org/html/rfc6749#section-1.5</a></p>
 
     <p>The Refresh Token grant type is used by clients to exchange a refresh token for an access token when the access token has expired.</p>

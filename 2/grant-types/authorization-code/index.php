@@ -19,8 +19,6 @@ require('../../../includes/_header.php');
 
     <h2>OAuth 2.0 Authorization Code Grant</h2>
 
-    <?php require('../../../includes/_carbon.php'); ?>
-
     <p><a href="https://tools.ietf.org/html/rfc6749#section-1.3.1" class="rfc">tools.ietf.org/html/rfc6749#section-1.3.1</a></p>
 
     <p>The Authorization Code grant type is used by confidential and public clients to exchange an authorization code for an access token.</p>

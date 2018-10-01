@@ -16,8 +16,6 @@ require('../../includes/_header.php');
 
     <h2>RFC 8252: OAuth 2.0 for Mobile and Native Apps</h2>
 
-    <?php require('../../includes/_carbon.php'); ?>
-
     <p><a href="http://tools.ietf.org/html/rfc8252" class="rfc">tools.ietf.org/html/rfc8252</a></p>
 
     <p>OAuth 2.0 for Native Apps (<a href="http://tools.ietf.org/html/rfc8252">RFC 8252</a>) describes security requirements and other recommendations for native and mobile applications using OAuth 2.0.</p>

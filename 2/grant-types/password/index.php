@@ -18,8 +18,6 @@ require('../../../includes/_header.php');
 
     <h2>OAuth 2.0 Password Grant</h2>
 
-    <?php require('../../../includes/_carbon.php'); ?>
-
     <p><a href="https://tools.ietf.org/html/rfc6749#section-1.3.3" class="rfc">tools.ietf.org/html/rfc6749#section-1.3.3</a></p>
 
     <p>The Password grant type is used by first-party clients to exchange a user's credentials for an access token.</p>

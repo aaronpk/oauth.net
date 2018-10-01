@@ -15,8 +15,6 @@ require('../includes/_header.php');
         <iframe width="100%" height="460" src="https://www.youtube.com/embed/wA4kqKFua2Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
 
-      <?php require('../includes/_carbon.php'); ?>
-
       <h3>More Videos</h3>
 
       <ul>

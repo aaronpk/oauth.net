@@ -18,8 +18,6 @@ require('../../includes/_header.php');
 
     <h2>OAuth 2.0 Grant Types</h2>
 
-    <?php require('../../includes/_carbon.php'); ?>
-
     <p>The OAuth 2.0 framework specifies several grant types for different use cases, as well as a framework for creating new grant types.</p>
     <p>The most common OAuth 2.0 grant types are listed below.</p>
 

@@ -12,8 +12,6 @@ require('../includes/_header.php');
     <div>
       <h2>OAuth Security</h2>
 
-      <?php require('../includes/_carbon.php'); ?>
-
       <p>Below are some resources about OAuth security.</p>
 
       <ul>
