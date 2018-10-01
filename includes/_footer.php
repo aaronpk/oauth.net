@@ -8,9 +8,9 @@
   </div>
 
   <div class="container">
-    <div class="supported">
-      <?php if(file_exists(__DIR__.'/.supported.php')) { include(__DIR__.'/.supported.php'); } ?>
-    </div>
+    <?php if(file_exists(__DIR__.'/.supported.php')): ?>
+      <?php include(__DIR__.'/.supported.php'); ?>
+    <?php endif ?>
   </div>
 
   <?php require(__DIR__.'/../includes/_carbon.php'); ?>
