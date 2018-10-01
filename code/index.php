@@ -220,7 +220,7 @@ require('../includes/_header.php');
       <li><a href="https://github.com/oauth-io">OAuth.io</a> (self hosted), and also you can use as <a href="https://oauth.io/">an external service</a></li>
       <li><a href="https://developer.okta.com">Okta</a></li>
       <li><a href="https://github.com/ssqsignon">SSQ signon</a> (self hosted), and also you can use as <a href="https://ssqsignon.com/">an external service</a></li>
-      <li><a href="https://github.com/babelouest/glewlwyd">Glewlwyd</a> (self hosted), lightweight OAuth2 server providing <a href="https://jwt.io/">JSON Web Tokens</a>, supports authentication with database or LDAP backend for users and clients.</li>
+      <li><a href="https://github.com/babelouest/glewlwyd">Glewlwyd</a> (self hosted), lightweight OAuth2 server providing <a href="/2/jwt/">JSON Web Tokens</a>, supports authentication with database or LDAP backend for users and clients.</li>
     </ul>
 
 
