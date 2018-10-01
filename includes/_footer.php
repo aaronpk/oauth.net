@@ -12,12 +12,7 @@
     </div>
 
     <div class="supported">
-      <? if(time() < strtotime('2017-10-01')): ?>
-        <a href="https://auth0.com/" onclick="trackFooterClick('https://auth0.com/'); return false;">Supported by <img src="/images/auth0.svg" style="margin: 0 0.3em;"> Auth0</a>
-        <span style="margin-left:4px;">and <a href="https://developer.okta.com" onclick="trackFooterClick('https://developer.okta.com/'); return false;"><img src="/images/okta.jpg" height="20" style="margin-bottom: 2px;"> Okta</a></span>
-      <? else: ?>
-        <span>Supported by <a href="https://developer.okta.com" onclick="trackFooterClick('https://developer.okta.com/'); return false;"><img src="/images/okta.jpg" height="20" style="margin-bottom: 2px;"> Okta</a></span>
-      <? endif; ?>
+      <?php if(file_exists(__DIR__.'/.supported.php')) { include(__DIR__.'/.supported.php'); } ?>
     </div>
   </div>
 
