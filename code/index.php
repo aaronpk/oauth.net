@@ -66,7 +66,8 @@ require('../includes/_header.php');
         <ul>
           <li><a href="http://www.dotnetopenauth.net/">.NET DotNetOpenAuth</a></li>
           <li><a href="https://oauthserver.codeplex.com/">OAuthServer</a> a simple OAuth server 2.0 developed in C# to provide OAuth authentication for Active Directory Users.</li>
-          <li><a href="https://github.com/thinktecture/Thinktecture.IdentityServer.v3">Thinktecture IdentityServer</a></li>
+          <li><a href="https://github.com/IdentityServer/IdentityServer3">IdentityServer 3</a></li>
+          <li><a href="https://github.com/IdentityServer/IdentityServer4">IdentityServer 4</a></li>
         </ul>
       </li>
       <li>Erlang
@@ -80,6 +81,11 @@ require('../includes/_header.php');
           <li><a href="https://github.com/RangelReale/osin">osin</a>: Golang OAuth2 server library </li>
           <li><a href="https://github.com/go-oauth2/oauth2">Golang OAuth 2 Server framework</a></li>
           <li><a href="https://github.com/zalando/gin-oauth2">gin-oauth2</a>: middleware for Gin Framework users who also want to use OAuth2</li>
+        </ul>
+      </li>
+      <li>Kotlin
+        <ul>
+          <li><a href="https://github.com/adhesivee/kotlin-oauth2-server">Kotlin OAuth2 server</a>: Flexible OAuth2 server library</li>
         </ul>
       </li>
     </ul>
@@ -149,6 +155,7 @@ require('../includes/_header.php');
         <ul>
           <li><a href="http://github.com/andreassolberg/jso">Javascript</a></li>
           <li><a href="https://github.com/zalando/oauth2-client-js">OAuth2-client-js</a></li>
+          <li><a href="https://github.com/salte-io/salte-auth">Salte Auth</a></li>
         </ul>
       </li>
       <li>Node.js
