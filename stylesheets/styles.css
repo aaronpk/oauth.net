@@ -118,6 +118,20 @@ body .container {
 }
 
 
+.home-supported {
+  padding: 10px;
+  border: 1px #e2e2e2 solid;
+  border-radius: 4px;
+  background: #f2f2f2;
+}
+.home-supported .head {
+  font-size: 14px;
+}
+.home-supported .cta {
+  font-size: 18px;
+}
+
+
 footer {
   border-top: 3px #B2CCFF solid;
   padding: 30px 0;
