@@ -86,6 +86,11 @@ require('../includes/_header.php');
           <li><a href="https://github.com/adhesivee/kotlin-oauth2-server">Kotlin OAuth2 server</a>: Flexible OAuth2 server library</li>
         </ul>
       </li>
+      <li>Elixir
+        <ul>
+          <li><a href="https://github.com/danschultzer/ex_oauth2_provider">Elixir OAuth2 server</a>: The no-brainer library to use for adding OAuth 2.0 provider capabilities to your Elixir app.</li>
+        </ul>
+      </li>
     </ul>
 
     <h3 id="client-libraries">Client Libraries</h3>
@@ -212,6 +217,11 @@ require('../includes/_header.php');
       <li>Elm
         <ul>
           <li><a href="http://package.elm-lang.org/packages/truqu/elm-oauth2/latest">elm-oauth2.0</a></li>
+        </ul>
+      </li>
+      <li>Elixir
+        <ul>
+          <li><a href="https://github.com/scrogson/oauth2">An Elixir OAuth 2.0 Client Library</a></li>
         </ul>
       </li>
     </ul>
