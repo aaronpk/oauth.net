@@ -88,7 +88,7 @@ require('../includes/_header.php');
       </li>
       <li>Elixir
         <ul>
-          <li><a href="https://github.com/danschultzer/ex_oauth2_provider">Elixir OAuth2 server</a>: The no-brainer library to use for adding OAuth 2.0 provider capabilities to your Elixir app.</li>
+          <li><a href="https://github.com/danschultzer/ex_oauth2_provider">Elixir OAuth2 Server</a>: The no-brainer library to use for adding OAuth 2.0 provider capabilities to your Elixir app.</li>
         </ul>
       </li>
     </ul>
