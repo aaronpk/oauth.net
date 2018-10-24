@@ -234,6 +234,7 @@ require('../includes/_header.php');
       <li><a href="https://github.com/basecamp/bc3-api">Basecamp</a></li>
       <li><a href="http://api.beeminder.com/#client-oauth-oauth">Beeminder</a></li>
       <li><a href="https://confluence.atlassian.com/bitbucket/oauth-on-bitbucket-cloud-238027431.html">BitBucket</a></li>
+      <li><a href="https://develop.battle.net/documentation">Blizzard</a></li>
       <li><a href="https://www.bookingsync.com">BookingSync</a></li>
       <li><a href="http://developers.box.com/oauth/">Box</a></li>
       <li><a href="https://buffer.com/developers/api/oauth">Buffer</a></li>
