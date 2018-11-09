@@ -16,6 +16,7 @@ require('../includes/_header.php');
 
       <ul>
         <li><a href="https://tools.ietf.org/html/rfc6819">OAuth 2.0 Threat Model and Security Considerations</a> (ietf.org)</li>
+        <li><a href="https://tools.ietf.org/html/draft-ietf-oauth-security-topics">OAuth 2.0 Security Best Current Practice</a> (ietf.org)</li>
         <li><a href="https://www.oauth.com/oauth2-servers/authorization/security-considerations/">Security Considerations when Building an Authorization Server</a> (oauth.com)</li>
         <li><a href="http://ldapwiki.com/wiki/OAuth%202.0%20Security%20Considerations">OAuth 2.0 Security Considerations</a> (ldapwiki.com)</li>
         <li><a href="https://arxiv.org/pdf/1601.01229v3.pdf">A Comprehensive Formal Security Analysis of OAuth 2.0</a> (arxiv.org, PDF)</li>

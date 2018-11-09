@@ -15,6 +15,42 @@ require('../includes/_header.php');
 			<p>The OAuth community is dedicated to helping provide information on the proper use of the OAuth protocols through a series of articles on different topics.</p>
 
       <div class="article card h-entry">
+        <h4 class="p-name"><a href="https://medium.com/@torsten_lodderstedt/why-you-should-stop-using-the-oauth-implicit-grant-2436ced1c926" class="u-url">Why you should stop using the OAuth implicit grant!</a></h4>
+        <div class="meta">
+          <a href="https://twitter.com/tlodderstedt" class="u-author h-card">Torsten Lodderstedt</a> ・ <time class="dt-published" datetime="2018-11-09">Nov 9, 2018</time>
+        </div>
+        <div class="tags">
+          #implicit
+        </div>
+        <p class="e-summary"><i>No one should any longer use the implicit grant! That’s what IETF’s OAuth working group, the authority for official OAuth specifications, recommends in the upcoming OAuth 2.0 Security Best Current Practice RFC. The decision was met during the IETF meeting this week in Bangkok.</i></p>
+      </div>
+
+
+      <div class="article card h-entry">
+        <h4 class="p-name"><a href="https://developer.okta.com/blog/2018/07/16/oauth-2-command-line" class="u-url">OAuth 2.0 from the Command Line</a></h4>
+        <div class="meta">
+          <a href="https://aaronparecki.com" class="u-author h-card">Aaron Parecki</a> ・ <time class="dt-published" datetime="2018-07-16">July 16, 2018</time>
+        </div>
+        <div class="tags">
+          #command-line #cli
+        </div>
+        <p class="e-summary"><i><a href="https://developer.okta.com/blog/2018/07/16/oauth-2-command-line">OAuth 2.0 from the Command Line</a></i> describes a technique for building a command line OAuth client.</p>
+      </div>
+
+
+      <div class="article card h-entry">
+        <h4 class="p-name"><a href="https://developer.okta.com/blog/2018/06/29/what-is-the-oauth2-password-grant" class="u-url">What is the OAuth 2.0 Password Grant Type?</a></h4>
+        <div class="meta">
+          <a href="https://aaronparecki.com" class="u-author h-card">Aaron Parecki</a> ・ <time class="dt-published" datetime="2018-06-29">June 29, 2018</time>
+        </div>
+        <div class="tags">
+          #password #grant-types
+        </div>
+        <p class="e-summary"><i><a href="https://developer.okta.com/blog/2018/06/29/what-is-the-oauth2-password-grant">What is the OAuth 2.0 Password Grant Type?</a></i> describes the password grant and its most common use cases.</p>
+      </div>
+
+
+      <div class="article card h-entry">
         <h4 class="p-name"><a href="https://developer.okta.com/blog/2018/05/24/what-is-the-oauth2-implicit-grant-type" class="u-url">What is the OAuth 2.0 Implicit Grant Type?</a></h4>
         <div class="meta">
           <a href="https://aaronparecki.com" class="u-author h-card">Aaron Parecki</a> ・ <time class="dt-published" datetime="2018-05-24">May 24, 2018</time>

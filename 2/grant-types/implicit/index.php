@@ -21,12 +21,15 @@ require('../../../includes/_header.php');
     <p><a href="https://tools.ietf.org/html/rfc6749#section-1.3.2" class="rfc">tools.ietf.org/html/rfc6749#section-1.3.2</a></p>
 
     <p>The Implicit grant type is a simplified flow that can be used by public clients, where the access token is returned immediately without an extra authorization code exchange step.</p>
-    <p>It is generally not recommended to use the implicit flow (and some servers prohibit this flow entirely). In the time since the spec was originally written, the industry best practice has changed to recommend that public clients should use either the <a href="/2/grant-types/authorization-code/">authorization code</a> flow without the client secret, or use the <a href="/2/pkce/">PKCE</a> extension instead.</p>
-    <p>More information can be found on the OAuth mailing list from: <a href="https://www.ietf.org/mail-archive/web/oauth/current/msg16966.html">Redhat</a>, <a href="https://www.ietf.org/mail-archive/web/oauth/current/msg16968.html">Deutsche Telekom</a>, and <a href="https://www.ietf.org/mail-archive/web/oauth/current/msg16967.html">Smart Health IT</a>, as well as <a href="https://www.ietf.org/mail-archive/web/oauth/current/msg18020.html">this thread</a>.</p>
+    <p>It is generally not recommended to use the implicit flow (and some servers prohibit this flow entirely). In the time since the spec was originally written, the industry best practice has changed to recommend that public clients should use the <a href="/2/grant-types/authorization-code/">authorization code</a> flow with the <a href="/2/pkce/">PKCE</a> extension instead.</p>
+    <p>The <a href="https://tools.ietf.org/html/draft-ietf-oauth-security-topics">OAuth 2.0 Security Best Current Practice</a> document recommends against using the Implicit flow entirely, and <a href="https://tools.ietf.org/html/draft-parecki-oauth-browser-based-apps">OAuth 2.0 for Browser-Based Apps</a> describes the technique of using the authorization code flow with PKCE.</p>
 
     <p>More resources
       <ul>
+        <li><a href="https://medium.com/@torsten_lodderstedt/why-you-should-stop-using-the-oauth-implicit-grant-2436ced1c926">Why you should stop using the OAuth implicit grant</a> (Torsten Lodderstedt)</li>
         <li><a href="https://developer.okta.com/blog/2018/05/24/what-is-the-oauth2-implicit-grant-type">What is the OAuth 2.0 Implicit Grant Type?</a> (developer.okta.com)</li>
+        <li><a href="https://tools.ietf.org/html/draft-ietf-oauth-security-topics">OAuth 2.0 Security Best Current Practice</a> (ietf.org)</li>
+        <li><a href="https://tools.ietf.org/html/draft-parecki-oauth-browser-based-apps">OAuth 2.0 for Browser-Based Apps</a> (ietf.org)</li>
         <li><a href="https://aaronparecki.com/oauth-2-simplified/#single-page-apps">Single-Page Apps</a> (aaronparecki.com)</li>
         <li><a href="https://www.oauth.com/playground/implicit.html">Implicit Grant on the OAuth 2.0 Playground</a></li>
       </ul>

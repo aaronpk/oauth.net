@@ -18,7 +18,7 @@ require('../includes/_header.php');
 
     <h3 style="clear:none;">OAuth 2.0 Core</h3>
     <ul>
-      <li><a href="http://tools.ietf.org/html/rfc6749">OAuth 2.0 Framework - RFC 6749</a></li>
+      <li><a href="http://tools.ietf.org/html/rfc6749">OAuth 2.0 Framework</a> - RFC 6749</li>
        <li><a href="/2/grant-types/">OAuth 2.0 Grant Types</a>
         <ul>
           <li><a href="/2/grant-types/authorization-code/">Authorization Code</a></li>
@@ -31,12 +31,14 @@ require('../includes/_header.php');
       </li>
       <li><a href="/2/bearer-tokens/">OAuth 2.0 Bearer Tokens</a> - RFC 6750</li>
       <li><a href="/2/security-considerations/">Threat Model and Security Considerations</a> - RFC 6819</li>
+      <li><a href="/2/oauth-best-practice/">OAuth 2.0 Security Best Current Practice</a>
     </ul>
 
     <h3>Mobile and Other Devices</h3>
     <ul>
       <li><a href="/2/native-apps/">Native Apps</a> - Recommendations for using OAuth 2.0 with native apps</li>
       <li><a href="/2/pkce/">PKCE</a> - Proof Key for Code Exchange, better security for native apps</li>
+      <li><a href="/2/browser-based-apps/">Browser-Based Apps</a> - Recommendations for using OAuth 2.0 with browser-based apps (e.g. an SPA)</li>
       <li><a href="/2/device-flow/">OAuth 2.0 Device Flow</a></li>
     </ul>
 
