@@ -22,7 +22,7 @@ require('../../includes/_header.php');
 
     <p>More resources
       <ul>
-        <li><a href="https://www.oauth.com/oauth2-servers/token-introspection-endpoint/">Token Introspection Endpoint</a> (oauth.com)</li>
+        <li><a href="https://www.oauth.com/oauth2-servers/listing-authorizations/revoking-access/">Revoking Access</a> (oauth.com)</li>
       </ul>
     </p>
 
