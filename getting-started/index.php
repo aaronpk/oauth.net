@@ -39,22 +39,7 @@ require('../includes/_header.php');
       </ul>
 
       <h3><a href="https://oauth.com">OAuth 2.0 Servers</a></h3>
-      <p><i>OAuth 2.0 Servers</i>, written by <a href="https://aaronparecki.com">Aaron Parecki</a> and published by <a href="https://developer.okta.com">Okta</a>, is a guide to building an OAuth 2.0 server, including many details that are not part of the spec. The chapter outline is below.</p>
-      <ul>
-        <li><a href="https://oauth.com/oauth2-servers/background/">Background</a></li>
-        <li><a href="https://oauth.com/oauth2-servers/definitions/">Definitions</a></li>
-        <li><a href="https://oauth.com/oauth2-servers/oauth2-clients/">OAuth 2.0 Clients</a></li>
-        <li><a href="https://oauth.com/oauth2-servers/client-registration/">Client Registration</a></li>
-        <li><a href="https://oauth.com/oauth2-servers/authorization/">Authorization</a></li>
-        <li><a href="https://oauth.com/oauth2-servers/scope/">Scope</a></li>
-        <li><a href="https://oauth.com/oauth2-servers/redirect-uris/">Redirect URIs</a></li>
-        <li><a href="https://oauth.com/oauth2-servers/access-tokens/">Access Tokens</a></li>
-        <li><a href="https://oauth.com/oauth2-servers/listing-authorizations/">Listing Authorizations</a></li>
-        <li><a href="https://oauth.com/oauth2-servers/token-introspection-endpoint/">Token Introspection Endpoint</a></li>
-        <li><a href="https://oauth.com/oauth2-servers/the-resource-server/">The Resource Server</a></li>
-        <li><a href="https://oauth.com/oauth2-servers/creating-documentation/">Creating Documentation</a></li>
-        <li><a href="https://oauth.com/oauth2-servers/differences-between-oauth-1-2/">Differences Between OAuth 1 and 2</a></li>
-      </ul>
+      <p><i>OAuth 2.0 Servers</i>, written by <a href="https://aaronparecki.com">Aaron Parecki</a> and published by <a href="https://developer.okta.com">Okta</a>, is a guide to building an OAuth 2.0 server, including many details that are not part of the spec.</p>
 
       <h3>Code and Libraries</h3>
 
