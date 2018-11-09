@@ -41,9 +41,7 @@ require('../includes/_header.php');
         <ul>
           <li><a href="https://github.com/TransparentHealth/hhs_oauth_server">HHS OAuth2 Server (Healthcare Focused)</a></li>
           <li><a href="https://github.com/NateFerrero/oauth2lib"> Python OAuth 2.0 Client + Server Library</a></li>
-          <li><a href="http://python-social-auth-docs.readthedocs.io/en/latest/"> Python Social Auth</a> is an OAuth and OAuth2 client for a multitude of services.</li>
           <li><a href="https://github.com/evonove/django-oauth-toolkit">Django OAuth Toolkit (DOT)</a> is an OAuth2 Provider for Django built upon <a href="https://github.com/oauthlib/oauthlib">oauthlib</a></li>
-          <li><a href="https://github.com/evonove/django-oauth-toolkit">HHS OAuth2 Server</a> a health-centric Django project based on <a href="https://github.com/evonove/django-oauth-toolkit">DOT</a></li>
           <li><a href="https://github.com/lepture/flask-oauthlib">Flask-OAuthlib</a> is an OAuth2 Client/Provider for Flask built upon <a href="https://github.com/oauthlib/oauthlib">oauthlib</a></li>
           <li><a href="https://github.com/lepture/authlib">Authlib</a> has an OAuth2 and OpenID Connect Provider, generic and Flask.</a></li>
         </ul>
@@ -84,6 +82,11 @@ require('../includes/_header.php');
       <li>Kotlin
         <ul>
           <li><a href="https://github.com/adhesivee/kotlin-oauth2-server">Kotlin OAuth2 server</a>: Flexible OAuth2 server library</li>
+        </ul>
+      </li>
+      <li>Elixir
+        <ul>
+          <li><a href="https://github.com/danschultzer/ex_oauth2_provider">Elixir OAuth2 Server</a>: The no-brainer library to use for adding OAuth 2.0 provider capabilities to your Elixir app.</li>
         </ul>
       </li>
     </ul>
@@ -133,6 +136,7 @@ require('../includes/_header.php');
           <li><a href="http://github.com/demianbrecht/sanction">sanction</a></li>
           <li><a href="http://github.com/litl/rauth">rauth</a></li>
           <li><a href="http://peterhudec.github.io/authomatic/">Authomatic</a></li>
+          <li><a href="http://python-social-auth-docs.readthedocs.io/en/latest/"> Python Social Auth</a> is an OAuth and OAuth2 client for a multitude of services.</li>
           <li><a href="https://github.com/lepture/flask-oauthlib">Flask-OAuthlib</a> is an OAuth2 Client/Provider for Flask built upon <a href="https://github.com/oauthlib/oauthlib">oauthlib</a></li>
           <li><a href="https://github.com/lepture/authlib">Authlib</a> has built-in OAuth 2 client for Flask and Django.</a></li>
         </ul>
@@ -214,6 +218,11 @@ require('../includes/_header.php');
           <li><a href="http://package.elm-lang.org/packages/truqu/elm-oauth2/latest">elm-oauth2.0</a></li>
         </ul>
       </li>
+      <li>Elixir
+        <ul>
+          <li><a href="https://github.com/scrogson/oauth2">An Elixir OAuth 2.0 Client Library</a></li>
+        </ul>
+      </li>
     </ul>
 
     <h3 id="services">OAuth Services</h3>
@@ -234,6 +243,7 @@ require('../includes/_header.php');
       <li><a href="https://github.com/basecamp/bc3-api">Basecamp</a></li>
       <li><a href="http://api.beeminder.com/#client-oauth-oauth">Beeminder</a></li>
       <li><a href="https://confluence.atlassian.com/bitbucket/oauth-on-bitbucket-cloud-238027431.html">BitBucket</a></li>
+      <li><a href="https://develop.battle.net/documentation">Blizzard</a></li>
       <li><a href="https://www.bookingsync.com">BookingSync</a></li>
       <li><a href="http://developers.box.com/oauth/">Box</a></li>
       <li><a href="https://buffer.com/developers/api/oauth">Buffer</a></li>
