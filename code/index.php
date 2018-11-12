@@ -223,6 +223,11 @@ require('../includes/_header.php');
           <li><a href="https://github.com/scrogson/oauth2">An Elixir OAuth 2.0 Client Library</a></li>
         </ul>
       </li>
+      <li>Rust
+        <ul>
+          <li><a href="https://github.com/ramosbugs/oauth2-rs">Extensible, strongly-typed Rust OAuth2 client library</a></li>
+        </ul>
+      </li>
     </ul>
 
     <h3 id="services">OAuth Services</h3>
