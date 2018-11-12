@@ -89,6 +89,11 @@ require('../includes/_header.php');
           <li><a href="https://github.com/danschultzer/ex_oauth2_provider">Elixir OAuth2 Server</a>: The no-brainer library to use for adding OAuth 2.0 provider capabilities to your Elixir app.</li>
         </ul>
       </li>
+      <li>Rust
+        <ul>
+          <li><a href="https://github.com/HeroicKatora/oxide-auth">oxide-auth</a>: A OAuth2 server library, for use in combination with iron or other frontends, featuring a set of configurable and pluggable backends.</li>
+        </ul>
+      </li>
     </ul>
 
     <h3 id="client-libraries">Client Libraries</h3>
