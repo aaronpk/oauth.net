@@ -13,8 +13,6 @@
     <?php endif ?>
   </div>
 
-  <?php require(__DIR__.'/../includes/_carbon.php'); ?>
-
 </footer>
 
 <script src="/stylesheets/jquery-3.2.1.slim.min.js"></script>

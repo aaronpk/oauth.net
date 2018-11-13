@@ -62,12 +62,10 @@ footer {
 
 #cf_ad .cf-wrapper {
   box-sizing: border-box;
-  position: absolute !important;
   bottom: 0;
   z-index: 5;
   padding: .5em 1em;
   width: 100%;
-  border-top: none !important;
   background-color: #fff !important;
   text-align: center;
   line-height: 1.5;
