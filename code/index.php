@@ -230,7 +230,7 @@ require('../includes/_header.php');
       </li>
       <li>Rust
         <ul>
-          <li><a href="https://github.com/ramosbugs/oauth2-rs">ramosbugs/oauth2-rs - Extensible, strongly-typed Rust OAuth2 client library</a></li>
+          <li><a href="https://github.com/ramosbugs/oauth2-rs">ramosbugs/oauth2-rs</a> - Extensible, strongly-typed Rust OAuth2 client library</li>
         </ul>
       </li>
     </ul>
