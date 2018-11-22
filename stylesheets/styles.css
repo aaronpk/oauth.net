@@ -132,6 +132,16 @@ body .container {
 }
 
 
+.event {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.event .name {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+
 footer {
   border-top: 3px #B2CCFF solid;
   padding: 30px 0;

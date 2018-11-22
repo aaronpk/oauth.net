@@ -1,6 +1,7 @@
 <?php
 @header('X-Pingback: https://webmention.io/aaronpk/xmlrpc');
 @header('Link: <https://webmention.io/aaronpk/webmention>; rel="webmention"');
+function e($t) { return htmlspecialchars($t); }
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
