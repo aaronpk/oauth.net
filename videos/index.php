@@ -19,6 +19,7 @@ require('../includes/_header.php');
 
       <ul>
         <li><a href="https://www.youtube.com/watch?v=996OiexHze0">OAuth 2.0 and OpenID Connect (in plain English)</a> by Nate Barbettini</li>
+        <li><a href="https://www.youtube.com/watch?v=rZRwE3d-gm0">Using OAuth and OpenID Connect in Your Applications - Oktane 18</a> by Aaron Parecki and Padma Govindarajalu</li>
       </ul>
 
       <div style="clear:both;"></div>
