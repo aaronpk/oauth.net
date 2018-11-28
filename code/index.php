@@ -20,7 +20,9 @@ require('../includes/_header.php');
       <li>Java
         <ul>
           <li><a href="https://github.com/mitreid-connect/OpenID-Connect-Java-Spring-Server">MitreID (with OpenID Connect)</a></li>
+          <li><a href="https://www.keycloak.org/">Keycloak</a></li>
           <li><a href="https://projects.spring.io/spring-security-oauth/">Spring Security OAuth</a></li>
+          <li><a href="https://www.pac4j.org/">Pac4j</a></li>
           <li><a href="https://github.com/OpenConextApps/apis">Apis Authorization Server (v2-31)</a></li>
           <li><a href="http://www.restlet.org/">Restlet Framework (draft 30)</a></li>
           <li><a href="http://cxf.apache.org/">Apache CXF</a></li>
@@ -122,6 +124,8 @@ require('../includes/_header.php');
       </li>
       <li>Java
         <ul>
+          <li><a href="https://github.com/okta/okta-spring-boot">Okta Spring Boot Starter</a></li>
+          <li><a href="https://www.pac4j.org/">Pac4j</a></li>
           <li><a href="https://projects.spring.io/spring-social/">Spring Social</a></li>
           <li><a href="https://projects.spring.io/spring-security-oauth/">Spring Security OAuth</a></li>
           <li><a href="http://www.restlet.org/">Restlet Framework (draft 30)</a></li>
@@ -160,13 +164,18 @@ require('../includes/_header.php');
       </li>
       <li>Javascript
         <ul>
-          <li><a href="http://github.com/andreassolberg/jso">Javascript</a></li>
+          <li><a href="https://github.com/okta/okta-oidc-js/blob/master/packages/okta-angular">Okta Angular SDK</a></li>
+          <li><a href="https://github.com/okta/okta-oidc-js/blob/master/packages/okta-react">Okta React SDK</a></li>
+          <li><a href="https://github.com/okta/okta-oidc-js/blob/master/packages/okta-react-native">Okta React Native SDK</a></li>
+          <li><a href="https://github.com/okta/okta-oidc-js/blob/master/packages/okta-vue">Okta Vue SDK</a></li>
+          <li><a href="https://github.com/andreassolberg/jso">JSO</a></li>
           <li><a href="https://github.com/zalando/oauth2-client-js">OAuth2-client-js</a></li>
           <li><a href="https://github.com/salte-io/salte-auth">Salte Auth</a></li>
         </ul>
       </li>
       <li>Node.js
         <ul>
+          <li><a href="https://github.com/okta/okta-oidc-js/blob/master/packages/oidc-middleware">OIDC Middleware</a></li>
           <li><a href="https://github.com/simov/grant">Grant</a></li>
           <li><a href="http://passportjs.org/">PassportJS</a></li>
           <li><a href="https://github.com/zalando/oauth2-client-js">OAuth2-client-js</a></li>
@@ -240,9 +249,10 @@ require('../includes/_header.php');
     <ul>
       <li><a href="https://auth0.com">Auth0</a>: Authorization Server as a service (or self hosted)</li>
       <li><a href="https://curity.io">Curity Identity Server</a>: A self hosted Authorization Server</li>
+      <li><a href="https://fusionauth.io/">FusionAuth</a>: Web-scale identity - FREE (as in 🍺)</li>
       <li><a href="https://github.com/ory/hydra">Hydra</a> an open source OAuth2 and OpenID Connect server for new and existing infrastructures</li>
       <li><a href="https://github.com/oauth-io">OAuth.io</a> (self hosted), and also you can use as <a href="https://oauth.io/">an external service</a></li>
-      <li><a href="https://developer.okta.com">Okta</a></li>
+      <li><a href="https://developer.okta.com">Okta</a>: Always On, because friends don't let friends write authentication</li>
       <li><a href="https://github.com/ssqsignon">SSQ signon</a> (self hosted), and also you can use as <a href="https://ssqsignon.com/">an external service</a></li>
       <li><a href="https://github.com/babelouest/glewlwyd">Glewlwyd</a> (self hosted), lightweight OAuth2 server providing <a href="/2/jwt/">JSON Web Tokens</a>, supports authentication with database or LDAP backend for users and clients.</li>
     </ul>
