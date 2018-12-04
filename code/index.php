@@ -94,6 +94,13 @@ require('../includes/_header.php');
           <li><a href="https://github.com/HeroicKatora/oxide-auth">oxide-auth</a>: A OAuth2 server library, for use in combination with iron or other frontends, featuring a set of configurable and pluggable backends.</li>
         </ul>
       </li>
+      <li>Perl
+          <ul>
+              <li><a href="https://github.com/Humanstate/net-oauth2-authorizationserver">Perl OAuth2 Authorization Server</a>
+              <li><a href="https://github.com/perl-catalyst/CatalystX-OAuth2">Perl OAuth2 Server on Catalyst</a></li>
+              <li><a href="https://github.com/Humanstate/mojolicious-plugin-oauth2-server">Perl OAuth2 Server on Mojolicious</a></li>
+          </ul>
+      </li>
     </ul>
 
     <h3 id="client-libraries">Client Libraries</h3>
@@ -171,12 +178,6 @@ require('../includes/_header.php');
           <li><a href="http://passportjs.org/">PassportJS</a></li>
           <li><a href="https://github.com/zalando/oauth2-client-js">OAuth2-client-js</a></li>
         </ul>
-      </li>
-      <li>Perl
-          <ul>
-              <li><a href="https://github.com/perl-catalyst/CatalystX-OAuth2">Perl OAuth2 Server on Catalyst</a></li>
-              <li><a href="https://github.com/Humanstate/mojolicious-plugin-oauth2-server">Perl OAuth2 Server on Mojolicious</a></li>
-          </ul>
       </li>
       <li>.NET
         <ul>
