@@ -26,7 +26,8 @@ require('../../includes/_header.php');
       <ul>
         <li><a href="https://www.oauth.com/oauth2-servers/oauth2-clients/mobile-and-native-apps/">Mobile and Native Apps</a> (oauth.com)</li>
         <li><a href="https://aaronparecki.com/oauth-2-simplified/#mobile-apps">Mobile Apps</a> (aaronparecki.com)</li>
-        <li><a href="https://developers.google.com/identity/protocols/OAuth2InstalledApp">OAuth 2.0 for Mobile &amp; Desktop Apps</a> (google.com)</li>
+        <li><a href="https://developers.google.com/identity/protocols/OAuth2InstalledApp">OAuth 2.0 for Mobile &amp; Desktop Apps</a> (developers.google.com)</li>
+        <li><a href="https://developer.okta.com/blog/2018/12/13/oauth-2-for-native-and-mobile-apps">OAuth 2.0 for Native and Mobile Apps</a> (developer.okta.com by Micah Silverman)</li>
       </ul>
     </p>
 
