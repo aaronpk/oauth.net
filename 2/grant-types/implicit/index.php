@@ -26,6 +26,7 @@ require('../../../includes/_header.php');
 
     <p>More resources
       <ul>
+        <li><a href="https://auth0.com/blog/oauth2-implicit-grant-and-spa/">OAuth 2 Implicit Grant and SPAs</a> by Vittorio Bertocci (auth0.com)</li>
         <li><a href="https://medium.com/@torsten_lodderstedt/why-you-should-stop-using-the-oauth-implicit-grant-2436ced1c926">Why you should stop using the OAuth implicit grant</a> (Torsten Lodderstedt)</li>
         <li><a href="https://developer.okta.com/blog/2018/05/24/what-is-the-oauth2-implicit-grant-type">What is the OAuth 2.0 Implicit Grant Type?</a> (developer.okta.com)</li>
         <li><a href="https://tools.ietf.org/html/draft-ietf-oauth-security-topics">OAuth 2.0 Security Best Current Practice</a> (ietf.org)</li>
