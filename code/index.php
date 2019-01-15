@@ -44,6 +44,7 @@ require('../includes/_header.php');
           <li><a href="https://github.com/evonove/django-oauth-toolkit">Django OAuth Toolkit (DOT)</a> is an OAuth2 Provider for Django built upon <a href="https://github.com/oauthlib/oauthlib">oauthlib</a></li>
           <li><a href="https://github.com/lepture/flask-oauthlib">Flask-OAuthlib</a> is an OAuth2 Client/Provider for Flask built upon <a href="https://github.com/oauthlib/oauthlib">oauthlib</a></li>
           <li><a href="https://github.com/lepture/authlib">Authlib</a> has an OAuth2 and OpenID Connect Provider, generic and Flask.</a></li>
+          <li><a href="https://github.com/thomsonreuters/bottle-oauthlib">Bottle-OAuthlib</a> is the simplest library to build OAuth2/OIDC Provider on top of Bottle and <a href="https://github.com/oauthlib/oauthlib">oauthlib</a></li>
         </ul>
       </li>
       <li>NodeJS
