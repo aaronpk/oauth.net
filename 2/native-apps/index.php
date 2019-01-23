@@ -28,6 +28,7 @@ require('../../includes/_header.php');
         <li><a href="https://aaronparecki.com/oauth-2-simplified/#mobile-apps">Mobile Apps</a> (aaronparecki.com)</li>
         <li><a href="https://developers.google.com/identity/protocols/OAuth2InstalledApp">OAuth 2.0 for Mobile &amp; Desktop Apps</a> (developers.google.com)</li>
         <li><a href="https://developer.okta.com/blog/2018/12/13/oauth-2-for-native-and-mobile-apps">OAuth 2.0 for Native and Mobile Apps</a> (developer.okta.com by Micah Silverman)</li>
+        <li><a href="https://developer.okta.com/blog/2019/01/22/oauth-api-keys-arent-safe-in-mobile-apps">Why OAuth Secrets Aren't Safe in Mobile Apps</a> (developer.okta.com by Aaron Parecki)</li>
       </ul>
     </p>
 
