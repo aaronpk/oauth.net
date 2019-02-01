@@ -17,10 +17,11 @@ require('./includes/_header.php');
 
   <div class="column first last span-20" style="clear: both; text-align: center; margin: 20px auto; float: none;">
     <div style="padding: 20px 0; display: flex; flex-direction: row;">
-      <div style="width: 60%; font-size: 16pt; line-height: 23pt;">
+      <div style="width: 100%; font-size: 16pt; line-height: 23pt;">
         The OAuth 2.0 authorization framework enables third-party
         applications to obtain limited access to a web service.
       </div>
+      <!--
       <div style="width: 50%;">
         <div class="home-supported">
           <div class="head">This website is supported by</div>
@@ -28,6 +29,7 @@ require('./includes/_header.php');
           <div class="cta"><a href="https://developer.okta.com/signup/">Try Okta to make OAuth painless</a></div>
         </div>
       </div>
+      -->
     </div>
   </div>
 
