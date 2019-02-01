@@ -15,10 +15,10 @@ require('../includes/_header.php');
 
       <div class="book-row">
         <div class="left">
-          <a href="https://www.amazon.com/OAuth-2-0-Simplified-Aaron-Parecki/dp/1387130102/?tag=oauthnet-20" class="noprintexpand"><img src="oauth_2_simplified.jpg" alt="OAuth 2.0 Simplified Book Cover" title="OAuth 2.0 Simplified"></a>
+          <a href="https://www.amazon.com/OAuth-2-0-Simplified-Aaron-Parecki/dp/1387751514/?tag=oauthnet-20" class="noprintexpand"><img src="oauth_2_simplified.jpg" alt="OAuth 2.0 Simplified Book Cover" title="OAuth 2.0 Simplified"></a>
         </div>
         <div class="right">
-          <p><a href="https://www.amazon.com/OAuth-2-0-Simplified-Aaron-Parecki/dp/1387130102/?tag=oauthnet-20"><i>OAuth 2.0 Simplified</i></a> by Aaron Parecki is a guide to building an OAuth 2.0 server. Through high-level overviews, step-by-step instructions, and real-world examples, you will learn how to take advantage of the OAuth 2.0 framework while building a secure API.</p>
+          <p><a href="https://www.amazon.com/OAuth-2-0-Simplified-Aaron-Parecki/dp/1387751514/?tag=oauthnet-20"><i>OAuth 2.0 Simplified</i></a> by Aaron Parecki is a guide to building an OAuth 2.0 server. Through high-level overviews, step-by-step instructions, and real-world examples, you will learn how to take advantage of the OAuth 2.0 framework while building a secure API.</p>
           <p>Whether you’re a software architect, application developer, project manager, or a casual programmer, this book will introduce you to the concepts of OAuth 2.0 and demonstrate what is required when building a server.</p>
           <p>This book is currently available from <a href="https://oauth2simplified.com/lulu.php">Lulu.com</a> and <a href="https://www.amazon.com/OAuth-2-0-Simplified-Aaron-Parecki/dp/1387130102/?tag=oauthnet-20">Amazon</a>, and on <a href="https://www.amazon.com/OAuth-2-0-Simplified-Building-Servers-ebook/dp/B07DFQ1TTW/ref=tmm_kin_swatch_0&tag=oauthnet-20">Kindle</a>.</p>
         </div>
