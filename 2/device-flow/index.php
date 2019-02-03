@@ -26,6 +26,7 @@ require('../../includes/_header.php');
       <ul>
         <li><a href="https://www.oauth.com/oauth2-servers/device-flow/">Device Flow</a> (oauth.com)</li>
         <li><a href="https://alexbilbie.com/2016/04/oauth-2-device-flow-grant/">OAuth 2.0 Device Flow Grant</a> (alexbilbie.com)</li>
+        <li><a href="https://github.com/aaronpk/Device-Flow-Proxy-Server">A proxy server that implements the Device Flow to an existing OAuth server</a> (github.com)</li>
       </ul>
     </p>
 
