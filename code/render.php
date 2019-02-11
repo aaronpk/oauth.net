@@ -36,7 +36,7 @@ require('../includes/_header.php');
 
     <h2>OAuth Libraries for <?= $data['name'] ?></h2>
 
-    <p><?= $data['name'] ?> OAuth libraries for building clients and servers. If you would like to add a library or other resource, you can <a href="https://github.com/aaronpk/oauth.net/blob/master/code/data.php">edit this page</a>.</p>
+    <p>Here you'll find the best <?= $data['name'] ?> libraries for building OAuth clients and servers.</p>
 
     <?php if(isset($data['client_libraries'])): ?>
       <h4>Client Libraries</h4>
@@ -58,6 +58,8 @@ require('../includes/_header.php');
       </ul>
     <?php endif ?>
 
+    <p>If you would like to add a library, you can <a href="https://github.com/aaronpk/oauth.net/blob/master/code/data.php">edit this page</a>.</p>
+    
   </div>
 </div>
 
