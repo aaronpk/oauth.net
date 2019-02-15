@@ -16,9 +16,9 @@ require('../../includes/_header.php');
 
     <h2>OAuth 2.0 for Browser-Based Apps</h2>
 
-    <p><a href="https://tools.ietf.org/html/draft-parecki-oauth-browser-based-apps" class="rfc">tools.ietf.org/html/draft-parecki-oauth-browser-based-apps</a></p>
+    <p><a href="https://tools.ietf.org/html/draft-ietf-oauth-browser-based-apps" class="rfc">tools.ietf.org/html/draft-parecki-oauth-browser-based-apps</a></p>
 
-    <p><a href="https://tools.ietf.org/html/draft-parecki-oauth-browser-based-apps">OAuth 2.0 for Browser-Based Apps</a> describes security requirements and other recommendations for SPAs and browser-based applications using OAuth 2.0.</p>
+    <p><a href="https://tools.ietf.org/html/draft-ietf-oauth-browser-based-apps">OAuth 2.0 for Browser-Based Apps</a> describes security requirements and other recommendations for SPAs and browser-based applications using OAuth 2.0.</p>
     <p>Among other things, it recommends using the Authorization Code flow with the <a href="/2/pkce/">PKCE extension</a> instead of using the Implicit flow.</p>
 
     <p>More resources

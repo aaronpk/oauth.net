@@ -2,6 +2,7 @@ https://oauth.net/
 https://oauth.net/1/
 https://oauth.net/2/
 https://oauth.net/2/bearer-tokens/
+https://oauth.net/2/browser-based-apps/
 https://oauth.net/2/device-flow/
 https://oauth.net/2/grant-types/
 https://oauth.net/2/grant-types/authorization-code/
@@ -54,3 +55,4 @@ https://oauth.net/code/swift/
 https://oauth.net/consulting/
 https://oauth.net/getting-started/
 https://oauth.net/grant_type/device/1.0/
+https://oauth.net/webauthn/
