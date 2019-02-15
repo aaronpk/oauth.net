@@ -9,7 +9,7 @@ require('../includes/_header.php');
 $events = [
   [
     'name'       => 'Internet Identity Workshop XXVIII',
-    'start_date' => '2019-05-30',
+    'start_date' => '2019-04-30',
     'end_date'   => '2019-05-02',
     'location'   => 'Computer History Museum, Mountain View, California',
     'url'        => 'http://www.internetidentityworkshop.com/',
