@@ -43,7 +43,7 @@ require('../includes/_header.php');
 
       <h3>Code and Libraries</h3>
 
-      <p>There are many <a href="/code/#client-libraries">client</a> and <a href="/code/#server-libraries">server</a> libraries in multiple languages to get you started quickly.</p>
+      <p>There are many <a href="/code/">client and server libraries</a> in multiple languages to get you started quickly.</p>
 
       <h3>Books</h3>
 
