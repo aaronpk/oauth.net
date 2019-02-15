@@ -28,7 +28,7 @@ require('./includes/_header.php');
   <div class="row">
 
     <div id="client-side" class="col-md-6">
-      <h5>For Consumer developers...</h5>
+      <h5>For app developers...</h5>
       <p>
         If you're building...
       </p>
@@ -36,7 +36,7 @@ require('./includes/_header.php');
         <li>web applications</li>
         <li>desktop applications</li>
         <li>mobile applications</li>
-        <li>Javascript or browser-based apps</li>
+        <li>JavaScript or browser-based apps</li>
       </ul>
       <p>
         OAuth is a simple way to publish and interact with protected data. It's also a safer and more secure way for people to give you access. We've kept it simple to save you time.
@@ -44,7 +44,7 @@ require('./includes/_header.php');
     </div>
 
     <div id="server-side" class="col-md-6">
-      <h5>For Service Provider developers...</h5>
+      <h5>For API developers...</h5>
       <p>
         If you're supporting...
       </p>
