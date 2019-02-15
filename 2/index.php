@@ -50,12 +50,13 @@ require('../includes/_header.php');
     </ul>
 
 
-    <h3>Other Extensions</h3>
+    <h3>Related Specs and Extensions</h3>
     <ul>
       <li><a href="http://tools.ietf.org/html/rfc7521">OAuth Assertions Framework</a> - RFC 7521</li>
       <li><a href="http://tools.ietf.org/html/rfc7522">SAML2 Bearer Assertion</a> - RFC 7522, for integrating with existing identity systems</li>
       <li><a href="http://tools.ietf.org/html/rfc7523">JWT Bearer Assertion</a> - RFC 7523, for integrating with existing identity systems</li>
       <li><a href="https://tools.ietf.org/wg/oauth/">OAuth WG Status Pages</a></li>
+      <li><a href="/webauthn/">WebAuthn - Web Authentication</a></li>
     </ul>
 
     <h3>Community Resources</h3>
