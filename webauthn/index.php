@@ -47,7 +47,7 @@ require('../includes/_header.php');
         <li><a href="https://developers.google.com/web/updates/2018/05/webauthn">Enabling Strong Authentication with WebAuthn</a> - January 2019 (developers.google.com)</li>
         <li><a href="https://auth0.com/blog/introduction-to-web-authentication/">Introduction to Web Authentication: The New W3C Spec</a> - June 2018 (auth0.com)</li>
         <li><a href="https://developer.okta.com/blog/2018/04/17/webauthn-developers-guide-to-whats-on-the-horizon">WebAuthn: A Developer's Guide to What's on the Horizon</a> - April 2018 (developer.okta.com)</li>
-        <li><a href="https://duo.com/blog/web-authentication-what-it-is-and-what-it-means-for-passwords">Web Authentication: What It Is and What It Means for Passwords/></a> - December 2017 (duo.com)</li>
+        <li><a href="https://duo.com/blog/web-authentication-what-it-is-and-what-it-means-for-passwords">Web Authentication: What It Is and What It Means for Passwords</a> - December 2017 (duo.com)</li>
       </ul>
 
 
