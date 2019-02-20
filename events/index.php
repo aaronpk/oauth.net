@@ -119,6 +119,20 @@ $events = [
       ['url' => 'https://therealmccrea.com/2008/10/20/live-blogging-the-openidoauth-ux-summit/', 'name' => 'Live Blogging the OpenID/OAuth UX Summit', 'author' => 'John McCrea'],
     ]
   ],
+  [
+    'name'       => 'OAuth hands-on workshop - OAuth and OpenID Connect in Practice',
+    'start_date' => '2019-05-13',
+    'end_date'   => '2019-05-13',
+    'location'   => 'Austin, Texas',
+    'url'        => 'https://nordicapis.com/sessions/oauth-and-openid-connect-in-practice/',
+  ],
+  [
+    'name'       => 'OAuth hands-on workshop - Advanced OAuth & OpenID Connect',
+    'start_date' => '2019-05-13',
+    'end_date'   => '2019-05-13',
+    'location'   => 'Austin, Texas',
+    'url'        => 'https://nordicapis.com/sessions/advanced-oauth-openid-connect-aas19/',
+  ],
 ];
 
 // Filter only upcoming events
