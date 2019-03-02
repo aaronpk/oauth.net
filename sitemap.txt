@@ -11,6 +11,7 @@ https://oauth.net/2/grant-types/device-code/
 https://oauth.net/2/grant-types/implicit/
 https://oauth.net/2/grant-types/password/
 https://oauth.net/2/grant-types/refresh-token/
+https://oauth.net/2/scope/
 https://oauth.net/2/native-apps/
 https://oauth.net/2/pkce/
 https://oauth.net/2/security-considerations/
