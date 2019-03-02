@@ -18,8 +18,12 @@ require('../includes/_header.php');
 
     <h3 style="clear:none;">OAuth 2.0 Core</h3>
     <ul>
-      <li><a href="http://tools.ietf.org/html/rfc6749">OAuth 2.0 Framework</a> - RFC 6749</li>
-       <li><a href="/2/grant-types/">OAuth 2.0 Grant Types</a>
+      <li><a href="http://tools.ietf.org/html/rfc6749">OAuth 2.0 Framework</a> - RFC 6749
+        <ul>
+          <li><a href="/2/scope/">OAuth 2.0 Scope</a></li>
+        </ul>
+      </li>
+      <li><a href="/2/grant-types/">OAuth 2.0 Grant Types</a>
         <ul>
           <li><a href="/2/grant-types/authorization-code/">Authorization Code</a></li>
           <li><a href="/2/grant-types/implicit/">Implicit</a></li>
