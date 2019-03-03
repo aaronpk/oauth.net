@@ -1,9 +1,22 @@
 <?php
-
 $page_title = "Code &mdash; OAuth";
 $page_section = "code";
 $page_secondary = "";
 $page_meta_description = "";
+
+$path = $_SERVER['REQUEST_URI'];
+
+// Match a language sub-page (disallows anything past the language key including query strings)
+if(preg_match('~/code/([^/]+)/$~', $path, $match)) {
+  require('render.php');
+  die();
+}
+
+// Redirect any other sub-path back to the code page
+if($path != '/code/') {
+  header('Location: /code/');
+  die();
+}
 
 require('../includes/_header.php');
 

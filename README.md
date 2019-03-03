@@ -13,7 +13,6 @@ You can use the built-in PHP webserver to run a development copy of this website
 php -S 127.0.0.1:8080
 ```
 
-
 ## Contributors Rights and Obligations
 
 Similar to [Wikipedia's contributors' rights and obligations](http://en.wikipedia.org/wiki/Wikipedia:Copyrights#Contributors.27_rights_and_obligations), by submitting content to the oauth.net repository, you release your work to the public domain, and thus grant oauth.net viewers permission to use, copy, distribute and/or modify your work under the terms of the [Creative Commons Public Domain](https://creativecommons.org/share-your-work/public-domain/cc0/) or any later version published by Creative Commons; with either a waiver of rights, or an assertion that no rights attach to a particular work.
