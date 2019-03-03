@@ -51,13 +51,14 @@ require('./data.php');
     <h3 id="services">OAuth Services</h3>
     <span id="proxy-services"></span>
     <ul>
-      <li><a href="https://auth0.com">Auth0</a>: Authorization Server as a service (or self hosted)</li>
-      <li><a href="https://curity.io">Curity Identity Server</a>: A self hosted Authorization Server</li>
-      <li><a href="https://github.com/ory/hydra">Hydra</a> an open source OAuth2 and OpenID Connect server for new and existing infrastructures</li>
-      <li><a href="https://github.com/oauth-io">OAuth.io</a> (self hosted), and also you can use as <a href="https://oauth.io/">an external service</a></li>
+      <li><a href="https://auth0.com">Auth0</a></li>
+      <li><a href="https://curity.io">Curity Identity Server</a></li>
+      <li><a href="https://fusionauth.io/">FusionAuth</a></li>
+      <li><a href="https://github.com/ory/hydra">Hydra</a></li>
+      <li><a href="https://github.com/oauth-io">OAuth.io</a></li>
       <li><a href="https://developer.okta.com">Okta</a></li>
-      <li><a href="https://github.com/ssqsignon">SSQ signon</a> (self hosted), and also you can use as <a href="https://ssqsignon.com/">an external service</a></li>
-      <li><a href="https://github.com/babelouest/glewlwyd">Glewlwyd</a> (self hosted), lightweight OAuth2 server providing <a href="/2/jwt/">JSON Web Tokens</a>, supports authentication with database or LDAP backend for users and clients.</li>
+      <li><a href="https://github.com/ssqsignon">SSQ signon</a></li>
+      <li><a href="https://github.com/babelouest/glewlwyd">Glewlwyd</a></li>
     </ul>
 
     <?php /*

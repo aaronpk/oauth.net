@@ -10,6 +10,7 @@ $languages['java'] = [
     '<a href="https://github.com/dmfs/oauth2-essentials">oauth2-essentials</a>',
     '<a href="https://github.com/networknt/light-java/tree/master/client">Light Java Client</a>',
     '<a href="https://github.com/google/google-oauth-java-client">Google OAuth Java Client</a>',
+    '<a href="https://www.pac4j.org/">Pac4j</a>',
   ],
   'server_libraries' => [
     '<a href="https://github.com/mitreid-connect/OpenID-Connect-Java-Spring-Server">MitreID (with OpenID Connect)</a>',
@@ -19,6 +20,8 @@ $languages['java'] = [
     '<a href="http://cxf.apache.org/">Apache CXF</a>',
     '<a href="https://github.com/zalando/tokens">Tokens</a>: Java library for conveniently verifying and storing OAuth 2.0 service access tokens.',
     '<a href="https://github.com/networknt/light-oauth2">Light OAuth2 - The fastest, lightest and cloud native OAuth 2.0 microservices</a>',
+    '<a href="https://www.pac4j.org/">Pac4j</a>',
+    '<a href="https://www.keycloak.org/">Keycloak</a>',
   ],
 ];
 
