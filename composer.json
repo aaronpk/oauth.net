@@ -1,0 +1,9 @@
+{
+  "name": "aaronpk/oauth.net",
+  "homepage": "https://oauth.net",
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0"
+  }
+}

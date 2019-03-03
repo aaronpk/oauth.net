@@ -1,0 +1,7 @@
+language: php
+php:
+- 7.2
+sudo: false
+before_script:
+- composer self-update
+- composer install --prefer-dist --no-interaction
