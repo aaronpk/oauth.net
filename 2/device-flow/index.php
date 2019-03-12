@@ -1,5 +1,5 @@
 <?php
-$page_title = "OAuth 2.0 Device Flow";
+$page_title = "OAuth 2.0 Device Grant";
 $page_section = "";
 $page_secondary = "";
 $page_meta_description = "OAuth 2.0 for browserless and input-constrained devices";
@@ -10,17 +10,17 @@ require('../../includes/_header.php');
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a href="/2/">OAuth 2.0</a></li>
-      <li class="breadcrumb-item active">Device Flow</li>
+      <li class="breadcrumb-item active">Device Grant</li>
     </ol>
   </nav>
 
   <div>
 
-    <h2>OAuth 2.0 Device Flow</h2>
+    <h2>OAuth 2.0 Device Grant</h2>
 
     <p><a href="https://tools.ietf.org/html/draft-ietf-oauth-device-flow" class="rfc">tools.ietf.org/html/draft-ietf-oauth-device-flow</a></p>
 
-    <p>The Device Flow is an OAuth 2.0 extension that enables devices with no browser or limited input capability to obtain an access token. This is commonly seen on Apple TV apps, or devices like hardware encoders that can stream video to a YouTube channel.</p>
+    <p>The Device Grant (formerly known as the Device Flow) is an OAuth 2.0 extension that enables devices with no browser or limited input capability to obtain an access token. This is commonly seen on Apple TV apps, or devices like hardware encoders that can stream video to a YouTube channel.</p>
 
     <p>More resources
       <ul>
