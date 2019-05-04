@@ -106,6 +106,7 @@ $languages['ruby'] = [
     '<a href="https://github.com/nov/rack-oauth2">Rack::OAuth2 - OAuth 2.0 Server & Client Library in Ruby.</a>',
   ],
   'server_libraries' => [
+    '<a href="https://github.com/doorkeeper-gem/doorkeeper">Doorkeeper - OAuth 2 server for Ruby on Rails / Grape.</a>',
     '<a href="https://github.com/nov/rack-oauth2">Rack::OAuth2 - OAuth 2.0 Server & Client Library in Ruby.</a>',
   ],
 ];
