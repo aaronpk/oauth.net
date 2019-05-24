@@ -14,6 +14,43 @@ require('../includes/_header.php');
 
 			<p>The OAuth community is dedicated to helping provide information on the proper use of the OAuth protocols through a series of articles on different topics.</p>
 
+
+      <div class="article card h-entry">
+        <h4 class="p-name"><a href="https://developer.okta.com/blog/2019/05/01/is-the-oauth-implicit-flow-dead" class="u-url">Is the OAuth 2.0 Implicit Flow Dead?</a></h4>
+        <div class="meta">
+          <a href="https://aaronparecki.com" class="u-author h-card">Aaron Parecki</a> ・ <time class="dt-published" datetime="2019-05-01">May 1, 2019</time>
+        </div>
+        <div class="tags">
+          #implicit
+        </div>
+        <p class="e-summary">What's changing with the OAuth Implicit Flow and why.</p>
+      </div>
+
+
+      <div class="article card h-entry">
+        <h4 class="p-name"><a href="https://developer.okta.com/blog/2019/02/19/add-oauth-device-flow-to-any-server" class="u-url">Add the OAuth 2.0 Device Flow to any OAuth Server</a></h4>
+        <div class="meta">
+          <a href="https://aaronparecki.com" class="u-author h-card">Aaron Parecki</a> ・ <time class="dt-published" datetime="2019-02-19">Feb 19, 2019</time>
+        </div>
+        <div class="tags">
+          #device
+        </div>
+        <p class="e-summary">If you want to use the OAuth Device Flow but your server doesn't support it natively, you still have other options!</p>
+      </div>
+
+
+      <div class="article card h-entry">
+        <h4 class="p-name"><a href="https://developer.okta.com/blog/2019/01/22/oauth-api-keys-arent-safe-in-mobile-apps" class="u-url">Why OAuth API Keys and Secrets Aren't Safe in Mobile Apps</a></h4>
+        <div class="meta">
+          <a href="https://aaronparecki.com" class="u-author h-card">Aaron Parecki</a> ・ <time class="dt-published" datetime="2019-01-22">Jan 22, 2019</time>
+        </div>
+        <div class="tags">
+          #mobile #secret
+        </div>
+        <p class="e-summary">Here are several reasons it's not safe to use a client secret in mobile apps.</p>
+      </div>
+
+
       <div class="article card h-entry">
         <h4 class="p-name"><a href="https://medium.com/@torsten_lodderstedt/why-you-should-stop-using-the-oauth-implicit-grant-2436ced1c926" class="u-url">Why you should stop using the OAuth implicit grant!</a></h4>
         <div class="meta">
