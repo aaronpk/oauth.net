@@ -86,11 +86,13 @@ $languages['php'] = [
 $languages['nodejs'] = [
   'name' => 'Node.js',
   'client_libraries' => [
+    '<a href="https://github.com/panva/node-openid-client">openid-client</a>. OpenID Certified™ Client implementation for Node.js',
     '<a href="https://github.com/simov/grant">Grant</a>',
     '<a href="http://passportjs.org/">PassportJS</a>',
     '<a href="https://github.com/zalando/oauth2-client-js">OAuth2-client-js</a>',
   ],
   'server_libraries' => [
+    '<a href="https://github.com/panva/node-oidc-provider">oidc-provider</a>. OpenID Certified™ Provider implementation for Node.js',
     '<a href="https://github.com/t1msh/node-oauth20-provider">NodeJS OAuth 2.0 Provider</a>',
     '<a href="https://github.com/mozilla/?query=fxa">Mozilla Firefox Accounts</a>. A full stack Identity Provider system developed to support Firefox Marketplace and other services',
     '<a href="https://github.com/jaredhanson/oauth2orize">OAuth2orize: toolkit to implement OAuth2 Authorization Servers</a>',
