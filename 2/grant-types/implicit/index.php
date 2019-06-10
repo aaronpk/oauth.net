@@ -24,8 +24,11 @@ require('../../../includes/_header.php');
     <p>It is generally not recommended to use the implicit flow (and some servers prohibit this flow entirely). In the time since the spec was originally written, the industry best practice has changed to recommend that public clients should use the <a href="/2/grant-types/authorization-code/">authorization code</a> flow with the <a href="/2/pkce/">PKCE</a> extension instead.</p>
     <p>The <a href="https://tools.ietf.org/html/draft-ietf-oauth-security-topics">OAuth 2.0 Security Best Current Practice</a> document recommends against using the Implicit flow entirely, and <a href="https://tools.ietf.org/html/draft-ietf-oauth-browser-based-apps">OAuth 2.0 for Browser-Based Apps</a> describes the technique of using the authorization code flow with PKCE.</p>
 
+    <iframe width="100%" height="440" src="https://www.youtube.com/embed/CHzERullHe8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
     <p>More resources
       <ul>
+        <li>VIDEO: <a href="https://www.youtube.com/watch?v=CHzERullHe8">What's Going On with the Implicit Flow?</a> by Aaron Parecki</li>
         <li><a href="https://developer.okta.com/blog/2019/05/01/is-the-oauth-implicit-flow-dead">Is the OAuth 2.0 Implicit Flow Dead?</a> by Aaron Parecki (developer.okta.com)</li>
         <li><a href="https://auth0.com/blog/oauth2-implicit-grant-and-spa/">OAuth 2 Implicit Grant and SPAs</a> by Vittorio Bertocci (auth0.com)</li>
         <li><a href="https://www.pingidentity.com/content/ping/en/company/blog/posts/2018/securely-using-oidc-authorization-code-flow-public-client-single-page-apps.html">Securely Using the OIDC Authorization Code Flow and a Public Client with Single Page Applications</a> by Robert Broeckelmann (pingidentity.com)</li>

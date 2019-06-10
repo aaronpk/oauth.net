@@ -12,12 +12,13 @@ require('../includes/_header.php');
       <h2>Videos</h2>
 
       <div style="margin-bottom: 1em">
-        <iframe width="100%" height="460" src="https://www.youtube.com/embed/H6MxsFMAoP8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="100%" height="460" src="https://www.youtube.com/embed/CHzERullHe8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
 
       <h3>More Videos</h3>
 
       <ul>
+        <li><a href="https://www.youtube.com/watch?v=H6MxsFMAoP8">OAuth: When Things Go Wrong</a> by Aaron Parecki</li>
         <li><a href="https://www.youtube.com/watch?v=BNEoKexlmA4">OAuth Access Tokens Explained</a> by Aaron Parecki</li>
         <li><a href="https://www.youtube.com/watch?v=wA4kqKFua2Q">OAuth All the Things! What is OAuth 2.0?</a> by Aaron Parecki</li>
         <li><a href="https://www.youtube.com/watch?v=996OiexHze0">OAuth 2.0 and OpenID Connect (in plain English)</a> by Nate Barbettini</li>
