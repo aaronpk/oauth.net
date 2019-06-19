@@ -49,6 +49,16 @@ require('../includes/_header.php');
 
       <div class="book-row">
         <div class="left">
+          <a href="https://www.manning.com/books/api-security-in-action" class="noprintexpand"><img src="api_security_in_action.jpg" alt="API Security in Action" title="API Security in Action"></a>
+        </div>
+        <div class="right">
+          <p><a href="https://www.manning.com/books/api-security-in-action"><i>API Security in Action</i></a> by Neil Madden covers use of OAuth 2 to protect REST APIs, and related technologies such as JSON Web Tokens. Security enhancements including combining OAuth 2 with mutual TLS authentication are covered, along with the latest security best practices. Detailed patterns are presented for using OAuth 2 with Kubernetes and for resource-constrained IoT (Internet of Things) environments.</p>
+          <p>This book is available in early-access from <a href="https://www.manning.com/books/api-security-in-action">Manning</a> with final publication expected in Summer 2020.</p>
+        </div>
+      </div>
+
+      <div class="book-row">
+        <div class="left">
           <a href="https://www.amazon.com/dp/178829596X?tag=oauthnet-20" class="noprintexpand"><img src="oauth-20-cookbook.png" alt="OAuth 2.0 Cookbook" title="OAuth 2.0 Cookbook"></a>
         </div>
         <div class="right">
