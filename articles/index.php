@@ -14,7 +14,17 @@ require('../includes/_header.php');
 
 			<p>The OAuth community is dedicated to helping provide information on the proper use of the OAuth protocols through a series of articles on different topics.</p>
 
-
+      <div class="article card h-entry">
+        <h4 class="p-name"><a href="https://habr.com/ru/company/mailru/blog/456702/" class="u-url">Security of mobile OAuth 2.0</a></h4>
+        <div class="meta">
+          <a href="https://twitter.com/_nikitastupin" class="u-author h-card">Nikita Stupin</a> ・ <time class="dt-published" datetime="2019-06-19">June 19, 2019</time>
+        </div>
+        <div class="tags">
+          #mobile
+        </div>
+        <p class="e-summary">This article shares the concepts of mobile OAuth 2.0 attacks and security mechanisms used to prevent such issues.</p>
+      </div>
+	    
       <div class="article card h-entry">
         <h4 class="p-name"><a href="https://developer.okta.com/blog/2019/05/01/is-the-oauth-implicit-flow-dead" class="u-url">Is the OAuth 2.0 Implicit Flow Dead?</a></h4>
         <div class="meta">
