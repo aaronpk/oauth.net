@@ -22,6 +22,18 @@ require('../includes/_header.php');
 
 
     <h3 style="clear:none;">OAuth 2.0 Core</h3>
+
+
+    <?php if(time() < strtotime('2019-08-01')): ?>
+    <div style="float: right; border: 1px #ccc solid; padding: 10px; border-radius: 8px; max-width: 320px; background: #fafafa;">
+
+      <p>🍎 <a href="https://developer.okta.com/blog/2019/06/04/what-the-heck-is-sign-in-with-apple">What the Heck is Sign In with Apple?</a> 🍎</p>
+      <p>Sign In with Apple is based on OAuth 2.0 and OpenID Connect, and provides a privacy-friendly way for users to sign in to websites and apps.</p>
+      <div><a href="https://developer.okta.com/blog/2019/06/04/what-the-heck-is-sign-in-with-apple">Read More &gt;&gt;</a></div>
+
+    </div>
+    <?php endif ?>
+
     <ul>
       <li><a href="http://tools.ietf.org/html/rfc6749">OAuth 2.0 Framework</a> - RFC 6749
         <ul>

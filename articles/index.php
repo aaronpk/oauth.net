@@ -24,6 +24,19 @@ require('../includes/_header.php');
         </div>
         <p class="e-summary">This article shares the concepts of mobile OAuth 2.0 attacks and security mechanisms used to prevent such issues.</p>
       </div>
+
+
+      <div class="article card h-entry">
+        <h4 class="p-name"><a href="https://developer.okta.com/blog/2019/06/04/what-the-heck-is-sign-in-with-apple" class="u-url">What the Heck is Sign In with Apple?</a></h4>
+        <div class="meta">
+          <a href="https://aaronparecki.com" class="u-author h-card">Aaron Parecki</a> ・ <time class="dt-published" datetime="2019-06-04">June 4, 2019</time>
+        </div>
+        <div class="tags">
+          #apple #oidc
+        </div>
+        <p class="e-summary">Sign In with Apple is based on OAuth 2.0 and OpenID Connect, and provides a privacy-friendly way for users to sign in to websites and apps.</p>
+      </div>
+
 	    
       <div class="article card h-entry">
         <h4 class="p-name"><a href="https://developer.okta.com/blog/2019/05/01/is-the-oauth-implicit-flow-dead" class="u-url">Is the OAuth 2.0 Implicit Flow Dead?</a></h4>
