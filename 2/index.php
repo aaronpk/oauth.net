@@ -99,7 +99,7 @@ require('../includes/_header.php');
     <ul>
       <li><a href="http://openid.net/connect/">OpenID Connect</a></li>
       <li><a href="https://docs.kantarainitiative.org/uma/rec-uma-core.html">UMA 1.0</a></li>
-      <li><a href="https://docs.kantarainitiative.org/uma/ed/uma-core-2.0-01.html">UMA 2.0</a></li>
+      <li><a href="https://docs.kantarainitiative.org/uma/wg/rec-oauth-uma-grant-2.0.html">UMA 2.0</a></li>
       <li><a href="https://indieauth.spec.indieweb.org/">IndieAuth</a></li>
     </ul>
 
