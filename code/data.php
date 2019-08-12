@@ -62,6 +62,7 @@ $languages['python'] = [
     '<a href="http://python-social-auth-docs.readthedocs.io/en/latest/"> Python Social Auth</a> is an OAuth and OAuth2 client for a multitude of services.',
     '<a href="https://github.com/lepture/flask-oauthlib">Flask-OAuthlib</a> is an OAuth2 Client/Provider for Flask built upon <a href="https://github.com/oauthlib/oauthlib">oauthlib</a>',
     '<a href="https://github.com/lepture/authlib">Authlib</a> has built-in OAuth 2 client for Flask and Django.</a>',
+    '<a href="https://github.com/requests/requests-oauthlib">Requests-OAuthlib</a> has OAuth library support for <a href="http://python-requests.org">Python Requests</a>.</a>',
   ],
 ];
 
