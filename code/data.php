@@ -58,7 +58,7 @@ $languages['python'] = [
   'client_libraries' => [
     '<a href="http://github.com/demianbrecht/sanction">sanction</a>',
     '<a href="http://github.com/litl/rauth">rauth</a>',
-    '<a href="http://peterhudec.github.io/authomatic/">Authomatic</a>',
+    '<a href="http://authomatic.github.io/authomatic/">Authomatic</a>',
     '<a href="http://python-social-auth-docs.readthedocs.io/en/latest/"> Python Social Auth</a> is an OAuth and OAuth2 client for a multitude of services.',
     '<a href="https://github.com/lepture/flask-oauthlib">Flask-OAuthlib</a> is an OAuth2 Client/Provider for Flask built upon <a href="https://github.com/oauthlib/oauthlib">oauthlib</a>',
     '<a href="https://github.com/lepture/authlib">Authlib</a> has built-in OAuth 2 client for Flask and Django.</a>',
