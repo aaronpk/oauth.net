@@ -19,7 +19,7 @@ require('../../../includes/_header.php');
 
     <h2>OAuth 2.0 Device Code</h2>
 
-    <p><a href="https://tools.ietf.org/html/draft-ietf-oauth-device-flow-07#section-3.4" class="rfc">tools.ietf.org/html/draft-ietf-oauth-device-flow-07#section-3.4</a></p>
+    <p><a href="https://tools.ietf.org/html/rfc8628#section-3.4" class="rfc">tools.ietf.org/html/rfc8628#section-3.4</a></p>
 
     <p>The Device Code grant type is used by browserless or input-constrained devices in the <a href="/2/device-flow/">device flow</a> to exchange a previously obtained device code for an access token.</p>
     <p>The Device Code grant type value is <code>urn:ietf:params:oauth:grant-type:device_code</code>.</p>
