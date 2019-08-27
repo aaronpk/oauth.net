@@ -58,7 +58,7 @@ $languages['python'] = [
   'client_libraries' => [
     '<a href="http://github.com/demianbrecht/sanction">sanction</a>',
     '<a href="http://github.com/litl/rauth">rauth</a>',
-    '<a href="http://peterhudec.github.io/authomatic/">Authomatic</a>',
+    '<a href="http://authomatic.github.io/authomatic/">Authomatic</a>',
     '<a href="http://python-social-auth-docs.readthedocs.io/en/latest/"> Python Social Auth</a> is an OAuth and OAuth2 client for a multitude of services.',
     '<a href="https://github.com/lepture/flask-oauthlib">Flask-OAuthlib</a> is an OAuth2 Client/Provider for Flask built upon <a href="https://github.com/oauthlib/oauthlib">oauthlib</a>',
     '<a href="https://github.com/lepture/authlib">Authlib</a> has built-in OAuth 2 client for Flask and Django.</a>',
@@ -70,6 +70,7 @@ $languages['python'] = [
 $languages['php'] = [
   'name' => 'PHP',
   'client_libraries' => [
+    '<a href="https://github.com/socialconnect/auth">socialconnect/auth</a>: OAuth2/OpenID Connect components from <a href="https://socialconnect.lowl.io/">SocialConnect project</a>',
     '<a href="https://github.com/thephpleague/oauth2-client">league/oauth2-client</a>: OAuth 2.0 Client from <a href="https://thephpleague.com/">the League of Extraordinary Packages</a>',
     '<a href="http://www.phpclasses.org/package/7700-PHP-Authorize-and-access-APIs-using-OAuth.html">oauth-api</a> from <a href="http://www.phpclasses.org/">PHP Classes</a>',
     '<a href="https://git.tuxed.net/fkooman/php-oauth2-client">Very simple OAuth 2.0 client, PHP >= 5.4</a> (Composer: <code>fkooman/oauth2-client</code>)',

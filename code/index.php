@@ -67,11 +67,12 @@ require('./data.php');
       <li><a href="https://auth0.com">Auth0</a></li>
       <li><a href="https://curity.io">Curity Identity Server</a></li>
       <li><a href="https://fusionauth.io/">FusionAuth</a></li>
-      <li><a href="https://github.com/ory/hydra">Hydra</a></li>
+      <li><a href="https://github.com/ory/hydra">ORY Hydra</a></li>
       <li><a href="https://github.com/oauth-io">OAuth.io</a></li>
       <li><a href="https://developer.okta.com">Okta</a></li>
       <li><a href="https://github.com/ssqsignon">SSQ signon</a></li>
       <li><a href="https://github.com/babelouest/glewlwyd">Glewlwyd</a></li>
+      <li><a href="https://simplelogin.io">SimpleLogin</a></li>
     </ul>
 
     <?php /*
