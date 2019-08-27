@@ -60,7 +60,7 @@ require('../includes/_header.php');
       <li><a href="/2/native-apps/">Native Apps</a> - Recommendations for using OAuth 2.0 with native apps</li>
       <li><a href="/2/pkce/">PKCE</a> - Proof Key for Code Exchange, better security for native apps</li>
       <li><a href="/2/browser-based-apps/">Browser-Based Apps</a> - Recommendations for using OAuth 2.0 with browser-based apps (e.g. an SPA)</li>
-      <li><a href="/2/device-flow/">OAuth 2.0 Device Flow</a></li>
+      <li><a href="/2/device-flow/">OAuth 2.0 Device Authorization Grant</a> - OAuth for devices with no browser or no keyboard</li>
     </ul>
 
     <h3>Token and Token Management</h3>
@@ -70,6 +70,12 @@ require('../includes/_header.php');
       <li><a href="/2/jwt/">JSON Web Token</a> - RFC 7519</li>
     </ul>
 
+    <h3>Discovery and Registration</h3>
+    <ul>
+      <li><a href="/2/authorization-server-metadata/">OAuth 2.0 Authorization Server Metadata</a> - RFC 8414, for clients to discover OAuth endpoints and authorization server capabilities</li>
+      <li><a href="/2/dynamic-client-registration/">OAuth 2.0 Dynamic Client Registration</a> - RFC 7591, to programmatically register OAuth clients</li>
+      <li><a href="/2/dynamic-client-management/">OAuth 2.0 Dynamic Client Registration Management</a> - Experimental RFC 7592, for updating and managing dynamically registered OAuth clients</li>
+    </ul>
 
     <h3>Related Specs and Extensions</h3>
     <ul>
