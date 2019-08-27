@@ -72,6 +72,7 @@ require('./data.php');
       <li><a href="https://developer.okta.com">Okta</a></li>
       <li><a href="https://github.com/ssqsignon">SSQ signon</a></li>
       <li><a href="https://github.com/babelouest/glewlwyd">Glewlwyd</a></li>
+      <li><a href="https://simplelogin.io">SimpleLogin</a></li>
     </ul>
 
     <?php /*
