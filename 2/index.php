@@ -60,7 +60,7 @@ require('../includes/_header.php');
       <li><a href="/2/native-apps/">Native Apps</a> - Recommendations for using OAuth 2.0 with native apps</li>
       <li><a href="/2/pkce/">PKCE</a> - Proof Key for Code Exchange, better security for native apps</li>
       <li><a href="/2/browser-based-apps/">Browser-Based Apps</a> - Recommendations for using OAuth 2.0 with browser-based apps (e.g. an SPA)</li>
-      <li><a href="/2/device-flow/">OAuth 2.0 Device Authorization Grant</a> - OAuth for devices with no browser or no keyboard</li>
+      <li><a href="/2/device-flow/">Device Authorization Grant</a> - OAuth for devices with no browser or no keyboard</li>
     </ul>
 
     <h3>Token and Token Management</h3>
