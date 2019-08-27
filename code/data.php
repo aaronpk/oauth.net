@@ -70,6 +70,7 @@ $languages['python'] = [
 $languages['php'] = [
   'name' => 'PHP',
   'client_libraries' => [
+    '<a href="https://github.com/socialconnect/auth">socialconnect/auth</a>: OAuth2/OpenID Connect components from <a href="https://socialconnect.lowl.io/">SocialConnect project</a>',
     '<a href="https://github.com/thephpleague/oauth2-client">league/oauth2-client</a>: OAuth 2.0 Client from <a href="https://thephpleague.com/">the League of Extraordinary Packages</a>',
     '<a href="http://www.phpclasses.org/package/7700-PHP-Authorize-and-access-APIs-using-OAuth.html">oauth-api</a> from <a href="http://www.phpclasses.org/">PHP Classes</a>',
     '<a href="https://git.tuxed.net/fkooman/php-oauth2-client">Very simple OAuth 2.0 client, PHP >= 5.4</a> (Composer: <code>fkooman/oauth2-client</code>)',
