@@ -68,7 +68,7 @@ require('./data.php');
     <span id="proxy-services-open-source"></span>
     <ul>
       <li><a href="https://github.com/oauth-io">OAuth.io</a></li>
-      <li><a href="https://github.com/ory/hydra">ORY Hydra</a></li>
+      <li><a href="https://www.ory.sh/hydra">ORY Hydra</a></li>
       <li><a href="https://github.com/ssqsignon">SSQ signon</a></li>
       <li><a href="https://github.com/babelouest/glewlwyd">Glewlwyd</a></li>
     </ul>
