@@ -15,12 +15,8 @@ require('./includes/_header.php');
     </div>
   </div>
 
-  <div class="column first last span-20" style="clear: both; text-align: center; margin: 20px auto; float: none;">
+  <div class="column first last span-20" style="clear: both; text-align: center; margin: 20px auto; float: none; max-width: 300px;">
     <div style="padding: 20px 0; display: flex; flex-direction: row;">
-      <div style="flex: 1 1; font-size: 16pt; line-height: 23pt;">
-        The OAuth 2.0 authorization framework enables third-party
-        applications to obtain limited access to a web service.
-      </div>
       <?php if(file_exists(__DIR__.'/.supporter.php')) { include(__DIR__.'/.supporter.php'); } ?>
     </div>
   </div>
@@ -39,7 +35,7 @@ require('./includes/_header.php');
         <li>JavaScript or browser-based apps</li>
       </ul>
       <p>
-        OAuth is a simple way to publish and interact with protected data. It's also a safer and more secure way for people to give you access. We've kept it simple to save you time.
+        OAuth is a way to get access to protected data from an application. It's safer and more secure than asking users to log in with passwords.
       </p>
     </div>
 
@@ -55,7 +51,7 @@ require('./includes/_header.php');
         <li>mashups</li>
       </ul>
       <p>
-        If you're storing protected data on your users' behalf, they shouldn't be spreading their passwords around the web to get access to it. Use OAuth to give your users access to their data while protecting their account credentials.
+        Use OAuth to let application developers securely get access to your users' data without sharing their passwords.
       </p>
     </div>
 
