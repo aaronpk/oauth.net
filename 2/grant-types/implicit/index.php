@@ -20,8 +20,9 @@ require('../../../includes/_header.php');
 
     <p><a href="https://tools.ietf.org/html/rfc6749#section-1.3.2" class="rfc">tools.ietf.org/html/rfc6749#section-1.3.2</a></p>
 
-    <p>The Implicit grant type is a simplified flow that can be used by public clients, where the access token is returned immediately without an extra authorization code exchange step.</p>
-    <p>It is generally not recommended to use the implicit flow (and some servers prohibit this flow entirely). In the time since the spec was originally written, the industry best practice has changed to recommend that public clients should use the <a href="/2/grant-types/authorization-code/">authorization code</a> flow with the <a href="/2/pkce/">PKCE</a> extension instead.</p>
+    <p>The Implicit flow was a simplified OAuth flow previously recommended for native apps and JavaScript apps where the access token was returned immediately without an extra authorization code exchange step.</p>
+    <p>It is not recommended to use the implicit flow (and some servers prohibit this flow entirely) due to the inherent risks of returning access tokens in an HTTP redirect without any confirmation that it has been received by the client.</p>
+    <p>Public clients such as native apps and JavaScript apps should now use the <a href="/2/grant-types/authorization-code/">authorization code</a> flow with the <a href="/2/pkce/">PKCE</a> extension instead.</p>
     <p>The <a href="https://tools.ietf.org/html/draft-ietf-oauth-security-topics">OAuth 2.0 Security Best Current Practice</a> document recommends against using the Implicit flow entirely, and <a href="https://tools.ietf.org/html/draft-ietf-oauth-browser-based-apps">OAuth 2.0 for Browser-Based Apps</a> describes the technique of using the authorization code flow with PKCE.</p>
 
     <iframe width="100%" height="440" src="https://www.youtube.com/embed/CHzERullHe8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
