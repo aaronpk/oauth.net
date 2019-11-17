@@ -85,6 +85,8 @@ require('../../includes/_header.php');
       </ul>
       <p class="small"><a href="https://datatracker.ietf.org/meeting/106/materials/agenda-106-oauth-01">official agenda</a></p>
 
+
+      <p><a href="https://www.ietf.org/how/meetings/106/remote/">Remote participation</a> is available and there is no registration fee for remote participants.</p>
     </div>
 
   </div>
