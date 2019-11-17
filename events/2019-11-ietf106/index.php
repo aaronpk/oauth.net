@@ -1,8 +1,8 @@
 <?php
-$page_title = "OAuth Security Workshop &mdash; OAuth";
-$page_section = "workshop";
+$page_title = "OAuth Sessions at IETF 106";
+$page_section = "";
 $page_secondary = "";
-$page_meta_description = "";
+$page_meta_description = "Agenda, sessions, and reading materials for the OAuth sessions at IETF 106";
 
 require('../../includes/_header.php');
 ?>
