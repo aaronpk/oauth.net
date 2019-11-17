@@ -30,7 +30,7 @@ require('../../includes/_header.php');
         <li>Proposals
           <ul>
             <li>OAuth XYZ - Justin (20 min)
-              <ul><li><a href="https://oauth.xyz">oauth.xyz</a></li></ul>
+              <ul><li><a href="https://tools.ietf.org/html/draft-richer-transactional-authz-03">transactional-authz-03</a></li></ul>
             </li>
             <li>RAR & PAR - Torsten (20 min)
               <ul>
