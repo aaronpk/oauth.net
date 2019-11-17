@@ -22,8 +22,8 @@ class EventTest extends PHPUnit\Framework\TestCase {
     // Check that start date looks like a date
     $this->assertRegexp('/\d{4}-\d{2}-\d{2}/', $event['start_date'], 'Filename: '.$f);
 
-    // Check that the URL is a URL
-    $this->assertRegexp('/https?:\/\/.+/', $event['url'], 'Filename: '.$f);
+    // Check that the event URL is an absolute or relative URL
+    $this->assertRegexp('/^(https?:\/\/.+|\/.+)/', $event['url'], 'Filename: '.$f);
 
   }
 
