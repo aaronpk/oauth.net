@@ -61,8 +61,13 @@ require('../../includes/_header.php');
         <li>DPoP – Brian (15 min)
           <ul><li><a href="https://tools.ietf.org/html/draft-fett-oauth-dpop-03">oauth-dpop-03</a></li></ul>
         </li>
+        <li><a class="small" href="https://datatracker.ietf.org/meeting/106/materials/agenda-106-oauth-01">official agenda</a></li>
       </ul>
-      <p class="small"><a href="https://datatracker.ietf.org/meeting/106/materials/agenda-106-oauth-01">official agenda</a></p>
+
+      <p>15:00 - 17:00 • Butterworth room</p>
+      <ul>
+        <li>Side Meeting - OAuth 2.1</li>
+      </ul>
 
       <h3 id="thursday">OAuth WG - Thursday</h3>
       <p>15:50 - 17:20 • Hullet room</p>
@@ -82,8 +87,13 @@ require('../../includes/_header.php');
         <li>Authorization Framework: Claims – Travis (20 min)
           <ul><li><a href="https://tools.ietf.org/html/draft-spencer-oauth-claims-00">oauth-claims-00</a></li></ul>
         </li>
+        <li><a class="small" href="https://datatracker.ietf.org/meeting/106/materials/agenda-106-oauth-01">official agenda</a></li>
       </ul>
-      <p class="small"><a href="https://datatracker.ietf.org/meeting/106/materials/agenda-106-oauth-01">official agenda</a></p>
+
+      <p>17:30 - 19:00 • Butterworth room</p>
+      <ul>
+        <li>Side Meeting - OAuth RAR Next Steps</li>
+      </ul>
 
 
       <p><a href="https://www.ietf.org/how/meetings/106/remote/">Remote participation</a> is available and there is no registration fee for remote participants.</p>
