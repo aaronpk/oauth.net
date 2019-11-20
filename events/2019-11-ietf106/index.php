@@ -52,8 +52,10 @@ require('../../includes/_header.php');
         <li>Security Topics – Torsten (15 min)
           <ul><li><a href="https://tools.ietf.org/html/draft-ietf-oauth-security-topics-13">oauth-security-topics-13</a></li></ul>
         </li>
-        <li>Browser-based Apps</a> – Aaron (30 min)
+        <li>Browser-based Apps</a> – Aaron (20 min)
           <ul><li><a href="https://tools.ietf.org/html/draft-ietf-oauth-browser-based-apps-04">oauth-browser-based-apps-04</a></li></ul>
+        </li>
+        <li>OAuth 2.1</a> – Aaron (10 min)
         </li>
         <li>TXAuth update – Dick/Justin (15 min)
           <ul><li><a href="https://oauth.xyz">oauth.xyz</a></li></ul>
