@@ -57,9 +57,6 @@ require('../../includes/_header.php');
         </li>
         <li>OAuth 2.1</a> – Aaron (10 min)
         </li>
-        <li>TXAuth update – Dick/Justin (15 min)
-          <ul><li><a href="https://oauth.xyz">oauth.xyz</a></li></ul>
-        </li>
         <li>DPoP – Brian (15 min)
           <ul><li><a href="https://tools.ietf.org/html/draft-fett-oauth-dpop-03">oauth-dpop-03</a></li></ul>
         </li>
@@ -74,6 +71,8 @@ require('../../includes/_header.php');
       <h3 id="thursday">OAuth WG - Thursday</h3>
       <p>15:50 - 17:20 • Hullet room</p>
       <ul>
+        <li>TXAuth BoF update – Dick/Justin (5 min)</li>
+        <li>OAuth 2.1 Side Meeting Summary – Aaron (5 min)</li>
         <li>DPoP - Brian (10 min)
           <ul><li><a href="https://tools.ietf.org/html/draft-fett-oauth-dpop-03">oauth-dpop-03</a></li></ul>
         </li>
