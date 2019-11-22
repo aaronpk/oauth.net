@@ -3,18 +3,18 @@
 $languages['java'] = [
   'name' => 'Java',
   'client_libraries' => [
-    '<a href="https://projects.spring.io/spring-social/">Spring Social</a>',
-    '<a href="https://projects.spring.io/spring-security-oauth/">Spring Security OAuth</a>',
+    '<a href="https://spring.io/projects/spring-social/">Spring Social</a>',
+    '<a href="https://spring.io/projects/spring-security/">Spring Security</a>',
     '<a href="http://www.restlet.org/">Restlet Framework (draft 30)</a>',
     '<a href="https://github.com/scribejava/scribejava">ScribeJava</a>',
     '<a href="https://github.com/dmfs/oauth2-essentials">oauth2-essentials</a>',
     '<a href="https://github.com/networknt/light-java/tree/master/client">Light Java Client</a>',
     '<a href="https://github.com/google/google-oauth-java-client">Google OAuth Java Client</a>',
     '<a href="https://www.pac4j.org/">Pac4j</a>',
+    '<a href="https://connect2id.com/products/nimbus-oauth-openid-connect-sdk">Nimbus</a>',
   ],
   'server_libraries' => [
     '<a href="https://github.com/mitreid-connect/OpenID-Connect-Java-Spring-Server">MitreID (with OpenID Connect)</a>',
-    '<a href="https://projects.spring.io/spring-security-oauth/">Spring Security OAuth</a>',
     '<a href="https://github.com/OpenConextApps/apis">Apis Authorization Server (v2-31)</a>',
     '<a href="http://www.restlet.org/">Restlet Framework (draft 30)</a>',
     '<a href="http://cxf.apache.org/">Apache CXF</a>',
@@ -22,6 +22,7 @@ $languages['java'] = [
     '<a href="https://github.com/networknt/light-oauth2">Light OAuth2 - The fastest, lightest and cloud native OAuth 2.0 microservices</a>',
     '<a href="https://www.pac4j.org/">Pac4j</a>',
     '<a href="https://www.keycloak.org/">Keycloak</a>',
+    '<a href="https://connect2id.com/products/nimbus-oauth-openid-connect-sdk">Nimbus</a>',
   ],
 ];
 
