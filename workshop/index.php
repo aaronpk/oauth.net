@@ -13,6 +13,9 @@ require('../includes/_header.php');
       <h2>OAuth Security Workshops</h2>
 
       <p>The OAuth Security Workshop (OSW) aim is to improve the security of OAuth and related Internet protocols by a direct exchange of views between academic researchers, IETF OAuth Working Group members and industry.</p>
+
+      <p><b>Next event:</b> <a href="https://osw2020.com/">OSW2020, Trondheim, Norway</a></p>
+
     </div>
     <div>
       <h3>Past Events</h3>
