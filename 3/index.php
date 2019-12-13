@@ -16,7 +16,7 @@ require('../includes/_header.php');
 
     <p>This specification and its extensions are being developed within the <a href="https://datatracker.ietf.org/wg/txauth/about/">IETF TXAuth Working Group</a>. Questions, suggestions and protocol changes should be discussed on the <a href="https://www.ietf.org/mailman/listinfo/txauth">TXAuth mailing list</a>.</p>
 
-    <p>Read the design details and exampels of OAuth 3 at <a href="https://oauth.xyz">oauth.xyz</a>.</p>
+    <p>Read the design details and examples of OAuth 3 at <a href="https://oauth.xyz">oauth.xyz</a>.</p>
 
     <p>This specification is very much in progress, and interested readers are encouraged to participate in its development by joining the IETF Working Group or attending <a href="/events/">OAuth events</a>.</p>
 
