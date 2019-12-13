@@ -20,6 +20,12 @@ require('../includes/_header.php');
 
     <p>This specification is very much in progress, and interested readers are encouraged to participate in its development by joining the IETF Working Group or attending <a href="/events/">OAuth events</a>.</p>
 
+    <p>More resources
+      <ul>
+      	<li><a href="https://medium.com/@justinsecurity/the-case-for-oauth-3-0-5c7537e3f9c3">The Case for OAuth 3.0</a> (Justin Richer)</li>
+      	<li><a href="https://medium.com/@justinsecurity/the-case-for-oauth-3-0-why-now-a15ffdc77fd5">The Case for OAuth 3.0: Why Now?</a> (Justin Richer)</li>
+      </ul>
+    </p>
 
   </div>
 </div>
