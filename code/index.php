@@ -71,7 +71,7 @@ require('./data.php');
       <li><a href="https://www.ory.sh/hydra">ORY Hydra</a></li>
       <li><a href="https://github.com/ssqsignon">SSQ signon</a></li>
       <li><a href="https://github.com/babelouest/glewlwyd">Glewlwyd</a></li>
-      <li><a href="https://simplelogin.io">SimpleLogin</a></li>
+      <li><a href="https://simplelogin.io/developer">SimpleLogin</a></li>
     </ul>
     
     <h4 id="services">Commercial</h4>
