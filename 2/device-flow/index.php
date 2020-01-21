@@ -16,7 +16,7 @@ require('../../includes/_header.php');
 
   <div>
 
-    <h2>RFC 8626: OAuth 2.0 Device Authorization Grant</h2>
+    <h2>RFC 8628: OAuth 2.0 Device Authorization Grant</h2>
 
     <p><a href="https://tools.ietf.org/html/rfc8628" class="rfc">tools.ietf.org/html/rfc8628</a></p>
     <p>The OAuth 2.0 Device Authorization Grant (formerly known as the Device Flow) is an OAuth 2.0 extension that enables devices with no browser or limited input capability to obtain an access token. This is commonly seen on Apple TV apps, or devices like hardware encoders that can stream video to a YouTube channel.</p>
