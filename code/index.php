@@ -71,6 +71,7 @@ require('./data.php');
       <li><a href="https://www.ory.sh/hydra">ORY Hydra</a></li>
       <li><a href="https://github.com/ssqsignon">SSQ signon</a></li>
       <li><a href="https://github.com/babelouest/glewlwyd">Glewlwyd</a></li>
+      <li><a href="https://simplelogin.io/developer">SimpleLogin</a></li>
     </ul>
     
     <h4 id="services">Commercial</h4>
@@ -79,8 +80,7 @@ require('./data.php');
       <li><a href="https://auth0.com">Auth0</a></li>
       <li><a href="https://curity.io">Curity Identity Server</a></li>
       <li><a href="https://fusionauth.io/">FusionAuth</a></li>
-      <li><a href="https://developer.okta.com">Okta</a></li>
-      <li><a href="https://simplelogin.io">SimpleLogin</a></li>
+      <li><a href="https://developer.okta.com">Okta</a></li>      
     </ul>
     
     <?php /*
