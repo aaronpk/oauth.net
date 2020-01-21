@@ -17,8 +17,10 @@ require('../includes/_header.php');
     <!-- <p>OAuth 2.1 consolidates OAuth 2.0 and many common extensions under a new name.</p> -->
     <p>Questions, suggestions and protocol changes should be discussed on the <a href="https://www.ietf.org/mailman/listinfo/oauth">mailing list</a>.</p>
 
-    <?php if(time() < strtotime('2019-06-13')): ?>
-    <iframe width="100%" height="440" src="https://www.youtube.com/embed/CHzERullHe8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <?php if(time() < strtotime('2020-02-20')): ?>
+    <div style="margin-top: 10px;">
+      <iframe width="100%" height="440" src="https://www.youtube.com/embed/KT8ybowdyr0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
     <?php endif ?>
 
 
