@@ -16,7 +16,7 @@ require('../../includes/_header.php');
 
     <h2>OAuth Scopes</h2>
 
-    <p><a href="https://tools.ietf.org/html/rfc6749#section-3.3" class="rfc">tools.ietf.org/html/rfc6479#section-3.3</a></p>
+    <p><a href="https://tools.ietf.org/html/rfc6749#section-3.3" class="rfc">tools.ietf.org/html/rfc6749#section-3.3</a></p>
 
     <p>Scope is a mechanism in OAuth 2.0 to limit an application's access to a user's account. An application can request one or more scopes, this information is then presented to the user in the consent screen, and the access token issued to the application will be limited to the scopes granted.</p>
 
