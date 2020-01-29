@@ -67,6 +67,7 @@ require('../includes/_header.php');
     <ul>
       <li><a href="/2/token-introspection/">Token Introspection</a> - RFC 7662, to determine the active state and meta-information of a token</li>
       <li><a href="/2/token-revocation/">Token Revocation</a> - RFC 7009, to signal that a previously obtained token is no longer needed</li>
+      <li><a href="/2/jwt-access-tokens/">JWT Profile for Access Tokens</a> - Draft</li>
       <li><a href="/2/jwt/">JSON Web Token</a> - RFC 7519</li>
     </ul>
 
