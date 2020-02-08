@@ -38,7 +38,7 @@ require('../includes/_header.php');
     <?php endif ?>
 
     <ul>
-      <li><a href="http://tools.ietf.org/html/rfc6749">OAuth 2.0 Framework</a> - RFC 6749
+      <li><a href="https://tools.ietf.org/html/rfc6749">OAuth 2.0 Framework</a> - RFC 6749
         <ul>
           <li><a href="/2/scope/">OAuth Scope</a></li>
         </ul>
@@ -49,6 +49,8 @@ require('../includes/_header.php');
           <li><a href="/2/grant-types/client-credentials/">Client Credentials</a></li>
           <li><a href="/2/grant-types/device-code/">Device Code</a></li>
           <li><a href="/2/grant-types/refresh-token/">Refresh Token</a></li>
+          <li>Legacy: <a href="/2/grant-types/implicit/">Implicit Flow</a></li>
+          <li>Legacy: <a href="/2/grant-types/password/">Password Grant</a></li>
         </ul>
       </li>
       <li><a href="/2/bearer-tokens/">Bearer Tokens</a> - RFC 6750</li>
@@ -56,36 +58,44 @@ require('../includes/_header.php');
       <li><a href="/2/oauth-best-practice/">OAuth Security Best Current Practice</a>
     </ul>
 
-    <h3>Mobile and Other Devices</h3>
+    <h4>Mobile and Other Devices</h4>
     <ul>
       <li><a href="/2/native-apps/">Native Apps</a> - Recommendations for using OAuth with native apps</li>
       <li><a href="/2/browser-based-apps/">Browser-Based Apps</a> - Recommendations for using OAuth with browser-based apps (e.g. an SPA)</li>
       <li><a href="/2/device-flow/">Device Authorization Grant</a> - OAuth for devices with no browser or no keyboard</li>
     </ul>
 
-    <h3>Token and Token Management</h3>
+    <h4>Token and Token Management</h4>
     <ul>
       <li><a href="/2/token-introspection/">Token Introspection</a> - RFC 7662, to determine the active state and meta-information of a token</li>
       <li><a href="/2/token-revocation/">Token Revocation</a> - RFC 7009, to signal that a previously obtained token is no longer needed</li>
-      <li><a href="/2/jwt-access-tokens/">JWT Profile for Access Tokens</a> - Draft</li>
       <li><a href="/2/jwt/">JSON Web Token</a> - RFC 7519</li>
     </ul>
 
-    <h3>Discovery and Registration</h3>
+    <h4>Discovery and Registration</h4>
     <ul>
       <li><a href="/2/authorization-server-metadata/">Authorization Server Metadata</a> - RFC 8414, for clients to discover OAuth endpoints and authorization server capabilities</li>
       <li><a href="/2/dynamic-client-registration/">Dynamic Client Registration</a> - RFC 7591, to programmatically register OAuth clients</li>
       <li><a href="/2/dynamic-client-management/">Dynamic Client Registration Management</a> - Experimental RFC 7592, for updating and managing dynamically registered OAuth clients</li>
     </ul>
 
+    <h3>Experimental and Draft Specs</h3>
+    <p>The specs below are either experimental or in draft status and are still active working group items. They will likely change before they are finalized as RFCs or BCPs.</p>
+    <ul>
+      <li><a href="/2/jwt-access-tokens/">JWT Profile for Access Tokens</a></li>
+      <li><a href="/2/rich-authorization-requests/">Rich Authorization Requests (RAR)</a></li>
+      <li><a href="/2/pushed-authorization-requests/">Pushed Authorization Requests (PAR)</a></li>
+      <li><a href="https://tools.ietf.org/html/draft-ietf-oauth-incremental-authz">Incremental Authorization</a></li>
+      <li><a href="https://tools.ietf.org/wg/oauth/">OAuth WG Status Pages</a></li>
+    </ul>
+
+
     <h3>Related Specs and Extensions</h3>
     <ul>
-      <li><a href="/2/rich-authorization-requests/">Rich Authorization Requests</a></li>
       <li><a href="http://tools.ietf.org/html/rfc7521">OAuth Assertions Framework</a> - RFC 7521</li>
       <li><a href="http://tools.ietf.org/html/rfc7522">SAML2 Bearer Assertion</a> - RFC 7522, for integrating with existing identity systems</li>
       <li><a href="http://tools.ietf.org/html/rfc7523">JWT Bearer Assertion</a> - RFC 7523, for integrating with existing identity systems</li>
       <li><a href="/webauthn/">WebAuthn - Web Authentication</a></li>
-      <li><a href="https://tools.ietf.org/wg/oauth/">OAuth WG Status Pages</a></li>
     </ul>
 
     <h3>Community Resources</h3>
@@ -125,8 +135,6 @@ require('../includes/_header.php');
     <h3>Legacy</h3>
 
     <ul>
-      <li><a href="/2/grant-types/implicit/">Implicit Flow</a></li>
-      <li><a href="/2/grant-types/password/">Password Grant</a></li>
       <li><a href="/1/">OAuth 1.0 and 1.0a</a></li>
     </ul>
 

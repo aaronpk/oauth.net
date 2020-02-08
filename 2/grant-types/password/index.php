@@ -20,14 +20,14 @@ require('../../../includes/_header.php');
 
     <p><a href="https://tools.ietf.org/html/rfc6749#section-1.3.3" class="rfc">tools.ietf.org/html/rfc6749#section-1.3.3</a></p>
 
-    <p>The Password grant type is a way to exchange a user's credentials for an access token.</p>
-    <p>Since this involves the client handling the user's password, it must not be used by third party clients. In this flow, the user's username and password are exchanged directly for an access token.</p>
-    <p>This flow provides no mechanism for things like multifactor authentication or delegated accounts, so is quite limiting in practice and is of limited use.</p>
+    <p>The Password grant type is a way to exchange a user's credentials for an access token. Because the client application has to collect the user's password and send it to the authorization server, it is not recommended that this grant be used at all anymore.</p>
+    <p>This flow provides no mechanism for things like multifactor authentication or delegated accounts, so is quite limiting in practice.</p>
+    <p>The latest <a href="https://tools.ietf.org/html/draft-ietf-oauth-security-topics-13#section-3.4">OAuth 2.0 Security Best Current Practice</a> disallows the password grant entirely.</p>
 
     <p>More resources
       <ul>
         <li><a href="https://developer.okta.com/blog/2018/06/29/what-is-the-oauth2-password-grant">What is the OAuth 2.0 Password Grant Type?</a> (developer.okta.com)</li>
-        <li><a href="https://www.oauth.com/oauth2-servers/access-tokens/password-grant/">Password Grant</a> (oauth.com)</li>
+        <li><a href="https://tools.ietf.org/html/draft-ietf-oauth-security-topics-13#section-3.4">Section 3.4 of OAuth 2.0 Security Best Current Practice</a></li>
         <li><a href="https://aaronparecki.com/oauth-2-simplified/#password">Password</a> (aaronparecki.com)</li>
       </ul>
     </p>

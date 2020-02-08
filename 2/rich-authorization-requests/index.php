@@ -19,7 +19,7 @@ require('../../includes/_header.php');
     <p><a href="https://tools.ietf.org/html/draft-lodderstedt-oauth-rar" class="rfc">tools.ietf.org/html/draft-lodderstedt-oauth-rar</a></p>
 
     <p>The <a href="https://tools.ietf.org/html/draft-lodderstedt-oauth-rar">Rich Authorization Requsts</a> extension provides a way for OAuth clients to request fine-grained permissions during an authorization request. For example, an app may specify a request such as "let me make a payment of 45 Euros" or "please give me read access to folder X and write access to folder Y".</p>
-    <p>This draft is still in progress, and is open to feedback from people who are interested in using it!
+    <p>This draft is still in progress, and is open to feedback from people who are interested in using it!</p>
 
     <p>More resources
       <ul>
