@@ -17,7 +17,7 @@ require('../includes/_header.php');
     <!-- <p>OAuth 2.1 consolidates OAuth 2.0 and many common extensions under a new name.</p> -->
     <p>Questions, suggestions and protocol changes should be discussed on the <a href="https://www.ietf.org/mailman/listinfo/oauth">mailing list</a>.</p>
 
-    <?php if(time() < strtotime('2020-02-20')): ?>
+    <?php if(time() < strtotime('2020-03-20')): ?>
     <div style="margin-top: 10px;">
       <iframe width="100%" height="440" src="https://www.youtube.com/embed/KT8ybowdyr0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
@@ -54,6 +54,7 @@ require('../includes/_header.php');
           <li>Legacy: <a href="/2/grant-types/password/">Password Grant</a></li>
         </ul>
       </li>
+      <li><a href="/2/client-types/">Client Types - Confidential and Public Applications</a></li>
       <li><a href="/2/bearer-tokens/">Bearer Tokens</a> - RFC 6750</li>
       <li><a href="/2/security-considerations/">Threat Model and Security Considerations</a> - RFC 6819</li>
       <li><a href="/2/oauth-best-practice/">OAuth Security Best Current Practice</a>
