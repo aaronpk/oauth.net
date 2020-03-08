@@ -131,6 +131,7 @@ require('../includes/_header.php');
     <h3>OAuth 2.1</h3>
 
     <ul>
+      <li><a href="/2.1/">OAuth 2.1</a> - An in-progress update to simplify OAuth 2.0</li>
       <li><a href="https://aaronparecki.com/2019/12/12/21/its-time-for-oauth-2-dot-1">It's Time for OAuth 2.1</a> (by Aaron Parecki)</li>
     </ul>
 
