@@ -35,6 +35,7 @@ require('../includes/_header.php');
     <p>More resources
       <ul>
         <li><a href="https://aaronparecki.com/2019/12/12/21/its-time-for-oauth-2-dot-1">It's Time for OAuth 2.1</a> (by Aaron Parecki)</li>
+        <li><a href="OAuth 2.1: How Many RFCs Does it Take to Change a Lightbulb?">OAuth 2.1: How Many RFCs Does it Take to Change a Lightbulb?</a> (by Lee McGovern)</li>
       </ul>
     </p>
 
