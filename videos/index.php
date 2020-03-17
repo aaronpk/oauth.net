@@ -28,6 +28,7 @@ require('../includes/_header.php');
         <li><a href="https://www.youtube.com/watch?v=996OiexHze0">OAuth 2.0 and OpenID Connect (in plain English)</a> by Nate Barbettini</li>
         <li><a href="https://www.youtube.com/watch?v=rZRwE3d-gm0">Using OAuth and OpenID Connect in Your Applications - Oktane 18</a> by Aaron Parecki and Padma Govindarajalu</li>
         <li><a href="https://www.youtube.com/watch?v=vjCF_O6aZIg">Vulnerabilities of mobile OAuth 2.0</a> by Nikita Stupin</li>
+        <li><a href="https://classpert.com/oauth">Free and paid OAuth courses from popular e-learning providers (Classpert)</a></li>
       </ul>
 
       <div style="clear:both;"></div>
