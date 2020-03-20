@@ -57,6 +57,8 @@ require('../includes/_header.php');
       <h3>Go</h3>
 
       <p><a href="https://godoc.org/github.com/gomodule/oauth1/oauth">Go-Oauth</a> is an OAuth 1 client package.</p>
+      
+      <p><a href="https://godoc.org/github.com/gomodule/oauth1/oauth">OAuth1</a> is an OAuth 1 client takes design cues from <a href="https://godoc.org/golang.org/x/oauth2">golang.org/x/oauth2</a>.</p>
 
       <h3>Java</h3>
 
