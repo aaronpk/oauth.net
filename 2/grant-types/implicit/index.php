@@ -39,6 +39,7 @@ require('../../../includes/_header.php');
         <li><a href="https://tools.ietf.org/html/draft-parecki-oauth-browser-based-apps">OAuth 2.0 for Browser-Based Apps</a> (ietf.org)</li>
         <li><a href="https://aaronparecki.com/oauth-2-simplified/#single-page-apps">Single-Page Apps</a> (aaronparecki.com)</li>
         <li><a href="https://www.oauth.com/playground/implicit.html">Implicit Grant on the OAuth 2.0 Playground</a></li>
+        <li><a href="https://chrome.google.com/webstore/detail/oauth-20-implicit-flow-de/joelnphbjjdfdifmhcpahcopabiafmbp">Implicit Flow Detector</a> browser extension for Chrome</li>
       </ul>
     </p>
 
