@@ -12,12 +12,14 @@ require('../includes/_header.php');
       <h2>Videos</h2>
 
       <div style="margin-bottom: 1em">
-        <iframe width="100%" height="420" src="https://www.youtube.com/embed/5cQNwifDq1U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="100%" height="420" src="https://www.youtube.com/embed/espX8qKjywI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
 
       <h3>More Videos</h3>
 
       <ul>
+        <li><a href="https://www.youtube.com/watch?v=aU9RsE4fcRM">How to Hack OAuth</a> - Aaron Parecki</li>
+        <li><a href="https://www.youtube.com/watch?v=espX8qKjywI">OAuth Phishing - OAuth in Five Minutes</a> - Aaron Parecki</li>
         <li><a href="https://www.youtube.com/watch?v=5cQNwifDq1U">Confidential vs Public Clients - OAuth in Five Minutes</a> - Aaron Parecki</li>
         <li><a href="https://www.youtube.com/watch?v=KT8ybowdyr0">What is OAuth and why does it matter? - OAuth in Five Minutes</a> - Aaron Parecki</li>
         <li><a href="https://www.youtube.com/watch?v=PfvSD6MmEmQ">Securing Your APIs with OAuth 2.0 - API Days</a> - Aaron Parecki</li>
