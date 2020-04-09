@@ -18,12 +18,13 @@ require('../includes/_header.php');
 
     <p>Read the design details and examples of OAuth 3 at <a href="https://oauth.xyz">oauth.xyz</a>.</p>
 
-    <p>This specification is very much in progress, and interested readers are encouraged to participate in its development by joining the IETF Working Group or attending <a href="/events/">OAuth events</a>.</p>
+    <p>This specification is very much in progress, and interested readers are encouraged to participate in its development by joining the IETF Working Group or attending <a href="https://events.oauth.net/">OAuth events</a>.</p>
 
     <p>More resources
       <ul>
       	<li><a href="https://medium.com/@justinsecurity/the-case-for-oauth-3-0-5c7537e3f9c3">The Case for OAuth 3.0</a> (Justin Richer)</li>
       	<li><a href="https://medium.com/@justinsecurity/the-case-for-oauth-3-0-why-now-a15ffdc77fd5">The Case for OAuth 3.0: Why Now?</a> (Justin Richer)</li>
+        <li><a href="https://www.youtube.com/watch?v=U9i7YaN8v9c">Transactional Authorization - Identiverse 2019</a> (Justin Richer)</li>
       </ul>
     </p>
 

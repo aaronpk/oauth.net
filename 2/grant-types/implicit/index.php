@@ -35,6 +35,7 @@ require('../../../includes/_header.php');
         <li><a href="https://www.pingidentity.com/content/ping/en/company/blog/posts/2018/securely-using-oidc-authorization-code-flow-public-client-single-page-apps.html">Securely Using the OIDC Authorization Code Flow and a Public Client with Single Page Applications</a> by Robert Broeckelmann (pingidentity.com)</li>
         <li><a href="https://medium.com/@torsten_lodderstedt/why-you-should-stop-using-the-oauth-implicit-grant-2436ced1c926">Why you should stop using the OAuth implicit grant</a> (Torsten Lodderstedt)</li>
         <li><a href="https://developer.okta.com/blog/2018/05/24/what-is-the-oauth2-implicit-grant-type">What is the OAuth 2.0 Implicit Grant Type?</a> (developer.okta.com)</li>
+        <li><a href="https://developer.yahoo.com/oauth2/guide/flows_implicitgrant/">Deprecated Implicit Flow</a> (developer.yahoo.com)</li>
         <li><a href="https://tools.ietf.org/html/draft-ietf-oauth-security-topics">OAuth 2.0 Security Best Current Practice</a> (ietf.org)</li>
         <li><a href="https://tools.ietf.org/html/draft-parecki-oauth-browser-based-apps">OAuth 2.0 for Browser-Based Apps</a> (ietf.org)</li>
         <li><a href="https://aaronparecki.com/oauth-2-simplified/#single-page-apps">Single-Page Apps</a> (aaronparecki.com)</li>
