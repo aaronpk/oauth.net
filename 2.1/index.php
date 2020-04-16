@@ -25,7 +25,7 @@ require('../includes/_header.php');
     <ul>
       <li>The authorization code grant is extended with the functionality from PKCE such that the only method of using the authorization code grant according to this specification requires the addition of the PKCE mechanism</li>
       <li>Redirect URIs must be compared using exact string matching</li>
-      <li>The Implicit grant (`response_type=token`) is omitted from this specification</li>
+      <li>The Implicit grant (<code>response_type=token</code>) is omitted from this specification</li>
       <li>The Resource Owner Password Credentials grant is omitted from this specification</li>
       <li>Bearer token usage omits the use of bearer tokens in the query string of URIs</li>
       <li>Refresh tokens must either be sender-constrained or one-time use</li>
