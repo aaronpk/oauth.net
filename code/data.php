@@ -272,4 +272,11 @@ $languages['elm'] = [
   ],
 ];
 
+$languages['c'] = [
+  'name' => 'C',
+  'client_libraries' => [
+    '<a href="https://github.com/babelouest/iddawc/releases/latest">Iddawc</a>',
+  ],
+];
+
 
