@@ -83,6 +83,7 @@ require('./data.php');
       <li><a href="https://fusionauth.io/">FusionAuth</a></li>
       <li><a href="https://developer.okta.com">Okta</a></li>
       <li><a href="https://access.redhat.com/products/red-hat-single-sign-on">Red Hat Single Sign-On</a></li>
+      <li><a href="https://www.cidaas.com">cidaas</a></li>
     </ul>
     
     <?php /*
