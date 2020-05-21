@@ -196,6 +196,7 @@ $languages['swift'] = [
   'client_libraries' => [
     '<a href="https://github.com/dongri/OAuthSwift">OAuthSwift</a>',
     '<a href="https://github.com/p2/OAuth2">p2 OAuth2</a>',
+    '<a href="https://github.com/trivago/Heimdallr.swift">Heimdallr</a>',
   ],
 ];
 
