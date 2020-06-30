@@ -87,6 +87,7 @@ require('../includes/_header.php');
       <li><a href="/2/jwt-access-tokens/">JWT Profile for Access Tokens</a></li>
       <li><a href="/2/rich-authorization-requests/">Rich Authorization Requests (RAR)</a></li>
       <li><a href="/2/pushed-authorization-requests/">Pushed Authorization Requests (PAR)</a></li>
+      <li><a href="/2/dpop/">Demonstration of Proof of Possession (DPoP)</a></li>
       <li><a href="https://tools.ietf.org/html/draft-ietf-oauth-incremental-authz">Incremental Authorization</a></li>
       <li><a href="https://tools.ietf.org/wg/oauth/">OAuth WG Status Pages</a></li>
     </ul>
@@ -117,10 +118,9 @@ require('../includes/_header.php');
 
     <h3>Protocols Built on OAuth 2.0</h3>
     <ul>
-      <li><a href="http://openid.net/connect/">OpenID Connect</a></li>
-      <li><a href="https://docs.kantarainitiative.org/uma/rec-uma-core.html">UMA 1.0</a></li>
-      <li><a href="https://docs.kantarainitiative.org/uma/wg/rec-oauth-uma-grant-2.0.html">UMA 2.0</a></li>
-      <li><a href="https://indieauth.spec.indieweb.org/">IndieAuth</a></li>
+      <li><a href="http://openid.net/connect/">OpenID Connect</a> (OpenID Foundation)</li>
+      <li><a href="https://docs.kantarainitiative.org/uma/wg/rec-oauth-uma-grant-2.0.html">UMA 2.0</a> (Kantara)</li>
+      <li><a href="https://indieauth.spec.indieweb.org/">IndieAuth</a> (W3C)</li>
     </ul>
 
     <h3>Code and Services</h3>
