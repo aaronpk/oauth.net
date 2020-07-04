@@ -23,7 +23,7 @@ require('../includes/_header.php');
     <p>The major differences from OAuth 2.0 are listed below.</p>
 
     <ul>
-      <li>PKCE is required for all OAuth clients</li>
+      <li>PKCE is required for all OAuth clients using the authorization code flow</li>
       <li>Redirect URIs must be compared using exact string matching</li>
       <li>The Implicit grant (<code>response_type=token</code>) is omitted from this specification</li>
       <li>The Resource Owner Password Credentials grant is omitted from this specification</li>
