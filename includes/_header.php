@@ -12,7 +12,7 @@ function e($t) { return htmlspecialchars($t); }
   <link href="/stylesheets/styles.css" rel="stylesheet" type="text/css" />
   <link href="/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" />
   <link rel="webmention" href="https://webmention.io/aaronpk/webmention" />
-  <link rel="pingback" href="https://webmention.io/aaronpk/xmlrpc" />
+  <link rel="pingback_disabled" href="https://webmention.io/aaronpk/xmlrpc" />
 </head>
 <body>
 
