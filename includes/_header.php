@@ -10,12 +10,15 @@ function e($t) { return htmlspecialchars($t); }
 	<title><?php echo !empty($page_title) ? $page_title : "OAuth &mdash; An open protocol to allow secure API authorization in a simple and standard method from web, mobile, and desktop applications." ?></title>
   <link href="/stylesheets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <link href="/stylesheets/styles.css" rel="stylesheet" type="text/css" />
-  <link href="/stylesheets/carbon.css" rel="stylesheet" type="text/css" />
   <link href="/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" />
   <link rel="webmention" href="https://webmention.io/aaronpk/webmention" />
   <link rel="pingback" href="https://webmention.io/aaronpk/xmlrpc" />
 </head>
 <body>
+
+<div id="ea">
+  <div class="ea-placement"><div class="ea-content"></div></div>
+</div>
 
 <?php if($_SERVER['SERVER_NAME'] == 'oauth.net'): ?>
 <script>

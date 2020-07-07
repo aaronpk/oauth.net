@@ -3,3 +3,4 @@ includes/.*.php
 .*.php
 *.cache
 vendor/
+thanks.php

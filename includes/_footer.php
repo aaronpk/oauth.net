@@ -15,8 +15,18 @@
 
 </footer>
 
+
 <script src="/stylesheets/jquery-3.2.1.slim.min.js"></script>
 <script src="/stylesheets/bootstrap/js/bootstrap.min.js"></script>
+
+<script>
+function ea(response) {
+  if(response.html) {
+    $("#ea").html(response.html);
+  }
+};
+</script>
+<script async src="/thanks.php"></script>
 
 </body>
 </html>
