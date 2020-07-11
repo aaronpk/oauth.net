@@ -21,6 +21,14 @@ require('../../includes/_header.php');
     <p>PKCE (<a href="http://tools.ietf.org/html/rfc7636">RFC 7636</a>) is an extension to the <a href="/2/grant-types/authorization-code/">Authorization Code flow</a> to prevent certain attacks and to be able to securely perform the OAuth exchange from public clients.</p>
     <p>It is primarily used by mobile and JavaScript apps, but the technique can be applied to any client as well.</p>
 
+    <p>Videos
+      <ul>
+        <li><a href="https://www.youtube.com/watch?v=g_aVPdwBTfw&t=500s">What's New With OAuth and OIDC? (8:22)</a></li>
+        <li><a href="https://www.youtube.com/watch?v=5cQNwifDq1U">What's the Difference between Confidential and Public Clients?</a></li>
+        <li><a href="https://www.youtube.com/watch?v=CHzERullHe8">What's Going On with the Implicit Flow?</a></li>
+      </ul>
+    </p>
+
     <p>More resources
       <ul>
         <li><a href="https://www.oauth.com/oauth2-servers/pkce/">PKCE</a> (oauth.com)</li>
