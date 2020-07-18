@@ -18,8 +18,8 @@ require('../../includes/_header.php');
 
     <p><a href="http://tools.ietf.org/html/rfc7636" class="rfc">tools.ietf.org/html/rfc7636</a></p>
 
-    <p>PKCE (<a href="http://tools.ietf.org/html/rfc7636">RFC 7636</a>) is an extension to the <a href="/2/grant-types/authorization-code/">Authorization Code flow</a> to prevent certain attacks and to be able to securely perform the OAuth exchange from public clients.</p>
-    <p>It is primarily used by mobile and JavaScript apps, but the technique can be applied to any client as well.</p>
+    <p>PKCE (<a href="http://tools.ietf.org/html/rfc7636">RFC 7636</a>) is an extension to the <a href="/2/grant-types/authorization-code/">Authorization Code flow</a> to prevent several attacks and to be able to securely perform the OAuth exchange from public clients.</p>
+    <p>It was originally designed to protect mobile apps, but its ability to prevent authorization code injection makes it useful for every OAuth client, even web apps that use a client secret.</p>
 
     <p>Videos
       <ul>
