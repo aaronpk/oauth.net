@@ -23,6 +23,7 @@ require('../../includes/_header.php');
     <p>More resources
       <ul>
         <li><a href="https://medium.com/@torsten_lodderstedt/why-you-should-stop-using-the-oauth-implicit-grant-2436ced1c926">Why you should stop using the OAuth implicit grant</a> (Torsten Lodderstedt)</li>
+        <li><a href="https://www.youtube.com/watch?v=g_aVPdwBTfw">What's New with OAuth and OpenID Connect</a> (Aaron Parecki, April 2020, video)</li>
       </ul>
     </p>
 
