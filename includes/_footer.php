@@ -4,7 +4,10 @@
   <div class="source">
     Follow <a href="https://twitter.com/oauth_2" class="twitter-follow-button">@oauth_2</a> on Twitter.
     Missing something?
-    <a href="https://github.com/aaronpk/oauth.net">Send a pull request</a>.
+    <?php
+      $editurl = 'https://github.com/aaronpk/oauth.net/blob/main' . $_SERVER['REQUEST_URI'] . 'index.php';
+    ?>
+    <a href="<?= $editurl ?>">Edit this page</a>.
   </div>
 
   <div class="container">
