@@ -36,7 +36,7 @@ require('../includes/_header.php');
       <ul>
         <li><a href="https://aaronparecki.com/2019/12/12/21/its-time-for-oauth-2-dot-1">It's Time for OAuth 2.1</a> (by Aaron Parecki)</li>
         <li><a href="https://fusionauth.io/blog/2020/04/15/whats-new-in-oauth-2-1">What's new in OAuth 2.1?</a> (Dan Moore, fusionauth.io)</li>
-        <li><a href="OAuth 2.1: How Many RFCs Does it Take to Change a Lightbulb?">OAuth 2.1: How Many RFCs Does it Take to Change a Lightbulb?</a> (by Lee McGovern)</li>
+        <li><a href="https://developer.okta.com/blog/2019/12/13/oauth-2-1-how-many-rfcs">OAuth 2.1: How Many RFCs Does it Take to Change a Lightbulb?</a> (by Lee McGovern)</li>
         <li><a href="https://www.youtube.com/watch?v=g_aVPdwBTfw">What's New with OAuth and OpenID Connect? - Oktane Live</a> (Aaron Parecki)</li>
       </ul>
     </p>
