@@ -51,7 +51,6 @@ $languages['python'] = [
     '<a href="https://github.com/TransparentHealth/hhs_oauth_server">HHS OAuth2 Server (Healthcare Focused)</a>',
     '<a href="https://github.com/NateFerrero/oauth2lib"> Python OAuth 2.0 Client + Server Library</a>',
     '<a href="https://github.com/evonove/django-oauth-toolkit">Django OAuth Toolkit (DOT)</a> is an OAuth2 Provider for Django built upon <a href="https://github.com/oauthlib/oauthlib">oauthlib</a>',
-    '<a href="https://github.com/lepture/flask-oauthlib">Flask-OAuthlib</a> is an OAuth2 Client/Provider for Flask built upon <a href="https://github.com/oauthlib/oauthlib">oauthlib</a>',
     '<a href="https://github.com/lepture/authlib">Authlib</a> has an OAuth2 and OpenID Connect Provider, generic and Flask.</a>',
     '<a href="https://github.com/thomsonreuters/bottle-oauthlib">Bottle-OAuthlib</a> is the simplest library to build OAuth2/OIDC Provider on top of Bottle and <a href="https://github.com/oauthlib/oauthlib">oauthlib</a>',
     '<a href="https://github.com/tiangolo/fastapi">FastAPI</a> is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints. It includes support for OAuth2, integrated with OpenAPI',
