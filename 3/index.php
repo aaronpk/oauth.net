@@ -25,7 +25,7 @@ require('../includes/_header.php');
       	<li><a href="https://medium.com/@justinsecurity/the-case-for-oauth-3-0-5c7537e3f9c3">The Case for OAuth 3.0</a> (Justin Richer)</li>
         <li><a href="https://medium.com/@justinsecurity/xyz-interaction-a84091d2a8c8">XYZ: Interaction</a> (Justin Richer)</li>
         <li><a href="https://medium.com/@justinsecurity/xyz-compatibility-with-oauth-2-f7b490be536d">XYZ: Compatibility with OAuth 2.0</a> (Justin Richer)</li>
-        <li><a hrerf="https://aaronparecki.com/2019/07/18/17/adding-identity-to-xyz">Adding Identity to XYZ</a> (Aaron Parecki)</li>
+        <li><a href="https://aaronparecki.com/2019/07/18/17/adding-identity-to-xyz">Adding Identity to XYZ</a> (Aaron Parecki)</li>
       	<li><a href="https://medium.com/@justinsecurity/the-case-for-oauth-3-0-why-now-a15ffdc77fd5">The Case for OAuth 3.0: Why Now?</a> (Justin Richer)</li>
         <li><a href="https://www.youtube.com/watch?v=U9i7YaN8v9c">Transactional Authorization - Identiverse 2019</a> (Justin Richer)</li>
       </ul>
