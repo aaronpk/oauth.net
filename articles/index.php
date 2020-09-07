@@ -165,6 +165,28 @@ require('../includes/_header.php');
         </div>
         <p class="e-summary">While OAuth is not an authentication protocol on its own, there are a number of high-profile authentication protocols built with OAuth 2.0. This article seeks to expose common pitfalls and demonstrate <a href="/articles/authentication">how to do end user authentication using OAuth 2.0</a> in a secure and reliable manner.</p>
       </div>
+	   
+      <div class="article card h-entry">
+        <h4 class="p-name"><a href="https://www.loginradius.com/engineering/blog/what-is-the-difference-between-oauth1-and-oauth2/" class="u-url">What is the difference between OAuth1 and OAuth2?</a></h4>
+        <div class="meta">
+          <a href="https://www.loginradius.com/engineering/blog/author/ti-zhang/" class="u-author h-card">Ti Zhang</a>
+        </div>
+        <div class="tags">
+          #OAuth
+        </div>
+        <p class="e-summary">What are the major difference between these OAuth 1.0 and OAuth 2.0 and the motivations to choose each one of them? This blog describes the major difference between the two protocols.</p>
+      </div>    
+	
+       <div class="article card h-entry">
+        <h4 class="p-name"><a href="https://www.loginradius.com/engineering/blog/oauth2/ class="u-url">Getting Started with OAuth 2.0</a></h4>
+        <div class="meta">
+          <a href="https://github.com/indrasen715" class="u-author h-card">Indrasen Kumar</a>
+        </div>
+        <div class="tags">
+          #OAuth
+        </div>
+        <p class="e-summary">Using this blog one can easily understand the basic concept of Oauth 2.0.</p>
+      </div>    	   	    
 
     </div>
   </div>
