@@ -89,7 +89,7 @@ $languages['nodejs'] = [
   'name' => 'Node.js',
   'client_libraries' => [
     '<a href="https://github.com/panva/node-openid-client">openid-client</a>. OpenID Certified™ Client implementation for Node.js',
-    '<a href="https://github.com/simov/grant">Grant</a>',
+    '<a href="https://github.com/simov/grant">Grant</a> 200+ OAuth providers for Express, Koa, Hapi, Fastify, AWS Lambda, Azure, Google Cloud, Vercel',
     '<a href="http://passportjs.org/">PassportJS</a>',
     '<a href="https://github.com/zalando/oauth2-client-js">OAuth2-client-js</a>',
   ],
