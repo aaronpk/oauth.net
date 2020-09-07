@@ -36,6 +36,7 @@ require('../../includes/_header.php');
         <li><a href="https://developers.google.com/identity/protocols/OAuth2InstalledApp">OAuth 2.0 for Mobile &amp; Desktop Apps</a> (developers.google.com)</li>
         <li><a href="https://www.oauth.com/playground/authorization-code-with-pkce.html">PKCE Example on the OAuth 2.0 Playground</a></li>
         <li><a href="https://developer.okta.com/blog/2018/12/13/oauth-2-for-native-and-mobile-apps">OAuth 2.0 for Native and Mobile Apps</a> (developer.okta.com by Micah Silverman)</li>
+         <li><a href="https://www.loginradius.com/engineering/blog/pkce/">All about PKCE in OAuth 2.0</a> (https://www.loginradius.com/engineering by Narendra Pareek)</li>
       </ul>
     </p>
 
