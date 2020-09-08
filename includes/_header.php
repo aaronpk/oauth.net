@@ -12,7 +12,6 @@ function e($t) { return htmlspecialchars($t); }
   <link href="/stylesheets/style.css" rel="stylesheet" type="text/css" />
   <link href="/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" />
   <link rel="webmention" href="https://webmention.io/aaronpk/webmention" />
-  <link rel="pingback_disabled" href="https://webmention.io/aaronpk/xmlrpc" />
 </head>
 <body>
 
@@ -30,18 +29,14 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-4617305-25', 'auto');
 ga('send', 'pageview');
 </script>
+<script src="https://emu.pin13.net/script.js" site="KKZQTOOD" defer></script>
 <script>
-var trackFooterClick = function(url) {
-   ga('send', 'event', 'footer', 'click', url, {
-     'transport': 'beacon',
-     'hitCallback': function(){document.location = url;}
-   });
-}
 var trackOutboundClick = function(url) {
    ga('send', 'event', 'outbound', 'click', url, {
      'transport': 'beacon',
      'hitCallback': function(){document.location = url;}
    });
+   window.fathom.trackGoal('EE3SWLAS', 0);
 }
 </script>
 <?php endif; ?>
