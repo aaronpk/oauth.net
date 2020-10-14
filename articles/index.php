@@ -186,8 +186,17 @@ require('../includes/_header.php');
           #OAuth
         </div>
         <p class="e-summary">Using this blog one can easily understand the basic concept of Oauth 2.0.</p>
-      </div>    	   	    
-
+      </div>    	
+      <div class="article card h-entry">
+        <h4 class="p-name"><a href="https://itnext.io/an-oauth-2-0-introduction-for-beginners-6e386b19f7a9" class="u-url">An OAuth 2.0 introduction for beginners</a></h4>
+        <div class="meta">
+          <a href="https://itnext.io/@spyna" class="u-author h-card">Lorenzo Spyna</a>
+        </div>
+        <div class="tags">
+          #oauth2 #beginners
+        </div>
+        <p class="e-summary">How OAuth 2.0 works and how to choose the right flow.</p>
+      </div>  
     </div>
   </div>
 
