@@ -61,7 +61,7 @@ require('./data.php');
 
     <br><br>
 
-    <h3 id="services">OAuth Services</h3>
+    <h3 id="services">OAuth Providers</h3>
     <span id="proxy-services"></span>
     
     <h4 id="open-source">Open Source</h4>
@@ -71,7 +71,6 @@ require('./data.php');
       <li><a href="https://www.keycloak.org">Keycloak</a></li>      
       <li><a href="https://github.com/oauth-io">OAuth.io</a></li>
       <li><a href="https://www.ory.sh/hydra">ORY Hydra</a></li>
-      <li><a href="https://github.com/enterprise-oss/osso">Osso</a></li>
       <li><a href="https://simplelogin.io/developer">SimpleLogin</a></li>
       <li><a href="https://github.com/ssqsignon">SSQ signon</a></li>
     </ul>
@@ -89,6 +88,12 @@ require('./data.php');
       <li><a href="https://www.forgerock.com">ForgeRock</a></li>
     </ul>
     
+    <h3 id="related">Related Projects and Services</h3>
+    <ul>
+      <li><a href="https://github.com/vouch/vouch-proxy">Vouch Proxy</a> - an nginx reverse proxy solution that adds OAuth/OpenID authentication</li>
+      <li><a href="https://github.com/enterprise-oss/osso">Osso</a> - SAML to OAuth bridge</li>
+    </ul>
+
     <?php /*
     <h3 id="services-that-support-oauth-2">Services that Support OAuth 2</h3>
     <ul>
