@@ -71,6 +71,7 @@ require('./data.php');
       <li><a href="https://www.keycloak.org">Keycloak</a></li>      
       <li><a href="https://github.com/oauth-io">OAuth.io</a></li>
       <li><a href="https://www.ory.sh/hydra">ORY Hydra</a></li>
+      <li><a href="https://github.com/enterprise-oss/osso">Osso</a></li>
       <li><a href="https://simplelogin.io/developer">SimpleLogin</a></li>
       <li><a href="https://github.com/ssqsignon">SSQ signon</a></li>
     </ul>
