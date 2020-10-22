@@ -18,7 +18,7 @@ require('../includes/_header.php');
 
     <p>The latest version of the in-progress specification can be found at <a href="https://tools.ietf.org/html/draft-ietf-gnap-core-protocol">tools.ietf.org/html/draft-ietf-gnap-core-protocol</a>.</p>
 
-    <p>Read the design details and examples that motivated the original design at <a href="https://oauth.xyz">oauth.xyz</a>.</p>
+    <p>Read the design details and examples that motivated the original design at <a href="https://oauth.xyz">oauth.xyz</a>. Early drafts of the spec were called TxAuth or Transactional Authorization.</p>
 
     <p>This specification is very much in progress, and interested readers are encouraged to participate in its development by joining the IETF Working Group or attending <a href="https://events.oauth.net/">OAuth events</a>.</p>
 
