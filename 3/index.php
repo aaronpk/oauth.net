@@ -16,7 +16,7 @@ require('../includes/_header.php');
 
     <p>If you're looking for OAuth 3, there is no such protocol with that name.</p>
 
-    <p>However, efforts to create a next-generation protocol based on years of knowledge and experience with OAuth 2 are being held at the <a href="https://datatracker.ietf.org/doc/charter-ietf-gnap/">GNAP working group</a> at the IETF. The new specification will encompass many more use cases than OAuth originally set out to solve. Questions, suggestions and protocol changes should be discussed on the <a href="https://www.ietf.org/mailman/listinfo/txauth">mailing list</a> or <a href="https://github.com/ietf-wg-gnap/core-protocol">GitHub</a>.</p>
+    <p>Efforts to create a next-generation protocol based on years of knowledge and experience with OAuth 2 are being held at the <a href="https://datatracker.ietf.org/doc/charter-ietf-gnap/">GNAP working group</a> at the IETF. When it reaches maturity and if there's IETF consensus to do so, the community may decide to adopt it as the next version of OAuth. The new specification will encompass many more use cases than OAuth originally set out to solve. Questions, suggestions and protocol changes should be discussed on the <a href="https://www.ietf.org/mailman/listinfo/txauth">mailing list</a> or <a href="https://github.com/ietf-wg-gnap/core-protocol">GitHub</a>.</p>
 
     <p>The latest version of the in-progress specification can be found at <a href="https://tools.ietf.org/html/draft-ietf-gnap-core-protocol">tools.ietf.org/html/draft-ietf-gnap-core-protocol</a>.</p>
 
