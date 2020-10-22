@@ -12,9 +12,11 @@ require('../includes/_header.php');
 
     <h2 id="oauth-3">OAuth 3</h2>
 
-    <p><img src="/images/oauth-3-logo.png" alt="OAuth logo" width="140" style="float:right; margin: 0 0 8px 8px;">OAuth 3 is the unofficial name of GNAP, a new spec developed at the <a href="https://datatracker.ietf.org/doc/charter-ietf-gnap/">GNAP working group</a> at the IETF.</p>
+    <img src="/images/oauth-3-logo.png" alt="OAuth logo" width="140" style="float:right; margin: 0 0 8px 8px;">
 
-    <p>The new specification will encompass many more use cases than OAuth originally set out to solve. Questions, suggestions and protocol changes should be discussed on the <a href="https://www.ietf.org/mailman/listinfo/txauth">mailing list</a> or <a href="https://github.com/ietf-wg-gnap/core-protocol">GitHub</a>.</p>
+    <p>if you're looking for OAuth 3, there is no such protocol with that name.</p>
+
+    <p>However, efforts to create a next-generation protocol based on years of knowledge and experience with OAuth 2 are being held at the <a href="https://datatracker.ietf.org/doc/charter-ietf-gnap/">GNAP working group</a> at the IETF. The new specification will encompass many more use cases than OAuth originally set out to solve. Questions, suggestions and protocol changes should be discussed on the <a href="https://www.ietf.org/mailman/listinfo/txauth">mailing list</a> or <a href="https://github.com/ietf-wg-gnap/core-protocol">GitHub</a>.</p>
 
     <p>The latest version of the in-progress specification can be found at <a href="https://tools.ietf.org/html/draft-ietf-gnap-core-protocol">tools.ietf.org/html/draft-ietf-gnap-core-protocol</a>.</p>
 
