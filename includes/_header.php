@@ -31,13 +31,16 @@ ga('send', 'pageview');
 </script>
 <script src="https://emu.pin13.net/script.js" site="KKZQTOOD" defer></script>
 <script>
-var trackOutboundClick = function(url) {
+var trackOutboundClick = function(url, code) {
    ga('send', 'event', 'outbound', 'click', url, {
      'transport': 'beacon',
      'hitCallback': function(){document.location = url;}
    });
-   window.fathom.trackGoal('EE3SWLAS', 0);
+   window.fathom.trackGoal(code, 0);
 }
+$(function(){
+  window.fathom.trackGoal($(".featured-banner").data("view-code"), 0);
+});
 </script>
 <?php endif; ?>
 
