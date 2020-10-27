@@ -28,6 +28,9 @@ function ea(response) {
     $("#ea").html(response.html);
   }
 };
+$(function(){
+  window.fathom.trackGoal($(".featured-banner").data("view-code"), 0);
+});
 </script>
 <script async src="/thanks.php"></script>
 

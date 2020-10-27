@@ -38,9 +38,6 @@ var trackOutboundClick = function(url, code) {
    });
    window.fathom.trackGoal(code, 0);
 }
-$(function(){
-  window.fathom.trackGoal($(".featured-banner").data("view-code"), 0);
-});
 </script>
 <?php endif; ?>
 
