@@ -14,7 +14,7 @@ require('../includes/_header.php');
 
     <img src="/images/oauth-3-logo.png" alt="OAuth logo" width="140" style="float:right; margin: 0 0 8px 8px;">
 
-    <p>OAuth 3 does not exist. However, there are two independent efforts to continue to evolve the foundation that OAuth 2.0 has laid.</p>
+    <p>OAuth 3 does not exist. However, there are two independent efforts to continue to evolve OAuth 2.0.</p>
 
     <ul>
       <li><b><a href="/2.1/">OAuth 2.1</a></b>, an officially adopted effort by the OAuth Working Group to consolidate and simplify the best practices of OAuth 2.0.</li>
