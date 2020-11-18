@@ -72,6 +72,8 @@ require('../includes/_header.php');
 
       <p><a href="https://github.com/kovacshuni/koauth">KOAauth</a> is a great library for both providers and consumers written by <a href="http://www.hunorkovacs.com">Hunor Kovács</a>. Originally it was intended for Scala but could be fully used in Java as well.</p>
 
+      <p><a href="https://github.com/omarathon/oauth1-hmac">oauth1-hmac</a> is a lightweight OAuth1.0 consumer library, using the HMAC signing strategy. It wraps <a href="https://developers.google.com/api-client-library/java/google-oauth-java-client">Google's OAuth Client Library for Java</a>, providing a simple API for a generic OAuth1.0 consumer. Written by <a href="https://www.linkedin.com/in/omartanner">Omar Tanner</a>.</p>
+      
       <h3>Javascript</h3>
 
       <p><a href="https://github.com/simov">Simeon Velichkov</a> has written a <a href="https://github.com/simov/grant">OAuth Proxy</a>. 200+ OAuth providers for Express, Koa, Hapi, Fastify, AWS Lambda, Azure, Google Cloud, Vercel <a href="https://www.npmjs.com/package/grant">npm package</a>.</p>
