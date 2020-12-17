@@ -29,7 +29,9 @@ function ea(response) {
   }
 };
 $(function(){
-  window.fathom.trackGoal($(".featured-banner").data("view-code"), 0);
+  if(window.fathom) {
+    window.fathom.trackGoal($(".featured-banner").data("view-code"), 0);
+  }
 });
 </script>
 <script async src="/thanks.php"></script>

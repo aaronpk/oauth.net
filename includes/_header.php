@@ -36,7 +36,9 @@ var trackOutboundClick = function(url, code) {
      'transport': 'beacon',
      'hitCallback': function(){document.location = url;}
    });
-   window.fathom.trackGoal(code, 0);
+   if(window.fathom) {
+     window.fathom.trackGoal(code, 0);
+   }
 }
 </script>
 <?php endif; ?>
