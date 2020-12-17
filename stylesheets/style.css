@@ -224,3 +224,37 @@ footer .source a {
 }
 
 
+
+.videos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 10px;
+}
+.videos .video {
+  padding: 6px;
+}
+.videos .video .title {
+  font-weight: bold;
+}
+.videos .video a {
+  color: #000;
+}
+.videos .video .date a {
+  color: rgb(96,96,96);
+}
+.videos .video img {
+  width: 100%;
+  max-width: 100%;
+}
+
+@media(max-width: 700px) {
+  .videos {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width: 500px) {
+  .videos {
+    grid-template-columns: 1fr;
+  }
+}

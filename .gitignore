@@ -4,3 +4,4 @@ includes/.*.php
 *.cache
 vendor/
 thanks.php
+config/config.php
