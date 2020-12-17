@@ -17,9 +17,11 @@ require('../includes/_header.php');
     <!-- <p>OAuth 2.1 consolidates OAuth 2.0 and many common extensions under a new name.</p> -->
     <p>Questions, suggestions and protocol changes should be discussed on the <a href="https://www.ietf.org/mailman/listinfo/oauth">mailing list</a>.</p>
 
-    <?php if(time() < strtotime('2020-05-15')): ?>
-    <div style="margin-top: 10px;">
-      <iframe width="100%" height="440" src="https://www.youtube.com/embed/g_aVPdwBTfw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <?php if(time() < strtotime('2021-01-31')): ?>
+    <div style="margin-top: 10px; margin-bottom: 20px; padding: 40px; border: 1px #ddd solid;">
+      <div style="">New Video Course!</div>
+      <div class="course-image"><a href="https://www.udemy.com/course/oauth-2-simplified/?referralCode=B04F59AED67B8DA74FA7"><img src="https://oauth2simplified.com/images/course-image-with-text.png" style="width: 100%"></a></div>
+      <div style="text-align: right;">by Aaron Parecki</div>
     </div>
     <?php endif ?>
 
@@ -99,6 +101,7 @@ require('../includes/_header.php');
       <li><a href="http://tools.ietf.org/html/rfc7522">SAML2 Bearer Assertion</a> - RFC 7522, for integrating with existing identity systems</li>
       <li><a href="http://tools.ietf.org/html/rfc7523">JWT Bearer Assertion</a> - RFC 7523, for integrating with existing identity systems</li>
       <li><a href="/webauthn/">WebAuthn - Web Authentication</a></li>
+      <li><a href="https://tools.ietf.org/html/draft-ietf-httpbis-message-signatures">Signing HTTP Messages</a> - A generic HTTP message signing spec</li>
     </ul>
 
     <h3>Community Resources</h3>

@@ -18,6 +18,7 @@ require('../includes/_header.php');
       <h3>More Videos</h3>
 
       <ul>
+        <li><a href="https://www.udemy.com/course/oauth-2-simplified/?referralCode=B04F59AED67B8DA74FA7">The Nuts and Bolts of OAuth</a> (Video Course) - Aaron Parecki</li>
         <li><a href="https://www.youtube.com/watch?v=aU9RsE4fcRM">How to Hack OAuth</a> - Aaron Parecki</li>
         <li><a href="https://www.youtube.com/watch?v=espX8qKjywI">OAuth Phishing - OAuth in Five Minutes</a> - Aaron Parecki</li>
         <li><a href="https://www.youtube.com/watch?v=5cQNwifDq1U">Confidential vs Public Clients - OAuth in Five Minutes</a> - Aaron Parecki</li>
