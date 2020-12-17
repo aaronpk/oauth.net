@@ -1,4 +1,5 @@
 <?php
+chdir(__DIR__);
 require(__DIR__.'/../config/config.php');
 
 $url = 'https://www.googleapis.com/youtube/v3/playlistItems?'.http_build_query([
