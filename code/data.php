@@ -131,7 +131,6 @@ $languages['go'] = [
   ],
   'server_libraries' => [
     '<a href="https://github.com/ory/fosite">Fosite</a>: Extensible security first OAuth 2.0 and OpenID Connect SDK for Go.',
-    '<a href="https://github.com/RangelReale/osin">osin</a>: Golang OAuth2 server library',
     '<a href="https://github.com/go-oauth2/oauth2">Golang OAuth 2 Server framework</a>',
     '<a href="https://github.com/zalando/gin-oauth2">gin-oauth2</a>: middleware for Gin Framework users who also want to use OAuth2',
   ],
