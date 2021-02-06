@@ -67,6 +67,7 @@ require('./data.php');
     <h4 id="open-source">Open Source</h4>
     <span id="proxy-services-open-source"></span>
     <ul>
+      <li><a href="https://github.com/curveball/a12n-server">a12n-server</a></li>
       <li><a href="https://github.com/babelouest/glewlwyd">Glewlwyd</a></li>
       <li><a href="https://www.keycloak.org">Keycloak</a></li>      
       <li><a href="https://github.com/oauth-io">OAuth.io</a></li>
