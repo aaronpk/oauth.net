@@ -89,7 +89,7 @@ require('../includes/_header.php');
       <li><a href="/2/pushed-authorization-requests/">Pushed Authorization Requests (PAR)</a></li>
       <li><a href="/2/dpop/">Demonstration of Proof of Possession (DPoP)</a></li>
       <li><a href="https://tools.ietf.org/html/draft-ietf-oauth-incremental-authz">Incremental Authorization</a></li>
-      <li><a href="https://tools.ietf.org/wg/oauth/">OAuth WG Status Pages</a></li>
+      <li><a href="https://datatracker.ietf.org/wg/oauth/documents/">OAuth Working Group Documents</a></li>
     </ul>
 
 
