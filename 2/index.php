@@ -19,7 +19,7 @@ require('../includes/_header.php');
 
     <div style="margin-top: 10px; margin-bottom: 20px; padding: 40px; border: 1px #ddd solid;">
       <div style="">New Video Course!</div>
-      <div class="course-image"><a href="https://www.udemy.com/course/oauth-2-simplified/?referralCode=B04F59AED67B8DA74FA7" onclick="trackOutboundClick('https://www.udemy.com/course/oauth-2-simplified/?referralCode=B04F59AED67B8DA74FA7', '7VBGSQN1'); return false;"><img src="https://oauth2simplified.com/images/nuts-and-bolts-of-oauth.png" style="width: 100%"></a></div>
+      <div class="course-image"><a href="https://www.udemy.com/course/oauth-2-simplified/?referralCode=B04F59AED67B8DA74FA7" onclick="trackOutboundClick('https://www.digiexprt.com/course/oauth-2-simplified/?referralCode=B04F59AED67B8DA74FA7', '7VBGSQN1'); return false;"><img src="https://oauth2simplified.com/images/nuts-and-bolts-of-oauth.png" style="width: 100%"></a></div>
       <div style="text-align: right;">by Aaron Parecki</div>
     </div>
 
