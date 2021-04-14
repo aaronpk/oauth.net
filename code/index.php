@@ -74,6 +74,7 @@ require('./data.php');
       <li><a href="https://www.ory.sh/hydra">ORY Hydra</a></li>
       <li><a href="https://simplelogin.io/developer">SimpleLogin</a></li>
       <li><a href="https://github.com/ssqsignon">SSQ signon</a></li>
+      <li><a href="https://github.com/caos/zitadel">ZITADEL</a></li>
     </ul>
     
     <h4 id="commercial">Commercial</h4>
@@ -87,6 +88,7 @@ require('./data.php');
       <li><a href="https://www.cidaas.com">cidaas</a></li>
       <li><a href="https://www.loginradius.com">LoginRadius</a></li>
       <li><a href="https://www.forgerock.com">ForgeRock</a></li>
+      <li><a href="https://zitadel.ch">ZITADEL Cloud</a></li>
     </ul>
     
     <h3 id="related">Related Projects and Services</h3>
