@@ -58,7 +58,7 @@ require('../includes/_header.php');
       </ul>
     <?php endif ?>
 
-    <p>If you would like to add a library, you can <a href="https://github.com/aaronpk/oauth.net/blob/master/code/data.php">edit this page</a>.</p>
+    <p>If you would like to add a library, you can <a href="https://github.com/aaronpk/oauth.net/blob/main/code/data.php">edit this page</a>.</p>
     
   </div>
 </div>
