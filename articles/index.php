@@ -15,6 +15,17 @@ require('../includes/_header.php');
 			<p>The OAuth community is dedicated to helping provide information on the proper use of the OAuth protocols through a series of articles on different topics.</p>
 
       <div class="article card h-entry">
+        <h4 class="p-name"><a href="https://www.ory.sh/run-oauth2-server-open-source-api-security/" class="u-url">Run Your Own Open Source OAuth2 and OpenID Connect Server!</a></h4>
+        <div class="meta">
+          <a href="http://github.com/aeneasr" class="u-author h-card">Aeneas Rekkas</a> ・ <time class="dt-published" datetime="2021-01-01">Jan 01, 2021</time>
+        </div>
+        <div class="tags">
+          #oauth2 #guide #server #oidc
+        </div>
+        <p class="e-summary">Set up a fully functional OAuth2 Server and OpenID Connect Provider using the open source <a href="https://github.com/ory/hydra">ORY Hydra</a> project in under 10 minutes.</p>
+      </div>
+
+      <div class="article card h-entry">
         <h4 class="p-name"><a href="https://habr.com/ru/company/mailru/blog/456702/" class="u-url">Security of mobile OAuth 2.0</a></h4>
         <div class="meta">
           <a href="https://twitter.com/_nikitastupin" class="u-author h-card">Nikita Stupin</a> ・ <time class="dt-published" datetime="2019-06-19">June 19, 2019</time>
