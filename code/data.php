@@ -118,6 +118,9 @@ $languages['ruby'] = [
 
 $languages['erlang'] = [
   'name' => 'Erlang',
+  'client_libraries' => [
+      '<a href="https://github.com/exograd/erl-oauth2c">Erlang OAuth2 client library</a>'
+  ],
   'server_libraries' => [
     '<a href="https://github.com/kivra/oauth2">Erlang OAuth 2 Server framework</a>',
   ],
