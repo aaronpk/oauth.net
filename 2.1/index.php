@@ -38,6 +38,7 @@ require('../includes/_header.php');
         <li><a href="https://fusionauth.io/blog/2020/04/15/whats-new-in-oauth-2-1">What's new in OAuth 2.1?</a> (Dan Moore, fusionauth.io)</li>
         <li><a href="https://developer.okta.com/blog/2019/12/13/oauth-2-1-how-many-rfcs">OAuth 2.1: How Many RFCs Does it Take to Change a Lightbulb?</a> (by Lee McGovern)</li>
         <li><a href="https://www.youtube.com/watch?v=g_aVPdwBTfw">What's New with OAuth and OpenID Connect? - Oktane Live</a> (Aaron Parecki)</li>
+        <li><a href="https://fusionauth.io/learn/expert-advice/oauth/differences-between-oauth-2-oauth-2-1/">Differences between OAuth 2 and OAuth 2.1</a> (by Dan Moore)</li>
       </ul>
     </p>
 

@@ -28,6 +28,7 @@ require('../includes/_header.php');
         <li><a href="https://medium.com/@justinsecurity/xyz-compatibility-with-oauth-2-f7b490be536d">XYZ: Compatibility with OAuth 2.0</a> (Justin Richer)</li>
         <li><a href="https://aaronparecki.com/2019/07/18/17/adding-identity-to-xyz">Adding Identity to XYZ</a> (Aaron Parecki)</li>
         <li><a href="https://www.youtube.com/watch?v=U9i7YaN8v9c">Transactional Authorization - Identiverse 2019</a> (Justin Richer)</li>
+        <li><a href="https://fusionauth.io/blog/2021/01/07/gnap-next-gen-oauth/">GNAP, the next generation of OAuth</a> (Dan Moore)</li>
       </ul>
     </p>
 
