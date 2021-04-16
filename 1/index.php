@@ -21,7 +21,7 @@ require('../includes/_header.php');
 
       <h2>OAuth 1 Libraries</h2>
 
-      <p>Below is a collection of OAuth 1 libraries. If you would like to make any changes to this page, you can <a href="https://github.com/aaronpk/oauth.net/blob/master/1/index.php">edit this page</a>.</p>
+      <p>Below is a collection of OAuth 1 libraries. If you would like to make any changes to this page, you can <a href="https://github.com/aaronpk/oauth.net/blob/main/1/index.php">edit this page</a>.</p>
 
 
       <h3>C</h3>
