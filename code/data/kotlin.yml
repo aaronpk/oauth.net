@@ -1,0 +1,6 @@
+---
+name: Kotlin
+server_libraries:
+- '<a href="https://github.com/adhesivee/kotlin-oauth2-server">Kotlin OAuth2 server</a>:
+  Flexible OAuth2 server library'
+...

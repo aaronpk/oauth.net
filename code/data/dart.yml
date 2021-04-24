@@ -1,0 +1,5 @@
+---
+name: Dart
+client_libraries:
+- <a href="https://pub.dartlang.org/packages/oauth2">Dart OAuth 2.0 Client</a>
+...

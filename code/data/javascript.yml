@@ -1,0 +1,7 @@
+---
+name: JavaScript
+client_libraries:
+- <a href="http://github.com/andreassolberg/jso">Javascript</a>
+- <a href="https://github.com/zalando/oauth2-client-js">OAuth2-client-js</a>
+- <a href="https://github.com/salte-io/salte-auth">Salte Auth</a>
+...

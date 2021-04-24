@@ -1,0 +1,6 @@
+---
+name: ColdFusion
+client_libraries:
+- <a href="https://github.com/coldfumonkeh/oauth2">OAuth2 - OAuth 2.0 Client Library
+  for ColdFusion. Contains simple components for specific resource servers.</a>
+...
