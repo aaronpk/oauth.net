@@ -3,6 +3,5 @@ php:
 - 7.4
 sudo: false
 before_script:
-- pecl install yaml
 - composer self-update
 - composer install --prefer-dist --no-interaction

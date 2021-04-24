@@ -1,6 +1,7 @@
 <?php
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Yaml\Yaml;
 
 class CodeTest extends PHPUnit\Framework\TestCase {
 
@@ -43,7 +44,7 @@ class CodeTest extends PHPUnit\Framework\TestCase {
 
     $files = glob(__DIR__.'/../code/data/*.yml');
     foreach($files as $f) {
-      yield basename($f) => [yaml_parse_file($f), $f];
+      yield basename($f) => [Yaml::parseFile($f), $f];
     }
 
   }

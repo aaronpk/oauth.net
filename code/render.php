@@ -1,5 +1,9 @@
 <?php
+require(__DIR__.'/../vendor/autoload.php');
 chdir(__DIR__);
+
+use Symfony\Component\Yaml\Yaml;
+
 
 $path = $_SERVER['REQUEST_URI'];
 if(!preg_match('~/code/([a-z]+)/~', $path, $match))
@@ -15,7 +19,7 @@ if(!file_exists($filename)) {
   die();
 }
 
-$data = yaml_parse_file($filename);
+$data = Yaml::parseFile($filename);
 $EDIT_THIS_PAGE_LINK = 'https://github.com/aaronpk/oauth.net/blob/main/code/' . $filename;
 
 $page_title = "OAuth Libraries for ".$data['name'];
