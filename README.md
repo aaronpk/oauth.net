@@ -10,7 +10,7 @@ The license that the oauth.net site uses places all content added on or after 20
 You can use the built-in PHP webserver to run a development copy of this website.
 
 ```
-php -S 127.0.0.1:8080
+php -S 127.0.0.1:8080 -t public
 ```
 
 ## Contributors Rights and Obligations

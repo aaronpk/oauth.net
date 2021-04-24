@@ -1,0 +1,122 @@
+[
+    {
+        "filename": "actionscript.yml",
+        "path": "actionscript",
+        "name": "ActionScript"
+    },
+    {
+        "filename": "c.yml",
+        "path": "c",
+        "name": "C"
+    },
+    {
+        "filename": "coldfusion.yml",
+        "path": "coldfusion",
+        "name": "ColdFusion"
+    },
+    {
+        "filename": "dart.yml",
+        "path": "dart",
+        "name": "Dart"
+    },
+    {
+        "filename": "dotnet.yml",
+        "path": "dotnet",
+        "name": ".NET"
+    },
+    {
+        "filename": "elixir.yml",
+        "path": "elixir",
+        "name": "Elixir"
+    },
+    {
+        "filename": "elm.yml",
+        "path": "elm",
+        "name": "Elm"
+    },
+    {
+        "filename": "erlang.yml",
+        "path": "erlang",
+        "name": "Erlang"
+    },
+    {
+        "filename": "go.yml",
+        "path": "go",
+        "name": "Go"
+    },
+    {
+        "filename": "java.yml",
+        "path": "java",
+        "name": "Java"
+    },
+    {
+        "filename": "javascript.yml",
+        "path": "javascript",
+        "name": "JavaScript"
+    },
+    {
+        "filename": "kotlin.yml",
+        "path": "kotlin",
+        "name": "Kotlin"
+    },
+    {
+        "filename": "lua.yml",
+        "path": "lua",
+        "name": "Lua"
+    },
+    {
+        "filename": "nodejs.yml",
+        "path": "nodejs",
+        "name": "Node.js"
+    },
+    {
+        "filename": "objc.yml",
+        "path": "objc",
+        "name": "Objective C"
+    },
+    {
+        "filename": "perl.yml",
+        "path": "perl",
+        "name": "Perl"
+    },
+    {
+        "filename": "php.yml",
+        "path": "php",
+        "name": "PHP"
+    },
+    {
+        "filename": "powershell.yml",
+        "path": "powershell",
+        "name": "PowerShell"
+    },
+    {
+        "filename": "python.yml",
+        "path": "python",
+        "name": "Python"
+    },
+    {
+        "filename": "qt.yml",
+        "path": "qt",
+        "name": "QT \/ C++"
+    },
+    {
+        "filename": "ruby.yml",
+        "path": "ruby",
+        "name": "Ruby"
+    },
+    {
+        "filename": "rust.yml",
+        "path": "rust",
+        "name": "Rust"
+    },
+    {
+        "filename": "scala.yml",
+        "path": "scala",
+        "name": "Scala"
+    },
+    {
+        "filename": "swift.yml",
+        "path": "swift",
+        "name": "Swift"
+    }
+]

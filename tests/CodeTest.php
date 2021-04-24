@@ -42,7 +42,7 @@ class CodeTest extends PHPUnit\Framework\TestCase {
   public function loadCodeYAML()
   {
 
-    $files = glob(__DIR__.'/../code/data/*.yml');
+    $files = glob(__DIR__.'/../data/code/*.yml');
     foreach($files as $f) {
       yield basename($f) => [Yaml::parseFile($f), $f];
     }
