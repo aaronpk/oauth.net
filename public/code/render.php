@@ -20,7 +20,7 @@ if(!file_exists($filename)) {
 }
 
 $data = Yaml::parseFile($filename);
-$EDIT_THIS_PAGE_LINK = 'https://github.com/aaronpk/oauth.net/blob/main/code/' . $filename;
+$EDIT_THIS_PAGE_LINK = 'https://github.com/aaronpk/oauth.net/blob/main/data/code/' . basename($filename);
 
 $page_title = "OAuth Libraries for ".$data['name'];
 $page_section = "";
