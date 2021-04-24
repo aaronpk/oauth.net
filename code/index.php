@@ -47,8 +47,10 @@ $languages = json_decode(file_get_contents(__DIR__.'/data/languages.json'), true
         padding: 0;
       }
       ul.languages li {
+        min-width: 110px;
         float: left;
         padding: 10px;
+        margin-bottom: 10px;
         display: flex;
         flex-direction: column;
         text-align: center;
