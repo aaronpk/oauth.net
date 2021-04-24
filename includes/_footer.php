@@ -5,7 +5,10 @@
     Follow <a href="https://twitter.com/oauth_2" class="twitter-follow-button">@oauth_2</a> on Twitter.
     Missing something?
     <?php
-      $editurl = 'https://github.com/aaronpk/oauth.net/blob/main' . $_SERVER['REQUEST_URI'] . 'index.php';
+      if(isset($EDIT_THIS_PAGE_LINK))
+        $editurl = $EDIT_THIS_PAGE_LINK;
+      else
+        $editurl = 'https://github.com/aaronpk/oauth.net/blob/main' . $_SERVER['REQUEST_URI'] . 'index.php';
     ?>
     <a href="<?= $editurl ?>">Edit this page</a>.
   </div>

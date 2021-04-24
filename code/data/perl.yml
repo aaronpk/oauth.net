@@ -1,0 +1,10 @@
+---
+name: Perl
+server_libraries:
+- <a href="https://github.com/Humanstate/net-oauth2-authorizationserver">Perl OAuth2
+  Authorization Server</a>
+- <a href="https://github.com/perl-catalyst/CatalystX-OAuth2">Perl OAuth2 Server on
+  Catalyst</a>
+- <a href="https://github.com/Humanstate/mojolicious-plugin-oauth2-server">Perl OAuth2
+  Server on Mojolicious</a>
+...

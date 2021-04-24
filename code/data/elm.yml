@@ -1,0 +1,5 @@
+---
+name: Elm
+client_libraries:
+- <a href="http://package.elm-lang.org/packages/truqu/elm-oauth2/latest">elm-oauth2.0</a>
+...

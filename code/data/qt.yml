@@ -1,0 +1,8 @@
+---
+name: QT / C++
+client_libraries:
+- <a href="https://github.com/pipacs/o2">O2 (supports OAuth 1.0a and 2.0)</a>
+- <a href="https://wiki.qt.io/New_Features_in_Qt_5.8">Qt Network Authentication (since
+  5.8, supports OAuth 1 and 2)</a>; Has format problems with <a href="https://appfluence.com/productivity/how-to-authenticate-qt-google-sso/">codes
+  by Google SSO</a>.
+...

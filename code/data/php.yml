@@ -1,0 +1,26 @@
+---
+name: PHP
+client_libraries:
+- '<a href="https://github.com/socialconnect/auth">socialconnect/auth</a>: OAuth2/OpenID
+  Connect components from <a href="https://socialconnect.lowl.io/">SocialConnect project</a>'
+- '<a href="https://github.com/thephpleague/oauth2-client">league/oauth2-client</a>:
+  OAuth 2.0 Client from <a href="https://thephpleague.com/">the League of Extraordinary
+  Packages</a>'
+- <a href="http://www.phpclasses.org/package/7700-PHP-Authorize-and-access-APIs-using-OAuth.html">oauth-api</a>
+  from <a href="http://www.phpclasses.org/">PHP Classes</a>
+- '<a href="https://git.tuxed.net/fkooman/php-oauth2-client">Very simple OAuth 2.0
+  client, PHP >= 5.4</a> (Composer: <code>fkooman/oauth2-client</code>)'
+- <a href="https://github.com/ivan-novakov/php-openid-connect-client">OAuth2/OpenID
+  Connect Client Library for PHP/Zend Framework 2</a>
+server_libraries:
+- <a href="https://github.com/bshaffer/oauth2-server-php">PHP OAuth2 Server</a> and
+  <a href="https://github.com/bshaffer/oauth2-demo-php">Demo</a>
+- <a href="https://github.com/thephpleague/oauth2-server">PHP OAuth 2.0 Auth and Resource
+  Server</a> and <a href="https://github.com/lncd/oauth2-example-auth-server">Demo</a>
+- <a href="https://github.com/authbucket/oauth2">PHP OAuth2.0</a> for <a href="http://silex.sensiolabs.org/">Silex</a>
+  and <a href="http://oauth2.authbucket.com/demo">Demo</a>
+- <a href="https://github.com/authbucket/oauth2-bundle">PHP OAuth2.0</a> for <a href="http://symfony.com/">Symfony</a>
+  and <a href="http://oauth2-bundle.authbucket.com/demo">Demo</a>
+- <a href="https://github.com/drahak/OAuth2">Nette OAuth2 provider</a> for <a href="https://nette.org">Nette
+  framework</a> and <a href="https://github.com/drahak/Restful">Nette REST API bundle</a>
+...

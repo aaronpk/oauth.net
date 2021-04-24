@@ -1,0 +1,12 @@
+---
+name: Elixir
+client_libraries:
+- <a href="https://github.com/scrogson/oauth2">An Elixir OAuth 2.0 Client Library</a>
+server_libraries:
+- '<a href="https://github.com/danschultzer/ex_oauth2_provider">Elixir OAuth2 Server</a>:
+  The no-brainer library to use for adding OAuth 2.0 provider capabilities to your
+  Elixir app.'
+- '<a href="https://gitlab.com/patatoid/boruta_auth">Boruta OAuth 2.0 provider</a>:
+  Core of an OAuth provider giving business logic of authorization in order to setup
+  an OAuth 2.0 server.'
+...

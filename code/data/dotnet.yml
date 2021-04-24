@@ -1,0 +1,15 @@
+---
+name: .NET
+client_libraries:
+- <a href="http://www.nuget.org/packages/Microsoft.Owin.Security.OAuth">OWIN Middleware</a>
+- <a href="http://www.dotnetopenauth.net/">DotNetOpenAuth</a>
+- <a href="http://samondotnet.blogspot.com.au/2012/12/introduction-to-dotnetauth.html">DotNetAuth</a>
+- <a href="http://www.springframework.net/social/">Spring Social for .NET</a>
+- <a href="https://github.com/xamarin/Xamarin.Auth">Xamarin.Auth</a>
+server_libraries:
+- <a href="http://www.dotnetopenauth.net/">.NET DotNetOpenAuth</a>
+- <a href="https://oauthserver.codeplex.com/">OAuthServer</a> a simple OAuth server
+  2.0 developed in C# to provide OAuth authentication for Active Directory Users.
+- <a href="https://github.com/IdentityServer/IdentityServer3">IdentityServer 3</a>
+- <a href="https://github.com/IdentityServer/IdentityServer4">IdentityServer 4</a>
+...

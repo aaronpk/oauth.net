@@ -1,0 +1,6 @@
+---
+name: PowerShell
+client_libraries:
+- <a href="https://github.com/GlobalSign/OAuth-2.0-client-examples/blob/master/PowerShell/Powershell-example.ps1">PowerShell
+  client</a>
+...

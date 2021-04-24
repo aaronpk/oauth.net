@@ -1,21 +1,22 @@
 <?php
 chdir(__DIR__);
-require('./data.php');
 
 $path = $_SERVER['REQUEST_URI'];
-if(!preg_match('~/code/([^/]+)/~', $path, $match))
+if(!preg_match('~/code/([a-z]+)/~', $path, $match))
   die();
 
 $lang = $match[1];
 
-if(!isset($languages[$lang])) {
+$filename = 'data/'.$lang.'.yml';
+
+if(!file_exists($filename)) {
   header('HTTP/1.1 404 Not Found');
   echo 'Not Found';
   die();
 }
 
-$data = $languages[$lang];
-
+$data = yaml_parse_file($filename);
+$EDIT_THIS_PAGE_LINK = 'https://github.com/aaronpk/oauth.net/blob/main/code/' . $filename;
 
 $page_title = "OAuth Libraries for ".$data['name'];
 $page_section = "";
@@ -58,8 +59,8 @@ require('../includes/_header.php');
       </ul>
     <?php endif ?>
 
-    <p>If you would like to add a library, you can <a href="https://github.com/aaronpk/oauth.net/blob/main/code/data.php">edit this page</a>.</p>
-    
+    <p>If you would like to add a library, you can <a href="<?= $EDIT_THIS_PAGE_LINK ?>">edit this page</a>.</p>
+
   </div>
 </div>
 
