@@ -3,5 +3,5 @@ includes/.*.php
 .*.php
 *.cache
 vendor/
-thanks.php
 config/config.php
+data/sponsors/home.php

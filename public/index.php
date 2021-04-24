@@ -21,7 +21,7 @@ require('../includes/_header.php');
 
   <div class="column first last span-20" style="clear: both; text-align: center; margin: 20px auto; float: none; max-width: 300px;">
     <div style="padding: 20px 0; display: flex; flex-direction: row;">
-      <?php if(file_exists(__DIR__.'/.supporter.php')) { include(__DIR__.'/.supporter.php'); } ?>
+      <?php if(file_exists(__DIR__.'/../data/sponsors/home.php')) { include(__DIR__.'/../data/sponsors/home.php'); } ?>
     </div>
   </div>
 
