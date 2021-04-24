@@ -1,0 +1,15 @@
+{
+    "name": "draft-ietf-oauth-discovery",
+    "title": "OAuth 2.0 Authorization Server Metadata",
+    "last_revised_date": "2018-03-04",
+    "status": "RFC 8414 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Eric Rescorla",
+    "last_changed_date": "2018-06-29",
+    "rfc": "8414",
+    "authors": [
+        "M. Jones",
+        "N. Sakimura",
+        "J. Bradley"
+    ]
+}

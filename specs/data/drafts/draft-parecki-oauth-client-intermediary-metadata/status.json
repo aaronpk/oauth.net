@@ -1,0 +1,13 @@
+{
+    "name": "draft-parecki-oauth-client-intermediary-metadata",
+    "title": "OAuth 2.0 Client Intermediary Metadata",
+    "last_revised_date": "2021-02-22",
+    "status": "I-D Exists",
+    "group": "none",
+    "ad": "",
+    "last_changed_date": "2021-02-22",
+    "version": "03",
+    "authors": [
+        "A. Parecki"
+    ]
+}

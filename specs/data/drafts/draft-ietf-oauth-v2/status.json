@@ -1,0 +1,13 @@
+{
+    "name": "draft-ietf-oauth-v2",
+    "title": "The OAuth 2.0 Authorization Framework",
+    "last_revised_date": "2012-08-01",
+    "status": "RFC 6749 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Stephen Farrell",
+    "last_changed_date": "2020-04-16",
+    "rfc": "6749",
+    "authors": [
+        "D. Hardt"
+    ]
+}

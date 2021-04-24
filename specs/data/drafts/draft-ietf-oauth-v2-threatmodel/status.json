@@ -1,0 +1,15 @@
+{
+    "name": "draft-ietf-oauth-v2-threatmodel",
+    "title": "OAuth 2.0 Threat Model and Security Considerations",
+    "last_revised_date": "2012-10-06",
+    "status": "RFC 6819 (Informational)",
+    "group": "oauth",
+    "ad": "Stephen Farrell",
+    "last_changed_date": "2020-01-31",
+    "rfc": "6819",
+    "authors": [
+        "T. Lodderstedt",
+        "M. McGloin",
+        "P. Hunt"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "draft-ietf-oauth-revocation",
+    "title": "OAuth 2.0 Token Revocation",
+    "last_revised_date": "2013-07-13",
+    "status": "RFC 7009 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Stephen Farrell",
+    "last_changed_date": "2015-10-14",
+    "rfc": "7009",
+    "authors": [
+        "T. Lodderstedt",
+        "S. Dronia",
+        "M. Scurtescu"
+    ]
+}

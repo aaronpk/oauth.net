@@ -1,0 +1,14 @@
+{
+    "name": "draft-ietf-oauth-urn-sub-ns",
+    "title": "An IETF URN Sub-Namespace for OAuth",
+    "last_revised_date": "2012-07-16",
+    "status": "RFC 6755 (Informational)",
+    "group": "oauth",
+    "ad": "Stephen Farrell",
+    "last_changed_date": "2015-10-14",
+    "rfc": "6755",
+    "authors": [
+        "B. Campbell",
+        "H. Tschofenig"
+    ]
+}

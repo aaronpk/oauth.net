@@ -1,0 +1,14 @@
+{
+    "name": "draft-ietf-oauth-iss-auth-resp",
+    "title": "OAuth 2.0 Authorization Server Issuer Identifier in Authorization Response",
+    "last_revised_date": "2021-01-06",
+    "status": "I-D Exists",
+    "group": "oauth",
+    "ad": "",
+    "last_changed_date": "2021-01-06",
+    "version": "00",
+    "authors": [
+        "K. Meyer zu Selhausen",
+        "D. Fett"
+    ]
+}

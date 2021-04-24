@@ -1,0 +1,15 @@
+{
+    "name": "draft-ietf-oauth-amr-values",
+    "title": "Authentication Method Reference Values",
+    "last_revised_date": "2017-03-13",
+    "status": "RFC 8176 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Kathleen Moriarty",
+    "last_changed_date": "2017-06-19",
+    "rfc": "8176",
+    "authors": [
+        "M. Jones",
+        "P. Hunt",
+        "A. Nadalin"
+    ]
+}

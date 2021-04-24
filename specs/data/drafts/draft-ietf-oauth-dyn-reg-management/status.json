@@ -1,0 +1,16 @@
+{
+    "name": "draft-ietf-oauth-dyn-reg-management",
+    "title": "OAuth 2.0 Dynamic Client Registration Management Protocol",
+    "last_revised_date": "2015-05-05",
+    "status": "RFC 7592 (Experimental)",
+    "group": "oauth",
+    "ad": "Kathleen Moriarty",
+    "last_changed_date": "2015-10-14",
+    "rfc": "7592",
+    "authors": [
+        "J. Richer",
+        "M. Jones",
+        "J. Bradley",
+        "M. Machulak"
+    ]
+}

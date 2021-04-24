@@ -1,0 +1,17 @@
+{
+    "name": "draft-ietf-oauth-token-exchange",
+    "title": "OAuth 2.0 Token Exchange",
+    "last_revised_date": "2019-07-21",
+    "status": "RFC 8693 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Roman Danyliw",
+    "last_changed_date": "2020-01-15",
+    "rfc": "8693",
+    "authors": [
+        "M. Jones",
+        "A. Nadalin",
+        "B. Campbell",
+        "J. Bradley",
+        "C. Mortimore"
+    ]
+}

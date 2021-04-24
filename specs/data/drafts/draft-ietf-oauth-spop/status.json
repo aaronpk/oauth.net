@@ -1,0 +1,15 @@
+{
+    "name": "draft-ietf-oauth-spop",
+    "title": "Proof Key for Code Exchange by OAuth Public Clients",
+    "last_revised_date": "2015-07-10",
+    "status": "RFC 7636 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Kathleen Moriarty",
+    "last_changed_date": "2020-01-21",
+    "rfc": "7636",
+    "authors": [
+        "N. Sakimura",
+        "J. Bradley",
+        "N. Agarwal"
+    ]
+}

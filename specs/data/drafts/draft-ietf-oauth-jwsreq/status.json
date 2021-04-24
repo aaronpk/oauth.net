@@ -1,0 +1,15 @@
+{
+    "name": "draft-ietf-oauth-jwsreq",
+    "title": "The OAuth 2.0 Authorization Framework: JWT Secured Authorization Request (JAR)",
+    "last_revised_date": "2021-04-08",
+    "status": "RFC Ed Queue",
+    "group": "oauth",
+    "ad": "Roman Danyliw",
+    "last_changed_date": "2021-04-21",
+    "version": "34",
+    "authors": [
+        "N. Sakimura",
+        "J. Bradley",
+        "M.B. Jones"
+    ]
+}

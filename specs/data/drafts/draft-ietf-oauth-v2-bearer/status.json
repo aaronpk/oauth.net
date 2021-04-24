@@ -1,0 +1,14 @@
+{
+    "name": "draft-ietf-oauth-v2-bearer",
+    "title": "The OAuth 2.0 Authorization Framework: Bearer Token Usage",
+    "last_revised_date": "2012-08-01",
+    "status": "RFC 6750 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Stephen Farrell",
+    "last_changed_date": "2020-04-16",
+    "rfc": "6750",
+    "authors": [
+        "M. Jones",
+        "D. Hardt"
+    ]
+}

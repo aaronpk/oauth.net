@@ -1,0 +1,15 @@
+{
+    "name": "draft-ietf-oauth-jwt-bearer",
+    "title": "JSON Web Token (JWT) Profile for OAuth 2.0 Client Authentication and Authorization Grants",
+    "last_revised_date": "2014-11-12",
+    "status": "RFC 7523 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Kathleen Moriarty",
+    "last_changed_date": "2015-10-14",
+    "rfc": "7523",
+    "authors": [
+        "M. Jones",
+        "B. Campbell",
+        "C. Mortimore"
+    ]
+}

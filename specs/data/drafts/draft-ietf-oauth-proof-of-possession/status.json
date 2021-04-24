@@ -1,0 +1,15 @@
+{
+    "name": "draft-ietf-oauth-proof-of-possession",
+    "title": "Proof-of-Possession Key Semantics for JSON Web Tokens (JWTs)",
+    "last_revised_date": "2015-12-18",
+    "status": "RFC 7800 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Kathleen Moriarty",
+    "last_changed_date": "2020-05-31",
+    "rfc": "7800",
+    "authors": [
+        "M. Jones",
+        "J. Bradley",
+        "H. Tschofenig"
+    ]
+}

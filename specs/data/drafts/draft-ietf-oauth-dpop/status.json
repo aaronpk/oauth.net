@@ -1,0 +1,18 @@
+{
+    "name": "draft-ietf-oauth-dpop",
+    "title": "OAuth 2.0 Demonstrating Proof-of-Possession at the Application Layer (DPoP)",
+    "last_revised_date": "2021-04-07",
+    "status": "I-D Exists",
+    "group": "oauth",
+    "ad": "",
+    "last_changed_date": "2021-04-07",
+    "version": "03",
+    "authors": [
+        "D. Fett",
+        "B. Campbell",
+        "J. Bradley",
+        "T. Lodderstedt",
+        "M. Jones",
+        "D. Waite"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "draft-ietf-oauth-jwt-introspection-response",
+    "title": "JWT Response for OAuth Token Introspection",
+    "last_revised_date": "2020-10-18",
+    "status": "IESG Evaluation::Revised I-D Needed",
+    "group": "oauth",
+    "ad": "Roman Danyliw",
+    "last_changed_date": "2021-02-04",
+    "version": "10",
+    "authors": [
+        "T. Lodderstedt",
+        "V. Dzhuvinov"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "draft-ietf-oauth-rar",
+    "title": "OAuth 2.0 Rich Authorization Requests",
+    "last_revised_date": "2021-02-07",
+    "status": "I-D Exists",
+    "group": "oauth",
+    "ad": "",
+    "last_changed_date": "2021-02-07",
+    "version": "04",
+    "authors": [
+        "T. Lodderstedt",
+        "J. Richer",
+        "B. Campbell"
+    ]
+}

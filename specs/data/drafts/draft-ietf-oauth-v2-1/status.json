@@ -1,0 +1,15 @@
+{
+    "name": "draft-ietf-oauth-v2-1",
+    "title": "The OAuth 2.1 Authorization Framework",
+    "last_revised_date": "2021-03-15",
+    "status": "I-D Exists",
+    "group": "oauth",
+    "ad": "",
+    "last_changed_date": "2021-03-15",
+    "version": "02",
+    "authors": [
+        "D. Hardt",
+        "A. Parecki",
+        "T. Lodderstedt"
+    ]
+}

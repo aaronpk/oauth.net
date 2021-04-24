@@ -1,0 +1,14 @@
+{
+    "name": "draft-ietf-oauth-native-apps",
+    "title": "OAuth 2.0 for Native Apps",
+    "last_revised_date": "2017-06-09",
+    "status": "RFC 8252 (Best Current Practice)",
+    "group": "oauth",
+    "ad": "Kathleen Moriarty",
+    "last_changed_date": "2020-07-29",
+    "rfc": "8252",
+    "authors": [
+        "W. Denniss",
+        "J. Bradley"
+    ]
+}

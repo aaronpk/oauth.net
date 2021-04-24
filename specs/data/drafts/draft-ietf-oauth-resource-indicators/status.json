@@ -1,0 +1,15 @@
+{
+    "name": "draft-ietf-oauth-resource-indicators",
+    "title": "Resource Indicators for OAuth 2.0",
+    "last_revised_date": "2019-09-11",
+    "status": "RFC 8707 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Roman Danyliw",
+    "last_changed_date": "2020-03-09",
+    "rfc": "8707",
+    "authors": [
+        "B. Campbell",
+        "J. Bradley",
+        "H. Tschofenig"
+    ]
+}

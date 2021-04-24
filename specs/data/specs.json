@@ -1,0 +1,41 @@
+{
+    "rfcs": [
+        "draft-ietf-oauth-jwt-bcp",
+        "draft-ietf-oauth-resource-indicators",
+        "draft-ietf-oauth-mtls",
+        "draft-ietf-oauth-token-exchange",
+        "draft-ietf-oauth-device-flow",
+        "draft-ietf-oauth-discovery",
+        "draft-ietf-oauth-native-apps",
+        "draft-ietf-oauth-amr-values",
+        "draft-ietf-oauth-proof-of-possession",
+        "draft-ietf-oauth-introspection",
+        "draft-ietf-oauth-spop",
+        "draft-ietf-oauth-dyn-reg-management",
+        "draft-ietf-oauth-dyn-reg",
+        "draft-ietf-oauth-jwt-bearer",
+        "draft-ietf-oauth-saml2-bearer",
+        "draft-ietf-oauth-assertions",
+        "draft-ietf-oauth-json-web-token",
+        "draft-ietf-oauth-revocation",
+        "draft-ietf-oauth-v2-threatmodel",
+        "draft-ietf-oauth-urn-sub-ns",
+        "draft-ietf-oauth-v2-bearer",
+        "draft-ietf-oauth-v2"
+    ],
+    "drafts": [
+        "draft-ietf-oauth-security-topics",
+        "draft-ietf-oauth-par",
+        "draft-ietf-oauth-jwsreq",
+        "draft-ietf-oauth-dpop",
+        "draft-ietf-oauth-access-token-jwt",
+        "draft-ietf-oauth-v2-1",
+        "draft-ietf-oauth-rar",
+        "draft-ietf-oauth-iss-auth-resp",
+        "draft-ietf-oauth-jwt-introspection-response"
+    ],
+    "individuals": [
+        "draft-yusef-oauth-nested-jwt",
+        "draft-parecki-oauth-client-intermediary-metadata"
+    ]
+}

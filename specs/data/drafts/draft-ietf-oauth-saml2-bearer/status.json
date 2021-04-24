@@ -1,0 +1,15 @@
+{
+    "name": "draft-ietf-oauth-saml2-bearer",
+    "title": "Security Assertion Markup Language (SAML) 2.0 Profile for OAuth 2.0 Client Authentication and Authorization Grants",
+    "last_revised_date": "2014-11-12",
+    "status": "RFC 7522 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Kathleen Moriarty",
+    "last_changed_date": "2015-10-14",
+    "rfc": "7522",
+    "authors": [
+        "B. Campbell",
+        "C. Mortimore",
+        "M. Jones"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "draft-ietf-oauth-device-flow",
+    "title": "OAuth 2.0 Device Authorization Grant",
+    "last_revised_date": "2019-03-11",
+    "status": "RFC 8628 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Roman Danyliw",
+    "last_changed_date": "2019-08-20",
+    "rfc": "8628",
+    "authors": [
+        "W. Denniss",
+        "J. Bradley",
+        "M. Jones",
+        "H. Tschofenig"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "draft-ietf-oauth-access-token-jwt",
+    "title": "JSON Web Token (JWT) Profile for OAuth 2.0 Access Tokens",
+    "last_revised_date": "2021-03-17",
+    "status": "Approved-announcement to be sent::Revised I-D Needed",
+    "group": "oauth",
+    "ad": "Roman Danyliw",
+    "last_changed_date": "2021-04-08",
+    "version": "12",
+    "authors": [
+        "V. Bertocci"
+    ]
+}

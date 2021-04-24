@@ -1,0 +1,16 @@
+{
+    "name": "draft-ietf-oauth-security-topics",
+    "title": "OAuth 2.0 Security Best Current Practice",
+    "last_revised_date": "2021-04-13",
+    "status": "I-D Exists",
+    "group": "oauth",
+    "ad": "",
+    "last_changed_date": "2021-04-13",
+    "version": "18",
+    "authors": [
+        "T. Lodderstedt",
+        "J. Bradley",
+        "A. Labunets",
+        "D. Fett"
+    ]
+}

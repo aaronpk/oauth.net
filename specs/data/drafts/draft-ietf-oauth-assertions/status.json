@@ -1,0 +1,16 @@
+{
+    "name": "draft-ietf-oauth-assertions",
+    "title": "Assertion Framework for OAuth 2.0 Client Authentication and Authorization Grants",
+    "last_revised_date": "2014-10-21",
+    "status": "RFC 7521 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Kathleen Moriarty",
+    "last_changed_date": "2018-12-20",
+    "rfc": "7521",
+    "authors": [
+        "B. Campbell",
+        "C. Mortimore",
+        "M. Jones",
+        "Y. Goland"
+    ]
+}

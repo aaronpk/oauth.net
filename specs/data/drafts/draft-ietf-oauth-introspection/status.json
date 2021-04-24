@@ -1,0 +1,13 @@
+{
+    "name": "draft-ietf-oauth-introspection",
+    "title": "OAuth 2.0 Token Introspection",
+    "last_revised_date": "2015-07-03",
+    "status": "RFC 7662 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Kathleen Moriarty",
+    "last_changed_date": "2015-10-20",
+    "rfc": "7662",
+    "authors": [
+        "J. Richer"
+    ]
+}
