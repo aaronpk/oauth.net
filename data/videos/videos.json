@@ -1,6 +1,6 @@
 {
     "kind": "youtube#playlistItemListResponse",
-    "etag": "g8bi1zK4pr-Drn4SqjukdCJjaAk",
+    "etag": "IJtFLyCwnlnM94hOhCfmZREp1ug",
     "items": [
         {
             "kind": "youtube#playlistItem",
@@ -504,13 +504,13 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "qS7IYGcXFzUiIxJ0epDHRGu1Ql8",
+            "etag": "NBK5HbeDmm5m6eqs7HlXvwL-DBQ",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS4zMDg5MkQ5MEVDMEM1NTg2",
             "snippet": {
                 "publishedAt": "2020-12-17T01:47:01Z",
                 "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
                 "title": "An Illustrated Guide to OAuth and OpenID Connect",
-                "description": "OAuth 2.0 and OpenID Connect (OIDC) are internet standards that enable one application to access data from another. Unfortunately, these standards use a lot of jargon and terminology that make them more difficult to understand. The goal of this video is to explain how these standards work using simplified illustrations.\n\nIf you'd prefer to read a post on this subject, or find related posts that dive deeper into OAuth and OIDC, go to https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc\n\nCheck out our new video course! The Nuts and Bolts of OAuth 2.0\nhttps://oauth2simplified.com/course\n\nOkta is a developer API service that stores user accounts for your web apps, mobile apps, and APIs.\n\n* Sign up for Okta for free at https://developer.okta.com/signup/\n* For more info visit us at https://developer.okta.com/\n* Developer Blog: https://developer.okta.com/blog/\n* Follow us on Twitter: https://twitter.com/oktadev\n* Follow us on FB: https://www.facebook.com/oktadevelopers/\n* Follow us on LinkedIn: https://www.linkedin.com/company/oktadev",
+                "description": "OAuth 2.0 and OpenID Connect (OIDC) are internet standards that enable one application to access data from another. Unfortunately, these standards use a lot of jargon and terminology that make them more difficult to understand. The goal of this video is to explain how these standards work using simplified illustrations.\n\nCheck out our new video course! The Nuts and Bolts of OAuth 2.0\nhttps://oauth2simplified.com/course\n\nIf you'd prefer to read a post on this subject, or find related posts that dive deeper into OAuth and OIDC, go to https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc\n\nOkta is a developer API service that stores user accounts for your web apps, mobile apps, and APIs.\n\n* Sign up for Okta for free at https://developer.okta.com/signup/\n* For more info visit us at https://developer.okta.com/\n* Developer Blog: https://developer.okta.com/blog/\n* Follow us on Twitter: https://twitter.com/oktadev\n* Follow us on FB: https://www.facebook.com/oktadevelopers/\n* Follow us on LinkedIn: https://www.linkedin.com/company/oktadev",
                 "thumbnails": {
                     "default": {
                         "url": "https://i.ytimg.com/vi/t18YB3xDfXI/default.jpg",
