@@ -20,8 +20,7 @@ if($path != '/code/') {
 
 require('../includes/_header.php');
 
-require('./data.php');
-
+$languages = json_decode(file_get_contents(__DIR__.'/data/languages.json'), true);
 ?>
 
 <div class="container">
@@ -32,10 +31,10 @@ require('./data.php');
     <p>OAuth libraries are available in a variety of languages.</p>
 
     <ul class="languages">
-      <?php foreach($languages as $lang=>$data): ?>
+      <?php foreach($languages as $lang): ?>
         <li>
-          <a href="/code/<?= $lang ?>/"><img src="/images/code/<?= $lang ?>.png" alt="<?= $data['name'] ?>"></a>
-          <span><a href="/code/<?= $lang ?>/"><?= $data['name'] ?></a></span>
+          <a href="/code/<?= $lang['path'] ?>/"><img src="/images/code/<?= $lang['path'] ?>.png" alt="<?= $lang['name'] ?>"></a>
+          <span><a href="/code/<?= $lang['path'] ?>/"><?= $lang['name'] ?></a></span>
         </li>
       <?php endforeach ?>
     </ul>
@@ -63,20 +62,20 @@ require('./data.php');
 
     <h3 id="services">OAuth Providers</h3>
     <span id="proxy-services"></span>
-    
+
     <h4 id="open-source">Open Source</h4>
     <span id="proxy-services-open-source"></span>
     <ul>
       <li><a href="https://github.com/curveball/a12n-server">a12n-server</a></li>
       <li><a href="https://github.com/babelouest/glewlwyd">Glewlwyd</a></li>
-      <li><a href="https://www.keycloak.org">Keycloak</a></li>      
+      <li><a href="https://www.keycloak.org">Keycloak</a></li>
       <li><a href="https://github.com/oauth-io">OAuth.io</a></li>
       <li><a href="https://www.ory.sh/hydra">ORY Hydra</a></li>
       <li><a href="https://simplelogin.io/developer">SimpleLogin</a></li>
       <li><a href="https://github.com/ssqsignon">SSQ signon</a></li>
       <li><a href="https://github.com/caos/zitadel">ZITADEL</a></li>
     </ul>
-    
+
     <h4 id="commercial">Commercial</h4>
     <span id="proxy-services-commercial"></span>
     <ul>
@@ -90,7 +89,7 @@ require('./data.php');
       <li><a href="https://www.forgerock.com">ForgeRock</a></li>
       <li><a href="https://zitadel.ch">ZITADEL Cloud</a></li>
     </ul>
-    
+
     <h3 id="related">Related Projects and Services</h3>
     <ul>
       <li><a href="https://github.com/vouch/vouch-proxy">Vouch Proxy</a> - an nginx reverse proxy solution that adds OAuth/OpenID authentication</li>
