@@ -1,0 +1,22 @@
+{
+    "data": {
+        "type": "event",
+        "name": "OAuth Virtual Interim Meeting: TMI BFF",
+        "start": "2021-04-26T12:00:00-04:00",
+        "end": "2021-04-26T13:00:00-04:00",
+        "url": "https://events.oauth.net/2021/04/oauth-virtual-interim-meeting-tmi-bff-HbDwPpZSSq4G",
+        "category": [
+            "oauth",
+            "ietf",
+            "tmibff"
+        ],
+        "content": {
+            "text": "Agenda\n\nTMI BFF\n\nhttps://tools.ietf.org/html/draft-bertocci-oauth2-tmi-bff-00",
+            "html": "<p>Agenda</p>\n\n<ul><li>TMI BFF\n\n<ul><li><a href=\"https://tools.ietf.org/html/draft-bertocci-oauth2-tmi-bff-00\">https://tools.ietf.org/html/draft-bertocci-oauth2-tmi-bff-00</a></li>\n</ul></li>\n</ul>"
+        },
+        "post-type": "event"
+    },
+    "url": "https://events.oauth.net/2021/04/oauth-virtual-interim-meeting-tmi-bff-HbDwPpZSSq4G",
+    "code": 200,
+    "source-format": "mf2+html"
+}

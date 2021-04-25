@@ -1,0 +1,24 @@
+{
+    "data": {
+        "type": "event",
+        "name": "OAuth Happy Hour Live Q&A",
+        "start": "2021-04-29T11:00:00-07:00",
+        "end": "2021-04-29T12:00:00-07:00",
+        "url": "https://events.oauth.net/2021/04/oauth-happy-hour-live-q-a-hLAWL2g1fXJ3",
+        "category": [
+            "oauth",
+            "happyhour"
+        ],
+        "content": {
+            "text": "Join Aaron Parecki and Micah Silverman for an hour of live Q&A about all things OAuth and OpenID Connect! Bring your questions, or just come to learn about what's new!",
+            "html": "<p>Join Aaron Parecki and Micah Silverman for an hour of live Q&amp;A about all things OAuth and OpenID Connect! Bring your questions, or just come to learn about what's new!</p>"
+        },
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://youtu.be/xBO3xyazaUk"
+        }
+    },
+    "url": "https://events.oauth.net/2021/04/oauth-happy-hour-live-q-a-hLAWL2g1fXJ3",
+    "code": 200,
+    "source-format": "mf2+html"
+}

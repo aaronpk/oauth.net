@@ -1,0 +1,48 @@
+{
+    "title": "OAuth 2.0 Security Best Current Practice",
+    "link": {
+        "@attributes": {
+            "href": "/doc/draft-ietf-oauth-security-topics/"
+        }
+    },
+    "id": "802836",
+    "updated": "2021-04-13T07:34:21-0700",
+    "published": "2021-04-13T07:34:21-0700",
+    "author": {
+        "name": "Daniel Fett"
+    },
+    "content": {
+        "@attributes": {
+            "type": "html"
+        },
+        "@text": "New version available: <b>draft-ietf-oauth-security-topics-18.txt</b>"
+    },
+    "ietf": {
+        "type": "new_revision",
+        "stream": "ietf",
+        "group": "oauth",
+        "shepherd": "Hannes Tschofenig",
+        "state": [
+            {
+                "@attributes": {
+                    "type": "draft"
+                },
+                "@text": "active"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iesg"
+                },
+                "@text": "idexists"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-stream-ietf"
+                },
+                "@text": "wg-doc"
+            }
+        ],
+        "abstract": "This document describes best current security practice for OAuth 2.0.\n   It updates and extends the OAuth 2.0 Security Threat Model to\n   incorporate practical experiences gathered since OAuth 2.0 was\n   published and covers new threats relevant due to the broader\n   application of OAuth 2.0.",
+        "version": "18"
+    }
+}

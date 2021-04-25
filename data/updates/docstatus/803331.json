@@ -1,0 +1,71 @@
+{
+    "title": "The OAuth 2.0 Authorization Framework: JWT Secured Authorization Request (JAR)",
+    "link": {
+        "@attributes": {
+            "href": "/doc/draft-ietf-oauth-jwsreq/"
+        }
+    },
+    "id": "803331",
+    "updated": "2021-04-15T13:41:22-0700",
+    "published": "2021-04-15T13:41:22-0700",
+    "author": {
+        "name": "Cindy Morgan"
+    },
+    "content": {
+        "@attributes": {
+            "type": "html"
+        },
+        "@text": "IESG has approved the document"
+    },
+    "ietf": {
+        "type": "iesg_approved",
+        "stream": "ietf",
+        "group": "oauth",
+        "shepherd": "Hannes Tschofenig",
+        "ad": "Roman Danyliw",
+        "state": [
+            {
+                "@attributes": {
+                    "type": "draft"
+                },
+                "@text": "active"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iana-action"
+                },
+                "@text": "rfcedack"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iana-experts"
+                },
+                "@text": "reviewers-ok"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iana-review"
+                },
+                "@text": "ok-act"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iesg"
+                },
+                "@text": "rfcqueue"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-rfceditor"
+                },
+                "@text": "edit"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-stream-ietf"
+                },
+                "@text": "sub-pub"
+            }
+        ]
+    }
+}

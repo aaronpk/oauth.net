@@ -1,0 +1,24 @@
+{
+    "data": {
+        "type": "event",
+        "name": "OAuth Virtual Interim Meeting: OAuth 2.1",
+        "start": "2021-05-03T12:00:00-04:00",
+        "end": "2021-05-03T13:00:00-04:00",
+        "url": "https://events.oauth.net/2021/05/oauth-virtual-interim-meeting-oauth-2-1-oYUz1uprYHFK",
+        "category": [
+            "oauth",
+            "ietf"
+        ],
+        "content": {
+            "text": "Agenda:\n\nOAuth 2.1\n\nhttps://datatracker.ietf.org/doc/draft-ietf-oauth-v2-1/",
+            "html": "<p>Agenda:</p>\n\n<ul><li>OAuth 2.1\n\n<ul><li><a href=\"https://datatracker.ietf.org/doc/draft-ietf-oauth-v2-1/\">https://datatracker.ietf.org/doc/draft-ietf-oauth-v2-1/</a></li>\n</ul></li>\n</ul>"
+        },
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://datatracker.ietf.org/meeting/interim-2021-oauth-07/session/oauth"
+        }
+    },
+    "url": "https://events.oauth.net/2021/05/oauth-virtual-interim-meeting-oauth-2-1-oYUz1uprYHFK",
+    "code": 200,
+    "source-format": "mf2+html"
+}

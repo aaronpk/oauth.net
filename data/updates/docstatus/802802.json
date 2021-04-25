@@ -1,0 +1,48 @@
+{
+    "title": "OAuth 2.0 Pushed Authorization Requests",
+    "link": {
+        "@attributes": {
+            "href": "/doc/draft-ietf-oauth-par/"
+        }
+    },
+    "id": "802802",
+    "updated": "2021-04-12T23:50:54-0700",
+    "published": "2021-04-12T23:50:54-0700",
+    "author": {
+        "name": "Torsten Lodderstedt"
+    },
+    "content": {
+        "@attributes": {
+            "type": "html"
+        },
+        "@text": "New version available: <b>draft-ietf-oauth-par-07.txt</b>"
+    },
+    "ietf": {
+        "type": "new_revision",
+        "stream": "ietf",
+        "group": "oauth",
+        "shepherd": "Hannes Tschofenig",
+        "state": [
+            {
+                "@attributes": {
+                    "type": "draft"
+                },
+                "@text": "active"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iesg"
+                },
+                "@text": "idexists"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-stream-ietf"
+                },
+                "@text": "writeupw"
+            }
+        ],
+        "abstract": "This document defines the pushed authorization request endpoint,\n   which allows clients to push the payload of an OAuth 2.0\n   authorization request to the authorization server via a direct\n   request and provides them with a request URI that is used as\n   reference to the data in a subsequent call to the authorization\n   endpoint.",
+        "version": "07"
+    }
+}
