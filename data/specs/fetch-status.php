@@ -1,7 +1,7 @@
 <?php
 $url = 'https://datatracker.ietf.org/group/oauth/documents/csv/';
 $csv = file_get_contents($url);
-file_put_contents('data/status.csv', $csv);
+file_put_contents(__DIR__.'/data/status.csv', $csv);
 
 // $csv = file_get_contents('status.csv');
 
@@ -88,7 +88,7 @@ $specs = [
   'individuals' => array_map(function($d){ return $d['name']; }, $individuals),
 ];
 
-file_put_contents('data/specs.json', json_encode($specs, JSON_PRETTY_PRINT+JSON_UNESCAPED_SLASHES));
+file_put_contents(__DIR__.'/data/specs.json', json_encode($specs, JSON_PRETTY_PRINT+JSON_UNESCAPED_SLASHES));
 
 
 

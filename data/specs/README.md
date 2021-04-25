@@ -11,7 +11,7 @@ This downloads the csv snapshot of the current document status. It will separate
 php fetch-spec-info.php draft-ietf-name
 ```
 
-This fetches a single draft XML file to parse it for author and version information. This information is added to the `status.json` file if found.
+This fetches a single draft XML file to parse it for author and version information. This information is added to the `status.json` file if found. Run this when a new draft is submitted to the working group.
 
 ```
 php update-author-index.php
