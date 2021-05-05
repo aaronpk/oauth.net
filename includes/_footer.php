@@ -8,7 +8,7 @@
       if(isset($EDIT_THIS_PAGE_LINK))
         $editurl = $EDIT_THIS_PAGE_LINK;
       else
-        $editurl = 'https://github.com/aaronpk/oauth.net/blob/public/main' . $_SERVER['REQUEST_URI'] . 'index.php';
+        $editurl = 'https://github.com/aaronpk/oauth.net/blob/main/public' . $_SERVER['REQUEST_URI'] . 'index.php';
     ?>
     <a href="<?= $editurl ?>">Edit this page</a>.
   </div>
