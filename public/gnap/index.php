@@ -14,7 +14,11 @@ require('../../includes/_header.php');
 
     <p>GNAP (Grant Negotiation and Authorization Protocol) is an in-progress effort to develop a next-generation protocol based on years of knowledge and experience with OAuth 2. This work is taking place in the <a href="https://datatracker.ietf.org/doc/charter-ietf-gnap/">GNAP working group</a> at the IETF. Questions, suggestions and protocol changes should be discussed on the <a href="https://www.ietf.org/mailman/listinfo/txauth">mailing list</a> or <a href="https://github.com/ietf-wg-gnap/core-protocol">GitHub</a>.</p>
 
-    <p>The latest version of the in-progress specification can be found at <a href="https://tools.ietf.org/html/draft-ietf-gnap-core-protocol">tools.ietf.org/html/draft-ietf-gnap-core-protocol</a>.</p>
+    <p>The latest version of the in-progress specification can be found at:</p>
+    <ul>
+      <li><a href="https://tools.ietf.org/html/draft-ietf-gnap-core-protocol">GNAP Core Protocol</a></li>
+      <li><a href="https://tools.ietf.org/html/draft-ietf-gnap-resource-servers">GNAP Resource Servers</a></li>
+    </ul>
 
     <p>Read the design details and examples that motivated the original design at <a href="https://oauth.xyz">oauth.xyz</a>. Early drafts of the spec were called "XYZ", "TxAuth", and "Transactional Authorization".</p>
 
