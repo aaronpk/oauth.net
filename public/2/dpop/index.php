@@ -21,6 +21,12 @@ require('../../../includes/_header.php');
     <p><a href="https://tools.ietf.org/html/draft-ietf-oauth-dpop">DPoP</a>, or Demonstration of Proof of Possession, is an extension that describes a technique to cryptographically bind access tokens to a particular client when they are issued. This is one of many attempts at improving the security of <a href="/2/bearer-tokens/">Bearer Tokens</a> by requiring the application using the token to authenticate itself.</p>
     <p>This draft is still in progress, and is open to feedback from people who are interested in using it!</p>
 
+    <p>See Also:</p>
+    <ul>
+      <li><a href="/2/mtls/">RFC 8705: Mutual TLS</a></li>
+      <li><a href="/http-signatures/">Draft: HTTP Signatures</a></li>
+    </ul>
+
     <!--
     <p>More resources
       <ul>
