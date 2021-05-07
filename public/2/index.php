@@ -99,7 +99,7 @@ require('../../includes/_header.php');
       <li><a href="/2/pushed-authorization-requests/">Pushed Authorization Requests (PAR)</a></li>
       <li><a href="/2/dpop/">Demonstration of Proof of Possession (DPoP)</a></li>
       <li><a href="https://tools.ietf.org/html/draft-ietf-oauth-incremental-authz">Incremental Authorization</a></li>
-      <li><a href="https://datatracker.ietf.org/wg/oauth/documents/">OAuth Working Group Documents</a></li>
+      <li><a href="/specs/">All OAuth Working Group Documents</a></li>
     </ul>
 
 
@@ -110,7 +110,7 @@ require('../../includes/_header.php');
       <li><a href="http://tools.ietf.org/html/rfc7522">SAML2 Bearer Assertion</a> - RFC 7522, for integrating with existing identity systems</li>
       <li><a href="http://tools.ietf.org/html/rfc7523">JWT Bearer Assertion</a> - RFC 7523, for integrating with existing identity systems</li>
       <li><a href="/webauthn/">WebAuthn - Web Authentication</a></li>
-      <li><a href="https://tools.ietf.org/html/draft-ietf-httpbis-message-signatures">Signing HTTP Messages</a> - A generic HTTP message signing spec</li>
+      <li><a href="/http-signatures/">Signing HTTP Messages</a> - A generic HTTP message signing spec</li>
     </ul>
 
     <h3>Community Resources</h3>
