@@ -1,6 +1,14 @@
 <?php
 $url = 'https://datatracker.ietf.org/group/oauth/documents/csv/';
 $csv = file_get_contents($url);
+
+if(!trim($csv)) {
+  echo "Error fetching document status\n";
+  die();
+}
+
+
+
 file_put_contents(__DIR__.'/data/status.csv', $csv);
 
 // $csv = file_get_contents('status.csv');

@@ -1,12 +1,12 @@
 {
     "name": "draft-ietf-oauth-par",
     "title": "OAuth 2.0 Pushed Authorization Requests",
-    "last_revised_date": "2021-04-12",
-    "status": "I-D Exists",
+    "last_revised_date": "2021-05-14",
+    "status": "AD Evaluation::AD Followup",
     "group": "oauth",
-    "ad": "",
-    "last_changed_date": "2021-04-14",
-    "version": "07",
+    "ad": "Roman Danyliw",
+    "last_changed_date": "2021-05-14",
+    "version": "08",
     "authors": [
         "T. Lodderstedt",
         "B. Campbell",

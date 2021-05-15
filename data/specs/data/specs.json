@@ -24,8 +24,8 @@
         "draft-ietf-oauth-v2"
     ],
     "drafts": [
-        "draft-ietf-oauth-security-topics",
         "draft-ietf-oauth-par",
+        "draft-ietf-oauth-security-topics",
         "draft-ietf-oauth-jwsreq",
         "draft-ietf-oauth-dpop",
         "draft-ietf-oauth-access-token-jwt",

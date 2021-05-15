@@ -25,6 +25,8 @@ if(isset($status['rfc'])) {
 
 
   $url = 'https://www.rfc-editor.org/refs/bibxml/reference.RFC.'.$status['rfc'].'.xml';
+  
+  echo "Fetching $url\n";
 
   $xml = file_get_contents($url);
   $json = Laminas\Xml2Json\Xml2Json::fromXml($xml, false);
@@ -72,20 +74,21 @@ if(isset($status['rfc'])) {
   */
 
   // Find the latest version
-  $url = 'https://tools.ietf.org/html/'.$status['name'];
+  $url = 'https://datatracker.ietf.org/doc/'.$status['name'].'/';
+  echo "Fetching $url\n";
   $ch = curl_init($url);
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
   curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-  curl_setopt($ch, CURLOPT_NOBODY, true);
   curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla');
-  curl_exec($ch);
-  $url = curl_getinfo($ch, CURLINFO_EFFECTIVE_URL);
+  $response = curl_exec($ch);
 
-  if(preg_match('/-([0-9]+)$/', $url, $match)) {
+  if(preg_match('/'.$status['name'].'-([0-9]+)/', $response, $match)) {
     $version = $match[1];
     $status['version'] = $version;
 
     $xmlurl = 'https://tools.ietf.org/id/'.$status['name'].'-'.$status['version'].'.xml';
+    
+    echo "Fetching $xmlurl\n";
 
     $ch = curl_init($xmlurl);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -108,6 +111,7 @@ if(isset($status['rfc'])) {
 
   } else {
     echo "Could not fetch URL to find version\n";
+    echo $response."\n";
   }
 
 
