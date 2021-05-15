@@ -116,12 +116,14 @@ function tweet_doc_update($docfile) {
   // print_r($draft);
 
   $authors = [];
-  foreach($draft['authors'] as $authorName) {
-    $author = find_author_by_name($authorName);
-    if($author) {
-      $authors[] = $author[1]['twitter'] ?? $author[1]['name'];
-    } else {
-      $authors[] = $authorName;
+  if(isset($draft['authors'])) {
+    foreach($draft['authors'] as $authorName) {
+      $author = find_author_by_name($authorName);
+      if($author) {
+        $authors[] = $author[1]['twitter'] ?? $author[1]['name'];
+      } else {
+        $authors[] = $authorName;
+      }
     }
   }
 
@@ -132,12 +134,13 @@ function tweet_doc_update($docfile) {
       $tweetText .= 'Congrats! The IESG approved the document "' . $draft['title'] . '"';
       break;
     case 'new_revision':
-      $tweetText .= 'New version available! "' . $draft['title'] . '" revision ' . $draft['version'];
+      $tweetText .= 'New version available! "' . $draft['title'] . '"';
       break;
   }
 
   $tweetText .= ' ' . $docURL;
-  $tweetText .= " by " . implode(' ', $authors);
+  if(count($authors))
+    $tweetText .= " by " . implode(' ', $authors);
   $tweetText .= ' #oauth #oauth2 #ietf';
 
   $tweetURL = tweet_now($tweetText);
