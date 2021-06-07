@@ -23,6 +23,7 @@ require('../../../includes/_header.php');
 
     <ul>
       <li><a href="/2/grant-types/authorization-code/">Authorization Code</a></li>
+      <li><a href="/2/pkce/">PKCE</a></li>
       <li><a href="/2/grant-types/client-credentials/">Client Credentials</a></li>
       <li><a href="/2/grant-types/device-code/">Device Code</a></li>
       <li><a href="/2/grant-types/refresh-token/">Refresh Token</a></li>
