@@ -32,7 +32,7 @@ function ea(response) {
   }
 };
 $(function(){
-  if(window.fathom) {
+  if(window.fathom && $(".featured-banner").data("view-code")) {
     window.fathom.trackGoal($(".featured-banner").data("view-code"), 0);
   }
 });
