@@ -14,6 +14,7 @@ require('../../../includes/_header.php');
         <li class="breadcrumb-item"><a href="/about/introduction/">Introduction</a></li>
         <li class="breadcrumb-item"><a href="/about/design-goals/">Design Goals</a></li>
         <li class="breadcrumb-item"><a href="/about/community/">Community</a></li>
+        <li class="breadcrumb-item"><a href="/faq/">FAQ</a></li>
       </ul>
     </nav>
 
