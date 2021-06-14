@@ -1,4 +1,6 @@
 name: PHP Composer
+with: 
+  php-version: '7.4'
 
 on:
   push:
