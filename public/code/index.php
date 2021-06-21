@@ -69,6 +69,7 @@ $languages = json_decode(file_get_contents(__DIR__.'/../../data/code/languages.j
     <span id="proxy-services-open-source"></span>
     <ul>
       <li><a href="https://github.com/curveball/a12n-server">a12n-server</a></li>
+      <li><a href="https://github.com/casbin/casdoor">Casdoor</a></li>
       <li><a href="https://github.com/babelouest/glewlwyd">Glewlwyd</a></li>
       <li><a href="https://www.keycloak.org">Keycloak</a></li>
       <li><a href="https://github.com/oauth-io">OAuth.io</a></li>
