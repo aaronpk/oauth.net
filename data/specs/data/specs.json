@@ -25,16 +25,18 @@
     ],
     "drafts": [
         "draft-ietf-oauth-par",
+        "draft-ietf-oauth-jwt-introspection-response",
+        "draft-ietf-oauth-iss-auth-resp",
+        "draft-ietf-oauth-access-token-jwt",
+        "draft-ietf-oauth-browser-based-apps",
+        "draft-ietf-oauth-rar",
         "draft-ietf-oauth-security-topics",
         "draft-ietf-oauth-jwsreq",
         "draft-ietf-oauth-dpop",
-        "draft-ietf-oauth-access-token-jwt",
-        "draft-ietf-oauth-v2-1",
-        "draft-ietf-oauth-rar",
-        "draft-ietf-oauth-iss-auth-resp",
-        "draft-ietf-oauth-jwt-introspection-response"
+        "draft-ietf-oauth-v2-1"
     ],
     "individuals": [
+        "draft-richer-oauth-httpsig",
         "draft-yusef-oauth-nested-jwt",
         "draft-parecki-oauth-client-intermediary-metadata"
     ]
