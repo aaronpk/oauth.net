@@ -14,6 +14,7 @@ server_libraries:
 - <a href="https://github.com/tiangolo/fastapi">FastAPI</a> is a modern, fast (high-performance),
   web framework for building APIs with Python 3.6+ based on standard Python type hints.
   It includes support for OAuth2, integrated with OpenAPI
+- <a href="https://github.com/aliev/aioauth">aioauth</a> Asynchronous OAuth 2.0 library for Python 3
 client_libraries:
 - <a href="http://github.com/demianbrecht/sanction">sanction</a>
 - <a href="http://github.com/litl/rauth">rauth</a>
