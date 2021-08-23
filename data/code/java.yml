@@ -1,7 +1,6 @@
 ---
 name: Java
 client_libraries:
-- <a href="https://spring.io/projects/spring-social/">Spring Social</a>
 - <a href="https://spring.io/projects/spring-security/">Spring Security</a>
 - <a href="http://www.restlet.org/">Restlet Framework (draft 30)</a>
 - <a href="https://github.com/scribejava/scribejava">ScribeJava</a>
@@ -14,7 +13,6 @@ client_libraries:
 server_libraries:
 - <a href="https://github.com/mitreid-connect/OpenID-Connect-Java-Spring-Server">MitreID
   (with OpenID Connect)</a>
-- <a href="https://github.com/OpenConextApps/apis">Apis Authorization Server (v2-31)</a>
 - <a href="http://www.restlet.org/">Restlet Framework (draft 30)</a>
 - <a href="http://cxf.apache.org/">Apache CXF</a>
 - '<a href="https://github.com/zalando/tokens">Tokens</a>: Java library for conveniently
