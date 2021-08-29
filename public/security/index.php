@@ -44,7 +44,8 @@ require('../../includes/_header.php');
       </ul>
 
       <h3>How to Report Security Threats</h3>
-      <p>Please report any concerns to the <a href="https://www.ietf.org/mailman/listinfo/oauth">OAuth mailing list</a>. Please <span class="caps">DO NOT</span> discuss unknown security threats in public as they are likely to be used by attacker before a solution can be applied.</p>
+      <p>Please report any concerns with specific products to the vendor of that product using their own vulnerability reporting mechanisms.</p>
+      <p>For security concerns related to the spec itself, please refer to the <a href="https://www.ietf.org/standards/rfcs/vulnerabilities/">IETF Guidance on Reporting Protocol Vulnerabilities</a>.</p>
     </div>
 
   </div>
