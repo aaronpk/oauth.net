@@ -1,8 +1,8 @@
 <?php
-$page_title = "OAuth 2.0 Device Code Grant Type";
+$page_title = "OAuth 2.0 Device Code Grant";
 $page_section = "";
 $page_secondary = "";
-$page_meta_description = "The OAuth 2.0 device code grant type";
+$page_meta_description = "The OAuth 2.0 Device Authorization Grant";
 require('../../../../includes/_header.php');
 ?>
 <div class="container">
@@ -17,7 +17,7 @@ require('../../../../includes/_header.php');
 
   <div>
 
-    <h2>OAuth 2.0 Device Code</h2>
+    <h2>OAuth 2.0 Device Authorization Grant</h2>
 
     <p><a href="https://tools.ietf.org/html/rfc8628#section-3.4" class="rfc">tools.ietf.org/html/rfc8628#section-3.4</a></p>
 
