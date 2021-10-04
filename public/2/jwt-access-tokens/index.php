@@ -21,6 +21,16 @@ require('../../../includes/_header.php');
     <p>The JWT Access Token profile describes a way to encode access tokens as a JSON Web Token, including a set of standard claims that are useful in an access token.</p>
     <p>JWTs can be used as OAuth 2.0 <a href="/2/bearer-tokens/">Bearer Tokens</a> to encode all relevant parts of an access token into the access token itself instead of having to store them in a database.</p>
 
+    <p>
+      Related Specs:
+      <ul>
+        <li><a href="/2/bearer-tokens/">OAuth 2.0 Bearer Token Usage (RFC 6750)</a></li>
+        <li><a href="/2/token-introspection/">Token Introspection (RFC 7662)</a></li>
+        <li><a href="/2/token-revocation/">Token Revocation (RFC 7009)</a></li>
+        <li><a href="/2/jwt/">JSON Web Token (RFC 7519)</a></li>
+      </ul>
+    </p>
+
     <p>More resources
       <ul>
         <li><a href="https://www.oauth.com/oauth2-servers/access-tokens/self-encoded-access-tokens/">Self-Encoded Access Tokens</a> (oauth.com)</li>

@@ -50,6 +50,8 @@ require('../../includes/_header.php');
     <ul>
       <li><a href="https://tools.ietf.org/html/rfc6749">OAuth 2.0 Framework</a> - RFC 6749
         <ul>
+          <li><a href="/2/access-tokens/">Access Tokens</a></li>
+          <li><a href="/2/refresh-tokens/">Refresh Tokens</a></li>
           <li><a href="/2/scope/">OAuth Scope</a></li>
         </ul>
       </li>
@@ -111,6 +113,7 @@ require('../../includes/_header.php');
       <li><a href="http://tools.ietf.org/html/rfc7523">JWT Bearer Assertion</a> - RFC 7523, for integrating with existing identity systems</li>
       <li><a href="/webauthn/">WebAuthn - Web Authentication</a></li>
       <li><a href="/http-signatures/">Signing HTTP Messages</a> - A generic HTTP message signing spec</li>
+      <li><a href="/id-tokens-vs-access-tokens/">ID Tokens vs Access Tokens</a></li>
     </ul>
 
     <h3>Community Resources</h3>
@@ -130,7 +133,7 @@ require('../../includes/_header.php');
 
     <h3>Protocols Built on OAuth 2.0</h3>
     <ul>
-      <li><a href="http://openid.net/connect/">OpenID Connect</a> (OpenID Foundation)</li>
+      <li><a href="https://openid.net/connect/">OpenID Connect</a> (OpenID Foundation)</li>
       <li><a href="https://docs.kantarainitiative.org/uma/wg/rec-oauth-uma-grant-2.0.html">UMA 2.0</a> (Kantara)</li>
       <li><a href="https://indieauth.spec.indieweb.org/">IndieAuth</a> (W3C)</li>
     </ul>

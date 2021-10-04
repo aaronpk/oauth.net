@@ -21,6 +21,16 @@ require('../../../includes/_header.php');
 
     <p>The Token Introspection extension defines a mechanism for resource servers to obtain information about access tokens. With this spec, resource servers can check the validity of access tokens, and find out other information such as which user and which scopes are associated with the token.</p>
 
+    <p>
+      Related Specs:
+      <ul>
+        <li><a href="/2/bearer-tokens/">OAuth 2.0 Bearer Token Usage (RFC 6750)</a></li>
+        <li><a href="/2/token-revocation/">Token Revocation (RFC 7009)</a></li>
+        <li><a href="/2/jwt/">JSON Web Token (RFC 7519)</a></li>
+        <li><a href="/2/jwt-access-tokens/">JWT Profile for Access Tokens</a></li>
+      </ul>
+    </p>
+
     <p>More resources
       <ul>
         <li><a href="https://www.oauth.com/oauth2-servers/token-introspection-endpoint/">Token Introspection Endpoint</a> (oauth.com)</li>

@@ -26,6 +26,7 @@ require('../../../../includes/_header.php');
     <p>More resources
       <ul>
         <li><a href="https://www.oauth.com/oauth2-servers/access-tokens/refreshing-access-tokens/">Refreshing Access Tokens</a> (oauth.com)</li>
+        <li><a href="https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/">Refresh Tokens: What they are and when to use them</a> (auth0.com)</li>
       </ul>
     </p>
 
