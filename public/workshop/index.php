@@ -16,9 +16,15 @@ require('../../includes/_header.php');
 
     </div>
     <div>
+      <h3>Next Event</h3>
+      <ul>
+        <li><a href="https://barcamps.eu/osw2021/">OSW2021, Online</a></li>
+      </ul>
+    </div>
+    <div>
       <h3>Past Events</h3>
       <ul>
-        <li><a href="https://osw2020.com/">OSW2020, Trondheim, Norway</a> (virtual)</li>
+        <li><a href="https://osw2020.com/">OSW2020, Online</a></li>
         <li><a href="https://sec.uni-stuttgart.de/events/osw2019">OSW2019, Stuttgart, Germany</a> (sec.uni-stuttgart.de)</li>
         <li><a href="https://st.fbk.eu/osw2018">OSW2018, Trento, Italy</a> (st.fbk.eu)</li>
         <li><a href="https://zisc.ethz.ch/oauth-security-workshop-2017/">OSW2017, Zurich, Switzerland</a> (zisc.ethz.ch)</li>

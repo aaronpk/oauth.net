@@ -20,6 +20,16 @@ require('../../../includes/_header.php');
 
     <p>The Token Revocation extension defines a mechanism for clients to indicate to the authorization server that an access token is no longer needed. This is used to enable a "log out" feature in clients, allowing the authorization server to clean up any security credentials associated with the authorization.</p>
 
+    <p>
+      Related Specs:
+      <ul>
+        <li><a href="/2/bearer-tokens/">OAuth 2.0 Bearer Token Usage (RFC 6750)</a></li>
+        <li><a href="/2/token-introspection/">Token Introspection (RFC 7662)</a></li>
+        <li><a href="/2/jwt/">JSON Web Token (RFC 7519)</a></li>
+        <li><a href="/2/jwt-access-tokens/">JWT Profile for Access Tokens</a></li>
+      </ul>
+    </p>
+
     <p>More resources
       <ul>
         <li><a href="https://www.oauth.com/oauth2-servers/listing-authorizations/revoking-access/">Revoking Access</a> (oauth.com)</li>

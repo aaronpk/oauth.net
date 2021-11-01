@@ -12,7 +12,7 @@ require('../../includes/_header.php');
       <h2>Videos</h2>
 
       <div style="margin-bottom: 1em">
-        <iframe width="100%" height="420" src="https://www.youtube.com/embed/8aCyojTIW6U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="100%" height="420" src="https://www.youtube.com/embed/LopE3t0-Ak8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
 
       <div class="videos">
