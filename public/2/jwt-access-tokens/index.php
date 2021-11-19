@@ -37,6 +37,7 @@ require('../../../includes/_header.php');
         <li><a href="https://www.jsonwebtoken.io/">jsonwebtoken.io</a></li>
         <li><a href="https://auth0.com/docs/jwt">JSON Web Tokens (JWT) in Auth0</a> (auth0.com)</li>
         <li><a href="https://developer.okta.com/blog/2019/02/04/create-and-verify-jwts-in-php">Create and Verify JWTs in PHP</a> (developer.okta.com)</li>
+        <li><a href="https://auth0.com/blog/how-the-jwt-profile-for-oauth-20-access-tokens-became-rfc9068/">From Idea to Standard: How the JWT Profile for OAuth 2.0 Access Tokens Became RFC9068</a> by Vittorio Bertocci</li>
       </ul>
     </p>
 
