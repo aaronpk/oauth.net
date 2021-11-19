@@ -14,9 +14,9 @@ require('../../../includes/_header.php');
   </nav>
   <div>
 
-    <h2>Draft: JWT Access Tokens for OAuth 2.0</h2>
+    <h2>RFC 9068: JWT Profile for OAuth 2.0 Access Tokens</h2>
 
-    <p><a href="https://tools.ietf.org/html/draft-ietf-oauth-access-token-jwt" class="rfc">tools.ietf.org/html/draft-ietf-oauth-access-token-jwt</a></p>
+    <p><a href="https://datatracker.ietf.org/doc/html/rfc9068" class="rfc">datatracker.ietf.org/doc/html/rfc9068</a></p>
 
     <p>The JWT Access Token profile describes a way to encode access tokens as a JSON Web Token, including a set of standard claims that are useful in an access token.</p>
     <p>JWTs can be used as OAuth 2.0 <a href="/2/bearer-tokens/">Bearer Tokens</a> to encode all relevant parts of an access token into the access token itself instead of having to store them in a database.</p>
