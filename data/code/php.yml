@@ -21,6 +21,7 @@ server_libraries:
   and <a href="http://oauth2.authbucket.com/demo">Demo</a>
 - <a href="https://github.com/authbucket/oauth2-bundle">PHP OAuth2.0</a> for <a href="http://symfony.com/">Symfony</a>
   and <a href="http://oauth2-bundle.authbucket.com/demo">Demo</a>
+- <a href="https://www.drupal.org/project/simple_oauth">Simple OAuth (OAuth2) & OpenID Connect</a> for <a href="https://drupal.org">Drupal</a>
 - <a href="https://github.com/drahak/OAuth2">Nette OAuth2 provider</a> for <a href="https://nette.org">Nette
   framework</a> and <a href="https://github.com/drahak/Restful">Nette REST API bundle</a>
 ...
