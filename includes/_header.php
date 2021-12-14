@@ -1,6 +1,6 @@
 <?php
-@header('X-Pingback: https://webmention.io/aaronpk/xmlrpc');
-@header('Link: <https://webmention.io/aaronpk/webmention>; rel="webmention"');
+@header('X-Pingback: https://webmention.io/oauth/xmlrpc');
+@header('Link: <https://webmention.io/oauth/webmention>; rel="webmention"');
 function e($t) { return htmlspecialchars($t); }
 ?><!DOCTYPE html>
 <html lang="en">
@@ -11,7 +11,7 @@ function e($t) { return htmlspecialchars($t); }
   <link href="/stylesheets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <link href="/stylesheets/style.css?2" rel="stylesheet" type="text/css" />
   <link href="/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" />
-  <link rel="webmention" href="https://webmention.io/aaronpk/webmention" />
+  <link rel="webmention" href="https://webmention.io/oauth/webmention" />
 </head>
 <body>
 
