@@ -1,6 +1,6 @@
 <?php
-$page_title = "Code &mdash; OAuth";
-$page_section = "code";
+$page_title = "Specs &mdash; OAuth";
+$page_section = "specs";
 $page_secondary = "";
 $page_meta_description = "";
 
