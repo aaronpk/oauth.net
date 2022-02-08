@@ -81,6 +81,7 @@ require('../../includes/_header.php');
 
     <h4>Token and Token Management</h4>
     <ul>
+      <li><a href="/2/jwt-access-tokens/">RFC 9068 - JWT Profile for Access Tokens</a></li>
       <li><a href="/2/token-introspection/">Token Introspection</a> - RFC 7662, to determine the active state and meta-information of a token</li>
       <li><a href="/2/token-revocation/">Token Revocation</a> - RFC 7009, to signal that a previously obtained token is no longer needed</li>
       <li><a href="/2/jwt/">JSON Web Token</a> - RFC 7519</li>
@@ -97,7 +98,6 @@ require('../../includes/_header.php');
     <h3>Experimental and Draft Specs</h3>
     <p>The specs below are either experimental or in draft status and are still active working group items. They will likely change before they are finalized as RFCs or BCPs.</p>
     <ul>
-      <li><a href="/2/jwt-access-tokens/">JWT Profile for Access Tokens</a></li>
       <li><a href="/2/rich-authorization-requests/">Rich Authorization Requests (RAR)</a></li>
       <li><a href="/2/pushed-authorization-requests/">Pushed Authorization Requests (PAR)</a></li>
       <li><a href="/2/dpop/">Demonstration of Proof of Possession (DPoP)</a></li>
