@@ -81,7 +81,7 @@ require('../../includes/_header.php');
 
     <h4>Token and Token Management</h4>
     <ul>
-      <li><a href="/2/jwt-access-tokens/">RFC 9068 - JWT Profile for Access Tokens</a></li>
+      <li><a href="/2/jwt-access-tokens/">JWT Profile for Access Tokens</a> - RFC 9068, a standard for structured access tokens</li>
       <li><a href="/2/token-introspection/">Token Introspection</a> - RFC 7662, to determine the active state and meta-information of a token</li>
       <li><a href="/2/token-revocation/">Token Revocation</a> - RFC 7009, to signal that a previously obtained token is no longer needed</li>
       <li><a href="/2/jwt/">JSON Web Token</a> - RFC 7519</li>
