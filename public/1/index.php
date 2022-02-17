@@ -142,7 +142,7 @@ require('../../includes/_header.php');
 
       <h3>Ruby</h3>
 
-      <p><a href="http://romeda.org/">Blaine Cook</a>, <a href="http://stakeventures.com/">Pelle Braendgaard</a> and others have written a <a href="https://github.com/oauth-xx/oauth-ruby">library in Ruby</a>.</p>
+      <p><a src="https://en.wikipedia.org/wiki/Blaine_Cook_%28programmer%29">Blaine Cook</a>, co-author of the OAuth 1.0 specification, <a href="http://stakeventures.com/">Pelle Braendgaard</a> and others have written a <a href="https://github.com/oauth-xx/oauth-ruby">library in Ruby</a>. It is now maintained by <a src="https://railsbling.com">Peter Boling</a>.</p>
 
       <h3>Scala</h3>
 

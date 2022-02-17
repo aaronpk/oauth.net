@@ -27,7 +27,7 @@ require('../../includes/_header.php');
     <?php else: ?>
 
     <div style="margin-top: 10px; margin-bottom: 20px; padding: 40px; border: 1px #ddd solid;">
-      <div style="">New Video Course!</div>
+      <div style="">Video Course: The Nuts &amp; Bolts of OAuth 2.0</div>
       <div class="course-image"><a href="https://www.udemy.com/course/oauth-2-simplified/?referralCode=B04F59AED67B8DA74FA7" onclick="trackOutboundClick('https://www.udemy.com/course/oauth-2-simplified/?referralCode=B04F59AED67B8DA74FA7', '7VBGSQN1'); return false;"><img src="https://oauth2simplified.com/images/nuts-and-bolts-of-oauth.png" style="width: 100%"></a></div>
       <div style="text-align: right;">by Aaron Parecki</div>
     </div>
@@ -81,6 +81,7 @@ require('../../includes/_header.php');
 
     <h4>Token and Token Management</h4>
     <ul>
+      <li><a href="/2/jwt-access-tokens/">JWT Profile for Access Tokens</a> - RFC 9068, a standard for structured access tokens</li>
       <li><a href="/2/token-introspection/">Token Introspection</a> - RFC 7662, to determine the active state and meta-information of a token</li>
       <li><a href="/2/token-revocation/">Token Revocation</a> - RFC 7009, to signal that a previously obtained token is no longer needed</li>
       <li><a href="/2/jwt/">JSON Web Token</a> - RFC 7519</li>
@@ -97,7 +98,6 @@ require('../../includes/_header.php');
     <h3>Experimental and Draft Specs</h3>
     <p>The specs below are either experimental or in draft status and are still active working group items. They will likely change before they are finalized as RFCs or BCPs.</p>
     <ul>
-      <li><a href="/2/jwt-access-tokens/">JWT Profile for Access Tokens</a></li>
       <li><a href="/2/rich-authorization-requests/">Rich Authorization Requests (RAR)</a></li>
       <li><a href="/2/pushed-authorization-requests/">Pushed Authorization Requests (PAR)</a></li>
       <li><a href="/2/dpop/">Demonstration of Proof of Possession (DPoP)</a></li>
