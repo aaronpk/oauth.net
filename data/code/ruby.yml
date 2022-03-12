@@ -9,4 +9,5 @@ server_libraries:
   for Ruby on Rails / Grape.</a>
 - <a href="https://github.com/nov/rack-oauth2">Rack::OAuth2 - OAuth 2.0 Server & Client
   Library in Ruby.</a>
+- <a href="https://gitlab.com/honeyryderchuck/rodauth-oauth">Rodauth OAuth - OAuth and OpenID provider toolkit.</a>
 ...
