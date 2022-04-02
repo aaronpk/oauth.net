@@ -1,6 +1,6 @@
 ---
 name: Scala
 client_libraries:
-- <a href="http://silhouette.mohiva.com/">Silhouette</a>
+- <a href="https://silhouette.readme.io/">Silhouette</a>
 - <a href="https://ocadotechnology.github.io/sttp-oauth2">sttp-oauth2</a>
 ...
