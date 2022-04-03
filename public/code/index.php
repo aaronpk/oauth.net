@@ -71,6 +71,7 @@ $languages = json_decode(file_get_contents(__DIR__.'/../../data/code/languages.j
       <li><a href="https://github.com/curveball/a12n-server">a12n-server</a></li>
       <li><a href="https://github.com/casbin/casdoor">Casdoor</a></li>
       <li><a href="https://github.com/babelouest/glewlwyd">Glewlwyd</a></li>
+      <li><a href="https://github.com/Fraunhofer-AISEC/omejdn-server">Omejdn</a></li>
       <li><a href="https://www.keycloak.org">Keycloak</a></li>
       <li><a href="https://github.com/oauth-io">OAuth.io</a></li>
       <li><a href="https://www.ory.sh/hydra">ORY Hydra</a></li>
