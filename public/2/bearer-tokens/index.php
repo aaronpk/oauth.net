@@ -1,4 +1,5 @@
 <?php
+autor JOSE ANDRES MIRANDA ORTEGA
 $page_title = "OAuth 2.0 Bearer Token Usage";
 $page_section = "";
 $page_secondary = "";
