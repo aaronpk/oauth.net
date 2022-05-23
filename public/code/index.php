@@ -77,7 +77,7 @@ $languages = json_decode(file_get_contents(__DIR__.'/../../data/code/languages.j
       <li><a href="https://www.ory.sh/hydra">ORY Hydra</a></li>
       <li><a href="https://simplelogin.io/developer">SimpleLogin</a></li>
       <li><a href="https://github.com/ssqsignon">SSQ signon</a></li>
-      <li><a href="https://github.com/caos/zitadel">ZITADEL</a></li>
+      <li><a href="https://github.com/zitadel/zitadel">ZITADEL</a></li>
     </ul>
 
     <h4 id="commercial">Commercial</h4>
