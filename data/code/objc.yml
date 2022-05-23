@@ -5,4 +5,5 @@ client_libraries:
 - <a href="http://github.com/lukeredpath/LROAuth2Client">iPhone and iPad</a>
 - <a href="http://github.com/nxtbgthng/OAuth2Client">iOS and Mac OS X (draft 10)</a>
 - <a href="https://github.com/sprhawk/ytoolkit">YToolkit</a>
+- <a href="https://github.com/openid/AppAuth-iOS">AppAuth for iOS</a>
 ...
