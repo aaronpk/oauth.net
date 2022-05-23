@@ -10,6 +10,7 @@ client_libraries:
 - <a href="https://github.com/google/google-oauth-java-client">Google OAuth Java Client</a>
 - <a href="https://www.pac4j.org/">Pac4j</a>
 - <a href="https://connect2id.com/products/nimbus-oauth-openid-connect-sdk">Nimbus</a>
+- <a href="https://github.com/openid/AppAuth-Android">AppAuth for Android</a>
 server_libraries:
 - <a href="https://github.com/mitreid-connect/OpenID-Connect-Java-Spring-Server">MitreID
   (with OpenID Connect)</a>
