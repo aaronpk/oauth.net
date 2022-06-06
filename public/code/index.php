@@ -78,6 +78,7 @@ $languages = json_decode(file_get_contents(__DIR__.'/../../data/code/languages.j
       <li><a href="https://simplelogin.io/developer">SimpleLogin</a></li>
       <li><a href="https://github.com/ssqsignon">SSQ signon</a></li>
       <li><a href="https://github.com/zitadel/zitadel">ZITADEL</a></li>
+      <li><a href="https://wso2.com/identity-server/">WSO2 Identity Server</a></li>
     </ul>
 
     <h4 id="commercial">Commercial</h4>
@@ -93,6 +94,7 @@ $languages = json_decode(file_get_contents(__DIR__.'/../../data/code/languages.j
       <li><a href="https://www.loginradius.com">LoginRadius</a></li>
       <li><a href="https://www.forgerock.com">ForgeRock</a></li>
       <li><a href="https://zitadel.ch">ZITADEL Cloud</a></li>
+      <li><a href="https://wso2.com/asgardeo/">Asgardeo</a></li>
     </ul>
 
     <h3 id="related">Related Projects and Services</h3>
