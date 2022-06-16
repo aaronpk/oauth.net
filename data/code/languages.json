@@ -15,6 +15,11 @@
         "name": "ColdFusion"
     },
     {
+        "filename": "deno.yml",
+        "path": "deno",
+        "name": "Deno"
+    },
+    {
         "filename": "dart.yml",
         "path": "dart",
         "name": "Dart"
