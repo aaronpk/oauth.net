@@ -60,7 +60,7 @@ require('../../../includes/_header.php');
 
       <p>An additional (and very dangerous) threat occurs when clients accept access tokens from sources other than the return call from the token endpoint. This can occur for a client that uses the implicit flow (where the token is passed directly as a parameter in the URL hash) and don't properly use the OAuth <code>state</code> parameter. This issue can also occur if different parts of an application pass the access token between components in order to "share" access among them. This is problematic because it opens up a place for access tokens to potentially be injected into an application by an outside party (and potentially leak outside of the application). If the client application does not validate the access token through some mechanism, it has no way of differentiating between a valid token and an attack token.</p>
 
-      <p>This can be mitigated by using the authorization code flow and only accepting tokens directly from the authorization server's token enpdoint, and by using a <code>state</code> value that is unguessable by an attacker.</p>
+      <p>This can be mitigated by using the authorization code flow and only accepting tokens directly from the authorization server's token endpoint, and by using a <code>state</code> value that is unguessable by an attacker.</p>
 
       <h4 id="audience-restriction">Lack of audience restriction</h4>
 
