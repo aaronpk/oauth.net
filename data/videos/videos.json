@@ -1,10 +1,214 @@
 {
     "kind": "youtube#playlistItemListResponse",
-    "etag": "IJtFLyCwnlnM94hOhCfmZREp1ug",
+    "etag": "hyOf-bXyBtHJrkJtl4sHCT0CRbM",
     "items": [
         {
             "kind": "youtube#playlistItem",
-            "etag": "jCJk6zPNKR5Z9Zb-MfjxbxrcIOQ",
+            "etag": "fHzYUK65eWkfRUltQEYSaGxjWlc",
+            "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS4yMDhBMkNBNjRDMjQxQTg1",
+            "snippet": {
+                "publishedAt": "2021-11-15T16:13:25Z",
+                "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
+                "title": "Aaron Parecki - Why Do We Really Need OAuth Anyway? - beyond tellerrand D\u00fcsseldorf 2021",
+                "description": "This talk was held at the tenth \"beyond tellerrand\" conference in D\u00fcsseldorf: More information about beyond tellerrand (btconf in short) here: https://beyondtellerrand.com.\n\nTalk description: \nEven if you've never heard about OAuth, you've certainly used it in your daily life already. But what purpose does OAuth actually solve? In this session, you'll learn about the original problems OAuth set out to solve, and how it evolved over the years into the foundation of nearly every modern system on the web. \n\nThis session explains OAuth through the lens of everyday life, without jargon or code. You'll learn how OAuth makes life easier for app developers, and how it enables the best blend of security and usability.\n\nAbout Aaron:\nAaron Parecki is a Senior Security Architect at Okta. He is the author of OAuth 2.0 Simplified, and maintains oauth.net. He regularly writes and gives talks about OAuth and online security. He is a member of the OAuth working group at the IETF, and is the co-founder of IndieWebCamp, a conference focusing on data ownership and online identity. Aaron has spoken at conferences around the world about OAuth, data ownership, quantified self, and home automation, and his work has been featured in Wired, Fast Company and more.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/uN860I2kGo0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/uN860I2kGo0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/uN860I2kGo0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/uN860I2kGo0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/uN860I2kGo0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Aaron Parecki",
+                "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "uN860I2kGo0"
+                },
+                "videoOwnerChannelTitle": "beyond tellerrand",
+                "videoOwnerChannelId": "UCTmgiUv2MGSFy7Wt-cMDpOw"
+            },
+            "contentDetails": {
+                "videoId": "uN860I2kGo0",
+                "videoPublishedAt": "2021-11-15T09:54:21Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "q4uRXizq3Hcgb4Z9q0QoFuVblhw",
+            "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS5ENDU4Q0M4RDExNzM1Mjcy",
+            "snippet": {
+                "publishedAt": "2021-10-04T20:09:17Z",
+                "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
+                "title": "The future of OAuth with Aaron Parecki (Okta)",
+                "description": "What changes are coming to OAuth 2.1\nSponsored by https://websecurity-academy.com",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/WPeulphAj6I/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/WPeulphAj6I/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/WPeulphAj6I/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/WPeulphAj6I/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/WPeulphAj6I/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Aaron Parecki",
+                "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "WPeulphAj6I"
+                },
+                "videoOwnerChannelTitle": "Dev Academy",
+                "videoOwnerChannelId": "UCcJutJNPZVG5sbp_xaTmKEw"
+            },
+            "contentDetails": {
+                "videoId": "WPeulphAj6I",
+                "videoPublishedAt": "2021-09-29T06:07:19Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "jGHOYm22TNZ-AmJivYze8j8ZwhE",
+            "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS45RTgxNDRBMzUwRjQ0MDhC",
+            "snippet": {
+                "publishedAt": "2021-08-26T01:26:48Z",
+                "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
+                "title": "OAuth: Past, Present, and Future | Developer Day 2021",
+                "description": "OAuth is the foundation of most of modern online security, used everywhere from signing in to mobile apps to protecting your bank accounts. Despite its ubiquity, there are still many misconceptions about OAuth and OpenID Connect in the wild.\n\nIn this session you'll learn about the background and original motivations that drove the creation of OAuth, how OAuth and OpenID Connect are used today to provide secure online experiences, as well as the latest developments and future work within the OAuth and OpenID Connect communities.\n\nThis session will cover the many new RFCs that have been published since the original draft of OAuth 2.0, which both add and remove functionality from the core spec. These include OAuth 2.0 for Native Apps, Proof Key for Code Exchange, OAuth 2.0 Security Best Current Practice, as well as some in-progress and experimental drafts such as JWT Access Tokens, Rich Authorization Requests, and various Proof of Possession techniques. This session will cover the current status of this ongoing work and what you need to know to be prepared for the future.\n\nSpeakers: \n- Aaron Parecki, Senior Security Architect, Okta\n- Vittorio Bertocci, Principal Architect, Auth0\n__\n\nDon't forget to subscribe to our channel and hit the notification bell so you never miss an upload: https://bit.ly/OktaDevYouTube\n__\n\nWant more Okta Dev? Check out our social media for updates:\nhttps://bit.ly/OktaDevLinkedIn\nhttps://bit.ly/OktaDevTwitter\nhttps://bit.ly/OktaDevFacebook",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/LopE3t0-Ak8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/LopE3t0-Ak8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/LopE3t0-Ak8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/LopE3t0-Ak8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/LopE3t0-Ak8/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Aaron Parecki",
+                "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "LopE3t0-Ak8"
+                },
+                "videoOwnerChannelTitle": "OktaDev",
+                "videoOwnerChannelId": "UC5AMiWqFVFxF1q9Ya1FuZ_Q"
+            },
+            "contentDetails": {
+                "videoId": "LopE3t0-Ak8",
+                "videoPublishedAt": "2021-08-25T14:57:49Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "cvULbYVxMURTMoCmEu-SJl-xLzo",
+            "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS4yMUQyQTQzMjRDNzMyQTMy",
+            "snippet": {
+                "publishedAt": "2021-07-13T19:06:55Z",
+                "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
+                "title": "Fireside Chat About OAuth 2.0 \u2022 Aaron Parecki & Eric Johnson \u2022 GOTO 2021",
+                "description": "This presentation was recorded at GOTOpia February 2021. #GOTOcon #GOTOpia\nhttp://gotopia.eu\n\nAaron Parecki - Senior Security Architect at Okta\nEric Johnson - Senior Developer Advocate at AWS Serverless\n\nABSTRACT\nTake a deep dive into some advanced OAuth 2.0 processes and pitfalls like redirect URLs and state property.\nJoin Aaron Parecki, author of the book OAuth 2.0 Simplified (https://amzn.to/2A3IMOf), and Eric Johnson, senior developer advocate at AWS for a fireside chat where they discuss some of the main reasons to use the OAuth 2.0 framework, that has already become an industry standard, and what it takes to build a secure web server [...]\n\nTIMECODES\n00:00 Intro\n01:14 What is OAuth?\n02:07 Difference between AuthZ & AuthN\n04:55 Is JSON Web Token (JWT) OAuth?\n06:16 The history of OAuth\n17:37 A good level of security\n21:30 Difference between timeout & verification of use\n23:46 Changes in OAuth 2.1\n27:12 What is PKCE?\n28:50 Outro\n\nRead the full abstract here:\nhttps://gotopia.eu/february-2021/sessions/1670/fireside-chat-about-oauth-2-0\n\nRECOMMENDED BOOKS\nAaron Parecki \u2022 OAuth 2.0 Simplified \u2022 https://amzn.to/2A3IMOf\nAaron Parecki \u2022 OAuth 2.0 Servers \u2022 https://amzn.to/3ecHEsz\nAaron Parecki \u2022 The Little Book of OAuth 2.0 RFCs \u2022 https://amzn.to/3i7qnlC\nErdal Ozkaya \u2022 Cybersecurity: The Beginner's Guide \u2022 https://amzn.to/2T6OIj3\nRicher & Sanso \u2022 OAuth 2 in Action \u2022 https://amzn.to/3hXiAH6\nWilson & Hingnikar \u2022 Demystifying OAuth 2.0, OpenID Connect, and SAML 2.0 \u2022 https://amzn.to/2U8iLY2\n\nhttps://twitter.com/GOTOcon\nhttps://www.linkedin.com/company/goto-\nhttps://www.facebook.com/GOTOConferences\n#OAuth2 #OAuth #Security #Privacy #SecureWebServer #AWS #Serverless #Okta #AWSserverless #AuthZ #AuthN #OpenIDconnect #OpenID #Cybersecurity #Encryption #JWT #JSONWebTokens #RFC #PKCE\n\nLooking for a unique learning experience?\nAttend the next GOTO conference near you! Get your ticket at https://gotopia.tech\n\nSUBSCRIBE TO OUR CHANNEL - new videos posted almost daily.\nhttps://www.youtube.com/user/GotoConferences/?sub_confirmation=1",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/nbufy9BZIZ8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/nbufy9BZIZ8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/nbufy9BZIZ8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/nbufy9BZIZ8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/nbufy9BZIZ8/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Aaron Parecki",
+                "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "nbufy9BZIZ8"
+                },
+                "videoOwnerChannelTitle": "GOTO Conferences",
+                "videoOwnerChannelId": "UCs_tLP3AiwYKwdUHpltJPuA"
+            },
+            "contentDetails": {
+                "videoId": "nbufy9BZIZ8",
+                "videoPublishedAt": "2021-07-13T12:00:32Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Xl_C58hZv_nw_YPHFefOINZifuM",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS41QTY1Q0UxMTVCODczNThE",
             "snippet": {
                 "publishedAt": "2021-04-10T18:17:11Z",
@@ -40,7 +244,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 0,
+                "position": 4,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "8aCyojTIW6U"
@@ -55,7 +259,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "SWxzW9ASbio6A6SMRsvelUg35qI",
+            "etag": "jQwLdEBlXiGB9GX8rWjv_mVF7_k",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS5EMEEwRUY5M0RDRTU3NDJC",
             "snippet": {
                 "publishedAt": "2020-12-17T01:45:34Z",
@@ -91,7 +295,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 1,
+                "position": 5,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "td00HpMI3Q8"
@@ -106,13 +310,13 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "fgROFatInCqOSp52b34NtifbcyI",
+            "etag": "XK_XpU3iu29DGMBHYnYARbOx0hg",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS5EQUE1NTFDRjcwMDg0NEMz",
             "snippet": {
                 "publishedAt": "2020-12-22T22:10:39Z",
                 "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
-                "title": "GOTO 2020 \u2022 Advanced OAuth and Pitfalls Part 2/2 \u2022 Aaron Parecki & Eric Johnson",
-                "description": "This interview was recorded for the GOTO Book Club. #GOTOcon #GOTOBookClub\nhttp://gotopia.tech/bookclub\n\nAaron Parecki - Author of \"OAuth 2.0 Simplified\"\nEric Johnson - Senior Developer Advocate at AWS Serverless\n\nPART 1: https://youtu.be/HhwUMESAddM\n\nDESCRIPTION\nDeep dive into some advanced OAuth 2.0 processes and pitfalls like redirect URLs and STATE property.\nThe interview is based on Aaron Parecki's new book \"OAuth 2.0 Simplified\": https://amzn.to/2A3IMOf\n\nTIMECODES\n00:00 Intro\n00:05 Why is verifying the redirect URL important?\n02:40 What does the STATE property do?\n06:06 Security considerations as a user & server administrator\n15:28 Outro\n\nRead the full transcription of the interview here:\nhttps://gotopia.tech/bookclub/episodes/advanced-oauth-pitfalls\n\nRECOMMENDED BOOKS\nAaron Parecki \u2022 OAuth 2.0 Simplified \u2022 https://amzn.to/2A3IMOf\n\nhttps://twitter.com/GOTOcon\nhttps://www.linkedin.com/company/goto-\nhttps://www.facebook.com/GOTOConferences\n#OAuth #OAuth2 #OAuth1 #Security #AuthN #AuthZ #PKCE #OAuthServer #Programming #AaronParecki #EricJohnson #Serverless #ProgrammingLanguages #Privacy\n\nSUPPORTER\nThis episode of the GOTO Book Club was made possible thanks to the support of GOTOpia.tech. Created for developers, by developers, the GOTO event series goes beyond annual conferences held in Chicago, Amsterdam and Copenhagen: you can also join online conferences, online masterclasses and meetups with top creators and leaders in tech year-round. \nAnd if joining one of these top-rated events isn't enough to satisfy your hunger for the latest in tech, you can watch over a thousand high-quality talks on the GOTO YouTube channel \u2014 subscribe now for new videos released (almost) daily and join GOTO in person or online at any upcoming conferences using the promo code \u2018bookclub\u2019.\nhttp://gotopia.tech\n\nLooking for a unique learning experience?\nAttend the next GOTO conference near you! Get your ticket at http://gotopia.tech\n\nSUBSCRIBE TO OUR CHANNEL - new videos posted almost daily.\nhttps://www.youtube.com/user/GotoConferences/?sub_confirmation=1",
+                "title": "Advanced OAuth and Pitfalls Part 2/2 \u2022 Aaron Parecki & Eric Johnson \u2022 GOTO 2020",
+                "description": "This interview was recorded for the GOTO Book Club. #GOTOcon #GOTOBookClub\nhttp://gotopia.tech/bookclub\n\nAaron Parecki - Author of \"OAuth 2.0 Simplified\"\nEric Johnson - Senior Developer Advocate at AWS Serverless\n\nPART 1: https://youtu.be/HhwUMESAddM\n\nDESCRIPTION\nDeep dive into some advanced OAuth 2.0 processes and pitfalls like redirect URLs and STATE property.\nThe interview is based on Aaron Parecki's new book \"OAuth 2.0 Simplified\": https://amzn.to/2A3IMOf\n\nTIMECODES\n00:00 Intro\n00:05 Why is verifying the redirect URL important?\n02:40 What does the STATE property do?\n06:06 Security considerations as a user & server administrator\n15:28 Outro\n\nRead the full transcription of the interview here:\nhttps://gotopia.tech/bookclub/episodes/advanced-oauth-pitfalls\n\nRECOMMENDED BOOKS\nAaron Parecki \u2022 OAuth 2.0 Simplified \u2022 https://amzn.to/2A3IMOf\nAaron Parecki \u2022 OAuth 2.0 Servers \u2022 https://amzn.to/3ecHEsz\nAaron Parecki \u2022 The Little Book of OAuth 2.0 RFCs \u2022 https://amzn.to/3i7qnlC\nErdal Ozkaya \u2022 Cybersecurity: The Beginner's Guide \u2022 https://amzn.to/2T6OIj3\nRicher & Sanso \u2022 OAuth 2 in Action \u2022 https://amzn.to/3hXiAH6\nWilson & Hingnikar \u2022 Demystifying OAuth 2.0, OpenID Connect, and SAML 2.0 \u2022 https://amzn.to/2U8iLY2\n\nhttps://twitter.com/GOTOcon\nhttps://www.linkedin.com/company/goto-\nhttps://www.facebook.com/GOTOConferences\n#OAuth #OAuth2 #OAuth1 #Security #AuthN #AuthZ #PKCE #OAuthServer #Programming #AaronParecki #EricJohnson #Serverless #ProgrammingLanguages #Privacy\n\nSUPPORTER\nThis episode of the GOTO Book Club was made possible thanks to the support of GOTOpia.tech. Created for developers, by developers, the GOTO event series goes beyond annual conferences held in Chicago, Amsterdam and Copenhagen: you can also join online conferences, online masterclasses and meetups with top creators and leaders in tech year-round. \nAnd if joining one of these top-rated events isn't enough to satisfy your hunger for the latest in tech, you can watch over a thousand high-quality talks on the GOTO YouTube channel \u2014 subscribe now for new videos released (almost) daily and join GOTO in person or online at any upcoming conferences using the promo code \u2018bookclub\u2019.\nhttp://gotopia.tech\n\nLooking for a unique learning experience?\nAttend the next GOTO conference near you! Get your ticket at http://gotopia.tech\n\nSUBSCRIBE TO OUR CHANNEL - new videos posted almost daily.\nhttps://www.youtube.com/user/GotoConferences/?sub_confirmation=1",
                 "thumbnails": {
                     "default": {
                         "url": "https://i.ytimg.com/vi/mb4JzsBBglg/default.jpg",
@@ -142,7 +346,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 2,
+                "position": 6,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "mb4JzsBBglg"
@@ -157,13 +361,13 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "1quTJ982eacjxmgfb35xqi0273s",
+            "etag": "c5prVgsPVnp3VDPD42anPxiItrg",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS4yODlGNEE0NkRGMEEzMEQy",
             "snippet": {
                 "publishedAt": "2020-12-17T01:44:28Z",
                 "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
-                "title": "GOTO 2020 \u2022 The Secrets of OAuth 2.0 Part 1/2 \u2022 Aaron Parecki & Eric Johnson",
-                "description": "This interview was recorded for the GOTO Book Club. #GOTOcon #GOTOBookClub\nhttp://gotopia.tech/bookclub\n\nAaron Parecki - Author of \"OAuth 2.0 Simplified\"\nEric Johnson - Senior Developer Advocate at AWS Serverless\n\nPART 2: https://youtu.be/mb4JzsBBglg\n\nDESCRIPTION\nThe OAuth 2.0 authorization framework has become the industry standard in providing secure access to web APIs. It allows users to grant external applications access to their data, such as profile data, photos, and email, without compromising security. OAuth 2.0 Simplified is a guide to building an OAuth 2.0 server. Through high-level overviews, step-by-step instructions, and real-world examples, you will learn how to take advantage of the OAuth 2.0 framework while building a secure API.\nThe interview is based on Aaron Parecki's new book \"OAuth 2.0 Simplified\": https://amzn.to/2A3IMOf\n\nTIMECODES\n00:00 Series intro\n00:48 Episode intro\n01:09 The history of OAuth\n03:15 Differences between OAuth 1 & 2\n09:28 Differences between AuthN & AuthZ\n15:06 Who is the target audience for this book?\n16:28 Do you recommend building your own OAuth server?\n19:34 What's a grant type and how does it work?\n23:30 Advantages of short access & long refresh token periods\n26:47 What is PKCE grant type in OAuth & how to use it\n31:14 Key takeaways from the book\n33:13 Outro\n\nRead the full transcription of the interview here:\nhttps://gotopia.tech/bookclub/episodes/the-secrets-of-oauth-2\n\nRECOMMENDED BOOKS\nAaron Parecki \u2022 OAuth 2.0 Simplified \u2022 https://amzn.to/2A3IMOf\n\nhttps://twitter.com/GOTOcon\nhttps://www.linkedin.com/company/goto-\nhttps://www.facebook.com/GOTOConferences\n#OAuth #OAuth2 #OAuth1 #Security #AuthN #AuthZ #PKCE #OAuthServer #Programming #AaronParecki #EricJohnson #Serverless #ProgrammingLanguages #Privacy\n\nSUPPORTER\nThis episode of the GOTO Book Club was made possible thanks to the support of GOTOpia.tech. Created for developers, by developers, the GOTO event series goes beyond annual conferences held in Chicago, Amsterdam and Copenhagen: you can also join online conferences, online masterclasses and meetups with top creators and leaders in tech year-round. \nAnd if joining one of these top-rated events isn't enough to satisfy your hunger for the latest in tech, you can watch over a thousand high-quality talks on the GOTO YouTube channel \u2014 subscribe now for new videos released (almost) daily and join GOTO in person or online at any upcoming conferences using the promo code \u2018bookclub\u2019.\nhttp://gotopia.tech\n\nLooking for a unique learning experience?\nAttend the next GOTO conference near you! Get your ticket at http://gotopia.tech\n\nSUBSCRIBE TO OUR CHANNEL - new videos posted almost daily.\nhttps://www.youtube.com/user/GotoConferences/?sub_confirmation=1",
+                "title": "The Secrets of OAuth 2.0 Part 1/2 \u2022 Aaron Parecki & Eric Johnson \u2022 GOTO 2020",
+                "description": "This interview was recorded for the GOTO Book Club. #GOTOcon #GOTOBookClub\nhttp://gotopia.tech/bookclub\n\nAaron Parecki - Author of \"OAuth 2.0 Simplified\"\nEric Johnson - Senior Developer Advocate at AWS Serverless\n\nPART 2: https://youtu.be/mb4JzsBBglg\n\nDESCRIPTION\nThe OAuth 2.0 authorization framework has become the industry standard in providing secure access to web APIs. It allows users to grant external applications access to their data, such as profile data, photos, and email, without compromising security. OAuth 2.0 Simplified is a guide to building an OAuth 2.0 server. Through high-level overviews, step-by-step instructions, and real-world examples, you will learn how to take advantage of the OAuth 2.0 framework while building a secure API.\nThe interview is based on Aaron Parecki's new book \"OAuth 2.0 Simplified\": https://amzn.to/2A3IMOf\n\nTIMECODES\n00:00 Series intro\n00:48 Episode intro\n01:09 The history of OAuth\n03:15 Differences between OAuth 1 & 2\n09:28 Differences between AuthN & AuthZ\n15:06 Who is the target audience for this book?\n16:28 Do you recommend building your own OAuth server?\n19:34 What's a grant type and how does it work?\n23:30 Advantages of short access & long refresh token periods\n26:47 What is PKCE grant type in OAuth & how to use it\n31:14 Key takeaways from the book\n33:13 Outro\n\nRead the full transcription of the interview here:\nhttps://gotopia.tech/bookclub/episodes/the-secrets-of-oauth-2\n\nRECOMMENDED BOOKS\nAaron Parecki \u2022 OAuth 2.0 Simplified \u2022 https://amzn.to/2A3IMOf\nAaron Parecki \u2022 OAuth 2.0 Servers \u2022 https://amzn.to/3ecHEsz\nAaron Parecki \u2022 The Little Book of OAuth 2.0 RFCs \u2022 https://amzn.to/3i7qnlC\nErdal Ozkaya \u2022 Cybersecurity: The Beginner's Guide \u2022 https://amzn.to/2T6OIj3\nRicher & Sanso \u2022 OAuth 2 in Action \u2022 https://amzn.to/3hXiAH6\nWilson & Hingnikar \u2022 Demystifying OAuth 2.0, OpenID Connect, and SAML 2.0 \u2022 https://amzn.to/2U8iLY2\n\nhttps://twitter.com/GOTOcon\nhttps://www.linkedin.com/company/goto-\nhttps://www.facebook.com/GOTOConferences\n#OAuth #OAuth2 #OAuth1 #Security #AuthN #AuthZ #PKCE #OAuthServer #Programming #AaronParecki #EricJohnson #Serverless #ProgrammingLanguages #Privacy\n\nSUPPORTER\nThis episode of the GOTO Book Club was made possible thanks to the support of GOTOpia.tech. Created for developers, by developers, the GOTO event series goes beyond annual conferences held in Chicago, Amsterdam and Copenhagen: you can also join online conferences, online masterclasses and meetups with top creators and leaders in tech year-round. \nAnd if joining one of these top-rated events isn't enough to satisfy your hunger for the latest in tech, you can watch over a thousand high-quality talks on the GOTO YouTube channel \u2014 subscribe now for new videos released (almost) daily and join GOTO in person or online at any upcoming conferences using the promo code \u2018bookclub\u2019.\nhttp://gotopia.tech\n\nLooking for a unique learning experience?\nAttend the next GOTO conference near you! Get your ticket at http://gotopia.tech\n\nSUBSCRIBE TO OUR CHANNEL - new videos posted almost daily.\nhttps://www.youtube.com/user/GotoConferences/?sub_confirmation=1",
                 "thumbnails": {
                     "default": {
                         "url": "https://i.ytimg.com/vi/HhwUMESAddM/default.jpg",
@@ -193,7 +397,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 3,
+                "position": 7,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "HhwUMESAddM"
@@ -208,7 +412,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "VsS2bwA5VJV63VPYSUaqZMdLBlM",
+            "etag": "a_e76Z3Azlug63GcsbW7O9ZNLH8",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS40NzZCMERDMjVEN0RFRThB",
             "snippet": {
                 "publishedAt": "2020-12-17T01:45:23Z",
@@ -244,7 +448,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 4,
+                "position": 8,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "U1lgyU3CKI8"
@@ -259,7 +463,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "uoF9KHopVdKsd7EU_1s0n1z2VHI",
+            "etag": "XaLJC-GTp1qzu2DyptWxCBv3SI4",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS41NkI0NEY2RDEwNTU3Q0M2",
             "snippet": {
                 "publishedAt": "2020-12-17T01:44:01Z",
@@ -295,7 +499,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 5,
+                "position": 9,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "g_aVPdwBTfw"
@@ -310,7 +514,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "HZTjuAYnx6sRrOVfRd5imhmjap8",
+            "etag": "ozNwjkh3mm7GlTQykggfNKF_UfI",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS41MjE1MkI0OTQ2QzJGNzNG",
             "snippet": {
                 "publishedAt": "2020-12-17T01:44:36Z",
@@ -346,7 +550,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 6,
+                "position": 10,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "espX8qKjywI"
@@ -361,7 +565,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "r67PzD4isv_7VgVd3aPwxfggSAk",
+            "etag": "7AZ6-GIjMvD2kDKJqD0Mx_ThNac",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS4wOTA3OTZBNzVEMTUzOTMy",
             "snippet": {
                 "publishedAt": "2020-12-17T01:44:42Z",
@@ -397,7 +601,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 7,
+                "position": 11,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "5cQNwifDq1U"
@@ -412,7 +616,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "fuD1WI_jWP9Alw1-uiVitLBAArU",
+            "etag": "r3r5m9bmtLlD3RA-fYFYQWv10do",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS4wMTcyMDhGQUE4NTIzM0Y5",
             "snippet": {
                 "publishedAt": "2020-12-17T01:44:32Z",
@@ -438,7 +642,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 8,
+                "position": 12,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "KT8ybowdyr0"
@@ -453,7 +657,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "zDm7KI_asm1Wid-Bg9Dyz3ufbbM",
+            "etag": "AhhxleZdB66RSxumYtryovHfoGU",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS41Mzk2QTAxMTkzNDk4MDhF",
             "snippet": {
                 "publishedAt": "2020-12-17T01:47:36Z",
@@ -489,7 +693,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 9,
+                "position": 13,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "8c1SOuO4mPc"
@@ -504,7 +708,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "NBK5HbeDmm5m6eqs7HlXvwL-DBQ",
+            "etag": "vYU0EnT_HZCvhXO2zXEqeNQX19U",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS4zMDg5MkQ5MEVDMEM1NTg2",
             "snippet": {
                 "publishedAt": "2020-12-17T01:47:01Z",
@@ -540,7 +744,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 10,
+                "position": 14,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "t18YB3xDfXI"
@@ -555,7 +759,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "f-IPtpfXcFhqTGYNnFrYmXPxMXc",
+            "etag": "mzi4UdPDcqqdWa2vhbA1EX6_Gxw",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS41MzJCQjBCNDIyRkJDN0VD",
             "snippet": {
                 "publishedAt": "2020-12-17T01:44:52Z",
@@ -591,7 +795,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 11,
+                "position": 15,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "xSDeToCyJjo"
@@ -606,7 +810,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "HDvIyet7fiGAaNuWB5Wl1eKyQXo",
+            "etag": "i_7bGxLClJahXqMgNcHf4u0wWaI",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS5DQUNERDQ2NkIzRUQxNTY1",
             "snippet": {
                 "publishedAt": "2020-12-17T01:44:56Z",
@@ -642,7 +846,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 12,
+                "position": 16,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "PfvSD6MmEmQ"
@@ -657,7 +861,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "I27YVZammNwKf7koh1DTzmk3kL0",
+            "etag": "eJ1AeutnDA9Dxsf5WQbx9LW2Cbw",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS4xMkVGQjNCMUM1N0RFNEUx",
             "snippet": {
                 "publishedAt": "2020-12-17T01:44:46Z",
@@ -693,7 +897,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 13,
+                "position": 17,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "CHzERullHe8"
@@ -708,7 +912,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "e4EOPj6y1PGO53Cw9RLlIsWfWNs",
+            "etag": "kIB7mvGZsn4kebQJmvTE3eKvs8E",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS45ODRDNTg0QjA4NkFBNkQy",
             "snippet": {
                 "publishedAt": "2020-12-17T01:46:48Z",
@@ -744,12 +948,12 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 14,
+                "position": 18,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "vjCF_O6aZIg"
                 },
-                "videoOwnerChannelTitle": "Scrtinsomnihack",
+                "videoOwnerChannelTitle": "scrt.insomnihack",
                 "videoOwnerChannelId": "UCGdJZb8OWZPrRK8PuEeoZuA"
             },
             "contentDetails": {
@@ -759,7 +963,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "p6Z2ER-M7DNS-Z7UdRoFgbCJJp0",
+            "etag": "0t3FXPUkJHWwEeWbPqRiUoj4Fos",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS45NDk1REZENzhEMzU5MDQz",
             "snippet": {
                 "publishedAt": "2020-12-17T01:45:00Z",
@@ -790,7 +994,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 15,
+                "position": 19,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "H6MxsFMAoP8"
@@ -805,7 +1009,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "jvDvRocchK_NkWErT_C3hs5r8lI",
+            "etag": "D6qI6SxWb2CWODrMiasTctwl0gY",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS5GNjNDRDREMDQxOThCMDQ2",
             "snippet": {
                 "publishedAt": "2020-12-17T01:45:04Z",
@@ -841,7 +1045,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 16,
+                "position": 20,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "BNEoKexlmA4"
@@ -856,7 +1060,7 @@
         }
     ],
     "pageInfo": {
-        "totalResults": 17,
+        "totalResults": 21,
         "resultsPerPage": 50
     }
 }
