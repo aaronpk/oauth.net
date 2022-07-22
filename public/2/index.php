@@ -70,6 +70,7 @@ require('../../includes/_header.php');
       <li><a href="/2/bearer-tokens/">Bearer Tokens</a> - RFC 6750</li>
       <li><a href="/2/security-considerations/">Threat Model and Security Considerations</a> - RFC 6819</li>
       <li><a href="/2/oauth-best-practice/">OAuth Security Best Current Practice</a>
+      <li><a href="/id-tokens-vs-access-tokens/">ID Tokens vs Access Tokens</a></li>
     </ul>
 
     <h4>Mobile and Other Devices</h4>
@@ -104,17 +105,20 @@ require('../../includes/_header.php');
       <li><a href="/specs/">All OAuth Working Group Documents</a></li>
     </ul>
 
-
-    <h3>Related Specs and Extensions</h3>
+    <h3>Additional Extensions</h3>
     <ul>
       <li><a href="https://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml">OAuth Extension Parameter Registry</a></li>
       <li><a href="http://tools.ietf.org/html/rfc7521">OAuth Assertions Framework</a> - RFC 7521</li>
       <li><a href="http://tools.ietf.org/html/rfc7522">SAML2 Bearer Assertion</a> - RFC 7522, for integrating with existing identity systems</li>
       <li><a href="http://tools.ietf.org/html/rfc7523">JWT Bearer Assertion</a> - RFC 7523, for integrating with existing identity systems</li>
       <li><a href="/2/pushed-authorization-requests/">Pushed Authorization Requests (PAR)</a> - RFC 9126</li>
+    </ul>
+
+    <h3>Related Work from Other Communities</h3>
+    <ul>
+      <li><a href="/fapi/">FAPI</a> (OpenID Foundation)</li>
       <li><a href="/webauthn/">WebAuthn - Web Authentication</a></li>
       <li><a href="/http-signatures/">Signing HTTP Messages</a> - A generic HTTP message signing spec</li>
-      <li><a href="/id-tokens-vs-access-tokens/">ID Tokens vs Access Tokens</a></li>
     </ul>
 
     <h3>Community Resources</h3>
