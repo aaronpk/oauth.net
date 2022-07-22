@@ -120,7 +120,7 @@ function tweet_doc_update($docfile) {
     }
   }
 
-  $docURL = 'https://datatracker.ietf.org/'.$docslug.'/';
+  $docURL = 'https://datatracker.ietf.org/doc/'.$docslug.'/';
 
   $tweetText = '';
 
