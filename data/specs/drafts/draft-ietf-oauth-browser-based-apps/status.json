@@ -1,6 +1,6 @@
 {
-    "name": "draft-ietf-oauth-v2-1",
-    "title": "The OAuth 2.1 Authorization Framework",
+    "name": "draft-ietf-oauth-browser-based-apps",
+    "title": "OAuth 2.0 for Browser-Based Apps",
     "last_revised_date": "2022-03-07",
     "status": "I-D Exists",
     "group": "oauth",

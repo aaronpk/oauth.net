@@ -1,0 +1,9 @@
+{
+    "name": "draft-ietf-oauth-jwk-thumbprint-uri",
+    "title": "JWK Thumbprint URI",
+    "last_revised_date": "2022-06-01",
+    "status": "RFC Ed Queue",
+    "group": "oauth",
+    "ad": "Roman Danyliw",
+    "last_changed_date": "2022-07-20"
+}

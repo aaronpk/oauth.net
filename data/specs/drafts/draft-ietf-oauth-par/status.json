@@ -1,17 +1,10 @@
 {
     "name": "draft-ietf-oauth-par",
     "title": "OAuth 2.0 Pushed Authorization Requests",
-    "last_revised_date": "2021-05-14",
-    "status": "AD Evaluation::AD Followup",
+    "last_revised_date": "2021-07-29",
+    "status": "RFC 9126 (Proposed Standard)",
     "group": "oauth",
     "ad": "Roman Danyliw",
-    "last_changed_date": "2021-05-14",
-    "version": "08",
-    "authors": [
-        "T. Lodderstedt",
-        "B. Campbell",
-        "N. Sakimura",
-        "D. Tonge",
-        "F. Skokan"
-    ]
+    "last_changed_date": "2021-10-16",
+    "rfc": "9126"
 }

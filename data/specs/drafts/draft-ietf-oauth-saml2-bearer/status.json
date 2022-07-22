@@ -6,10 +6,5 @@
     "group": "oauth",
     "ad": "Kathleen Moriarty",
     "last_changed_date": "2015-10-14",
-    "rfc": "7522",
-    "authors": [
-        "B. Campbell",
-        "C. Mortimore",
-        "M. Jones"
-    ]
+    "rfc": "7522"
 }

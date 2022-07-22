@@ -6,9 +6,5 @@
     "group": "oauth",
     "ad": "Stephen Farrell",
     "last_changed_date": "2015-10-14",
-    "rfc": "6755",
-    "authors": [
-        "B. Campbell",
-        "H. Tschofenig"
-    ]
+    "rfc": "6755"
 }

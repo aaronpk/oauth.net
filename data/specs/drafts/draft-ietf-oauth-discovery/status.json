@@ -6,10 +6,5 @@
     "group": "oauth",
     "ad": "Eric Rescorla",
     "last_changed_date": "2018-06-29",
-    "rfc": "8414",
-    "authors": [
-        "M. Jones",
-        "N. Sakimura",
-        "J. Bradley"
-    ]
+    "rfc": "8414"
 }

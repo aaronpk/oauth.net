@@ -1,6 +1,6 @@
 {
-    "name": "draft-ietf-oauth-dpop",
-    "title": "OAuth 2.0 Demonstrating Proof-of-Possession at the Application Layer (DPoP)",
+    "name": "draft-ietf-oauth-step-up-authn-challenge",
+    "title": "OAuth 2.0 Step-up Authentication Challenge Protocol",
     "last_revised_date": "2022-07-11",
     "status": "I-D Exists",
     "group": "oauth",

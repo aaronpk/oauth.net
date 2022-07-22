@@ -6,10 +6,5 @@
     "group": "oauth",
     "ad": "Kathleen Moriarty",
     "last_changed_date": "2020-05-31",
-    "rfc": "7800",
-    "authors": [
-        "M. Jones",
-        "J. Bradley",
-        "H. Tschofenig"
-    ]
+    "rfc": "7800"
 }
