@@ -99,7 +99,6 @@ require('../../includes/_header.php');
     <p>The specs below are either experimental or in draft status and are still active working group items. They will likely change before they are finalized as RFCs or BCPs.</p>
     <ul>
       <li><a href="/2/rich-authorization-requests/">Rich Authorization Requests (RAR)</a></li>
-      <li><a href="/2/pushed-authorization-requests/">Pushed Authorization Requests (PAR)</a></li>
       <li><a href="/2/dpop/">Demonstration of Proof of Possession (DPoP)</a></li>
       <li><a href="https://tools.ietf.org/html/draft-ietf-oauth-incremental-authz">Incremental Authorization</a></li>
       <li><a href="/specs/">All OAuth Working Group Documents</a></li>
@@ -112,6 +111,7 @@ require('../../includes/_header.php');
       <li><a href="http://tools.ietf.org/html/rfc7521">OAuth Assertions Framework</a> - RFC 7521</li>
       <li><a href="http://tools.ietf.org/html/rfc7522">SAML2 Bearer Assertion</a> - RFC 7522, for integrating with existing identity systems</li>
       <li><a href="http://tools.ietf.org/html/rfc7523">JWT Bearer Assertion</a> - RFC 7523, for integrating with existing identity systems</li>
+      <li><a href="/2/pushed-authorization-requests/">Pushed Authorization Requests (PAR)</a> - RFC 9126</li>
       <li><a href="/webauthn/">WebAuthn - Web Authentication</a></li>
       <li><a href="/http-signatures/">Signing HTTP Messages</a> - A generic HTTP message signing spec</li>
       <li><a href="/id-tokens-vs-access-tokens/">ID Tokens vs Access Tokens</a></li>
