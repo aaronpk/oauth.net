@@ -1,0 +1,40 @@
+{
+    "title": "OAuth 2.0 Step-up Authentication Challenge Protocol",
+    "link": {
+        "@attributes": {
+            "href": "/doc/draft-bertocci-oauth-step-up-authn-challenge/"
+        }
+    },
+    "id": "853414",
+    "updated": "2022-03-22T03:54:12-0700",
+    "published": "2022-03-22T03:54:12-0700",
+    "author": {
+        "name": "Brian Campbell"
+    },
+    "content": {
+        "@attributes": {
+            "type": "html"
+        },
+        "@text": "New version available: <b>draft-bertocci-oauth-step-up-authn-challenge-01.txt</b>"
+    },
+    "ietf": {
+        "type": "new_revision",
+        "group": "none",
+        "state": [
+            {
+                "@attributes": {
+                    "type": "draft"
+                },
+                "@text": "active"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iesg"
+                },
+                "@text": "idexists"
+            }
+        ],
+        "abstract": "It is not uncommon for resource servers to require different\n   authentication strengths or freshness according to the\n   characteristics of a request.  This document introduces a mechanism\n   for a resource server to signal to a client that the authentication\n   event associated with the access token of the current request doesn't\n   meet its authentication requirements and specify how to meet them.\n   This document also codifies a mechanism for a client to request that\n   an authorization server achieve a specific authentication strength or\n   freshness when processing an authorization request.",
+        "version": "01"
+    }
+}

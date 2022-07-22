@@ -1,0 +1,40 @@
+{
+    "title": "OAuth Proof of Possession Tokens with HTTP Message Signatures",
+    "link": {
+        "@attributes": {
+            "href": "/doc/draft-richer-oauth-httpsig/"
+        }
+    },
+    "id": "811927",
+    "updated": "2021-06-21T08:52:13-0700",
+    "published": "2021-06-21T08:52:13-0700",
+    "author": {
+        "name": "Justin Richer"
+    },
+    "content": {
+        "@attributes": {
+            "type": "html"
+        },
+        "@text": "New version available: <b>draft-richer-oauth-httpsig-00.txt</b>"
+    },
+    "ietf": {
+        "type": "new_revision",
+        "group": "none",
+        "state": [
+            {
+                "@attributes": {
+                    "type": "draft"
+                },
+                "@text": "active"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iesg"
+                },
+                "@text": "idexists"
+            }
+        ],
+        "abstract": "This extension to the OAuth 2.0 authorization framework defines a\n   method for using HTTP Message Signatures to bind access tokens to\n   keys held by OAuth 2.0 clients.",
+        "version": "00"
+    }
+}

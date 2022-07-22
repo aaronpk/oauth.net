@@ -1,0 +1,71 @@
+{
+    "title": "JSON Web Token (JWT) Profile for OAuth 2.0 Access Tokens",
+    "link": {
+        "@attributes": {
+            "href": "/doc/draft-ietf-oauth-access-token-jwt/"
+        }
+    },
+    "id": "822955",
+    "updated": "2021-08-31T07:34:22-0700",
+    "published": "2021-08-31T07:34:22-0700",
+    "author": {
+        "name": "Amy Vezza"
+    },
+    "content": {
+        "@attributes": {
+            "type": "html"
+        },
+        "@text": "IESG has approved the document"
+    },
+    "ietf": {
+        "type": "iesg_approved",
+        "stream": "ietf",
+        "group": "oauth",
+        "shepherd": "Hannes Tschofenig",
+        "ad": "Roman Danyliw",
+        "state": [
+            {
+                "@attributes": {
+                    "type": "draft"
+                },
+                "@text": "active"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iana-action"
+                },
+                "@text": "rfcedack"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iana-experts"
+                },
+                "@text": "reviewers-ok"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iana-review"
+                },
+                "@text": "ok-act"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iesg"
+                },
+                "@text": "rfcqueue"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-rfceditor"
+                },
+                "@text": "edit"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-stream-ietf"
+                },
+                "@text": "sub-pub"
+            }
+        ]
+    }
+}

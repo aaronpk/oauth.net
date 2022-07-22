@@ -1,0 +1,61 @@
+{
+    "title": "OAuth 2.0 Authorization Server Issuer Identification",
+    "link": {
+        "@attributes": {
+            "href": "/doc/draft-ietf-oauth-iss-auth-resp/"
+        }
+    },
+    "id": "835566",
+    "updated": "2021-11-18T11:59:50-0800",
+    "published": "2021-11-18T11:59:50-0800",
+    "author": {
+        "name": "Karsten zu Selhausen"
+    },
+    "content": {
+        "@attributes": {
+            "type": "html"
+        },
+        "@text": "New version available: <b>draft-ietf-oauth-iss-auth-resp-03.txt</b>"
+    },
+    "ietf": {
+        "type": "new_revision",
+        "stream": "ietf",
+        "group": "oauth",
+        "shepherd": "Rifaat Shekh-Yusef",
+        "ad": "Roman Danyliw",
+        "state": [
+            {
+                "@attributes": {
+                    "type": "draft"
+                },
+                "@text": "active"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iana-experts"
+                },
+                "@text": "reviews-assigned"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iana-review"
+                },
+                "@text": "not-ok"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iesg"
+                },
+                "@text": "approved"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-stream-ietf"
+                },
+                "@text": "sub-pub"
+            }
+        ],
+        "abstract": "This document specifies a new parameter \"iss\" that is used to\n   explicitly include the issuer identifier of the authorization server\n   in the authorization response of an OAuth authorization flow.  The\n   \"iss\" parameter serves as an effective countermeasure to \"mix-up\n   attacks\".",
+        "version": "04"
+    }
+}

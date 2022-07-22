@@ -1,0 +1,48 @@
+{
+    "title": "OAuth 2.0 Rich Authorization Requests",
+    "link": {
+        "@attributes": {
+            "href": "/doc/draft-ietf-oauth-rar/"
+        }
+    },
+    "id": "842282",
+    "updated": "2022-01-22T08:44:32-0800",
+    "published": "2022-01-22T08:44:32-0800",
+    "author": {
+        "name": "Torsten Lodderstedt"
+    },
+    "content": {
+        "@attributes": {
+            "type": "html"
+        },
+        "@text": "New version available: <b>draft-ietf-oauth-rar-09.txt</b>"
+    },
+    "ietf": {
+        "type": "new_revision",
+        "stream": "ietf",
+        "group": "oauth",
+        "shepherd": "Hannes Tschofenig",
+        "state": [
+            {
+                "@attributes": {
+                    "type": "draft"
+                },
+                "@text": "active"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iesg"
+                },
+                "@text": "idexists"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-stream-ietf"
+                },
+                "@text": "writeupw"
+            }
+        ],
+        "abstract": "This document specifies a new parameter authorization_details that is\n   used to carry fine-grained authorization data in OAuth messages.",
+        "version": "10"
+    }
+}

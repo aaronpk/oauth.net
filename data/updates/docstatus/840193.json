@@ -1,0 +1,71 @@
+{
+    "title": "OAuth 2.0 Authorization Server Issuer Identification",
+    "link": {
+        "@attributes": {
+            "href": "/doc/draft-ietf-oauth-iss-auth-resp/"
+        }
+    },
+    "id": "840193",
+    "updated": "2022-01-05T10:35:20-0800",
+    "published": "2022-01-05T10:35:20-0800",
+    "author": {
+        "name": "Amy Vezza"
+    },
+    "content": {
+        "@attributes": {
+            "type": "html"
+        },
+        "@text": "IESG has approved the document"
+    },
+    "ietf": {
+        "type": "iesg_approved",
+        "stream": "ietf",
+        "group": "oauth",
+        "shepherd": "Rifaat Shekh-Yusef",
+        "ad": "Roman Danyliw",
+        "state": [
+            {
+                "@attributes": {
+                    "type": "draft"
+                },
+                "@text": "active"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iana-action"
+                },
+                "@text": "onhold"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iana-experts"
+                },
+                "@text": "reviews-assigned"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iana-review"
+                },
+                "@text": "not-ok"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iesg"
+                },
+                "@text": "rfcqueue"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-rfceditor"
+                },
+                "@text": "edit"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-stream-ietf"
+                },
+                "@text": "sub-pub"
+            }
+        ]
+    }
+}

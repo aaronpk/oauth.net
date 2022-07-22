@@ -1,0 +1,47 @@
+{
+    "title": "OAuth 2.0 Demonstrating Proof-of-Possession at the Application Layer (DPoP)",
+    "link": {
+        "@attributes": {
+            "href": "/doc/draft-ietf-oauth-dpop/"
+        }
+    },
+    "id": "848071",
+    "updated": "2022-03-01T12:37:56-0800",
+    "published": "2022-03-01T12:37:56-0800",
+    "author": {
+        "name": "Brian Campbell"
+    },
+    "content": {
+        "@attributes": {
+            "type": "html"
+        },
+        "@text": "New version available: <b>draft-ietf-oauth-dpop-06.txt</b>"
+    },
+    "ietf": {
+        "type": "new_revision",
+        "stream": "ietf",
+        "group": "oauth",
+        "state": [
+            {
+                "@attributes": {
+                    "type": "draft"
+                },
+                "@text": "active"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iesg"
+                },
+                "@text": "idexists"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-stream-ietf"
+                },
+                "@text": "wg-doc"
+            }
+        ],
+        "abstract": "This document describes a mechanism for sender-constraining OAuth 2.0\n   tokens via a proof-of-possession mechanism on the application level.\n   This mechanism allows for the detection of replay attacks with access\n   and refresh tokens.",
+        "version": "06"
+    }
+}

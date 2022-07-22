@@ -1,0 +1,47 @@
+{
+    "title": "OAuth 2.0 for Browser-Based Apps",
+    "link": {
+        "@attributes": {
+            "href": "/doc/draft-ietf-oauth-browser-based-apps/"
+        }
+    },
+    "id": "807149",
+    "updated": "2021-05-17T18:38:29-0700",
+    "published": "2021-05-17T18:38:29-0700",
+    "author": {
+        "name": "Aaron Parecki"
+    },
+    "content": {
+        "@attributes": {
+            "type": "html"
+        },
+        "@text": "New version available: <b>draft-ietf-oauth-browser-based-apps-08.txt</b>"
+    },
+    "ietf": {
+        "type": "new_revision",
+        "stream": "ietf",
+        "group": "oauth",
+        "state": [
+            {
+                "@attributes": {
+                    "type": "draft"
+                },
+                "@text": "active"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iesg"
+                },
+                "@text": "idexists"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-stream-ietf"
+                },
+                "@text": "wg-doc"
+            }
+        ],
+        "abstract": "This specification details the security considerations and best\n   practices that must be taken into account when developing browser-\n   based applications that use OAuth 2.0.",
+        "version": "08"
+    }
+}

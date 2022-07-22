@@ -1,0 +1,47 @@
+{
+    "title": "The OAuth 2.1 Authorization Framework",
+    "link": {
+        "@attributes": {
+            "href": "/doc/draft-ietf-oauth-v2-1/"
+        }
+    },
+    "id": "823952",
+    "updated": "2021-09-08T14:06:20-0700",
+    "published": "2021-09-08T14:06:20-0700",
+    "author": {
+        "name": "Aaron Parecki"
+    },
+    "content": {
+        "@attributes": {
+            "type": "html"
+        },
+        "@text": "New version available: <b>draft-ietf-oauth-v2-1-03.txt</b>"
+    },
+    "ietf": {
+        "type": "new_revision",
+        "stream": "ietf",
+        "group": "oauth",
+        "state": [
+            {
+                "@attributes": {
+                    "type": "draft"
+                },
+                "@text": "active"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iesg"
+                },
+                "@text": "idexists"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-stream-ietf"
+                },
+                "@text": "wg-doc"
+            }
+        ],
+        "abstract": "The OAuth 2.1 authorization framework enables a third-party\n   application to obtain limited access to an HTTP service, either on\n   behalf of a resource owner by orchestrating an approval interaction\n   between the resource owner and an authorization service, or by\n   allowing the third-party application to obtain access on its own\n   behalf.  This specification replaces and obsoletes the OAuth 2.0\n   Authorization Framework described in RFC 6749.",
+        "version": "03"
+    }
+}

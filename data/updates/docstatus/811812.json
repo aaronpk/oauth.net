@@ -1,0 +1,61 @@
+{
+    "title": "JWT Response for OAuth Token Introspection",
+    "link": {
+        "@attributes": {
+            "href": "/doc/draft-ietf-oauth-jwt-introspection-response/"
+        }
+    },
+    "id": "811812",
+    "updated": "2021-06-20T07:58:15-0700",
+    "published": "2021-06-20T07:58:15-0700",
+    "author": {
+        "name": "Torsten Lodderstedt"
+    },
+    "content": {
+        "@attributes": {
+            "type": "html"
+        },
+        "@text": "New version available: <b>draft-ietf-oauth-jwt-introspection-response-11.txt</b>"
+    },
+    "ietf": {
+        "type": "new_revision",
+        "stream": "ietf",
+        "group": "oauth",
+        "shepherd": "Rifaat Shekh-Yusef",
+        "ad": "Roman Danyliw",
+        "state": [
+            {
+                "@attributes": {
+                    "type": "draft"
+                },
+                "@text": "active"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iana-experts"
+                },
+                "@text": "reviewers-ok"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iana-review"
+                },
+                "@text": "changed"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iesg"
+                },
+                "@text": "iesg-eva"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-stream-ietf"
+                },
+                "@text": "sub-pub"
+            }
+        ],
+        "abstract": "This specification proposes an additional JSON Web Token (JWT)\n   secured response for OAuth 2.0 Token Introspection.",
+        "version": "11"
+    }
+}
