@@ -97,23 +97,16 @@ function tweet_doc_update($docfile) {
   echo "Tweeting about $docfile\n";
   $data = json_decode(file_get_contents($docfile), true);
 
-  $doc = $data['link']['@attributes']['href'];
-  preg_match('~/(draft-.+)/~', $doc, $match);
-  $slug = $match[1];
+  preg_match('~/(draft-.+)/~', $data['link']['@attributes']['href'], $match);
+  $docslug = $match[1];
 
-  $draftFile = __DIR__.'/../specs/drafts/'.$slug.'/status.json';
+  $draftFile = __DIR__.'/../specs/drafts/'.$docslug.'/status.json';
   if(!file_exists($draftFile)) {
-    echo "Error: File not found: $slug\n";
+    echo "Error: File not found: $docslug\n";
     return;
   }
 
   $draft = json_decode(file_get_contents($draftFile), true);
-
-  $docURL = 'https://tools.ietf.org/html/' . $slug;
-
-  // echo $slug."\n";
-  // print_r($data);
-  // print_r($draft);
 
   $authors = [];
   if(isset($draft['authors'])) {
@@ -127,13 +120,21 @@ function tweet_doc_update($docfile) {
     }
   }
 
+  $docURL = 'https://datatracker.ietf.org/'.$docslug.'/';
+
   $tweetText = '';
 
   switch($data['ietf']['type']) {
     case 'iesg_approved':
-      $tweetText .= 'Congrats! The IESG approved the document "' . $draft['title'] . '"';
+      $tweetText .= 'The IESG approved the document "' . $draft['title'] . '"';      
       break;
     case 'new_revision':
+      preg_match('~(draft-.+([0-9]{2}))\.txt~', $data['content']['@text'], $match);
+      $versionslug = $match[1];
+      $version = $match[2];
+
+      $docURL = 'https://www.ietf.org/archive/id/' . $versionslug . '.html';
+      
       $tweetText .= 'New version available! "' . $draft['title'] . '"';
       break;
   }
@@ -151,7 +152,11 @@ function tweet_doc_update($docfile) {
     'date' => date('c'),
     'url' => $tweetURL,
   ], JSON_PRETTY_PRINT+JSON_UNESCAPED_SLASHES));
-
+  
+  // Also update the status file while we're here
+  if(isset($version))
+    $draft['version'] = $version;
+  file_put_contents($draftFile, json_encode($draft, JSON_PRETTY_PRINT+JSON_UNESCAPED_SLASHES));
 }
 
 
