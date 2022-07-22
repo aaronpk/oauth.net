@@ -1,0 +1,36 @@
+{
+    "data": {
+        "type": "event",
+        "name": "OAuth Security Workshop 2022",
+        "start": "2022-05-04",
+        "end": "2022-05-06",
+        "url": "https://events.oauth.net/2022/05/oauth-security-workshop-2022-27qDGsmbmc7P",
+        "category": [
+            "security",
+            "oauth",
+            "openid",
+            "gnap"
+        ],
+        "location": {
+            "type": "card",
+            "name": "Scandic Nidelven",
+            "latitude": "63.4355569",
+            "longitude": "10.4066156",
+            "street-address": "1-3 Havnegata",
+            "locality": "Trondheim",
+            "region": "Tr\u00f8ndelag",
+            "country-name": "Norway"
+        },
+        "content": {
+            "text": "The OAuth Security Workshop (OSW) aims to improve the security of OAuth, OpenID Connect, GNAP and related Internet protocols by facilitating a direct exchange among academic researchers, standardization group members, and industry experts.\n\nOSW also serves as an independent venue for the exchange between various working groups (IETF OAuth and GNAP working groups, OpenID Foundation, etc.).",
+            "html": "<p>The OAuth Security Workshop (OSW) aims to improve the security of OAuth, OpenID Connect, GNAP and related Internet protocols by facilitating a direct exchange among academic researchers, standardization group members, and industry experts.</p>\n\n<p>OSW also serves as an independent venue for the exchange between various working groups (IETF OAuth and GNAP working groups, OpenID Foundation, etc.).</p>"
+        },
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://oauth.secworkshop.events/osw2022"
+        }
+    },
+    "url": "https://events.oauth.net/2022/05/oauth-security-workshop-2022-27qDGsmbmc7P",
+    "code": 200,
+    "source-format": "mf2+html"
+}

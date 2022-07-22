@@ -1,0 +1,33 @@
+{
+    "data": {
+        "type": "event",
+        "name": "OpenID Foundation Hybrid Workshop",
+        "start": "2022-04-25T13:00:00-07:00",
+        "end": "2022-04-25T16:00:00-07:00",
+        "url": "https://events.oauth.net/2022/04/openid-foundation-hybrid-workshop-AOrYQgkaZrVN",
+        "category": [
+            "openid"
+        ],
+        "location": {
+            "type": "card",
+            "name": "Google, Room US-SVL-CRSM1240-1-Ankimo",
+            "latitude": "37.4086297",
+            "longitude": "-122.0097349",
+            "street-address": "1240 Crossman Ave",
+            "locality": "Sunnyvale",
+            "region": "California",
+            "country-name": "United States"
+        },
+        "content": {
+            "text": "OpenID Foundation Workshops provide technical insight and influence on current digital identity standards while offering a collaborative platform to openly address current trends and market opportunities. This OpenID Foundation Workshop includes a number of presentations focused on 2022 key initiatives for the Foundation as well as updates on active working groups.\n\nRegister",
+            "html": "<p>OpenID Foundation Workshops provide technical insight and influence on current digital identity standards while offering a collaborative platform to openly address current trends and market opportunities. This OpenID Foundation Workshop includes a number of presentations focused on 2022 key initiatives for the Foundation as well as updates on active working groups.</p>\n\n<p><a href=\"https://www.eventbrite.com/e/openid-foundation-workshop-monday-april-25-2022-tickets-304150210467\">Register</a></p>"
+        },
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://openid.net/2022/03/22/registration-open-for-openid-foundation-workshop-at-google-monday-april-25-2022/"
+        }
+    },
+    "url": "https://events.oauth.net/2022/04/openid-foundation-hybrid-workshop-AOrYQgkaZrVN",
+    "code": 200,
+    "source-format": "mf2+html"
+}

@@ -1,0 +1,25 @@
+{
+    "data": {
+        "type": "event",
+        "name": "IETF 112 Online",
+        "start": "2021-11-06",
+        "end": "2021-11-12",
+        "url": "https://events.oauth.net/2021/11/ietf-112-online-Avqi3Vpx6skl",
+        "category": [
+            "ietf"
+        ],
+        "location": {
+            "type": "card",
+            "name": "Online",
+            "latitude": "40.4614403",
+            "longitude": "-3.6921475"
+        },
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://www.ietf.org/how/meetings/112/"
+        }
+    },
+    "url": "https://events.oauth.net/2021/11/ietf-112-online-Avqi3Vpx6skl",
+    "code": 200,
+    "source-format": "mf2+html"
+}

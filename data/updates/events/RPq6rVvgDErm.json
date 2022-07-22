@@ -1,0 +1,28 @@
+{
+    "data": {
+        "type": "event",
+        "name": "GNAP Interim Meeting",
+        "start": "2021-10-05T16:00:00+00:00",
+        "end": "2021-10-05T17:00:00+00:00",
+        "url": "https://events.oauth.net/2021/10/gnap-interim-meeting-RPq6rVvgDErm",
+        "category": [
+            "gnap",
+            "ietf"
+        ],
+        "location": {
+            "type": "card",
+            "name": "Online"
+        },
+        "content": {
+            "text": "Agenda:\n\nChairs intro: administration\nCore draft update\n\nTrust relationships\nSecurity considerations\nPrivacy considerations\n\nOpen Issues\n\nSymmetric Crypto\nSOLID use cases\nEnd-user vs. RO\nGeneric HTTP access type\n\nWhat topics to focus on for IETF 112?",
+            "html": "<p>Agenda:</p>\n\n<ul><li>Chairs intro: administration</li>\n<li>Core draft update\n\n<ul><li>Trust relationships</li>\n<li>Security considerations</li>\n<li>Privacy considerations</li>\n</ul></li>\n<li>Open Issues\n\n<ul><li>Symmetric Crypto</li>\n<li>SOLID use cases</li>\n<li>End-user vs. RO</li>\n<li>Generic HTTP access type</li>\n</ul></li>\n<li>What topics to focus on for IETF 112?</li>\n</ul>"
+        },
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://datatracker.ietf.org/meeting/interim-2021-gnap-05/session/gnap"
+        }
+    },
+    "url": "https://events.oauth.net/2021/10/gnap-interim-meeting-RPq6rVvgDErm",
+    "code": 200,
+    "source-format": "mf2+html"
+}

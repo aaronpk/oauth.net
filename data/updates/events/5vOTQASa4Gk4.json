@@ -1,0 +1,30 @@
+{
+    "data": {
+        "type": "event",
+        "name": "Developer Day",
+        "start": "2021-08-24",
+        "end": "2021-08-25",
+        "url": "https://events.oauth.net/2021/08/developer-day-5vOTQASa4Gk4",
+        "category": [
+            "developer",
+            "oauth",
+            "auth0",
+            "okta"
+        ],
+        "location": {
+            "type": "card",
+            "name": "Online"
+        },
+        "content": {
+            "text": "Learn how to add security to your apps, APIs, and infrastructure. So you can spend less time on auth and more time on everything else.\n\nAgenda (Day 1)\n\n10:00 AM - 10:30 AM PDT Platform Open + Chat Rooms\n10:30 AM - 11:15 AM PDT Opening Keynote\n11:30 AM - 1:30 PM PDT Breakout Sessions\n1:45 PM - 2:15 PM PDT Closing Keynote\n2:15 PM - 4:00 PM PDT Chat Rooms\n(See the event page for full details on the agenda)\n\nAgenda (Day 2 Labs)\n\n8:00 AM - 9:30 AM PDT Introduction to OAuth and OpenID Connect - Aaron Parecki\n10:00 AM - 11:30 AM PDT Auth0\n12:00 PM - 1:30 PM PDT Terraform\n2:00 PM - 3:30 PM PDT DevOps with JFrog\n4:00 PM - 5:30 PM PDT Protect Your APIs with OAuth\nFull details\n\nHosted by Okta and Auth0",
+            "html": "<p>Learn how to add security to your apps, APIs, and infrastructure. So you can spend less time on auth and more time on everything else.</p>\n\n<h2>Agenda (Day 1)</h2>\n\n<ul><li>10:00 AM - 10:30 AM PDT Platform Open + Chat Rooms</li>\n<li>10:30 AM - 11:15 AM PDT Opening Keynote</li>\n<li>11:30 AM - 1:30 PM PDT Breakout Sessions</li>\n<li>1:45 PM - 2:15 PM PDT Closing Keynote</li>\n<li>2:15 PM - 4:00 PM PDT Chat Rooms</li>\n</ul><p>(See <a href=\"https://www.okta.com/developerday/\">the event page</a> for full details on the agenda)</p>\n\n<h2>Agenda (Day 2 Labs)</h2>\n\n<ul><li>8:00 AM - 9:30 AM PDT Introduction to OAuth and OpenID Connect - Aaron Parecki</li>\n<li>10:00 AM - 11:30 AM PDT Auth0</li>\n<li>12:00 PM - 1:30 PM PDT Terraform</li>\n<li>2:00 PM - 3:30 PM PDT DevOps with JFrog</li>\n<li>4:00 PM - 5:30 PM PDT Protect Your APIs with OAuth</li>\n</ul><p><a href=\"https://developer-day.live/\">Full details</a></p>\n\n<p>Hosted by Okta and Auth0</p>"
+        },
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://www.okta.com/developerday/"
+        }
+    },
+    "url": "https://events.oauth.net/2021/08/developer-day-5vOTQASa4Gk4",
+    "code": 200,
+    "source-format": "mf2+html"
+}

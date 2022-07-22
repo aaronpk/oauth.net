@@ -1,0 +1,30 @@
+{
+    "data": {
+        "type": "event",
+        "name": "Identiverse 2021",
+        "start": "2021-06-21",
+        "end": "2021-06-23",
+        "url": "https://events.oauth.net/2021/06/identiverse-2021-BcC2Wkk3TLGk",
+        "featured": "https://events.oauth.net/storage/events/20210611-tp0HdiaF574scE2EGRWbtV0WgnKULN.jpg",
+        "category": [
+            "identiverse",
+            "oauth",
+            "identity"
+        ],
+        "location": {
+            "type": "card",
+            "latitude": "39.7392358",
+            "longitude": "-104.990251",
+            "locality": "Denver",
+            "region": "Colorado"
+        },
+        "content": {
+            "text": "This is the place where Identity Professionals come to meet, learn and collaborate.\n\nDon't miss the sessions for developers!\n\nhttps://identiverse.com/idv2021/",
+            "html": "<p>This is the place where Identity Professionals come to meet, learn and collaborate.</p>\n\n<p>Don't miss the sessions for developers!</p>\n\n<p><a href=\"https://identiverse.com/idv2021/\">https://identiverse.com/idv2021/</a></p>"
+        },
+        "post-type": "event"
+    },
+    "url": "https://events.oauth.net/2021/06/identiverse-2021-BcC2Wkk3TLGk",
+    "code": 200,
+    "source-format": "mf2+html"
+}

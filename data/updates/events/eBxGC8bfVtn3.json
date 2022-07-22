@@ -1,0 +1,23 @@
+{
+    "data": {
+        "type": "event",
+        "name": "IETF 111 Online",
+        "start": "2021-07-26",
+        "end": "2021-07-30",
+        "url": "https://events.oauth.net/2021/07/ietf-111-online-eBxGC8bfVtn3",
+        "category": [
+            "ietf"
+        ],
+        "location": {
+            "type": "card",
+            "name": "Online"
+        },
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://www.ietf.org/how/meetings/111/"
+        }
+    },
+    "url": "https://events.oauth.net/2021/07/ietf-111-online-eBxGC8bfVtn3",
+    "code": 200,
+    "source-format": "mf2+html"
+}

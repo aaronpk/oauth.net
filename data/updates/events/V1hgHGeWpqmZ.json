@@ -1,0 +1,29 @@
+{
+    "data": {
+        "type": "event",
+        "name": "IETF 118 Prague",
+        "start": "2023-11-04",
+        "end": "2023-11-10",
+        "url": "https://events.oauth.net/2023/11/ietf-118-prague-V1hgHGeWpqmZ",
+        "category": [
+            "ietf"
+        ],
+        "location": {
+            "type": "card",
+            "name": "Hilton Prague Old Town",
+            "latitude": "50.0885837",
+            "longitude": "14.4317811",
+            "street-address": "2079/7 V Celnici",
+            "locality": "Prague",
+            "region": "Hlavn\u00ed m\u011bsto Praha",
+            "country-name": "Czechia"
+        },
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://www.ietf.org/how/meetings/118/"
+        }
+    },
+    "url": "https://events.oauth.net/2023/11/ietf-118-prague-V1hgHGeWpqmZ",
+    "code": 200,
+    "source-format": "mf2+html"
+}

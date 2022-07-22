@@ -1,0 +1,32 @@
+{
+    "data": {
+        "type": "event",
+        "name": "European Identity and Cloud Conference",
+        "start": "2022-05-10",
+        "end": "2022-05-13",
+        "url": "https://events.oauth.net/2022/05/european-identity-and-cloud-conference-AcNQobRB8hbF",
+        "category": [
+            "oauth",
+            "identity"
+        ],
+        "location": {
+            "type": "card",
+            "name": "bcc Berlin Congress Center GmbH",
+            "latitude": "52.520771",
+            "longitude": "13.4164018",
+            "street-address": "11 Alexanderstra\u00dfe",
+            "locality": "Berlin"
+        },
+        "content": {
+            "text": "EIC is Europe's leading event for the future of digital identities and cybersecurity.\n\nAaron Parecki and Vittorio Bertocci will be presenting sessions at the conference.",
+            "html": "<p>EIC is Europe's leading event for the future of digital identities and cybersecurity.</p>\n\n<p>Aaron Parecki and Vittorio Bertocci will be presenting sessions at the conference.</p>"
+        },
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://www.kuppingercole.com/events/eic2022"
+        }
+    },
+    "url": "https://events.oauth.net/2022/05/european-identity-and-cloud-conference-AcNQobRB8hbF",
+    "code": 200,
+    "source-format": "mf2+html"
+}

@@ -1,0 +1,25 @@
+{
+    "data": {
+        "type": "event",
+        "name": "OAuth Happy Hour Live Q&A",
+        "start": "2021-07-15T16:00:00-07:00",
+        "end": "2021-07-15T17:00:00-07:00",
+        "url": "https://events.oauth.net/2021/07/oauth-happy-hour-live-q-a-8YfDKrxTEBSi",
+        "featured": "https://events.oauth.net/storage/events/20210625-MIgOFyrNSGPuUwsrGXUf3Ysur1LCrM.jpg",
+        "category": [
+            "oauth",
+            "happyhour"
+        ],
+        "content": {
+            "text": "Join Aaron Parecki from Okta and Vittorio Bertocci from Auth0 for an hour of live Q&A about all things OAuth and OpenID Connect! Bring your questions, or just come to learn about what's new!",
+            "html": "<p>Join Aaron Parecki from Okta and Vittorio Bertocci from Auth0 for an hour of live Q&amp;A about all things OAuth and OpenID Connect! Bring your questions, or just come to learn about what's new!</p>"
+        },
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://youtube.com/oktadev"
+        }
+    },
+    "url": "https://events.oauth.net/2021/07/oauth-happy-hour-live-q-a-8YfDKrxTEBSi",
+    "code": 200,
+    "source-format": "mf2+html"
+}

@@ -1,0 +1,35 @@
+{
+    "data": {
+        "type": "event",
+        "name": "Internet Identity Workshop XXXIV",
+        "start": "2022-04-26",
+        "end": "2022-04-28",
+        "url": "https://events.oauth.net/2022/04/internet-identity-workshop-xxxiv-jQbh1lDndUqP",
+        "category": [
+            "identity",
+            "unconference",
+            "iiw"
+        ],
+        "location": {
+            "type": "card",
+            "name": "Computer History Museum",
+            "latitude": "37.4142744",
+            "longitude": "-122.077409",
+            "street-address": "1401 N Shoreline Blvd",
+            "locality": "Mountain View",
+            "region": "California",
+            "country-name": "United States"
+        },
+        "content": {
+            "text": "The Internet Identity Workshop has been finding, probing and solving identity issues twice every year since 2005. We meet in the Computer History Museum in Mountain View, CA. Every IIW moves topics, code and projects downfield.",
+            "html": "<p>The Internet Identity Workshop has been finding, probing and solving identity issues twice every year since 2005. We meet in the Computer History Museum in Mountain View, CA. Every IIW moves topics, code and projects downfield.</p>"
+        },
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://internetidentityworkshop.com/"
+        }
+    },
+    "url": "https://events.oauth.net/2022/04/internet-identity-workshop-xxxiv-jQbh1lDndUqP",
+    "code": 200,
+    "source-format": "mf2+html"
+}

@@ -1,0 +1,23 @@
+{
+    "data": {
+        "type": "event",
+        "name": "OAuth Virtual Interim Meeting: OAuth 2.1",
+        "start": "2021-10-13T09:00:00-07:00",
+        "end": "2021-10-13T10:00:00-07:00",
+        "url": "https://events.oauth.net/2021/10/oauth-virtual-interim-meeting-oauth-2-1-DS63xoUOZkQx",
+        "category": [
+            "oauth"
+        ],
+        "content": {
+            "text": "Agenda\n\n\nDraft -04 of OAuth 2.1\n\nSlides (PDF)\nNotes",
+            "html": "<p>Agenda</p>\n\n<ul><li>\n<a href=\"https://www.ietf.org/archive/id/draft-ietf-oauth-v2-1-04.html\">Draft -04</a> of OAuth 2.1</li>\n<li>\n<a href=\"https://datatracker.ietf.org/meeting/interim-2021-oauth-12/materials/slides-interim-2021-oauth-12-sessa-oauth-21-00.pdf\">Slides</a> (PDF)</li>\n</ul><p><a href=\"https://notes.ietf.org/notes-ietf-interim-2021-oauth-12-oauth\">Notes</a></p>"
+        },
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://datatracker.ietf.org/doc/agenda-interim-2021-oauth-12-oauth-01/"
+        }
+    },
+    "url": "https://events.oauth.net/2021/10/oauth-virtual-interim-meeting-oauth-2-1-DS63xoUOZkQx",
+    "code": 200,
+    "source-format": "mf2+html"
+}

@@ -1,0 +1,26 @@
+{
+    "data": {
+        "type": "event",
+        "name": "OAuth Security Workshop Day 1",
+        "start": "2021-11-30T14:45:00+00:00",
+        "end": "2021-11-30T23:00:00+00:00",
+        "url": "https://events.oauth.net/2021/11/oauth-security-workshop-day-1-xlxsWvtli7Hq",
+        "category": [
+            "oauth",
+            "openid",
+            "gnap",
+            "security"
+        ],
+        "location": {
+            "type": "card",
+            "name": "Online"
+        },
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://barcamps.eu/osw2021/"
+        }
+    },
+    "url": "https://events.oauth.net/2021/11/oauth-security-workshop-day-1-xlxsWvtli7Hq",
+    "code": 200,
+    "source-format": "mf2+html"
+}
