@@ -29,6 +29,7 @@ require('../../includes/_header.php');
       <li>The Resource Owner Password Credentials grant is omitted from this specification</li>
       <li>Bearer token usage omits the use of bearer tokens in the query string of URIs</li>
       <li>Refresh tokens for public clients must either be sender-constrained or one-time use</li>
+      <li>The definitions of public and confidential clients have been simplified to only refer to whether the client has credentials</li>
     </ul>
 
 

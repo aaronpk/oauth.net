@@ -14,7 +14,7 @@ require('../../includes/_header.php');
     <h2 id="oauth-2.0">OAuth 2.0</h2>
 
     <p><img src="/images/oauth-2-sm.png" alt="OAuth 2.0 logo" style="float:right; margin: 0 0 8px 8px;" />OAuth 2.0 is the industry-standard protocol for authorization. OAuth 2.0 focuses on client developer simplicity while providing specific authorization flows for web applications, desktop applications, mobile phones, and living room devices. This specification and its extensions are being developed within the <a href="https://www.ietf.org/mailman/listinfo/oauth">IETF OAuth Working Group</a>.</p>
-    <!-- <p>OAuth 2.1 consolidates OAuth 2.0 and many common extensions under a new name.</p> -->
+    <p><a href="/2.1/">OAuth 2.1</a> is an in-progress effort to consolidate OAuth 2.0 and many common extensions under a new name.</p>
     <p>Questions, suggestions and protocol changes should be discussed on the <a href="https://www.ietf.org/mailman/listinfo/oauth">mailing list</a>.</p>
 
     <?php if(time() > strtotime('2021-04-15T10:40:00-0700') && time() < strtotime('2021-04-15T11:55:00-0700')): ?>
@@ -96,12 +96,21 @@ require('../../includes/_header.php');
       <li><a href="/2/dynamic-client-management/">Dynamic Client Registration Management</a> - Experimental RFC 7592, for updating and managing dynamically registered OAuth clients</li>
     </ul>
 
+    <h4>High Security OAuth</h4>
+    <p>These specs are used to add additional security properties on top of OAuth 2.0.</p>
+    <ul>
+      <li><a href="/2/pushed-authorization-requests/">Pushed Authorization Requests (PAR)</a> - RFC 9126</li>
+      <li><a href="/2/dpop/">Demonstration of Proof of Possession (DPoP)</a></li>
+      <li><a href="https://www.rfc-editor.org/rfc/rfc8705.html">Mutual TLS</a> - RFC 8705</li>
+      <li><a href="/fapi/">FAPI</a></li>
+    </ul>
+
     <h3>Experimental and Draft Specs</h3>
     <p>The specs below are either experimental or in draft status and are still active working group items. They will likely change before they are finalized as RFCs or BCPs.</p>
     <ul>
       <li><a href="/2/rich-authorization-requests/">Rich Authorization Requests (RAR)</a></li>
-      <li><a href="/2/dpop/">Demonstration of Proof of Possession (DPoP)</a></li>
       <li><a href="https://tools.ietf.org/html/draft-ietf-oauth-incremental-authz">Incremental Authorization</a></li>
+      <li><a href="https://datatracker.ietf.org/doc/html/draft-ietf-oauth-step-up-authn-challenge">Step-up Authentication Challenge</a></li>
       <li><a href="/specs/">All OAuth Working Group Documents</a></li>
     </ul>
 
@@ -111,7 +120,7 @@ require('../../includes/_header.php');
       <li><a href="http://tools.ietf.org/html/rfc7521">OAuth Assertions Framework</a> - RFC 7521</li>
       <li><a href="http://tools.ietf.org/html/rfc7522">SAML2 Bearer Assertion</a> - RFC 7522, for integrating with existing identity systems</li>
       <li><a href="http://tools.ietf.org/html/rfc7523">JWT Bearer Assertion</a> - RFC 7523, for integrating with existing identity systems</li>
-      <li><a href="/2/pushed-authorization-requests/">Pushed Authorization Requests (PAR)</a> - RFC 9126</li>
+      <li><a href="http://tools.ietf.org/html/rfc9207">Authorization Server Issuer Identification</a> - RFC 9207, indicates the authorization server identifier in the authorization response</li>
     </ul>
 
     <h3>Related Work from Other Communities</h3>
@@ -133,7 +142,7 @@ require('../../includes/_header.php');
           <li><a href="https://www.amazon.com/dp/178829596X?tag=oauthnet-20">OAuth 2.0 Cookbook</a> by Adolfo Eloy Nascimento</li>
         </ul>
       </li>
-      <li><a href="https://alexbilbie.com/tag/oauth/">OAuth articles by Alex Bilbie</a></li>
+      <li><a href="https://oauth2simplified.com/course">The Nuts and Bolts of OAuth</a> - video course by Aaron Parecki</li>
     </ul>
 
     <h3>Protocols Built on OAuth 2.0</h3>
@@ -151,7 +160,7 @@ require('../../includes/_header.php');
     <h3>OAuth 2.1</h3>
 
     <ul>
-      <li><a href="/2.1/">OAuth 2.1</a> - An in-progress update to simplify OAuth 2.0</li>
+      <li><a href="/2.1/">OAuth 2.1</a> - An in-progress update to consolidate and simplify OAuth 2.0</li>
       <li><a href="https://aaronparecki.com/2019/12/12/21/its-time-for-oauth-2-dot-1">It's Time for OAuth 2.1</a> (by Aaron Parecki)</li>
     </ul>
 
