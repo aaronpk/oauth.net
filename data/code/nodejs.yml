@@ -16,4 +16,7 @@ server_libraries:
   Identity Provider system developed to support Firefox Marketplace and other services
 - '<a href="https://github.com/jaredhanson/oauth2orize">OAuth2orize: toolkit to implement
   OAuth2 Authorization Servers</a>'
+- <a href="https://github.com/authts/oidc-client-ts">oidc-client-ts</a>. Library to
+  provide OpenID Connect and OAuth2 protocol support for client-side, browser-based
+  JavaScript client applications.
 ...
