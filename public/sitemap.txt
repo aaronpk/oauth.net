@@ -11,14 +11,17 @@ https://oauth.net/books/
 https://oauth.net/code/
 https://oauth.net/community/
 https://oauth.net/consulting/
+https://oauth.net/device/
 https://oauth.net/documentation/
 https://oauth.net/events/
+https://oauth.net/fapi/
 https://oauth.net/faq/
 https://oauth.net/getting-started/
 https://oauth.net/gnap/
 https://oauth.net/http-signatures/
 https://oauth.net/id-tokens-vs-access-tokens/
 https://oauth.net/implicit/
+https://oauth.net/private-key-jwt/
 https://oauth.net/r/
 https://oauth.net/security/
 https://oauth.net/specs/
@@ -29,6 +32,7 @@ https://oauth.net/2/access-tokens/
 https://oauth.net/2/authorization-server-metadata/
 https://oauth.net/2/bearer-tokens/
 https://oauth.net/2/browser-based-apps/
+https://oauth.net/2/client-authentication/
 https://oauth.net/2/client-types/
 https://oauth.net/2/device-flow/
 https://oauth.net/2/dpop/
@@ -46,6 +50,7 @@ https://oauth.net/2/refresh-tokens/
 https://oauth.net/2/rich-authorization-requests/
 https://oauth.net/2/scope/
 https://oauth.net/2/security-considerations/
+https://oauth.net/2/token-exchange/
 https://oauth.net/2/token-introspection/
 https://oauth.net/2/token-revocation/
 https://oauth.net/about/community/
@@ -71,6 +76,7 @@ https://oauth.net/grant_type/device/1.0/
 https://oauth.net/code/actionscript/
 https://oauth.net/code/c/
 https://oauth.net/code/coldfusion/
+https://oauth.net/code/deno/
 https://oauth.net/code/dart/
 https://oauth.net/code/dotnet/
 https://oauth.net/code/elixir/

@@ -67,6 +67,7 @@ require('../../includes/_header.php');
         </ul>
       </li>
       <li><a href="/2/client-types/">Client Types - Confidential and Public Applications</a></li>
+      <li><a href="/2/client-authentication/">Client Authentication</a></li>
       <li><a href="/2/bearer-tokens/">Bearer Tokens</a> - RFC 6750</li>
       <li><a href="/2/security-considerations/">Threat Model and Security Considerations</a> - RFC 6819</li>
       <li><a href="/2/oauth-best-practice/">OAuth Security Best Current Practice</a>
@@ -101,7 +102,8 @@ require('../../includes/_header.php');
     <ul>
       <li><a href="/2/pushed-authorization-requests/">Pushed Authorization Requests (PAR)</a> - RFC 9126</li>
       <li><a href="/2/dpop/">Demonstration of Proof of Possession (DPoP)</a></li>
-      <li><a href="https://www.rfc-editor.org/rfc/rfc8705.html">Mutual TLS</a> - RFC 8705</li>
+      <li><a href="/2/mtls/">Mutual TLS</a> - RFC 8705</li>
+      <li><a href="/private-key-jwt/">Private Key JWT</a> - (RFC 7521, RFC 7521, OpenID)</li>
       <li><a href="/fapi/">FAPI</a></li>
     </ul>
 
@@ -119,7 +121,7 @@ require('../../includes/_header.php');
       <li><a href="https://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml">OAuth Extension Parameter Registry</a></li>
       <li><a href="http://tools.ietf.org/html/rfc7521">OAuth Assertions Framework</a> - RFC 7521</li>
       <li><a href="http://tools.ietf.org/html/rfc7522">SAML2 Bearer Assertion</a> - RFC 7522, for integrating with existing identity systems</li>
-      <li><a href="http://tools.ietf.org/html/rfc7523">JWT Bearer Assertion</a> - RFC 7523, for integrating with existing identity systems</li>
+      <li><a href="http://tools.ietf.org/html/rfc7523">JWT Bearer Assertion</a> - RFC 7523</li>
       <li><a href="http://tools.ietf.org/html/rfc9207">Authorization Server Issuer Identification</a> - RFC 9207, indicates the authorization server identifier in the authorization response</li>
     </ul>
 
