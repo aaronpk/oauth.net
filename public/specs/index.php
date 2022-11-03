@@ -25,13 +25,19 @@ function display_draft($draft) {
       <br>
       <?php
         if(isset($status['rfc'])) {
-          echo '<a href="https://tools.ietf.org/html/rfc' . $status['rfc'] . '">'
+          echo '<a href="https://www.rfc-editor.org/rfc/rfc' . $status['rfc'] . '">'
             . 'RFC ' . $status['rfc']
             . '</a>';
         } else {
-          echo '<a href="https://tools.ietf.org/html/' . $draft . '">'
-            . $draft . (isset($status['version']) ? '-' . $status['version'] : '')
-            . '</a>';
+          if(!empty($status['version'])) {
+            echo '<a href="https://www.ietf.org/archive/id/' . $draft . '-' . $status['version'] . '.html">'
+              . $draft . '-' . $status['version']
+              . '</a>';
+          } else {
+            echo '<a href="https://tools.ietf.org/html/' . $draft . '">'
+              . $draft
+              . '</a>';
+          }
         }
       ?>
       <br>
