@@ -13,7 +13,7 @@ require('../../includes/_header.php');
     <div>
       <h2>Books about OAuth 2.0</h2>
 
-      <div class="book-row">
+      <div class="book-row" id="oauth-2-simplified">
         <div class="left">
           <a href="https://www.amazon.com/OAuth-2-0-Simplified-Aaron-Parecki/dp/1387751514/?tag=oauthnet-20" class="noprintexpand"><img src="oauth_2_simplified.jpg" alt="OAuth 2.0 Simplified Book Cover" title="OAuth 2.0 Simplified"></a>
         </div>
@@ -24,7 +24,7 @@ require('../../includes/_header.php');
         </div>
       </div>
 
-      <div class="book-row">
+      <div class="book-row" id="little-book-of-rfcs">
         <div class="left">
           <a href="https://www.amazon.com/Little-Book-OAuth-2-0-RFCs/dp/B084DFYJS1/?tag=oauthnet-20" class="noprintexpand"><img src="little-book-of-oauth-rfcs.png" alt="The Little Book of OAuth 2.0 RFCs" title="The Little Book of OAuth 2.0 RFCs"></a>
         </div>
@@ -34,7 +34,7 @@ require('../../includes/_header.php');
         </div>
       </div>
 
-      <div class="book-row">
+      <div class="book-row" id="oauth-2-in-action">
         <div class="left">
           <a href="https://www.amazon.com/OAuth-2-Action-Justin-Richer/dp/161729327X/?tag=oauthnet-20" class="noprintexpand"><img src="oauth_in_action.jpg" alt="OAuth in Action Cover" title="OAuth in Action"></a>
         </div>
@@ -46,7 +46,7 @@ require('../../includes/_header.php');
 
       <div style="clear:both; margin-bottom: 1em;"></div>
 
-      <div class="book-row">
+      <div class="book-row" id="mastering-oauth-2">
         <div class="left">
           <a href="https://www.amazon.com/Mastering-OAuth-2-0-Charles-Bihis/dp/1784395404?tag=oauthnet-20" class="noprintexpand"><img src="mastering_oauth_2.jpg" alt="Mastering Oauth 2.0 Cover" title="Mastering OAuth 2.0"></a>
         </div>
@@ -57,7 +57,7 @@ require('../../includes/_header.php');
         </div>
       </div>
 
-      <div class="book-row">
+      <div class="book-row" id="api-security-in-action">
         <div class="left">
           <a href="https://www.manning.com/books/api-security-in-action" class="noprintexpand"><img src="api_security_in_action.jpg" alt="API Security in Action" title="API Security in Action"></a>
         </div>
@@ -67,7 +67,7 @@ require('../../includes/_header.php');
         </div>
       </div>
 
-      <div class="book-row">
+      <div class="book-row" id="oauth-2-cookbook">
         <div class="left">
           <a href="https://www.amazon.com/dp/178829596X?tag=oauthnet-20" class="noprintexpand"><img src="oauth-20-cookbook.png" alt="OAuth 2.0 Cookbook" title="OAuth 2.0 Cookbook"></a>
         </div>
