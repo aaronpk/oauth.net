@@ -30,6 +30,7 @@ require('../../includes/_header.php');
         </div>
         <div class="right">
           <p><a href="https://www.amazon.com/Little-Book-OAuth-2-0-RFCs/dp/B084DFYJS1/?tag=oauthnet-20"><i>The Little Book of OAuth 2.0 RFCs</i></a> by Aaron Parecki is a collection of the core RFCs you'll need to read in order to fully implement an OAuth 2.0 client or service. This book is a reproduction of all the RFCs relating to OAuth, everything from OAuth core RFC6749 to the latest Security Best Current Practice. Each RFC is prefaced by a short introduction to set the context for why it's important to the space.</p>
+          <p>You can purchase a <a href="https://www.amazon.com/Little-Book-OAuth-2-0-RFCs/dp/B084DFYJS1/?tag=oauthnet-20">paperback copy on Amazon</a>, or <a href="The Little Book of OAuth 2.0 RFCs.pdf">download the PDF</a> for free.</p>
         </div>
       </div>
 
