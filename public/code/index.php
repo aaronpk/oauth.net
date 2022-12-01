@@ -93,7 +93,7 @@ $languages = json_decode(file_get_contents(__DIR__.'/../../data/code/languages.j
       <li><a href="https://www.pingidentity.com">PingId</a></li>
       <li><a href="https://access.redhat.com/products/red-hat-single-sign-on">Red Hat Single Sign-On</a></li>
       <li><a href="https://stytch.com/?utm_source=oauth.net">Stytch</a></li>
-      <li><a href="https://zitadel.ch">ZITADEL Cloud</a></li>
+      <li><a href="https://zitadel.com">ZITADEL Cloud</a></li>
     </ul>
 
     <h3 id="related">Related Projects and Services</h3>
