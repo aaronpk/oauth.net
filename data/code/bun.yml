@@ -1,0 +1,6 @@
+---
+name: Bun
+client_libraries:
+- "<a href=\"https://github.com/panva/oauth4webapi\">oauth4webapi</a>. OpenID
+  Certified\u2122 OAuth 2 / OpenID Connect for Web Platform API JavaScript runtimes"
+...
