@@ -21,6 +21,25 @@ require('../../includes/_header.php');
       <li><a href="https://openid.bitbucket.io/fapi/fapi-2_0-attacker-model.html">FAPI 2.0 Attacker Model</a></li>
     </ul>
 
+    <p>Specifications Refrenced by FAPI</p>
+    <ul>
+      <li><a href="https://www.rfc-editor.org/rfc/rfc6749">RFC 6749</a> - OAuth 2.0 Framework</li>
+      <li><a href="https://www.rfc-editor.org/rfc/rfc6750">RFC 6750</a> - OAuth 2.0 Bearer Token Usage</li>
+      <li><a href="https://www.rfc-editor.org/rfc/rfc7636">RFC 7636</a> - Proof Key for Code Exchange</li>
+      <li><a href="https://www.rfc-editor.org/rfc/rfc7662">RFC 7662</a> - OAuth 2.0 Token Introspection</li>
+      <li><a href="https://www.rfc-editor.org/rfc/rfc8252">RFC 8252</a> - OAuth 2.0 for Native Apps BCP</li>
+      <li><a href="https://www.rfc-editor.org/rfc/rfc8414">RFC 8414</a> - OAuth 2.0 Authorization Server Metadata</li>
+      <li><a href="https://www.rfc-editor.org/rfc/rfc8705">RFC 8705</a> - Mutual TLS Client Authentication and Certificate-Bound Access Tokens</li>
+      <li><a href="https://www.rfc-editor.org/rfc/rfc8725">RFC 8725</a> - JSON Web Token Best Practices</li>
+      <li><a href="https://www.rfc-editor.org/rfc/rfc9101">RFC 9101</a> - JWT Secured Authorization Request (JAR)</li>
+      <li><a href="https://www.rfc-editor.org/rfc/rfc9126">RFC 9126</a> - Pushed Authorization Requests (PAR)</li>
+      <li><a href="https://www.rfc-editor.org/rfc/rfc9207">RFC 9207</a> - OAuth 2.0 Authorization Server Issuer Identification</li>
+      <li><a href="https://datatracker.ietf.org/doc/html/draft-ietf-oauth-dpop">DPoP</a> - Demonstrating Proof-of-Possession at the Application Layer</li>
+      <li><a href="https://datatracker.ietf.org/doc/html/draft-ietf-oauth-jwt-introspection-response">JWT Response for OAuth Token Introspection</a></li>
+      <li><a href="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-message-signatures">HTTP Message Signatures</a></li>
+      <li><a href="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers">HTTP Digest Headers</a></li>
+    </ul>
+
     <p>More resources
       <ul>
         <li><a href="https://identityunlocked.auth0.com/public/49/Identity%2C-Unlocked.--bed7fada/d847cfb7">Exploring Financial-Grade API (FAPI) with Torsten</a> (Identity Unlocked Podcast)</li>
