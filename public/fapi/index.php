@@ -25,6 +25,8 @@ require('../../includes/_header.php');
     <ul>
       <li><a href="https://www.rfc-editor.org/rfc/rfc6749">RFC 6749</a> - OAuth 2.0 Framework</li>
       <li><a href="https://www.rfc-editor.org/rfc/rfc6750">RFC 6750</a> - OAuth 2.0 Bearer Token Usage</li>
+      <li><a href="https://www.rfc-editor.org/rfc/rfc7521">RFC 7521</a> - Assertion Framework for OAuth 2.0 Client Authentication and Authorization Grants</li>
+      <li><a href="https://www.rfc-editor.org/rfc/rfc7523">RFC 7523</a> - JWT Profile for OAuth 2.0 Client Authentication and Authorization Grants</li>
       <li><a href="https://www.rfc-editor.org/rfc/rfc7636">RFC 7636</a> - Proof Key for Code Exchange</li>
       <li><a href="https://www.rfc-editor.org/rfc/rfc7662">RFC 7662</a> - OAuth 2.0 Token Introspection</li>
       <li><a href="https://www.rfc-editor.org/rfc/rfc8252">RFC 8252</a> - OAuth 2.0 for Native Apps BCP</li>
@@ -38,6 +40,7 @@ require('../../includes/_header.php');
       <li><a href="https://datatracker.ietf.org/doc/html/draft-ietf-oauth-jwt-introspection-response">JWT Response for OAuth Token Introspection</a></li>
       <li><a href="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-message-signatures">HTTP Message Signatures</a></li>
       <li><a href="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers">HTTP Digest Headers</a></li>
+      <li><a href="https://openid.net/specs/oauth-v2-jarm.html">JWT Secured Authorization Response Mode for OAuth 2.0 (JARM)</a></li>
     </ul>
 
     <p>More resources
