@@ -27,8 +27,8 @@ require('../../includes/_header.php');
     <?php else: ?>
 
     <div style="margin-top: 10px; margin-bottom: 20px; padding: 40px; border: 1px #ddd solid;">
-      <div style="">Video Course: The Nuts &amp; Bolts of OAuth 2.0</div>
-      <div class="course-image"><a href="https://www.udemy.com/course/oauth-2-simplified/?referralCode=B04F59AED67B8DA74FA7" onclick="trackOutboundClick('https://www.udemy.com/course/oauth-2-simplified/?referralCode=B04F59AED67B8DA74FA7', '7VBGSQN1'); return false;"><img src="https://oauth2simplified.com/images/nuts-and-bolts-of-oauth.png" style="width: 100%"></a></div>
+      <div style="">New Video Course: Advanced OAuth Security</div>
+      <div class="course-image"><a href="https://oauth2simplified.com/advanced-oauth" onclick="trackOutboundClick('https://oauth2simplified.com/advanced-oauth', '7VBGSQN1'); return false;"><img src="https://oauth2simplified.com/images/advanced-oauth-security.png" style="width: 100%"></a></div>
       <div style="text-align: right;">by Aaron Parecki</div>
     </div>
 
