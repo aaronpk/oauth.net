@@ -39,11 +39,9 @@ function html2text(html) {
     return tag.innerText;
 }
 $(function(){
+  $("#site-banner div").html('Featured: <span contenteditable>Your banner text here</span>');
   $("#banner-text").on("keyup", function(){
     $("#site-banner div span").text($("#banner-text").val());
-  });
-  $("#banner-text a").on("click", function(evt){
-    evt.preventDefault();
   });
   document.querySelector('[contenteditable]').addEventListener('paste', function (event) {
     event.preventDefault();
