@@ -2,6 +2,9 @@
 require(__DIR__.'/../config/config.php');
 $publisher = 'oauth';
 
+if(!class_exists('Config') || !isset(Config::$EA_TOKEN))
+  die();
+
 // https://ethical-ad-server.readthedocs.io/en/latest/user-guide/api.html#ad-decision
 
 function remote_ip() {

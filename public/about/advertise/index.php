@@ -26,6 +26,8 @@ require('../../../includes/_header.php');
 The website is a reference for developers looking for sample code, libraries, tutorials, and general information about OAuth.
 The primary audience of the website are developers from a wide variety of companies and programming language backgrounds.</p>
 
+      <p><a href="preview/">Preview your banner ad</a></p>
+
       <h3 id="rate-sheet">Rate Sheet</h3>
 
       <p><a href="oauth-net-rate-sheet-2023.pdf">Download the advertising rate sheet</a></p>

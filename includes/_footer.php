@@ -38,6 +38,11 @@ $(function(){
 });
 </script>
 <script async src="/thanks.php"></script>
+<?php 
+if(isset($FOOTERSCRIPTS)) {
+  echo $FOOTERSCRIPTS;
+}
+?>
 
 </body>
 </html>
