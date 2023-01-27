@@ -40,6 +40,17 @@ require('../../includes/_header.php');
         </div>
       </div>
 
+      <div style="padding: 10px; border-radius: 8px; border: 1px #ccc solid; margin: 10px">
+        <h3><a href="https://doyensec.com">Doyensec</a></h3>
+
+        <div style="display: flex; flex-direction: row;">
+          <img src="doyensec.png" width="100%" style="margin:0;">
+          <div style="flex: 1 0; margin-left: 10px;">
+            <a href="https://doyensec.com">Doyensec</a> works at the intersection of software development and offensive engineering to help companies craft secure code. We are experienced at performing extensive authentication and authorization testing, including design reviews, code reviews, and dynamically testing post-deployment.
+          </div>
+        </div>
+      </div>
+
       <p>Want to be listed here? <a href="https://github.com/aaronpk/oauth.net/blob/main/public/consulting/index.php">Send a pull request</a> with your information!</p>
 
     </div>
