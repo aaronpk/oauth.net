@@ -33,7 +33,6 @@ require('../../../includes/_header.php');
       <ul>
         <li><a href="https://www.udemy.com/course/oauth-2-simplified/?referralCode=B04F59AED67B8DA74FA7">The Nuts and Bolts of OAuth</a> (Video Course) - Aaron Parecki</li>
         <li><a href="https://aaronparecki.com/oauth-2-simplified/#authorization">Grant Types</a> (aaronparecki.com)</li>
-        <li><a href="https://alexbilbie.com/guide-to-oauth-2-grants/">A Guide to OAuth 2.0 Grants</a> (alexbilbie.com)</li>
       </ul>
     </p>
 
