@@ -84,15 +84,16 @@ $languages = json_decode(file_get_contents(__DIR__.'/../../data/code/languages.j
     <span id="proxy-services-commercial"></span>
     <ul>
       <li><a href="https://auth0.com">Auth0</a></li>
+      <li><a href="https://www.cidaas.com">cidaas</a></li>
       <li><a href="https://curity.io">Curity Identity Server</a></li>
+      <li><a href="https://www.forgerock.com">ForgeRock</a></li>
       <li><a href="https://fusionauth.io/">FusionAuth</a></li>
+      <li><a href="https://www.loginradius.com">LoginRadius</a></li>
       <li><a href="https://developer.okta.com">Okta</a></li>
       <li><a href="https://www.pingidentity.com">PingId</a></li>
       <li><a href="https://access.redhat.com/products/red-hat-single-sign-on">Red Hat Single Sign-On</a></li>
-      <li><a href="https://www.cidaas.com">cidaas</a></li>
-      <li><a href="https://www.loginradius.com">LoginRadius</a></li>
-      <li><a href="https://www.forgerock.com">ForgeRock</a></li>
-      <li><a href="https://zitadel.ch">ZITADEL Cloud</a></li>
+      <li><a href="https://stytch.com/?utm_source=oauth.net">Stytch</a></li>
+      <li><a href="https://zitadel.com">ZITADEL Cloud</a></li>
     </ul>
 
     <h3 id="related">Related Projects and Services</h3>

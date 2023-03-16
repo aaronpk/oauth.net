@@ -50,6 +50,9 @@ $rfcs = [];
 $drafts = [];
 $individuals = [];
 foreach($data as $draft) {
+  if(strpos($draft['status'], 'Expired') !== false)
+    continue;
+  
   if(preg_match('/^RFC ([0-9]+)/', $draft['status'], $match)) {
     $draft['rfc'] = $match[1];
     $rfcs[] = $draft;

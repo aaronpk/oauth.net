@@ -25,15 +25,15 @@ require('../../includes/_header.php');
       <li><a href="/2/dpop/">Draft: DPoP</a></li>
     </ul>
 
+    <p>HTTP Signatures is referenced by <a href="/fapi/">FAPI</a> as one method of signing HTTP messages.</p>
+
     <p>Historical note: This draft is an evolution of the earlier individual draft "<a href="https://tools.ietf.org/id/draft-cavage-http-signatures-08.html">Signing HTTP Messages</a>" by Cavage. The Cavage draft was never adopted by a working group and expired in 2018. For a brief period of time, some of this work had been picked up by the "<a href="https://github.com/w3c-dvcg">Digital Verification Community Group</a>" and later moved into the "<a href="https://github.com/w3c-ccg">Credentials Community Group</a>" at the W3C. The <a href="https://github.com/w3c-ccg/http-signatures/blob/gh-pages/index.xml">current version</a> of the draft at the CCG is a redirect to the IETF draft in the HTTPBIS working group which is the intended location of where this work will continue.</p>
 
-    <!--
     <p>More resources
       <ul>
-        <li><a href="https://fusionauth.io/blog/2021/01/07/gnap-next-gen-oauth/">GNAP, the next generation of OAuth</a> (Dan Moore)</li>
+        <li><a href="/2/client-authentication/">Client Authentication</a></li>
       </ul>
     </p>
-    -->
 
   </div>
 </div>
