@@ -189,7 +189,7 @@ require('../../includes/_header.php');
       </div>
 
        <div class="article card h-entry">
-        <h4 class="p-name"><a href="https://www.loginradius.com/engineering/blog/oauth2/" class="u-url">Getting Started with OAuth 2.0</a></h4>
+        <h4 class="p-name"><a href="https://www.loginradius.com/blog/engineering/oauth2/" class="u-url">Getting Started with OAuth 2.0</a></h4>
         <div class="meta">
           <a href="https://github.com/indrasen715" class="u-author h-card">Indrasen Kumar</a>
         </div>
