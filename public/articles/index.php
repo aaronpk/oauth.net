@@ -156,6 +156,17 @@ require('../../includes/_header.php');
       </div>
 
       <div class="article card h-entry">
+        <h4 class="p-name"><a href="https://alexbilbie.github.io/guide-to-oauth-2-grants/" class="u-url">A Guide to OAuth 2.0 Grants</a></h4>
+        <div class="meta">
+          <a href="https://alexbilbie.github.io" class="u-author h-card">Alex Bilbie</a>
+        </div>
+        <div class="tags">
+          #grant-types #guide
+        </div>
+        <p class="e-summary"><i><a href="https://alexbilbie.github.io/guide-to-oauth-2-grants/">A Guide to OAuth 2.0 Grants</a></i> describes each of the OAuth grants and use cases for each.</p>
+      </div>
+
+      <div class="article card h-entry">
         <h4 class="p-name"><a href="/articles/authentication" class="u-url">End User Authentication with OAuth 2.0</a></h4>
         <div class="meta">
           <a href="https://twitter.com/justin__richer" class="u-author h-card">Justin Richer</a>
