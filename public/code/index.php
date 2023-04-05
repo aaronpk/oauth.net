@@ -68,6 +68,7 @@ $languages = json_decode(file_get_contents(__DIR__.'/../../data/code/languages.j
     <h4 id="open-source">Open Source</h4>
     <span id="proxy-services-open-source"></span>
     <ul>
+      <li><a href="https://goauthentik.io">Authentik</a></li>
       <li><a href="https://github.com/curveball/a12n-server">a12n-server</a></li>
       <li><a href="https://github.com/casbin/casdoor">Casdoor</a></li>
       <li><a href="https://github.com/babelouest/glewlwyd">Glewlwyd</a></li>
@@ -77,7 +78,7 @@ $languages = json_decode(file_get_contents(__DIR__.'/../../data/code/languages.j
       <li><a href="https://www.ory.sh/hydra">ORY Hydra</a></li>
       <li><a href="https://simplelogin.io/developer">SimpleLogin</a></li>
       <li><a href="https://github.com/ssqsignon">SSQ signon</a></li>
-      <li><a href="https://github.com/zitadel/zitadel">ZITADEL</a></li>
+      <li><a href="https://github.com/zitadel/zitadel">ZITADEL</a></li>   
     </ul>
 
     <h4 id="commercial">Commercial</h4>
