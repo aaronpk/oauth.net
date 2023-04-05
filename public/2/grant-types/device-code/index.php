@@ -27,7 +27,7 @@ require('../../../../includes/_header.php');
     <p>More resources
       <ul>
         <li><a href="https://www.oauth.com/oauth2-servers/device-flow/token-request/">Device Flow Token Request</a> (oauth.com)</li>
-        <li><a href="https://alexbilbie.com/2016/04/oauth-2-device-flow-grant/">Device Flow</a> (alexbilbie.com)</li>
+        <li><a href="https://alexbilbie.github.io/2016/04/oauth-2-device-flow-grant/">Device Flow</a> (alexbilbie.github.io)</li>
         <li><a href="https://www.oauth.com/playground/device-code.html">Device Code Grant on the OAuth 2.0 Playground</a></li>
       </ul>
     </p>
