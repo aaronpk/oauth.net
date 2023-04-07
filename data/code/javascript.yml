@@ -1,7 +1,8 @@
 ---
 name: JavaScript
 client_libraries:
-- "<a href=\"https://github.com/panva/oauth4webapi\">oauth4webapi</a>. OpenID
+- "<a href=\"https://github.com/badgateway/oauth2-client\">@badgateway/oauth2-client</a>. 0-dependencies, Typescript support for browsers and Node."
+- "<a href=\"https://github.com/panva/oauth4webapi\">@panva/oauth4webapi</a>. OpenID
   Certified\u2122 OAuth 2 / OpenID Connect for Web Platform API JavaScript runtimes"
 - <a href="http://github.com/andreassolberg/jso">Javascript</a>
 - <a href="https://github.com/jaredhanson/passport-oauth2">Passport</a>
