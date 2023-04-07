@@ -1,0 +1,40 @@
+{
+    "title": "JWT URI",
+    "link": {
+        "@attributes": {
+            "href": "/doc/draft-chadwick-oauth-jwk-uri/"
+        }
+    },
+    "id": "845219",
+    "updated": "2022-02-09T00:35:49-0800",
+    "published": "2022-02-09T00:35:49-0800",
+    "author": {
+        "name": "David Chadwick"
+    },
+    "content": {
+        "@attributes": {
+            "type": "html"
+        },
+        "@text": "New version available: <b>draft-chadwick-oauth-jwk-uri-00.txt</b>"
+    },
+    "ietf": {
+        "type": "new_revision",
+        "group": "none",
+        "state": [
+            {
+                "@attributes": {
+                    "type": "draft"
+                },
+                "@text": "active"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iesg"
+                },
+                "@text": "idexists"
+            }
+        ],
+        "abstract": "This specification registers a kind of URI that represents a JSON\nWeb Key (JWK) value. This enables JWKs to be used, for instance, as\nkey identifiers in contexts requiring URIs.",
+        "version": "00"
+    }
+}

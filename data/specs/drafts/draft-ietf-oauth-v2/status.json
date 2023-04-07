@@ -6,8 +6,5 @@
     "group": "oauth",
     "ad": "Stephen Farrell",
     "last_changed_date": "2020-04-16",
-    "rfc": "6749",
-    "authors": [
-        "D. Hardt"
-    ]
+    "rfc": "6749"
 }

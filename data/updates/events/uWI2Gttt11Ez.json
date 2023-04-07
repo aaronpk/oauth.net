@@ -17,7 +17,10 @@
             "text": "Agenda TBD",
             "html": "<p>Agenda TBD</p>"
         },
-        "post-type": "event"
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://datatracker.ietf.org/meeting/interim-2021-gnap-03/session/gnap"
+        }
     },
     "url": "https://events.oauth.net/2021/05/gnap-interim-meeting-uWI2Gttt11Ez",
     "code": 200,

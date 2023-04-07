@@ -1,0 +1,25 @@
+{
+    "data": {
+        "type": "event",
+        "name": "OAuth Virtual Interim Meeting: HTTP Signatures",
+        "start": "2021-10-06T09:00:00-07:00",
+        "end": "2021-10-06T10:00:00-07:00",
+        "url": "https://events.oauth.net/2021/10/oauth-virtual-interim-meeting-http-signatures-ODSLhW2tydBx",
+        "category": [
+            "ietf",
+            "oauth",
+            "http"
+        ],
+        "content": {
+            "text": "Minutes (pdf)",
+            "html": "<p><a href=\"https://datatracker.ietf.org/meeting/interim-2021-oauth-11/materials/minutes-interim-2021-oauth-11-202110061200-01\">Minutes</a> (pdf)</p>"
+        },
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://datatracker.ietf.org/meeting/interim-2021-oauth-11/session/oauth"
+        }
+    },
+    "url": "https://events.oauth.net/2021/10/oauth-virtual-interim-meeting-http-signatures-ODSLhW2tydBx",
+    "code": 200,
+    "source-format": "mf2+html"
+}

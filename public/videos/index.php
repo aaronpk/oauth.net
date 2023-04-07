@@ -12,7 +12,7 @@ require('../../includes/_header.php');
       <h2>Videos</h2>
 
       <div style="margin-bottom: 1em">
-        <iframe width="100%" height="420" src="https://www.youtube.com/embed/LopE3t0-Ak8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <a href="https://oauth2simplified.com/advanced-oauth"><img src="https://oauth2simplified.com/images/advanced-oauth-security.png" style="width: 100%"></a>
       </div>
 
       <div class="videos">

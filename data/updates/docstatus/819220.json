@@ -1,0 +1,73 @@
+{
+    "title": "OAuth 2.0 Pushed Authorization Requests",
+    "link": {
+        "@attributes": {
+            "href": "/doc/draft-ietf-oauth-par/"
+        }
+    },
+    "id": "819220",
+    "updated": "2021-07-29T15:54:34-0700",
+    "published": "2021-07-29T15:54:34-0700",
+    "author": {
+        "name": "Brian Campbell"
+    },
+    "content": {
+        "@attributes": {
+            "type": "html"
+        },
+        "@text": "New version available: <b>draft-ietf-oauth-par-10.txt</b>"
+    },
+    "ietf": {
+        "type": "new_revision",
+        "stream": "ietf",
+        "group": "oauth",
+        "shepherd": "Hannes Tschofenig",
+        "ad": "Roman Danyliw",
+        "state": [
+            {
+                "@attributes": {
+                    "type": "draft"
+                },
+                "@text": "active"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iana-action"
+                },
+                "@text": "rfcedack"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iana-experts"
+                },
+                "@text": "reviewers-ok"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iana-review"
+                },
+                "@text": "ok-act"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iesg"
+                },
+                "@text": "rfcqueue"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-rfceditor"
+                },
+                "@text": "edit"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-stream-ietf"
+                },
+                "@text": "sub-pub"
+            }
+        ],
+        "abstract": "This document defines the pushed authorization request (PAR)\n   endpoint, which allows clients to push the payload of an OAuth 2.0\n   authorization request to the authorization server via a direct\n   request and provides them with a request URI that is used as\n   reference to the data in a subsequent call to the authorization\n   endpoint.",
+        "version": "10"
+    }
+}

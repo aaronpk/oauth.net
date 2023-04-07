@@ -1,0 +1,19 @@
+{
+    "data": {
+        "type": "event",
+        "name": "Internet Draft submission cut-off for IETF 112",
+        "start": "2021-10-25T23:59:00+00:00",
+        "end": "2021-10-25T23:59:00+00:00",
+        "url": "https://events.oauth.net/2021/10/internet-draft-submission-cut-off-for-ietf-112-69NXaFEZoNLy",
+        "category": [
+            "ietf"
+        ],
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://datatracker.ietf.org/submit/"
+        }
+    },
+    "url": "https://events.oauth.net/2021/10/internet-draft-submission-cut-off-for-ietf-112-69NXaFEZoNLy",
+    "code": 200,
+    "source-format": "mf2+html"
+}

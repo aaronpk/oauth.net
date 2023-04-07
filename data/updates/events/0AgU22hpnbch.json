@@ -1,0 +1,29 @@
+{
+    "data": {
+        "type": "event",
+        "name": "IETF 115 London",
+        "start": "2022-11-05",
+        "end": "2022-11-11",
+        "url": "https://events.oauth.net/2022/11/ietf-115-london-0AgU22hpnbch",
+        "category": [
+            "ietf"
+        ],
+        "location": {
+            "type": "card",
+            "name": "Hilton London Metropole",
+            "latitude": "51.5193229",
+            "longitude": "-0.1695228",
+            "street-address": "225 Edgware Rd",
+            "locality": "London",
+            "region": "England",
+            "country-name": "United Kingdom"
+        },
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://www.ietf.org/how/meetings/115/"
+        }
+    },
+    "url": "https://events.oauth.net/2022/11/ietf-115-london-0AgU22hpnbch",
+    "code": 200,
+    "source-format": "mf2+html"
+}

@@ -1,2 +1,2 @@
 User-agent: *
-Disallow:
+Disallow: /about/advertise/oauth-net-rate-sheet-2023.pdf

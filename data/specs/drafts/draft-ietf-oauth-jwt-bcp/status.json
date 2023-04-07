@@ -6,10 +6,5 @@
     "group": "oauth",
     "ad": "Roman Danyliw",
     "last_changed_date": "2020-02-19",
-    "rfc": "8725",
-    "authors": [
-        "Y. Sheffer",
-        "D. Hardt",
-        "M. Jones"
-    ]
+    "rfc": "8725"
 }

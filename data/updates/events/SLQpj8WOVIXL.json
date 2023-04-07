@@ -1,0 +1,26 @@
+{
+    "data": {
+        "type": "event",
+        "name": "OAuth WG Side Meeting 1 at IETF 113",
+        "start": "2022-03-22T14:00:00+01:00",
+        "end": "2022-03-22T15:30:00+01:00",
+        "url": "https://events.oauth.net/2022/03/oauth-wg-side-meeting-1-at-ietf-113-SLQpj8WOVIXL",
+        "category": [
+            "oauth",
+            "ietf113"
+        ],
+        "location": {
+            "type": "card",
+            "name": "Hilton Vienna Park, Klimt Hall 3",
+            "latitude": "48.205948",
+            "longitude": "16.3833096",
+            "street-address": "1 Am Stadtpark",
+            "locality": "Wien",
+            "country-name": "Austria"
+        },
+        "post-type": "event"
+    },
+    "url": "https://events.oauth.net/2022/03/oauth-wg-side-meeting-1-at-ietf-113-SLQpj8WOVIXL",
+    "code": 200,
+    "source-format": "mf2+html"
+}

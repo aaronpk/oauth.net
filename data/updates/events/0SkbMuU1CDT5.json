@@ -1,0 +1,20 @@
+{
+    "data": {
+        "type": "event",
+        "name": "OAuth WG Virtual Office Hours",
+        "start": "2022-02-23T09:00:00-08:00",
+        "end": "2022-02-23T09:30:00-08:00",
+        "url": "https://events.oauth.net/2022/02/oauth-wg-virtual-office-hours-0SkbMuU1CDT5",
+        "category": [
+            "office-hours"
+        ],
+        "content": {
+            "text": "The OAuth Working Group's virtual office hours are an opportunity to get an update on the latest activities of the group, as well as answer any questions about the ongoing work within the group. It is also an opportunity to discuss issues related to various upcoming meetings, such as any upcoming IETF meetings or interim meetings.",
+            "html": "<p>The OAuth Working Group's virtual office hours are an opportunity to get an update on the latest activities of the group, as well as answer any questions about the ongoing work within the group. It is also an opportunity to discuss issues related to various upcoming meetings, such as any upcoming IETF meetings or interim meetings.</p>"
+        },
+        "post-type": "event"
+    },
+    "url": "https://events.oauth.net/2022/02/oauth-wg-virtual-office-hours-0SkbMuU1CDT5",
+    "code": 200,
+    "source-format": "mf2+html"
+}

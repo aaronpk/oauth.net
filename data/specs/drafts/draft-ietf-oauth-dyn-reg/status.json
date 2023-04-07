@@ -5,13 +5,6 @@
     "status": "RFC 7591 (Proposed Standard)",
     "group": "oauth",
     "ad": "Kathleen Moriarty",
-    "last_changed_date": "2015-10-14",
-    "rfc": "7591",
-    "authors": [
-        "J. Richer",
-        "M. Jones",
-        "J. Bradley",
-        "M. Machulak",
-        "P. Hunt"
-    ]
+    "last_changed_date": "2021-06-25",
+    "rfc": "7591"
 }

@@ -1,0 +1,35 @@
+{
+    "data": {
+        "type": "event",
+        "name": "OAuth WG at IETF 113 (Session 1)",
+        "start": "2022-03-21T14:30:00+01:00",
+        "url": "https://events.oauth.net/2022/03/oauth-wg-at-ietf-113-session-1--Mm7FXNSyE60g",
+        "category": [
+            "oauth",
+            "dpop",
+            "oauth21",
+            "redirect",
+            "ietf113"
+        ],
+        "location": {
+            "type": "card",
+            "name": "Hilton Vienna Park",
+            "latitude": "48.205948",
+            "longitude": "16.3833096",
+            "street-address": "1 Am Stadtpark",
+            "locality": "Wien",
+            "country-name": "Austria"
+        },
+        "content": {
+            "text": "Agenda\n\n1. Chairs update - Rifaat/Hannes (15 min)\n\n2. DPoP - Mike/Brian (45 min)\n\nhttps://datatracker.ietf.org/doc/draft-ietf-oauth-dpop/\n\n3. Redirection Attacks - Rifaat (30 min)\n\nhttps://mailarchive.ietf.org/arch/msg/oauth/4-YCJzeDH4NH-ge9OF8bAbqWgIE/\n\n4. OAuth 2.1 - Aaron (30 min)\n\nhttps://datatracker.ietf.org/doc/draft-ietf-oauth-v2-1/\n\nMaterials\n\nMaterials\nMinutes\nIETF 113",
+            "html": "<h2>Agenda</h2>\n\n<h3>1. Chairs update - Rifaat/Hannes (15 min)</h3>\n\n<h3>2. DPoP - Mike/Brian (45 min)</h3>\n\n<p><a href=\"https://datatracker.ietf.org/doc/draft-ietf-oauth-dpop/\">https://datatracker.ietf.org/doc/draft-ietf-oauth-dpop/</a></p>\n\n<h3>3. Redirection Attacks - Rifaat (30 min)</h3>\n\n<p><a href=\"https://mailarchive.ietf.org/arch/msg/oauth/4-YCJzeDH4NH-ge9OF8bAbqWgIE/\">https://mailarchive.ietf.org/arch/msg/oauth/4-YCJzeDH4NH-ge9OF8bAbqWgIE/</a></p>\n\n<h3>4. OAuth 2.1 - Aaron (30 min)</h3>\n\n<p><a href=\"https://datatracker.ietf.org/doc/draft-ietf-oauth-v2-1/\">https://datatracker.ietf.org/doc/draft-ietf-oauth-v2-1/</a></p>\n\n<h2>Materials</h2>\n\n<ul><li><a href=\"https://datatracker.ietf.org/meeting/113/session/oauth\">Materials</a></li>\n<li><a href=\"https://notes.ietf.org/notes-ietf-113-oauth\">Minutes</a></li>\n</ul><p><a href=\"https://events.oauth.net/2022/03/ietf-113-vienna-ET28vnCxYF1t\">IETF 113</a></p>"
+        },
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://datatracker.ietf.org/doc/agenda-113-oauth/"
+        }
+    },
+    "url": "https://events.oauth.net/2022/03/oauth-wg-at-ietf-113-session-1--Mm7FXNSyE60g",
+    "code": 200,
+    "source-format": "mf2+html"
+}

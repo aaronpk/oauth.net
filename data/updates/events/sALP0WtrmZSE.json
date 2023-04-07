@@ -1,0 +1,36 @@
+{
+    "data": {
+        "type": "event",
+        "name": "Identiverse 2022",
+        "start": "2022-06-21",
+        "end": "2022-06-24",
+        "url": "https://events.oauth.net/2022/06/identiverse-2022-sALP0WtrmZSE",
+        "featured": "https://events.oauth.net/storage/events/20210611-tp0HdiaF574scE2EGRWbtV0WgnKULN.jpg",
+        "category": [
+            "identiverse",
+            "oauth",
+            "identity"
+        ],
+        "location": {
+            "type": "card",
+            "name": "Gaylord Rockies Resort & Convention Center",
+            "latitude": "39.8175203",
+            "longitude": "-104.7509235",
+            "street-address": "6700 N Gaylord Rockies Blvd",
+            "locality": "Aurora",
+            "region": "Colorado",
+            "country-name": "United States"
+        },
+        "content": {
+            "text": "Connect with the brightest minds in the Identity Industry to experience unparalleled education, collaboration, and insight into the future of Identity. Join us in Colorado in June for a unique event experience and participate alongside experts and peers in information-rich sessions on the latest technologies, best practices, and industry trends.",
+            "html": "<p>Connect with the brightest minds in the Identity Industry to experience unparalleled education, collaboration, and insight into the future of Identity. Join us in Colorado in June for a unique event experience and participate alongside experts and peers in information-rich sessions on the latest technologies, best practices, and industry trends.</p>"
+        },
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://identiverse.com/"
+        }
+    },
+    "url": "https://events.oauth.net/2022/06/identiverse-2022-sALP0WtrmZSE",
+    "code": 200,
+    "source-format": "mf2+html"
+}

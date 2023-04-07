@@ -1,0 +1,71 @@
+{
+    "title": "JWK Thumbprint URI",
+    "link": {
+        "@attributes": {
+            "href": "/doc/draft-ietf-oauth-jwk-thumbprint-uri/"
+        }
+    },
+    "id": "864117",
+    "updated": "2022-06-09T07:47:18-0700",
+    "published": "2022-06-09T07:47:18-0700",
+    "author": {
+        "name": "Cindy Morgan"
+    },
+    "content": {
+        "@attributes": {
+            "type": "html"
+        },
+        "@text": "IESG has approved the document"
+    },
+    "ietf": {
+        "type": "iesg_approved",
+        "stream": "ietf",
+        "group": "oauth",
+        "shepherd": "Rifaat Shekh-Yusef",
+        "ad": "Roman Danyliw",
+        "state": [
+            {
+                "@attributes": {
+                    "type": "draft"
+                },
+                "@text": "active"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iana-action"
+                },
+                "@text": "waitauth"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iana-experts"
+                },
+                "@text": "reviewers-ok"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iana-review"
+                },
+                "@text": "ok-act"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iesg"
+                },
+                "@text": "rfcqueue"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-rfceditor"
+                },
+                "@text": "edit"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-stream-ietf"
+                },
+                "@text": "sub-pub"
+            }
+        ]
+    }
+}

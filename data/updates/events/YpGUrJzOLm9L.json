@@ -1,0 +1,26 @@
+{
+    "data": {
+        "type": "event",
+        "name": "Federation and Browsers Workshop",
+        "start": "2021-05-25",
+        "end": "2021-05-26",
+        "url": "https://events.oauth.net/2021/05/federation-and-browsers-workshop-YpGUrJzOLm9L",
+        "category": [
+            "webid",
+            "browsers",
+            "w3c",
+            "identity"
+        ],
+        "content": {
+            "text": "The WebID project in the W3C Web Incubator Community Group (WICG) would\nlike to invite you to participate in a workshop on May 25 & 26 from\n10:00-13:00 PDT dedicated to understanding the implications of federation\non the web in the face of privacy-preserving changes to eliminate\ninappropriate user tracking. To date, discussions about aspects of\ntracking, including eliminating third-party cookies, evolving the use of\nlink decoration, potential protocol-level changes, and so on, are happening\nin several locations. Given the location of expertise on each of those\nspecific areas, that is entirely understandable. What we are hoping to\naccomplish with this workshop is to bring all the communities grappling\nwith the impact of browser changes on federated identity together to\nestablish a common understanding of the challenges.\n\nSee the full agenda",
+            "html": "<p>The WebID project in the W3C Web Incubator Community Group (WICG) would\nlike to invite you to participate in a workshop on May 25 &amp; 26 from\n10:00-13:00 PDT dedicated to understanding the implications of federation\non the web in the face of privacy-preserving changes to eliminate\ninappropriate user tracking. To date, discussions about aspects of\ntracking, including eliminating third-party cookies, evolving the use of\nlink decoration, potential protocol-level changes, and so on, are happening\nin several locations. Given the location of expertise on each of those\nspecific areas, that is entirely understandable. What we are hoping to\naccomplish with this workshop is to bring all the communities grappling\nwith the impact of browser changes on federated identity together to\nestablish a common understanding of the challenges.</p>\n\n<p><a href=\"https://github.com/WICG/WebID/blob/main/meetings/2021/25-26_May_2021.md\">See the full agenda</a></p>"
+        },
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://github.com/WICG/WebID/blob/main/meetings/2021/25-26_May_2021.md"
+        }
+    },
+    "url": "https://events.oauth.net/2021/05/federation-and-browsers-workshop-YpGUrJzOLm9L",
+    "code": 200,
+    "source-format": "mf2+html"
+}

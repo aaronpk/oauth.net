@@ -11,8 +11,8 @@
             "tmibff"
         ],
         "content": {
-            "text": "Agenda\n\nTMI BFF\n\nhttps://tools.ietf.org/html/draft-bertocci-oauth2-tmi-bff-00",
-            "html": "<p>Agenda</p>\n\n<ul><li>TMI BFF\n\n<ul><li><a href=\"https://tools.ietf.org/html/draft-bertocci-oauth2-tmi-bff-00\">https://tools.ietf.org/html/draft-bertocci-oauth2-tmi-bff-00</a></li>\n</ul></li>\n</ul>"
+            "text": "Agenda\n\nTMI BFF\n\nhttps://tools.ietf.org/html/draft-bertocci-oauth2-tmi-bff-00\n\nMinutes",
+            "html": "<p>Agenda</p>\n\n<ul><li>TMI BFF\n\n<ul><li><a href=\"https://tools.ietf.org/html/draft-bertocci-oauth2-tmi-bff-00\">https://tools.ietf.org/html/draft-bertocci-oauth2-tmi-bff-00</a></li>\n</ul></li>\n</ul><p><a href=\"https://datatracker.ietf.org/meeting/interim-2021-oauth-09/materials/minutes-interim-2021-oauth-09-202104261200-00\">Minutes</a></p>"
         },
         "post-type": "event"
     },

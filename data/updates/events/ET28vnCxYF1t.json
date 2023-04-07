@@ -1,0 +1,34 @@
+{
+    "data": {
+        "type": "event",
+        "name": "IETF 113 Vienna",
+        "start": "2022-03-19",
+        "end": "2022-03-25",
+        "url": "https://events.oauth.net/2022/03/ietf-113-vienna-ET28vnCxYF1t",
+        "category": [
+            "ietf",
+            "oauth",
+            "ietf113"
+        ],
+        "location": {
+            "type": "card",
+            "name": "Hilton Vienna Park",
+            "latitude": "48.205948",
+            "longitude": "16.3833096",
+            "street-address": "1 Am Stadtpark",
+            "locality": "Wien",
+            "country-name": "Austria"
+        },
+        "content": {
+            "text": "Session 1: Monday\nSide Meeting: Tuesday\nSide Meeting: Wednesday\nSession 2: Thursday",
+            "html": "<ul><li><a href=\"https://events.oauth.net/Mm7FXNSyE60g\">Session 1: Monday</a></li>\n<li><a href=\"https://events.oauth.net/SLQpj8WOVIXL\">Side Meeting: Tuesday</a></li>\n<li><a href=\"https://events.oauth.net/9LrCTigvjap7\">Side Meeting: Wednesday</a></li>\n<li><a href=\"https://events.oauth.net/mDeWZNYFoZbZ\">Session 2: Thursday</a></li>\n</ul>"
+        },
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://www.ietf.org/how/meetings/113/"
+        }
+    },
+    "url": "https://events.oauth.net/2022/03/ietf-113-vienna-ET28vnCxYF1t",
+    "code": 200,
+    "source-format": "mf2+html"
+}

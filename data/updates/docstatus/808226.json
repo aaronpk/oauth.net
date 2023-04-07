@@ -1,0 +1,61 @@
+{
+    "title": "JSON Web Token (JWT) Profile for OAuth 2.0 Access Tokens",
+    "link": {
+        "@attributes": {
+            "href": "/doc/draft-ietf-oauth-access-token-jwt/"
+        }
+    },
+    "id": "808226",
+    "updated": "2021-05-25T00:35:39-0700",
+    "published": "2021-05-25T00:35:39-0700",
+    "author": {
+        "name": "Vittorio Bertocci"
+    },
+    "content": {
+        "@attributes": {
+            "type": "html"
+        },
+        "@text": "New version available: <b>draft-ietf-oauth-access-token-jwt-13.txt</b>"
+    },
+    "ietf": {
+        "type": "new_revision",
+        "stream": "ietf",
+        "group": "oauth",
+        "shepherd": "Hannes Tschofenig",
+        "ad": "Roman Danyliw",
+        "state": [
+            {
+                "@attributes": {
+                    "type": "draft"
+                },
+                "@text": "active"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iana-experts"
+                },
+                "@text": "reviewers-ok"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iana-review"
+                },
+                "@text": "ok-act"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iesg"
+                },
+                "@text": "approved"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-stream-ietf"
+                },
+                "@text": "sub-pub"
+            }
+        ],
+        "abstract": "This specification defines a profile for issuing OAuth 2.0 access\n   tokens in JSON web token (JWT) format.  Authorization servers and\n   resource servers from different vendors can leverage this profile to\n   issue and consume access tokens in an interoperable manner.",
+        "version": "13"
+    }
+}

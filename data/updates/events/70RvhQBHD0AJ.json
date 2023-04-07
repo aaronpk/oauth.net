@@ -1,0 +1,20 @@
+{
+    "data": {
+        "type": "event",
+        "name": "GNAP session at IETF 111",
+        "start": "2021-07-26T12:00:00-07:00",
+        "end": "2021-07-26T14:00:00-07:00",
+        "url": "https://events.oauth.net/2021/07/gnap-session-at-ietf-111-70RvhQBHD0AJ",
+        "category": [
+            "gnap",
+            "ietf"
+        ],
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://datatracker.ietf.org/meeting/111/session/gnap"
+        }
+    },
+    "url": "https://events.oauth.net/2021/07/gnap-session-at-ietf-111-70RvhQBHD0AJ",
+    "code": 200,
+    "source-format": "mf2+html"
+}

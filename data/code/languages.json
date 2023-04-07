@@ -5,6 +5,11 @@
         "name": "ActionScript"
     },
     {
+        "filename": "bun.yml",
+        "path": "bun",
+        "name": "Bun"
+    },
+    {
         "filename": "c.yml",
         "path": "c",
         "name": "C"

@@ -14,12 +14,11 @@ require('../../../includes/_header.php');
   </nav>
   <div>
 
-    <h2>Draft: OAuth 2.0 Pushed Authorization Requests</h2>
+    <h2>RFC 9126: OAuth 2.0 Pushed Authorization Requests</h2>
 
-    <p><a href="https://tools.ietf.org/html/draft-ietf-oauth-par" class="rfc">tools.ietf.org/html/draft-ietf-oauth-par</a></p>
+    <p><a href="https://datatracker.ietf.org/doc/html/rfc9126" class="rfc">datatracker.ietf.org/doc/html/rfc9126</a></p>
 
-    <p>The <a href="https://tools.ietf.org/html/draft-ietf-oauth-par">Pushed Authorization Requsts</a> extension describes a technique of initiating an OAuth flow from the backchannel instead of by building a URL, providing better security and more flexibility for building complex authorization requests.</p>
-    <p>This draft is still in progress, and is open to feedback from people who are interested in using it!</p>
+    <p>The <a href="https://datatracker.ietf.org/doc/html/rfc9126">Pushed Authorization Requsts</a> extension describes a technique of initiating an OAuth flow from the backchannel instead of by building a URL, providing better security and more flexibility for building complex authorization requests.</p>
 
     <p>More resources
       <ul>

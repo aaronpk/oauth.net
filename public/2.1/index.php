@@ -12,7 +12,7 @@ require('../../includes/_header.php');
 
     <h2 id="oauth-2-1">OAuth 2.1</h2>
 
-    <p><a href="https://datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-1-05" class="rfc">datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-1-05</a></p>
+    <p><a href="https://datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-1-08" class="rfc">datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-1-08</a></p>
 
     <p>OAuth 2.1 is an in-progress effort to consolidate and simplify the most commonly used features of OAuth 2.0.</p>
 
@@ -29,6 +29,7 @@ require('../../includes/_header.php');
       <li>The Resource Owner Password Credentials grant is omitted from this specification</li>
       <li>Bearer token usage omits the use of bearer tokens in the query string of URIs</li>
       <li>Refresh tokens for public clients must either be sender-constrained or one-time use</li>
+      <li>The definitions of public and confidential clients have been simplified to only refer to whether the client has credentials</li>
     </ul>
 
 

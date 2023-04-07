@@ -1,0 +1,29 @@
+{
+    "data": {
+        "type": "event",
+        "name": "IETF 114 Philadelphia",
+        "start": "2022-07-23",
+        "end": "2022-07-29",
+        "url": "https://events.oauth.net/2022/07/ietf-114-philadelphia-iEphm2UZhZ4j",
+        "category": [
+            "ietf"
+        ],
+        "location": {
+            "type": "card",
+            "name": "Sheraton Philadelphia Downtown",
+            "latitude": "39.957391",
+            "longitude": "-75.1672683",
+            "street-address": "201 N 17th St",
+            "locality": "Philadelphia",
+            "region": "Pennsylvania",
+            "country-name": "United States"
+        },
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://www.ietf.org/how/meetings/114/"
+        }
+    },
+    "url": "https://events.oauth.net/2022/07/ietf-114-philadelphia-iEphm2UZhZ4j",
+    "code": 200,
+    "source-format": "mf2+html"
+}

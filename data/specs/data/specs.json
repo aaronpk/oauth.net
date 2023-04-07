@@ -1,5 +1,9 @@
 {
     "rfcs": [
+        "draft-ietf-oauth-iss-auth-resp",
+        "draft-ietf-oauth-par",
+        "draft-ietf-oauth-jwsreq",
+        "draft-ietf-oauth-access-token-jwt",
         "draft-ietf-oauth-jwt-bcp",
         "draft-ietf-oauth-resource-indicators",
         "draft-ietf-oauth-mtls",
@@ -24,20 +28,17 @@
         "draft-ietf-oauth-v2"
     ],
     "drafts": [
-        "draft-ietf-oauth-par",
-        "draft-ietf-oauth-jwt-introspection-response",
-        "draft-ietf-oauth-iss-auth-resp",
-        "draft-ietf-oauth-access-token-jwt",
-        "draft-ietf-oauth-browser-based-apps",
-        "draft-ietf-oauth-rar",
-        "draft-ietf-oauth-security-topics",
-        "draft-ietf-oauth-jwsreq",
+        "draft-ietf-oauth-step-up-authn-challenge",
         "draft-ietf-oauth-dpop",
-        "draft-ietf-oauth-v2-1"
+        "draft-ietf-oauth-jwk-thumbprint-uri",
+        "draft-ietf-oauth-rar",
+        "draft-ietf-oauth-browser-based-apps",
+        "draft-ietf-oauth-v2-1",
+        "draft-ietf-oauth-jwt-introspection-response"
     ],
     "individuals": [
-        "draft-richer-oauth-httpsig",
+        "draft-fett-oauth-selective-disclosure-jwt",
         "draft-yusef-oauth-nested-jwt",
-        "draft-parecki-oauth-client-intermediary-metadata"
+        "draft-chadwick-oauth-jwk-uri"
     ]
 }

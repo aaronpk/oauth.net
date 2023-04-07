@@ -1,0 +1,61 @@
+{
+    "title": "JWK Thumbprint URI",
+    "link": {
+        "@attributes": {
+            "href": "/doc/draft-ietf-oauth-jwk-thumbprint-uri/"
+        }
+    },
+    "id": "861107",
+    "updated": "2022-05-16T13:31:44-0700",
+    "published": "2022-05-16T13:31:44-0700",
+    "author": {
+        "name": "Michael Jones"
+    },
+    "content": {
+        "@attributes": {
+            "type": "html"
+        },
+        "@text": "New version available: <b>draft-ietf-oauth-jwk-thumbprint-uri-02.txt</b>"
+    },
+    "ietf": {
+        "type": "new_revision",
+        "stream": "ietf",
+        "group": "oauth",
+        "shepherd": "Rifaat Shekh-Yusef",
+        "ad": "Roman Danyliw",
+        "state": [
+            {
+                "@attributes": {
+                    "type": "draft"
+                },
+                "@text": "active"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iana-experts"
+                },
+                "@text": "reviewers-ok"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iana-review"
+                },
+                "@text": "ok-act"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iesg"
+                },
+                "@text": "iesg-eva"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-stream-ietf"
+                },
+                "@text": "sub-pub"
+            }
+        ],
+        "abstract": "This specification registers a kind of URI that represents a JSON Web\n   Key (JWK) Thumbprint value.  JWK Thumbprints are defined in RFC 7638.\n   This enables JWK Thumbprints to be used, for instance, as key\n   identifiers in contexts requiring URIs.",
+        "version": "02"
+    }
+}

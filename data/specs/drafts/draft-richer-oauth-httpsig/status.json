@@ -1,0 +1,9 @@
+{
+    "name": "draft-richer-oauth-httpsig",
+    "title": "OAuth Proof of Possession Tokens with HTTP Message Signatures",
+    "last_revised_date": "2021-06-21",
+    "status": "I-D Exists",
+    "group": "none",
+    "ad": "",
+    "last_changed_date": "2021-06-21"
+}

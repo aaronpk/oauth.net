@@ -1,0 +1,40 @@
+{
+    "title": "JWK Thumbprint URI",
+    "link": {
+        "@attributes": {
+            "href": "/doc/draft-jones-oauth-jwk-thumbprint-uri/"
+        }
+    },
+    "id": "836139",
+    "updated": "2021-11-24T11:52:24-0800",
+    "published": "2021-11-24T11:52:24-0800",
+    "author": {
+        "name": "Michael Jones"
+    },
+    "content": {
+        "@attributes": {
+            "type": "html"
+        },
+        "@text": "New version available: <b>draft-jones-oauth-jwk-thumbprint-uri-00.txt</b>"
+    },
+    "ietf": {
+        "type": "new_revision",
+        "group": "none",
+        "state": [
+            {
+                "@attributes": {
+                    "type": "draft"
+                },
+                "@text": "active"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iesg"
+                },
+                "@text": "idexists"
+            }
+        ],
+        "abstract": "This specification registers a family of URIs that represent JSON Web\n   Key (JWK) Thumbprint values.  JWK Thumbprints are defined in RFC\n   7638.",
+        "version": "00"
+    }
+}

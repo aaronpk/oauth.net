@@ -1,0 +1,40 @@
+{
+    "title": "Multi-Subject JSON Web Token (JWT)",
+    "link": {
+        "@attributes": {
+            "href": "/doc/draft-yusef-oauth-nested-jwt/"
+        }
+    },
+    "id": "864847",
+    "updated": "2022-06-14T05:18:36-0700",
+    "published": "2022-06-14T05:18:36-0700",
+    "author": {
+        "name": "Rifaat Shekh-Yusef"
+    },
+    "content": {
+        "@attributes": {
+            "type": "html"
+        },
+        "@text": "New version available: <b>draft-yusef-oauth-nested-jwt-05.txt</b>"
+    },
+    "ietf": {
+        "type": "new_revision",
+        "group": "none",
+        "state": [
+            {
+                "@attributes": {
+                    "type": "draft"
+                },
+                "@text": "active"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iesg"
+                },
+                "@text": "idexists"
+            }
+        ],
+        "abstract": "This specification defines a mechanism for including multiple\n   subjects in a JWT.  A primary subject in an enclosing JWT with its\n   own claims, and a related secondary subject in a nested JWT with its\n   own claims.",
+        "version": "05"
+    }
+}

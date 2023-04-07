@@ -5,11 +5,6 @@
     "status": "RFC 7009 (Proposed Standard)",
     "group": "oauth",
     "ad": "Stephen Farrell",
-    "last_changed_date": "2015-10-14",
-    "rfc": "7009",
-    "authors": [
-        "T. Lodderstedt",
-        "S. Dronia",
-        "M. Scurtescu"
-    ]
+    "last_changed_date": "2021-08-24",
+    "rfc": "7009"
 }

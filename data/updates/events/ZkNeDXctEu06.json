@@ -1,0 +1,28 @@
+{
+    "data": {
+        "type": "event",
+        "name": "GNAP Interim Meeting",
+        "start": "2022-01-20T16:00:00+00:00",
+        "end": "2022-01-20T17:00:00+00:00",
+        "url": "https://events.oauth.net/2022/01/gnap-interim-meeting-ZkNeDXctEu06",
+        "category": [
+            "gnap",
+            "ietf"
+        ],
+        "location": {
+            "type": "card",
+            "name": "Online"
+        },
+        "content": {
+            "text": "Agenda:\n\nDraft update - 40 min. - editor team\n\nCore draft update\nCurrent process\nIETF-113 hackathon\nNext steps\n\nInteractive requests in support of W3C VC API - Dmitry Zagidulin\n\nhttps://github.com/w3c-ccg/vc-api/issues/245",
+            "html": "<p>Agenda:</p>\n\n<ul><li>Draft update - 40 min. - editor team\n\n<ul><li>Core draft update</li>\n<li>Current process</li>\n<li>IETF-113 hackathon</li>\n<li>Next steps</li>\n</ul></li>\n<li>Interactive requests in support of W3C VC API - Dmitry Zagidulin\n\n<ul><li><a href=\"https://github.com/w3c-ccg/vc-api/issues/245\">https://github.com/w3c-ccg/vc-api/issues/245</a></li>\n</ul></li>\n</ul>"
+        },
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://datatracker.ietf.org/doc/agenda-interim-2022-gnap-01-gnap-01/"
+        }
+    },
+    "url": "https://events.oauth.net/2022/01/gnap-interim-meeting-ZkNeDXctEu06",
+    "code": 200,
+    "source-format": "mf2+html"
+}

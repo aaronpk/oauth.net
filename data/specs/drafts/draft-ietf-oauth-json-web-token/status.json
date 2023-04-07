@@ -6,10 +6,5 @@
     "group": "oauth",
     "ad": "Kathleen Moriarty",
     "last_changed_date": "2019-03-09",
-    "rfc": "7519",
-    "authors": [
-        "M. Jones",
-        "J. Bradley",
-        "N. Sakimura"
-    ]
+    "rfc": "7519"
 }

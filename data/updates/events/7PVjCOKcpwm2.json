@@ -1,0 +1,19 @@
+{
+    "data": {
+        "type": "event",
+        "name": "IETF 116",
+        "start": "2023-03-25",
+        "end": "2023-03-31",
+        "url": "https://events.oauth.net/2023/03/ietf-116-7PVjCOKcpwm2",
+        "category": [
+            "ietf"
+        ],
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://www.ietf.org/how/meetings/116/"
+        }
+    },
+    "url": "https://events.oauth.net/2023/03/ietf-116-7PVjCOKcpwm2",
+    "code": 200,
+    "source-format": "mf2+html"
+}

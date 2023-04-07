@@ -16,9 +16,14 @@ require('../../../includes/_header.php');
 
     <h2>OAuth 2.0 Security Best Current Practice</h2>
 
-    <p><a href="https://tools.ietf.org/html/draft-ietf-oauth-security-topics" class="rfc">https://tools.ietf.org/html/draft-ietf-oauth-security-topics</a></p>
+    <p><a href="https://datatracker.ietf.org/doc/html/draft-ietf-oauth-security-topics" class="rfc">datatracker.ietf.org/doc/html/draft-ietf-oauth-security-topics</a></p>
 
-    <p><a href="https://tools.ietf.org/html/draft-ietf-oauth-security-topics">OAuth 2.0 Security Best Current Practice</a> describes security requirements and other recommendations for clients and servers implementing OAuth 2.0.</p>
+    <p><a href="https://datatracker.ietf.org/doc/html/draft-ietf-oauth-security-topics">OAuth 2.0 Security Best Current Practice</a> describes security requirements and other recommendations for clients and servers implementing OAuth 2.0.</p>
+
+    <p>
+      
+      
+    </p>
 
     <p>More resources
       <ul>

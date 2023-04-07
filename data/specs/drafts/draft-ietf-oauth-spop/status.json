@@ -6,10 +6,5 @@
     "group": "oauth",
     "ad": "Kathleen Moriarty",
     "last_changed_date": "2020-01-21",
-    "rfc": "7636",
-    "authors": [
-        "N. Sakimura",
-        "J. Bradley",
-        "N. Agarwal"
-    ]
+    "rfc": "7636"
 }

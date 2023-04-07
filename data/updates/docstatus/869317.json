@@ -1,0 +1,40 @@
+{
+    "title": "Selective Disclosure JWT (SD-JWT)",
+    "link": {
+        "@attributes": {
+            "href": "/doc/draft-fett-oauth-selective-disclosure-jwt/"
+        }
+    },
+    "id": "869317",
+    "updated": "2022-07-11T09:18:18-0700",
+    "published": "2022-07-11T09:18:18-0700",
+    "author": {
+        "name": "Daniel Fett"
+    },
+    "content": {
+        "@attributes": {
+            "type": "html"
+        },
+        "@text": "New version available: <b>draft-fett-oauth-selective-disclosure-jwt-02.txt</b>"
+    },
+    "ietf": {
+        "type": "new_revision",
+        "group": "none",
+        "state": [
+            {
+                "@attributes": {
+                    "type": "draft"
+                },
+                "@text": "active"
+            },
+            {
+                "@attributes": {
+                    "type": "draft-iesg"
+                },
+                "@text": "idexists"
+            }
+        ],
+        "abstract": "This document specifies conventions for creating JSON Web Token (JWT)\n   documents that support selective disclosure of JWT claim values.",
+        "version": "02"
+    }
+}

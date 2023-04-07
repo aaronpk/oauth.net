@@ -1,0 +1,29 @@
+{
+    "data": {
+        "type": "event",
+        "name": "IETF 117 San Francisco",
+        "start": "2023-07-23",
+        "end": "2023-07-29",
+        "url": "https://events.oauth.net/2023/07/ietf-117-san-francisco-l0EhPnERT34b",
+        "category": [
+            "ietf"
+        ],
+        "location": {
+            "type": "card",
+            "name": "Hilton San Francisco Union Square",
+            "latitude": "37.786005",
+            "longitude": "-122.4106963",
+            "street-address": "333 O'Farrell St",
+            "locality": "San Francisco",
+            "region": "California",
+            "country-name": "United States"
+        },
+        "post-type": "event",
+        "rels": {
+            "canonical": "https://www.ietf.org/how/meetings/117/"
+        }
+    },
+    "url": "https://events.oauth.net/2023/07/ietf-117-san-francisco-l0EhPnERT34b",
+    "code": 200,
+    "source-format": "mf2+html"
+}

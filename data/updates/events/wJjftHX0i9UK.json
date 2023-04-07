@@ -1,0 +1,21 @@
+{
+    "data": {
+        "type": "event",
+        "name": "OAuth Virtual Interim Meeting: Token Exchange",
+        "start": "2021-11-03T09:00:00-07:00",
+        "end": "2021-11-03T10:00:00-07:00",
+        "url": "https://events.oauth.net/2021/11/oauth-virtual-interim-meeting-token-exchange-wJjftHX0i9UK",
+        "category": [
+            "oauth",
+            "token-exchange"
+        ],
+        "content": {
+            "text": "Token Exchange Profile for Enterprise\n\nhttps://www.mitre.org/publications/technical-papers/token-and-identity-chaining-between-protected-resources-in-a-single-icam-ecosystem-using-oauth-token-exchange\n\nhttps://www.mitre.org/publications/technical-papers/token-and-identity-chaining-between-protected-resources-in-a-multiple-icam-ecosystem-using-oauth-token-exchange\n\nMinutes",
+            "html": "<p>Token Exchange Profile for Enterprise</p>\n\n<p><a href=\"https://www.mitre.org/publications/technical-papers/token-and-identity-chaining-between-protected-resources-in-a-single-icam-ecosystem-using-oauth-token-exchange\">https://www.mitre.org/publications/technical-papers/token-and-identity-chaining-between-protected-resources-in-a-single-icam-ecosystem-using-oauth-token-exchange</a></p>\n\n<p><a href=\"https://www.mitre.org/publications/technical-papers/token-and-identity-chaining-between-protected-resources-in-a-multiple-icam-ecosystem-using-oauth-token-exchange\">https://www.mitre.org/publications/technical-papers/token-and-identity-chaining-between-protected-resources-in-a-multiple-icam-ecosystem-using-oauth-token-exchange</a></p>\n\n<p><a href=\"https://notes.ietf.org/s/notes-ietf-interim-2021-oauth-15-oauth\">Minutes</a></p>"
+        },
+        "post-type": "event"
+    },
+    "url": "https://events.oauth.net/2021/11/oauth-virtual-interim-meeting-token-exchange-wJjftHX0i9UK",
+    "code": 200,
+    "source-format": "mf2+html"
+}

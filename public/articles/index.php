@@ -156,14 +156,14 @@ require('../../includes/_header.php');
       </div>
 
       <div class="article card h-entry">
-        <h4 class="p-name"><a href="https://alexbilbie.com/guide-to-oauth-2-grants/" class="u-url">A Guide to OAuth 2.0 Grants</a></h4>
+        <h4 class="p-name"><a href="https://alexbilbie.github.io/guide-to-oauth-2-grants/" class="u-url">A Guide to OAuth 2.0 Grants</a></h4>
         <div class="meta">
-          <a href="https://alexbilbie.com/" class="u-author h-card">Alex Bilbie</a>
+          <a href="https://alexbilbie.github.io" class="u-author h-card">Alex Bilbie</a>
         </div>
         <div class="tags">
           #grant-types #guide
         </div>
-        <p class="e-summary"><i><a href="https://alexbilbie.com/guide-to-oauth-2-grants/">A Guide to OAuth 2.0 Grants</a></i> describes each of the OAuth grants and use cases for each.</p>
+        <p class="e-summary"><i><a href="https://alexbilbie.github.io/guide-to-oauth-2-grants/">A Guide to OAuth 2.0 Grants</a></i> describes each of the OAuth grants and use cases for each.</p>
       </div>
 
       <div class="article card h-entry">
@@ -178,7 +178,7 @@ require('../../includes/_header.php');
       </div>
 
       <div class="article card h-entry">
-        <h4 class="p-name"><a href="https://www.loginradius.com/engineering/blog/what-is-the-difference-between-oauth1-and-oauth2/" class="u-url">What is the difference between OAuth1 and OAuth2?</a></h4>
+        <h4 class="p-name"><a href="https://www.loginradius.com/blog/engineering/what-is-the-difference-between-oauth1-and-oauth2/" class="u-url">What is the difference between OAuth1 and OAuth2?</a></h4>
         <div class="meta">
           <a href="https://www.loginradius.com/engineering/blog/author/ti-zhang/" class="u-author h-card">Ti Zhang</a>
         </div>
@@ -189,7 +189,7 @@ require('../../includes/_header.php');
       </div>
 
        <div class="article card h-entry">
-        <h4 class="p-name"><a href="https://www.loginradius.com/engineering/blog/oauth2/" class="u-url">Getting Started with OAuth 2.0</a></h4>
+        <h4 class="p-name"><a href="https://www.loginradius.com/blog/engineering/oauth2/" class="u-url">Getting Started with OAuth 2.0</a></h4>
         <div class="meta">
           <a href="https://github.com/indrasen715" class="u-author h-card">Indrasen Kumar</a>
         </div>
