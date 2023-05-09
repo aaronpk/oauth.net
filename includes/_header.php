@@ -20,16 +20,7 @@ function e($t) { return htmlspecialchars($t); }
 </div>
 
 <?php if($_SERVER['SERVER_NAME'] == 'oauth.net'): ?>
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-4617305-25', 'auto');
-ga('send', 'pageview');
-</script>
-<script src="https://emu.pin13.net/script.js" site="KKZQTOOD" defer></script>
+<script src="https://cdn.usefathom.com/script.js" site="KKZQTOOD" defer></script>
 <script>
 var trackOutboundClick = function(url, code) {
    ga('send', 'event', 'outbound', 'click', url, {
