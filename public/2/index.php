@@ -110,7 +110,6 @@ require('../../includes/_header.php');
     <h3>Experimental and Draft Specs</h3>
     <p>The specs below are either experimental or in draft status and are still active working group items. They will likely change before they are finalized as RFCs or BCPs.</p>
     <ul>
-      <li><a href="/2/rich-authorization-requests/">Rich Authorization Requests (RAR)</a></li>
       <li><a href="https://tools.ietf.org/html/draft-ietf-oauth-incremental-authz">Incremental Authorization</a></li>
       <li><a href="https://datatracker.ietf.org/doc/html/draft-ietf-oauth-step-up-authn-challenge">Step-up Authentication Challenge</a></li>
       <li><a href="/specs/">All OAuth Working Group Documents</a></li>
@@ -123,6 +122,7 @@ require('../../includes/_header.php');
       <li><a href="http://tools.ietf.org/html/rfc7522">SAML2 Bearer Assertion</a> - RFC 7522, for integrating with existing identity systems</li>
       <li><a href="http://tools.ietf.org/html/rfc7523">JWT Bearer Assertion</a> - RFC 7523</li>
       <li><a href="http://tools.ietf.org/html/rfc9207">Authorization Server Issuer Identification</a> - RFC 9207, indicates the authorization server identifier in the authorization response</li>
+      <li><a href="/2/rich-authorization-requests/">Rich Authorization Requests (RAR)</a> - RFC 9396</li>
     </ul>
 
     <h3>Related Work from Other Communities</h3>
