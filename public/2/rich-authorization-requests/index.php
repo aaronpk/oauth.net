@@ -2,7 +2,7 @@
 $page_title = "OAuth 2.0 Rich Authorization Requests";
 $page_section = "";
 $page_secondary = "";
-$page_meta_description = "OAuth 2.0 Rich Authorization Requests";
+$page_meta_description = "RFC 9396: OAuth 2.0 Rich Authorization Requests";
 require('../../../includes/_header.php');
 ?>
 <div class="container">
@@ -14,12 +14,11 @@ require('../../../includes/_header.php');
   </nav>
   <div>
 
-    <h2>Draft: OAuth 2.0 Rich Authorization Requests</h2>
+    <h2>RFC 9396: OAuth 2.0 Rich Authorization Requests</h2>
 
-    <p><a href="https://datatracker.ietf.org/doc/html/draft-ietf-oauth-rar" class="rfc">datatracker.ietf.org/doc/html/draft-ietf-oauth-rar</a></p>
+    <p><a href="https://datatracker.ietf.org/doc/html/rfc9396" class="rfc">datatracker.ietf.org/doc/html/rfc9396</a></p>
 
     <p>The <a href="https://datatracker.ietf.org/doc/html/draft-ietf-oauth-rar">Rich Authorization Requsts</a> extension provides a way for OAuth clients to request fine-grained permissions during an authorization request. For example, an app may specify a request such as "let me make a payment of 45 Euros" or "please give me read access to folder X and write access to folder Y".</p>
-    <p>This draft is still in progress, and is open to feedback from people who are interested in using it!</p>
 
     <p>More resources
       <ul>
