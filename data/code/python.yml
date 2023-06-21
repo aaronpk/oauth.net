@@ -19,6 +19,4 @@ client_libraries:
   for Flask and Django.</a>
 - <a href="https://github.com/requests/requests-oauthlib">Requests-OAuthlib</a> has
   OAuth library support for <a href="http://python-requests.org">Python Requests</a>.</a>
-- <a href="https://github.com/mozilla/mozilla-django-oidc">mozilla-django-oidc</a> is
-  a lightweight Django authentication and access management library for integration with OpenID Connect enabled authentication services.
 ...
