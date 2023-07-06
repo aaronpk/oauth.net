@@ -10,11 +10,11 @@ require('../../includes/_header.php');
   <div class="container">
 
     <div>
-      <h2>What are passkeys?</h2>
+      <h2>What are Passkeys?</h2>
 
       <p><a href="https://passkeys.dev//" class="rfc">passkeys.dev</a></p>
 
-      <p>passkeys are a new way to log in to services without using a password. Instead of a password, passkeys use the security capability of your device like Touch ID and Face ID, and sync across multiple devices so you don't have to worry about losing your device either. Passkeys are strong and phishing resistant by design.</p>
+      <p>Passkeys are a new way to log in to services without using a password. Instead of a password, passkeys use the security capability of your device like Touch ID and Face ID, and sync across multiple devices so you don't have to worry about losing your device either. Passkeys are strong and phishing resistant by design.</p>
 
       <h4>Do passkeys replace OAuth?</h4>
 
