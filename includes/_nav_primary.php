@@ -11,9 +11,10 @@
       <li class="nav-item"><a class="nav-link" href="/code/">Code</a></li>
       <li class="nav-item"><a class="nav-link" href="/articles/">Articles</a></li>
       <li class="nav-item"><a class="nav-link" href="/videos/">Videos</a></li>
-      <li class="nav-item"><a class="nav-link" href="/events/">Events</a></li>
+      <li class="nav-item"><a class="nav-link" href="https://events.oauth.net/">Events</a></li>
       <li class="nav-item"><a class="nav-link" href="/books/">Books</a></li>
       <li class="nav-item"><a class="nav-link" href="/security/">Security</a></li>
+      <li class="nav-item"><a class="nav-link" href="https://shop.oauth.net/">Merch</a></li>
       <li class="nav-item"><a class="nav-link" href="/about/credits/">About</a></li>
     </ul>
   </div>

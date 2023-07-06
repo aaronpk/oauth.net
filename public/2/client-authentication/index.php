@@ -27,7 +27,8 @@ require('../../../includes/_header.php');
       <li><a href="/2/mtls/">Mutual TLS</a> (RFC 8705)</li>
       <li><a href="/private-key-jwt/">Private Key JWT</a> (RFC 7521, RFC 7521, OpenID)</li>
     </ul>
-
+    <p>Note: <a href="/2/pkce/">PKCE</a> is not a form of client authentication, and is not an alternative to client authentication. Applications using client authentication should also use PKCE.</p>
+    
     <p>More resources
       <ul>
         <li><a href="https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/">Client Credentials</a> (oauth.com)</li>

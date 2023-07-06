@@ -15,6 +15,17 @@ require('../../includes/_header.php');
 			<p>The OAuth community is dedicated to helping provide information on the proper use of the OAuth protocols through a series of articles on different topics.</p>
 
       <div class="article card h-entry">
+        <h4 class="p-name"><a href="https://fusionauth.io/learn/expert-advice/oauth/complete-list-oauth-grants" class="u-url">The Complete List of OAuth 2 Grants</a></h4>
+        <div class="meta">
+          <a href="https://twitter.com/ravgeetdhillon" class="u-author h-card">Ravgeet Dhillon</a> ・ <time class="dt-published" datetime="2022-04-12">Apr 12, 2022</time>
+        </div>
+        <div class="tags">
+          #oauth2 
+        </div>
+        <p class="e-summary">A complete list of all the various grants that have been standardized by the IETF, including standard ones like the Authorization Code Grant, and more unusual ones like the SAML 2.0 Bearer Grant.</p>
+      </div>
+
+      <div class="article card h-entry">
         <h4 class="p-name"><a href="https://www.ory.sh/run-oauth2-server-open-source-api-security/" class="u-url">Run Your Own Open Source OAuth2 and OpenID Connect Server!</a></h4>
         <div class="meta">
           <a href="http://github.com/aeneasr" class="u-author h-card">Aeneas Rekkas</a> ・ <time class="dt-published" datetime="2021-01-01">Jan 01, 2021</time>
@@ -156,14 +167,14 @@ require('../../includes/_header.php');
       </div>
 
       <div class="article card h-entry">
-        <h4 class="p-name"><a href="https://alexbilbie.com/guide-to-oauth-2-grants/" class="u-url">A Guide to OAuth 2.0 Grants</a></h4>
+        <h4 class="p-name"><a href="https://alexbilbie.github.io/guide-to-oauth-2-grants/" class="u-url">A Guide to OAuth 2.0 Grants</a></h4>
         <div class="meta">
-          <a href="https://alexbilbie.com/" class="u-author h-card">Alex Bilbie</a>
+          <a href="https://alexbilbie.github.io" class="u-author h-card">Alex Bilbie</a>
         </div>
         <div class="tags">
           #grant-types #guide
         </div>
-        <p class="e-summary"><i><a href="https://alexbilbie.com/guide-to-oauth-2-grants/">A Guide to OAuth 2.0 Grants</a></i> describes each of the OAuth grants and use cases for each.</p>
+        <p class="e-summary"><i><a href="https://alexbilbie.github.io/guide-to-oauth-2-grants/">A Guide to OAuth 2.0 Grants</a></i> describes each of the OAuth grants and use cases for each.</p>
       </div>
 
       <div class="article card h-entry">
@@ -178,7 +189,7 @@ require('../../includes/_header.php');
       </div>
 
       <div class="article card h-entry">
-        <h4 class="p-name"><a href="https://www.loginradius.com/engineering/blog/what-is-the-difference-between-oauth1-and-oauth2/" class="u-url">What is the difference between OAuth1 and OAuth2?</a></h4>
+        <h4 class="p-name"><a href="https://www.loginradius.com/blog/engineering/what-is-the-difference-between-oauth1-and-oauth2/" class="u-url">What is the difference between OAuth1 and OAuth2?</a></h4>
         <div class="meta">
           <a href="https://www.loginradius.com/engineering/blog/author/ti-zhang/" class="u-author h-card">Ti Zhang</a>
         </div>
