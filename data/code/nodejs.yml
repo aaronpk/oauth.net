@@ -9,10 +9,8 @@ client_libraries:
   Koa, Hapi, Fastify, AWS Lambda, Azure, Google Cloud, Vercel
 - <a href="http://passportjs.org/">PassportJS</a>
 server_libraries:
-- "<a href=\"https://github.com/node-oauth/node-oauth2-server\">oidc-provider</a>. OpenID
-  Certified\u2122 Provider implementation for Node.js"
-- "<a href=\"https://github.com/panva/node-oidc-provider\">oidc-provider</a>. OpenID
-  Certified\u2122 Provider implementation for Node.js"
+- "<a href=\"https://github.com/node-oauth/node-oauth2-server\">@node-oauth/oauth2-server</a>. Complete, compliant and well tested module for implementing an OAuth2 server in Node.js"
+- "<a href=\"https://github.com/panva/node-oidc-provider\">oidc-provider</a>. OpenID Certified\u2122 Provider implementation for Node.js"
 - <a href="https://github.com/t1msh/node-oauth20-provider">NodeJS OAuth 2.0 Provider</a>
 - <a href="https://github.com/mozilla/fxa">Mozilla Firefox Accounts</a>. A full stack
   Identity Provider system developed to support Firefox Marketplace and other services
