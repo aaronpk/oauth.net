@@ -31,6 +31,7 @@ require('../../includes/_header.php');
         <li><a href="https://passkeys.dev/">passkeys.dev</a></li>
         <li><a href="https://passkeys.io/">passkeys.io</a></li>
         <li><a href="https://passkeys.com/">passkeys.com</a></li>
+        <li><a href="https://passkeys.guru/">passkeys.guru</a></li>
       </ul>
 
       <h3>Documentation</h3>
