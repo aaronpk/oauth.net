@@ -3,4 +3,5 @@ name: Deno
 client_libraries:
 - "<a href=\"https://github.com/panva/oauth4webapi\">oauth4webapi</a>. OpenID
   Certified\u2122 OAuth 2 / OpenID Connect for Web Platform API JavaScript runtimes"
+- "<a href=\"https://deno.land/x/deno_kv_oauth\">Deno KV OAuth</a>. High-level OAuth 2.0 powered by <a href=\"https://deno.com/kv\">Deno KV</a>."
 ...
