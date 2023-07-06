@@ -23,10 +23,6 @@ function e($t) { return htmlspecialchars($t); }
 <script src="https://cdn.usefathom.com/script.js" site="KKZQTOOD" defer></script>
 <script>
 var trackOutboundClick = function(url, code) {
-   ga('send', 'event', 'outbound', 'click', url, {
-     'transport': 'beacon',
-     'hitCallback': function(){document.location = url;}
-   });
    if(window.fathom) {
      window.fathom.trackGoal(code, 0);
    }
