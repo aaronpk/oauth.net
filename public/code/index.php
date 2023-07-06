@@ -78,12 +78,14 @@ $languages = json_decode(file_get_contents(__DIR__.'/../../data/code/languages.j
       <li><a href="https://www.ory.sh/hydra">ORY Hydra</a></li>
       <li><a href="https://simplelogin.io/developer">SimpleLogin</a></li>
       <li><a href="https://github.com/ssqsignon">SSQ signon</a></li>
+      <li><a href="https://wso2.com/identity-server/">WSO2 Identity Server</a></li>
       <li><a href="https://github.com/zitadel/zitadel">ZITADEL</a></li>   
     </ul>
 
     <h4 id="commercial">Commercial</h4>
     <span id="proxy-services-commercial"></span>
     <ul>
+      <li><a href="https://wso2.com/asgardeo/">Asgardeo</a></li>
       <li><a href="https://auth0.com">Auth0</a></li>
       <li><a href="https://www.cidaas.com">cidaas</a></li>
       <li><a href="https://curity.io">Curity Identity Server</a></li>
