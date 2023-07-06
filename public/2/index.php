@@ -27,8 +27,8 @@ require('../../includes/_header.php');
     <?php else: ?>
 
     <div style="margin-top: 10px; margin-bottom: 20px; padding: 40px; border: 1px #ddd solid;">
-      <div style="">New Video Course: Advanced OAuth Security</div>
-      <div class="course-image"><a href="https://oauth2simplified.com/advanced-oauth" onclick="trackOutboundClick('https://oauth2simplified.com/advanced-oauth', '7VBGSQN1'); return false;"><img src="https://oauth2simplified.com/images/advanced-oauth-security.png" style="width: 100%"></a></div>
+      <div style="">Video Course: The Nuts and Bolts of OAuth 2.0</div>
+      <div class="course-image"><a href="https://oauth2simplified.com/course" onclick="trackOutboundClick('https://oauth2simplified.com/course', '7VBGSQN1'); return false;"><img src="https://oauth2simplified.com/images/nuts-and-bolts-of-oauth.png" style="width: 100%"></a></div>
       <div style="text-align: right;">by Aaron Parecki</div>
     </div>
 
