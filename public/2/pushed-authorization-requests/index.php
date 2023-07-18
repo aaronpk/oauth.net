@@ -18,7 +18,7 @@ require('../../../includes/_header.php');
 
     <p><a href="https://datatracker.ietf.org/doc/html/rfc9126" class="rfc">datatracker.ietf.org/doc/html/rfc9126</a></p>
 
-    <p>The <a href="https://datatracker.ietf.org/doc/html/rfc9126">Pushed Authorization Requsts</a> extension describes a technique of initiating an OAuth flow from the backchannel instead of by building a URL, providing better security and more flexibility for building complex authorization requests.</p>
+    <p>The <a href="https://datatracker.ietf.org/doc/html/rfc9126">Pushed Authorization Requests</a> extension describes a technique of initiating an OAuth flow from the backchannel instead of by building a URL, providing better security and more flexibility for building complex authorization requests.</p>
 
     <p>More resources
       <ul>
