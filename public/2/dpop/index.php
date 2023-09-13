@@ -1,8 +1,8 @@
 <?php
-$page_title = "OAuth 2.0 DPoP - Demonstrating Proof of Possession at the Application Layer";
+$page_title = "OAuth 2.0 DPoP - Demonstrating Proof of Possession";
 $page_section = "";
 $page_secondary = "";
-$page_meta_description = "OAuth 2.0 DPoP - Demonstrating Proof of Possession at the Application Layer";
+$page_meta_description = "OAuth 2.0 DPoP - Demonstrating Proof of Possession";
 require('../../../includes/_header.php');
 ?>
 <div class="container">
@@ -14,7 +14,7 @@ require('../../../includes/_header.php');
   </nav>
   <div>
 
-    <h2>OAuth 2.0 Demonstrating Proof-of-Possession (DPoP)</h2>
+    <h2>RFC 9449: OAuth 2.0 Demonstrating Proof-of-Possession (DPoP)</h2>
 
     <p><a href="https://tools.ietf.org/html/rfc9449" class="rfc">tools.ietf.org/html/rfc9449</a></p>
 

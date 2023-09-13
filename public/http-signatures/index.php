@@ -22,7 +22,7 @@ require('../../includes/_header.php');
     <p>In OAuth, HTTP Signatures can be used as a proof of possession mechanism to add additional protection to <a href="/2/bearer-tokens/">Bearer tokens</a>. Other forms of proof of possession in OAuth include:</p>
     <ul>
       <li><a href="/2/mtls/">RFC 8705: Mutual TLS</a></li>
-      <li><a href="/2/dpop/">Draft: DPoP</a></li>
+      <li><a href="/2/dpop/">RFC 9449: DPoP</a></li>
     </ul>
 
     <p>HTTP Signatures is referenced by <a href="/fapi/">FAPI</a> as one method of signing HTTP messages.</p>
