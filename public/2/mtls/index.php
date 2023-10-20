@@ -23,7 +23,7 @@ require('../../../includes/_header.php');
     <p>See Also:</p>
     <ul>
       <li><a href="/2/client-authentication/">Client Authentication</a></li>
-      <li><a href="/2/dpop/">Draft: DPoP</a></li>
+      <li><a href="/2/dpop/">RFC9449: DPoP</a></li>
       <li><a href="/http-signatures/">Draft: HTTP Signatures</a></li>
       <li><a href="/private-key-jwt/">Private Key JWT</a></li>
     </ul>
