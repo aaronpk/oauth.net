@@ -22,7 +22,7 @@ require('../../../includes/_header.php');
 
     <p>Confidential clients authenticate when making requests to the OAuth authorization server.</p>
     <p>The core OAuth 2.0 specification defines the "client password" (e.g. client secret) client authentication type, which defines the <code>client_secret</code> parameter as well as the method of including the client secret in the HTTP <code>Authorization</code> header.</p>
-    <p>There are additional forms of client authentication defined in extensions.</p>
+    <p>These are most common forms of client authentication.</p>
     <ul>
       <li><a href="https://www.rfc-editor.org/rfc/rfc6749#section-2.3.1">Client Secret</a> (RFC 6749 Section 2.3.1)</li>
       <li><a href="/2/mtls/">Mutual TLS</a> (RFC 8705)</li>
