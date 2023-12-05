@@ -1,5 +1,5 @@
 <?php
-$page_title = "OAuth 2.0 DPoP - Demonstrating Proof of Possession at the Application Layer- RFC9449";
+$page_title = "OAuth 2.0 DPoP - Demonstrating Proof of Possession at the Application Layer - RFC9449";
 $page_section = "";
 $page_secondary = "";
 $page_meta_description = "OAuth 2.0 DPoP - Demonstrating Proof of Possession at the Application Layer - RFC9449";
@@ -9,12 +9,12 @@ require('../../../includes/_header.php');
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a href="/2/">OAuth 2.0</a></li>
-      <li class="breadcrumb-item active">DPoP - Demonstrating Proof of Possession at the Application Layer</li>
+      <li class="breadcrumb-item active">DPoP - Demonstrating Proof of Possession</li>
     </ol>
   </nav>
   <div>
 
-    <h2>RFC9449: OAuth 2.0 Demonstrating Proof-of-Possession at the Application Layer (DPoP)</h2>
+    <h2>RFC 9449: OAuth 2.0 Demonstrating Proof-of-Possession at the Application Layer (DPoP)</h2>
 
     <p><a href="https://datatracker.ietf.org/doc/html/rfc9449" class="rfc">datatracker.ietf.org/doc/html/rfc9449</a></p>
 

@@ -101,7 +101,7 @@ require('../../includes/_header.php');
     <p>These specs are used to add additional security properties on top of OAuth 2.0.</p>
     <ul>
       <li><a href="/2/pushed-authorization-requests/">Pushed Authorization Requests (PAR)</a> - RFC 9126</li>
-      <li><a href="/2/dpop/">Demonstration of Proof of Possession (DPoP)</a></li>
+      <li><a href="/2/dpop/">Demonstration of Proof of Possession (DPoP)</a> - RFC 9449</li>
       <li><a href="/2/mtls/">Mutual TLS</a> - RFC 8705</li>
       <li><a href="/private-key-jwt/">Private Key JWT</a> - (RFC 7521, RFC 7521, OpenID)</li>
       <li><a href="/fapi/">FAPI</a></li>
