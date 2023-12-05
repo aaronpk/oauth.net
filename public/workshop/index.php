@@ -18,12 +18,13 @@ require('../../includes/_header.php');
     <div>
       <h3>Next Event</h3>
       <ul>
-        <li><a href="https://oauth.secworkshop.events/">OSW2023, London, UK</a> (oauth.secworkshop.events)</li>
+        <li>Dates/Location TBD</li>
       </ul>
     </div>
     <div>
       <h3>Past Events</h3>
       <ul>
+        <li><a href="https://oauth.secworkshop.events/osw2023">OSW2023, London, UK</a> (oauth.secworkshop.events)</li>
         <li><a href="https://oauth.secworkshop.events/osw2022">OSW2022, Trondheim, Norway</a> (oauth.secworkshop.events)</li>
         <li><a href="https://barcamps.eu/osw2021/">OSW2021, Online</a> (barcamps.eu)</li>
         <li><a href="https://osw2020.com/">OSW2020, Online</a> (osw2020.com)</li>
