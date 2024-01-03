@@ -76,6 +76,7 @@ $languages = json_decode(file_get_contents(__DIR__.'/../../data/code/languages.j
       <li><a href="https://www.keycloak.org">Keycloak</a></li>
       <li><a href="https://github.com/oauth-io">OAuth.io</a></li>
       <li><a href="https://www.ory.sh/hydra">ORY Hydra</a></li>
+      <li><a href="https://github.com/panva/node-oidc-provider">oidc-provider</a></li>
       <li><a href="https://simplelogin.io/developer">SimpleLogin</a></li>
       <li><a href="https://github.com/spring-projects/spring-authorization-server">Spring Authorization Server</a></li>
       <li><a href="https://github.com/ssqsignon">SSQ signon</a></li>
