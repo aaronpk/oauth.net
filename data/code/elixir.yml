@@ -6,6 +6,6 @@ server_libraries:
 - '<a href="https://github.com/danschultzer/ex_oauth2_provider">Elixir OAuth2 Server</a>:
   The no-brainer library to use for adding OAuth 2.0 provider capabilities to your
   Elixir app.'
-- '<a href="https://github.com/malach-it/boruta-server">Boruta</a>:
+- '<a href="https://github.com/malach-it/boruta_auth">Boruta</a>:
   OAuth / OpenID Connect provider core for Elixir.'
 ...
