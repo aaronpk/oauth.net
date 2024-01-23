@@ -26,7 +26,7 @@ require('../../../includes/_header.php');
     <ul>
       <li><a href="https://www.rfc-editor.org/rfc/rfc6749#section-2.3.1">Client Secret</a> (RFC 6749 Section 2.3.1)</li>
       <li><a href="/2/mtls/">Mutual TLS</a> (RFC 8705)</li>
-      <li><a href="/private-key-jwt/">Private Key JWT</a> (RFC 7521, RFC 7521, OpenID)</li>
+      <li><a href="/private-key-jwt/">Private Key JWT</a> (RFC 7521, RFC 7523, OpenID)</li>
     </ul>
     <p>Note: <a href="/2/pkce/">PKCE</a> is not a form of client authentication, and is not an alternative to client authentication. Applications using client authentication should also use PKCE.</p>
     
