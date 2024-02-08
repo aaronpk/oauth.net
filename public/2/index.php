@@ -13,7 +13,7 @@ require('../../includes/_header.php');
 
     <h2 id="oauth-2.0">OAuth 2.0</h2>
 
-    <p><img src="/images/oauth-2-sm.png" alt="OAuth 2.0 logo" style="float:right; margin: 0 0 8px 8px;" />OAuth 2.0 is the industry-standard protocol for authorization. OAuth 2.0 focuses on client developer simplicity while providing specific authorization flows for web applications, desktop applications, mobile phones, and living room devices. This specification and its extensions are being developed within the <a href="https://www.ietf.org/mailman/listinfo/oauth">IETF OAuth Working Group</a>.</p>
+    <p><img src="/images/oauth-2-sm.png" alt="OAuth 2.0 logo" style="float:right; margin: 0 0 8px 8px;" />OAuth 2.0 is the industry-standard protocol for authorization. OAuth 2.0 focuses on client developer simplicity while providing specific authorization flows for web applications, desktop applications, mobile phones, and living room devices. This specification and its extensions are being developed within the <a href="https://datatracker.ietf.org/wg/oauth/about/">IETF OAuth Working Group</a>.</p>
     <p><a href="/2.1/">OAuth 2.1</a> is an in-progress effort to consolidate OAuth 2.0 and many common extensions under a new name.</p>
     <p>Questions, suggestions and protocol changes should be discussed on the <a href="https://www.ietf.org/mailman/listinfo/oauth">mailing list</a>.</p>
 
