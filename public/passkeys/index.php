@@ -12,7 +12,7 @@ require('../../includes/_header.php');
     <div>
       <h2>What are Passkeys?</h2>
 
-      <p><a href="https://passkeys.dev//" class="rfc">passkeys.dev</a></p>
+      <p><a href="https://passkeys.dev/" class="rfc">passkeys.dev</a></p>
 
       <p>Passkeys are a new way to log in to services without using a password. Instead of a password, passkeys use the security capability of your device like Touch ID and Face ID, and sync across multiple devices so you don't have to worry about losing your device either. Passkeys are strong and phishing resistant by design.</p>
 
@@ -25,21 +25,21 @@ require('../../includes/_header.php');
       <p>Passkeys will replace the step in OAuth where the user enters their password, since passkeys are a replacement for password authentication. But passkeys alone won't provide an app with an access token to make API requests, since that's not what it's designed for.</p>
 
 
-      <h3>Demos</h3>
+      <h3>Documentation</h3>
 
       <ul>
         <li><a href="https://passkeys.dev/">passkeys.dev</a></li>
+        <li><a href="https://fidoalliance.org/passkeys/">Passkeys</a> (fidoalliance.org)</li>
+        <li><a href="https://developer.apple.com/passkeys/">Passkeys</a> (developer.apple.com)</li>
+      </ul>
+
+      <h3>Demos</h3>
+
+      <ul>
         <li><a href="https://passkeys.io/">passkeys.io</a></li>
         <li><a href="https://passkeys.com/">passkeys.com</a></li>
         <li><a href="https://passkeys.guru/">passkeys.guru</a></li>
         <li><a href="https://learnpasskeys.io/?utm_source=oauth_net&utm_medium=oauth_net&utm_campaign=learnpasskeys_launch">learnpasskeys.io</a></li>
-      </ul>
-
-      <h3>Documentation</h3>
-
-      <ul>
-        <li><a href="https://fidoalliance.org/passkeys/">Passkeys</a> (fidoalliance.org)</li>
-        <li><a href="https://developer.apple.com/passkeys/">Passkeys</a> (developer.apple.com)</li>
       </ul>
 
 
