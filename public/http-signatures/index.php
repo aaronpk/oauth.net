@@ -10,14 +10,11 @@ require('../../includes/_header.php');
 <div class="container">
   <div>
 
-    <h2>HTTP Signatures</h2>
+    <h2>RFC9421: HTTP Message Signatures</h2>
 
-    <p>HTTP Signatures describes a method of creating, encoding and verifying a signature within an HTTP request. This spec can be used for a variety of applications, both involving OAuth as well as outside of OAuth. This work is taking place in the <a href="https://datatracker.ietf.org/doc/charter-ietf-httpbis/">HTTPBIS working group</a> at the IETF.</p>
+    <p><a href="https://datatracker.ietf.org/doc/html/rfc9421" class="rfc">datatracker.ietf.org/doc/html/rfc9421</a></p>
 
-    <p>The latest version of the in-progress specification can be found at:</p>
-    <ul>
-      <li><a href="https://tools.ietf.org/html/draft-ietf-httpbis-message-signatures">HTTP Message Signatures</a></li>
-    </ul>
+    <p>HTTP Message Signatures describes a method of creating, encoding and verifying a signature within an HTTP request. This spec can be used for a variety of applications, both involving OAuth as well as outside of OAuth.</p>
 
     <p>In OAuth, HTTP Signatures can be used as a proof of possession mechanism to add additional protection to <a href="/2/bearer-tokens/">Bearer tokens</a>. Other forms of proof of possession in OAuth include:</p>
     <ul>
@@ -32,8 +29,7 @@ require('../../includes/_header.php');
       For a brief period of time, some of this work had been picked up by the "<a href="https://github.com/w3c-dvcg">Digital Verification Community Group</a>" 
       and later moved into the "<a href="https://github.com/w3c-ccg">Credentials Community Group</a>" at the W3C. 
       The <a href="https://github.com/w3c-ccg/http-signatures/blob/gh-pages/index.xml">CCG version</a> of the draft was redirected to the IETF draft 
-      in the [HTTPBIS working group](https://datatracker.ietf.org/doc/draft-ietf-httpbis-message-signatures/) where development of the draft
-      has continued.</p>
+      in the <a href="https://datatracker.ietf.org/doc/draft-ietf-httpbis-message-signatures/">HTTPBIS working group</a> where development of the draft continued until it was published as an RFC.</p>
 
     <p>More resources
       <ul>

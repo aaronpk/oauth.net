@@ -38,8 +38,8 @@ require('../../includes/_header.php');
       <li><a href="https://www.rfc-editor.org/rfc/rfc9207">RFC 9207</a> - OAuth 2.0 Authorization Server Issuer Identification</li>
       <li><a href="https://datatracker.ietf.org/doc/html/draft-ietf-oauth-dpop">DPoP</a> - Demonstrating Proof-of-Possession at the Application Layer</li>
       <li><a href="https://datatracker.ietf.org/doc/html/draft-ietf-oauth-jwt-introspection-response">JWT Response for OAuth Token Introspection</a></li>
-      <li><a href="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-message-signatures">HTTP Message Signatures</a></li>
-      <li><a href="https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers">HTTP Digest Headers</a></li>
+      <li><a href="https://www.rfc-editor.org/rfc/rfc9421">RFC 9421</a> - HTTP Message Signatures</li>
+      <li><a href="https://www.rfc-editor.org/rfc/rfc9530">RFC 9530</a> - HTTP Digest Headers</li>
       <li><a href="https://openid.net/specs/oauth-v2-jarm.html">JWT Secured Authorization Response Mode for OAuth 2.0 (JARM)</a></li>
     </ul>
 

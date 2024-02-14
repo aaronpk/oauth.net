@@ -130,7 +130,7 @@ require('../../includes/_header.php');
       <li><a href="/fapi/">FAPI</a> (OpenID Foundation)</li>
       <li><a href="/webauthn/">WebAuthn - Web Authentication</a></li>
       <li><a href="/passkeys">passkeys</a> are a new way to sign in to services without a password</li>
-      <li><a href="/http-signatures/">Signing HTTP Messages</a> - A generic HTTP message signing spec</li>
+      <li><a href="/http-signatures/">HTTP Message Signatures</a> - A generic HTTP message signing spec</li>
       <li><a href="/openid-for-verifiable-credentials/">OpenID for Verifiable Credentials</a></li>
     </ul>
 
