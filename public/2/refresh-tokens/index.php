@@ -20,6 +20,8 @@ require('../../../includes/_header.php');
 
     <p>An OAuth Refresh Token is a string that the OAuth client can use to get a new access token without the user's interaction.</p>
 
+    <p>Both <a href="/2/client-types/">public and confidential clients</a> can use refresh tokens. If a refresh token issued to a public client is stolen, the attacker can impersonate the client and use the refresh token without being detected. It is also possible to bind refresh tokens to the public client instance using <a href="/2/dpop/">DPoP</a>, which can counter this attack. Confidential clients need to authenticate to the authorization server in order to use the refresh token, so the risk of stolen refresh tokens is lower for this type of client.</p>
+
     <p>A refresh token must not allow the client to gain any access beyond the scope of the original grant. The refresh token exists to enable authorization servers to use short lifetimes for access tokens without needing to involve the user when the token expires.</p>
 
     <p>
