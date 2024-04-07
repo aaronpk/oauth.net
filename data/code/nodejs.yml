@@ -8,6 +8,9 @@ client_libraries:
 - <a href="https://github.com/simov/grant">Grant</a> 200+ OAuth providers for Express,
   Koa, Hapi, Fastify, AWS Lambda, Azure, Google Cloud, Vercel
 - <a href="http://passportjs.org/">PassportJS</a>
+- <a href="https://github.com/authts/oidc-client-ts">oidc-client-ts</a>. Library to
+  provide OpenID Connect and OAuth2 protocol support for client-side, browser-based
+  JavaScript client applications.
 server_libraries:
 - "<a href=\"https://github.com/node-oauth/node-oauth2-server\">@node-oauth/oauth2-server</a>. Complete, compliant and well tested module for implementing an OAuth2 server in Node.js"
 - "<a href=\"https://github.com/panva/node-oidc-provider\">oidc-provider</a>. OpenID Certified\u2122 Provider implementation for Node.js"
@@ -16,7 +19,4 @@ server_libraries:
   Identity Provider system developed to support Firefox Marketplace and other services
 - '<a href="https://github.com/jaredhanson/oauth2orize">OAuth2orize: toolkit to implement
   OAuth2 Authorization Servers</a>'
-- <a href="https://github.com/authts/oidc-client-ts">oidc-client-ts</a>. Library to
-  provide OpenID Connect and OAuth2 protocol support for client-side, browser-based
-  JavaScript client applications.
 ...
