@@ -2,7 +2,6 @@
 <footer>
 
   <div class="source">
-    Follow <a href="https://twitter.com/oauth_2" class="twitter-follow-button">@oauth_2</a> on Twitter.
     Missing something?
     <?php
       if(isset($EDIT_THIS_PAGE_LINK))
