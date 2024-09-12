@@ -12,6 +12,8 @@ client_libraries:
   client, PHP >= 5.4</a> (Composer: <code>fkooman/oauth2-client</code>)'
 - <a href="https://github.com/ivan-novakov/php-openid-connect-client">OAuth2/OpenID
   Connect Client Library for PHP/Zend Framework 2</a>
+- '<a href="https://github.com/chillerlan/php-oauth">chillerlan/php-oauth</a>: 
+  a fully PSR-7/PSR-17/PSR-18 compatible OAuth1/OAuth2 client'
 server_libraries:
 - <a href="https://github.com/bshaffer/oauth2-server-php">PHP OAuth2 Server</a> and
   <a href="https://github.com/bshaffer/oauth2-demo-php">Demo</a>
