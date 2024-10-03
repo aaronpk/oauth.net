@@ -12,7 +12,7 @@ require('../../includes/_header.php');
 
     <h2>IPSIE - Interoperability Profile for Secure Identity in the Enterprise</h2>
 
-    <p>The Interoperability Profiling for Secure Identity in the Enterprise (IPSIE) Work Group develops interoperability and security profiles of existing specifications that enable secure identity management within the enterprise.</p>
+    <p>The Interoperability Profiling for Secure Identity in the Enterprise (IPSIE) Working Group develops interoperability and security profiles of existing specifications that enable secure identity management within the enterprise.</p>
 
     <ul>
       <li>
