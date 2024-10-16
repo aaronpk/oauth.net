@@ -21,6 +21,7 @@ require('../../includes/_header.php');
       <?php if(time() > strtotime('2024-10-16T06:00:00-0700')): ?>
         <li><a href="https://openid.net/announcing-ipsie-working-group/">Announcing the IPSIE Working Group</a> (openid.net)</li>
         <li><a href="https://www.okta.com/blog/2024/10/oktas-mission-to-standardize-identity-security/">Okta's mission to standardize Identity Security</a> (okta.com)</li>
+        <li><a href="https://www.okta.com/press-room/press-releases/okta-openid-foundation-tech-firms-tackle-todays-biggest-cybersecurity/">Okta and the OpenID Foundation Tackle Today's Biggest Cybersecurity Challenge</a> (okta.com)</li>
       <?php endif ?>
     </ul>
 
