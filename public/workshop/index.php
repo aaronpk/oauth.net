@@ -16,14 +16,12 @@ require('../../includes/_header.php');
 
     </div>
     <div>
-      <h3>Next Event</h3>
-      <ul>
-        <li>Dates/Location TBD</li>
-      </ul>
+      <p>View the next event on <a href="https://events.oauth.net/tag/security">events.oauth.net</a></p>
     </div>
     <div>
       <h3>Past Events</h3>
       <ul>
+        <li><a href="https://oauth.secworkshop.events/osw2024">OSW2024, Rome, Italy</a> (oauth.secworkshop.events)</li>
         <li><a href="https://oauth.secworkshop.events/osw2023">OSW2023, London, UK</a> (oauth.secworkshop.events)</li>
         <li><a href="https://oauth.secworkshop.events/osw2022">OSW2022, Trondheim, Norway</a> (oauth.secworkshop.events)</li>
         <li><a href="https://barcamps.eu/osw2021/">OSW2021, Online</a> (barcamps.eu)</li>
