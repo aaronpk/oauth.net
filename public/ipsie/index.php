@@ -18,11 +18,10 @@ require('../../includes/_header.php');
 
     <ul>
       <li><a href="https://openid.net/wg/ipsie/">IPSIE Working Group Home Page</a> (openid.net)</li>
-      <?php if(time() > strtotime('2024-10-16T06:00:00-0700')): ?>
-        <li><a href="https://openid.net/announcing-ipsie-working-group/">Announcing the IPSIE Working Group</a> (openid.net)</li>
-        <li><a href="https://www.okta.com/blog/2024/10/oktas-mission-to-standardize-identity-security/">Okta's mission to standardize Identity Security</a> (okta.com)</li>
-        <li><a href="https://www.okta.com/press-room/press-releases/okta-openid-foundation-tech-firms-tackle-todays-biggest-cybersecurity/">Okta and the OpenID Foundation Tackle Today's Biggest Cybersecurity Challenge</a> (okta.com)</li>
-      <?php endif ?>
+      <li><a href="https://openid.net/announcing-ipsie-working-group/">Announcing the IPSIE Working Group</a> (openid.net)</li>
+      <li><a href="https://www.okta.com/blog/2024/10/oktas-mission-to-standardize-identity-security/">Okta's mission to standardize Identity Security</a> (okta.com)</li>
+      <li><a href="https://openid.net/ipsie-wg-and-oidf-processes/">The IPSIE WG and OpenID Foundation Processes</a> (openid.net)</li>
+      <li><a href="https://www.okta.com/blog/2024/11/help-reshape-identity-security-join-the-ipsie-working-group/">Help reshape Identity security: Join the IPSIE working group</a> (okta.com)</li>
     </ul>
 
     <!--
