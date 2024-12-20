@@ -21,7 +21,7 @@ require('../../includes/_header.php');
       <li><a href="https://openid.bitbucket.io/fapi/fapi-2_0-attacker-model.html">FAPI 2.0 Attacker Model</a></li>
     </ul>
 
-    <p>Specifications Refrenced by FAPI</p>
+    <p>Specifications Referenced by FAPI</p>
     <ul>
       <li><a href="https://www.rfc-editor.org/rfc/rfc6749">RFC 6749</a> - OAuth 2.0 Framework</li>
       <li><a href="https://www.rfc-editor.org/rfc/rfc6750">RFC 6750</a> - OAuth 2.0 Bearer Token Usage</li>
