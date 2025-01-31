@@ -14,7 +14,7 @@ require('../../../includes/_header.php');
   </nav>
   <div>
 
-    <h2>RFC 7900: OAuth 2.0 Security Best Current Practice</h2>
+    <h2>RFC 9700: OAuth 2.0 Security Best Current Practice</h2>
 
     <p><a href="https://datatracker.ietf.org/doc/html/rfc9700" class="rfc">datatracker.ietf.org/doc/html/rfc9700</a></p>
 
