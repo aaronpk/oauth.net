@@ -70,15 +70,15 @@ require('../../includes/_header.php');
       <li><a href="/2/client-authentication/">Client Authentication</a></li>
       <li><a href="/2/bearer-tokens/">Bearer Tokens</a> - RFC 6750</li>
       <li><a href="/2/security-considerations/">Threat Model and Security Considerations</a> - RFC 6819</li>
-      <li><a href="/2/oauth-best-practice/">OAuth Security Best Current Practice</a>
+      <li><a href="/2/oauth-best-practice/">OAuth Security Best Current Practice</a> - RFC 9700</li>
       <li><a href="/id-tokens-vs-access-tokens/">ID Tokens vs Access Tokens</a></li>
     </ul>
 
     <h4>Mobile and Other Devices</h4>
     <ul>
-      <li><a href="/2/native-apps/">Native Apps</a> - Recommendations for using OAuth with native apps</li>
+      <li><a href="/2/native-apps/">Native Apps</a> - RFC 8252, Recommendations for using OAuth with native apps</li>
       <li><a href="/2/browser-based-apps/">Browser-Based Apps</a> - Recommendations for using OAuth with browser-based apps (e.g. an SPA)</li>
-      <li><a href="/2/device-flow/">Device Authorization Grant</a> - OAuth for devices with no browser or no keyboard</li>
+      <li><a href="/2/device-flow/">Device Authorization Grant</a> - RFC 8628, OAuth for devices with no browser or no keyboard</li>
     </ul>
 
     <h4>Token and Token Management</h4>
