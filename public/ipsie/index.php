@@ -18,10 +18,15 @@ require('../../includes/_header.php');
 
     <ul>
       <li><a href="https://openid.net/wg/ipsie/">IPSIE Working Group Home Page</a> (openid.net)</li>
-      <li><a href="https://openid.net/announcing-ipsie-working-group/">Announcing the IPSIE Working Group</a> (openid.net)</li>
-      <li><a href="https://www.okta.com/blog/2024/10/oktas-mission-to-standardize-identity-security/">Okta's mission to standardize Identity Security</a> (okta.com)</li>
-      <li><a href="https://openid.net/ipsie-wg-and-oidf-processes/">The IPSIE WG and OpenID Foundation Processes</a> (openid.net)</li>
-      <li><a href="https://www.okta.com/blog/2024/11/help-reshape-identity-security-join-the-ipsie-working-group/">Help reshape Identity security: Join the IPSIE working group</a> (okta.com)</li>
+    </ul>
+
+    <h3>Related Articles</h3>
+    <ul>
+      <li><a href="https://openid.net/announcing-ipsie-working-group/">Announcing the IPSIE Working Group</a> (Oct 2024, openid.net)</li>
+      <li><a href="https://www.okta.com/blog/2024/10/oktas-mission-to-standardize-identity-security/">Okta's mission to standardize Identity Security</a> (Nov 2024, okta.com)</li>
+      <li><a href="https://openid.net/ipsie-wg-and-oidf-processes/">The IPSIE WG and OpenID Foundation Processes</a> (Nov 2024, openid.net)</li>
+      <li><a href="https://www.okta.com/blog/2024/11/help-reshape-identity-security-join-the-ipsie-working-group/">Help reshape Identity security: Join the IPSIE working group</a> (Nov 2024, okta.com)</li>
+      <li><a href="https://thenewstack.io/heres-how-standardization-can-fix-the-identity-security-problem/">Here's How Standardization Can Fix the Identity Security Problem</a> (Feb 2025, thenewstack.io)</li>
     </ul>
 
     <!--
