@@ -83,6 +83,7 @@ $languages = json_decode(file_get_contents(__DIR__.'/../../data/code/languages.j
       <li><a href="https://wso2.com/identity-server/">WSO2 Identity Server</a></li>
       <li><a href="https://github.com/zitadel/zitadel">ZITADEL</a></li>   
       <li><a href="https://github.com/malach-it/boruta-server">boruta</a></li>
+      <li><a href="https://github.com/logto-io/logto">Logto</a></li>
     </ul>
 
     <h4 id="commercial">Commercial</h4>
@@ -105,6 +106,7 @@ $languages = json_decode(file_get_contents(__DIR__.'/../../data/code/languages.j
       <li><a href="https://stytch.com/?utm_source=oauth.net">Stytch</a></li>
       <li><a href="https://zitadel.com">ZITADEL Cloud</a></li>
       <li><a href="https://www.ibm.com/cloud/app-id">IBM Cloud App ID</a></li>
+      <li><a href="https://logto.io">Logto</a></li>
     </ul>
 
     <h3 id="related">Related Projects and Services</h3>
