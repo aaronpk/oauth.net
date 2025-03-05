@@ -29,6 +29,11 @@ require('../../includes/_header.php');
       <li><a href="https://thenewstack.io/heres-how-standardization-can-fix-the-identity-security-problem/">Here's How Standardization Can Fix the Identity Security Problem</a> (Feb 2025, thenewstack.io)</li>
     </ul>
 
+    <h3>Related Videos</h3>
+    <ul>
+      <li><a href="https://www.brighttalk.com/webcast/18458/636068">Securing the Future of Identity with IPSIE – A New Industry Standard</a> (Mar 2025, IDSA)</li>
+    </ul>
+
     <!--
     <p>More resources
       <ul>
