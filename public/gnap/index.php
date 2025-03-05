@@ -12,8 +12,15 @@ require('../../includes/_header.php');
 
     <h2>GNAP</h2>
 
-    <p>Grant Negotiation and Authorization Protocol (GNAP) is a next-generation authorization protocol formalized as RFC 9635 in October 2024. This work took place in the <a href="https://datatracker.ietf.org/doc/charter-ietf-gnap/">GNAP working group</a> at the IETF. Questions, suggestions and protocol changes should be discussed on the <a href="https://www.ietf.org/mailman/listinfo/txauth">mailing list</a> or <a href="https://github.com/ietf-wg-gnap/core-protocol">GitHub</a>.</p>
+    <p>Grant Negotiation and Authorization Protocol (GNAP) is a next-generation authorization protocol formalized as <a href="https://datatracker.ietf.org/doc/rfc9635/">RFC 9635</a> in October 2024. This work took place in the <a href="https://datatracker.ietf.org/wg/gnap/about/">GNAP working group</a> at the IETF. Questions, suggestions and protocol changes should be discussed on the <a href="https://www.ietf.org/mailman/listinfo/txauth">mailing list</a> or <a href="https://github.com/ietf-wg-gnap/core-protocol">GitHub</a>.</p>
 
+    <p>
+      <ul>
+        <li><a href="https://datatracker.ietf.org/doc/rfc9635/">RFC 9635</a> - GNAP Core</li>
+        <li><a href="https://datatracker.ietf.org/doc/draft-ietf-gnap-resource-servers/">GNAP Resource Servers</a></li>
+      </ul>
+    </p>
+    
     <p>Early drafts of the spec were called "XYZ", "TxAuth", and "Transactional Authorization".</p>
 
     <p>See Also: <b><a href="/2.1/">OAuth 2.1</a></b>, an officially adopted effort to consolidate and simplify the best practices of OAuth 2.0.</p>
