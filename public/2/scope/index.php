@@ -29,7 +29,7 @@ require('../../../includes/_header.php');
         <li><a href="https://api.slack.com/docs/oauth-scopes">Slack</a></li>
         <li><a href="https://developer.github.com/apps/building-oauth-apps/understanding-scopes-for-oauth-apps/">GitHub</a></li>
         <li><a href="https://developers.google.com/identity/protocols/googlescopes">Google</a></li>
-        <li><a href="https://dev.fitbit.com/build/reference/web-api/oauth2/#scope">FitBit</a></li>
+        <li><a href="https://dev.fitbit.com/build/reference/web-api/developer-guide/application-design/#Scopes">FitBit</a></li>
       </ul>
     </p>
 
