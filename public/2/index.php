@@ -162,7 +162,7 @@ require('../../includes/_header.php');
       <li><a href="/code/">OAuth 2.0 Code and Services</a></li>
     </ul>
 
-    <h3>OAuth 2.1</h3>
+    <h3>OAuth 2.1aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h3>
 
     <ul>
       <li><a href="/2.1/">OAuth 2.1</a> - An in-progress update to consolidate and simplify OAuth 2.0</li>
