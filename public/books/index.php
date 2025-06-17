@@ -76,6 +76,16 @@ require('../../includes/_header.php');
           <p>This book is available from <a href="https://www.packtpub.com/virtualization-and-cloud/oauth-20-cookbook">Packt</a> and <a href="https://www.amazon.com/dp/178829596X?tag=oauthnet-20">Amazon</a>.</p>
         </div>
       </div>
+
+      <div class="book-row" id="cloud-native-data-security-with-oauth">
+        <div class="left">
+          <a href="https://curity.io/resources/documents/cloud-native-data-security-oauth/" class="noprintexpand"><img src="cloud-native-data-security-with-oauth.jpg" alt="Cloud Native Data Security with OAuth" title="Cloud Native Data Security with OAuth"></a>
+        </div>
+        <div class="right">
+          <p><a href="https://curity.io/resources/documents/cloud-native-data-security-oauth/"><i>Cloud Native Data Security with OAuth</i></a> by Gary Archer, Judith Kahrer, and Michał Trojanowski explores how to best design OAuth-based security for modern APIs and applications. The book dives deep into token design, authorization techniques, client security, and more. The book focuses on the cloud native world, but touches on architectural patterns valid for any OAuth-based systems. It comes with code examples that enable readers to easily try out the described solutions.</p>
+          <p>This book is available for a limited time for free from <a href="https://curity.io/resources/documents/cloud-native-data-security-oauth/">Curity</a>. You can also access it through <a href="https://www.oreilly.com/library/view/cloud-native-data/9781098164874/">O'Reilly</a>, or buy on <a href="https://www.amazon.com/Cloud-Native-Data-Security-OAuth/dp/1098164881">Amazon</a>.</p>
+        </div>
+      </div>
     </div>
   </div>
 
