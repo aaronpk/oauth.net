@@ -1,7 +1,7 @@
 ---
 name: Ruby
 client_libraries:
-- <a href="https://gitlab.com/oauth-xx/oauth2">Oauth2 Ruby Gem - Wrapper for the OAuth 2.0 spec</a>
+- <a href="https://gitlab.com/ruby-oauth/oauth2">Oauth2 Ruby Gem - Wrapper for the OAuth 2.0 spec</a>
 - <a href="https://github.com/nov/rack-oauth2">Rack::OAuth2 - OAuth 2.0 Server & Client
   Library in Ruby.</a>
 server_libraries:
