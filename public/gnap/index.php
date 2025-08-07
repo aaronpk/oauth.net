@@ -17,7 +17,7 @@ require('../../includes/_header.php');
     <p>
       <ul>
         <li><a href="https://datatracker.ietf.org/doc/rfc9635/">RFC 9635</a> - GNAP Core</li>
-        <li><a href="https://datatracker.ietf.org/doc/draft-ietf-gnap-resource-servers/">GNAP Resource Servers</a></li>
+        <li><a href="https://datatracker.ietf.org/doc/rfc9767/">RFC 9767</a> - GNAP Resource Server Connections</li>
       </ul>
     </p>
     
