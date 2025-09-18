@@ -111,7 +111,7 @@ require('../../includes/_header.php');
     <p>The specs below are either experimental or in draft status and are still active working group items. They will likely change before they are finalized as RFCs or BCPs.</p>
     <ul>
       <li><a href="https://tools.ietf.org/html/draft-ietf-oauth-incremental-authz">Incremental Authorization</a></li>
-      <li><a href="https://datatracker.ietf.org/doc/html/draft-ietf-oauth-step-up-authn-challenge">Step-up Authentication Challenge</a></li>
+      <li><a href="/cross-app-access/">Cross App Access (XAA)</a></li>
       <li><a href="/specs/">All OAuth Working Group Documents</a></li>
     </ul>
 
@@ -123,6 +123,7 @@ require('../../includes/_header.php');
       <li><a href="http://tools.ietf.org/html/rfc7523">JWT Bearer Assertion</a> - RFC 7523</li>
       <li><a href="http://tools.ietf.org/html/rfc9207">Authorization Server Issuer Identification</a> - RFC 9207, indicates the authorization server identifier in the authorization response</li>
       <li><a href="/2/rich-authorization-requests/">Rich Authorization Requests (RAR)</a> - RFC 9396</li>
+      <li><a href="https://www.rfc-editor.org/rfc/rfc9470.html">Step-up Authentication Challenge</a> - RFC 9470</li>
     </ul>
 
     <h3>Related Work from Other Communities</h3>
