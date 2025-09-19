@@ -5,4 +5,5 @@ client_libraries:
 - <a href="https://github.com/xamarin/Xamarin.Auth">Xamarin.Auth</a>
 server_libraries:
 - <a href="https://github.com/IdentityServer/IdentityServer4">IdentityServer 4</a>
+- <a href="https://openiddict.com">Open Iddict</a> Framework for building OAuth2 client and server applications.
 ...
