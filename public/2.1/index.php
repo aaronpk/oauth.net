@@ -12,7 +12,7 @@ require('../../includes/_header.php');
 
     <h2 id="oauth-2-1">OAuth 2.1</h2>
 
-    <p><a href="https://datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-1-13" class="rfc">datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-1-13</a></p>
+    <p><a href="https://datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-1" class="rfc">datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-1</a></p>
 
     <p>OAuth 2.1 is an in-progress effort to consolidate and simplify the most commonly used features of OAuth 2.0.</p>
 
