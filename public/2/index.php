@@ -107,11 +107,11 @@ require('../../includes/_header.php');
       <li><a href="/fapi/">FAPI</a></li>
     </ul>
 
-    <h3>Experimental and Draft Specs</h3>
-    <p>The specs below are either experimental or in draft status and are still active working group items. They will likely change before they are finalized as RFCs or BCPs.</p>
+    <h3>Draft Specs</h3>
+    <p>The specs below are in draft status and are still active working group items. They will likely change before they are finalized as RFCs or BCPs.</p>
     <ul>
-      <li><a href="https://tools.ietf.org/html/draft-ietf-oauth-incremental-authz">Incremental Authorization</a></li>
       <li><a href="/cross-app-access/">Cross-App Access (XAA)</a></li>
+      <li><a href="/2/client-id-metadata-document/">Client ID Metadata Document</a></li>
       <li><a href="/specs/">All OAuth Working Group Documents</a></li>
     </ul>
 
