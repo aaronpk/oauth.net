@@ -111,7 +111,7 @@ require('../../includes/_header.php');
     <p>The specs below are either experimental or in draft status and are still active working group items. They will likely change before they are finalized as RFCs or BCPs.</p>
     <ul>
       <li><a href="https://tools.ietf.org/html/draft-ietf-oauth-incremental-authz">Incremental Authorization</a></li>
-      <li><a href="/cross-app-access/">Cross App Access (XAA)</a></li>
+      <li><a href="/cross-app-access/">Cross-App Access (XAA)</a></li>
       <li><a href="/specs/">All OAuth Working Group Documents</a></li>
     </ul>
 
