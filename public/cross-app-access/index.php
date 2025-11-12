@@ -10,7 +10,7 @@ require('../../includes/_header.php');
 
     <h2>Cross-App Access</h2>
 
-    <p><a href="https://datatracker.ietf.org/doc/draft-parecki-oauth-identity-assertion-authz-grant/" class="rfc">datatracker.ietf.org/doc/draft-ietf-oauth-identity-assertion-authz-grant</a></p>
+    <p><a href="https://datatracker.ietf.org/doc/draft-ietf-oauth-identity-assertion-authz-grant/" class="rfc">datatracker.ietf.org/doc/draft-ietf-oauth-identity-assertion-authz-grant</a></p>
 
     <p>Cross-App Access (XAA), formally known as the "Identity Assertion Authorization Grant", is an extension of OAuth that enables an enterprise identity provider to manage the connection between two applications. It replaces the user's manual approval step with a token exchange to enable an application to request an access token for a resource server without any user interaction.</p>
     <p>Cross-App Access builds on <a href="https://datatracker.ietf.org/doc/draft-ietf-oauth-identity-chaining/">Identity and Authorization Chaining Across Domains</a> to further profile it for interoperable implementations in an enterprise setting. In particular, it defines the claims of the JWT that moves across domains.</p>
