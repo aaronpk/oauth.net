@@ -20,15 +20,24 @@ require('../../../includes/_header.php');
 
     <p>The <a href="https://datatracker.ietf.org/doc/draft-ietf-oauth-client-id-metadata-document/">Client ID Metadata Document</a> extension defines a mechanism for an OAuth client to host its metadata at a URL to be able to work with authorization servers without prior registration.</p>
 
-    <p>More resources
-      <ul>
-        <li><a href="https://client.dev/">client.dev</a></li>
-        <li><a href="https://stytch.com/blog/oauth-client-id-metadata-mcp/">Building MCP with OAuth Client ID Metadata (CIMD)</a> (stytch.com)</li>
-        <li><a href="https://www.youtube.com/watch?v=DHf_95lNrj8">Identerati Office Hours - Episode 149.5: OAuth Client ID Metadata Document</a> (youtube.com)</li>
-        <li><a href="https://blog.modelcontextprotocol.io/posts/client_registration/">Evolving OAuth Client Registration in the Model Context Protocol</a> (modelcontextprotocol.io)</li>
-        <li><a href="https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web">OAuth for the Open Web</a> (aaronparecki.com)</li>
-      </ul>
-    </p>
+    <h3>Implementations</h3>
+    <ul>
+      <li><a href="https://stytch.com/blog/oauth-client-id-metadata-mcp/">Stytch</a></li>
+      <li><a href="https://auth0.com/ai/docs/mcp/guides/registering-your-mcp-client-application">Auth0</a> (coming soon)</li>
+    </ul>
+
+    <h3>Testing Tools</h3>
+    <ul>
+      <li><a href="https://client.dev/">client.dev</a></li>
+      <li><a href="https://example-app.com/client">example-app.com/client</a></li>
+    </ul>
+    
+    <h3>More resources</h3>
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=DHf_95lNrj8">Identerati Office Hours - Episode 149.5: OAuth Client ID Metadata Document</a> (youtube.com)</li>
+      <li><a href="https://blog.modelcontextprotocol.io/posts/client_registration/">Evolving OAuth Client Registration in the Model Context Protocol</a> (modelcontextprotocol.io)</li>
+      <li><a href="https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web">OAuth for the Open Web</a> (aaronparecki.com)</li>
+    </ul>
 
   </div>
 </div>
