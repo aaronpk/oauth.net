@@ -34,9 +34,10 @@ require('../../../includes/_header.php');
     
     <h3>More resources</h3>
     <ul>
-      <li><a href="https://www.youtube.com/watch?v=DHf_95lNrj8">Identerati Office Hours - Episode 149.5: OAuth Client ID Metadata Document</a> (youtube.com)</li>
-      <li><a href="https://blog.modelcontextprotocol.io/posts/client_registration/">Evolving OAuth Client Registration in the Model Context Protocol</a> (modelcontextprotocol.io)</li>
-      <li><a href="https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web">OAuth for the Open Web</a> (aaronparecki.com)</li>
+      <li><a href="https://www.youtube.com/watch?v=DHf_95lNrj8">Identerati Office Hours - Episode 149.5: OAuth Client ID Metadata Document</a> (Oct 2025, youtube.com)</li>
+      <li><a href="https://www.descope.com/learn/post/cimd">What is a Client ID Metadata Document (CIMD)?</a> (Oct 2025, descope.com)</li>
+      <li><a href="https://blog.modelcontextprotocol.io/posts/client_registration/">Evolving OAuth Client Registration in the Model Context Protocol</a> (Aug 2025, modelcontextprotocol.io)</li>
+      <li><a href="https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web">OAuth for the Open Web</a> (Jul 2018, aaronparecki.com)</li>
     </ul>
 
   </div>
