@@ -12,4 +12,5 @@ client_libraries:
 - <a href="https://github.com/authts/oidc-client-ts">oidc-client-ts</a>. Library to
   provide OpenID Connect and OAuth2 protocol support for client-side, browser-based
   JavaScript client applications.
+- <a href="https://github.com/better-auth/better-auth">better-auth</a>. TypeScript authentication framework with built-in OAuth 2.0 / OpenID Connect support.
 ...
