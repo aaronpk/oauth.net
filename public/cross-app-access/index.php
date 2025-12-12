@@ -17,22 +17,37 @@ require('../../includes/_header.php');
 
     <img src="xaa-flow-diagram.png" style="width: 100%">
 
-    <p>
-      Related Specs:
-      <ul>
-        <li><a href="/2/token-exchange/">OAuth 2.0 Token Exchange (RFC 8693)</a></li>
-        <li><a href="https://datatracker.ietf.org/doc/html/rfc7523">JWT Profile for OAuth 2.0 Client Authentication and Authorization Grants</a></li>
-        <li><a href="https://datatracker.ietf.org/doc/draft-ietf-oauth-identity-chaining/">OAuth Identity and Authorization Chaining Across Domains</a></li>
-      </ul>
-    </p>
+    <h3>Implementations</h3>
+    <b>IdPs</b>
+    <ul>
+      <li><a href="https://help.okta.com/oie/en-us/content/topics/apps/apps-cross-app-access.htm">Okta</a> (early access)</li>
+    </ul>
+    <!--
+    <b>Clients</b>
+    <ul>
+      <li><a href=""></a></li>
+    </ul>
+    -->
+    <b>Authorization Servers</b>
+    <ul>
+      <li><a href="https://auth0.com/docs/secure/call-apis-on-users-behalf/xaa">Auth0</a> (beta)</li>
+      <li><a href="https://github.com/keycloak/keycloak/issues/43971">Keycloak</a> (in progress)</li>
+    </ul>
+        
+    <h3>Related Specs</h3>
+    <ul>
+      <li><a href="/2/token-exchange/">OAuth 2.0 Token Exchange (RFC 8693)</a></li>
+      <li><a href="https://datatracker.ietf.org/doc/html/rfc7523">JWT Profile for OAuth 2.0 Client Authentication and Authorization Grants</a></li>
+      <li><a href="https://datatracker.ietf.org/doc/draft-ietf-oauth-identity-chaining/">OAuth Identity and Authorization Chaining Across Domains</a></li>
+    </ul>
 
-    <p>More resources
-      <ul>
-        <li><a href="https://developer.okta.com/blog/2025/06/23/enterprise-ai">Integrate Your Enterprise AI Tools with Cross-App Access</a> (okta.com)</li>
-        <li><a href="https://aaronparecki.com/2025/05/12/27/enterprise-ready-mcp">Enterprise-Ready MCP</a> (aaronparecki.com)</li>
-        <li><a href="https://www.descope.com/learn/post/id-jag-cross-app-access">What is Cross-App Access (XAA) and How It Works</a> (descope.com)</li>
-      </ul>
-    </p>
+    <h3>More resources</h3>
+    <ul>
+      <li><a href="https://developer.okta.com/blog/2025/06/23/enterprise-ai">Integrate Your Enterprise AI Tools with Cross-App Access</a> (okta.com)</li>
+      <li><a href="https://aaronparecki.com/2025/05/12/27/enterprise-ready-mcp">Enterprise-Ready MCP</a> (aaronparecki.com)</li>
+      <li><a href="https://www.descope.com/learn/post/id-jag-cross-app-access">What is Cross-App Access (XAA) and How It Works</a> (descope.com)</li>
+    </ul>
+
 
   </div>
 </div>
