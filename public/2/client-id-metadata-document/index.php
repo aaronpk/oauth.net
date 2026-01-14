@@ -22,11 +22,12 @@ require('../../../includes/_header.php');
 
     <h3>Implementations</h3>
     <ul>
-      <li><a href="https://stytch.com/blog/oauth-client-id-metadata-mcp/">Stytch</a></li>
-      <li><a href="https://github.com/tanish111/cimd-local-oauth-server">Local Authorization Server for Testing</a></li>
-      <li><a href="https://workos.com/changelog/client-id-metadata-support-for-mcp-auth">WorkOS</a></li>
-      <li><a href="https://docs.scalekit.com/authenticate/mcp/quickstart/">Scalekit</a></li>
       <li><a href="https://auth0.com/ai/docs/mcp/guides/registering-your-mcp-client-application">Auth0</a> (coming soon)</li>
+      <li><a href="https://www.authlete.com/developers/cimd/">Authlete</a></li>
+      <li><a href="https://docs.scalekit.com/authenticate/mcp/quickstart/">Scalekit</a></li>
+      <li><a href="https://stytch.com/blog/oauth-client-id-metadata-mcp/">Stytch</a></li>
+      <li><a href="https://workos.com/changelog/client-id-metadata-support-for-mcp-auth">WorkOS</a></li>
+      <li><a href="https://github.com/tanish111/cimd-local-oauth-server">Local Authorization Server for Testing</a></li>
     </ul>
 
     <h3>Testing Tools</h3>
