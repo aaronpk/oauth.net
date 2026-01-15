@@ -93,6 +93,7 @@ $languages = json_decode(file_get_contents(__DIR__.'/../../data/code/languages.j
       <li><a href="https://auth0.com">Auth0</a></li>
       <li><a href="https://www.authgear.com">Authgear</a></li>
       <li><a href="https://authress.io?utm_source=oauth.net">Authress</a></li>
+      <li><a href="https://authsignal.com">Authsignal</a></li>
       <li><a href="https://www.cidaas.com">cidaas</a></li>
       <li><a href="https://clerk.com?utm_source=oauth.net">Clerk</a></li>
       <li><a href="https://www.corbado.com">Corbado</a></li>
