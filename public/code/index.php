@@ -115,6 +115,7 @@ $languages = json_decode(file_get_contents(__DIR__.'/../../data/code/languages.j
     <ul>
       <li><a href="https://github.com/vouch/vouch-proxy">Vouch Proxy</a> - an nginx reverse proxy solution that adds OAuth/OpenID authentication</li>
       <li><a href="https://github.com/enterprise-oss/osso">Osso</a> - SAML to OAuth bridge</li>
+      <li><a href="https://oauth.kogiqa.com/">OAuth Mock Server</a> - A free and open-source OAuth mock server that simulates the biggest providers just by replacing the URL. Useful for E2E testing.</li>
     </ul>
 
     <?php /*
