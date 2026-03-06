@@ -18,6 +18,7 @@ require('../../includes/_header.php');
         <li><a href="https://www.oauth.com/oauth2-servers/authorization/security-considerations/">Security Considerations when Building an Authorization Server</a> (oauth.com)</li>
         <li><a href="https://ldapwiki.com/wiki/Wiki.jsp?page=OAuth%202.0%20Security%20Considerations">OAuth 2.0 Security Considerations</a> (ldapwiki.com)</li>
         <li><a href="https://arxiv.org/pdf/1601.01229v3.pdf">A Comprehensive Formal Security Analysis of OAuth 2.0</a> (arxiv.org, PDF)</li>
+        <li><a href="https://ssojet.com/blog/enterprise-mobile-app-security-sso-oauth">OAuth 2.0 Zero-Trust Security Mobile Apps</a> (ssojet.com)</li>
       </ul>
     </div>
 
