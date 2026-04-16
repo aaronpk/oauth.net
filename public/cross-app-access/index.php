@@ -21,21 +21,22 @@ require('../../includes/_header.php');
     <b>IdPs</b>
     <ul>
       <li><a href="https://help.okta.com/oie/en-us/content/topics/apps/apps-cross-app-access.htm">Okta</a> (early access)</li>
+      <li><a href="https://techblog.lycorp.co.jp/ja/20260401a">Athenz</a> (beta)</li>
     </ul>
-    <!--
     <b>Clients</b>
     <ul>
-      <li><a href=""></a></li>
+      <li><a href="https://code.claude.com/docs/en/overview">Claude Code</a> (beta)</li>
     </ul>
-    -->
     <b>Authorization Servers</b>
     <ul>
       <li><a href="https://auth0.com/docs/secure/call-apis-on-users-behalf/xaa">Auth0</a> (beta)</li>
       <li><a href="https://github.com/keycloak/keycloak/issues/43971">Keycloak</a> (in progress)</li>
+      <li><a href="https://techblog.lycorp.co.jp/ja/20260401a">Athenz</a> (beta)</li>
     </ul>
     <b>Test Tools</b>
     <ul>
       <li><a href="https://xaa.dev">xaa.dev</a></li>
+      <li><a href="https://motd.xaa.rocks">motd.xaa.rocks</a></li>
     </ul>
         
     <h3>Related Specs</h3>
@@ -47,6 +48,7 @@ require('../../includes/_header.php');
 
     <h3>More resources</h3>
     <ul>
+      <li><a href="https://www.youtube.com/watch?v=HRrzzORvy84&list=PLjULwdJUtFdhIBhibLEogtK1XYCNaFyFl&index=87&pp=iAQB">Putting the Single Back in Single Sign-On - MCP Dev Summit</a> (youtube.com)</li>
       <li><a href="https://developer.okta.com/blog/2025/06/23/enterprise-ai">Integrate Your Enterprise AI Tools with Cross-App Access</a> (okta.com)</li>
       <li><a href="https://aaronparecki.com/2025/05/12/27/enterprise-ready-mcp">Enterprise-Ready MCP</a> (aaronparecki.com)</li>
       <li><a href="https://www.descope.com/learn/post/id-jag-cross-app-access">What is Cross-App Access (XAA) and How It Works</a> (descope.com)</li>
