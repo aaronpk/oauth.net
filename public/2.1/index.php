@@ -16,7 +16,7 @@ require('../../includes/_header.php');
 
     <p>OAuth 2.1 is an in-progress effort to consolidate and simplify the most commonly used features of OAuth 2.0.</p>
 
-    <p>Since the original publication of OAuth 2.0 (RFC 6749) in 2012, several new RFCs have been published that either add or remove functionality from the core spec, including <a href="/2/native-apps/">OAuth 2.0 for Native Apps</a> (RFC 8252), <a href="/2/pkce/">Proof Key for Code Exchange</a> (RFC 7636), <a href="/2/browser-based-apps/">OAuth for Browser-Based Apps</a>, and <a href="/2/oauth-best-practice/">OAuth 2.0 Security Best Current Practice</a>.</p>
+    <p>Since the original publication of OAuth 2.0 (RFC 6749) in 2012, several new RFCs and Internet-Drafts have been published that either add or remove functionality from the core spec. These include <a href="/2/native-apps/">OAuth 2.0 for Native Apps</a> (RFC 8252), <a href="/2/pkce/">Proof Key for Code Exchange</a> (RFC 7636), the active draft for <a href="/2/browser-based-apps/">OAuth for Browser-Based Apps</a>, and <a href="/2/oauth-best-practice/">OAuth 2.0 Security Best Current Practice</a> (RFC 9700).</p>
 
     <p>OAuth 2.1 consolidates the changes published in later specs to simplify the core document.</p>
 
@@ -28,7 +28,7 @@ require('../../includes/_header.php');
       <li>The Implicit grant (<code>response_type=token</code>) is omitted from this specification</li>
       <li>The Resource Owner Password Credentials grant is omitted from this specification</li>
       <li>Bearer token usage omits the use of bearer tokens in the query string of URIs</li>
-      <li>Refresh tokens for public clients must either be sender-constrained or one-time use</li>
+      <li>Refresh tokens for public clients must either be sender-constrained or rotated</li>
       <li>The definitions of public and confidential clients have been simplified to only refer to whether the client has credentials</li>
     </ul>
 
