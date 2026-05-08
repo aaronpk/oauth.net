@@ -109,6 +109,7 @@ $languages = json_decode(file_get_contents(__DIR__.'/../../data/code/languages.j
       <li><a href="https://zitadel.com">ZITADEL Cloud</a></li>
       <li><a href="https://www.ibm.com/cloud/app-id">IBM Cloud App ID</a></li>
       <li><a href="https://logto.io">Logto</a></li>
+      <li><a href="https://www.ssojet.com">SSOJet</a></li>
     </ul>
 
     <h3 id="related">Related Projects and Services</h3>
