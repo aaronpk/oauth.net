@@ -46,9 +46,14 @@ require('../../includes/_header.php');
       <li><a href="https://datatracker.ietf.org/doc/draft-ietf-oauth-identity-chaining/">OAuth Identity and Authorization Chaining Across Domains</a></li>
     </ul>
 
+    <h3>Videos</h3>
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=EmhRyw6xeT0">One Login to Rule Them All: Cross-App Access for MCP</a> — Garrett Galow, WorkOS</li>
+      <li><a href="https://www.youtube.com/watch?v=HRrzzORvy84&list=PLjULwdJUtFdhIBhibLEogtK1XYCNaFyFl&index=87&pp=iAQB">Putting the Single Back in Single Sign-On - MCP Dev Summit</a> - Paul Carleton, Anthropic &amp; Max Gerber, Stytch</li>
+    </ul>
+    
     <h3>More resources</h3>
     <ul>
-      <li><a href="https://www.youtube.com/watch?v=HRrzzORvy84&list=PLjULwdJUtFdhIBhibLEogtK1XYCNaFyFl&index=87&pp=iAQB">Putting the Single Back in Single Sign-On - MCP Dev Summit</a> (youtube.com)</li>
       <li><a href="https://developer.okta.com/blog/2025/06/23/enterprise-ai">Integrate Your Enterprise AI Tools with Cross-App Access</a> (okta.com)</li>
       <li><a href="https://aaronparecki.com/2025/05/12/27/enterprise-ready-mcp">Enterprise-Ready MCP</a> (aaronparecki.com)</li>
       <li><a href="https://www.descope.com/learn/post/id-jag-cross-app-access">What is Cross-App Access (XAA) and How It Works</a> (descope.com)</li>
