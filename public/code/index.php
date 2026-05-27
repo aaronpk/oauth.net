@@ -100,6 +100,7 @@ $languages = json_decode(file_get_contents(__DIR__.'/../../data/code/languages.j
       <li><a href="https://www.descope.com">Descope</a></li>
       <li><a href="https://www.forgerock.com">ForgeRock</a></li>
       <li><a href="https://fusionauth.io/">FusionAuth</a></li>
+      <li><a href="https://kinde.com?utm_source=oauth.net">Kinde</a></li>
       <li><a href="https://www.loginradius.com">LoginRadius</a></li>
       <li><a href="https://developer.okta.com">Okta</a></li>
       <li><a href="https://www.pingidentity.com">PingId</a></li>
