@@ -43,11 +43,15 @@ require('../../../includes/_header.php');
         </ul>
       </div>
       <div class="column">
-        <h4>Clients</h4>
+        <h4>MCP Clients</h4>
         <ul>
           <li><a href="https://code.visualstudio.com/">VSCode</a> (<a href="https://vscode.dev/oauth/client-metadata.json">↗</a>)</li>
           <li><a href="https://www.mcpjam.com/">MCPJam</a> (<a href="https://www.mcpjam.com/.well-known/oauth/client-metadata.json">↗</a>)</li>
           <li><a href="https://claude.ai/">Claude.ai</a> (<a href="https://claude.ai/oauth/mcp-oauth-client-metadata">↗</a>)</li>
+          <li><a href="https://developers.openai.com/apps-sdk/build/auth#custom-auth-with-oauth-21">ChatGPT</a></li>
+        </ul>
+        <h4>Other Clients</h4>
+        <ul>
           <li><a href="https://indielogin.com/">IndieLogin</a> (<a href="https://indielogin.com/id">↗</a>)</li>
           <li><a href="https://webmention.io/">Webmention.io</a> (<a href="https://webmention.io/id">↗</a>)</li>
         </ul>
