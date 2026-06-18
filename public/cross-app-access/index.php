@@ -39,7 +39,8 @@ require('../../includes/_header.php');
           <li><a href="https://stytch.com/docs/connected-apps/guides/cross-app-access">Stytch</a></li>
           <li><a href="https://auth0.com/docs/secure/call-apis-on-users-behalf/xaa">Auth0</a> (beta)</li>
           <li><a href="https://techblog.lycorp.co.jp/ja/20260401a">Athenz</a> (beta)</li>
-          <li><a href="hhttps://github.com/keycloak/keycloak/issues/43971">Keycloak</a> (in progress)</li>
+          <li><a href="https://github.com/keycloak/keycloak/issues/43971">Keycloak</a> (in progress)</li>
+          <li><a href="https://www.scalekit.com/blog/cross-app-access-agentic-auth-flows">Scalekit</a></li>
         </ul>
       </div>
       <div class="column">
@@ -78,11 +79,13 @@ require('../../includes/_header.php');
       <li><a href="https://www.youtube.com/watch?v=HRrzzORvy84&list=PLjULwdJUtFdhIBhibLEogtK1XYCNaFyFl&index=87&pp=iAQB">Putting the Single Back in Single Sign-On - MCP Dev Summit</a> - Paul Carleton, Anthropic &amp; Max Gerber, Stytch</li>
     </ul>
     
-    <h3>More resources</h3>
+    <h3>Blog Posts</h3>
     <ul>
       <li><a href="https://developer.okta.com/blog/2025/06/23/enterprise-ai">Integrate Your Enterprise AI Tools with Cross-App Access</a> (okta.com)</li>
       <li><a href="https://aaronparecki.com/2025/05/12/27/enterprise-ready-mcp">Enterprise-Ready MCP</a> (aaronparecki.com)</li>
+      <li><a href="https://aaronparecki.com/2026/05/27/10/cross-domain-api-access">Cross-Domain API Access: Beyond the "Obvious" Shortcuts</a> (aaronparecki.com)</li>
       <li><a href="https://www.descope.com/learn/post/id-jag-cross-app-access">What is Cross-App Access (XAA) and How It Works</a> (descope.com)</li>
+      <li><a href="https://workos.com/blog/id-jag-cross-app-access">Cross App Access (XAA): The enterprise way to govern AI app integrations</a> (workos.com)</li>
     </ul>
 
 
