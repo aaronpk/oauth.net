@@ -81,6 +81,8 @@ require('../../includes/_header.php');
     
     <h3>Blog Posts</h3>
     <ul>
+      <li><a href="https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/">Enterprise-Managed Authorization: Zero-touch OAuth for MCP</a> (modelcontextprotocol.io)</li>
+      <li><a href="https://claude.com/blog/enterprise-managed-auth">Centrally manage authorization for MCP connectors</a> (claude.com)</li>
       <li><a href="https://developer.okta.com/blog/2025/06/23/enterprise-ai">Integrate Your Enterprise AI Tools with Cross-App Access</a> (okta.com)</li>
       <li><a href="https://aaronparecki.com/2025/05/12/27/enterprise-ready-mcp">Enterprise-Ready MCP</a> (aaronparecki.com)</li>
       <li><a href="https://aaronparecki.com/2026/05/27/10/cross-domain-api-access">Cross-Domain API Access: Beyond the "Obvious" Shortcuts</a> (aaronparecki.com)</li>
