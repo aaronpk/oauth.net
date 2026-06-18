@@ -20,14 +20,6 @@ require('../../../includes/_header.php');
 
     <p>The <a href="https://datatracker.ietf.org/doc/draft-ietf-oauth-client-id-metadata-document/">Client ID Metadata Document</a> extension defines a mechanism for an OAuth client to host its metadata at a URL to be able to work with authorization servers without prior registration.</p>
 
-    <style>
-      .grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-      }
-
-    </style>
 
     <h3>Implementations</h3>
     <div class="grid">
