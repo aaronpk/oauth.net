@@ -26,6 +26,7 @@ require('../../includes/_header.php');
           <li><a href="https://www.okta.com/solutions/cross-app-access/">Okta</a> (early access)</li>
           <li><a href="https://techblog.lycorp.co.jp/ja/20260401a">Athenz</a> (beta)</li>
           <li><a href="https://github.com/keycloak/keycloak/issues/48818">Keycloak</a> (in progress)</li>
+          <li><a href="https://docs.descope.com/agentic-identity-hub/enterprise-managed-authorization">Descope</a></li>
         </ul>
         <b>Clients</b>
         <ul>
@@ -42,6 +43,7 @@ require('../../includes/_header.php');
           <li><a href="https://techblog.lycorp.co.jp/ja/20260401a">Athenz</a> (beta)</li>
           <li><a href="https://github.com/keycloak/keycloak/issues/43971">Keycloak</a> (in progress)</li>
           <li><a href="https://www.scalekit.com/blog/cross-app-access-agentic-auth-flows">Scalekit</a></li>
+          <li><a href="https://docs.descope.com/agentic-identity-hub/enterprise-managed-authorization">Descope</a></li>
         </ul>
       </div>
       <div class="column">
