@@ -13,6 +13,7 @@ server_libraries:
 - '<a href="https://github.com/luikyv/go-oidc">go-oidc</a>: A configurable OpenID Provider built in Go'
 - '<a href="https://github.com/AuthPlane/authserver">Authplane authserver</a>: Self-hosted
   OAuth 2.1 authorization server for the Model Context Protocol, shipped as a single Go binary'
-- '<a href="https://github.com/AuthPlane/go-sdk">Authplane go-sdk</a>: Protect MCP servers
-  and OAuth 2.1 resource servers, with net/http and MCP adapters'
+- '<a href="https://github.com/AuthPlane/go-sdk">Authplane go-sdk</a>: JWT validation
+  and OAuth 2.1 protocol primitives for Go resource servers, with net/http, MCP, and
+  mark3labs/mcp-go adapters'
 ...
