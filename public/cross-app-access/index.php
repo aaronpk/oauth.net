@@ -55,6 +55,7 @@ require('../../includes/_header.php');
           <li><a href="https://figma.com/">Figma</a></li>
           <li><a href="https://www.granola.ai/">Granola</a></li>
           <li><a href="https://linear.app/">Linear</a></li>
+          <li><a href="https://www.notion.com/help/set-up-enterprise-managed-connections-for-notion-mcp">Notion</a></li>
           <li><a href="https://supabase.com/">Supabase</a></li>
         </ul>
         <b>Test Tools</b>
