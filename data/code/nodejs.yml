@@ -20,4 +20,6 @@ server_libraries:
   Identity Provider system developed to support Firefox Marketplace and other services
 - '<a href="https://github.com/jaredhanson/oauth2orize">OAuth2orize: toolkit to implement
   OAuth2 Authorization Servers</a>'
+- '<a href="https://github.com/AuthPlane/ts-sdk">Authplane ts-sdk</a>: TypeScript SDK
+  to protect MCP servers and OAuth 2.1 resource servers, with MCP and FastMCP adapters'
 ...

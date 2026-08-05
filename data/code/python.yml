@@ -11,6 +11,8 @@ server_libraries:
   web framework for building APIs based on standard Python type hints.
   It includes support for OAuth2, integrated with OpenAPI
 - <a href="https://github.com/aliev/aioauth">aioauth</a> Asynchronous OAuth 2.0 library
+- '<a href="https://github.com/AuthPlane/python-sdk">Authplane python-sdk</a>: Protect
+  MCP servers and OAuth 2.1 resource servers, with MCP and FastMCP adapters'
 client_libraries:
 - <a href="http://authomatic.github.io/authomatic/">Authomatic</a>
 - <a href="https://python-social-auth.readthedocs.io/en/latest/"> Python Social Auth</a>

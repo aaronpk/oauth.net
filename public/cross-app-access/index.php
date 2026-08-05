@@ -44,6 +44,7 @@ require('../../includes/_header.php');
           <li><a href="https://github.com/keycloak/keycloak/issues/43971">Keycloak</a> (in progress)</li>
           <li><a href="https://www.scalekit.com/blog/cross-app-access-agentic-auth-flows">Scalekit</a></li>
           <li><a href="https://docs.descope.com/agentic-identity-hub/enterprise-managed-authorization">Descope</a></li>
+          <li><a href="https://github.com/AuthPlane/authserver/blob/main/docs/guides/federation/enterprise-managed-auth-xaa.md">Authplane</a></li>
         </ul>
       </div>
       <div class="column">
