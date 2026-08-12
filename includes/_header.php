@@ -8,7 +8,7 @@ function e($t) { return htmlspecialchars($t); }
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title><?php echo !empty($page_title) ? $page_title : "OAuth &mdash; An open protocol to allow secure API authorization in a simple and standard method from web, mobile, and desktop applications." ?></title>
-  <link href="/stylesheets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/bootstrap-5.2.3/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <link href="/stylesheets/style.css?2" rel="stylesheet" type="text/css" />
   <link href="/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" />
   <link rel="webmention" href="https://webmention.io/oauth/webmention" />

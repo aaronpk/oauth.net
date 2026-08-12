@@ -1,6 +1,6 @@
 body .container {
-  font-size: 14.4px;
-  max-width: 800px;
+  font-size: 16px;
+  max-width: 960px;
 }
 
 .print-header {
@@ -39,15 +39,15 @@ body .container {
 }
 #site-description p#read-more a, #site-description p#read-more a:visited {
   font-size: 1.4em;
-  color: #515151;
+  color: rgba(255,255,255,0.8);
 }
 #site-description p#read-more a:hover {
-  color: #919191;
+  color: #fff;
 }
 #site-description {
-  background-color: #C8F417;
-  border-top: 2px solid #fff;
-  color: #444;
+  background-color: #1e3a5f;
+  border-top: 2px solid rgba(255,255,255,0.1);
+  color: #fff;
 }
 
 
