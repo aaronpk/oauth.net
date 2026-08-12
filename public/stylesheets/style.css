@@ -203,7 +203,7 @@ footer .source a {
   position: fixed;
   font-size: 13px;
   box-sizing: border-box;
-  bottom: 0;
+  bottom: 55px;
   z-index: 5;
   padding: .75em 1em;
   width: 100%;
