@@ -7,15 +7,21 @@
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link" href="/getting-started/">Getting Started</a></li>
         <li class="nav-item"><a class="nav-link" href="/2/">OAuth 2.0</a></li>
         <li class="nav-item"><a class="nav-link" href="/specs/">Specs</a></li>
         <li class="nav-item"><a class="nav-link" href="/code/">Code</a></li>
-        <li class="nav-item"><a class="nav-link" href="/articles/">Articles</a></li>
-        <li class="nav-item"><a class="nav-link" href="/videos/">Videos</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://events.oauth.net/">Events</a></li>
-        <li class="nav-item"><a class="nav-link" href="/books/">Books</a></li>
         <li class="nav-item"><a class="nav-link" href="/security/">Security</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://shop.oauth.net/">Merch</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Learn</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/articles/">Articles</a></li>
+            <li><a class="dropdown-item" href="/videos/">Videos</a></li>
+            <li><a class="dropdown-item" href="/books/">Books</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="https://events.oauth.net/">Events</a></li>
+          </ul>
+        </li>
         <li class="nav-item"><a class="nav-link" href="/about/credits/">About</a></li>
       </ul>
     </div>
@@ -25,4 +31,3 @@
   <span class="item"><img src="/images/oauth-logo-square.png" width="45" alt=""></span>
   <span class="item">oauth.net<?= $_SERVER['REQUEST_URI'] ?></span>
 </div>
-

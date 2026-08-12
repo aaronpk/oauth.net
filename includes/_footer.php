@@ -10,6 +10,8 @@
         $editurl = 'https://github.com/aaronpk/oauth.net/blob/main/public' . $_SERVER['REQUEST_URI'] . 'index.php';
     ?>
     <a href="<?= $editurl ?>">Edit this page</a>.
+    &nbsp;&middot;&nbsp;
+    <a href="https://shop.oauth.net/">Merch</a>
   </div>
 
   <div class="container">
@@ -26,17 +28,20 @@
 <script>
 function ea(response) {
   if(response.html) {
-    $("#ea").html(response.html);
+    document.getElementById('ea').innerHTML = response.html;
   }
-};
-$(function(){
-  if(window.fathom && $(".featured-banner").data("view-code")) {
-    window.fathom.trackGoal($(".featured-banner").data("view-code"), 0);
+}
+document.addEventListener('DOMContentLoaded', function() {
+  if(window.fathom) {
+    var banner = document.querySelector('.featured-banner');
+    if(banner && banner.dataset.viewCode) {
+      window.fathom.trackGoal(banner.dataset.viewCode, 0);
+    }
   }
 });
 </script>
 <script async src="/thanks.php"></script>
-<?php 
+<?php
 if(isset($FOOTERSCRIPTS)) {
   echo $FOOTERSCRIPTS;
 }
