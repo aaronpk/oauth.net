@@ -22,32 +22,42 @@ body .container {
 
 
 #site-description {
-  padding-top: 2.4em;
-  padding-bottom: 2.4em;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 3rem 2.5rem;
   border-radius: 8px;
-}
-#site-description h3 {
-  font-size: 2em;
-  margin: 0;
-  font-weight: normal;
-}
-#site-description p#read-more {
-  text-align: right;
-  margin: 6px 0 0;
-}
-#site-description p#read-more a, #site-description p#read-more a:visited {
-  font-size: 1.4em;
-  color: rgba(255,255,255,0.8);
-}
-#site-description p#read-more a:hover {
-  color: #fff;
-}
-#site-description {
   background-color: #1e3a5f;
-  border-top: 2px solid rgba(255,255,255,0.1);
   color: #fff;
+  margin-top: 1rem;
+}
+#site-description h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+#site-description .hero-subtitle {
+  font-size: 1.1rem;
+  opacity: 0.85;
+  margin-bottom: 1.5rem;
+  max-width: 600px;
+}
+.hero-ctas .btn-light {
+  color: #1e3a5f;
+  font-weight: 600;
+}
+
+.audience-card {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 1.5rem;
+  height: 100%;
+}
+.audience-card h5 {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.audience-card ul {
+  padding-left: 1.2rem;
+  margin-bottom: 0;
 }
 
 

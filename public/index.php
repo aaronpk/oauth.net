@@ -6,17 +6,42 @@ require('../includes/_header.php');
 ?>
 
 <div class="container">
-  <div id="header" class="column first last span-20">
-    <div id="site-description" class="column span-18 append-1 prepend-1 first last">
-      <h3>An <strong>open protocol</strong> to allow <strong>secure authorization </strong> in a <strong>simple</strong> and <strong>standard</strong> method from web, mobile and desktop applications.</h3>
-      <p id="read-more">
-        <a href="/2/">Learn more about OAuth 2.0 &raquo;</a>
-      </p>
+
+  <div id="site-description">
+    <h2>An open standard for secure authorization</h2>
+    <p class="hero-subtitle">OAuth 2.0 lets users grant apps access to their data without sharing passwords — used by millions of apps and APIs worldwide.</p>
+    <div class="hero-ctas">
+      <a href="/getting-started/" class="btn btn-light btn-lg me-2">Get Started</a>
+      <a href="/2/" class="btn btn-outline-light btn-lg">Learn OAuth 2.0</a>
     </div>
   </div>
 
-  <div style="margin-top: 10px;">
-    <iframe width="100%" height="400" src="https://www.youtube.com/embed/KT8ybowdyr0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="row mt-4">
+
+    <div class="col-md-6 mb-3">
+      <div class="audience-card">
+        <h5>Building an app?</h5>
+        <p>Add secure login and API access to your web, mobile, or desktop app.</p>
+        <ul>
+          <li><a href="/2/grant-types/authorization-code/">Authorization Code + PKCE</a></li>
+          <li><a href="/2/grant-types/client-credentials/">Client Credentials</a></li>
+          <li><a href="/2/grant-types/device-code/">Device Code Flow</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <div class="audience-card">
+        <h5>Building an API?</h5>
+        <p>Protect your endpoints and let third-party apps access your users' data safely.</p>
+        <ul>
+          <li><a href="/2/bearer-tokens/">Bearer Tokens</a></li>
+          <li><a href="/2/token-introspection/">Token Introspection</a></li>
+          <li><a href="/2/scope/">Defining Scopes</a></li>
+        </ul>
+      </div>
+    </div>
+
   </div>
 
   <div class="column first last span-20" style="clear: both; text-align: center; margin: 20px auto; float: none; max-width: 300px;">
@@ -25,47 +50,11 @@ require('../includes/_header.php');
     </div>
   </div>
 
-  <div class="row">
-
-    <div id="client-side" class="col-md-6">
-      <h5>For app developers...</h5>
-      <p>
-        If you're building...
-      </p>
-      <ul>
-        <li>web applications</li>
-        <li>desktop applications</li>
-        <li>mobile applications</li>
-        <li>JavaScript or browser-based apps</li>
-      </ul>
-      <p>
-        OAuth is a way to get access to protected data from an application. It's safer and more secure than asking users to log in with passwords.
-      </p>
-    </div>
-
-    <div id="server-side" class="col-md-6">
-      <h5>For API developers...</h5>
-      <p>
-        If you're supporting...
-      </p>
-      <ul>
-        <li>web applications</li>
-        <li>mobile applications</li>
-        <li>server-side APIs</li>
-        <li>mashups</li>
-      </ul>
-      <p>
-        Use OAuth to let application developers securely get access to your users' data without sharing their passwords.
-      </p>
-    </div>
-
-    <div class="clear"></div>
-
-    <a href="/getting-started/">Get started...</a>
-
-    <div class="clear"></div>
-
+  <h4 class="mt-2 mb-3">Learn OAuth 2.0</h4>
+  <div style="margin-bottom: 20px;">
+    <iframe width="100%" height="400" src="https://www.youtube.com/embed/KT8ybowdyr0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
+
 </div>
 
 <?php require('../includes/_footer.php'); ?>
