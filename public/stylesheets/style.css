@@ -3,6 +3,10 @@ body .container {
   max-width: 960px;
 }
 
+body {
+  padding-bottom: 60px;
+}
+
 .print-header {
   display: none;
 }
