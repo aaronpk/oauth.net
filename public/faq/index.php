@@ -8,7 +8,7 @@ require('../../includes/_header.php');
 ?>
 
 <div class="container">
-  <div>
+  <div class="faq">
 
     <h2 id="oauth-faq">Frequently Asked Questions about OAuth</h2>
 

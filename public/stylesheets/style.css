@@ -277,3 +277,31 @@ footer .source a {
 }
 
 
+.faq h3 {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #6c757d;
+  border-bottom: 2px solid #e9ecef;
+  padding-bottom: 0.4rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.faq h4 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.4rem;
+}
+
+.faq h4:first-of-type {
+  margin-top: 0;
+}
+
+.faq p {
+  margin-bottom: 0.4rem;
+}
+
+
