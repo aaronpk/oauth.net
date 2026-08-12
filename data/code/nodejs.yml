@@ -20,4 +20,7 @@ server_libraries:
   Identity Provider system developed to support Firefox Marketplace and other services
 - '<a href="https://github.com/jaredhanson/oauth2orize">OAuth2orize: toolkit to implement
   OAuth2 Authorization Servers</a>'
+- '<a href="https://github.com/AuthPlane/ts-sdk">Authplane ts-sdk</a>: JWT validation
+  and OAuth 2.1 protocol primitives for Node.js resource servers, with Hono, NestJS,
+  MCP, and FastMCP adapters'
 ...

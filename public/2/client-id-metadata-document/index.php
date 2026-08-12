@@ -28,6 +28,7 @@ require('../../../includes/_header.php');
         <ul>
           <li><a href="https://auth0.com/ai/docs/mcp/guides/registering-your-mcp-client-application">Auth0</a> (coming soon)</li>
           <li><a href="https://www.authlete.com/developers/cimd/">Authlete</a></li>
+          <li><a href="https://docs.authplane.ai/reference/rfc-compliance/#draft-ietf-oauth-client-id-metadata-document--cimd">Authplane</a></li>
           <li><a href="https://www.descope.com/blog/post/cimd-support">Descope</a></li>
           <li><a href="https://docs.pingidentity.com/pingfederate/13.1/release_notes/pf_release_notes.html#cimd-for-oauth-clients">Ping</a></li>
           <li><a href="https://docs.scalekit.com/authenticate/mcp/quickstart/">Scalekit</a></li>
