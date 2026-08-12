@@ -20,7 +20,7 @@ require('../../../../includes/_header.php');
 
     <p><a href="https://tools.ietf.org/html/rfc6749#section-4.4" class="rfc">tools.ietf.org/html/rfc6749#section-4.4</a></p>
 
-    <p>The Client Credentials grant type is used by clients to obtain an access token outside of the context of a user.</p>
+    <p>The Client Credentials grant type is used by clients to obtain an access token without a separate authorization step. The client credentials themselves act as the authorization to access the resources.</p>
     <p>This is typically used by clients to access resources about themselves rather than to access a user's resources.</p>
 
     <p>More resources
