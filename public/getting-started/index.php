@@ -14,6 +14,12 @@ require('../../includes/_header.php');
 
       <p>Below are some guides to OAuth 2.0 which cover many of the topics needed to understand and implement clients and servers.</p>
 
+      <div class="banner">
+        <strong>OAuth is an authorization protocol, not an authentication protocol.</strong>
+        If you're trying to add login to your app, you want <a href="https://openid.net/connect/">OpenID Connect</a>, which is built on top of OAuth 2.0.
+        <a href="/articles/authentication/">Learn why OAuth alone is not sufficient for authentication &rarr;</a>
+      </div>
+
       <h3><a href="https://aaronparecki.com/oauth-2-simplified/">OAuth 2.0 Simplified</a></h3>
       <p><i>OAuth 2.0 Simplified</i>, written by <a href="https://aaronparecki.com">Aaron Parecki</a>, is a guide to OAuth 2.0 focused on writing clients that gives a clear overview of the spec at an introductory level.</p>
       <ul>

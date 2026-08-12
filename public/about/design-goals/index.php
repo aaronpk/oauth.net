@@ -9,14 +9,11 @@ require('../../../includes/_header.php');
 ?>
 
   <div class="container">
-    <nav>
-      <ul class="breadcrumb">
-        <li class="breadcrumb-item"><a href="/about/credits/">Credits</a></li>
-        <li class="breadcrumb-item"><a href="/about/introduction/">Introduction</a></li>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/about/credits/">About</a></li>
         <li class="breadcrumb-item active">Design Goals</li>
-        <li class="breadcrumb-item"><a href="/about/advertise/">Advertise Here</a></li>
-        <li class="breadcrumb-item"><a href="/about/community/">Community</a></li>
-      </ul>
+      </ol>
     </nav>
 
     <div>

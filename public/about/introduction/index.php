@@ -6,13 +6,10 @@ $page_secondary = "introduction";
 require('../../../includes/_header.php');
 ?>
   <div class="container">
-    <nav>
+    <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="/about/credits/">Credits</a></li>
+        <li class="breadcrumb-item"><a href="/about/credits/">About</a></li>
         <li class="breadcrumb-item active">Introduction</li>
-        <li class="breadcrumb-item"><a href="/about/design-goals/">Design Goals</a></li>
-        <li class="breadcrumb-item"><a href="/about/advertise/">Advertise Here</a></li>
-        <li class="breadcrumb-item"><a href="/about/community/">Community</a></li>
       </ol>
     </nav>
 

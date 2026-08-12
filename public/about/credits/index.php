@@ -8,14 +8,11 @@ $page_meta_description = "";
 require('../../../includes/_header.php');
 ?>
   <div class="container">
-    <nav>
-      <ul class="breadcrumb">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/about/credits/">About</a></li>
         <li class="breadcrumb-item active">Credits</li>
-        <li class="breadcrumb-item"><a href="/about/introduction/">Introduction</a></li>
-        <li class="breadcrumb-item"><a href="/about/design-goals/">Design Goals</a></li>
-        <li class="breadcrumb-item"><a href="/about/advertise/">Advertise Here</a></li>
-        <li class="breadcrumb-item"><a href="/about/community/">Community</a></li>
-      </ul>
+      </ol>
     </nav>
 
     <div>

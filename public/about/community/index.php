@@ -1,7 +1,7 @@
 <?php
 
 $page_title = "Community &mdash; OAuth";
-$page_section = "community";
+$page_section = "about";
 $page_secondary = "";
 $page_meta_description = "";
 
@@ -10,14 +10,11 @@ require('../../../includes/_header.php');
 
   <div class="container">
 
-    <nav>
-      <ul class="breadcrumb">
-        <li class="breadcrumb-item"><a href="/about/credits/">Credits</a></li>
-        <li class="breadcrumb-item"><a href="/about/introduction/">Introduction</a></li>
-        <li class="breadcrumb-item"><a href="/about/design-goals/">Design Goals</a></li>
-        <li class="breadcrumb-item"><a href="/about/advertise/">Advertise Here</a></li>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/about/credits/">About</a></li>
         <li class="breadcrumb-item active">Community</li>
-      </ul>
+      </ol>
     </nav>
 
     <div>

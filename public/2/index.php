@@ -17,35 +17,14 @@ require('../../includes/_header.php');
     <p><a href="/2.1/">OAuth 2.1</a> is an in-progress effort to consolidate OAuth 2.0 and many common extensions under a new name.</p>
     <p>Questions, suggestions and protocol changes should be discussed on the <a href="https://www.ietf.org/mailman/listinfo/oauth">mailing list</a>.</p>
 
-    <?php if(time() > strtotime('2021-04-15T10:40:00-0700') && time() < strtotime('2021-04-15T11:55:00-0700')): ?>
-
-    <div style="margin-top: 10px; margin-bottom: 20px; padding: 40px; border: 1px #ddd solid;">
-      <div style="font-weight:bold; color:#f00;">Live Now!</div>
-      <iframe width="100%" height="400" src="https://www.youtube.com/embed/Na_1Pchl9Hg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-    <?php else: ?>
-
     <div style="margin-top: 10px; margin-bottom: 20px; padding: 40px; border: 1px #ddd solid;">
       <div style="">Video Course: The Nuts and Bolts of OAuth 2.0</div>
       <div class="course-image"><a href="https://oauth2simplified.com/course" onclick="trackOutboundClick('https://oauth2simplified.com/course', '7VBGSQN1');"><img src="https://oauth2simplified.com/images/nuts-and-bolts-of-oauth.png" style="width: 100%"></a></div>
       <div style="text-align: right;">by Aaron Parecki</div>
     </div>
 
-    <?php endif ?>
-
     <h3 style="clear:none;">OAuth 2.0</h3>
 
-
-    <?php if(time() < strtotime('2019-08-01')): ?>
-    <div style="float: right; border: 1px #ccc solid; padding: 10px; border-radius: 8px; max-width: 320px; background: #fafafa;">
-
-      <p>🍎 <a href="https://developer.okta.com/blog/2019/06/04/what-the-heck-is-sign-in-with-apple">What the Heck is Sign In with Apple?</a> 🍎</p>
-      <p>Sign In with Apple is based on OAuth 2.0 and OpenID Connect, and provides a privacy-friendly way for users to sign in to websites and apps.</p>
-      <div><a href="https://developer.okta.com/blog/2019/06/04/what-the-heck-is-sign-in-with-apple">Read More &gt;&gt;</a></div>
-
-    </div>
-    <?php endif ?>
 
     <ul>
       <li><a href="https://tools.ietf.org/html/rfc6749">OAuth 2.0 Framework</a> - RFC 6749
@@ -104,7 +83,6 @@ require('../../includes/_header.php');
       <li><a href="/2/dpop/">Demonstration of Proof of Possession (DPoP)</a> - RFC 9449</li>
       <li><a href="/2/mtls/">Mutual TLS</a> - RFC 8705</li>
       <li><a href="/private-key-jwt/">Private Key JWT</a> - (RFC 7521, RFC 7523, OpenID)</li>
-      <li><a href="/fapi/">FAPI</a></li>
     </ul>
 
     <h3>Draft Specs</h3>
@@ -128,6 +106,7 @@ require('../../includes/_header.php');
 
     <h3>Related Work from Other Communities</h3>
     <ul>
+      <li><a href="/gnap/">GNAP</a> - Grant Negotiation and Authorization Protocol, RFC 9635</li>
       <li><a href="/fapi/">FAPI</a> (OpenID Foundation)</li>
       <li><a href="/webauthn/">WebAuthn - Web Authentication</a></li>
       <li><a href="/passkeys/">passkeys</a> are a new way to sign in to services without a password</li>

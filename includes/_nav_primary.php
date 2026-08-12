@@ -22,7 +22,15 @@
             <li><a class="dropdown-item" href="https://events.oauth.net/">Events</a></li>
           </ul>
         </li>
-        <li class="nav-item"><a class="nav-link" href="/about/credits/">About</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/about/credits/">Credits</a></li>
+            <li><a class="dropdown-item" href="/about/community/">Community</a></li>
+            <li><a class="dropdown-item" href="/faq/">FAQ</a></li>
+            <li><a class="dropdown-item" href="/consulting/">Consulting</a></li>
+          </ul>
+        </li>
       </ul>
     </div>
   </div>
