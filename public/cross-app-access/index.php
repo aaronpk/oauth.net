@@ -24,6 +24,7 @@ require('../../includes/_header.php');
         <b>IdPs</b>
         <ul>
           <li><a href="https://www.okta.com/solutions/cross-app-access/">Okta</a> (early access)</li>
+          <li><a href="https://docs.pingidentity.com/pingfederate/13.1/release_notes/pf_release_notes.html#identity-assertion-jwt-authorization-grant-id-jag">Ping</a></li>
           <li><a href="https://techblog.lycorp.co.jp/ja/20260401a">Athenz</a> (beta)</li>
           <li><a href="https://github.com/keycloak/keycloak/issues/48818">Keycloak</a> (in progress)</li>
           <li><a href="https://docs.descope.com/agentic-identity-hub/enterprise-managed-authorization">Descope</a></li>
