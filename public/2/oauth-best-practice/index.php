@@ -9,6 +9,7 @@ require('../../../includes/_header.php');
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a href="/2/">OAuth 2.0</a></li>
+      <li class="breadcrumb-item"><a href="/security/">Security</a></li>
       <li class="breadcrumb-item active">Security Best Current Practice</li>
     </ol>
   </nav>
