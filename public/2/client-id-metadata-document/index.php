@@ -30,6 +30,7 @@ require('../../../includes/_header.php');
           <li><a href="https://www.authlete.com/developers/cimd/">Authlete</a></li>
           <li><a href="https://docs.authplane.ai/reference/rfc-compliance/#draft-ietf-oauth-client-id-metadata-document--cimd">Authplane</a></li>
           <li><a href="https://www.descope.com/blog/post/cimd-support">Descope</a></li>
+          <li><a href="https://docs.pingidentity.com/pingfederate/13.1/release_notes/pf_release_notes.html#cimd-for-oauth-clients">Ping</a></li>
           <li><a href="https://docs.scalekit.com/authenticate/mcp/quickstart/">Scalekit</a></li>
           <li><a href="https://stytch.com/blog/oauth-client-id-metadata-mcp/">Stytch</a></li>
           <li><a href="https://workos.com/changelog/client-id-metadata-support-for-mcp-auth">WorkOS</a></li>
