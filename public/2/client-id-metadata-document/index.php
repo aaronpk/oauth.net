@@ -62,6 +62,7 @@ require('../../../includes/_header.php');
       <li><a href="https://client.dev/">client.dev</a></li>
       <li><a href="https://example-app.com/client">example-app.com/client</a></li>
       <li><a href="https://github.com/tanish111/cimd-local-oauth-server">Local Authorization Server for Testing</a></li>
+      <li><a href="https://cimd-reader.akxen.tech/">CIMD Reader</a></li>
     </ul>
     
     <h3>More resources</h3>
