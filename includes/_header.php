@@ -42,10 +42,11 @@ var trackOutboundClick = function(url, code) {
   </button>
 </div>
 
+<?php require(__DIR__.'/_new_banner.php'); ?>
+
 <div class="site-layout">
   <aside class="site-sidebar" id="site-sidebar">
     <?php require(__DIR__.'/_sidebar_global.php'); ?>
   </aside>
   <div class="site-overlay" id="site-overlay"></div>
   <main class="site-main">
-    <?php require(__DIR__.'/_new_banner.php'); ?>
