@@ -106,8 +106,10 @@ $uri = $_SERVER['REQUEST_URI'];
 
   <a href="/faq/" class="sidebar-link<?= nav_active('/faq') ?>">FAQ</a>
   <a href="/consulting/" class="sidebar-link<?= nav_active('/consulting') ?>">Consulting</a>
-  <a href="/about/credits/" class="sidebar-link<?= nav_active('/about') ?>">Credits</a>
+  <a href="/about/credits/" class="sidebar-link<?= nav_active('/about/credits/') ?>">Credits</a>
   <a href="/about/community/" class="sidebar-link<?= sidebar_active('/about/community/') ?>">Community</a>
+  <?php /* 
   <a href="/map/" class="sidebar-link<?= nav_active('/map') ?>">Map</a>
+  */ ?>
 
 </nav>

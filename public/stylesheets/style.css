@@ -194,6 +194,105 @@ code, kbd, pre, samp {
 }
 
 
+/* ── Spec map ───────────────────────────────────────────────── */
+
+.map-wrapper {
+  overflow: auto;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: #f8fafc;
+  margin: 1.5rem 0;
+  cursor: default;
+  -webkit-overflow-scrolling: touch;
+}
+
+.map-canvas {
+  position: relative;
+  user-select: none;
+}
+
+.map-node {
+  position: absolute;
+  width: 155px;
+  height: 48px;
+  border-radius: 6px;
+  padding: 6px 10px;
+  text-decoration: none !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 2;
+  box-sizing: border-box;
+  transition: box-shadow 0.12s, opacity 0.12s, transform 0.1s;
+}
+.map-node:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+  transform: translateY(-1px);
+  z-index: 10;
+  opacity: 1 !important;
+}
+.map-node .node-name {
+  font-weight: 700;
+  font-size: 11.5px;
+  line-height: 1.2;
+  color: inherit;
+  display: block;
+}
+.map-node .node-sub {
+  font-size: 10px;
+  font-family: var(--font-mono);
+  opacity: 0.7;
+  display: block;
+  line-height: 1.2;
+  margin-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.map-node.group-core       { background: #1e3a5f; color: #fff; }
+.map-node.group-grant      { background: #1d4ed8; color: #fff; }
+.map-node.group-extension  { background: #0369a1; color: #fff; }
+.map-node.group-token      { background: #6d28d9; color: #fff; }
+.map-node.group-security   { background: #92400e; color: #fff; }
+.map-node.group-discovery  { background: #374151; color: #fff; }
+.map-node.group-builton    { background: #166534; color: #fff; }
+.map-node.group-deprecated { background: #fff1f2; color: #991b1b; border: 2px dashed #fca5a5; }
+
+.map-node.is-dimmed    { opacity: 0.12; }
+.map-node.is-active    { box-shadow: 0 0 0 2px #fff, 0 4px 16px rgba(0,0,0,0.3); z-index: 10; }
+
+.map-edge { transition: opacity 0.12s; }
+.map-edge.is-dimmed    { opacity: 0.06; }
+.map-edge.is-active    { opacity: 1 !important; }
+
+.map-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: var(--text-xs);
+}
+.map-legend-group { display: flex; flex-direction: column; gap: 0.35rem; }
+.map-legend-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--color-text-muted);
+  font-size: 0.65rem;
+  margin-bottom: 0.15rem;
+}
+.map-legend-row { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.map-legend-item { display: flex; align-items: center; gap: 5px; }
+.map-legend-line {
+  width: 22px; height: 3px; border-radius: 2px; flex-shrink: 0;
+}
+.map-legend-dot {
+  width: 11px; height: 11px; border-radius: 2px; flex-shrink: 0;
+}
+.map-legend-dot.group-deprecated { background: #fff1f2; border: 1.5px dashed #fca5a5; }
+
+
 /* ── Spec page template ─────────────────────────────────────── */
 
 /* Metadata bar: RFC badge + status pill, sits below the h2 */
