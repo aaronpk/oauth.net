@@ -957,6 +957,31 @@ details[open] > .sidebar-summary { color: var(--color-primary); font-weight: 600
 }
 
 
+.terminology {
+  margin: 0;
+}
+.terminology dt {
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-top: 1.25rem;
+  font-size: var(--text-base);
+}
+.terminology dt .term-abbr {
+  font-weight: 400;
+  color: var(--color-text-muted);
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  margin-left: 0.4rem;
+}
+.terminology dd {
+  margin: 0.25rem 0 0 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--color-border);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+
 .faq h3 {
   font-size: 0.75rem;
   font-weight: 700;

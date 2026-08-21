@@ -17,6 +17,39 @@ require('../../includes/_header.php');
 
     <img src="xaa-flow-diagram.png" style="width: 100%">
 
+    <h3>Terminology</h3>
+
+    <dl class="terminology">
+      <dt>Cross-App Access <span class="term-abbr">(XAA)</span></dt>
+      <dd>A pattern in which an application's access to another application's API is mediated by the IdP that both applications already trust for SSO and subject resolution. XAA extends the IdP's role from single sign-on to brokering cross-domain API access, using the same trust relationships that already exist for SSO.</dd>
+
+      <dt>Identity Assertion JWT Authorization Grant <span class="term-abbr">(ID-JAG)</span></dt>
+      <dd>The name of both the specification where XAA is defined and the specific JWT defined in Section 3 of that spec. The ID-JAG is the JWT issued by the IdP and presented to the Resource Authorization Server. It carries the IdP's signed assertion that the Client is authorized to access the Resource App on behalf of the user.</dd>
+
+      <dt>Client</dt>
+      <dd>The application that wants to access the Resource App's API on behalf of a user. The Client already has the user logged in via SSO at the IdP, and initiates XAA by requesting an ID-JAG from the IdP.</dd>
+
+      <dt>Resource App</dt>
+      <dd>The application whose API the Client wants to access. Both the Client and the Resource App trust the same IdP for SSO. The Resource App delegates authorization decisions to its Resource Authorization Server.</dd>
+
+      <dt>Resource Authorization Server</dt>
+      <dd>The OAuth authorization server operated by the Resource App. It receives the ID-JAG from the Client, validates it against the IdP's signing keys, and — if authorized — issues an access token the Client can use to call the Resource Server.</dd>
+
+      <dt>Resource Server</dt>
+      <dd>The API of the Resource App. It accepts and validates access tokens issued by the Resource Authorization Server.</dd>
+
+      <dt>Token Exchange <span class="term-abbr">(RFC 8693)</span></dt>
+      <dd>An OAuth 2.0 extension for exchanging one token for a different token. In XAA, the Client uses Token Exchange to exchange the user's existing SSO session (an OIDC ID token, refresh token, or SAML assertion) with the IdP for an ID-JAG.</dd>
+
+      <dt>Authorization Grant</dt>
+      <dd>The abstract concept defined in RFC 6749 representing a user's authorization for a client to access a resource. In XAA, the ID-JAG is the authorization grant — it is what the Client presents to the Resource Authorization Server to obtain an access token.</dd>
+
+      <dt>JWT Authorization Grant <span class="term-abbr">(RFC 7523)</span></dt>
+      <dd>An OAuth mechanism for using a signed JWT as an authorization grant at a token endpoint. In XAA, the Client presents the ID-JAG as a JWT Authorization Grant to the Resource Authorization Server's token endpoint to obtain an access token.</dd>
+    </dl>
+
+    <br><br>
+
     <h3>Implementations</h3>
 
     <div class="grid">
