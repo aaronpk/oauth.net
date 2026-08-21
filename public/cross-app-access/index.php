@@ -86,7 +86,7 @@ require('../../includes/_header.php');
         <b>Resource Apps</b>
         <ul>
           <li><a href="https://asana.com/">Asana</a></li>
-          <li><a href="https://www.atlassian.com/">Atlassian</a></li>
+          <li><a href="https://support.atlassian.com/security-and-access-policies/docs/configuring-enterprise-managed-authentication/">Atlassian</a></li>
           <li><a href="https://www.canva.com/">Canva</a></li>
           <li><a href="https://help.figma.com/hc/en-us/articles/41992841175959-Set-up-OIDC-for-Okta-XAA">Figma</a></li>
           <li><a href="https://docs.granola.ai/help-center/sharing/integrations/mcp">Granola</a></li>
