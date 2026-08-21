@@ -75,6 +75,7 @@ var tree = {
   },
   "login": {
     type: "result",
+    href: "/articles/authentication/",
     title: "You want OpenID Connect",
     body: "OAuth 2.0 handles authorization, not authentication. OpenID Connect is a thin identity layer built on top of OAuth 2.0 that adds user identity — it’s what powers “Sign in with Google” and similar flows. If you need to know who the user is, use OpenID Connect.",
     links: [
@@ -85,6 +86,7 @@ var tree = {
   },
   "web-app": {
     type: "result",
+    href: "/2/grant-types/authorization-code/",
     title: "Use Authorization Code + PKCE",
     body: "The user is redirected to the authorization server, then back to your app with an authorization code. Your server exchanges the code for an access token — it never touches the browser. All clients should use PKCE.",
     links: [
@@ -94,6 +96,7 @@ var tree = {
   },
   "spa": {
     type: "result",
+    href: "/2/browser-based-apps/",
     title: "Use Authorization Code + PKCE",
     body: "Single-page apps use the Authorization Code flow with PKCE. Never use the Implicit flow in new apps. The Browser-Based Apps guide covers recommended patterns for handling tokens safely in the browser.",
     links: [
@@ -104,6 +107,7 @@ var tree = {
   },
   "native": {
     type: "result",
+    href: "/2/native-apps/",
     title: "Use Authorization Code + PKCE",
     body: "Mobile and native apps use the Authorization Code flow with PKCE. Since they can’t safely store a client secret, PKCE replaces it. The Native Apps guide covers iOS, Android, and desktop-specific guidance.",
     links: [
@@ -114,6 +118,7 @@ var tree = {
   },
   "device": {
     type: "result",
+    href: "/2/grant-types/device-code/",
     title: "Use Device Authorization Grant",
     body: "Smart TVs, CLIs, and devices without a browser use the Device Authorization Grant. The device displays a short code and URL; the user completes authorization on their phone or computer.",
     links: [
@@ -122,6 +127,7 @@ var tree = {
   },
   "api": {
     type: "result",
+    href: "/2/bearer-tokens/",
     title: "Start with Bearer Tokens",
     body: "Your API accepts access tokens from OAuth clients. The key concepts: how to validate Bearer Tokens, how to use scopes to control what a token can access, and how to use token introspection if tokens are opaque strings.",
     links: [
@@ -132,6 +138,7 @@ var tree = {
   },
   "s2s": {
     type: "result",
+    href: "/2/grant-types/client-credentials/",
     title: "Use Client Credentials",
     body: "The Client Credentials grant is used when there’s no user — your service calls another API on its own behalf. The client authenticates directly and receives an access token without any redirect or user interaction.",
     links: [
@@ -141,6 +148,7 @@ var tree = {
   },
   "browse": {
     type: "result",
+    href: "/2/",
     title: "Start with OAuth 2.0",
     body: "The OAuth 2.0 page lists all core specs, extensions, and related protocols. The Specs page has the full list of IETF working group documents.",
     links: [
@@ -151,7 +159,7 @@ var tree = {
   }
 };
 
-var history = ['start'];
+var dtHistory = ['start'];
 var dt = document.getElementById('dt');
 
 function render(stepId) {
@@ -160,17 +168,18 @@ function render(stepId) {
 }
 
 function renderQuestion(step) {
-  var backBtn = history.length > 1
+  var backBtn = dtHistory.length > 1
     ? '<button class="dt-back" onclick="goBack()">← Back</button>'
     : '';
   var options = step.options.map(function(opt) {
-    return '<button class="dt-option" onclick="navigate(\'' + opt.next + '\')">'
+    var href = (tree[opt.next] && tree[opt.next].href) ? tree[opt.next].href : '#';
+    return '<a href="' + href + '" class="dt-option" onclick="event.preventDefault(); navigate(\'' + opt.next + '\')">'
       + '<span class="dt-option-text">'
       + '<span class="dt-label">' + opt.label + '</span>'
       + '<span class="dt-hint">' + opt.hint + '</span>'
       + '</span>'
       + '<span class="dt-arrow" aria-hidden="true">→</span>'
-      + '</button>';
+      + '</a>';
   }).join('');
   dt.innerHTML = '<div class="dt-header">' + backBtn
     + '<h2 class="dt-question">' + step.question + '</h2></div>'
@@ -190,9 +199,9 @@ function renderResult(step) {
     + '<div class="dt-restart-row"><button class="dt-restart" onclick="restart()">Start over</button></div>';
 }
 
-function navigate(stepId) { history.push(stepId); render(stepId); }
-function goBack() { history.pop(); render(history[history.length - 1]); }
-function restart() { history = ['start']; render('start'); }
+function navigate(stepId) { dtHistory.push(stepId); render(stepId); }
+function goBack() { dtHistory.pop(); render(dtHistory[dtHistory.length - 1]); }
+function restart() { dtHistory = ['start']; render('start'); }
 
 document.addEventListener('DOMContentLoaded', function() { render('start'); });
 </script>
