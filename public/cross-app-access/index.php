@@ -55,11 +55,11 @@ require('../../includes/_header.php');
           <li><a href="https://asana.com/">Asana</a></li>
           <li><a href="https://www.atlassian.com/">Atlassian</a></li>
           <li><a href="https://www.canva.com/">Canva</a></li>
-          <li><a href="https://figma.com/">Figma</a></li>
-          <li><a href="https://www.granola.ai/">Granola</a></li>
+          <li><a href="https://help.figma.com/hc/en-us/articles/41992841175959-Set-up-OIDC-for-Okta-XAA">Figma</a></li>
+          <li><a href="https://docs.granola.ai/help-center/sharing/integrations/mcp">Granola</a></li>
           <li><a href="https://linear.app/">Linear</a></li>
           <li><a href="https://www.notion.com/help/set-up-enterprise-managed-connections-for-notion-mcp">Notion</a></li>
-          <li><a href="https://supabase.com/">Supabase</a></li>
+          <li><a href="https://supabase.com/docs/guides/platform/sso/enterprise-mcp-authentication">Supabase</a></li>
         </ul>
         <b>Test Tools</b>
         <ul>
