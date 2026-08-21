@@ -1,5 +1,5 @@
 <?php
-$page_title = "OAuth 2.0 for Browser-Based Apps";
+$page_title = "OAuth 2.0 for Browser-Based Apps — RFC 10017";
 $page_section = "";
 $page_meta_description = "Best practices and security requirements for OAuth 2.0 in single-page apps and browser-based applications.";
 require('../../../includes/_header.php');
@@ -15,9 +15,9 @@ require('../../../includes/_header.php');
   <h2>OAuth 2.0 for Browser-Based Apps</h2>
 
   <div class="spec-meta">
-    <a href="https://www.ietf.org/archive/id/draft-ietf-oauth-browser-based-apps-21.txt" class="rfc-badge">Active Draft</a>
-    <span class="spec-status spec-status--draft">Draft</span>
-    <a href="https://tools.ietf.org/html/draft-ietf-oauth-browser-based-apps" class="rfc">tools.ietf.org/html/draft-ietf-oauth-browser-based-apps</a>
+    <a href="https://www.rfc-editor.org/rfc/rfc10017" class="rfc-badge">RFC 10017</a>
+    <span class="spec-status spec-status--published">Published</span>
+    <a href="https://www.rfc-editor.org/rfc/rfc10017" class="rfc">rfc-editor.org/rfc/rfc10017</a>
   </div>
 
   <p class="spec-lede">This document describes security requirements and best practices for OAuth 2.0 in SPAs and other browser-based apps — applications where all code runs in the browser and there is no secure backend to hold secrets.</p>

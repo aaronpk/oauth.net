@@ -56,7 +56,7 @@ require('../../includes/_header.php');
     <h4>Mobile and Other Devices</h4>
     <ul>
       <li><a href="/2/native-apps/">Native Apps</a> <a href="https://www.rfc-editor.org/rfc/rfc8252" class="rfc-badge">RFC 8252</a> — Recommendations for using OAuth with native apps</li>
-      <li><a href="/2/browser-based-apps/">Browser-Based Apps</a> — Recommendations for using OAuth with browser-based apps (e.g. an SPA)</li>
+      <li><a href="/2/browser-based-apps/">Browser-Based Apps</a> <a href="https://www.rfc-editor.org/rfc/rfc10017" class="rfc-badge">RFC 10017</a> — Recommendations for using OAuth with browser-based apps (e.g. an SPA)</li>
       <li><a href="/2/device-flow/">Device Authorization Grant</a> <a href="https://www.rfc-editor.org/rfc/rfc8628" class="rfc-badge">RFC 8628</a> — OAuth for devices with no browser or no keyboard</li>
     </ul>
 
