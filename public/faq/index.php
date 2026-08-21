@@ -10,6 +10,13 @@ require('../../includes/_header.php');
 <div class="container">
   <div class="faq">
 
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/about/credits/">About</a></li>
+        <li class="breadcrumb-item active">FAQ</li>
+      </ol>
+    </nav>
+
     <h2 id="oauth-faq">Frequently Asked Questions about OAuth</h2>
 
     <h3>Concepts</h3>

@@ -27,7 +27,7 @@ require('../../includes/_header.php');
 
 
     <ul>
-      <li><a href="https://tools.ietf.org/html/rfc6749">OAuth 2.0 Framework</a> - RFC 6749
+      <li><a href="https://tools.ietf.org/html/rfc6749">OAuth 2.0 Framework</a> <a href="https://www.rfc-editor.org/rfc/rfc6749" class="rfc-badge">RFC 6749</a>
         <ul>
           <li><a href="/2/access-tokens/">Access Tokens</a></li>
           <li><a href="/2/refresh-tokens/">Refresh Tokens</a></li>
@@ -47,42 +47,42 @@ require('../../includes/_header.php');
       </li>
       <li><a href="/2/client-types/">Client Types - Confidential and Public Applications</a></li>
       <li><a href="/2/client-authentication/">Client Authentication</a></li>
-      <li><a href="/2/bearer-tokens/">Bearer Tokens</a> - RFC 6750</li>
-      <li><a href="/2/security-considerations/">Threat Model and Security Considerations</a> - RFC 6819</li>
-      <li><a href="/2/oauth-best-practice/">OAuth Security Best Current Practice</a> - RFC 9700</li>
+      <li><a href="/2/bearer-tokens/">Bearer Tokens</a> <a href="https://www.rfc-editor.org/rfc/rfc6750" class="rfc-badge">RFC 6750</a></li>
+      <li><a href="/2/security-considerations/">Threat Model and Security Considerations</a> <a href="https://www.rfc-editor.org/rfc/rfc6819" class="rfc-badge">RFC 6819</a></li>
+      <li><a href="/2/oauth-best-practice/">OAuth Security Best Current Practice</a> <a href="https://www.rfc-editor.org/rfc/rfc9700" class="rfc-badge">RFC 9700</a></li>
       <li><a href="/id-tokens-vs-access-tokens/">ID Tokens vs Access Tokens</a></li>
     </ul>
 
     <h4>Mobile and Other Devices</h4>
     <ul>
-      <li><a href="/2/native-apps/">Native Apps</a> - RFC 8252, Recommendations for using OAuth with native apps</li>
-      <li><a href="/2/browser-based-apps/">Browser-Based Apps</a> - Recommendations for using OAuth with browser-based apps (e.g. an SPA)</li>
-      <li><a href="/2/device-flow/">Device Authorization Grant</a> - RFC 8628, OAuth for devices with no browser or no keyboard</li>
+      <li><a href="/2/native-apps/">Native Apps</a> <a href="https://www.rfc-editor.org/rfc/rfc8252" class="rfc-badge">RFC 8252</a> — Recommendations for using OAuth with native apps</li>
+      <li><a href="/2/browser-based-apps/">Browser-Based Apps</a> — Recommendations for using OAuth with browser-based apps (e.g. an SPA)</li>
+      <li><a href="/2/device-flow/">Device Authorization Grant</a> <a href="https://www.rfc-editor.org/rfc/rfc8628" class="rfc-badge">RFC 8628</a> — OAuth for devices with no browser or no keyboard</li>
     </ul>
 
     <h4>Token and Token Management</h4>
     <ul>
-      <li><a href="/2/jwt-access-tokens/">JWT Profile for Access Tokens</a> - RFC 9068, a standard for structured access tokens</li>
-      <li><a href="/2/token-introspection/">Token Introspection</a> - RFC 7662, to determine the active state and meta-information of a token</li>
-      <li><a href="/2/token-revocation/">Token Revocation</a> - RFC 7009, to signal that a previously obtained token is no longer needed</li>
-      <li><a href="/2/jwt/">JSON Web Token</a> - RFC 7519</li>
-      <li><a href="/2/token-exchange/">Token Exchange</a> - RFC 8693</li>
+      <li><a href="/2/jwt-access-tokens/">JWT Profile for Access Tokens</a> <a href="https://www.rfc-editor.org/rfc/rfc9068" class="rfc-badge">RFC 9068</a> — a standard for structured access tokens</li>
+      <li><a href="/2/token-introspection/">Token Introspection</a> <a href="https://www.rfc-editor.org/rfc/rfc7662" class="rfc-badge">RFC 7662</a> — determine the active state and meta-information of a token</li>
+      <li><a href="/2/token-revocation/">Token Revocation</a> <a href="https://www.rfc-editor.org/rfc/rfc7009" class="rfc-badge">RFC 7009</a> — signal that a previously obtained token is no longer needed</li>
+      <li><a href="/2/jwt/">JSON Web Token</a> <a href="https://www.rfc-editor.org/rfc/rfc7519" class="rfc-badge">RFC 7519</a></li>
+      <li><a href="/2/token-exchange/">Token Exchange</a> <a href="https://www.rfc-editor.org/rfc/rfc8693" class="rfc-badge">RFC 8693</a></li>
     </ul>
 
     <h4>Discovery and Registration</h4>
     <ul>
-      <li><a href="/2/authorization-server-metadata/">Authorization Server Metadata</a> - RFC 8414, for clients to discover OAuth endpoints and authorization server capabilities</li>
-      <li><a href="/2/dynamic-client-registration/">Dynamic Client Registration</a> - RFC 7591, to programmatically register OAuth clients</li>
-      <li><a href="/2/dynamic-client-management/">Dynamic Client Registration Management</a> - Experimental RFC 7592, for updating and managing dynamically registered OAuth clients</li>
+      <li><a href="/2/authorization-server-metadata/">Authorization Server Metadata</a> <a href="https://www.rfc-editor.org/rfc/rfc8414" class="rfc-badge">RFC 8414</a> — for clients to discover OAuth endpoints and authorization server capabilities</li>
+      <li><a href="/2/dynamic-client-registration/">Dynamic Client Registration</a> <a href="https://www.rfc-editor.org/rfc/rfc7591" class="rfc-badge">RFC 7591</a> — to programmatically register OAuth clients</li>
+      <li><a href="/2/dynamic-client-management/">Dynamic Client Registration Management</a> <a href="https://www.rfc-editor.org/rfc/rfc7592" class="rfc-badge">RFC 7592</a> — experimental, for updating and managing dynamically registered OAuth clients</li>
     </ul>
 
     <h4>High Security OAuth</h4>
     <p>These specs are used to add additional security properties on top of OAuth 2.0.</p>
     <ul>
-      <li><a href="/2/pushed-authorization-requests/">Pushed Authorization Requests (PAR)</a> - RFC 9126</li>
-      <li><a href="/2/dpop/">Demonstration of Proof of Possession (DPoP)</a> - RFC 9449</li>
-      <li><a href="/2/mtls/">Mutual TLS</a> - RFC 8705</li>
-      <li><a href="/private-key-jwt/">Private Key JWT</a> - (RFC 7521, RFC 7523, OpenID)</li>
+      <li><a href="/2/pushed-authorization-requests/">Pushed Authorization Requests (PAR)</a> <a href="https://www.rfc-editor.org/rfc/rfc9126" class="rfc-badge">RFC 9126</a></li>
+      <li><a href="/2/dpop/">Demonstration of Proof of Possession (DPoP)</a> <a href="https://www.rfc-editor.org/rfc/rfc9449" class="rfc-badge">RFC 9449</a></li>
+      <li><a href="/2/mtls/">Mutual TLS</a> <a href="https://www.rfc-editor.org/rfc/rfc8705" class="rfc-badge">RFC 8705</a></li>
+      <li><a href="/private-key-jwt/">Private Key JWT</a> <a href="https://www.rfc-editor.org/rfc/rfc7521" class="rfc-badge">RFC 7521</a> <a href="https://www.rfc-editor.org/rfc/rfc7523" class="rfc-badge">RFC 7523</a></li>
     </ul>
 
     <h3>Draft Specs</h3>
@@ -96,17 +96,17 @@ require('../../includes/_header.php');
     <h3>Additional Extensions</h3>
     <ul>
       <li><a href="https://www.iana.org/assignments/oauth-parameters/oauth-parameters.xhtml">OAuth Extension Parameter Registry</a></li>
-      <li><a href="http://tools.ietf.org/html/rfc7521">OAuth Assertions Framework</a> - RFC 7521</li>
-      <li><a href="http://tools.ietf.org/html/rfc7522">SAML2 Bearer Assertion</a> - RFC 7522, for integrating with existing identity systems</li>
-      <li><a href="http://tools.ietf.org/html/rfc7523">JWT Bearer Assertion</a> - RFC 7523</li>
-      <li><a href="http://tools.ietf.org/html/rfc9207">Authorization Server Issuer Identification</a> - RFC 9207, indicates the authorization server identifier in the authorization response</li>
-      <li><a href="/2/rich-authorization-requests/">Rich Authorization Requests (RAR)</a> - RFC 9396</li>
-      <li><a href="https://www.rfc-editor.org/rfc/rfc9470.html">Step-up Authentication Challenge</a> - RFC 9470</li>
+      <li><a href="https://www.rfc-editor.org/rfc/rfc7521">OAuth Assertions Framework</a> <a href="https://www.rfc-editor.org/rfc/rfc7521" class="rfc-badge">RFC 7521</a></li>
+      <li><a href="https://www.rfc-editor.org/rfc/rfc7522">SAML2 Bearer Assertion</a> <a href="https://www.rfc-editor.org/rfc/rfc7522" class="rfc-badge">RFC 7522</a> — for integrating with existing identity systems</li>
+      <li><a href="https://www.rfc-editor.org/rfc/rfc7523">JWT Bearer Assertion</a> <a href="https://www.rfc-editor.org/rfc/rfc7523" class="rfc-badge">RFC 7523</a></li>
+      <li><a href="https://www.rfc-editor.org/rfc/rfc9207">Authorization Server Issuer Identification</a> <a href="https://www.rfc-editor.org/rfc/rfc9207" class="rfc-badge">RFC 9207</a> — indicates the authorization server identifier in the authorization response</li>
+      <li><a href="/2/rich-authorization-requests/">Rich Authorization Requests (RAR)</a> <a href="https://www.rfc-editor.org/rfc/rfc9396" class="rfc-badge">RFC 9396</a></li>
+      <li><a href="https://www.rfc-editor.org/rfc/rfc9470">Step-up Authentication Challenge</a> <a href="https://www.rfc-editor.org/rfc/rfc9470" class="rfc-badge">RFC 9470</a></li>
     </ul>
 
     <h3>Related Work from Other Communities</h3>
     <ul>
-      <li><a href="/gnap/">GNAP</a> - Grant Negotiation and Authorization Protocol, RFC 9635</li>
+      <li><a href="/gnap/">GNAP</a> <a href="https://www.rfc-editor.org/rfc/rfc9635" class="rfc-badge">RFC 9635</a> — Grant Negotiation and Authorization Protocol</li>
       <li><a href="/fapi/">FAPI</a> (OpenID Foundation)</li>
       <li><a href="/webauthn/">WebAuthn - Web Authentication</a></li>
       <li><a href="/passkeys/">passkeys</a> are a new way to sign in to services without a password</li>

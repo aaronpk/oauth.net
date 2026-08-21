@@ -16,32 +16,47 @@ require('../includes/_header.php');
     </div>
   </div>
 
-  <div class="row mt-4">
+  <div class="mt-4 mb-2">
+    <p class="flow-heading">What are you building?</p>
+    <div class="row g-3">
 
-    <div class="col-md-6 mb-3">
-      <div class="audience-card">
-        <h5>Building an app?</h5>
-        <p>Add secure login and API access to your web, mobile, or desktop app.</p>
-        <ul>
-          <li><a href="/2/grant-types/authorization-code/">Authorization Code + PKCE</a></li>
-          <li><a href="/2/grant-types/client-credentials/">Client Credentials</a></li>
-          <li><a href="/2/grant-types/device-code/">Device Code Flow</a></li>
-        </ul>
+      <div class="col-md-4">
+        <a href="/2/grant-types/authorization-code/" class="flow-card">
+          <div class="flow-title">Web or mobile app</div>
+          <div class="flow-grant">Authorization Code + PKCE</div>
+          <p class="flow-desc">Users log in and grant your app access to their data or account.</p>
+        </a>
       </div>
-    </div>
 
-    <div class="col-md-6 mb-3">
-      <div class="audience-card">
-        <h5>Building an API?</h5>
-        <p>Protect your endpoints and let third-party apps access your users' data safely.</p>
-        <ul>
-          <li><a href="/2/bearer-tokens/">Bearer Tokens</a></li>
-          <li><a href="/2/token-introspection/">Token Introspection</a></li>
-          <li><a href="/2/scope/">Defining Scopes</a></li>
-        </ul>
+      <div class="col-md-4">
+        <a href="/2/grant-types/client-credentials/" class="flow-card">
+          <div class="flow-title">Server-to-server</div>
+          <div class="flow-grant">Client Credentials</div>
+          <p class="flow-desc">Your backend service calls another API directly, with no user involved.</p>
+        </a>
       </div>
-    </div>
 
+      <div class="col-md-4">
+        <a href="/2/grant-types/device-code/" class="flow-card">
+          <div class="flow-title">Device or CLI</div>
+          <div class="flow-grant">Device Authorization</div>
+          <p class="flow-desc">A device without a browser needs to get authorization from a user.</p>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="mt-4 mb-4">
+    <p class="flow-heading">Popular Topics</p>
+    <div class="topics-grid">
+      <a href="/2/pkce/" class="topic-link">PKCE</a>
+      <a href="/2/grant-types/authorization-code/" class="topic-link">Authorization Code</a>
+      <a href="/2/grant-types/client-credentials/" class="topic-link">Client Credentials</a>
+      <a href="/2/oauth-best-practice/" class="topic-link">Security Best Practice</a>
+      <a href="/2/bearer-tokens/" class="topic-link">Bearer Tokens</a>
+      <a href="/2/dpop/" class="topic-link">DPoP</a>
+    </div>
   </div>
 
   <div class="column first last span-20" style="clear: both; text-align: center; margin: 20px auto; float: none; max-width: 300px;">

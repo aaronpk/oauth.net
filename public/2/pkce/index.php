@@ -1,8 +1,7 @@
 <?php
-$page_title = "PKCE for OAuth 2.0";
+$page_title = "PKCE — OAuth 2.0";
 $page_section = "";
-$page_secondary = "";
-$page_meta_description = "PKCE - Proof Key for Code Exchange - OAuth 2.0 - RFC7636";
+$page_meta_description = "PKCE (Proof Key for Code Exchange) is an extension to the Authorization Code flow that prevents authorization code injection attacks.";
 require('../../../includes/_header.php');
 ?>
 <div class="container">
@@ -12,42 +11,46 @@ require('../../../includes/_header.php');
       <li class="breadcrumb-item active">PKCE</li>
     </ol>
   </nav>
-  <div>
 
-    <h2>RFC 7636: Proof Key for Code Exchange</h2>
+  <h2>Proof Key for Code Exchange (PKCE)</h2>
 
-    <p><a href="https://www.rfc-editor.org/rfc/rfc7636" class="rfc">www.rfc-editor.org/rfc/rfc7636</a></p>
-
-    <p>PKCE (<a href="https://www.rfc-editor.org/rfc/rfc7636">RFC 7636</a>) is an extension to the <a href="/2/grant-types/authorization-code/">Authorization Code flow</a> to prevent CSRF and authorization code injection attacks.</p>
-    <p>PKCE is <em>not</em> a form of client authentication, and PKCE is <em>not</em> a replacement for a client secret or other client authentication. PKCE is recommended even if a client is using a client secret or other form of <a href="/2/client-authentication/">client authentication</a> like <a href="/private-key-jwt">private_key_jwt</a>.</p>
-    <p>Note: Because PKCE is not a replacement for client authentication, it does <em>not</em> allow treating a public client as a confidential client.</p>
-    <p>PKCE was originally designed to protect the authorization code flow in mobile apps, but its ability to prevent authorization code injection makes it useful for every type of OAuth client, even web apps that use client authentication.</p>
-
-    <h3>Videos</h3>
-    <ul>
-      <li><a href="https://www.youtube.com/watch?v=g_aVPdwBTfw&t=500s">What's New With OAuth and OIDC? (8:22)</a></li>
-      <li><a href="https://www.youtube.com/watch?v=5cQNwifDq1U">What's the Difference between Confidential and Public Clients?</a></li>
-      <li><a href="https://www.youtube.com/watch?v=CHzERullHe8">What's Going On with the Implicit Flow?</a></li>
-    </ul>
-
-    <h3>Tools</h3>
-    <ul>
-      <li><a href="https://www.oauth.com/playground/authorization-code-with-pkce.html">PKCE on the OAuth 2.0 Playground</a> (oauth.com)</li>
-      <li><a href="https://example-app.com/pkce">PKCE Code Challenge Generator</a> (example-app.com)</li>
-      <li><a href="https://developer.pingidentity.com/en/tools/pkce-code-generator.html">PKCE Code Generator</a> (developer.pingidentity.com)</li>
-    </ul>
-
-    <h3>More resources</h3>
-
-    <ul>
-      <li><a href="https://www.oauth.com/oauth2-servers/pkce/">PKCE</a> (oauth.com)</li>
-      <li><a href="https://aaronparecki.com/oauth-2-simplified/#mobile-apps">Mobile Apps</a> (aaronparecki.com)</li>
-      <li><a href="https://developers.google.com/identity/protocols/OAuth2InstalledApp">OAuth 2.0 for Mobile &amp; Desktop Apps</a> (developers.google.com)</li>
-      <li><a href="https://developer.okta.com/blog/2018/12/13/oauth-2-for-native-and-mobile-apps">OAuth 2.0 for Native and Mobile Apps</a> (developer.okta.com by Micah Silverman)</li>
-       <li><a href="https://www.loginradius.com/blog/engineering/pkce/">All about PKCE in OAuth 2.0</a> (loginradius.com by Narendra Pareek)</li>
-    </ul>
-
+  <div class="spec-meta">
+    <a href="https://www.rfc-editor.org/rfc/rfc7636" class="rfc-badge">RFC 7636</a>
+    <span class="spec-status spec-status--published">Published</span>
+    <a href="https://www.rfc-editor.org/rfc/rfc7636" class="rfc">rfc-editor.org/rfc/rfc7636</a>
   </div>
-</div>
 
+  <p class="spec-lede">PKCE prevents authorization code injection and CSRF attacks in the Authorization Code flow. It is recommended for all OAuth clients — not just public clients.</p>
+
+  <p>PKCE works by having the client generate a random secret called a <em>code verifier</em>, then derive a <em>code challenge</em> from it. The code challenge is sent with the authorization request, and the original verifier is sent when exchanging the code for a token. This ensures only the client that started the flow can complete it.</p>
+
+  <p>PKCE is <em>not</em> a form of client authentication and does <em>not</em> replace a client secret. Use it alongside whatever client authentication method you're already using — it adds a separate layer of protection against code injection.</p>
+
+  <div class="spec-when">
+    <strong>When to use this</strong>
+    Use PKCE on every Authorization Code flow. It was originally designed for mobile and native apps (which can't safely store a client secret), but its protection against authorization code injection makes it valuable for all client types, including confidential web apps.
+  </div>
+
+  <h3>Videos</h3>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=g_aVPdwBTfw&t=500s">What's New With OAuth and OIDC? (8:22)</a></li>
+    <li><a href="https://www.youtube.com/watch?v=5cQNwifDq1U">What's the Difference between Confidential and Public Clients?</a></li>
+    <li><a href="https://www.youtube.com/watch?v=CHzERullHe8">What's Going On with the Implicit Flow?</a></li>
+  </ul>
+
+  <h3>Tools</h3>
+  <ul>
+    <li><a href="https://www.oauth.com/playground/authorization-code-with-pkce.html">PKCE on the OAuth 2.0 Playground</a> (oauth.com)</li>
+    <li><a href="https://example-app.com/pkce">PKCE Code Challenge Generator</a> (example-app.com)</li>
+  </ul>
+
+  <h3>More resources</h3>
+  <ul>
+    <li><a href="https://www.oauth.com/oauth2-servers/pkce/">PKCE</a> (oauth.com)</li>
+    <li><a href="https://aaronparecki.com/oauth-2-simplified/#mobile-apps">Mobile Apps</a> (aaronparecki.com)</li>
+    <li><a href="https://developers.google.com/identity/protocols/OAuth2InstalledApp">OAuth 2.0 for Mobile &amp; Desktop Apps</a> (developers.google.com)</li>
+    <li><a href="https://developer.okta.com/blog/2018/12/13/oauth-2-for-native-and-mobile-apps">OAuth 2.0 for Native and Mobile Apps</a> (developer.okta.com)</li>
+  </ul>
+
+</div>
 <?php require('../../../includes/_footer.php'); ?>

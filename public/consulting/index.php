@@ -9,6 +9,12 @@ require('../../includes/_header.php');
 ?>
 
   <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/about/credits/">About</a></li>
+        <li class="breadcrumb-item active">Consulting</li>
+      </ol>
+    </nav>
     <div>
       <h2>OAuth Consulting</h2>
 

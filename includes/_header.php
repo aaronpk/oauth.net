@@ -32,4 +32,14 @@ var trackOutboundClick = function(url, code) {
 
 <?php require(__DIR__.'/_nav_primary.php'); ?>
 <?php require(__DIR__.'/_new_banner.php'); ?>
+<?php
+$_show_oauth2_sidebar = preg_match('#^/2/.+#', $_SERVER['REQUEST_URI']);
+if($_show_oauth2_sidebar):
+?>
+<div class="oauth2-page-layout">
+  <aside class="oauth2-sidebar d-none d-xl-block">
+    <?php require(__DIR__.'/_sidebar_oauth2.php'); ?>
+  </aside>
+  <div class="oauth2-page-content">
+<?php endif; ?>
 

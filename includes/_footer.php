@@ -1,16 +1,24 @@
 
+<?php
+$_show_oauth2_sidebar = preg_match('#^/2/.+#', $_SERVER['REQUEST_URI']);
+if($_show_oauth2_sidebar):
+?>
+  </div><!-- end oauth2-page-content -->
+</div><!-- end oauth2-page-layout -->
+<?php endif; ?>
+
 <footer>
 
-  <div class="source">
-    Missing something?
-    <?php
-      if(isset($EDIT_THIS_PAGE_LINK))
-        $editurl = $EDIT_THIS_PAGE_LINK;
-      else
-        $editurl = 'https://github.com/aaronpk/oauth.net/blob/main/public' . $_SERVER['REQUEST_URI'] . 'index.php';
-    ?>
-    <a href="<?= $editurl ?>">Edit this page</a>.
-    &nbsp;&middot;&nbsp;
+  <?php
+    if(isset($EDIT_THIS_PAGE_LINK))
+      $editurl = $EDIT_THIS_PAGE_LINK;
+    else
+      $editurl = 'https://github.com/aaronpk/oauth.net/blob/main/public' . $_SERVER['REQUEST_URI'] . 'index.php';
+  ?>
+  <div class="contribution-prompt">
+    Found an error or want to add something?
+    <a href="<?= $editurl ?>">Edit this page on GitHub &rarr;</a>
+    <span class="divider">·</span>
     <a href="https://shop.oauth.net/">Merch</a>
   </div>
 
