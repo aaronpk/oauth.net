@@ -1,11 +1,6 @@
 
-<?php
-$_show_oauth2_sidebar = preg_match('#^/2/.+#', $_SERVER['REQUEST_URI']);
-if($_show_oauth2_sidebar):
-?>
-  </div><!-- end oauth2-page-content -->
-</div><!-- end oauth2-page-layout -->
-<?php endif; ?>
+  </main>
+</div><!-- end site-layout -->
 
 <footer>
 
@@ -30,29 +25,44 @@ if($_show_oauth2_sidebar):
 
 </footer>
 
-
 <script src="/stylesheets/bootstrap-5.2.3/js/bootstrap.bundle.min.js"></script>
 
 <script>
-function ea(response) {
-  if(response.html) {
-    document.getElementById('ea').innerHTML = response.html;
+// Sidebar toggle for mobile
+(function() {
+  var toggle = document.getElementById('sidebar-toggle');
+  var sidebar = document.getElementById('site-sidebar');
+  var overlay = document.getElementById('site-overlay');
+  if (!toggle) return;
+  function open() {
+    sidebar.classList.add('is-open');
+    overlay.classList.add('is-open');
+    toggle.setAttribute('aria-expanded', 'true');
   }
+  function close() {
+    sidebar.classList.remove('is-open');
+    overlay.classList.remove('is-open');
+    toggle.setAttribute('aria-expanded', 'false');
+  }
+  toggle.addEventListener('click', function() {
+    sidebar.classList.contains('is-open') ? close() : open();
+  });
+  overlay.addEventListener('click', close);
+})();
+
+function ea(response) {
+  if(response.html) document.getElementById('ea').innerHTML = response.html;
 }
 document.addEventListener('DOMContentLoaded', function() {
   if(window.fathom) {
     var banner = document.querySelector('.featured-banner');
-    if(banner && banner.dataset.viewCode) {
-      window.fathom.trackGoal(banner.dataset.viewCode, 0);
-    }
+    if(banner && banner.dataset.viewCode) window.fathom.trackGoal(banner.dataset.viewCode, 0);
   }
 });
 </script>
 <script async src="/thanks.php"></script>
 <?php
-if(isset($FOOTERSCRIPTS)) {
-  echo $FOOTERSCRIPTS;
-}
+if(isset($FOOTERSCRIPTS)) echo $FOOTERSCRIPTS;
 ?>
 
 </body>

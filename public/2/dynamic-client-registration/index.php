@@ -1,8 +1,7 @@
 <?php
-$page_title = "OAuth 2.0 Dynamic Client Registration";
+$page_title = "Dynamic Client Registration — OAuth 2.0";
 $page_section = "";
-$page_secondary = "";
-$page_meta_description = "An OAuth 2.0 extension for clients to programmatically obtain a client_id and register their information";
+$page_meta_description = "RFC 7591 defines a protocol for OAuth clients to register themselves programmatically with an authorization server.";
 require('../../../includes/_header.php');
 ?>
 <div class="container">
@@ -13,21 +12,28 @@ require('../../../includes/_header.php');
     </ol>
   </nav>
 
-  <div>
+  <h2>Dynamic Client Registration</h2>
 
-    <h2>RFC 7591: Dynamic Client Registration</h2>
-
-    <p><a href="http://tools.ietf.org/html/rfc7591" class="rfc">tools.ietf.org/html/rfc7591</a></p>
-
-    <p>The OAuth 2.0 Dynamic Client Registration extension provides a mechanism for dynamically or programmatically registering clients. This spec was derived from the OpenID Connect Dynamic Client Registration spec and is still compatible with OpenID Connect servers.</p>
-
-    <p>More resources
-      <ul>
-        <li><a href="https://medium.com/@abilashini/oauth-2-0-dynamic-client-registration-management-dcrm-protocol-b55f222f481b">OAuth 2.0 Dynamic Client Registration Management (DCRM) Protocol</a> (Abilashini Thiyagarajah)</li>
-      </ul>
-    </p>
-
+  <div class="spec-meta">
+    <a href="https://www.rfc-editor.org/rfc/rfc7591" class="rfc-badge">RFC 7591</a>
+    <span class="spec-status spec-status--published">Published</span>
+    <a href="https://www.rfc-editor.org/rfc/rfc7591" class="rfc">rfc-editor.org/rfc/rfc7591</a>
   </div>
-</div>
 
+  <p class="spec-lede">Dynamic Client Registration lets OAuth clients register themselves programmatically — submitting their metadata and receiving a <code>client_id</code> (and optionally a <code>client_secret</code>) without any manual setup by the authorization server operator.</p>
+
+  <div class="spec-when">
+    <strong>When to use this</strong>
+    Use Dynamic Client Registration when clients need to register at runtime — for example, in open ecosystems where any developer can build a client against your API, in federated identity deployments where clients are registered automatically during federation, or in multi-tenant platforms where each tenant gets its own client credentials. Not all authorization servers support or allow open dynamic registration; many require an initial access token to authorize the registration request.
+  </div>
+
+  <p>The client POSTs its metadata (redirect URIs, application name, logo URL, token endpoint auth method, etc.) to the registration endpoint and receives a client registration response including a <code>client_id</code>, and for confidential clients a <code>client_secret</code>. This spec was derived from the OpenID Connect Dynamic Client Registration spec and is compatible with OpenID Connect servers.</p>
+
+  <h3>Related specs</h3>
+  <ul>
+    <li><a href="/2/dynamic-client-management/">Dynamic Client Management</a> <a href="https://www.rfc-editor.org/rfc/rfc7592" class="rfc-badge">RFC 7592</a> — updating registered clients</li>
+    <li><a href="/2/authorization-server-metadata/">Authorization Server Metadata</a> <a href="https://www.rfc-editor.org/rfc/rfc8414" class="rfc-badge">RFC 8414</a> — discovering the registration endpoint</li>
+  </ul>
+
+</div>
 <?php require('../../../includes/_footer.php'); ?>

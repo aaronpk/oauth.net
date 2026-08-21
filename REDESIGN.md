@@ -1,80 +1,99 @@
-# oauth.net Redesign Plan
+# oauth.net Redesign
 
-## Visual Identity
+## Architecture
 
-### Type Scale
-- Replace ad-hoc Bootstrap sizing overrides with an intentional type scale
-- Pick a geometric sans-serif for headings and a neutral sans or readable serif for body text
-- Define a small number of named sizes and use them consistently across all pages
+The site uses a persistent global left sidebar for all navigation (visible at 1024px+, collapses to a hamburger drawer on mobile). The top navbar became a slim 52px topbar showing only the logo. All navigation — OAuth 2.0 spec sections, Reference, Learn, About — lives in the sidebar.
 
-### Color System
-- Define a proper palette with semantic tokens: primary, surface, border, text, muted
-- Current state: navy hero + grey Bootstrap everywhere else — no system, just overrides
-- The new palette should make every page feel like it belongs to the same site
+The homepage is a decision tree: "What are you trying to do?" with five entry points, each routing to a direct recommendation with links. No hero marketing text.
 
-### RFC Badge Styling
-- RFC numbers are currently inline text, indistinguishable from surrounding prose
-- Add a small pill badge style (e.g. `RFC 9700`) to make spec references scannable
-- This is a small detail that signals "authoritative technical site"
+## Completed
 
+### Visual Identity
+- CSS custom property system: color palette, type scale, font stacks
+- Bootstrap variables overridden at `:root` level so all components inherit the palette
+- System UI font stack (`-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui`)
+- `h1`/`h2` in navy primary, `h3`–`h6` in dark text
+- Dark navy topbar and navbar
+- Inline `code` styling: navy text, light surface background, subtle border
+- `.rfc-badge` pill for inline RFC number references (applied throughout `/2/`)
+- `.rfc` class: monospace URL display for canonical RFC links on spec pages
 
-## Homepage
+### Layout
+- Slim topbar (52px): logo + hamburger toggle
+- Global left sidebar (248px): sticky, scrollable, full site nav
+- Mobile: sidebar slides in as a drawer with overlay
+- `site-main` content column with 800px max-width on inner containers
 
-### Stronger Hero
-- Less paragraph text — one punchy line, then a single primary CTA
-- The "Get Started / Learn OAuth 2.0" split is good; reduce surrounding prose that competes with it
+### Sidebar Navigation
+- All site sections in one place: Getting Started, OAuth 2.0, Reference, Learn, About
+- OAuth 2.0 sub-sections in collapsible `<details>` groups: Core Concepts, Grant Types, Tokens & Keys, Security, App Types, Discovery
+- PHP URL detection auto-opens the relevant section and highlights the active page
+- "Legacy" badge on deprecated grant types (Implicit, Password)
 
-### Visual Flow Selector
-- Replace the two audience cards with an interactive "what are you building?" widget
-- Three choices: web/mobile app → Authorization Code + PKCE, server-to-server → Client Credentials, device/CLI → Device Code
-- This is the real decision tree visitors need — surface it on the homepage
+### Homepage — Decision Tree
+- Five entry questions routing to recommendations:
+  - Add login → OpenID Connect
+  - Connect to third-party API → sub-question by app type (web/SPA/native/device)
+  - Protect my API → Bearer Tokens
+  - Service-to-service → Client Credentials
+  - Browse specs → OAuth 2.0 / Specs
+- Back/restart navigation in the tree
+- Popular Topics strip below the tree
 
-### Popular Topics Strip
-- Grant types, PKCE, and Security BCP are almost certainly the most-trafficked pages
-- They're currently buried inside `/2/`
-- Add a "Popular Topics" strip on the homepage to shortcut the navigation
+### Navigation & IA
+- `nav_active()` PHP helper highlights current section in the sidebar
+- Consistent breadcrumbs on all sub-pages
+- Bootstrap 5 migration (dropped jQuery)
+- Router script (`router.php`) for PHP built-in server — fixes `/2.1/` routing
 
+### Spec Pages
+- `.spec-meta` bar: RFC badge + Published/Draft status pill
+- `.spec-lede`: larger one-sentence summary
+- `.spec-when`: left-accented callout for "When to use this"
+- Template applied to: PKCE, Authorization Code, Client Credentials
 
-## Navigation and IA
+### Security Hub
+- `/security/` rebuilt as a real hub: two featured RFC cards, Advisories, Workshops, Resources
+- RFC 6819 and RFC 9700 detail pages breadcrumb back through Security
+- Low-quality external links removed
 
-### Sticky Nav with Active Section Highlighting
-- Currently no visual indicator of where you are in the site
-- Make the navbar sticky and highlight the current section
+### Content Improvements
+- `/getting-started/` — "OAuth is not authentication" callout banner at top
+- `/2/` — GNAP added to Related Work; duplicate FAPI removed; dead conditionals cleaned up
+- `/faq/` — expanded from 1 to 12 questions across 4 sections, all answers written
+- About section — proper dropdown nav, `/about/` redirects to Credits, flat-list breadcrumbs fixed
+- Footer — contribution prompt ("Edit this page on GitHub") on every page
 
-### Left Sidebar for Content-Heavy Sections
-- The `/2/` page is a long flat list of links — hard to navigate
-- Add a persistent left sidebar nav for the OAuth 2.0 section
-- Model after well-executed documentation sites: MDN, Stripe docs, etc.
-- Sidebar should stay visible while reading a topic page and show the full section structure
+## Remaining
 
-### Consistent Breadcrumbs
-- Currently only some pages have breadcrumbs, and they vary in format
-- Every page below the top level should have a clear breadcrumb: `OAuth 2.0 › PKCE`
-- Use a single shared component/include
+### Map Page (`/map/`)
+A visual interactive graph of how OAuth specs relate to each other — which specs extend which, alternatives, deprecations, and things built on top. Scaffolded at `/map/` but the actual graph is not yet built. Planned as a separate project.
 
+**Relationship types to model:**
+- Extends: PKCE → Authorization Code; DPoP → Bearer Tokens; PAR → Authorization Code
+- Defines: RFC 6749 → Auth Code, Client Credentials, Implicit, Password
+- Replaces/consolidates: OAuth 2.1 consolidates OAuth 2.0 + Security BCP
+- Alternatives: DPoP as a more secure alternative to plain Bearer Tokens; mTLS as another alternative
+- Built on: OpenID Connect, GNAP, FAPI, IPSIE, IndieAuth
+- Deprecated: Implicit Flow, Password Grant
 
-## Content Pages
+**Implementation options:**
+- Static hand-crafted SVG (maintainable, no JS dependency)
+- D3.js force-directed graph (interactive, but requires data upkeep)
+- CSS/HTML positioned nodes (accessible, easy to maintain)
 
-### Consistent Page Templates
-- Pages currently vary wildly: some are link lists, some long prose, some have inline styles throughout
-- Define two or three templates:
-  - **Reference page** — spec name, RFC badge, what it is, when to use it, RFC link
-  - **Concept page** — explanation, examples, related specs
-  - **Spec index page** — grouped list of specs with short descriptions
+### Remaining Spec Pages
+The spec template (`.spec-meta`, `.spec-lede`, `.spec-when`) was applied to PKCE, Authorization Code, and Client Credentials. The following pages would benefit from the same treatment:
+- Device Code
+- Bearer Tokens
+- DPoP
+- mTLS
+- PAR
+- Token Introspection / Revocation / Exchange
+- Browser-Based Apps / Native Apps
 
-### Richer Spec Pages
-- Individual grant type and token pages are mostly prose + an RFC link
-- Consistent structure for each: what it is, when to use it, minimal example flow diagram or steps, links to spec and related pages
-- PKCE, Authorization Code, and Client Credentials pages especially need this treatment
-
-### Contribution Prompt
-- "Edit this page" link exists but is tiny text in the footer
-- Add a more prominent contribution nudge at the bottom of each content page
-- Especially useful on the many stub pages that need more content
-
-
-## What to Keep
-
-- **Flat PHP architecture** — easy to maintain and easy for contributors to send PRs
-- **URL scheme** — clean and well-established (`/2/pkce/`, `/specs/`, etc.), don't break inbound links
-- **Editorial voice** — the writing that exists is good; it just needs to be applied more consistently
+### Future Considerations
+- Search bar in the topbar
+- Dark mode
+- "Prerequisites" and "Used by" cross-links on spec pages
+- Print header (currently removed with old navbar — could add back to print.css)
