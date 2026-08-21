@@ -326,6 +326,11 @@ code, kbd, pre, samp {
   color: #92400e;
   border: 1px solid #fcd34d;
 }
+.spec-status--deprecated {
+  background: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fca5a5;
+}
 
 /* One-sentence lede, slightly larger and muted */
 .spec-lede {

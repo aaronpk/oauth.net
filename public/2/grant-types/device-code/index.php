@@ -1,12 +1,10 @@
 <?php
-$page_title = "OAuth 2.0 Device Code Grant";
+$page_title = "Device Code Grant — OAuth 2.0";
 $page_section = "";
-$page_secondary = "";
-$page_meta_description = "The OAuth 2.0 Device Authorization Grant";
+$page_meta_description = "The Device Authorization Grant lets browserless or input-constrained devices obtain access tokens by having the user authorize on a secondary device.";
 require('../../../../includes/_header.php');
 ?>
 <div class="container">
-
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a href="/2/">OAuth 2.0</a></li>
@@ -15,24 +13,28 @@ require('../../../../includes/_header.php');
     </ol>
   </nav>
 
-  <div>
+  <h2>Device Authorization Grant</h2>
 
-    <h2>OAuth 2.0 Device Authorization Grant</h2>
-
-    <p><a href="https://tools.ietf.org/html/rfc8628#section-3.4" class="rfc">tools.ietf.org/html/rfc8628#section-3.4</a></p>
-
-    <p>The Device Code grant type is used by browserless or input-constrained devices in the <a href="/2/device-flow/">device flow</a> to exchange a previously obtained device code for an access token.</p>
-    <p>The Device Code grant type value is <code>urn:ietf:params:oauth:grant-type:device_code</code>.</p>
-
-    <p>More resources
-      <ul>
-        <li><a href="https://www.oauth.com/oauth2-servers/device-flow/token-request/">Device Flow Token Request</a> (oauth.com)</li>
-        <li><a href="https://alexbilbie.github.io/2016/04/oauth-2-device-flow-grant/">Device Flow</a> (alexbilbie.github.io)</li>
-        <li><a href="https://www.oauth.com/playground/device-code.html">Device Code Grant on the OAuth 2.0 Playground</a></li>
-      </ul>
-    </p>
-
+  <div class="spec-meta">
+    <a href="https://www.rfc-editor.org/rfc/rfc8628" class="rfc-badge">RFC 8628</a>
+    <span class="spec-status spec-status--published">Published</span>
+    <a href="https://www.rfc-editor.org/rfc/rfc8628" class="rfc">rfc-editor.org/rfc/rfc8628</a>
   </div>
-</div>
 
+  <p class="spec-lede">The Device Authorization Grant lets input-constrained devices — TVs, CLIs, game consoles — get access tokens by having the user approve the request on a separate device like their phone.</p>
+
+  <div class="spec-when">
+    <strong>When to use this</strong>
+    Use the Device Authorization Grant when your app runs on a device that has no browser or makes it difficult to enter a URL — smart TVs, streaming devices, IoT devices, CLIs, and command-line tools. The device displays a short code and URL; the user types the URL on their phone or computer, enters the code, and approves access.
+  </div>
+
+  <p>The flow works without any redirect URI. The device polls the token endpoint using the <code>device_code</code> it received until the user completes authorization or the code expires. The grant type value is <code>urn:ietf:params:oauth:grant-type:device_code</code>.</p>
+
+  <h3>More resources</h3>
+  <ul>
+    <li><a href="https://www.oauth.com/oauth2-servers/device-flow/token-request/">Device Flow Token Request</a> (oauth.com)</li>
+    <li><a href="https://www.oauth.com/playground/device-code.html">Device Code Grant on the OAuth 2.0 Playground</a> (oauth.com)</li>
+  </ul>
+
+</div>
 <?php require('../../../../includes/_footer.php'); ?>
