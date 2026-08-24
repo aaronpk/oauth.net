@@ -64,8 +64,7 @@ require('../../includes/_header.php');
         </ul>
         <b>Clients</b>
         <ul>
-          <li><a href="https://claude.com">Claude</a> (beta)</li>
-          <li><a href="https://code.claude.com/docs/en/overview">Claude Code</a> (beta)</li>
+          <li><a href="https://support.claude.com/en/articles/15537633-authorize-mcp-connectors-for-your-entire-organization">Claude</a></li>
           <li><a href="https://code.visualstudio.com/updates/v1_123#_enterprise-managed-mcp-authentication-preview">Visual Studio Code</a></li>
           <li><a href="https://workos.com">WorkOS</a> (beta)</li>
           <li><a href="https://archestra.ai">Archestra</a></li>
