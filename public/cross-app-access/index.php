@@ -71,14 +71,15 @@ require('../../includes/_header.php');
         </ul>
         <b>Authorization Servers</b>
         <ul>
-          <li><a href="https://stytch.com/docs/connected-apps/guides/cross-app-access">Stytch</a></li>
-          <li><a href="https://auth0.com/docs/secure/call-apis-on-users-behalf/xaa">Auth0</a> (beta)</li>
-          <li><a href="https://techblog.lycorp.co.jp/ja/20260401a">Athenz</a> (beta)</li>
-          <li><a href="https://github.com/keycloak/keycloak/issues/43971">Keycloak</a> (in progress)</li>
-          <li><a href="https://www.scalekit.com/blog/cross-app-access-agentic-auth-flows">Scalekit</a></li>
-          <li><a href="https://docs.descope.com/agentic-identity-hub/enterprise-managed-authorization">Descope</a></li>
+          <li><a href="https://auth0.com/docs/secure/call-apis-on-users-behalf/xaa">Auth0</a> (early access)</li>
           <li><a href="https://docs.authplane.ai/guides/xaa/">Authplane</a></li>
+          <li><a href="https://techblog.lycorp.co.jp/ja/20260401a">Athenz</a> (beta)</li>
+          <li><a href="https://docs.descope.com/agentic-identity-hub/enterprise-managed-authorization">Descope</a></li>
+          <li><a href="https://github.com/doorkeeper-gem/doorkeeper-id_jag_grant">Doorkeeper</a> (Ruby OAuth Provider)</li>
+          <li><a href="https://github.com/keycloak/keycloak/issues/43971">Keycloak</a> (in progress)</li>
           <li><a href="https://docs.pingidentity.com/pingfederate/13.1/administrators_reference_guide/help_idpconnectionconfigtasklet_oauthsamlgrantattributemappingstate.html">Ping</a></li>
+          <li><a href="https://www.scalekit.com/blog/cross-app-access-agentic-auth-flows">Scalekit</a></li>
+          <li><a href="https://stytch.com/docs/connected-apps/guides/cross-app-access">Stytch</a></li>
         </ul>
       </div>
       <div class="column">
