@@ -56,7 +56,7 @@ require('../../includes/_header.php');
       <div class="column">
         <b>IdPs</b>
         <ul>
-          <li><a href="https://www.okta.com/solutions/cross-app-access/">Okta</a> (early access)</li>
+          <li><a href="https://developer.okta.com/docs/concepts/xaa/">Okta</a></li>
           <li><a href="https://docs.pingidentity.com/pingfederate/13.1/release_notes/pf_release_notes.html#identity-assertion-jwt-authorization-grant-id-jag">Ping</a></li>
           <li><a href="https://techblog.lycorp.co.jp/ja/20260401a">Athenz</a> (beta)</li>
           <li><a href="https://github.com/keycloak/keycloak/issues/48818">Keycloak</a> (in progress)</li>
@@ -85,13 +85,15 @@ require('../../includes/_header.php');
       <div class="column">
         <b>Resource Apps</b>
         <ul>
-          <li><a href="https://asana.com/">Asana</a></li>
+          <li><a href="https://help.asana.com/s/article/cross-app-access">Asana</a></li>
           <li><a href="https://support.atlassian.com/security-and-access-policies/docs/configuring-enterprise-managed-authentication/">Atlassian</a></li>
-          <li><a href="https://www.canva.com/">Canva</a></li>
-          <li><a href="https://help.figma.com/hc/en-us/articles/41992841175959-Set-up-OIDC-for-Okta-XAA">Figma</a></li>
+          <li><a href="https://www.canva.com/help/manage-cross-app-access/">Canva</a></li>
+          <li><a href="https://docs.datadoghq.com/account_management/org_settings/cross_app_access/">Datadog</a></li>
+          <li><a href="https://help.figma.com/hc/en-us/articles/41992841175959-Set-up-MCP-enterprise-managed-auth-with-Okta-Cross-App-Access-XAA">Figma</a></li>
           <li><a href="https://docs.granola.ai/help-center/sharing/integrations/mcp">Granola</a></li>
-          <li><a href="https://linear.app/">Linear</a></li>
+          <li><a href="https://linear.app/docs/mcp#enterprise-managed-authorization">Linear</a></li>
           <li><a href="https://www.notion.com/help/set-up-enterprise-managed-connections-for-notion-mcp">Notion</a></li>
+          <li><a href="https://slack.com/help/articles/54548358406419-Manage-access-to-the-Slack-MCP-server-through-your-identity-provider">Slack</a></li>
           <li><a href="https://supabase.com/docs/guides/platform/sso/enterprise-mcp-authentication">Supabase</a></li>
         </ul>
         <b>Test Tools</b>
