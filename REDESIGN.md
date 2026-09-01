@@ -10,6 +10,7 @@ The homepage is a decision tree: "What are you trying to do?" with five entry po
 
 ### Visual Identity
 - CSS custom property system: color palette, type scale, font stacks
+- Dark & Light mode system: `[data-theme="dark"]`, OS preference auto-detection, zero-flicker init, and topbar switcher
 - Bootstrap variables overridden at `:root` level so all components inherit the palette
 - System UI font stack (`-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui`)
 - `h1`/`h2` in navy primary, `h3`–`h6` in dark text
@@ -94,6 +95,5 @@ The spec template (`.spec-meta`, `.spec-lede`, `.spec-when`) was applied to PKCE
 
 ### Future Considerations
 - Search bar in the topbar
-- Dark mode
 - "Prerequisites" and "Used by" cross-links on spec pages
 - Print header (currently removed with old navbar — could add back to print.css)
