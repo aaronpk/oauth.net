@@ -96,6 +96,15 @@ require('../../includes/_header.php');
           <li><a href="https://slack.com/help/articles/54548358406419-Manage-access-to-the-Slack-MCP-server-through-your-identity-provider">Slack</a></li>
           <li><a href="https://supabase.com/docs/guides/platform/sso/enterprise-mcp-authentication">Supabase</a></li>
         </ul>
+        <b>SDKs</b>
+        <ul>
+          <li><a href="https://github.com/go-oauth2/oauth2/releases/tag/v4.6.0">Go OAuth2</a></li>
+        </ul>
+        <b>Gateways</b>
+        <ul>
+          <li><a href="https://docs.litellm.ai/release_notes/v1.95.0/v1-95-0">LiteLLM</a></li>
+          <li><a href="https://www.mintmcp.com/docs/cross-app-access">MintMCP</a></li>
+        </ul>
         <b>Test Tools</b>
         <ul>
           <li><a href="https://xaa.dev">xaa.dev</a> - a complete demo, and utility to test your Clients and Resource Apps</li>
