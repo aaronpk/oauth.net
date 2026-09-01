@@ -28,6 +28,44 @@
 <script src="/stylesheets/bootstrap-5.2.3/js/bootstrap.bundle.min.js"></script>
 
 <script>
+// Theme toggle
+(function() {
+  var toggleBtn = document.getElementById('theme-toggle');
+  if (!toggleBtn) return;
+
+  function getTheme() {
+    return document.documentElement.getAttribute('data-theme') || 'light';
+  }
+
+  function updateToggleState(theme) {
+    var isDark = theme === 'dark';
+    toggleBtn.setAttribute('aria-label', isDark ? 'Switch to light theme' : 'Switch to dark theme');
+    toggleBtn.setAttribute('title', isDark ? 'Switch to light theme' : 'Switch to dark theme');
+  }
+
+  updateToggleState(getTheme());
+
+  toggleBtn.addEventListener('click', function() {
+    var current = getTheme();
+    var next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    try {
+      localStorage.setItem('theme', next);
+    } catch(e) {}
+    updateToggleState(next);
+  });
+
+  if (window.matchMedia) {
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+      if (!localStorage.getItem('theme')) {
+        var newTheme = e.matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', newTheme);
+        updateToggleState(newTheme);
+      }
+    });
+  }
+})();
+
 // Sidebar toggle for mobile
 (function() {
   var toggle = document.getElementById('sidebar-toggle');
