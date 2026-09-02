@@ -111,6 +111,7 @@ require('../../includes/_header.php');
           <li><a href="https://github.com/athenz-community/id-jag-the-hard-way">ID-JAG The Hard Way</a></li>
           <li><a href="https://motd.xaa.rocks">motd.xaa.rocks</a> - a sample API and MCP server that accepts any ID-JAG</li>
           <li><a href="https://client.xaa.rocks">client.xaa.rocks</a> - a sample XAA client that can be configured to any OIDC or SAML identity provider</li>
+          <li><a href="https://www.crossapp.guru/#sign-in">crossapp.guru</a></li>
         </ul>
       </div>
     </div>
