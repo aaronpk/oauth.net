@@ -25,8 +25,6 @@
 
 </footer>
 
-<script src="/stylesheets/bootstrap-5.2.3/js/bootstrap.bundle.min.js"></script>
-
 <script>
 // Theme toggle
 (function() {
