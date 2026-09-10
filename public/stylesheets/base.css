@@ -12,14 +12,272 @@
    ═══════════════════════════════════════════════════════════════════════════ */
 
 
-/* ── Typography helper ──────────────────────────────────────────────────────
-   Bootstrap put `small, .small` in its Type layer, not in Reboot. The `.small`
-   class is used on /events/2019-11-ietf106/.                                 */
+/* ═══════════════════════════════════════════════════════════════════════════
+   Reset — replaces Bootstrap's Reboot.
 
+   Only the rules this site's markup actually reaches. Rules for elements that
+   appear nowhere (kbd, mark, abbr, address, blockquote, figure, sub, sup,
+   caption, th alignment, fieldset, legend, textarea, select, output, progress,
+   [role=button], and the ::-webkit-* form internals) are omitted, as are
+   Bootstrap's 67 --bs-* palette variables.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Behavioural, not cosmetic: this is what makes the #support / #mailing-lists
+   anchor jumps on /about/community/ animate rather than snap. */
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+/* line-height 1.65 is the highest-risk value in this file. It previously
+   existed only as --bs-body-line-height feeding Bootstrap's own body rule;
+   Reboot's built-in default is 1.5, so omitting it reflows every page.
+
+   Bootstrap's `text-align: var(--bs-body-text-align)` is dropped: that
+   property was never declared, so the var() was invalid at computed-value
+   time and text-align fell back to the inherited `start`. */
+body {
+  margin: 0;
+  padding-bottom: 60px;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.65;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  border: 0;
+  border-top: 1px solid;
+  opacity: 0.25;
+}
+
+/* font-weight and line-height here are overridden by style.css's h1/h2 and
+   h3-h6 rules at equal specificity (0,0,1), which is why base.css must load
+   first. Kept anyway so this block stays a checkable copy of Reboot. */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/* Bootstrap's responsive font sizes. style.css sets a font-size for only
+   .faq h3, .faq h4 and .dt-question, so every other heading on the site
+   depends on these. The calc() values are built to be continuous with the
+   fixed ones at exactly 1200px (e.g. h2: 21.2px + 10.8px = 32px = 2rem), so
+   a visible jump at that width means a mistyped value. */
+h1 { font-size: calc(1.375rem + 1.5vw); }
+h2 { font-size: calc(1.325rem + 0.9vw); }
+h3 { font-size: calc(1.3rem + 0.6vw); }
+h4 { font-size: calc(1.275rem + 0.3vw); }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+@media (min-width: 1200px) {
+  h1 { font-size: 2.5rem; }
+  h2 { font-size: 2rem; }
+  h3 { font-size: 1.75rem; }
+  h4 { font-size: 1.5rem; }
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* 2rem, not the browser default 40px. Visible on all 151 <ul> and 41 <ol>. */
+ol,
+ul {
+  padding-left: 2rem;
+}
+
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  margin-bottom: 0;
+}
+
+dt {
+  font-weight: 700;
+}
+
+dd {
+  margin-bottom: 0.5rem;
+  margin-left: 0;
+}
+
+/* `bolder` is relative and must not be "simplified" to `bold`: from a 400
+   parent it computes to 700, but from a 600/700 parent it computes to 900.
+   The site nests these inside bold contexts (dt at 700, .article .meta,
+   .map-node .node-name at 700). */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/* Bootstrap put `small, .small` in its Type layer rather than Reboot. The
+   .small class is used on /events/2019-11-ietf106/. */
 small,
 .small {
   font-size: 0.875em;
 }
+
+/* Links are underlined, and always have been. style.css declared
+   `--bs-link-decoration: none`, but that variable does not exist in Bootstrap
+   5.2.3 — it's Sass-only, and bootstrap.css hardcoded `text-decoration:
+   underline`. So that declaration never had any effect, and style.css instead
+   opts out per-component with `text-decoration: none` on nav, sidebar and
+   footer links. Setting `none` globally here would unstyle every body link. */
+a {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+a:hover {
+  color: var(--color-accent-hover);
+}
+
+/* Matches the bare anchor target at about/community/index.php:39. */
+a:not([href]):not([class]),
+a:not([href]):not([class]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+pre,
+code,
+kbd,
+samp {
+  font-family: var(--font-mono);
+  font-size: 1em;
+}
+
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+  font-size: 0.875em;
+}
+pre code {
+  font-size: inherit;
+  color: inherit;
+  word-break: normal;
+}
+
+/* Bootstrap's `color: var(--bs-code-color)` (pink #d63384) is dropped as
+   unreachable: style.css's `:not(pre) > code` at (0,0,2) beats this rule for
+   every <code> whose parent isn't <pre>, and `pre code` above covers the
+   rest. Must stay after the `pre, code, kbd, samp` rule — both are (0,0,1),
+   so source order decides the font-size. */
+code {
+  font-size: 0.875em;
+  word-wrap: break-word;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+iframe {
+  border: 0;
+}
+
+/* border-collapse is load-bearing: public/specs/index.php styles table.rfcs
+   with a per-cell `border-top`, which relies on collapsed borders. Without it
+   the table falls back to `separate` plus 2px border-spacing, adding gutters
+   around every cell and un-merging the row rules. */
+table {
+  caption-side: bottom;
+  border-collapse: collapse;
+}
+
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+}
+
+label {
+  display: inline-block;
+}
+
+/* `font-family: inherit` is what gives the search input on /about/community/
+   the site font. Neither .form-control nor .btn sets a font-family, so
+   without this they fall back to the browser default (13.33px Arial). */
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  border-radius: 0;
+  text-transform: none;
+}
+
+button:focus:not(:focus-visible) {
+  outline: 0;
+}
+
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+button:not(:disabled),
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled) {
+  cursor: pointer;
+}
+
+/* The sidebar accordion is native <details>/<summary>. */
+summary {
+  display: list-item;
+  cursor: pointer;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Components
+   ═══════════════════════════════════════════════════════════════════════════ */
 
 
 /* ── Layout container ───────────────────────────────────────────────────────

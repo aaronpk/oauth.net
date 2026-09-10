@@ -16,7 +16,6 @@ function asset($path) {
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?php echo !empty($page_title) ? $page_title : "OAuth — The Open Standard for Authorization" ?></title>
-  <link href="/stylesheets/bootstrap-5.2.3/css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
   <link href="<?= asset('/stylesheets/base.css') ?>" rel="stylesheet" type="text/css" />
   <link href="<?= asset('/stylesheets/style.css') ?>" rel="stylesheet" type="text/css" />
   <link href="<?= asset('/stylesheets/print.css') ?>" rel="stylesheet" type="text/css" media="print" />
