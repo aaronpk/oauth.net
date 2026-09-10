@@ -1,0 +1,205 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   base.css — hand-written replacement for Bootstrap 5.2.3.
+
+   Loaded before style.css. Holds the element reset and the handful of
+   framework components this site actually used. style.css remains the
+   site design system.
+
+   Every value here was transcribed from the vendored bootstrap.css v5.2.3
+   before it was deleted, so rendering is unchanged. Where a Bootstrap
+   declaration was provably unreachable it was dropped rather than copied;
+   those cases are noted inline.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+
+/* ── Typography helper ──────────────────────────────────────────────────────
+   Bootstrap put `small, .small` in its Type layer, not in Reboot. The `.small`
+   class is used on /events/2019-11-ietf106/.                                 */
+
+small,
+.small {
+  font-size: 0.875em;
+}
+
+
+/* ── Layout container ───────────────────────────────────────────────────────
+   Replaces Bootstrap's .container. Its responsive max-width ladder
+   (540/720/960/1140/1320) never actually applied here: style.css had
+   `body .container` at specificity (0,1,1), which outranks Bootstrap's
+   `@media { .container }` at (0,1,0) on every breakpoint. So the effective
+   max-width was always 960px — and 800px inside .site-main, via
+   `.site-main .container` at (0,2,0). That rule stays in style.css.
+
+   `margin: 10px auto 0` is exact: Bootstrap supplied the auto side margins,
+   style.css added the 10px top, and nothing set a bottom.                   */
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 10px auto 0;
+  padding-right: 0.75rem;  /* was calc(var(--bs-gutter-x) * .5), gutter 1.5rem */
+  padding-left: 0.75rem;
+}
+
+
+/* ── Breadcrumbs ────────────────────────────────────────────────────────────
+   Used on 43 pages. Three of Bootstrap's declarations are omitted because
+   they resolve to nothing: --bs-breadcrumb-bg and --bs-breadcrumb-border-radius
+   are declared empty (invalid at computed-value time -> transparent / 0), and
+   --bs-breadcrumb-font-size is never declared at all, so font-size inherits.
+
+   The divider and .active colour use --color-text-muted instead of Bootstrap's
+   hardcoded #6c757d, so they now follow the theme.
+
+   The `float: left` on ::before is load-bearing, not vestigial: the <li>s are
+   flex items, and the pseudo-element floats within the <li>'s own formatting
+   context, which is what puts the "/" to the left of the text.              */
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  list-style: none;
+}
+
+.breadcrumb-item + .breadcrumb-item {
+  padding-left: 0.5rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  float: left;
+  padding-right: 0.5rem;
+  color: var(--color-text-muted);
+  content: "/";
+}
+
+.breadcrumb-item.active {
+  color: var(--color-text-muted);
+}
+
+
+/* ── Alert ──────────────────────────────────────────────────────────────────
+   Used by the featured-video banner, which in production is injected via the
+   gitignored includes/.banner.php. Kept faithful to Bootstrap since that
+   markup isn't visible here.
+
+   Note: alert-success is hardcoded light (pale mint) and looks wrong against
+   the dark theme's #0b1120 background. That's a pre-existing issue, left
+   alone here so this change stays a like-for-like swap.                     */
+
+.alert {
+  position: relative;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.375rem;
+}
+
+.alert-success {
+  color: #0f5132;
+  background-color: #d1e7dd;
+  border-color: #badbcc;
+}
+
+
+/* ── Search form ────────────────────────────────────────────────────────────
+   The site's only .btn and .form-control, both on /about/community/.
+
+   Neither class sets font-family. Bootstrap's .btn declares
+   `font-family: var(--bs-btn-font-family)` against an empty custom property,
+   which resolves to `unset` and therefore inherits. The reset's
+   `input, button, ... { font-family: inherit }` is what actually supplies the
+   font here — without it these render in the browser default (13.33px Arial).
+
+   Note: both are hardcoded light and look wrong in dark mode. Pre-existing.
+
+   .form-group needs no CSS: it does not exist in Bootstrap 5 at all (it's a
+   v4 leftover) and has been rendering as a bare block this whole time.      */
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.form-control::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+          user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.375rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+              border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-light {
+  color: #000;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-light:hover {
+  color: #000;
+  background-color: #d3d4d5;
+  border-color: #c6c7c8;
+}
+
+/* rgba is .btn-light's --bs-btn-focus-shadow-rgb (211,212,213) substituted
+   into .btn's --bs-btn-focus-box-shadow. */
+.btn-light:focus-visible {
+  color: #000;
+  background-color: #d3d4d5;
+  border-color: #c6c7c8;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(211, 212, 213, 0.5);
+}
+
+.btn-light:active {
+  color: #000;
+  background-color: #c6c7c8;
+  border-color: #babbbc;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn,
+  .form-control {
+    transition: none;
+  }
+}

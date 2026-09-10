@@ -11,7 +11,7 @@ require('../../includes/_header.php');
 
     <h2>OAuth Security</h2>
 
-    <div class="grid mb-4">
+    <div class="grid security-grid">
       <div class="audience-card">
         <h5><a href="/2/oauth-best-practice/">OAuth 2.0 Security Best Current Practice</a></h5>
         <p>RFC 9700. Describes security requirements and recommendations for clients and servers implementing OAuth 2.0. Supersedes earlier guidance and reflects current best practices.</p>

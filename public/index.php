@@ -10,7 +10,7 @@ require('../includes/_header.php');
 
   <div class="decision-tree" id="dt"></div>
 
-  <div class="mt-5">
+  <div class="home-topics">
     <p class="flow-heading">Popular Topics</p>
     <div class="topics-grid">
       <a href="/2/pkce/" class="topic-link">PKCE</a>
@@ -26,7 +26,7 @@ require('../includes/_header.php');
     <?php if(file_exists(__DIR__.'/../data/sponsors/home.php')) { include(__DIR__.'/../data/sponsors/home.php'); } ?>
   </div>
 
-  <h4 class="mt-2 mb-3">Learn OAuth 2.0</h4>
+  <h4 class="home-learn-heading">Learn OAuth 2.0</h4>
   <div style="margin-bottom: 20px;">
     <iframe width="100%" height="400" src="https://www.youtube.com/embed/KT8ybowdyr0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>

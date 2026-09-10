@@ -107,19 +107,10 @@
   }
 }
 
-body .container {
-  font-size: var(--text-base);
-  max-width: 960px;
-}
-
 body {
   padding-bottom: 60px;
   background-color: var(--color-bg);
   color: var(--color-text);
-}
-
-.navbar {
-  background-color: var(--color-topbar-bg);
 }
 
 :not(pre) > code {
@@ -148,45 +139,6 @@ code, kbd, pre, samp {
   font-family: var(--font-mono);
 }
 
-.print-header {
-  display: none;
-}
-@media print {
-  .print-header {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    border-bottom: 4px #bbb solid;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    align-items: center;
-  }
-}
-
-
-#site-description {
-  padding: 3rem 2.5rem;
-  border-radius: 8px;
-  background-color: var(--color-primary);
-  color: #fff;
-  margin-top: 1rem;
-}
-#site-description h2 {
-  font-size: 2rem;
-  font-weight: 600;
-  margin-bottom: 0.75rem;
-}
-#site-description .hero-subtitle {
-  font-size: 1.1rem;
-  opacity: 0.85;
-  margin-bottom: 1.5rem;
-  max-width: 600px;
-}
-.hero-ctas .btn-light {
-  color: var(--color-primary);
-  font-weight: 600;
-}
-
 .audience-card {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
@@ -204,32 +156,39 @@ code, kbd, pre, samp {
 }
 
 
-.article.card {
+/* Was `.article.card` — the Bootstrap `card` token is gone from the markup.
+   The first five properties came from Bootstrap's .card and are kept so the
+   box model is unchanged. flex-direction: column also means these children
+   are flex items, which don't collapse margins; block layout happens to
+   render identically today (no child has a margin-top) but would silently
+   shift the moment one gained one. */
+.article {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+
   padding: 12px;
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 6px;
   margin-bottom: 20px;
 }
-.article.card .meta {
+.article .meta {
   font-weight: bold;
   color: var(--color-text-muted);
   margin-bottom: 6px;
 }
-.article.card .meta a {
+.article .meta a {
   color: var(--color-accent);
 }
-.article.card .tags {
+.article .tags {
   margin-bottom: 6px;
   color: var(--color-text-muted);
 }
-.article.card p:last-child {
+.article p:last-child {
   margin-bottom: 0;
-}
-
-
-.container {
-  margin-top: 10px;
 }
 
 .article-author-box {
@@ -692,6 +651,12 @@ footer .source a {
   gap: 20px;
 }
 
+/* Kept off .grid itself, which is shared by /security/, /cross-app-access/
+   and /2/client-id-metadata-document/. Was the Bootstrap `mb-4` utility. */
+.security-grid {
+  margin-bottom: 1.5rem;
+}
+
 
 /* ── Site layout ─────────────────────────────────────────────── */
 
@@ -1115,6 +1080,18 @@ details[open] > .sidebar-summary { color: var(--color-primary); font-weight: 600
   color: var(--color-text-muted);
   margin: 0;
   line-height: 1.4;
+}
+
+/* Homepage "Popular Topics" block. Was the Bootstrap `mt-5` utility. */
+.home-topics {
+  margin-top: 3rem;
+}
+
+/* Was `mt-2 mb-3`. The top margin is a no-op in practice — the preceding
+   element carries `margin: 40px auto`, which wins the margin collapse. */
+.home-learn-heading {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .topics-grid {
