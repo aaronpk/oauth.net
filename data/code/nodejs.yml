@@ -23,4 +23,7 @@ server_libraries:
 - '<a href="https://github.com/AuthPlane/ts-sdk">Authplane ts-sdk</a>: JWT validation
   and OAuth 2.1 protocol primitives for Node.js resource servers, with Hono, NestJS,
   MCP, and FastMCP adapters'
+- '<a href="https://github.com/jasonraimondi/ts-oauth2-server">@jmondi/oauth2-server</a>:
+  Standards compliant OAuth 2.0 / OpenID Connect authorization server for Node.js
+  and TypeScript, with JWT and PKCE support'
 ...
