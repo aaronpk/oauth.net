@@ -17,6 +17,12 @@ require('../../includes/_header.php');
     <p><a href="/2.1/">OAuth 2.1</a> is an in-progress effort to consolidate OAuth 2.0 and many common extensions under a new name.</p>
     <p>Questions, suggestions and protocol changes should be discussed on the <a href="https://www.ietf.org/mailman/listinfo/oauth">mailing list</a>.</p>
 
+    <div class="banner">
+      <strong>Building with AI agents?</strong>
+      <a href="https://oauthforagents.dev/">OAuth for Agents</a> covers how to apply OAuth to AI agents and MCP servers, including which specs and patterns to use.
+      <a href="https://oauthforagents.dev/">Visit oauthforagents.dev &rarr;</a>
+    </div>
+
     <div style="margin-top: 10px; margin-bottom: 20px; padding: 40px; border: 1px #ddd solid;">
       <div style="">Video Course: The Nuts and Bolts of OAuth 2.0</div>
       <div class="course-image"><a href="https://oauth2simplified.com/course" onclick="trackOutboundClick('https://oauth2simplified.com/course', '7VBGSQN1');"><img src="https://oauth2simplified.com/images/nuts-and-bolts-of-oauth.png" style="width: 100%"></a></div>
