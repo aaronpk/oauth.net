@@ -24,18 +24,6 @@ require('../../../includes/_header.php');
 
       <p>The <a href="https://mailarchive.ietf.org/arch/browse/oauth/">IETF OAuth mailing list</a> is for work related to <span class="caps">IETF</span> standardization. You can <a href="https://www.ietf.org/mailman/listinfo/oauth">join the mailing list here</a>.</p>
 
-      <p>
-        <form action="https://www.google.com/search" method="get">
-          <div class="form-group">
-            <label for="1">Search the Archives:</label>
-            <input type="text" class="form-control search-query" name="q" placeholder="Search ietf.org/oauth">
-          </div>
-          <input type="submit" value="Search" class="btn btn-light" />
-          <input type="hidden" name="as_sitesearch" value="http://www.ietf.org/mail-archive/web/oauth/">
-          <input type="hidden" name="tbs" value="sbd:1,cdr:1,cd_min:1/1/1999">
-        </form>
-      </p>
-
       <a id="mailing-lists"></a>
       <h3 id="support">Support</h3>
 

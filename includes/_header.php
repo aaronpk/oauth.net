@@ -6,15 +6,19 @@ function nav_active($prefix) {
   $uri = $_SERVER['REQUEST_URI'];
   return strpos($uri, $prefix) === 0 ? ' active' : '';
 }
+function asset($path) {
+  $file = __DIR__.'/../public'.$path;
+  return $path . (file_exists($file) ? '?'.filemtime($file) : '');
+}
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?php echo !empty($page_title) ? $page_title : "OAuth — The Open Standard for Authorization" ?></title>
-  <link href="/stylesheets/bootstrap-5.2.3/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-  <link href="/stylesheets/style.css?9" rel="stylesheet" type="text/css" />
-  <link href="/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" />
+  <link href="<?= asset('/stylesheets/base.css') ?>" rel="stylesheet" type="text/css" />
+  <link href="<?= asset('/stylesheets/style.css') ?>" rel="stylesheet" type="text/css" />
+  <link href="<?= asset('/stylesheets/print.css') ?>" rel="stylesheet" type="text/css" media="print" />
   <link rel="webmention" href="https://webmention.io/oauth/webmention" />
   <script>
     (function() {
