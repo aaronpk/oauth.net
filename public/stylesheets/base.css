@@ -224,13 +224,10 @@ th {
   border-width: 0;
 }
 
-label {
-  display: inline-block;
-}
-
-/* `font-family: inherit` is what gives the search input on /about/community/
-   the site font. Neither .form-control nor .btn sets a font-family, so
-   without this they fall back to the browser default (13.33px Arial). */
+/* `font-family: inherit` is what keeps form controls on the site font rather
+   than the browser default (13.33px Arial). Live users: the <button>s in the
+   topbar and the homepage decision tree, and the text input on
+   /about/advertise/preview/. */
 input,
 button,
 select,
@@ -251,16 +248,7 @@ button:focus:not(:focus-visible) {
   outline: 0;
 }
 
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
-
-button:not(:disabled),
-[type="button"]:not(:disabled),
-[type="reset"]:not(:disabled),
-[type="submit"]:not(:disabled) {
+button:not(:disabled) {
   cursor: pointer;
 }
 
@@ -339,20 +327,25 @@ summary {
 
 
 /* ── Alert ──────────────────────────────────────────────────────────────────
-   Used by the featured-video banner, which in production is injected via the
-   gitignored includes/.banner.php. Kept faithful to Bootstrap since that
-   markup isn't visible here.
+   Sole user is the full-bleed featured-video banner, injected in production
+   via the gitignored includes/.banner.php:
 
-   Note: alert-success is hardcoded light (pale mint) and looks wrong against
-   the dark theme's #0b1120 background. That's a pre-existing issue, left
-   alone here so this change stays a like-for-like swap.                     */
+     <div class="alert alert-success" role="alert"
+          style="border-radius: 0;" id="site-banner">
+
+   Bootstrap's `border-radius: 0.375rem` is therefore omitted — that inline
+   style overrides it, so the banner has always had square corners.
+
+   Note: alert-success is hardcoded light (pale mint), so it renders as a
+   bright band against the dark theme's #0b1120 background, with the
+   .featured-banner link on top of it in light cyan. Pre-existing; left alone
+   so this stays a like-for-like swap.                                       */
 
 .alert {
   position: relative;
   padding: 1rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
-  border-radius: 0.375rem;
 }
 
 .alert-success {
@@ -362,102 +355,3 @@ summary {
 }
 
 
-/* ── Search form ────────────────────────────────────────────────────────────
-   The site's only .btn and .form-control, both on /about/community/.
-
-   Neither class sets font-family. Bootstrap's .btn declares
-   `font-family: var(--bs-btn-font-family)` against an empty custom property,
-   which resolves to `unset` and therefore inherits. The reset's
-   `input, button, ... { font-family: inherit }` is what actually supplies the
-   font here — without it these render in the browser default (13.33px Arial).
-
-   Note: both are hardcoded light and look wrong in dark mode. Pre-existing.
-
-   .form-group needs no CSS: it does not exist in Bootstrap 5 at all (it's a
-   v4 leftover) and has been rendering as a bare block this whole time.      */
-
-.form-control {
-  display: block;
-  width: 100%;
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid #ced4da;
-  border-radius: 0.375rem;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-
-.form-control:focus {
-  color: #212529;
-  background-color: #fff;
-  border-color: #86b7fe;
-  outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
-}
-
-.form-control::placeholder {
-  color: #6c757d;
-  opacity: 1;
-}
-
-.btn {
-  display: inline-block;
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  text-align: center;
-  text-decoration: none;
-  vertical-align: middle;
-  cursor: pointer;
-  -webkit-user-select: none;
-          user-select: none;
-  background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 0.375rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-              border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-
-.btn-light {
-  color: #000;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
-}
-
-.btn-light:hover {
-  color: #000;
-  background-color: #d3d4d5;
-  border-color: #c6c7c8;
-}
-
-/* rgba is .btn-light's --bs-btn-focus-shadow-rgb (211,212,213) substituted
-   into .btn's --bs-btn-focus-box-shadow. */
-.btn-light:focus-visible {
-  color: #000;
-  background-color: #d3d4d5;
-  border-color: #c6c7c8;
-  outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(211, 212, 213, 0.5);
-}
-
-.btn-light:active {
-  color: #000;
-  background-color: #c6c7c8;
-  border-color: #babbbc;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .btn,
-  .form-control {
-    transition: none;
-  }
-}
