@@ -28,7 +28,7 @@ require('../../../../includes/_header.php');
     Use the Authorization Code flow whenever a user needs to grant your app access to their account or data. This covers web apps, single-page apps, and native/mobile apps. Always combine it with <a href="/2/pkce/">PKCE</a> — even for confidential clients.
   </div>
 
-  <p>The flow works in two steps. First, the user is sent to the authorization server where they log in and approve the requested permissions. The authorization server redirects back to your app with a short-lived <em>authorization code</em> in the URL. Second, your app exchanges that code — along with its client credentials — for an access token at the token endpoint. Because the access token never touches the browser, it is not exposed to the user or to JavaScript.</p>
+  <p>The flow works in two steps. First, the user is sent to the authorization server where they log in and approve the requested permissions. The authorization server redirects back to your app with a short-lived <em>authorization code</em> in the URL. Second, your app exchanges that code — along with its client credentials — for an access token at the token endpoint.</p>
 
   <p>All clients should use the <a href="/2/pkce/">PKCE extension</a> with this flow to prevent authorization code injection attacks. Public clients (SPAs and mobile apps) use PKCE in place of a client secret; confidential clients use PKCE <em>in addition to</em> their client secret.</p>
 
