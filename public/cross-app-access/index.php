@@ -110,7 +110,7 @@ require('../../includes/_header.php');
         <ul>
           <li><a href="https://xaa.dev">xaa.dev</a> - a complete demo, and utility to test your Clients and Resource Apps</li>
           <li><a href="https://github.com/athenz-community/id-jag-the-hard-way">ID-JAG The Hard Way</a></li>
-          <li><a href="https://motd.xaa.rocks">motd.xaa.rocks</a> - a sample API and MCP server that accepts any ID-JAG</li>
+          <li><a href="https://xaa.rocks">xaa.rocks</a> - A suite of test tools providing sample clients, resource apps, and an IdP</li>
           <li><a href="https://client.xaa.rocks">client.xaa.rocks</a> - a sample XAA client that can be configured to any OIDC or SAML identity provider</li>
           <li><a href="https://www.crossapp.guru/#sign-in">crossapp.guru</a></li>
         </ul>
