@@ -94,7 +94,7 @@ require('../../includes/_header.php');
           <li><a href="https://docs.granola.ai/help-center/sharing/integrations/mcp">Granola</a></li>
           <li><a href="https://linear.app/docs/mcp#enterprise-managed-authorization">Linear</a></li>
           <li><a href="https://www.notion.com/help/set-up-enterprise-managed-connections-for-notion-mcp">Notion</a></li>
-          <li><a href="https://slack.com/help/articles/54548358406419-Manage-access-to-the-Slack-MCP-server-through-your-identity-provider">Slack</a></li>
+          <li><a href="https://docs.slack.dev/authentication/enterprise-managed-authorization/">Slack</a></li>
           <li><a href="https://supabase.com/docs/guides/platform/sso/enterprise-mcp-authentication">Supabase</a></li>
         </ul>
         <b>SDKs</b>
