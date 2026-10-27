@@ -5,4 +5,8 @@ client_libraries:
   Certified\u2122 OAuth 2 / OpenID Connect Client API for JavaScript Runtimes"
 - "<a href=\"https://github.com/panva/oauth4webapi\">oauth4webapi</a>. OpenID
   Certified\u2122 Low-Level OAuth 2 / OpenID Connect Client API for JavaScript Runtimes"
+server_libraries:
+- '<a href="https://github.com/RedFox-Soft/OAuth-server.ts">FoxAuth (OAuth-server.ts)</a>: source-available OAuth 2.1
+  and OpenID Connect authorization server built on Bun and Elysia, with PKCE, PAR,
+  DPoP, CIBA, device flow and an admin console'
 ...
