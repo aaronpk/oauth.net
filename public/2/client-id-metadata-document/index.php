@@ -30,6 +30,7 @@ require('../../../includes/_header.php');
           <li><a href="https://www.authlete.com/developers/cimd/">Authlete</a></li>
           <li><a href="https://docs.authplane.ai/reference/rfc-compliance/#draft-ietf-oauth-client-id-metadata-document--cimd">Authplane</a></li>
           <li><a href="https://www.descope.com/blog/post/cimd-support">Descope</a></li>
+          <li><a href="https://fusionauth.io/docs/get-started/core-concepts/types/cimd-domains">FusionAuth</a></li>
           <li><a href="https://developer.okta.com/docs/guides/app-cimd-registration/main/">Okta</a></li>
           <li><a href="https://docs.pingidentity.com/pingfederate/13.1/release_notes/pf_release_notes.html#cimd-for-oauth-clients">Ping</a></li>
           <li><a href="https://docs.scalekit.com/authenticate/mcp/quickstart/">Scalekit</a></li>
