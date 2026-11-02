@@ -56,19 +56,22 @@ require('../../includes/_header.php');
       <div class="column">
         <b>IdPs (ID-JAG issuers)</b>
         <ul>
-          <li><a href="https://developer.okta.com/docs/concepts/xaa/">Okta</a></li>
-          <li><a href="https://docs.pingidentity.com/pingfederate/13.1/release_notes/pf_release_notes.html#identity-assertion-jwt-authorization-grant-id-jag">Ping</a></li>
           <li><a href="https://techblog.lycorp.co.jp/ja/20260401a">Athenz</a> (beta)</li>
           <li><a href="https://www.descope.com/press-release/cross-app-access-xaa-support">Descope</a></li>
           <li><a href="https://github.com/keycloak/keycloak/issues/48818">Keycloak</a> (in progress)</li>
-          <li><a href="https://docs.descope.com/agentic-identity-hub/enterprise-managed-authorization">Descope</a></li>
+          <li><a href="https://developer.okta.com/docs/concepts/xaa/">Okta</a></li>
+          <li><a href="https://docs.oracle.com/en-us/iaas/releasenotes/identity/id-jag-token-exchange-across-trust-domains.htm">Oracle</a></li>
+          <li><a href="https://docs.pingidentity.com/pingfederate/13.1/release_notes/pf_release_notes.html#identity-assertion-jwt-authorization-grant-id-jag">Ping</a></li>
         </ul>
         <b>Clients</b>
         <ul>
-          <li><a href="https://support.claude.com/en/articles/15537633-authorize-mcp-connectors-for-your-entire-organization">Claude</a></li>
-          <li><a href="https://code.visualstudio.com/updates/v1_123#_enterprise-managed-mcp-authentication-preview">Visual Studio Code</a></li>
-          <li><a href="https://workos.com">WorkOS</a> (beta)</li>
           <li><a href="https://archestra.ai">Archestra</a></li>
+          <li><a href="https://support.claude.com/en/articles/15537633-authorize-mcp-connectors-for-your-entire-organization">Claude</a></li>
+          <li><a href="https://github.com/openai/codex/pull/55334">Codex</a></li>
+          <li><a href="https://vercel.com/docs/connect/ema">Vercel</a></li>
+          <li><a href="https://code.visualstudio.com/updates/v1_123#_enterprise-managed-mcp-authentication-preview">Visual Studio Code</a></li>
+          <li><a href="https://workos.com/docs/authkit/mcp#cross-app-access">WorkOS</a></li>
+          <li><a href="https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0089254">Zoom</a></li>
         </ul>
         <b>Authorization Servers</b>
         <ul>
@@ -91,11 +94,13 @@ require('../../includes/_header.php');
           <li><a href="https://www.canva.com/help/manage-cross-app-access/">Canva</a></li>
           <li><a href="https://docs.datadoghq.com/account_management/org_settings/cross_app_access/">Datadog</a></li>
           <li><a href="https://help.figma.com/hc/en-us/articles/41992841175959-Set-up-MCP-enterprise-managed-auth-with-Okta-Cross-App-Access-XAA">Figma</a></li>
+          <li><a href="https://docs.glean.com/administration/oauth/enterprise-managed-auth">Glean</a></li>
           <li><a href="https://docs.granola.ai/help-center/sharing/integrations/mcp">Granola</a></li>
           <li><a href="https://linear.app/docs/mcp#enterprise-managed-authorization">Linear</a></li>
           <li><a href="https://www.notion.com/help/set-up-enterprise-managed-connections-for-notion-mcp">Notion</a></li>
           <li><a href="https://docs.slack.dev/authentication/enterprise-managed-authorization/">Slack</a></li>
           <li><a href="https://supabase.com/docs/guides/platform/sso/enterprise-mcp-authentication">Supabase</a></li>
+          <li><a href="https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0089254">Zoom</a></li>
         </ul>
         <b>SDKs</b>
         <ul>
