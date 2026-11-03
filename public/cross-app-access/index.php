@@ -62,6 +62,7 @@ require('../../includes/_header.php');
           <li><a href="https://developer.okta.com/docs/concepts/xaa/">Okta</a></li>
           <li><a href="https://docs.oracle.com/en-us/iaas/releasenotes/identity/id-jag-token-exchange-across-trust-domains.htm">Oracle</a></li>
           <li><a href="https://docs.pingidentity.com/pingfederate/13.1/release_notes/pf_release_notes.html#identity-assertion-jwt-authorization-grant-id-jag">Ping</a></li>
+          <li><a href="https://documentation.gravitee.io/am/guides/auth-protocols/oauth-2.0/cross-app-access#issue-id-jags">Gravitee Access Management</a></li>
         </ul>
         <b>Clients</b>
         <ul>
@@ -84,6 +85,7 @@ require('../../includes/_header.php');
           <li><a href="https://docs.pingidentity.com/pingfederate/13.1/administrators_reference_guide/help_idpconnectionconfigtasklet_oauthsamlgrantattributemappingstate.html">Ping</a></li>
           <li><a href="https://www.scalekit.com/blog/cross-app-access-agentic-auth-flows">Scalekit</a></li>
           <li><a href="https://stytch.com/docs/connected-apps/guides/cross-app-access">Stytch</a></li>
+          <li><a href="https://documentation.gravitee.io/am/guides/auth-protocols/oauth-2.0/cross-app-access#redeem-id-jags">Gravitee Access Management</a></li>
         </ul>
       </div>
       <div class="column">
