@@ -68,7 +68,7 @@ require('../../includes/_header.php');
       <li><a href="https://www.okta.com/integrations/tungsten/">Tungsten</a></li>
       <li><a href="https://vercel.com/docs/connect/ema">Vercel Connect</a> (beta)</li>
       <li><a href="https://code.visualstudio.com/updates/v1_123#_enterprise-managed-mcp-authentication-preview">Visual Studio Code</a> (preview)</li>
-      <li><a href="https://workos.com">WorkOS</a> (beta)</li>
+      <li><a href="https://workos.com/docs/authkit/mcp#cross-app-access">WorkOS</a></li>
       <li><a href="https://developers.zoom.us/docs/integrations/crossapp-access/">Zoom</a></li>
     </ul>
 
