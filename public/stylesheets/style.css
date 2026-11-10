@@ -623,7 +623,28 @@ footer .source a {
   gap: 20px;
 }
 
-/* Kept off .grid itself, which is shared by /security/, /cross-app-access/
+.implementations {
+  columns: 3;
+  column-gap: 20px;
+}
+
+.implementations li {
+  break-inside: avoid;
+}
+
+@media(max-width: 700px) {
+  .implementations {
+    columns: 2;
+  }
+}
+
+@media(max-width: 500px) {
+  .implementations {
+    columns: 1;
+  }
+}
+
+/* Kept off .grid itself, which is shared by /security/
    and /2/client-id-metadata-document/. Was the Bootstrap `mb-4` utility. */
 .security-grid {
   margin-bottom: 1.5rem;
