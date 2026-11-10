@@ -56,6 +56,7 @@ require('../../includes/_header.php');
       <li><a href="/2/bearer-tokens/">Bearer Tokens</a> <a href="https://www.rfc-editor.org/rfc/rfc6750" class="rfc-badge">RFC 6750</a></li>
       <li><a href="/2/security-considerations/">Threat Model and Security Considerations</a> <a href="https://www.rfc-editor.org/rfc/rfc6819" class="rfc-badge">RFC 6819</a></li>
       <li><a href="/2/oauth-best-practice/">OAuth Security Best Current Practice</a> <a href="https://www.rfc-editor.org/rfc/rfc9700" class="rfc-badge">RFC 9700</a></li>
+      <li><a href="/2/cross-device-security/">Security of Cross-Device Flows</a> <a href="https://www.rfc-editor.org/rfc/rfc10027" class="rfc-badge">RFC 10027</a></li>
       <li><a href="/id-tokens-vs-access-tokens/">ID Tokens vs Access Tokens</a></li>
     </ul>
 
@@ -63,7 +64,7 @@ require('../../includes/_header.php');
     <ul>
       <li><a href="/2/native-apps/">Native Apps</a> <a href="https://www.rfc-editor.org/rfc/rfc8252" class="rfc-badge">RFC 8252</a> — Recommendations for using OAuth with native apps</li>
       <li><a href="/2/browser-based-apps/">Browser-Based Apps</a> <a href="https://www.rfc-editor.org/rfc/rfc10017" class="rfc-badge">RFC 10017</a> — Recommendations for using OAuth with browser-based apps (e.g. an SPA)</li>
-      <li><a href="/2/device-flow/">Device Authorization Grant</a> <a href="https://www.rfc-editor.org/rfc/rfc8628" class="rfc-badge">RFC 8628</a> — OAuth for devices with no browser or no keyboard</li>
+      <li><a href="/2/grant-types/device-code/">Device Authorization Grant</a> <a href="https://www.rfc-editor.org/rfc/rfc8628" class="rfc-badge">RFC 8628</a> — OAuth for devices with no browser or no keyboard</li>
     </ul>
 
     <h4>Token and Token Management</h4>

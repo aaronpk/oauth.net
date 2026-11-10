@@ -64,7 +64,7 @@ var nodes = [
   // Grant types
   { id: 'authz-code',       x: 270,  y: 60,  label: 'Authorization Code',  sub: 'RFC 6749 §4.1',  href: '/2/grant-types/authorization-code/',      group: 'grant'      },
   { id: 'client-creds',     x: 270,  y: 240, label: 'Client Credentials',  sub: 'RFC 6749 §4.4',  href: '/2/grant-types/client-credentials/',      group: 'grant'      },
-  { id: 'device-code',      x: 270,  y: 330, label: 'Device Code',         sub: 'RFC 8628',       href: '/2/device-flow/',                         group: 'grant'      },
+  { id: 'device-code',      x: 270,  y: 330, label: 'Device Code',         sub: 'RFC 8628',       href: '/2/grant-types/device-code/',             group: 'grant'      },
   { id: 'implicit',         x: 270,  y: 440, label: 'Implicit Flow',       sub: 'RFC 6749 — dep', href: '/2/grant-types/implicit/',                group: 'deprecated' },
   { id: 'password',         x: 270,  y: 520, label: 'Password Grant',      sub: 'RFC 6749 — dep', href: '/2/grant-types/password/',                group: 'deprecated' },
 

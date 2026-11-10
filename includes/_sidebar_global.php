@@ -58,23 +58,23 @@ $uri = $_SERVER['REQUEST_URI'];
     </ul>
   </details>
 
-  <details<?= section_open(['/2/oauth-best-practice', '/2/security-considerations', '/2/dpop', '/2/mtls', '/2/pushed-authorization-requests']) ?>>
+  <details<?= section_open(['/2/oauth-best-practice', '/2/security-considerations', '/2/cross-device-security', '/2/dpop', '/2/mtls', '/2/pushed-authorization-requests']) ?>>
     <summary class="sidebar-summary">Security</summary>
     <ul class="sidebar-sub">
       <li><a href="/2/oauth-best-practice/" class="sidebar-sublink<?= sidebar_active('/2/oauth-best-practice/') ?>">Security BCP</a></li>
       <li><a href="/2/security-considerations/" class="sidebar-sublink<?= sidebar_active('/2/security-considerations/') ?>">Threat Model</a></li>
+      <li><a href="/2/cross-device-security/" class="sidebar-sublink<?= sidebar_active('/2/cross-device-security/') ?>">Cross-Device Flows BCP</a></li>
       <li><a href="/2/dpop/" class="sidebar-sublink<?= sidebar_active('/2/dpop/') ?>">DPoP</a></li>
       <li><a href="/2/mtls/" class="sidebar-sublink<?= sidebar_active('/2/mtls/') ?>">Mutual TLS</a></li>
       <li><a href="/2/pushed-authorization-requests/" class="sidebar-sublink<?= sidebar_active('/2/pushed-authorization-requests/') ?>">PAR</a></li>
     </ul>
   </details>
 
-  <details<?= section_open(['/2/browser-based-apps', '/2/native-apps', '/2/device-flow']) ?>>
+  <details<?= section_open(['/2/browser-based-apps', '/2/native-apps']) ?>>
     <summary class="sidebar-summary">App Types</summary>
     <ul class="sidebar-sub">
       <li><a href="/2/browser-based-apps/" class="sidebar-sublink<?= sidebar_active('/2/browser-based-apps/') ?>">Browser-Based Apps</a></li>
       <li><a href="/2/native-apps/" class="sidebar-sublink<?= sidebar_active('/2/native-apps/') ?>">Native Apps</a></li>
-      <li><a href="/2/device-flow/" class="sidebar-sublink<?= sidebar_active('/2/device-flow/') ?>">Device Flow</a></li>
     </ul>
   </details>
 
