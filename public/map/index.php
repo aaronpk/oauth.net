@@ -90,7 +90,7 @@ var nodes = [
 
   // Discovery
   { id: 'server-metadata',  x: 270,  y: 640, label: 'Server Metadata',     sub: 'RFC 8414',       href: '/2/authorization-server-metadata/',        group: 'discovery'  },
-  { id: 'resource-metadata',x: 270,  y: 710, label: 'Resource Metadata',   sub: 'RFC 9728',       href: 'https://www.rfc-editor.org/rfc/rfc9728',  group: 'discovery'  },
+  { id: 'resource-metadata',x: 270,  y: 710, label: 'Resource Metadata',   sub: 'RFC 9728',       href: '/2/protected-resource-metadata/',          group: 'discovery'  },
   { id: 'dyn-reg',          x: 510,  y: 640, label: 'Dynamic Client Reg',  sub: 'RFC 7591',       href: '/2/dynamic-client-registration/',          group: 'discovery'  },
 
   // Built on top

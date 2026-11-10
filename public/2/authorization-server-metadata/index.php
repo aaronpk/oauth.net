@@ -32,6 +32,7 @@ require('../../../includes/_header.php');
   <h3>Related specs</h3>
   <ul>
     <li><a href="/2/dynamic-client-registration/">Dynamic Client Registration</a> <a href="https://www.rfc-editor.org/rfc/rfc7591" class="rfc-badge">RFC 7591</a></li>
+    <li><a href="/2/protected-resource-metadata/">Protected Resource Metadata</a> <a href="https://www.rfc-editor.org/rfc/rfc9728" class="rfc-badge">RFC 9728</a> — for a resource server to tell clients which authorization server to use</li>
   </ul>
 
 </div>

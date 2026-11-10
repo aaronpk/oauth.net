@@ -78,13 +78,24 @@ $uri = $_SERVER['REQUEST_URI'];
     </ul>
   </details>
 
-  <details<?= section_open(['/2/authorization-server-metadata', '/2/dynamic-client-registration', '/2/dynamic-client-management', '/2/client-id-metadata-document']) ?>>
+  <details<?= section_open(['/2/authorization-server-metadata', '/2/protected-resource-metadata', '/2/dynamic-client-registration', '/2/dynamic-client-management', '/2/client-id-metadata-document']) ?>>
     <summary class="sidebar-summary">Discovery</summary>
     <ul class="sidebar-sub">
       <li><a href="/2/authorization-server-metadata/" class="sidebar-sublink<?= sidebar_active('/2/authorization-server-metadata/') ?>">Server Metadata</a></li>
+      <li><a href="/2/protected-resource-metadata/" class="sidebar-sublink<?= sidebar_active('/2/protected-resource-metadata/') ?>">Resource Metadata</a></li>
       <li><a href="/2/dynamic-client-registration/" class="sidebar-sublink<?= sidebar_active('/2/dynamic-client-registration/') ?>">Dynamic Client Registration</a></li>
       <li><a href="/2/dynamic-client-management/" class="sidebar-sublink<?= sidebar_active('/2/dynamic-client-management/') ?>">Registration Management</a></li>
       <li><a href="/2/client-id-metadata-document/" class="sidebar-sublink<?= sidebar_active('/2/client-id-metadata-document/') ?>">Client ID Metadata</a></li>
+    </ul>
+  </details>
+
+  <details<?= section_open(['/2/client-id-metadata-document', '/2/protected-resource-metadata', '/cross-app-access', '/workload-authorization-grant']) ?>>
+    <summary class="sidebar-summary">OAuth for AI</summary>
+    <ul class="sidebar-sub">
+      <li><a href="/2/client-id-metadata-document/" class="sidebar-sublink<?= sidebar_active('/2/client-id-metadata-document/') ?>">Client ID Metadata</a></li>
+      <li><a href="/2/protected-resource-metadata/" class="sidebar-sublink<?= sidebar_active('/2/protected-resource-metadata/') ?>">Resource Metadata</a></li>
+      <li><a href="/cross-app-access/" class="sidebar-sublink<?= sidebar_active('/cross-app-access/') ?>">Cross-App Access</a></li>
+      <li><a href="/workload-authorization-grant/" class="sidebar-sublink<?= sidebar_active('/workload-authorization-grant/') ?>">Workload Authorization Grant</a></li>
     </ul>
   </details>
 

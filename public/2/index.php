@@ -78,6 +78,7 @@ require('../../includes/_header.php');
     <h4>Discovery and Registration</h4>
     <ul>
       <li><a href="/2/authorization-server-metadata/">Authorization Server Metadata</a> <a href="https://www.rfc-editor.org/rfc/rfc8414" class="rfc-badge">RFC 8414</a> — for clients to discover OAuth endpoints and authorization server capabilities</li>
+      <li><a href="/2/protected-resource-metadata/">Protected Resource Metadata</a> <a href="https://www.rfc-editor.org/rfc/rfc9728" class="rfc-badge">RFC 9728</a> — for clients to discover which authorization servers a protected resource uses</li>
       <li><a href="/2/dynamic-client-registration/">Dynamic Client Registration</a> <a href="https://www.rfc-editor.org/rfc/rfc7591" class="rfc-badge">RFC 7591</a> — to programmatically register OAuth clients</li>
       <li><a href="/2/dynamic-client-management/">Dynamic Client Registration Management</a> <a href="https://www.rfc-editor.org/rfc/rfc7592" class="rfc-badge">RFC 7592</a> — experimental, for updating and managing dynamically registered OAuth clients</li>
     </ul>
