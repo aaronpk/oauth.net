@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1240" font-family="Arial, Helvetica, sans-serif">
+  <title>Cross-App Access flow</title>
+  <defs>
+    <marker id="dark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#555"/>
+    </marker>
+    <marker id="light" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#999"/>
+    </marker>
+    <marker id="blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a6abd"/>
+    </marker>
+    <marker id="lightblue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6ea8dc"/>
+    </marker>
+    <clipPath id="window">
+      <rect x="650" y="40" width="675" height="350" rx="20"/>
+    </clipPath>
+  </defs>
+  <rect width="2000" height="1240" fill="#fff"/>
+
+  <g fill="#eee" stroke="#555" stroke-width="2">
+    <rect x="25" y="40" width="585" height="650" rx="50"/>
+    <rect x="1365" y="40" width="585" height="650" rx="50"/>
+    <rect x="1365" y="930" width="585" height="270" rx="50"/>
+  </g>
+
+  <g fill="#000" font-size="40" text-anchor="middle">
+    <text x="318" y="345">Client</text>
+    <text x="318" y="415" font-size="30">(e.g. Wiki)</text>
+    <text x="1658" y="380">IdP</text>
+    <text x="1658" y="1030">Resource</text>
+    <text x="1658" y="1080">Authorization Server</text>
+    <text x="1658" y="1150" font-size="30">(e.g. authz server of Chat app)</text>
+  </g>
+
+  <!-- Browser window: the only part of the flow that happens in the user's browser -->
+  <g>
+    <rect x="650" y="40" width="675" height="350" rx="20" fill="#eaf3fc"/>
+    <rect x="650" y="40" width="675" height="64" fill="#c9dff5" clip-path="url(#window)"/>
+    <rect x="650" y="40" width="675" height="350" rx="20" fill="none" stroke="#1a6abd" stroke-width="3"/>
+    <circle cx="692" cy="72" r="10" fill="#1a6abd"/>
+    <circle cx="726" cy="72" r="10" fill="#1a6abd"/>
+    <circle cx="760" cy="72" r="10" fill="#1a6abd"/>
+    <text x="800" y="83" font-size="30" font-weight="bold" fill="#1e3a5f">In the user's browser</text>
+
+    <g fill="#1e3a5f" font-size="36">
+      <!-- 1. SSO -->
+      <line x1="670" y1="190" x2="1305" y2="190" stroke="#1a6abd" stroke-width="8" marker-end="url(#blue)"/>
+      <text x="690" y="165">1. SSO (OpenID Connect or SAML)</text>
+
+      <!-- 2. ID Token -->
+      <line x1="1305" y1="290" x2="670" y2="290" stroke="#6ea8dc" stroke-width="8" marker-end="url(#lightblue)"/>
+      <text x="690" y="265">2. ID Token or SAML assertion</text>
+
+      <text x="987" y="355" font-size="28" font-style="italic" text-anchor="middle" fill="#1a6abd">The only step with user interaction</text>
+    </g>
+  </g>
+
+  <g fill="#555" font-size="36">
+    <!-- 3. Token Exchange -->
+    <line x1="640" y1="540" x2="1335" y2="540" stroke="#555" stroke-width="8" marker-end="url(#dark)"/>
+    <text x="690" y="515">3. Token Exchange w/Identity Assertion</text>
+
+    <!-- 4. ID-JAG -->
+    <line x1="1335" y1="640" x2="640" y2="640" stroke="#999" stroke-width="8" marker-end="url(#light)"/>
+    <text x="690" y="615">4. ID-JAG</text>
+
+    <!-- 5. JWT Authorization Grant -->
+    <line x1="640" y1="730" x2="1335" y2="1030" stroke="#555" stroke-width="8" marker-end="url(#dark)"/>
+    <text transform="translate(987,880) rotate(23.35)" text-anchor="middle" y="-20">5. JWT Authorization Grant w/ID-JAG</text>
+
+    <!-- 6. ID-JAG validation -->
+    <line x1="1425" y1="715" x2="1425" y2="905" stroke="#aaa" stroke-width="8" stroke-dasharray="30 22"/>
+    <text x="1460" y="800" font-size="30">6. ID-JAG validation</text>
+    <text x="1460" y="842" font-size="30">through SSO trust relationship</text>
+
+    <!-- 7. Access Token -->
+    <line x1="1335" y1="1110" x2="640" y2="810" stroke="#999" stroke-width="8" marker-end="url(#light)"/>
+    <text transform="translate(987,960) rotate(23.35)" text-anchor="middle" y="58">7. Access Token</text>
+  </g>
+</svg>

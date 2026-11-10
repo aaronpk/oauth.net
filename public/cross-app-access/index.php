@@ -15,7 +15,7 @@ require('../../includes/_header.php');
     <p>Cross-App Access (XAA), formally known as the "Identity Assertion Authorization Grant", is an extension of OAuth that enables an enterprise identity provider to manage the connection between two applications. It replaces the user's manual approval step with a token exchange to enable an application to request an access token for a resource server without any user interaction.</p>
     <p>Cross-App Access builds on <a href="https://datatracker.ietf.org/doc/draft-ietf-oauth-identity-chaining/">Identity and Authorization Chaining Across Domains</a> to further profile it for interoperable implementations in an enterprise setting. In particular, it defines the claims of the ID-JAG (Identity Assertion JWT Authorization Grant) that moves across domains.</p>
 
-    <img src="xaa-flow-diagram.png" style="width: 100%">
+    <img src="xaa-flow-diagram.svg" style="width: 100%" alt="Cross-App Access flow: the user signs in to the Client through the IdP in the browser, which is the only step with user interaction. The Client then exchanges the ID Token for an ID-JAG at the IdP, and presents the ID-JAG to the Resource Authorization Server to get an access token, all through direct API calls.">
 
     <h3>Implementations</h3>
 
