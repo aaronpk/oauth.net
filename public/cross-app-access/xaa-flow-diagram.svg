@@ -26,12 +26,10 @@
   </g>
 
   <g fill="#000" font-size="40" text-anchor="middle">
-    <text x="318" y="345">Client</text>
-    <text x="318" y="415" font-size="30">(e.g. Wiki)</text>
+    <text x="318" y="380">Client</text>
     <text x="1658" y="380">IdP</text>
-    <text x="1658" y="1030">Resource</text>
-    <text x="1658" y="1080">Authorization Server</text>
-    <text x="1658" y="1150" font-size="30">(e.g. authz server of Chat app)</text>
+    <text x="1658" y="1055">Resource</text>
+    <text x="1658" y="1105">Authorization Server</text>
   </g>
 
   <!-- Browser window: the only part of the flow that happens in the user's browser -->

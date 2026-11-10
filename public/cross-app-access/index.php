@@ -3,6 +3,9 @@ $page_title = "Cross-App Access - OAuth 2.0";
 $page_section = "";
 $page_secondary = "";
 $page_meta_description = "Cross-App Access - Identity Assertion Authorization Grant";
+$page_og_image = "/cross-app-access/xaa-flow-diagram.png";
+$page_og_image_size = [1200, 630];
+$page_og_image_alt = "Cross-App Access flow diagram: the user signs in to the Client through the IdP in the browser, then the Client exchanges the identity assertion for an ID-JAG and presents it to the Resource Authorization Server for an access token.";
 require('../../includes/_header.php');
 ?>
 <div class="container">

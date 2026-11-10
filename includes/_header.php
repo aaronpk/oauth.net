@@ -16,6 +16,24 @@ function asset($path) {
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?php echo !empty($page_title) ? $page_title : "OAuth — The Open Standard for Authorization" ?></title>
+<?php if(!empty($page_og_image)): ?>
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="OAuth" />
+  <meta property="og:title" content="<?= e($page_title ?? 'OAuth') ?>" />
+<?php if(!empty($page_meta_description)): ?>
+  <meta property="og:description" content="<?= e($page_meta_description) ?>" />
+<?php endif; ?>
+  <meta property="og:url" content="https://oauth.net<?= e(strtok($_SERVER['REQUEST_URI'], '?')) ?>" />
+  <meta property="og:image" content="https://oauth.net<?= e($page_og_image) ?>" />
+<?php if(!empty($page_og_image_size)): ?>
+  <meta property="og:image:width" content="<?= (int)$page_og_image_size[0] ?>" />
+  <meta property="og:image:height" content="<?= (int)$page_og_image_size[1] ?>" />
+<?php endif; ?>
+<?php if(!empty($page_og_image_alt)): ?>
+  <meta property="og:image:alt" content="<?= e($page_og_image_alt) ?>" />
+<?php endif; ?>
+  <meta name="twitter:card" content="summary_large_image" />
+<?php endif; ?>
   <link href="<?= asset('/stylesheets/base.css') ?>" rel="stylesheet" type="text/css" />
   <link href="<?= asset('/stylesheets/style.css') ?>" rel="stylesheet" type="text/css" />
   <link href="<?= asset('/stylesheets/print.css') ?>" rel="stylesheet" type="text/css" media="print" />
