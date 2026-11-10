@@ -420,6 +420,22 @@ h3, h4, h5, h6 {
   margin-bottom: 0.35rem;
 }
 
+/* Warning variant of the callout box */
+.spec-when--warning {
+  border-left-color: #d97706;
+}
+.spec-when--warning strong {
+  color: #92400e;
+}
+[data-theme="dark"] .spec-when--warning strong {
+  color: #fde68a;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .spec-when--warning strong {
+    color: #fde68a;
+  }
+}
+
 
 /* ── Contribution prompt ────────────────────────────────────── */
 

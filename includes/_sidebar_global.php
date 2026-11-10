@@ -82,8 +82,9 @@ $uri = $_SERVER['REQUEST_URI'];
     <summary class="sidebar-summary">Discovery</summary>
     <ul class="sidebar-sub">
       <li><a href="/2/authorization-server-metadata/" class="sidebar-sublink<?= sidebar_active('/2/authorization-server-metadata/') ?>">Server Metadata</a></li>
-      <li><a href="/2/dynamic-client-registration/" class="sidebar-sublink<?= sidebar_active('/2/dynamic-client-registration/') ?>">Dynamic Registration</a></li>
+      <li><a href="/2/dynamic-client-registration/" class="sidebar-sublink<?= sidebar_active('/2/dynamic-client-registration/') ?>">Dynamic Client Registration</a></li>
       <li><a href="/2/dynamic-client-management/" class="sidebar-sublink<?= sidebar_active('/2/dynamic-client-management/') ?>">Registration Management</a></li>
+      <li><a href="/2/client-id-metadata-document/" class="sidebar-sublink<?= sidebar_active('/2/client-id-metadata-document/') ?>">Client ID Metadata</a></li>
     </ul>
   </details>
 

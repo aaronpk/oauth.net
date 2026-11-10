@@ -22,9 +22,9 @@ require('../../../includes/_header.php');
 
   <p class="spec-lede">Dynamic Client Registration lets OAuth clients register themselves programmatically — submitting their metadata and receiving a <code>client_id</code> (and optionally a <code>client_secret</code>) without any manual setup by the authorization server operator.</p>
 
-  <div class="spec-when">
-    <strong>When to use this</strong>
-    Use Dynamic Client Registration when clients need to register at runtime — for example, in open ecosystems where any developer can build a client against your API, in federated identity deployments where clients are registered automatically during federation, or in multi-tenant platforms where each tenant gets its own client credentials. Not all authorization servers support or allow open dynamic registration; many require an initial access token to authorize the registration request.
+  <div class="spec-when spec-when--warning">
+    <strong>Warning</strong>
+    Open Dynamic Client Registration has inherent problems. When anyone can register, the authorization server has no way to verify the metadata a client submits, so a client can claim any name or logo. Every installation of an app gets a different <code>client_id</code>, so the server can't identify, set policy for, or revoke a piece of software as a whole, and it accumulates registrations it can never safely clean up. Dynamic Client Registration is only practical when the registration endpoint is protected by an initial access token, so that only approved parties can register clients. For clients that need to work without prior registration, consider <a href="/2/client-id-metadata-document/">Client ID Metadata Documents</a> instead.
   </div>
 
   <p>The client POSTs its metadata (redirect URIs, application name, logo URL, token endpoint auth method, etc.) to the registration endpoint and receives a client registration response including a <code>client_id</code>, and for confidential clients a <code>client_secret</code>. This spec was derived from the OpenID Connect Dynamic Client Registration spec and is compatible with OpenID Connect servers.</p>
@@ -33,6 +33,12 @@ require('../../../includes/_header.php');
   <ul>
     <li><a href="/2/dynamic-client-management/">Dynamic Client Management</a> <a href="https://www.rfc-editor.org/rfc/rfc7592" class="rfc-badge">RFC 7592</a> — updating registered clients</li>
     <li><a href="/2/authorization-server-metadata/">Authorization Server Metadata</a> <a href="https://www.rfc-editor.org/rfc/rfc8414" class="rfc-badge">RFC 8414</a> — discovering the registration endpoint</li>
+    <li><a href="/2/client-id-metadata-document/">Client ID Metadata Document</a> — an alternative where the client identifies itself with a URL and needs no registration step</li>
+  </ul>
+
+  <h3>More resources</h3>
+  <ul>
+    <li><a href="https://aaronparecki.com/2026/07/29/19/cimd-over-dcr">From Self-Asserted to Domain-Backed: Why CIMD Beats DCR</a> (Jul 2026, aaronparecki.com)</li>
   </ul>
 
 </div>
