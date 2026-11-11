@@ -109,7 +109,6 @@ require('../../includes/_header.php');
       <li><a href="https://www.okta.com/integrations/stitchops/">StitchOps</a></li>
       <li><a href="https://supabase.com/docs/guides/platform/sso/enterprise-mcp-authentication">Supabase</a></li>
       <li><a href="https://docs.getunblocked.com/unblocked-mcp/enterprise-managed-authorization/claude-okta">Unblocked</a></li>
-      <li><a href="https://www.okta.com/integrations/willow/">Willow</a></li>
       <li><a href="https://developers.zoom.us/docs/integrations/crossapp-access/">Zoom</a></li>
     </ul>
 
@@ -131,6 +130,7 @@ require('../../includes/_header.php');
       <li><a href="https://www.truefoundry.com/docs/agent-platform/agent-governance/scenarios/okta">TrueFoundry</a></li>
       <li><a href="https://docs.unified.to/guides/enterprise_managed_authorization_ema_with_microsoft_entra_id.md">Unified.to</a></li>
       <li><a href="https://wardengateway.com/provider-backends/mcp/">Warden</a></li>
+      <li><a href="https://withwillow.ai/blog/willow-joins-okta-cross-app-access-identity-governed-ai-agents">Willow</a></li>
       <li><a href="https://zuplo.com/docs/mcp-gateway/cross-app-access/overview">Zuplo</a></li>
     </ul>
 
