@@ -137,6 +137,7 @@ require('../../includes/_header.php');
     <b>SDKs and Libraries</b>
     <ul class="implementations">
       <li><a href="https://docs.authlib.org/en/latest/oauth2/specs/id-jag.html">Authlib</a> (Python)</li>
+      <li><a href="https://github.com/mmcintosh/better-auth-id-jag">better-auth-id-jag</a> (TypeScript, Better Auth plugin)</li>
       <li><a href="https://github.com/doorkeeper-gem/doorkeeper-id_jag_grant">Doorkeeper</a> (Ruby, unreleased)</li>
       <li><a href="https://github.com/go-oauth2/oauth2/releases/tag/v4.6.0">Go OAuth2</a></li>
       <li><a href="https://github.com/http4k/http4k/blob/master/CHANGELOG.md">http4k</a> (Kotlin)</li>
@@ -157,6 +158,8 @@ require('../../includes/_header.php');
     <ul>
       <li><a href="https://www.crossapp.guru/#sign-in">crossapp.guru</a> - walk through the flow against your own IdP and MCP server</li>
       <li><a href="https://github.com/athenz-community/id-jag-the-hard-way">ID-JAG The Hard Way</a> - a hands-on local tutorial</li>
+      <li><a href="https://github.com/marketplace/actions/id-jag-check">id-jag-check</a> - a GitHub Action that checks your IdP's metadata, keys and ID-JAGs in CI, rule by rule</li>
+      <li><a href="https://idjag-tester.infowall.net">idjag-tester.infowall.net</a> - register your IdP and check the ID-JAGs it issues against a live receiver, rule by rule</li>
       <li><a href="https://github.com/modelcontextprotocol/conformance/pull/110">MCP conformance tests</a> - conformance tests for MCP clients</li>
       <li><a href="https://github.com/modelcontextprotocol/inspector/pull/1512">MCP Inspector v2</a> - a test client for MCP servers</li>
       <li><a href="https://www.mcpjam.com/features/oauth-debugger">MCPJam Inspector</a> - debug the flow request by request, with a mock IdP</li>
