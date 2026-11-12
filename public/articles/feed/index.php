@@ -13,7 +13,7 @@ usort($articles, function($a, $b){
 });
 
 function atom_date($date) {
-  return date('Y-m-d\T00:00:00\Z', strtotime($date.' UTC'));
+  return gmdate('Y-m-d\T00:00:00\Z', strtotime($date.' UTC'));
 }
 
 function x($t) {
