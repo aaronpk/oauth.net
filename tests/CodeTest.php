@@ -39,6 +39,12 @@ class CodeTest extends PHPUnit\Framework\TestCase {
 
   }
 
+  public function testDeprecatedArcticLibraryIsNotListed() {
+    $contents = file_get_contents(__DIR__.'/../data/code/nodejs.yml');
+
+    $this->assertStringNotContainsString('pilcrowonpaper/arctic', $contents);
+  }
+
   public function loadCodeYAML()
   {
 
