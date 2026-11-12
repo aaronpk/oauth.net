@@ -72,6 +72,7 @@ require('../../../includes/_header.php');
       <li><a href="https://www.fastmail.com/dev/">Fastmail</a></li>
       <li><a href="https://grafana.com/docs/grafana-cloud/ai-tools/mcp-servers/register-oauth-client/">Grafana Cloud</a></li>
       <li><a href="https://huggingface.co/docs/hub/en/oauth">Hugging Face</a></li>
+      <li><a href="https://lexio.rent/mcp">Lexio</a></li>
       <li><a href="https://loops.so/agents/mcp">Loops</a></li>
       <li><a href="https://help.lucid.co/hc/en-us/articles/53780064823188-For-admins-Lucid-MCP-server-security-and-authorization">Lucid</a></li>
       <li><a href="https://docs.mollie.com/docs/mollie-mcp-server">Mollie</a></li>
