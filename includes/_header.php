@@ -38,6 +38,9 @@ function asset($path) {
   <link href="<?= asset('/stylesheets/style.css') ?>" rel="stylesheet" type="text/css" />
   <link href="<?= asset('/stylesheets/print.css') ?>" rel="stylesheet" type="text/css" media="print" />
   <link rel="webmention" href="https://webmention.io/oauth/webmention" />
+<?php if(!empty($page_feed)): ?>
+  <link rel="alternate" type="application/atom+xml" title="<?= e($page_feed["title"]) ?>" href="<?= e($page_feed["url"]) ?>" />
+<?php endif; ?>
   <script>
     (function() {
       var saved = localStorage.getItem('theme');
