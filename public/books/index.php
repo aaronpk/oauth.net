@@ -86,6 +86,17 @@ require('../../includes/_header.php');
           <p>This book is available for a limited time for free from <a href="https://curity.io/resources/documents/cloud-native-data-security-oauth/">Curity</a>. You can also access it through <a href="https://www.oreilly.com/library/view/cloud-native-data/9781098164874/">O'Reilly</a>, or buy on <a href="https://www.amazon.com/Cloud-Native-Data-Security-OAuth/dp/1098164881">Amazon</a>.</p>
         </div>
       </div>
+
+      <div class="book-row" id="solving-identity-management">
+        <div class="left">
+          <a href="https://link.springer.com/book/10.1007/978-1-4842-8261-8" class="noprintexpand"><img src="solving-identity-management.jpg" alt="Solving Identity Management in Modern Applications Cover" title="Solving Identity Management in Modern Applications"></a>
+        </div>
+        <div class="right">
+          <p><a href="https://link.springer.com/book/10.1007/978-1-4842-8261-8"><i>Solving Identity Management in Modern Applications</i></a> by Yvonne Wilson and Abhishek Hingnikar covers identity and access management for application developers and architects, from account provisioning through authentication, authorization, and account termination. It explains how OAuth 2.0, OpenID Connect, and SAML 2.0 fit into an application's design, and walks through a sample application along with common mistakes to avoid.</p>
+          <p>The second edition (2022) adds an overview of OAuth 2.1 and what it removes from OAuth 2.0, a new section on the Device Authorization Grant (RFC 8628), and an introduction to Rich Authorization Requests and JWT-Secured Authorization Requests (RFC 9101).</p>
+          <p>This book is available from <a href="https://link.springer.com/book/10.1007/978-1-4842-8261-8">Apress</a> and <a href="https://www.amazon.com/dp/1484282604?tag=oauthnet-20">Amazon</a>.</p>
+        </div>
+      </div>
     </div>
   </div>
 
