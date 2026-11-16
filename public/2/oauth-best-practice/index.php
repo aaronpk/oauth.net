@@ -25,10 +25,10 @@ require('../../../includes/_header.php');
 
   <div class="spec-when">
     <strong>When to use this</strong>
-    This document applies to anyone implementing OAuth 2.0 — clients, authorization servers, and resource servers. Its key recommendations include: always use PKCE, use exact redirect URI matching, do not use the Implicit or Password grants, prefer <a href="/2/pushed-authorization-requests/">PAR</a> for high-security deployments, and use sender-constrained tokens (<a href="/2/dpop/">DPoP</a> or <a href="/2/mtls/">mTLS</a>) where possible.
+    This document applies to anyone implementing OAuth 2.0 — clients, authorization servers, and resource servers. Its key recommendations include: use PKCE (required for public clients, recommended for confidential clients), use exact redirect URI matching, do not use the Implicit or Password grants, and use sender-constrained tokens (<a href="/2/dpop/">DPoP</a> or <a href="/2/mtls/">mTLS</a>) where possible.
   </div>
 
-  <p>RFC 9700 supersedes RFC 6819 and consolidates guidance that was previously spread across multiple documents. It formally deprecates the Implicit flow and Password grant, mandates PKCE for all authorization code flows, and introduces requirements for mix-up attack prevention. The recommendations in this document are incorporated into <a href="/2.1/">OAuth 2.1</a>.</p>
+  <p>RFC 9700 supersedes RFC 6819 and consolidates guidance that was previously spread across multiple documents. It formally deprecates the Implicit flow and Password grant, requires PKCE for public clients and recommends it for confidential clients, and introduces requirements for mix-up attack prevention. The recommendations in this document are incorporated into <a href="/2.1/">OAuth 2.1</a>.</p>
 
   <h3>More resources</h3>
   <ul>
