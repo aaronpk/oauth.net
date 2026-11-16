@@ -20,7 +20,13 @@ require('../../../includes/_header.php');
 
     <p>An OAuth Refresh Token is a string that the OAuth client can use to get a new access token without the user's interaction.</p>
 
-    <p>Both <a href="/2/client-types/">public and confidential clients</a> can use refresh tokens. If a refresh token issued to a public client is stolen, the attacker can impersonate the client and use the refresh token without being detected. It is also possible to bind refresh tokens to the public client instance using <a href="/2/dpop/">DPoP</a>, which can counter this attack. Confidential clients need to authenticate to the authorization server in order to use the refresh token, so the risk of stolen refresh tokens is lower for this type of client.</p>
+    <p>Both <a href="/2/client-types/">public and confidential clients</a> can use refresh tokens. Public clients can't authenticate, so if a refresh token issued to a public client is stolen, the attacker can use it to impersonate the client. To catch this, the <a href="/2/oauth-best-practice/">Security BCP</a> requires authorization servers to protect public client refresh tokens in one of two ways:</p>
+    <ul>
+      <li><b>Refresh token rotation</b>: every refresh returns a new refresh token and invalidates the old one. If the attacker and the legitimate client both use the same refresh token, the authorization server sees the replay and revokes the active refresh token. That stops the attack, and the legitimate client just has to get a new authorization grant.</li>
+      <li><b>Sender-constrained refresh tokens</b>: the refresh token is bound to the client instance using <a href="/2/dpop/">DPoP</a> or <a href="/2/mtls/">mTLS</a>, so a stolen token is useless without the client's key.</li>
+    </ul>
+
+    <p>Confidential clients need to authenticate to the authorization server in order to use the refresh token, so the risk of stolen refresh tokens is lower for this type of client.</p>
 
     <p>A refresh token must not allow the client to gain any access beyond the scope of the original grant. The refresh token exists to enable authorization servers to use short lifetimes for access tokens without needing to involve the user when the token expires.</p>
 
