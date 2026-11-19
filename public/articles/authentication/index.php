@@ -122,7 +122,7 @@ require('../../../includes/_header.php');
       <h3 id="further-reading">Further Reading</h3>
 
       <ul>
-        <li>In the article <a href="http://www.cloudidentity.com/blog/2013/01/02/oauth-2-0-and-sign-in-4/">OAuth 2.0 and Sign-in</a>, Vittorio Bertocci provides detail on the security boundaries between parties and why the authorization layer makes sense as the lower layer to build on top of, and provides the source of the chocolate-vs-fudge metaphor stolen above.</li>
+        <li>In the article <a href="https://web.archive.org/web/20240125210451/https://www.cloudidentity.com/blog/2013/01/02/oauth-2-0-and-sign-in-4/">OAuth 2.0 and Sign-in</a>, Vittorio Bertocci provides detail on the security boundaries between parties and why the authorization layer makes sense as the lower layer to build on top of, and provides the source of the chocolate-vs-fudge metaphor stolen above.</li>
         <li>Justin Richer presented a detailed overview of the technologies involved here and how they relate to each other in <a href="http://www.slideshare.net/zeronine1/auth-in-the-extended-enterprise-mit-hackathon-2013">Auth* In the Extended Enterprise</a> at MIT.</li>
         <li>John Bradley has written a series of articles relating to this topic, including:
           <ul>
