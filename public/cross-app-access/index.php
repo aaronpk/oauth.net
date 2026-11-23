@@ -32,6 +32,7 @@ require('../../includes/_header.php');
       <li><a href="https://incountry.com/products/agentcloak-agentic-identity/">InCountry AgentCloak</a></li>
       <li><a href="https://docs.jans.io/stable/janssen-server/auth-server/endpoints/identity-assertion-authz-grant/">Janssen</a></li>
       <li><a href="https://github.com/keycloak/keycloak/issues/48818">Keycloak</a> (in progress)</li>
+      <li><a href="https://www.miniorange.com/products/cross-app-access">miniOrange</a></li>
       <li><a href="https://www.okta.com/solutions/cross-app-access/">Okta</a></li>
       <li><a href="https://docs.oracle.com/en-us/iaas/Content/Identity/api-getstarted/id-jag-support.htm">Oracle OCI IAM</a></li>
       <li><a href="https://docs.pingidentity.com/pingfederate/13.1/release_notes/pf_release_notes_131.html#identity-assertion-jwt-authorization-grant-id-jag">Ping</a></li>
