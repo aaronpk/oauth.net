@@ -24,6 +24,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
 curl_setopt($ch, CURLOPT_HTTPHEADER, [
   'Authorization: Token '.Config::$EA_TOKEN,
   'Content-type: application/json',
+  'User-agent: oauth.net',
 ]);
 $response = json_decode(curl_exec($ch), true);
 
