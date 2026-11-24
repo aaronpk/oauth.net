@@ -1,0 +1,9 @@
+{
+    "name": "draft-ietf-oauth-pop-architecture",
+    "title": "OAuth 2.0 Proof-of-Possession (PoP) Security Architecture",
+    "last_revised_date": "2016-07-08",
+    "status": "Expired (IESG: Dead)",
+    "group": "oauth",
+    "ad": "Kathleen Moriarty",
+    "last_changed_date": "2017-01-09"
+}

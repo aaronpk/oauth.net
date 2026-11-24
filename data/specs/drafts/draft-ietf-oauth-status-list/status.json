@@ -1,0 +1,9 @@
+{
+    "name": "draft-ietf-oauth-status-list",
+    "title": "Token Status List (TSL)",
+    "last_revised_date": "2026-06-21",
+    "status": "IESG: RFC Ed Queue",
+    "group": "oauth",
+    "ad": "Deb Cooley",
+    "last_changed_date": "2026-11-19"
+}

@@ -1,0 +1,9 @@
+{
+    "name": "draft-emelia-oauth-as-metadata-dpop-required",
+    "title": "OAuth Authorization Server Metadata Parameter for Requiring DPoP",
+    "last_revised_date": "2026-11-02",
+    "status": "I-D Exists",
+    "group": "none",
+    "ad": "",
+    "last_changed_date": "2026-11-02"
+}

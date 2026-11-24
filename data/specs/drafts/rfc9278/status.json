@@ -1,0 +1,10 @@
+{
+    "name": "rfc9278",
+    "title": "JWK Thumbprint URI",
+    "last_revised_date": "",
+    "status": "RFC 9278 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Roman Danyliw",
+    "last_changed_date": "2026-05-20",
+    "rfc": "9278"
+}

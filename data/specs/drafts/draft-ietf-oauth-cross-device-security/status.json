@@ -1,0 +1,9 @@
+{
+    "name": "draft-ietf-oauth-cross-device-security",
+    "title": "Cross-Device Flows: Security Best Current Practice",
+    "last_revised_date": "2026-03-02",
+    "status": "RFC Ed Queue",
+    "group": "oauth",
+    "ad": "Deb Cooley",
+    "last_changed_date": "2026-08-11"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "rfc8725",
+    "title": "JSON Web Token Best Current Practices",
+    "last_revised_date": "",
+    "status": "RFC 8725 (Best Current Practice)",
+    "group": "oauth",
+    "ad": "Roman Danyliw",
+    "last_changed_date": "2026-05-20",
+    "rfc": "8725"
+}

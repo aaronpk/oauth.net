@@ -1,0 +1,10 @@
+{
+    "name": "rfc9068",
+    "title": "JSON Web Token (JWT) Profile for OAuth 2.0 Access Tokens",
+    "last_revised_date": "",
+    "status": "RFC 9068 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Roman Danyliw",
+    "last_changed_date": "2026-10-12",
+    "rfc": "9068"
+}

@@ -1,0 +1,9 @@
+{
+    "name": "draft-rosomakho-oauth-dpop-rt",
+    "title": "Separating DPoP Bindings for Access and Refresh Tokens",
+    "last_revised_date": "2025-10-14",
+    "status": "I-D Exists",
+    "group": "none",
+    "ad": "",
+    "last_changed_date": "2025-10-14"
+}

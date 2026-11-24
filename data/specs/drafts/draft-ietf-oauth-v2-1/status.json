@@ -1,9 +1,9 @@
 {
     "name": "draft-ietf-oauth-v2-1",
     "title": "The OAuth 2.1 Authorization Framework",
-    "last_revised_date": "2022-03-07",
+    "last_revised_date": "2026-10-31",
     "status": "I-D Exists",
     "group": "oauth",
     "ad": "",
-    "last_changed_date": "2022-03-07"
+    "last_changed_date": "2026-10-31"
 }

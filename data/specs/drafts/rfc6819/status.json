@@ -1,0 +1,10 @@
+{
+    "name": "rfc6819",
+    "title": "OAuth 2.0 Threat Model and Security Considerations",
+    "last_revised_date": "",
+    "status": "RFC 6819 (Informational)",
+    "group": "oauth",
+    "ad": "Stephen Farrell",
+    "last_changed_date": "2026-05-20",
+    "rfc": "6819"
+}

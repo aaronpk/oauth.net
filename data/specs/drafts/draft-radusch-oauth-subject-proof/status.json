@@ -1,0 +1,9 @@
+{
+    "name": "draft-radusch-oauth-subject-proof",
+    "title": "OAuth 2.0 Subject-Proof Callers for Token Introspection and Revocation",
+    "last_revised_date": "2026-11-17",
+    "status": "I-D Exists",
+    "group": "none",
+    "ad": "",
+    "last_changed_date": "2026-11-17"
+}

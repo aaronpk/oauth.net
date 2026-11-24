@@ -1,0 +1,10 @@
+{
+    "name": "draft-looker-oauth-attestation-based-client-auth",
+    "title": "OAuth 2.0 Attestation-Based Client Authentication",
+    "last_revised_date": "2023-07-10",
+    "status": "I-D Exists",
+    "group": "none",
+    "ad": "",
+    "last_changed_date": "2023-07-17",
+    "version": "00"
+}

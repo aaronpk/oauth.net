@@ -1,0 +1,10 @@
+{
+    "name": "rfc8414",
+    "title": "OAuth 2.0 Authorization Server Metadata",
+    "last_revised_date": "",
+    "status": "RFC 8414 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Eric Rescorla",
+    "last_changed_date": "2026-05-20",
+    "rfc": "8414"
+}

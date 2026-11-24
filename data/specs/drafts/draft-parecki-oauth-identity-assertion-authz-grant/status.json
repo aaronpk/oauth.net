@@ -1,0 +1,9 @@
+{
+    "name": "draft-parecki-oauth-identity-assertion-authz-grant",
+    "title": "Identity Assertion Authorization Grant",
+    "last_revised_date": "2025-07-02",
+    "status": "I-D Exists",
+    "group": "oauth",
+    "ad": "",
+    "last_changed_date": "2025-08-25"
+}

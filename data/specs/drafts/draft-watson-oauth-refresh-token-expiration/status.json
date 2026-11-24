@@ -1,0 +1,9 @@
+{
+    "name": "draft-watson-oauth-refresh-token-expiration",
+    "title": "OAuth 2.0 Refresh Token and Authorization Expiration",
+    "last_revised_date": "2025-10-17",
+    "status": "I-D Exists",
+    "group": "oauth",
+    "ad": "",
+    "last_changed_date": "2025-11-13"
+}

@@ -1,0 +1,9 @@
+{
+    "name": "draft-skokan-oauth-additional-hashes",
+    "title": "Additional Hash Algorithms for OAuth 2.0 PKCE and Proof-of-Possession",
+    "last_revised_date": "2026-02-28",
+    "status": "I-D Exists",
+    "group": "none",
+    "ad": "",
+    "last_changed_date": "2026-03-06"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "draft-tschofenig-oauth-attested-dclient-reg",
+    "title": "The Use of Attestation in OAuth 2.0 Dynamic Client Registration",
+    "last_revised_date": "2023-10-23",
+    "status": "I-D Exists",
+    "group": "none",
+    "ad": "",
+    "last_changed_date": "2023-10-23",
+    "version": "01"
+}

@@ -1,0 +1,9 @@
+{
+    "name": "draft-ietf-oauth-spiffe-client-auth",
+    "title": "OAuth SPIFFE Client Authentication",
+    "last_revised_date": "2026-11-02",
+    "status": "I-D Exists",
+    "group": "oauth",
+    "ad": "",
+    "last_changed_date": "2026-11-02"
+}

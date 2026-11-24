@@ -1,0 +1,9 @@
+{
+    "name": "draft-ambekar-oauth-epop",
+    "title": "JSON Web Token (JWT) Profile for OAuth 2.0 Enveloped Proof of Possession (EPOP)",
+    "last_revised_date": "2026-07-24",
+    "status": "I-D Exists",
+    "group": "none",
+    "ad": "",
+    "last_changed_date": "2026-07-24"
+}

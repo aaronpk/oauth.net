@@ -1,9 +1,9 @@
 {
     "name": "draft-ietf-oauth-browser-based-apps",
-    "title": "OAuth 2.0 for Browser-Based Apps",
-    "last_revised_date": "2022-03-07",
-    "status": "I-D Exists",
+    "title": "OAuth 2.0 for Browser-Based Applications",
+    "last_revised_date": "2026-07-06",
+    "status": "IESG: RFC Ed Queue",
     "group": "oauth",
-    "ad": "",
-    "last_changed_date": "2022-03-07"
+    "ad": "Deb Cooley",
+    "last_changed_date": "2026-08-19"
 }

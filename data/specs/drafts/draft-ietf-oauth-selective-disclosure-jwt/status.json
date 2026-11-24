@@ -1,0 +1,9 @@
+{
+    "name": "draft-ietf-oauth-selective-disclosure-jwt",
+    "title": "Selective Disclosure for JWTs (SD-JWT)",
+    "last_revised_date": "2025-05-29",
+    "status": "RFC Ed Queue",
+    "group": "oauth",
+    "ad": "Deb Cooley",
+    "last_changed_date": "2025-11-19"
+}

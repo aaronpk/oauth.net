@@ -1,0 +1,9 @@
+{
+    "name": "draft-kemp-oauth-x509-bearer",
+    "title": "X.509 Certificate Bearer Profile for OAuth 2.0 Client Authentication and Authorization Grants",
+    "last_revised_date": "2026-09-02",
+    "status": "I-D Exists",
+    "group": "none",
+    "ad": "",
+    "last_changed_date": "2026-09-02"
+}

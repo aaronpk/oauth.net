@@ -1,9 +1,11 @@
 {
     "name": "draft-ietf-oauth-rar",
     "title": "OAuth 2.0 Rich Authorization Requests",
-    "last_revised_date": "2022-05-05",
-    "status": "Publication Requested",
+    "last_revised_date": "2023-01-30",
+    "status": "RFC 9396 (Proposed Standard)",
     "group": "oauth",
     "ad": "Roman Danyliw",
-    "last_changed_date": "2022-05-05"
+    "last_changed_date": "2023-05-30",
+    "version": "23",
+    "rfc": "9396"
 }

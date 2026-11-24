@@ -1,0 +1,10 @@
+{
+    "name": "rfc9901",
+    "title": "Selective Disclosure for JSON Web Tokens",
+    "last_revised_date": "",
+    "status": "RFC 9901 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Deb Cooley",
+    "last_changed_date": "2026-05-20",
+    "rfc": "9901"
+}

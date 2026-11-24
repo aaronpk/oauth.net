@@ -1,0 +1,10 @@
+{
+    "name": "rfc6749",
+    "title": "The OAuth 2.0 Authorization Framework",
+    "last_revised_date": "",
+    "status": "RFC 6749 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Stephen Farrell",
+    "last_changed_date": "2026-05-20",
+    "rfc": "6749"
+}

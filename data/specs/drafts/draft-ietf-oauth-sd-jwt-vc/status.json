@@ -1,0 +1,9 @@
+{
+    "name": "draft-ietf-oauth-sd-jwt-vc",
+    "title": "SD-JWT-based Verifiable Digital Credentials (SD-JWT VC)",
+    "last_revised_date": "2026-11-16",
+    "status": "IESG Evaluation::AD Followup",
+    "group": "oauth",
+    "ad": "Deb Cooley",
+    "last_changed_date": "2026-11-17"
+}

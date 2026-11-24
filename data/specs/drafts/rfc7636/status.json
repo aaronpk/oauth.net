@@ -1,0 +1,10 @@
+{
+    "name": "rfc7636",
+    "title": "Proof Key for Code Exchange by OAuth Public Clients",
+    "last_revised_date": "",
+    "status": "RFC 7636 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Kathleen Moriarty",
+    "last_changed_date": "2026-05-20",
+    "rfc": "7636"
+}

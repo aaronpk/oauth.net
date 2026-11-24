@@ -1,0 +1,10 @@
+{
+    "name": "rfc10070",
+    "title": "Updates to OAuth 2.0 JSON Web Token (JWT) Client Authentication and Assertion-Based Authorization Grants",
+    "last_revised_date": "",
+    "status": "RFC 10070 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Deb Cooley",
+    "last_changed_date": "2026-11-07",
+    "rfc": "10070"
+}

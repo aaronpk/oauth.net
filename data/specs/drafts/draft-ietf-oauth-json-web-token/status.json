@@ -1,7 +1,7 @@
 {
     "name": "draft-ietf-oauth-json-web-token",
     "title": "JSON Web Token (JWT)",
-    "last_revised_date": "2014-12-09",
+    "last_revised_date": "2014-12-10",
     "status": "RFC 7519 (Proposed Standard)",
     "group": "oauth",
     "ad": "Kathleen Moriarty",

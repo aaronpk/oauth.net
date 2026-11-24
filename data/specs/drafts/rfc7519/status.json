@@ -1,0 +1,10 @@
+{
+    "name": "rfc7519",
+    "title": "JSON Web Token (JWT)",
+    "last_revised_date": "",
+    "status": "RFC 7519 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Kathleen Moriarty",
+    "last_changed_date": "2026-05-20",
+    "rfc": "7519"
+}

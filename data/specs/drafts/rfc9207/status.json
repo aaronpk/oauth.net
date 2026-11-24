@@ -1,0 +1,10 @@
+{
+    "name": "rfc9207",
+    "title": "OAuth 2.0 Authorization Server Issuer Identification",
+    "last_revised_date": "",
+    "status": "RFC 9207 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Roman Danyliw",
+    "last_changed_date": "2026-05-20",
+    "rfc": "9207"
+}

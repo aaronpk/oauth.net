@@ -1,9 +1,9 @@
 {
     "name": "draft-ietf-oauth-security-topics",
     "title": "OAuth 2.0 Security Best Current Practice",
-    "last_revised_date": "2021-12-16",
-    "status": "I-D Exists",
+    "last_revised_date": "2024-06-03",
+    "status": "RFC Ed Queue",
     "group": "oauth",
-    "ad": "",
-    "last_changed_date": "2022-03-16"
+    "ad": "Roman Danyliw",
+    "last_changed_date": "2025-01-30"
 }

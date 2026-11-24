@@ -1,9 +1,11 @@
 {
     "name": "draft-ietf-oauth-dpop",
-    "title": "OAuth 2.0 Demonstrating Proof-of-Possession at the Application Layer (DPoP)",
-    "last_revised_date": "2022-07-11",
-    "status": "I-D Exists",
+    "title": "OAuth 2.0 Demonstrating Proof of Possession (DPoP)",
+    "last_revised_date": "2023-04-13",
+    "status": "RFC 9449 (Proposed Standard)",
     "group": "oauth",
-    "ad": "",
-    "last_changed_date": "2022-07-11"
+    "ad": "Roman Danyliw",
+    "last_changed_date": "2023-09-19",
+    "version": "16",
+    "rfc": "9449"
 }

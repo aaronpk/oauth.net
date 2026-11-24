@@ -1,0 +1,9 @@
+{
+    "name": "draft-ietf-oauth-attestation-based-client-auth",
+    "title": "OAuth 2.0 Attestation-Based Client Authentication",
+    "last_revised_date": "2026-10-13",
+    "status": "I-D Exists",
+    "group": "oauth",
+    "ad": "",
+    "last_changed_date": "2026-10-18"
+}

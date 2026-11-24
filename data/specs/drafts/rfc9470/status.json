@@ -1,0 +1,10 @@
+{
+    "name": "rfc9470",
+    "title": "OAuth 2.0 Step Up Authentication Challenge Protocol",
+    "last_revised_date": "",
+    "status": "RFC 9470 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Roman Danyliw",
+    "last_changed_date": "2026-05-20",
+    "rfc": "9470"
+}

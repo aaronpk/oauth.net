@@ -1,0 +1,10 @@
+{
+    "name": "rfc9728",
+    "title": "OAuth 2.0 Protected Resource Metadata",
+    "last_revised_date": "",
+    "status": "RFC 9728 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Deb Cooley",
+    "last_changed_date": "2026-05-20",
+    "rfc": "9728"
+}

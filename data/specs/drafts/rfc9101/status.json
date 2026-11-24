@@ -1,0 +1,10 @@
+{
+    "name": "rfc9101",
+    "title": "The OAuth 2.0 Authorization Framework: JWT-Secured Authorization Request (JAR)",
+    "last_revised_date": "",
+    "status": "RFC 9101 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Roman Danyliw",
+    "last_changed_date": "2026-05-20",
+    "rfc": "9101"
+}

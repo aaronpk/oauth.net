@@ -1,0 +1,10 @@
+{
+    "name": "rfc9449",
+    "title": "OAuth 2.0 Demonstrating Proof of Possession (DPoP)",
+    "last_revised_date": "",
+    "status": "RFC 9449 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Roman Danyliw",
+    "last_changed_date": "2026-05-20",
+    "rfc": "9449"
+}

@@ -1,9 +1,11 @@
 {
     "name": "draft-ietf-oauth-step-up-authn-challenge",
-    "title": "OAuth 2.0 Step-up Authentication Challenge Protocol",
-    "last_revised_date": "2022-07-11",
-    "status": "I-D Exists",
+    "title": "OAuth 2.0 Step Up Authentication Challenge Protocol",
+    "last_revised_date": "2023-06-26",
+    "status": "RFC 9470 (Proposed Standard)",
     "group": "oauth",
-    "ad": "",
-    "last_changed_date": "2022-07-11"
+    "ad": "Roman Danyliw",
+    "last_changed_date": "2023-09-08",
+    "version": "17",
+    "rfc": "9470"
 }

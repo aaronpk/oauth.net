@@ -1,0 +1,10 @@
+{
+    "name": "rfc8628",
+    "title": "OAuth 2.0 Device Authorization Grant",
+    "last_revised_date": "",
+    "status": "RFC 8628 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Roman Danyliw",
+    "last_changed_date": "2026-05-20",
+    "rfc": "8628"
+}

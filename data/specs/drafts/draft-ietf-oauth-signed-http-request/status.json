@@ -1,0 +1,9 @@
+{
+    "name": "draft-ietf-oauth-signed-http-request",
+    "title": "A Method for Signing HTTP Requests for OAuth",
+    "last_revised_date": "2016-08-08",
+    "status": "Expired",
+    "group": "oauth",
+    "ad": "",
+    "last_changed_date": "2017-02-09"
+}

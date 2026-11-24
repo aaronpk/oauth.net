@@ -1,0 +1,9 @@
+{
+    "name": "draft-forten-oauth-sd-jwt-access-token",
+    "title": "Selective Disclosure for JWT Access Tokens Without Changing the Token",
+    "last_revised_date": "2026-10-03",
+    "status": "I-D Exists",
+    "group": "none",
+    "ad": "",
+    "last_changed_date": "2026-10-03"
+}

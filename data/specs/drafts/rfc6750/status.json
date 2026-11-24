@@ -1,0 +1,10 @@
+{
+    "name": "rfc6750",
+    "title": "The OAuth 2.0 Authorization Framework: Bearer Token Usage",
+    "last_revised_date": "",
+    "status": "RFC 6750 (Proposed Standard)",
+    "group": "oauth",
+    "ad": "Stephen Farrell",
+    "last_changed_date": "2026-05-20",
+    "rfc": "6750"
+}

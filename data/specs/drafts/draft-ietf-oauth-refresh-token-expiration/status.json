@@ -1,0 +1,9 @@
+{
+    "name": "draft-ietf-oauth-refresh-token-expiration",
+    "title": "OAuth 2.0 Refresh Token and Authorization Expiration",
+    "last_revised_date": "2026-07-06",
+    "status": "I-D Exists",
+    "group": "oauth",
+    "ad": "",
+    "last_changed_date": "2026-07-06"
+}

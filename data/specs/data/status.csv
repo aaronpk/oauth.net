@@ -1,37 +1,174 @@
 Name,Title,Date of latest revision,Status in the IETF process,Associated group,Associated AD,Date of latest change
-b'draft-ietf-oauth-v2',b'The OAuth 2.0 Authorization Framework',b'2012-08-01',b'RFC 6749 (Proposed Standard)',b'oauth',b'Stephen Farrell',b'2020-04-16'
-b'draft-ietf-oauth-saml2-bearer',b'Security Assertion Markup Language (SAML) 2.0 Profile for OAuth 2.0 Client Authentication and Authorization Grants',b'2014-11-12',b'RFC 7522 (Proposed Standard)',b'oauth',b'Kathleen Moriarty',b'2015-10-14'
-b'draft-ietf-oauth-v2-bearer',b'The OAuth 2.0 Authorization Framework: Bearer Token Usage',b'2012-08-01',b'RFC 6750 (Proposed Standard)',b'oauth',b'Stephen Farrell',b'2020-04-16'
-b'draft-ietf-oauth-v2-threatmodel',b'OAuth 2.0 Threat Model and Security Considerations',b'2012-10-06',b'RFC 6819 (Informational)',b'oauth',b'Stephen Farrell',b'2020-01-31'
-b'draft-ietf-oauth-assertions',b'Assertion Framework for OAuth 2.0 Client Authentication and Authorization Grants',b'2014-10-21',b'RFC 7521 (Proposed Standard)',b'oauth',b'Kathleen Moriarty',b'2018-12-20'
-b'draft-ietf-oauth-urn-sub-ns',b'An IETF URN Sub-Namespace for OAuth',b'2012-07-16',b'RFC 6755 (Informational)',b'oauth',b'Stephen Farrell',b'2015-10-14'
-b'draft-ietf-oauth-jwt-bearer',b'JSON Web Token (JWT) Profile for OAuth 2.0 Client Authentication and Authorization Grants',b'2014-11-12',b'RFC 7523 (Proposed Standard)',b'oauth',b'Kathleen Moriarty',b'2015-10-14'
-b'draft-ietf-oauth-json-web-token',b'JSON Web Token (JWT)',b'2014-12-09',b'RFC 7519 (Proposed Standard)',b'oauth',b'Kathleen Moriarty',b'2019-03-09'
-b'draft-ietf-oauth-dyn-reg',b'OAuth 2.0 Dynamic Client Registration Protocol',b'2015-05-28',b'RFC 7591 (Proposed Standard)',b'oauth',b'Kathleen Moriarty',b'2021-06-25'
-b'draft-ietf-oauth-revocation',b'OAuth 2.0 Token Revocation',b'2013-07-13',b'RFC 7009 (Proposed Standard)',b'oauth',b'Stephen Farrell',b'2021-08-24'
-b'draft-ietf-oauth-dyn-reg-management',b'OAuth 2.0 Dynamic Client Registration Management Protocol',b'2015-05-05',b'RFC 7592 (Experimental)',b'oauth',b'Kathleen Moriarty',b'2015-10-14'
-b'draft-ietf-oauth-proof-of-possession',b'Proof-of-Possession Key Semantics for JSON Web Tokens (JWTs)',b'2015-12-18',b'RFC 7800 (Proposed Standard)',b'oauth',b'Kathleen Moriarty',b'2020-05-31'
-b'draft-ietf-oauth-token-exchange',b'OAuth 2.0 Token Exchange',b'2019-07-21',b'RFC 8693 (Proposed Standard)',b'oauth',b'Roman Danyliw',b'2020-01-15'
-b'draft-ietf-oauth-jwsreq',b'The OAuth 2.0 Authorization Framework: JWT-Secured Authorization Request (JAR)',b'2021-04-08',b'RFC 9101 (Proposed Standard)',b'oauth',b'Roman Danyliw',b'2022-05-27'
-b'draft-ietf-oauth-spop',b'Proof Key for Code Exchange by OAuth Public Clients',b'2015-07-10',b'RFC 7636 (Proposed Standard)',b'oauth',b'Kathleen Moriarty',b'2020-01-21'
-b'draft-ietf-oauth-introspection',b'OAuth 2.0 Token Introspection',b'2015-07-03',b'RFC 7662 (Proposed Standard)',b'oauth',b'Kathleen Moriarty',b'2015-10-20'
-b'draft-ietf-oauth-device-flow',b'OAuth 2.0 Device Authorization Grant',b'2019-03-11',b'RFC 8628 (Proposed Standard)',b'oauth',b'Roman Danyliw',b'2019-08-20'
-b'draft-ietf-oauth-native-apps',b'OAuth 2.0 for Native Apps',b'2017-06-09',b'RFC 8252 (Best Current Practice)',b'oauth',b'Kathleen Moriarty',b'2020-07-29'
-b'draft-ietf-oauth-discovery',b'OAuth 2.0 Authorization Server Metadata',b'2018-03-04',b'RFC 8414 (Proposed Standard)',b'oauth',b'Eric Rescorla',b'2018-06-29'
-b'draft-ietf-oauth-amr-values',b'Authentication Method Reference Values',b'2017-03-13',b'RFC 8176 (Proposed Standard)',b'oauth',b'Kathleen Moriarty',b'2017-06-19'
-b'draft-ietf-oauth-mtls',b'OAuth 2.0 Mutual-TLS Client Authentication and Certificate-Bound Access Tokens',b'2019-08-23',b'RFC 8705 (Proposed Standard)',b'oauth',b'Roman Danyliw',b'2020-03-09'
-b'draft-ietf-oauth-jwt-bcp',b'JSON Web Token Best Current Practices',b'2019-10-13',b'RFC 8725 (Best Current Practice)',b'oauth',b'Roman Danyliw',b'2020-02-19'
-b'draft-ietf-oauth-jwt-introspection-response',b'JWT Response for OAuth Token Introspection',b'2021-09-04',b'RFC Ed Queue',b'oauth',b'Roman Danyliw',b'2021-09-08'
-b'draft-ietf-oauth-resource-indicators',b'Resource Indicators for OAuth 2.0',b'2019-09-11',b'RFC 8707 (Proposed Standard)',b'oauth',b'Roman Danyliw',b'2022-01-21'
-b'draft-ietf-oauth-browser-based-apps',b'OAuth 2.0 for Browser-Based Apps',b'2022-03-07',b'I-D Exists',b'oauth',b'',b'2022-03-07'
-b'draft-yusef-oauth-nested-jwt',b'Multi-Subject JSON Web Token (JWT)',b'2022-06-14',b'I-D Exists',b'none',b'',b'2022-06-14'
-b'draft-ietf-oauth-access-token-jwt',b'JSON Web Token (JWT) Profile for OAuth 2.0 Access Tokens',b'2021-05-25',b'RFC 9068 (Proposed Standard)',b'oauth',b'Roman Danyliw',b'2021-10-21'
-b'draft-ietf-oauth-par',b'OAuth 2.0 Pushed Authorization Requests',b'2021-07-29',b'RFC 9126 (Proposed Standard)',b'oauth',b'Roman Danyliw',b'2021-10-16'
-b'draft-ietf-oauth-rar',b'OAuth 2.0 Rich Authorization Requests',b'2022-05-05',b'Publication Requested',b'oauth',b'Roman Danyliw',b'2022-05-05'
-b'draft-ietf-oauth-dpop',b'OAuth 2.0 Demonstrating Proof-of-Possession at the Application Layer (DPoP)',b'2022-07-11',b'I-D Exists',b'oauth',b'',b'2022-07-11'
-b'draft-ietf-oauth-v2-1',b'The OAuth 2.1 Authorization Framework',b'2022-03-07',b'I-D Exists',b'oauth',b'',b'2022-03-07'
-b'draft-ietf-oauth-iss-auth-resp',b'OAuth 2.0 Authorization Server Issuer Identification',b'2022-01-11',b'RFC 9207 (Proposed Standard)',b'oauth',b'Roman Danyliw',b'2022-03-18'
-b'draft-ietf-oauth-jwk-thumbprint-uri',b'JWK Thumbprint URI',b'2022-06-01',b'RFC Ed Queue',b'oauth',b'Roman Danyliw',b'2022-07-20'
-b'draft-chadwick-oauth-jwk-uri',b'JWT URI',b'2022-02-09',b'I-D Exists',b'none',b'',b'2022-02-09'
-b'draft-ietf-oauth-step-up-authn-challenge',b'OAuth 2.0 Step-up Authentication Challenge Protocol',b'2022-07-11',b'I-D Exists',b'oauth',b'',b'2022-07-11'
-b'draft-fett-oauth-selective-disclosure-jwt',b'Selective Disclosure JWT (SD-JWT)',b'2022-07-11',b'I-D Exists',b'none',b'',b'2022-07-11'
+draft-ietf-oauth-authentication,The OAuth Protocol: Authentication,2009-07-06,Expired,oauth,,2014-08-25
+draft-ietf-oauth-web-delegation,The OAuth Protocol: Web Delegation,2009-07-06,Expired,oauth,,2014-08-25
+draft-ietf-oauth-v2-http-mac,OAuth 2.0 Message Authentication Code (MAC) Tokens,2014-01-15,Expired,oauth,,2014-01-15
+draft-ietf-oauth-use-cases,OAuth Use Cases,2012-10-22,Expired,oauth,,2014-08-25
+draft-ietf-oauth-dyn-reg-metadata,OAuth 2.0 Dynamic Client Registration Metadata,2014-05-22,Expired,oauth,,2015-10-14
+draft-ietf-oauth-pop-architecture,OAuth 2.0 Proof-of-Possession (PoP) Security Architecture,2016-07-08,Expired,oauth,Kathleen Moriarty,2024-12-18
+draft-ietf-oauth-pop-key-distribution,OAuth 2.0 Proof-of-Possession: Authorization Server to Client Key Distribution,2019-03-27,Expired,oauth,,2019-09-28
+draft-ietf-oauth-signed-http-request,A Method for Signing HTTP Requests for OAuth,2016-08-08,Expired,oauth,,2017-02-09
+draft-ietf-oauth-closing-redirectors,OAuth 2.0 Security: Closing Open Redirectors in OAuth,2016-02-04,Expired,oauth,,2016-02-04
+draft-ietf-oauth-mix-up-mitigation,OAuth 2.0 Mix-Up Mitigation,2016-07-07,Expired,oauth,,2017-01-08
+draft-ietf-oauth-token-binding,OAuth 2.0 Token Binding,2018-10-19,Expired,oauth,,2019-04-22
+draft-ietf-oauth-distributed,Distributed OAuth,2018-10-19,Expired,oauth,,2019-04-22
+draft-ietf-oauth-reciprocal,Reciprocal OAuth,2019-08-01,Expired,oauth,,2020-02-02
+draft-ietf-oauth-incremental-authz,OAuth 2.0 Incremental Authorization,2020-05-03,Expired,oauth,,2020-11-16
+draft-ietf-oauth-v2-1,The OAuth 2.1 Authorization Framework,2026-10-31,I-D Exists,oauth,,2026-10-31
+draft-richer-oauth-httpsig,OAuth Proof of Possession Tokens with HTTP Message Signatures,2026-07-28,I-D Exists,none,,2026-07-28
+draft-ietf-oauth-sd-jwt-vc,SD-JWT-based Verifiable Digital Credentials (SD-JWT VC),2026-11-16,IESG Evaluation::AD Followup,oauth,Deb Cooley,2026-11-17
+draft-ietf-oauth-attestation-based-client-auth,OAuth 2.0 Attestation-Based Client Authentication,2026-10-13,I-D Exists,oauth,,2026-10-18
+draft-ietf-oauth-status-list,Token Status List (TSL),2026-06-21,IESG: RFC Ed Queue,oauth,Deb Cooley,2026-11-19
+draft-ietf-oauth-transaction-tokens,Transaction Tokens,2026-07-30,I-D Exists,oauth,,2026-08-21
+draft-ietf-oauth-identity-chaining,OAuth Identity and Authorization Chaining Across Domains,2026-07-19,IESG: RFC Ed Queue,oauth,Deb Cooley,2026-11-12
+rfc6749,The OAuth 2.0 Authorization Framework,,RFC 6749 (Proposed Standard),oauth,Stephen Farrell,2026-05-20
+rfc6750,The OAuth 2.0 Authorization Framework: Bearer Token Usage,,RFC 6750 (Proposed Standard),oauth,Stephen Farrell,2026-05-20
+rfc6755,An IETF URN Sub-Namespace for OAuth,,RFC 6755 (Informational),oauth,Stephen Farrell,2026-05-20
+rfc6819,OAuth 2.0 Threat Model and Security Considerations,,RFC 6819 (Informational),oauth,Stephen Farrell,2026-05-20
+rfc7009,OAuth 2.0 Token Revocation,,RFC 7009 (Proposed Standard),oauth,Stephen Farrell,2026-05-20
+rfc7519,JSON Web Token (JWT),,RFC 7519 (Proposed Standard),oauth,Kathleen Moriarty,2026-05-20
+rfc7521,Assertion Framework for OAuth 2.0 Client Authentication and Authorization Grants,,RFC 7521 (Proposed Standard),oauth,Kathleen Moriarty,2026-05-20
+rfc7522,Security Assertion Markup Language (SAML) 2.0 Profile for OAuth 2.0 Client Authentication and Authorization Grants,,RFC 7522 (Proposed Standard),oauth,Kathleen Moriarty,2026-05-20
+rfc7523,JSON Web Token (JWT) Profile for OAuth 2.0 Client Authentication and Authorization Grants,,RFC 7523 (Proposed Standard),oauth,Kathleen Moriarty,2026-05-20
+rfc7591,OAuth 2.0 Dynamic Client Registration Protocol,,RFC 7591 (Proposed Standard),oauth,Kathleen Moriarty,2026-05-20
+rfc7592,OAuth 2.0 Dynamic Client Registration Management Protocol,,RFC 7592 (Experimental),oauth,Kathleen Moriarty,2026-05-20
+rfc7636,Proof Key for Code Exchange by OAuth Public Clients,,RFC 7636 (Proposed Standard),oauth,Kathleen Moriarty,2026-05-20
+rfc7662,OAuth 2.0 Token Introspection,,RFC 7662 (Proposed Standard),oauth,Kathleen Moriarty,2026-05-20
+rfc7800,Proof-of-Possession Key Semantics for JSON Web Tokens (JWTs),,RFC 7800 (Proposed Standard),oauth,Kathleen Moriarty,2026-05-20
+rfc8176,Authentication Method Reference Values,,RFC 8176 (Proposed Standard),oauth,Kathleen Moriarty,2026-05-20
+rfc8252,OAuth 2.0 for Native Apps,,RFC 8252 (Best Current Practice),oauth,Kathleen Moriarty,2026-05-20
+rfc8414,OAuth 2.0 Authorization Server Metadata,,RFC 8414 (Proposed Standard),oauth,Eric Rescorla,2026-05-20
+rfc8628,OAuth 2.0 Device Authorization Grant,,RFC 8628 (Proposed Standard),oauth,Roman Danyliw,2026-05-20
+rfc8693,OAuth 2.0 Token Exchange,,RFC 8693 (Proposed Standard),oauth,Roman Danyliw,2026-05-20
+rfc8705,OAuth 2.0 Mutual-TLS Client Authentication and Certificate-Bound Access Tokens,,RFC 8705 (Proposed Standard),oauth,Roman Danyliw,2026-05-20
+rfc8707,Resource Indicators for OAuth 2.0,,RFC 8707 (Proposed Standard),oauth,Roman Danyliw,2026-05-20
+rfc8725,JSON Web Token Best Current Practices,,RFC 8725 (Best Current Practice),oauth,Roman Danyliw,2026-05-20
+rfc9068,JSON Web Token (JWT) Profile for OAuth 2.0 Access Tokens,,RFC 9068 (Proposed Standard),oauth,Roman Danyliw,2026-10-12
+rfc9101,The OAuth 2.0 Authorization Framework: JWT-Secured Authorization Request (JAR),,RFC 9101 (Proposed Standard),oauth,Roman Danyliw,2026-05-20
+rfc9126,OAuth 2.0 Pushed Authorization Requests,,RFC 9126 (Proposed Standard),oauth,Roman Danyliw,2026-05-20
+rfc9207,OAuth 2.0 Authorization Server Issuer Identification,,RFC 9207 (Proposed Standard),oauth,Roman Danyliw,2026-05-20
+rfc9278,JWK Thumbprint URI,,RFC 9278 (Proposed Standard),oauth,Roman Danyliw,2026-05-20
+rfc9396,OAuth 2.0 Rich Authorization Requests,,RFC 9396 (Proposed Standard),oauth,Roman Danyliw,2026-05-20
+rfc9449,OAuth 2.0 Demonstrating Proof of Possession (DPoP),,RFC 9449 (Proposed Standard),oauth,Roman Danyliw,2026-05-20
+rfc9470,OAuth 2.0 Step Up Authentication Challenge Protocol,,RFC 9470 (Proposed Standard),oauth,Roman Danyliw,2026-05-20
+draft-ietf-oauth-first-party-apps,OAuth 2.0 for First-Party Applications,2026-07-01,I-D Exists,oauth,,2026-08-26
+rfc9700,Best Current Practice for OAuth 2.0 Security,,RFC 9700 (Best Current Practice),oauth,Roman Danyliw,2026-05-20
+rfc9701,JSON Web Token (JWT) Response for OAuth Token Introspection,,RFC 9701 (Proposed Standard),oauth,Roman Danyliw,2026-05-20
+rfc9728,OAuth 2.0 Protected Resource Metadata,,RFC 9728 (Proposed Standard),oauth,Deb Cooley,2026-05-20
+draft-rosenberg-oauth-aauth,AAuth - Agentic Authorization OAuth 2.1 Extension,2026-11-01,I-D Exists,none,,2026-11-01
+draft-mcguinness-oauth-resource-token-resp,OAuth 2.0 Resource Parameter in Access Token Response,2026-10-25,I-D Exists,none,,2026-10-25
+draft-ietf-oauth-rfc8725bis,JSON Web Token Best Current Practices,2026-08-21,IESG: RFC Ed Queue,oauth,Deb Cooley,2026-11-23
+draft-ietf-oauth-identity-assertion-authz-grant,Identity Assertion JWT Authorization Grant,2026-10-31,I-D Exists,oauth,,2026-10-31
+draft-ietf-oauth-client-id-metadata-document,OAuth Client ID Metadata Document,2026-11-02,I-D Exists,oauth,,2026-11-02
+draft-mora-oauth-entity-profiles,OAuth 2.0 Entity Profiles,2026-10-16,I-D Exists,none,,2026-10-16
+draft-parecki-oauth-jwt-dpop-grant,OAuth 2.0 JWT Authorization Grant with DPoP Binding,2026-10-30,I-D Exists,none,,2026-10-30
+draft-li-oauth-delegated-authorization,OAuth 2.0 Delegated Authorization,2026-11-02,I-D Exists,none,,2026-11-02
+draft-song-oauth-ai-agent-collaborate-authz,OAuth2.0 Extension for Multi-AI Agent Collaboration,2026-07-01,I-D Exists,none,,2026-07-01
+rfc9901,Selective Disclosure for JSON Web Tokens,,RFC 9901 (Proposed Standard),oauth,Deb Cooley,2026-05-20
+draft-ietf-oauth-security-topics-update,Updates to OAuth 2.0 Security Best Current Practice,2026-07-06,I-D Exists,oauth,,2026-07-06
+draft-ietf-oauth-spiffe-client-auth,OAuth SPIFFE Client Authentication,2026-11-02,I-D Exists,oauth,,2026-11-02
+draft-ietf-oauth-refresh-token-expiration,OAuth 2.0 Refresh Token and Authorization Expiration,2026-07-06,I-D Exists,oauth,,2026-07-06
+draft-jia-oauth-scope-aggregation,OAuth 2.0 Scope Aggregation for Multi-Step AI Agent Workflows,2026-08-14,I-D Exists,none,,2026-08-14
+draft-mcguinness-oauth-rfc9728bis,Update to OAuth 2.0 Protected Resource Metadata Resource Identifier Validation,2026-10-25,I-D Exists,none,,2026-10-25
+draft-mishra-oauth-agent-grants,OAuth Profile for Delegated AI Agent Authorization,2026-08-30,I-D Exists,none,,2026-08-30
+draft-coetzee-oauth-spt-txn-tokens,Transaction-Bound Authorization Tokens for Software and AI Agents (SPT-Txn),2026-07-19,I-D Exists,none,,2026-07-19
+draft-niyikiza-oauth-attenuating-agent-tokens,Attenuating Authorization Tokens for Agentic Delegation Chains,2026-10-27,I-D Exists,none,,2026-10-27
+draft-mw-oauth-tls-session-bound-tokens,TLS-Session-Bound Access Tokens for OAuth 2.0,2026-06-21,I-D Exists,none,,2026-06-21
+draft-araut-oauth-transaction-tokens-for-agents,Transaction Tokens For Agents,2026-10-31,I-D Exists,none,,2026-10-31
+draft-chen-oauth-agent-revocation,OAuth 2.0 Agent Authorization Explicit Revocation,2026-10-30,I-D Exists,none,,2026-10-30
+draft-hardt-oauth-aauth-protocol,AAuth Protocol,2026-09-25,I-D Exists,none,,2026-09-25
+draft-mcguinness-oauth-actor-profile,OAuth Actor Profile for Delegation,2026-10-09,I-D Exists,none,,2026-10-09
+draft-mw-oauth-actor-chain,OAuth Actor Chain: Protocol and Interoperability,2026-11-02,I-D Exists,none,,2026-11-02
+draft-ambekar-oauth-epop,JSON Web Token (JWT) Profile for OAuth 2.0 Enveloped Proof of Possession (EPOP),2026-07-24,I-D Exists,none,,2026-07-24
+draft-zhu-oauth-async-delegation,Delegated Refresh Tokens for OAuth 2.0 Token Exchange,2026-08-03,I-D Exists,none,,2026-08-03
+draft-mcguinness-oauth-insufficient-claims,OAuth 2.0 Insufficient Claims Challenge,2026-05-27,I-D Exists,none,,2026-05-27
+draft-liu-oauth-chain-delegation,Delegation Chain for OAuth 2.0,2026-06-08,I-D Exists,none,,2026-06-08
+draft-vicente-oauth-apm,Authorization Posture Mechanism (APM): Per-Transaction Consistency for OAuth 2.0,2026-09-13,I-D Exists,none,,2026-09-13
+draft-ekahraman-oauth-attestation-authz-native-app,OAuth 2.0 Attestation Based Authorization for Native Applications,2026-08-20,I-D Exists,none,,2026-08-20
+draft-liu-oauth-authorization-evidence,Authorization Evidence and Audit Trail for OAuth 2.0 Access Tokens,2026-11-02,I-D Exists,none,,2026-11-02
+draft-liu-oauth-rego-policy,Rego Policy Language for OAuth 2.0 Authorization,2026-06-12,I-D Exists,none,,2026-06-12
+draft-agnihotri-oauth-agent-impl-status,Implementation Status of OAuth Identity Chaining and Transaction Tokens,2026-06-23,I-D Exists,none,,2026-06-23
+draft-jiang-oauth-intent-admission,Intent Admission Assertions for Agentic Systems,2026-06-23,I-D Exists,none,,2026-07-01
+draft-rosomakho-oauth-txn-challenge,OAuth Transaction Authorization Challenge,2026-11-02,I-D Exists,none,,2026-11-02
+draft-rosomakho-oauth-txn-challange,Placeholder for typoed email alias,2026-06-25,I-D Exists,none,,2026-06-25
+draft-emerson-oauth-user-mediated-delivery,User-Mediated Credential Delivery as a Complementary Authorization Primitive for AI Agents,2026-10-27,I-D Exists,none,,2026-10-27
+draft-liu-oauth-cross-domain-txn-token,Cross-domain Transaction Tokens,2026-07-03,I-D Exists,none,,2026-07-03
+draft-ni-oauth-batch-authorization-delegation,Batch Authorization Delegation,2026-07-03,I-D Exists,none,,2026-07-07
+draft-hardt-oauth-protected-authorization,OAuth Protected Authorization,2026-07-04,I-D Exists,none,,2026-07-04
+draft-mcguinness-oauth-actor-receipts,OAuth Actor Receipts for Delegation Provenance,2026-10-09,I-D Exists,none,,2026-10-09
+draft-mcguinness-oauth-actor-proofs,OAuth Actor-Signed Hop Proofs,2026-10-09,I-D Exists,none,,2026-10-09
+draft-chen-oauth-agent-authz-use-cases,Agent Authorization use cases and gap analysis,2026-10-27,I-D Exists,none,,2026-10-27
+draft-mcguinness-oauth-ai-agent-instance,OAuth 2.0 AI Agent Instance Profile,2026-07-05,I-D Exists,none,,2026-07-05
+draft-skyfire-oauth-kyapay-token,KYAPay Token,2026-11-16,I-D Exists,none,,2026-11-16
+draft-mcguinness-oauth-id-assertion-framework,OAuth Identity Assertion Trust Framework,2026-07-06,I-D Exists,none,,2026-07-06
+draft-mcguinness-oauth-domain-authorized-issuer,OAuth Domain-Authorized Issuer Trust Method,2026-07-06,I-D Exists,none,,2026-07-06
+draft-skyfire-oauth-amr-values,Additional Authentication Method Reference Values,2026-11-02,I-D Exists,none,,2026-11-02
+draft-skyfire-oauth-id-verification,Identity Verification Methods Values,2026-11-16,I-D Exists,none,,2026-11-16
+draft-mcguinness-oauth-mission,Mission-Bound Authorization for OAuth 2.0,2026-11-02,I-D Exists,none,,2026-11-02
+draft-skyfire-oauth-kyapay-token-exchange,KYAPay Token Exchange,2026-11-16,I-D Exists,none,,2026-11-16
+draft-mcguinness-oauth-token-exchange-cnf,Confirmation Response Parameter for OAuth 2.0 Token Exchange,2026-07-19,I-D Exists,none,,2026-07-19
+draft-skyfire-oauth-aml-methods,Anti-Money Laundering Methods Values,2026-10-02,I-D Exists,none,,2026-10-02
+draft-skyfire-oauth-using-kyapay-tokens,Using KYAPay Tokens,2026-11-16,I-D Exists,none,,2026-11-16
+draft-aravind-oauth-decision-subject,Decision-Subject Representation for Agent Authorization,2026-07-19,I-D Exists,none,,2026-07-19
+draft-aravind-oauth-operator-of-record,Operator-of-Record: an Origination Marker for Agent-Operated Presentations and Decisions,2026-07-19,I-D Exists,none,,2026-07-19
+draft-dellaert-oauth-approval-based-dcr,OAuth 2.0 Approval-Based Dynamic Client Registration,2026-07-20,I-D Exists,none,,2026-07-20
+draft-araut-oauth-transactiontokens-bcp,OAuth Transaction Tokens Best Current Practice,2026-07-20,I-D Exists,none,,2026-07-20
+draft-sharma-oauth-identity-propagation-context,Identity Propagation Context for Multi-Hop Delegation in OAuth 2.0 Environments,2026-07-23,I-D Exists,none,,2026-07-23
+draft-parecki-oauth-refresh-token-scope-response,OAuth 2.0 Refresh Token Scope,2026-07-24,I-D Exists,none,,2026-07-24
+draft-bandyopadhayaya-oauth-push-device,Discovery and Device Lifecycle for OAuth Push-Based Authentication,2026-07-29,I-D Exists,none,,2026-07-29
+draft-bandyopadhayaya-oauth-ciba-push-binding,CIBA Binding for OAuth Push-Based Authentication Device Discovery,2026-07-29,I-D Exists,none,,2026-07-29
+draft-mcguinness-oauth-id-continuation-assertion,Identity Continuation Assertion for OAuth 2.0 Token Exchange,2026-09-09,I-D Exists,none,,2026-09-09
+draft-gazitt-oauth-authzen-issuance,AuthZEN Profile for OAuth 2.0 Token Issuance,2026-09-02,I-D Exists,none,,2026-09-02
+draft-gazitt-oauth-authzen-token-exchange,AuthZEN Binding for OAuth 2.0 Token Exchange,2026-09-02,I-D Exists,none,,2026-09-02
+draft-zehavi-oauth-authz-req-del-chain,OAuth Authorization Request Delegation Chain,2026-09-10,I-D Exists,none,,2026-09-10
+rfc10027,Best Current Practice for Security of Cross-Device Flows,,RFC 10027 (Best Current Practice),oauth,Deb Cooley,2026-08-11
+draft-winmagic-oauth-condition-bound-keys,Condition-Bound Keys for Mutual-TLS Client Authentication and DPoP,2026-08-12,I-D Exists,none,,2026-08-12
+draft-gazitt-oauth-authzen-claims,AuthZEN Profile for Authorization Claims in JWT Access Tokens,2026-09-02,I-D Exists,none,,2026-09-02
+rfc10017,OAuth 2.0 for Browser-Based Applications,,RFC 10017 (Best Current Practice),oauth,Deb Cooley,2026-08-21
+draft-ietf-oauth-rar-metadata-remediation,OAuth 2.0 RAR Metadata and Error Remediation,2026-08-23,I-D Exists,oauth,,2026-08-23
+draft-li-oauth-policy-based-anonymous-tokens,OAuth 2.0 Policy-Based Anonymous Access Tokens,2026-08-26,I-D Exists,none,,2026-08-26
+draft-hamr-oauth-agent-delegation,An Attenuated Delegation Profile for Automated Agents,2026-11-15,I-D Exists,none,,2026-11-15
+draft-chu-oauth-subject-key-binding,OAuth Subject Signing Key Binding for Resource Servers,2026-09-01,I-D Exists,none,,2026-09-01
+draft-kemp-oauth-x509-bearer,X.509 Certificate Bearer Profile for OAuth 2.0 Client Authentication and Authorization Grants,2026-09-02,I-D Exists,none,,2026-09-02
+draft-fletcher-oauth-txn-token-chaining-profile,Transaction Token JWT Authorization Grant Profile for OAuth Identity and Authorization Chaining,2026-10-26,I-D Exists,none,,2026-10-26
+draft-watts-oauth-agent-revocation-closure,Revocation Closure and Authority Epochs for Agent Delegation,2026-11-16,I-D Exists,none,,2026-11-16
+draft-ietf-oauth-deferred-token-response,Deferred Token Response,2026-10-31,I-D Exists,oauth,,2026-10-31
+draft-lee-oauth-dpop-credential-presentation,JWT Access Tokens as W3C Verifiable Credentials,2026-10-01,I-D Exists,none,,2026-10-01
+draft-mcguinness-oauth-client-attesters,OAuth 2.0 Client Attester Endorsement,2026-11-02,I-D Exists,none,,2026-11-02
+draft-mcguinness-oauth-client-instance-id,OAuth 2.0 Client Instance Identifiers,2026-11-02,I-D Exists,none,,2026-11-02
+draft-richer-oauth-oob-authcode,Out of Band Authorization Code Delivery for OAuth 2.0,2026-09-28,I-D Exists,none,,2026-09-28
+draft-tulshi-oauth-transactional-access-tokens,Transactional Access Tokens,2026-11-19,I-D Exists,none,,2026-11-19
+draft-forten-oauth-sd-jwt-access-token,Selective Disclosure for JWT Access Tokens Without Changing the Token,2026-10-03,I-D Exists,none,,2026-10-03
+draft-zehavi-oauth-audience-bound-token-exchange,OAuth 2.0 Audience-Bound Token Exchange,2026-10-08,I-D Exists,none,,2026-10-08
+draft-zehavi-oauth-authority-metadata,OAuth 2.0 Authority Metadata,2026-10-11,I-D Exists,none,,2026-10-11
+draft-liu-oauth-authorization-schemas,Domain-Specific Authorization Schemas for OAuth 2.0,2026-11-02,I-D Exists,none,,2026-11-02
+draft-forten-oauth-scope-metadata-document,OAuth Scope Metadata Document,2026-10-17,I-D Exists,none,,2026-10-17
+draft-mw-oauth-actor-chain-overview,OAuth Actor Chain: Overview and Design,2026-11-02,I-D Exists,none,,2026-11-02
+draft-chen-oauth-agent-intent-token,The Intent Token - A Credential for Delegated User Intent,2026-10-19,I-D Exists,none,,2026-10-19
+draft-shankarlingam-oauth-agent-dns-link,Linking an Agent's DNS Name to its OAuth Client,2026-11-22,I-D Exists,none,,2026-11-22
+draft-gerber-oauth-client-metadata-lookup,OAuth Client Metadata Lookup,2026-10-21,I-D Exists,none,,2026-10-21
+draft-mcguinness-oauth-mission-resource-access,Mission Resource Access Profile for OAuth 2.0,2026-10-22,I-D Exists,none,,2026-10-22
+draft-emelia-oauth-user-authorization-mgmt-uri,OAuth User Authorization Management URI,2026-10-24,I-D Exists,none,,2026-10-24
+draft-du-oauth-agent-authorization-center,Agent Authorization Center for User-Side Agent Authentication and Authorization,2026-10-27,I-D Exists,none,,2026-10-27
+draft-mcguinness-oauth-client-ip-ranges,OAuth Client IP Range Metadata,2026-11-02,I-D Exists,none,,2026-11-02
+draft-ietf-oauth-delegate-sd-jwt,Delegate SD-JWT,2026-10-30,I-D Exists,oauth,,2026-10-30
+draft-williams-oauth-poi-core,Cryptographic Proof-of-Intent (PoI) Core Protocol for Human-in-the-Loop (HITL) Step-Up Authorization,2026-11-20,I-D Exists,none,,2026-11-20
+draft-williams-oauth-poi-chained-state,"Proof-of-Intent (PoI) Chained State, Multi-Party Escalation, and Concurrency Extension",2026-10-31,I-D Exists,none,,2026-11-02
+draft-davliatshin-oauth-attenuation-chains-report,Independent Implementation and Formal Analysis of Attenuating Delegation Chains for AI Agents,2026-11-02,I-D Exists,none,,2026-11-02
+draft-liu-oauth-scenario-discovery-authz,Scenario-Based Service Discovery and Authorization Protocol in Agent Environments,2026-11-02,I-D Exists,none,,2026-11-02
+draft-liu-oauth-delegation-chaining,Delegation Chaining for the Identity Assertion JWT Authorization Grant,2026-11-02,I-D Exists,none,,2026-11-02
+draft-mcguinness-oauth-cimd-sw-stmt,Client ID Metadata Document Software Statement,2026-11-02,I-D Exists,none,,2026-11-02
+draft-mcguinness-oauth-cimd-sw-stmt-registration,Client ID Metadata Document Software Statement Registration,2026-11-02,I-D Exists,none,,2026-11-02
+draft-mcguinness-oauth-cimd-sw-stmt-lifecycle,Client ID Metadata Document Software Statement Lifecycle,2026-11-02,I-D Exists,none,,2026-11-02
+draft-mcguinness-oauth-grant-catalog,OAuth Authorization Grant Catalog,2026-11-02,I-D Exists,none,,2026-11-02
+draft-emelia-oauth-as-metadata-dpop-required,OAuth Authorization Server Metadata Parameter for Requiring DPoP,2026-11-02,I-D Exists,none,,2026-11-02
+rfc10070,Updates to OAuth 2.0 JSON Web Token (JWT) Client Authentication and Assertion-Based Authorization Grants,,RFC 10070 (Proposed Standard),oauth,Deb Cooley,2026-11-07
+draft-schrock-oauth-exact-action-identifiers,Exact-Action Identifiers in OAuth Authorization Details,2026-11-15,I-D Exists,none,,2026-11-15
+draft-nandakumar-oauth-actor-bound-token-exchange,OAuth 2.0 Token Exchange with Actor-Bound Tokens,2026-11-16,I-D Exists,none,,2026-11-16
+draft-radusch-oauth-subject-proof,OAuth 2.0 Subject-Proof Callers for Token Introspection and Revocation,2026-11-17,I-D Exists,none,,2026-11-17
+draft-craig-oauth-rar-payment-mandates,"Rich Authorization Requests Profile for Agent Payment Mandates, Approval Reasons and Receipts",2026-11-17,I-D Exists,none,,2026-11-17
+draft-zehavi-oauth-aud-bound-authz,OAuth 2.0 Audience-Bound Client Authorization,2026-11-18,I-D Exists,none,,2026-11-18
+draft-gerber-oauth-refresh-one-time-proofs,OAuth 2.0 One-Time Refresh Proofs,2026-11-19,I-D Exists,none,,2026-11-19
+draft-parecki-oauth-userinfo-response,OAuth Userinfo Response,2026-11-19,I-D Exists,none,,2026-11-19
+draft-nandakumar-oauth-delegation-revocation,Security Events for Revocation of Agent Delegations,2026-11-19,I-D Exists,none,,2026-11-19
+draft-sweeney-oauth-brokered-authorization,OAuth Brokered Authorization: Grant Custody for Short-Lived Client Instances,2026-11-20,I-D Exists,none,,2026-11-20
+draft-hood-oauth-over-agtp,OAuth 2.0 over the Agent Transfer Protocol,2026-11-23,I-D Exists,none,,2026-11-23

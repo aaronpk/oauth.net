@@ -1,0 +1,9 @@
+{
+    "name": "draft-schwenkschuster-oauth-spiffe-client-auth",
+    "title": "OAuth SPIFFE Client Authentication",
+    "last_revised_date": "2025-10-03",
+    "status": "I-D Exists",
+    "group": "oauth",
+    "ad": "",
+    "last_changed_date": "2025-11-13"
+}

@@ -1,12 +1,12 @@
 {
     "name": "draft-yusef-oauth-nested-jwt",
-    "title": "Multi-Subject JSON Web Token (JWT)",
-    "last_revised_date": "2022-06-14",
+    "title": "JSON Web Token (JWT) Embedded Tokens",
+    "last_revised_date": "2023-12-24",
     "status": "I-D Exists",
     "group": "none",
     "ad": "",
-    "last_changed_date": "2022-06-14",
-    "version": "04",
+    "last_changed_date": "2023-12-24",
+    "version": "08",
     "authors": [
         "R. Shekh-Yusef"
     ]

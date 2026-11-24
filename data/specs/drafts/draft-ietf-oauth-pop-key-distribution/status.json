@@ -1,0 +1,9 @@
+{
+    "name": "draft-ietf-oauth-pop-key-distribution",
+    "title": "OAuth 2.0 Proof-of-Possession: Authorization Server to Client Key Distribution",
+    "last_revised_date": "2019-03-27",
+    "status": "Expired",
+    "group": "oauth",
+    "ad": "",
+    "last_changed_date": "2019-09-28"
+}

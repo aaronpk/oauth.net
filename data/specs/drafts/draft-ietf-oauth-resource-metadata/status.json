@@ -1,0 +1,9 @@
+{
+    "name": "draft-ietf-oauth-resource-metadata",
+    "title": "OAuth 2.0 Protected Resource Metadata",
+    "last_revised_date": "2024-10-15",
+    "status": "RFC Ed Queue",
+    "group": "oauth",
+    "ad": "Deb Cooley",
+    "last_changed_date": "2025-04-22"
+}
