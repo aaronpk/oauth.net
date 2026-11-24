@@ -1,10 +1,734 @@
 {
     "kind": "youtube#playlistItemListResponse",
-    "etag": "hyOf-bXyBtHJrkJtl4sHCT0CRbM",
+    "etag": "BFlTwvH-EBnA9SUoMnq__k3Moyc",
     "items": [
         {
             "kind": "youtube#playlistItem",
-            "etag": "fHzYUK65eWkfRUltQEYSaGxjWlc",
+            "etag": "WqH6hnZsr3GeLjeVhnIcLuXuo2I",
+            "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS5CMEQ2Mjk5NTc3NDZFRUNB",
+            "snippet": {
+                "publishedAt": "2026-05-08T15:03:44Z",
+                "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
+                "title": "One Login to Rule Them All: Cross-App Access for MCP \u2014 Garrett Galow, WorkOS",
+                "description": "Connecting a coding agent to multiple services often means facing a dozen OAuth consent screens, a dozen token lifecycles, and a dozen chances for something to break. Despite having Single Sign-On, users still find themselves signing in repeatedly.\n\nThis talk explores how Cross-App Access leverages a three-way trust between the MCP client, the MCP server, and the organization's Identity Provider to simplify authentication. Through the Identity Assertion Authorization Grant flow, a single SSO login is transformed into access tokens across every MCP server, offering seamless access to all applications. The session will also highlight what this pattern enables for agent identity beyond MCP.\n\nSpeaker info:\nhttps://www.linkedin.com/in/garrett-galow/\n\n---\n\nWatch along with the corrected transcript, summary, timestamps and resources on this talk's official AIE page:\nhttps://ai.engineer/talks/EmhRyw6xeT0-one-login-to-rule-them-all-cross-app-access-for-mcp\n\nJoin our upcoming AI Engineer conferences (see https://ai.engineer landing page):\n\n- AIEi Shanghai, November 5\u20136 \u2014 the first for meeting top Chinese labs and engineers\n- AIE CODE in SF, November 10\u201312 \u2014 the top AI Coding conference returns\n- AIEi Sydney, December 7\u20138 \u2014 the first AIEi run alongside NeurIPS 2026 in Sydney\n\n---",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/EmhRyw6xeT0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/EmhRyw6xeT0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/EmhRyw6xeT0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/EmhRyw6xeT0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/EmhRyw6xeT0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    },
+                    "fhd": {
+                        "url": "https://i.ytimg.com/vi/EmhRyw6xeT0/fhddefault.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                },
+                "channelTitle": "Aaron Parecki",
+                "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "EmhRyw6xeT0"
+                },
+                "videoOwnerChannelTitle": "AI Engineer",
+                "videoOwnerChannelId": "UCLKPca3kwwd-B59HNr-_lvA"
+            },
+            "contentDetails": {
+                "videoId": "EmhRyw6xeT0",
+                "videoPublishedAt": "2026-04-28T14:00:06Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "w1wAhkmWK8uyxqfA1d4NR2xqqFU",
+            "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS45RjNFMDhGQ0Q2RkFCQTc1",
+            "snippet": {
+                "publishedAt": "2026-05-08T15:05:51Z",
+                "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
+                "title": "Evolution, Not Revolution: How MCP Is Reshaping OAuth - Aaron Parecki, Okta",
+                "description": "Evolution, Not Revolution: How MCP Is Reshaping OAuth - Aaron Parecki, Okta\n\nThe impulse to rewrite the auth stack for AI agents is strong, but we cannot design away the fundamental relationships standards protect. This session explores how MCP is reshaping OAuth\u2014not abandoning it\u2014to meet the ecosystem's unique challenges:\n\nThe \"Unregistered Client\" Problem: Traditional OAuth requires pre-registration. MCP breaks this. We\u2019ll see how Client ID Metadata Documents (CIMD) allow agents to bring their own identities to arbitrary servers, how it improves on Dynamic Client Registration, and how to mitigate the risks of unregistered clients.\n\nSeparation of Concerns: Why your MCP server shouldn't be your Authorization Server. We\u2019ll cover how Protected Resource Metadata (RFC 9728) enables dynamic auth server discovery, keeping agents lightweight and security boundaries clean.\n\nEnterprise-Managed Authorization: To stop \"click-through fatigue,\" we\u2019ll introduce the Identity Assertion Authorization Grant. This moves consent to the enterprise policy layer, enabling secure, scalable adoption.\n\nJoin me to secure the agent ecosystem\u2014from discovery to governance\u2014not by reinventing the wheel, but by making incremental improvements to the way it turns.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/zsoCFSeYvkc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/zsoCFSeYvkc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/zsoCFSeYvkc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/zsoCFSeYvkc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/zsoCFSeYvkc/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    },
+                    "fhd": {
+                        "url": "https://i.ytimg.com/vi/zsoCFSeYvkc/fhddefault.jpg",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                },
+                "channelTitle": "Aaron Parecki",
+                "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "zsoCFSeYvkc"
+                },
+                "videoOwnerChannelTitle": "Agentic AI Foundation",
+                "videoOwnerChannelId": "UCgkApalw5crKXOtr_mqtPQg"
+            },
+            "contentDetails": {
+                "videoId": "zsoCFSeYvkc",
+                "videoPublishedAt": "2026-04-13T23:19:15Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "PYXNINk5_ekyYcnrbMc-rc00Ahw",
+            "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS42MTI4Njc2QjM1RjU1MjlG",
+            "snippet": {
+                "publishedAt": "2026-05-08T15:04:29Z",
+                "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
+                "title": "Putting the Single Back in Single Sign-On: Cross-App Access for MCP - Paul Carleton & Max Gerber",
+                "description": "Putting the Single Back in Single Sign-On: Cross-App Access for MCP - Paul Carleton, Anthropic & Max Gerber, Twilio\n\nPaul Carleton (Anthropic) and Max Gerber (Stitch, now part of Twilio) demo the new IETF draft that kills OAuth consent screen fatigue for MCP. Identity Assertion JWT Authorization Grant (ID-JAG), also known as Cross-App Access (XAA), is the official MCP authorization extension that puts the enterprise workforce IDP back at the center of agent-to-tool access.\n\nThis is a working live demo with a real client (Claude Code and Cursor), a real IDP (Okta), and a real authorization server (Stitch) hitting real MCP servers including Figma, with zero user consent screens.\n\nIf you are deploying MCP inside an enterprise, building an MCP client, or running an identity platform, this is the spec you need to understand.\n\nWhat is covered:\n\n- The Consent Screen Nightmare: What happens on day one at Acme Corp when you spin up Claude Code and get hit with ten MCP servers all demanding individual OAuth approvals.\n- The IT Admin Problem: Why auditing many MCP clients talking to many MCP servers across Google, Slack, Figma, and Jira admin dashboards is impossible at scale.\n- Enterprise Data vs Consumer Data: Why the user is not the right decision maker for enterprise MCP authorization and why the IT admin and workforce IDP have been left out of the flow.\n- The Missing Piece in MCP OAuth: A full walkthrough of the standard MCP OAuth flow and exactly where the IDP is missing.\n- ID-JAG and Cross-App Access Explained: How the Identity Assertion JWT Authorization Grant (draft-ietf-oauth-identity-assertion-authz-grant) inserts the workforce IDP back into the flow and removes the end-user consent step entirely.\n- The Full XAA Flow: Trust relationships, token exchanges, and how the MCP client gets an ID-JAG from the IDP, exchanges it with the authorization server, and receives a standard bearer token.\n- Live Demo 1: Manual token exchange using Okta and Stitch against a demo MCP server.\n- Live Demo 2: Claude Code connecting to multiple MCP servers with zero consent screens after a single Okta login.\n- Live Demo 3: Cursor + Figma MCP using the same XAA flow, proving this is an open protocol across clients.\n- Beyond Friction: Per-session and per-sub-agent scoped access tokens for attribution, blast radius control, and auditing which Claude Code window deleted your database.\n- Q&A: Refresh tokens, OIDC client config, non-MCP use cases, and what still needs to change in clients, IDPs, and authorization servers.\n\nLinks and Resources:\n\n- XAA playground and developer docs: https://xaa.dev\n- IETF Draft (Identity Assertion JWT Authorization Grant): https://datatracker.ietf.org/doc/draft-ietf-oauth-identity-assertion-authz-grant/\n- MCP Authorization spec: https://modelcontextprotocol.io\n- Enterprise-Managed Authorization Profile for MCP (SEP-646 / SEP-990): https://modelcontextprotocol.io/extensions/auth/enterprise-managed-authorization\n- Stitch (Twilio): https://stytch.com\n- Okta Developer blog on XAA: https://developer.okta.com/blog/2026/01/20/xaa-dev-playground\n\nTimestamps (approximate, adjust as needed):\n\n00:00 Intro: Paul Carleton (Anthropic) and Max Gerber (Twilio)\n01:12 Day one at Acme: the consent screen nightmare\n02:21 The IT admin problem: auditing MCP across many servers\n03:51 Enterprise data vs consumer data\n04:17 Why workforce IDP and SSO matter\n05:13 Standard MCP OAuth flow review and what is missing\n06:32 Introducing Cross-App Access (XAA) and ID-JAG\n07:18 XAA as an official MCP authorization extension\n07:58 The full ID-JAG flow end to end\n09:08 Live demo: manual token exchange with Okta and Stitch\n11:28 Live demo: Claude Code with zero consent screens\n12:53 Live demo: Cursor plus Figma MCP via XAA\n15:08 Takeaways: attribution and scoped per-session tokens\n16:58 Scoped tokens for sub-agents and orchestrators\n17:33 Summary: one login, central control, future identity wins\n18:06 Q&A: refresh tokens, IDP config, non-MCP use cases\n\n#MCP #OAuth #EnterpriseAI",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/HRrzzORvy84/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/HRrzzORvy84/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/HRrzzORvy84/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/HRrzzORvy84/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/HRrzzORvy84/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Aaron Parecki",
+                "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "HRrzzORvy84"
+                },
+                "videoOwnerChannelTitle": "Agentic AI Foundation",
+                "videoOwnerChannelId": "UCgkApalw5crKXOtr_mqtPQg"
+            },
+            "contentDetails": {
+                "videoId": "HRrzzORvy84",
+                "videoPublishedAt": "2026-04-13T23:16:15Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "AW6AdoSspWlD4JvNM1mlyAEriVA",
+            "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS5DMkU4NTY1QUFGQTYwMDE3",
+            "snippet": {
+                "publishedAt": "2026-01-29T15:49:52Z",
+                "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
+                "title": "How AI agents, MCP break old OAuth patterns ft. Aaron Parecki",
+                "description": "In this episode, Ravi Madabhushi (Co-founder, Scalekit) sits down with Aaron Parecki, longtime OAuth contributor, to explore how OAuth and OpenID Connect have evolved, and why they\u2019re even more relevant in the age of AI agents and MCP servers.\nThey discuss:\nOAuth vs OpenID Connect, and why both exist\nWhy SAML still lingers despite being \"dead\"\nHow MCP breaks traditional OAuth assumptions\nAPI keys vs OAuth for modern systems\nTransaction tokens and fine-grained authorization\nWhat identity for AI agents should look like\n\nThis episode is for engineers building APIs, MCP servers, and secure AI-native systems.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/JFyku2YnuWA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/JFyku2YnuWA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/JFyku2YnuWA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/JFyku2YnuWA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/JFyku2YnuWA/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Aaron Parecki",
+                "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "JFyku2YnuWA"
+                },
+                "videoOwnerChannelTitle": "Scalekit ",
+                "videoOwnerChannelId": "UC4_ygw5mMepy25XSYJRB1Iw"
+            },
+            "contentDetails": {
+                "videoId": "JFyku2YnuWA",
+                "videoPublishedAt": "2026-01-16T06:45:43Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "I-d5lbzlkMlghUVAn7SKEh4mu_0",
+            "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS5DNzE1RjZEMUZCMjA0RDBB",
+            "snippet": {
+                "publishedAt": "2026-01-29T15:47:35Z",
+                "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
+                "title": "Making OAuth Scale Securely for MCPs - Aaron Parecki - ASW #360",
+                "description": "The MCP standard gave rise to dreams of interconnected agents and nightmares of what those interconnected agents would do with unfettered access to APIs, data, and local systems. Aaron Parecki explains how OAuth's new Client ID Metadata Documents spec provides more security for MCPs and the reasons why the behavior and design of MCPs required a new spec like this.\r\n\r\nSegment resources:\r\n\r\n- https://aaronparecki.com/2025/11/25/1/mcp-authorization-spec-update\r\n- https://www.ietf.org/archive/id/draft-ietf-oauth-client-id-metadata-document-00.html\r\n- https://oauth.net/cross-app-access/\r\n- https://oauth.net/2/oauth-best-practice/\r\n\nVisit https://www.securityweekly.com/asw for all the latest episodes!\n\nShow Notes: https://securityweekly.com/asw-360",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/N4K-XdjLa-g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/N4K-XdjLa-g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/N4K-XdjLa-g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/N4K-XdjLa-g/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/N4K-XdjLa-g/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Aaron Parecki",
+                "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "N4K-XdjLa-g"
+                },
+                "videoOwnerChannelTitle": "Security Weekly - A CRA Resource",
+                "videoOwnerChannelId": "UCg--XBjJ50a9tUhTKXVPiqg"
+            },
+            "contentDetails": {
+                "videoId": "N4K-XdjLa-g",
+                "videoPublishedAt": "2025-12-09T10:00:44Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "6NHGn3_LlMiXttRAO0xf7jHkn3U",
+            "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS45NzUwQkI1M0UxNThBMkU0",
+            "snippet": {
+                "publishedAt": "2026-01-29T15:47:29Z",
+                "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
+                "title": "What CIMD Means for MCP: Safer OAuth Without DCR \u2014 Max Gerber (Stytch)",
+                "description": "\ud835\uddd6\ud835\udddc\ud835\udde0\ud835\uddd7 (\ud835\uddd6\ud835\uddf9\ud835\uddf6\ud835\uddf2\ud835\uddfb\ud835\ude01 \ud835\udddc\ud835\uddd7 \ud835\udde0\ud835\uddf2\ud835\ude01\ud835\uddee\ud835\uddf1\ud835\uddee\ud835\ude01\ud835\uddee \ud835\uddd7\ud835\uddfc\ud835\uddf0\ud835\ude02\ud835\uddfa\ud835\uddf2\ud835\uddfb\ud835\ude01\ud835\ude00) is a new approach that lets MCP clients use a \ud835\uddf1\ud835\uddfc\ud835\uddfa\ud835\uddee\ud835\uddf6\ud835\uddfb-\ud835\ude03\ud835\uddf2\ud835\uddff\ud835\uddf6\ud835\uddf3\ud835\uddf6\ud835\uddf2\ud835\uddf1 \ud835\udde8\ud835\udde5\ud835\udddf \ud835\uddee\ud835\ude00 \ud835\ude01\ud835\uddf5\ud835\uddf2 \ud835\uddf0\ud835\uddf9\ud835\uddf6\ud835\uddf2\ud835\uddfb\ud835\ude01 \ud835\udddc\ud835\uddd7, so auth servers can fetch trusted client metadata on the fly\u2014no endless Dynamic Client Registration (DCR) sprawl, fewer phishing risks, and clearer visibility for users and operators.\n\nIn this \ud835\ude1b\ud835\ude29\ud835\ude26 \ud835\ude0a\ud835\ude30\ud835\ude2f\ud835\ude35\ud835\ude26\ud835\ude39\ud835\ude35 session, \ud835\udde0\ud835\uddee\ud835\ude05 \ud835\uddda\ud835\uddf2\ud835\uddff\ud835\uddef\ud835\uddf2\ud835\uddff (\ud835\udde6\ud835\uddfc\ud835\uddf3\ud835\ude01\ud835\ude04\ud835\uddee\ud835\uddff\ud835\uddf2 \ud835\uddd8\ud835\uddfb\ud835\uddf4\ud835\uddf6\ud835\uddfb\ud835\uddf2\ud835\uddf2\ud835\uddff, \ud835\udde6\ud835\ude01\ud835\ude06\ud835\ude01\ud835\uddf0\ud835\uddf5) explains:\n\nWhy DCR became a bottleneck for MCP (client sprawl, ops overhead, impersonation risks)\n\nHow CIMD works (client metadata at a public URL; domain = trust anchor)\n\nWhat MCP clients need to ship (publish JSON, detect CIMD support, fall back to DCR)\n\nWhat auth servers need to ship (fetch/validate metadata, caching, SSRF protections)\n\nWhat\u2019s next for the ecosystem (client registries, attestation for local clients)\n\nhttps://client.dev/\nhttps://stytch.com/\nhttps://x.com/r3turnofthemax",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5RYhM8Vj3qw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5RYhM8Vj3qw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5RYhM8Vj3qw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/5RYhM8Vj3qw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/5RYhM8Vj3qw/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Aaron Parecki",
+                "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "5RYhM8Vj3qw"
+                },
+                "videoOwnerChannelTitle": "Agentic AI Foundation",
+                "videoOwnerChannelId": "UCgkApalw5crKXOtr_mqtPQg"
+            },
+            "contentDetails": {
+                "videoId": "5RYhM8Vj3qw",
+                "videoPublishedAt": "2025-11-10T16:28:12Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "zcGIhCsva0UW_-R3MeONwRoTQhs",
+            "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS4zRjM0MkVCRTg0MkYyQTM0",
+            "snippet": {
+                "publishedAt": "2026-01-29T15:47:23Z",
+                "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
+                "title": "Ep. 149.5: OAuth Client ID Metadata Document (CIMD), with Aaron Parecki (Okta)",
+                "description": "Identerati Office Hours (IOH), a livestream from Gluu: https://gluu.org\nShow notes, homework and takeaways: https://gluu.org/office-episodes/episode-149-5-oauth-client-id-metadata-document\n\nHow can an OAuth client connect to an authorization server that has never seen it before, without dynamic client registration? Aaron Parecki, Director of Identity Standards at Okta, joins host Mike Schwartz to explain the OAuth Client ID Metadata Document (CIMD) draft: clients use a URL as their client_id and publish their metadata there, which enables open-world OAuth for Mastodon, Bluesky and MCP, with attestation-based client authentication for mobile apps and open questions for desktop apps.\n\nAaron Parecki is Director of Identity Standards at Okta. He has been involved in MCP authorization since April, when he first raised CIMD with that community, and works on the draft in the IETF OAuth working group.\n\nIn this episode, he explains:\n\u25a0 *A URL as the client_id:* the client hosts a metadata document, with its name, logo, redirect URIs and keys, at the URL it uses as its client_id, so an authorization server can fetch it the first time the client appears. That is what Mastodon, Bluesky and MCP clients need.\n\u25a0 *Control without pre-registration:* CIMD doesn't rule out registration, and an authorization server can still limit which clients connect, for example an enterprise allow-listing the client ID URLs of the three tools it approves.\n\u25a0 *Client authentication:* web clients publish a JWKS and sign a JWT as client authentication. Mobile apps can't serve a URL, so attestation-based client authentication uses Apple's and Google's app attestation: the app's backend signs a JWT the app then uses to authenticate.\n\u25a0 *Implementing it on an authorization server:* fetch the metadata at the authorization endpoint, show the client name on the consent screen, and treat it as self-asserted, since a client calling itself Google Docs doesn't make it Google Docs; decide when to refetch. Dynamic client registration, by contrast, leaves millions of stale client records.\n\u25a0 *Desktop apps, MCP and URLs as identifiers:* there is no standard answer for desktop apps, and software statements don't solve it. MCP first chose DCR because CIMD was new, and is now moving to it; with Protected Resource Metadata already an RFC, clients identified by URLs fit the same pattern. CIMD is on the Janssen Project's authorization server roadmap.\n\nChapters:\n00:00 What is the Client ID Metadata Document?\n01:38 How is it like SAML metadata URLs?\n04:12 Why does pre-registration fail in an open world?\n05:31 What do Mastodon, Bluesky and MCP need?\n06:37 Can you still use dynamic client registration?\n08:10 Can an AS still limit which clients connect?\n09:27 How do you allow-list client URLs?\n10:59 How do web clients authenticate with a JWKS?\n12:33 How do mobile apps use a metadata URL?\n13:52 What does attestation-based client auth add?\n17:48 How does an AS vendor implement CIMD?\n20:09 What goes on the consent screen?\n21:20 Which endpoint sees the client_id URL?\n23:56 Do first-party apps still need consent?\n25:30 When should the AS refetch metadata?\n27:03 What's wrong with dynamic client registration?\n29:18 What about desktop apps?\n31:38 Do software statements help?\n36:19 Could an attestation be a software statement?\n37:26 How did MCP come to adopt CIMD?\n40:04 When will CIMD reach the Janssen Project?\n42:55 What do critics of DCR say?\n44:11 Why use URLs as identifiers?\n\nFollow Aaron Parecki:\nLinkedIn - https://www.linkedin.com/in/aaronparecki/\n\nIdenterati Office Hours:\n\u25fc All episodes and show notes - https://gluu.org/identerati-office-hours-episodes\n\u25fc Gluu - https://gluu.org\n\u25fc Live on LinkedIn - https://gluu.co/ioh-home",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/DHf_95lNrj8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/DHf_95lNrj8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/DHf_95lNrj8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/DHf_95lNrj8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/DHf_95lNrj8/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Aaron Parecki",
+                "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "DHf_95lNrj8"
+                },
+                "videoOwnerChannelTitle": "Identerati Office Hours",
+                "videoOwnerChannelId": "UCP83QBa22O66LdbjTQzFnFQ"
+            },
+            "contentDetails": {
+                "videoId": "DHf_95lNrj8",
+                "videoPublishedAt": "2025-10-31T11:41:06Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Gx0JHfDLnpgHzl8LNcQgN_toZ5M",
+            "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS4zRDBDOEZDOUM0MDY5NEEz",
+            "snippet": {
+                "publishedAt": "2026-01-29T15:51:44Z",
+                "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
+                "title": "How to Secure Agents using OAuth \u2014 Jared Hanson (Keycard, Passport.js)",
+                "description": "We all know sharing passwords is bad (unless you want free TV), so why are we sharing API keys with AI?  We shouldn't, and that\u2019s why we need to talk about OAuth.\n\nIn this talk, we will give a brief intro to OAuth.  Then we will talk about the state of authorization in MCP.  We will show how an MCP client uses OAuth to authenticate a user and securely access private resources and tools hosted by an MCP server.  Then we\u2019ll look at ways autonomous agents can use OAuth on their own behalf, talking to other agents and MCP servers directly.  We\u2019ll learn how to use OAuth to build agents that humans and machines can trust.\n\nAbout Jared Hanson\nJared Hanson is the co-founder of Keycard, a company building identity infrastructure for the agent-native world. Previously at Okta and Auth0, Jared is an expert on OpenID, OAuth, and all things identity. He\u2019s also the author of Passport.js, the popular authentication framework for Node.js. At Keycard, he is applying that knowledge to securing AI and infrastructure.\n\nRecorded at the AI Engineer World's Fair in San Francisco. Stay up to date on our upcoming events and content by joining our newsletter here: https://www.ai.engineer/newsletter\n\n---\n\nWatch along with the corrected transcript, summary, timestamps and resources on this talk's official AIE page:\nhttps://ai.engineer/talks/blmAkayzE8M-how-to-secure-agents-using-oauth\n\nJoin our upcoming AI Engineer conferences (see https://ai.engineer landing page):\n\n- AIEi Shanghai, November 5\u20136 \u2014 the first for meeting top Chinese labs and engineers\n- AIE CODE in SF, November 10\u201312 \u2014 the top AI Coding conference returns\n- AIEi Sydney, December 7\u20138 \u2014 the first AIEi run alongside NeurIPS 2026 in Sydney\n\n---",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/blmAkayzE8M/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/blmAkayzE8M/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/blmAkayzE8M/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/blmAkayzE8M/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/blmAkayzE8M/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Aaron Parecki",
+                "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "blmAkayzE8M"
+                },
+                "videoOwnerChannelTitle": "AI Engineer",
+                "videoOwnerChannelId": "UCLKPca3kwwd-B59HNr-_lvA"
+            },
+            "contentDetails": {
+                "videoId": "blmAkayzE8M",
+                "videoPublishedAt": "2025-07-30T16:30:15Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "Xhju4I-QYtASc83APCGWf4QfcfE",
+            "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS44Mjc5REFBRUE2MTdFRDU0",
+            "snippet": {
+                "publishedAt": "2026-01-29T15:50:32Z",
+                "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
+                "title": "EP 166 - Open Authorization In The World Of AI With Aaron Parecki",
+                "description": "How do we apply the battle-tested principles of authentication and authorization to the rapidly evolving world of AI and Large Language Models (LLMs)? In this episode, we're joined by Aaron Parecki, Director of Identity Standards at Okta, to explore the past, present, and future of OAuth.  We dive into the lessons learned from the evolution of OAuth 1.0 to 2.1, discuss the critical role of standards in securing new technologies, and unpack how identity frameworks can be extended to provide secure, manageable access for AI agents in enterprise environments.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/B23L2tDikmM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/B23L2tDikmM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/B23L2tDikmM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/B23L2tDikmM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/B23L2tDikmM/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Aaron Parecki",
+                "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "B23L2tDikmM"
+                },
+                "videoOwnerChannelTitle": "The Secure Developer",
+                "videoOwnerChannelId": "UCzl5NR8zF4xzzuzMncGpQvA"
+            },
+            "contentDetails": {
+                "videoId": "B23L2tDikmM",
+                "videoPublishedAt": "2025-06-10T16:00:17Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "oPiGQ3h6dEKzWblYsYUmc-KLkC8",
+            "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS5GM0Q3M0MzMzY5NTJFNTdE",
+            "snippet": {
+                "publishedAt": "2025-06-19T20:35:18Z",
+                "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
+                "title": "[Session] Intro to OAuth for MCP Servers with Aaron Parecki, Okta",
+                "description": "Intro to OAuth for MCP Servers\n\ud83c\udfa4 Aaron Parecki, Director of Identity Standards - Okta\n\ud83d\udd17 Blog post https://bit.ly/4kPzo1G\n\nOAuth 2 has become the standard framework for securing APIs across the web, enabling secure access to data without sharing passwords. In this session you'll get a practical introduction to OAuth and understand its core concepts, including authorization flows, tokens, and scopes. We'll then explore how OAuth applies specifically to MCP Servers, highlighting common implementation strategies, usage with upstream APIs, and integration with existing identity providers. Whether you're new to OAuth or just starting with MCP, this talk will give you the essential knowledge to confidently approach securing your MCP Server.\n\n\u2728 MCP Developers Summit 2025\n\ud83d\udcc5 May 23, 2025\n\ud83d\udccd San Francisco, CA",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mYKMwZcGynw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mYKMwZcGynw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mYKMwZcGynw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/mYKMwZcGynw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/mYKMwZcGynw/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Aaron Parecki",
+                "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "mYKMwZcGynw"
+                },
+                "videoOwnerChannelTitle": "Agentic AI Foundation",
+                "videoOwnerChannelId": "UCgkApalw5crKXOtr_mqtPQg"
+            },
+            "contentDetails": {
+                "videoId": "mYKMwZcGynw",
+                "videoPublishedAt": "2025-05-31T15:56:13Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "YhVgwETJrBhma2S88hVwwHc6Lwo",
+            "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS4yQUE2Q0JEMTk4NTM3RTZC",
+            "snippet": {
+                "publishedAt": "2026-01-29T15:49:02Z",
+                "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
+                "title": "A Deep Dive into the Past, Present & Future of OAuth \u2022 Aaron Parecki \u2022 GOTO 2024",
+                "description": "This presentation was recorded at GOTO Chicago 2024. #GOTOcon #GOTOchgo\nhttps://gotochgo.com\n\nAaron Parecki - Director of Identity Standards at Okta @aaronpk \n\nRESOURCES\nhttps://aaronpk.tv\nhttps://bsky.app/profile/aaronpk.com\nhttps://twitter.com/aaronpk\nhttps://instagram.com/aaronpk_tv\nhttps://github.com/aaronpk\nhttps://www.linkedin.com/in/aaronparecki\n\nLinks\nhttps://oauth.net/2\nhttps://oauth.net/2.1\nhttps://oauth.net/2/pushed-authorization-requests\nhttps://oauth.net/2/rich-authorization-requests\nhttps://datatracker.ietf.org/doc/html/draft-ietf-oauth-step-up-authn-challenge\nhttps://oauth.net/2/jwt-access-tokens\nhttps://datatracker.ietf.org/doc/draft-ietf-oauth-browser-based-apps\nhttps://blog.google/threat-analysis-group/phishing-campaign-targets-youtube-creators-cookie-theft-malware\nhttps://oauth.net/2/dpop\nhttps://oauth.net/http-signatures\nhttps://blog.chromium.org/2024/04/fighting-cookie-theft-using-device.html\nhttps://github.com/WICG/dbsc\nhttps://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/BindingContext/explainer.md\nhttps://datatracker.ietf.org/doc/draft-ietf-oauth-attestation-based-client-auth\nhttps://datatracker.ietf.org/doc/draft-ietf-oauth-identity-chaining\nhttps://datatracker.ietf.org/doc/draft-parecki-oauth-identity-assertion-authz-grant\nhttps://datatracker.ietf.org/doc/draft-parecki-oauth-global-token-revocation\n\nABSTRACT\nAaron is at the forefront of shaping the standards that govern online authentication. In this session, Aaron will share his insights into the evolving landscape of identity and access management, highlighting key trends, challenges, and best practices. Drawing on his experience as the editor of OAuth 2.1 and other specifications, Aaron will discuss the future of OAuth and its impact on developers and security professionals.\n\nThis session will cover everything from the origins of OAuth to protect users from having to share their credentials with third-party apps, to modern-day uses of OAuth ranging everywhere from advanced token exchange use cases to being the underpinnings of secure identity in the enterprise. Expect takeaways on securing applications at scale and understanding the next generation of identity protocols. [...]\n\nTIMECODES\n00:00 Intro\n01:29 The password anti-pattern\n02:05 Why is this bad?\n03:27 Solution\n05:13 OAuth 2.0\n12:38 OAuth 2.1\n13:36 OpenID Connect\n16:19 Front channel vs Back channel\n21:50 Recent OAuth extensions\n32:09 Nearly-final specifications\n36:15 Sender-constrained access tokens\n40:40 Emerging themes\n43:10 Is your app enterprise-ready?\n45:59 Outro\n\nDownload slides and read the full abstract here:\nhttps://gotochgo.com/2024/sessions/3364\n\nRECOMMENDED BOOKS\nAaron Parecki \u2022 OAuth 2.0 Simplified \u2022 https://amzn.to/2A3IMOf\nAaron Parecki \u2022 OAuth 2.0 Servers \u2022 https://amzn.to/3ecHEsz\nAaron Parecki \u2022 The Little Book of OAuth 2.0 RFCs \u2022 https://amzn.to/3i7qnlC\nErdal Ozkaya \u2022 Cybersecurity: The Beginner's Guide \u2022 https://amzn.to/2T6OIj3\nRicher & Sanso \u2022 OAuth 2 in Action \u2022 https://amzn.to/3hXiAH6\nWilson & Hingnikar \u2022 Demystifying OAuth 2.0, OpenID Connect, and SAML 2.0 \u2022 https://amzn.to/2U8iLY2\n\nhttps://bsky.app/profile/gotocon.com\nhttps://twitter.com/GOTOcon\nhttps://www.linkedin.com/company/goto-\nhttps://www.instagram.com/goto_con\nhttps://www.facebook.com/GOTOConferences\n#OAuth2 #OAuth #Security #Privacy #SecureWebServer #AWS #Serverless #Okta #AWSserverless #AuthZ #AuthN #OpenIDconnect #OpenID #Cybersecurity #Encryption #JWT #JSONWebTokens #RFC #PKCE #AaronParecki\n\nCHANNEL MEMBERSHIP BONUS\nJoin this channel to get early access to videos & other perks:\nhttps://www.youtube.com/channel/UCs_tLP3AiwYKwdUHpltJPuA/join\n\nLooking for a unique learning experience?\nAttend the next GOTO conference near you! Get your ticket at https://gotopia.tech\nSign up for updates and specials at https://gotopia.tech/newsletter\n\nSUBSCRIBE TO OUR CHANNEL - new videos posted almost daily.\nhttps://www.youtube.com/user/GotoConferences/?sub_confirmation=1",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/JL38YBogo2Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/JL38YBogo2Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/JL38YBogo2Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/JL38YBogo2Y/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/JL38YBogo2Y/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Aaron Parecki",
+                "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
+                "position": 10,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "JL38YBogo2Y"
+                },
+                "videoOwnerChannelTitle": "GOTO Conferences",
+                "videoOwnerChannelId": "UCs_tLP3AiwYKwdUHpltJPuA"
+            },
+            "contentDetails": {
+                "videoId": "JL38YBogo2Y",
+                "videoPublishedAt": "2025-01-24T13:00:33Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "xWjuWO9MAipZm8ms6JI0KATSU5s",
+            "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS41QUZGQTY5OTE4QTREQUU4",
+            "snippet": {
+                "publishedAt": "2026-01-29T15:51:21Z",
+                "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
+                "title": "The State of OAuth",
+                "description": "Speaker: Aaron Parecki - Okta\nDate: Wednesday, May 31, 2023\nLocation: ARIA Resort & Casino | Las Vegas, NV  \n#identiverse2023 \nidentiverse.com   \n\nDescription: OAuth 2.1 is just around the corner, but what does it mean for developers? In this session, you'll learn about the latest developments in the OAuth specs directly from the co-author of OAuth 2.1. The latest additions to the specs enable richer experiences and better security for applications and APIs using OAuth. Since the original publication of OAuth 2.0 (RFC 6749) in 2012, several new RFCs have been published that either add or remove functionality from the core spec, including OAuth 2.0 for Native Apps, Proof Key for Code Exchange, OAuth for Browser-Based Apps, and OAuth 2.0 Security Best Current Practice. OAuth 2.1 is an in-progress effort to consolidate and simplify OAuth 2.0 by packaging up all the best practices into a new version of the spec. This session will cover the current status of this ongoing work and what you need to know to be prepared for the publication of OAuth 2.1.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/XB7EWa3fuXo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/XB7EWa3fuXo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/XB7EWa3fuXo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/XB7EWa3fuXo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/XB7EWa3fuXo/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Aaron Parecki",
+                "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
+                "position": 11,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "XB7EWa3fuXo"
+                },
+                "videoOwnerChannelTitle": "Identiverse - A CRA Resource",
+                "videoOwnerChannelId": "UCUOo7SSG-a4yk8-11kPDKqg"
+            },
+            "contentDetails": {
+                "videoId": "XB7EWa3fuXo",
+                "videoPublishedAt": "2024-06-17T16:43:14Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "qAi7K6yWVMtWpIUuEAO-k_X5szc",
+            "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS43MTI1NDIwOTMwQjIxMzNG",
+            "snippet": {
+                "publishedAt": "2026-01-29T15:48:33Z",
+                "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
+                "title": "OAuth in 5 Minutes \u2022 Aaron Parecki \u2022 GOTO 2023",
+                "description": "This presentation was recorded for GOTO Byte-Sized. #GOTOcon #GOTO\nhttps://gotopia.tech\n\nAaron Parecki - Senior Security Architect at Okta @aaronpk \n\nREAD MORE\n\"OAuth: A Critical Security & Efficiency Tool for Software Developers\":\nhttps://gotopia.tech/articles/262\n\nCheck out a longer version:\nhttps://youtu.be/nbufy9BZIZ8\n\nRESOURCES\nhttps://aaronpk.tv\nhttps://bsky.app/profile/aaronpk.com\nhttps://twitter.com/aaronpk\nhttps://instagram.com/aaronpk_tv\nhttps://github.com/aaronpk\nhttps://www.linkedin.com/in/aaronparecki\n\nABSTRACT\nTake a deep dive into some advanced OAuth 2.0 processes and pitfalls like redirect URLs and state property.\nJoin Aaron, author of the book OAuth 2.0 Simplified (https://amzn.to/2A3IMOf) where he explains some of the main reasons to use the OAuth 2.0 framework, that has already become an industry standard, and what it takes to build a secure web server [...]\n\nRead the full abstract here:\nhttps://gotopia.eu/february-2021/sessions/1670\n\nRECOMMENDED BOOKS\nAaron Parecki \u2022 OAuth 2.0 Simplified \u2022 https://amzn.to/2A3IMOf\nAaron Parecki \u2022 OAuth 2.0 Servers \u2022 https://amzn.to/3ecHEsz\nAaron Parecki \u2022 The Little Book of OAuth 2.0 RFCs \u2022 https://amzn.to/3i7qnlC\nErdal Ozkaya \u2022 Cybersecurity: The Beginner's Guide \u2022 https://amzn.to/2T6OIj3\nRicher & Sanso \u2022 OAuth 2 in Action \u2022 https://amzn.to/3hXiAH6\nWilson & Hingnikar \u2022 Demystifying OAuth 2.0, OpenID Connect, and SAML 2.0 \u2022 https://amzn.to/2U8iLY2\n\nhttps://twitter.com/GOTOcon\nhttps://www.linkedin.com/company/goto-\nhttps://www.instagram.com/goto_con\nhttps://www.facebook.com/GOTOConferences\n#OAuth2 #OAuth #Security #Privacy #SecureWebServer #AWS #Serverless #Okta #AWSserverless #AuthZ #AuthN #OpenIDconnect #OpenID #Cybersecurity #Encryption #JWT #JSONWebTokens #RFC #PKCE #GOTOByteSized #ByteSized\n\nLooking for a unique learning experience?\nAttend the next GOTO conference near you! Get your ticket at https://gotopia.tech\n\nSUBSCRIBE TO OUR CHANNEL - new videos posted almost daily.\nhttps://www.youtube.com/user/GotoConferences/?sub_confirmation=1",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/z1B_mAlFVcE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/z1B_mAlFVcE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/z1B_mAlFVcE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/z1B_mAlFVcE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/z1B_mAlFVcE/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Aaron Parecki",
+                "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
+                "position": 12,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "z1B_mAlFVcE"
+                },
+                "videoOwnerChannelTitle": "GOTO Conferences",
+                "videoOwnerChannelId": "UCs_tLP3AiwYKwdUHpltJPuA"
+            },
+            "contentDetails": {
+                "videoId": "z1B_mAlFVcE",
+                "videoPublishedAt": "2023-11-07T12:30:39Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "PHTPykD57n9gqqCFuG8Q8mpCTig",
+            "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS43NDhFRTgwOTRERTU4Rjg3",
+            "snippet": {
+                "publishedAt": "2026-01-29T15:51:02Z",
+                "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
+                "title": "OWASP NZ 22 - Why Do We Really Need OAuth? - Aaron Parecki - Okta",
+                "description": "Description\n\nEven if you've never heard about OAuth, you've certainly used it in your daily life already. But what purpose does OAuth actually serve?\n\nIn this session, you'll learn about the original problems OAuth set out to solve, and how it evolved over the years into the foundation of nearly every modern system on the web.\n\nThis session explains OAuth through the lens of everyday life, without jargon or code. You'll learn how OAuth makes life easier for app developers, and how it enables the best blend of security and usability.\n\nSpeaker Biography\n\nAaron Parecki is a Senior Security Architect at Okta, with over 20 years of experience in the industry. He is the author of OAuth 2.0 Simplified, maintains oauth.net, and has taught the fundamentals of OAuth and online security to thousands of developers worldwide. He has been invited to speak at events around the world about OAuth, online security, privacy and data ownership. He is a regular contributor to several globally-recognized specifications at the IETF including OAuth 2.1 and GNAP. [Twitter: @aaronpk]",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/wlUCF4Y9T6k/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/wlUCF4Y9T6k/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/wlUCF4Y9T6k/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/wlUCF4Y9T6k/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/wlUCF4Y9T6k/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Aaron Parecki",
+                "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
+                "position": 13,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "wlUCF4Y9T6k"
+                },
+                "videoOwnerChannelTitle": "OWASP NZ Chapter",
+                "videoOwnerChannelId": "UCWjcSSETjqhzBlVxXTW1zhg"
+            },
+            "contentDetails": {
+                "videoId": "wlUCF4Y9T6k",
+                "videoPublishedAt": "2022-07-20T00:19:32Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "4DwUc1s3jRgT8_KoJ990mslOl5M",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS4yMDhBMkNBNjRDMjQxQTg1",
             "snippet": {
                 "publishedAt": "2021-11-15T16:13:25Z",
@@ -40,7 +764,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 0,
+                "position": 14,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "uN860I2kGo0"
@@ -55,7 +779,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "q4uRXizq3Hcgb4Z9q0QoFuVblhw",
+            "etag": "bZThwDQ3tnLmRjRrKfanwVEOSV8",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS5ENDU4Q0M4RDExNzM1Mjcy",
             "snippet": {
                 "publishedAt": "2021-10-04T20:09:17Z",
@@ -91,7 +815,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 1,
+                "position": 15,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "WPeulphAj6I"
@@ -106,7 +830,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "jGHOYm22TNZ-AmJivYze8j8ZwhE",
+            "etag": "PKXkRwitDJ-DYJaZYot4zK8MFDM",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS45RTgxNDRBMzUwRjQ0MDhC",
             "snippet": {
                 "publishedAt": "2021-08-26T01:26:48Z",
@@ -142,7 +866,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 2,
+                "position": 16,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "LopE3t0-Ak8"
@@ -157,13 +881,13 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "cvULbYVxMURTMoCmEu-SJl-xLzo",
+            "etag": "MyFvD7EA-zUh6pMFY0giyIQTwW8",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS4yMUQyQTQzMjRDNzMyQTMy",
             "snippet": {
                 "publishedAt": "2021-07-13T19:06:55Z",
                 "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
                 "title": "Fireside Chat About OAuth 2.0 \u2022 Aaron Parecki & Eric Johnson \u2022 GOTO 2021",
-                "description": "This presentation was recorded at GOTOpia February 2021. #GOTOcon #GOTOpia\nhttp://gotopia.eu\n\nAaron Parecki - Senior Security Architect at Okta\nEric Johnson - Senior Developer Advocate at AWS Serverless\n\nABSTRACT\nTake a deep dive into some advanced OAuth 2.0 processes and pitfalls like redirect URLs and state property.\nJoin Aaron Parecki, author of the book OAuth 2.0 Simplified (https://amzn.to/2A3IMOf), and Eric Johnson, senior developer advocate at AWS for a fireside chat where they discuss some of the main reasons to use the OAuth 2.0 framework, that has already become an industry standard, and what it takes to build a secure web server [...]\n\nTIMECODES\n00:00 Intro\n01:14 What is OAuth?\n02:07 Difference between AuthZ & AuthN\n04:55 Is JSON Web Token (JWT) OAuth?\n06:16 The history of OAuth\n17:37 A good level of security\n21:30 Difference between timeout & verification of use\n23:46 Changes in OAuth 2.1\n27:12 What is PKCE?\n28:50 Outro\n\nRead the full abstract here:\nhttps://gotopia.eu/february-2021/sessions/1670/fireside-chat-about-oauth-2-0\n\nRECOMMENDED BOOKS\nAaron Parecki \u2022 OAuth 2.0 Simplified \u2022 https://amzn.to/2A3IMOf\nAaron Parecki \u2022 OAuth 2.0 Servers \u2022 https://amzn.to/3ecHEsz\nAaron Parecki \u2022 The Little Book of OAuth 2.0 RFCs \u2022 https://amzn.to/3i7qnlC\nErdal Ozkaya \u2022 Cybersecurity: The Beginner's Guide \u2022 https://amzn.to/2T6OIj3\nRicher & Sanso \u2022 OAuth 2 in Action \u2022 https://amzn.to/3hXiAH6\nWilson & Hingnikar \u2022 Demystifying OAuth 2.0, OpenID Connect, and SAML 2.0 \u2022 https://amzn.to/2U8iLY2\n\nhttps://twitter.com/GOTOcon\nhttps://www.linkedin.com/company/goto-\nhttps://www.facebook.com/GOTOConferences\n#OAuth2 #OAuth #Security #Privacy #SecureWebServer #AWS #Serverless #Okta #AWSserverless #AuthZ #AuthN #OpenIDconnect #OpenID #Cybersecurity #Encryption #JWT #JSONWebTokens #RFC #PKCE\n\nLooking for a unique learning experience?\nAttend the next GOTO conference near you! Get your ticket at https://gotopia.tech\n\nSUBSCRIBE TO OUR CHANNEL - new videos posted almost daily.\nhttps://www.youtube.com/user/GotoConferences/?sub_confirmation=1",
+                "description": "This presentation was recorded at GOTOpia February 2021. #GOTOcon #GOTOpia\nhttp://gotopia.eu\n\nAaron Parecki - Senior Security Architect at Okta @aaronpk \nEric Johnson - Senior Developer Advocate at AWS Serverless\n\nABSTRACT\nTake a deep dive into some advanced OAuth 2.0 processes and pitfalls like redirect URLs and state property.\nJoin Aaron Parecki, author of the book OAuth 2.0 Simplified (https://amzn.to/2A3IMOf), and Eric Johnson, senior developer advocate at AWS for a fireside chat where they discuss some of the main reasons to use the OAuth 2.0 framework, that has already become an industry standard, and what it takes to build a secure web server [...]\n\nTIMECODES\n00:00 Intro\n01:14 What is OAuth?\n02:07 Difference between AuthZ & AuthN\n04:55 Is JSON Web Token (JWT) OAuth?\n06:16 The history of OAuth\n17:37 A good level of security\n21:30 Difference between timeout & verification of use\n23:46 Changes in OAuth 2.1\n27:12 What is PKCE?\n28:50 Outro\n\nRead the full abstract here:\nhttps://gotopia.eu/february-2021/sessions/1670/fireside-chat-about-oauth-2-0\n\nRECOMMENDED BOOKS\nAaron Parecki \u2022 OAuth 2.0 Simplified \u2022 https://amzn.to/2A3IMOf\nAaron Parecki \u2022 OAuth 2.0 Servers \u2022 https://amzn.to/3ecHEsz\nAaron Parecki \u2022 The Little Book of OAuth 2.0 RFCs \u2022 https://amzn.to/3i7qnlC\nErdal Ozkaya \u2022 Cybersecurity: The Beginner's Guide \u2022 https://amzn.to/2T6OIj3\nRicher & Sanso \u2022 OAuth 2 in Action \u2022 https://amzn.to/3hXiAH6\nWilson & Hingnikar \u2022 Demystifying OAuth 2.0, OpenID Connect, and SAML 2.0 \u2022 https://amzn.to/2U8iLY2\n\nhttps://twitter.com/GOTOcon\nhttps://www.linkedin.com/company/goto-\nhttps://www.facebook.com/GOTOConferences\n#OAuth2 #OAuth #Security #Privacy #SecureWebServer #AWS #Serverless #Okta #AWSserverless #AuthZ #AuthN #OpenIDconnect #OpenID #Cybersecurity #Encryption #JWT #JSONWebTokens #RFC #PKCE\n\nLooking for a unique learning experience?\nAttend the next GOTO conference near you! Get your ticket at https://gotopia.tech\n\nSUBSCRIBE TO OUR CHANNEL - new videos posted almost daily.\nhttps://www.youtube.com/user/GotoConferences/?sub_confirmation=1",
                 "thumbnails": {
                     "default": {
                         "url": "https://i.ytimg.com/vi/nbufy9BZIZ8/default.jpg",
@@ -193,7 +917,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 3,
+                "position": 17,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "nbufy9BZIZ8"
@@ -208,7 +932,58 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "Xl_C58hZv_nw_YPHFefOINZifuM",
+            "etag": "476mQKGbegrjdyA1OTj8OUgeEiY",
+            "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS5DQ0MyQ0Y4Mzg0M0VGOEYw",
+            "snippet": {
+                "publishedAt": "2026-01-29T15:48:48Z",
+                "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
+                "title": "Apidays LIVE interface 2021 - The State of OAuth by Aaron Parecki",
+                "description": "Apidays LIVE interface\nJune 30, July 1 & 2, 2021\n\nThe State of OAuth\nAaron Parecki, Maintainer of OAuth spec at Okta\n\nSpeakers slides from the conference:\nhttps://www.slideshare.net/APIdays_of...\n\nLearn more on APIscene, the global media made by the community for the community:\nhttps://www.apiscene.io/\n\nExplore the API ecosystem with the API Landscape:\nhttps://www.apiscene.io/api-landscape/\n\nDeep dive into the API industry with our reports:\nhttps://www.apidays.co/industry-reports\n\nSubscribe to our global newsletter:\nhttps://apidays.typeform.com/to/i1MPEW",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/W5ajhfWmvHE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/W5ajhfWmvHE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/W5ajhfWmvHE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/W5ajhfWmvHE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/W5ajhfWmvHE/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Aaron Parecki",
+                "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
+                "position": 18,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "W5ajhfWmvHE"
+                },
+                "videoOwnerChannelTitle": "FOST, the Future of Software Technologies",
+                "videoOwnerChannelId": "UCYWOO5aXLBMjCjR_UR4tPWg"
+            },
+            "contentDetails": {
+                "videoId": "W5ajhfWmvHE",
+                "videoPublishedAt": "2021-07-06T12:00:39Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "34cap-Fd4A9SfzZaPocRzfpTzzI",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS41QTY1Q0UxMTVCODczNThE",
             "snippet": {
                 "publishedAt": "2021-04-10T18:17:11Z",
@@ -244,7 +1019,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 4,
+                "position": 19,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "8aCyojTIW6U"
@@ -259,7 +1034,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "jQwLdEBlXiGB9GX8rWjv_mVF7_k",
+            "etag": "myND393ZQWxIVJn_vThZKzTb1pM",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS5EMEEwRUY5M0RDRTU3NDJC",
             "snippet": {
                 "publishedAt": "2020-12-17T01:45:34Z",
@@ -295,7 +1070,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 5,
+                "position": 20,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "td00HpMI3Q8"
@@ -310,13 +1085,13 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "XK_XpU3iu29DGMBHYnYARbOx0hg",
+            "etag": "AaOlcbohesNSo4Bw3TMRKINwyhU",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS5EQUE1NTFDRjcwMDg0NEMz",
             "snippet": {
                 "publishedAt": "2020-12-22T22:10:39Z",
                 "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
                 "title": "Advanced OAuth and Pitfalls Part 2/2 \u2022 Aaron Parecki & Eric Johnson \u2022 GOTO 2020",
-                "description": "This interview was recorded for the GOTO Book Club. #GOTOcon #GOTOBookClub\nhttp://gotopia.tech/bookclub\n\nAaron Parecki - Author of \"OAuth 2.0 Simplified\"\nEric Johnson - Senior Developer Advocate at AWS Serverless\n\nPART 1: https://youtu.be/HhwUMESAddM\n\nDESCRIPTION\nDeep dive into some advanced OAuth 2.0 processes and pitfalls like redirect URLs and STATE property.\nThe interview is based on Aaron Parecki's new book \"OAuth 2.0 Simplified\": https://amzn.to/2A3IMOf\n\nTIMECODES\n00:00 Intro\n00:05 Why is verifying the redirect URL important?\n02:40 What does the STATE property do?\n06:06 Security considerations as a user & server administrator\n15:28 Outro\n\nRead the full transcription of the interview here:\nhttps://gotopia.tech/bookclub/episodes/advanced-oauth-pitfalls\n\nRECOMMENDED BOOKS\nAaron Parecki \u2022 OAuth 2.0 Simplified \u2022 https://amzn.to/2A3IMOf\nAaron Parecki \u2022 OAuth 2.0 Servers \u2022 https://amzn.to/3ecHEsz\nAaron Parecki \u2022 The Little Book of OAuth 2.0 RFCs \u2022 https://amzn.to/3i7qnlC\nErdal Ozkaya \u2022 Cybersecurity: The Beginner's Guide \u2022 https://amzn.to/2T6OIj3\nRicher & Sanso \u2022 OAuth 2 in Action \u2022 https://amzn.to/3hXiAH6\nWilson & Hingnikar \u2022 Demystifying OAuth 2.0, OpenID Connect, and SAML 2.0 \u2022 https://amzn.to/2U8iLY2\n\nhttps://twitter.com/GOTOcon\nhttps://www.linkedin.com/company/goto-\nhttps://www.facebook.com/GOTOConferences\n#OAuth #OAuth2 #OAuth1 #Security #AuthN #AuthZ #PKCE #OAuthServer #Programming #AaronParecki #EricJohnson #Serverless #ProgrammingLanguages #Privacy\n\nSUPPORTER\nThis episode of the GOTO Book Club was made possible thanks to the support of GOTOpia.tech. Created for developers, by developers, the GOTO event series goes beyond annual conferences held in Chicago, Amsterdam and Copenhagen: you can also join online conferences, online masterclasses and meetups with top creators and leaders in tech year-round. \nAnd if joining one of these top-rated events isn't enough to satisfy your hunger for the latest in tech, you can watch over a thousand high-quality talks on the GOTO YouTube channel \u2014 subscribe now for new videos released (almost) daily and join GOTO in person or online at any upcoming conferences using the promo code \u2018bookclub\u2019.\nhttp://gotopia.tech\n\nLooking for a unique learning experience?\nAttend the next GOTO conference near you! Get your ticket at http://gotopia.tech\n\nSUBSCRIBE TO OUR CHANNEL - new videos posted almost daily.\nhttps://www.youtube.com/user/GotoConferences/?sub_confirmation=1",
+                "description": "This interview was recorded for the GOTO Book Club. #GOTOcon #GOTOBookClub\nhttp://gotopia.tech/bookclub\n\nAaron Parecki - Author of \"OAuth 2.0 Simplified\" @aaronpk \nEric Johnson - Senior Developer Advocate at AWS Serverless\n\nPART 1: https://youtu.be/HhwUMESAddM\n\nDESCRIPTION\nDeep dive into some advanced OAuth 2.0 processes and pitfalls like redirect URLs and STATE property.\nThe interview is based on Aaron Parecki's new book \"OAuth 2.0 Simplified\": https://amzn.to/2A3IMOf\n\nTIMECODES\n00:00 Intro\n00:05 Why is verifying the redirect URL important?\n02:40 What does the STATE property do?\n06:06 Security considerations as a user & server administrator\n15:28 Outro\n\nRead the full transcription of the interview here:\nhttps://gotopia.tech/bookclub/episodes/advanced-oauth-pitfalls\n\nRECOMMENDED BOOKS\nAaron Parecki \u2022 OAuth 2.0 Simplified \u2022 https://amzn.to/2A3IMOf\nAaron Parecki \u2022 OAuth 2.0 Servers \u2022 https://amzn.to/3ecHEsz\nAaron Parecki \u2022 The Little Book of OAuth 2.0 RFCs \u2022 https://amzn.to/3i7qnlC\nErdal Ozkaya \u2022 Cybersecurity: The Beginner's Guide \u2022 https://amzn.to/2T6OIj3\nRicher & Sanso \u2022 OAuth 2 in Action \u2022 https://amzn.to/3hXiAH6\nWilson & Hingnikar \u2022 Demystifying OAuth 2.0, OpenID Connect, and SAML 2.0 \u2022 https://amzn.to/2U8iLY2\n\nhttps://twitter.com/GOTOcon\nhttps://www.linkedin.com/company/goto-\nhttps://www.instagram.com/goto_con\nhttps://www.facebook.com/GOTOConferences\n#OAuth #OAuth2 #OAuth1 #Security #AuthN #AuthZ #PKCE #OAuthServer #Programming #AaronParecki #EricJohnson #Serverless #ProgrammingLanguages #Privacy\n\nCHANNEL MEMBERSHIP BONUS\nJoin this channel to get early access to videos & other perks:\nhttps://www.youtube.com/channel/UCs_tLP3AiwYKwdUHpltJPuA/join\n\nLooking for a unique learning experience?\nAttend the next GOTO conference near you! Get your ticket at https://gotopia.tech\nSign up for updates and specials at https://gotopia.tech/newsletter\n\nSUBSCRIBE TO OUR CHANNEL - new videos posted almost daily.\nhttps://www.youtube.com/user/GotoConferences/?sub_confirmation=1",
                 "thumbnails": {
                     "default": {
                         "url": "https://i.ytimg.com/vi/mb4JzsBBglg/default.jpg",
@@ -346,7 +1121,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 6,
+                "position": 21,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "mb4JzsBBglg"
@@ -361,13 +1136,13 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "c5prVgsPVnp3VDPD42anPxiItrg",
+            "etag": "TUdFDlA98kMeoblpxmvU6APiCMg",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS4yODlGNEE0NkRGMEEzMEQy",
             "snippet": {
                 "publishedAt": "2020-12-17T01:44:28Z",
                 "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
                 "title": "The Secrets of OAuth 2.0 Part 1/2 \u2022 Aaron Parecki & Eric Johnson \u2022 GOTO 2020",
-                "description": "This interview was recorded for the GOTO Book Club. #GOTOcon #GOTOBookClub\nhttp://gotopia.tech/bookclub\n\nAaron Parecki - Author of \"OAuth 2.0 Simplified\"\nEric Johnson - Senior Developer Advocate at AWS Serverless\n\nPART 2: https://youtu.be/mb4JzsBBglg\n\nDESCRIPTION\nThe OAuth 2.0 authorization framework has become the industry standard in providing secure access to web APIs. It allows users to grant external applications access to their data, such as profile data, photos, and email, without compromising security. OAuth 2.0 Simplified is a guide to building an OAuth 2.0 server. Through high-level overviews, step-by-step instructions, and real-world examples, you will learn how to take advantage of the OAuth 2.0 framework while building a secure API.\nThe interview is based on Aaron Parecki's new book \"OAuth 2.0 Simplified\": https://amzn.to/2A3IMOf\n\nTIMECODES\n00:00 Series intro\n00:48 Episode intro\n01:09 The history of OAuth\n03:15 Differences between OAuth 1 & 2\n09:28 Differences between AuthN & AuthZ\n15:06 Who is the target audience for this book?\n16:28 Do you recommend building your own OAuth server?\n19:34 What's a grant type and how does it work?\n23:30 Advantages of short access & long refresh token periods\n26:47 What is PKCE grant type in OAuth & how to use it\n31:14 Key takeaways from the book\n33:13 Outro\n\nRead the full transcription of the interview here:\nhttps://gotopia.tech/bookclub/episodes/the-secrets-of-oauth-2\n\nRECOMMENDED BOOKS\nAaron Parecki \u2022 OAuth 2.0 Simplified \u2022 https://amzn.to/2A3IMOf\nAaron Parecki \u2022 OAuth 2.0 Servers \u2022 https://amzn.to/3ecHEsz\nAaron Parecki \u2022 The Little Book of OAuth 2.0 RFCs \u2022 https://amzn.to/3i7qnlC\nErdal Ozkaya \u2022 Cybersecurity: The Beginner's Guide \u2022 https://amzn.to/2T6OIj3\nRicher & Sanso \u2022 OAuth 2 in Action \u2022 https://amzn.to/3hXiAH6\nWilson & Hingnikar \u2022 Demystifying OAuth 2.0, OpenID Connect, and SAML 2.0 \u2022 https://amzn.to/2U8iLY2\n\nhttps://twitter.com/GOTOcon\nhttps://www.linkedin.com/company/goto-\nhttps://www.facebook.com/GOTOConferences\n#OAuth #OAuth2 #OAuth1 #Security #AuthN #AuthZ #PKCE #OAuthServer #Programming #AaronParecki #EricJohnson #Serverless #ProgrammingLanguages #Privacy\n\nSUPPORTER\nThis episode of the GOTO Book Club was made possible thanks to the support of GOTOpia.tech. Created for developers, by developers, the GOTO event series goes beyond annual conferences held in Chicago, Amsterdam and Copenhagen: you can also join online conferences, online masterclasses and meetups with top creators and leaders in tech year-round. \nAnd if joining one of these top-rated events isn't enough to satisfy your hunger for the latest in tech, you can watch over a thousand high-quality talks on the GOTO YouTube channel \u2014 subscribe now for new videos released (almost) daily and join GOTO in person or online at any upcoming conferences using the promo code \u2018bookclub\u2019.\nhttp://gotopia.tech\n\nLooking for a unique learning experience?\nAttend the next GOTO conference near you! Get your ticket at http://gotopia.tech\n\nSUBSCRIBE TO OUR CHANNEL - new videos posted almost daily.\nhttps://www.youtube.com/user/GotoConferences/?sub_confirmation=1",
+                "description": "This interview was recorded for the GOTO Book Club. #GOTOcon #GOTOBookClub\nhttp://gotopia.tech/bookclub\n\nAaron Parecki - Author of \"OAuth 2.0 Simplified\" @aaronpk \nEric Johnson - Senior Developer Advocate at AWS Serverless\n\nPART 2: https://youtu.be/mb4JzsBBglg\n\nDESCRIPTION\nThe OAuth 2.0 authorization framework has become the industry standard in providing secure access to web APIs. It allows users to grant external applications access to their data, such as profile data, photos, and email, without compromising security. OAuth 2.0 Simplified is a guide to building an OAuth 2.0 server. Through high-level overviews, step-by-step instructions, and real-world examples, you will learn how to take advantage of the OAuth 2.0 framework while building a secure API.\nThe interview is based on Aaron Parecki's new book \"OAuth 2.0 Simplified\": https://amzn.to/2A3IMOf\n\nTIMECODES\n00:00 Series intro\n00:48 Episode intro\n01:09 The history of OAuth\n03:15 Differences between OAuth 1 & 2\n09:28 Differences between AuthN & AuthZ\n15:06 Who is the target audience for this book?\n16:28 Do you recommend building your own OAuth server?\n19:34 What's a grant type and how does it work?\n23:30 Advantages of short access & long refresh token periods\n26:47 What is PKCE grant type in OAuth & how to use it\n31:14 Key takeaways from the book\n33:13 Outro\n\nRead the full transcription of the interview here:\nhttps://gotopia.tech/bookclub/episodes/the-secrets-of-oauth-2\n\nRECOMMENDED BOOKS\nAaron Parecki \u2022 OAuth 2.0 Simplified \u2022 https://amzn.to/2A3IMOf\nAaron Parecki \u2022 OAuth 2.0 Servers \u2022 https://amzn.to/3ecHEsz\nAaron Parecki \u2022 The Little Book of OAuth 2.0 RFCs \u2022 https://amzn.to/3i7qnlC\nErdal Ozkaya \u2022 Cybersecurity: The Beginner's Guide \u2022 https://amzn.to/2T6OIj3\nRicher & Sanso \u2022 OAuth 2 in Action \u2022 https://amzn.to/3hXiAH6\nWilson & Hingnikar \u2022 Demystifying OAuth 2.0, OpenID Connect, and SAML 2.0 \u2022 https://amzn.to/2U8iLY2\n\nhttps://twitter.com/GOTOcon\nhttps://www.linkedin.com/company/goto-\nhttps://www.instagram.com/goto_con\nhttps://www.facebook.com/GOTOConferences\n#OAuth #OAuth2 #OAuth1 #Security #AuthN #AuthZ #PKCE #OAuthServer #Programming #AaronParecki #EricJohnson #Serverless #ProgrammingLanguages #Privacy\n\nCHANNEL MEMBERSHIP BONUS\nJoin this channel to get early access to videos & other perks:\nhttps://www.youtube.com/channel/UCs_tLP3AiwYKwdUHpltJPuA/join\n\nLooking for a unique learning experience?\nAttend the next GOTO conference near you! Get your ticket at https://gotopia.tech\nSign up for updates and specials at https://gotopia.tech/newsletter\n\nSUBSCRIBE TO OUR CHANNEL - new videos posted almost daily.\nhttps://www.youtube.com/user/GotoConferences/?sub_confirmation=1",
                 "thumbnails": {
                     "default": {
                         "url": "https://i.ytimg.com/vi/HhwUMESAddM/default.jpg",
@@ -397,7 +1172,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 7,
+                "position": 22,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "HhwUMESAddM"
@@ -412,58 +1187,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "a_e76Z3Azlug63GcsbW7O9ZNLH8",
-            "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS40NzZCMERDMjVEN0RFRThB",
-            "snippet": {
-                "publishedAt": "2020-12-17T01:45:23Z",
-                "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
-                "title": "OAuth 2.1, Future of OAuth XYZ/GNAP/TxAuth - OAuth Happy Hour Live Q&A",
-                "description": "Join Aaron Parecki and Micah Silverman from Okta for an hour of live Q&A about all things OAuth and OpenID Connect! Bring your questions, or just come to learn about what's new!\n\nTIMESTAMPS\n============\n0:00 Intro\n0:45 Updates on OAuth 2.1\n5:04 Token Introspection and JWT Tokens\n9:20 Credentialed Clients in OAuth 2.1\n12:40 Microsoft Warns about OAuth Phishing\n21:10 Why is OAuth 1 still around?\n36:02 Alternative Transports\n40:28 Identity in OAuth?\n52:30 TLS and SSL Certificates\n57:59 DNS\n59:50 Wrapup\n\n\nLINKS\n============\n\nOAuth 2.1\nhttps://oauth.net/2.1/\nhttps://tools.ietf.org/html/draft-parecki-oauth-v2-1-03\n\nTwitter API Docs\nhttps://developer.twitter.com/en/docs/basics/authentication/oauth-1-0a\n\nFlickr API Docs\nhttps://www.flickr.com/services/api/auth.oauth.html\n\nGNAP Charter\nhttps://datatracker.ietf.org/doc/charter-ietf-gnap/\n\nAdding Identity to XYZ\nhttps://aaronparecki.com/2019/07/18/17/adding-identity-to-xyz",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/U1lgyU3CKI8/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/U1lgyU3CKI8/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/U1lgyU3CKI8/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    },
-                    "standard": {
-                        "url": "https://i.ytimg.com/vi/U1lgyU3CKI8/sddefault.jpg",
-                        "width": 640,
-                        "height": 480
-                    },
-                    "maxres": {
-                        "url": "https://i.ytimg.com/vi/U1lgyU3CKI8/maxresdefault.jpg",
-                        "width": 1280,
-                        "height": 720
-                    }
-                },
-                "channelTitle": "Aaron Parecki",
-                "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 8,
-                "resourceId": {
-                    "kind": "youtube#video",
-                    "videoId": "U1lgyU3CKI8"
-                },
-                "videoOwnerChannelTitle": "OktaDev",
-                "videoOwnerChannelId": "UC5AMiWqFVFxF1q9Ya1FuZ_Q"
-            },
-            "contentDetails": {
-                "videoId": "U1lgyU3CKI8",
-                "videoPublishedAt": "2020-07-10T09:08:30Z"
-            }
-        },
-        {
-            "kind": "youtube#playlistItem",
-            "etag": "XaLJC-GTp1qzu2DyptWxCBv3SI4",
+            "etag": "zzg0ZGCUi18YGeZw_7njptr6uQU",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS41NkI0NEY2RDEwNTU3Q0M2",
             "snippet": {
                 "publishedAt": "2020-12-17T01:44:01Z",
@@ -499,7 +1223,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 9,
+                "position": 23,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "g_aVPdwBTfw"
@@ -514,7 +1238,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "ozNwjkh3mm7GlTQykggfNKF_UfI",
+            "etag": "a_o01d2YYOfrVNieYETbmu7bPUk",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS41MjE1MkI0OTQ2QzJGNzNG",
             "snippet": {
                 "publishedAt": "2020-12-17T01:44:36Z",
@@ -550,7 +1274,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 10,
+                "position": 24,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "espX8qKjywI"
@@ -565,7 +1289,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "7AZ6-GIjMvD2kDKJqD0Mx_ThNac",
+            "etag": "x7-BInXtMD_YRL7KbsDKlz43q9M",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS4wOTA3OTZBNzVEMTUzOTMy",
             "snippet": {
                 "publishedAt": "2020-12-17T01:44:42Z",
@@ -601,7 +1325,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 11,
+                "position": 25,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "5cQNwifDq1U"
@@ -616,13 +1340,13 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "r3r5m9bmtLlD3RA-fYFYQWv10do",
+            "etag": "BcURQaB9vVKX5UnZ2f7i591l8XA",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS4wMTcyMDhGQUE4NTIzM0Y5",
             "snippet": {
                 "publishedAt": "2020-12-17T01:44:32Z",
                 "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
                 "title": "What is OAuth and why does it matter? - OAuth in Five Minutes",
-                "description": "In this video we cover what OAuth is and why we even have it in the first place. OAuth in Five Minutes is a series where we deep-dive on various topics around OAuth in just five minutes!\n\nBuy the book! https://amzn.to/2S6Uj4e\n\nCheck out our video course! The Nuts and Bolts of OAuth 2.0\nhttps://oauth2simplified.com/course\n\nLearn more about OAuth at https://oauth.net\n\n--\n\nOkta is a developer API service that stores user accounts for your web apps, mobile apps, and APIs.\n\n* Sign up for Okta for free at https://developer.okta.com/signup/\n* For more info visit us at https://developer.okta.com/\n* Developer Blog: https://developer.okta.com/blog/\n* Follow us on Twitter: https://twitter.com/oktadev\n* Follow us on FB: https://www.facebook.com/oktadevelopers/\n* Follow us on LinkedIn: https://www.linkedin.com/company/oktadev",
+                "description": "In this video we cover what OAuth is and why we even have it in the first place. OAuth in Five Minutes is a series where we deep-dive on various topics around OAuth in just five minutes!\n\nBuy the book! https://amzn.to/2S6Uj4e\n\nCheck out our video course! The Nuts and Bolts of OAuth 2.0\nhttps://oauth2simplified.com/course\n\nLearn more about OAuth at https://oauth.net\n\n--\n\nOkta is a developer API service that stores user accounts for your web apps, mobile apps, and APIs.\n\n* Sign up for Okta for free at https://developer.okta.com/signup/\n* For more info visit us at https://developer.okta.com/\n* Developer Blog: https://developer.okta.com/blog/\n* Sign up for our monthly newsletter! https://a0.to/zeroindex\n* Follow us on Twitter: https://twitter.com/oktadev\n* Follow us on FB: https://www.facebook.com/oktadevelopers/\n* Follow us on LinkedIn: https://www.linkedin.com/company/oktadev",
                 "thumbnails": {
                     "default": {
                         "url": "https://i.ytimg.com/vi/KT8ybowdyr0/default.jpg",
@@ -638,11 +1362,21 @@
                         "url": "https://i.ytimg.com/vi/KT8ybowdyr0/hqdefault.jpg",
                         "width": 480,
                         "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/KT8ybowdyr0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/KT8ybowdyr0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
                     }
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 12,
+                "position": 26,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "KT8ybowdyr0"
@@ -657,7 +1391,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "AhhxleZdB66RSxumYtryovHfoGU",
+            "etag": "CkDwnMqL5aIWf-zp7B0G4gaWvNk",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS41Mzk2QTAxMTkzNDk4MDhF",
             "snippet": {
                 "publishedAt": "2020-12-17T01:47:36Z",
@@ -693,7 +1427,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 13,
+                "position": 27,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "8c1SOuO4mPc"
@@ -708,13 +1442,13 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "vYU0EnT_HZCvhXO2zXEqeNQX19U",
+            "etag": "fAgZfmixAQnQofyVjJLEeLr22sg",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS4zMDg5MkQ5MEVDMEM1NTg2",
             "snippet": {
                 "publishedAt": "2020-12-17T01:47:01Z",
                 "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
                 "title": "An Illustrated Guide to OAuth and OpenID Connect",
-                "description": "OAuth 2.0 and OpenID Connect (OIDC) are internet standards that enable one application to access data from another. Unfortunately, these standards use a lot of jargon and terminology that make them more difficult to understand. The goal of this video is to explain how these standards work using simplified illustrations.\n\nCheck out our new video course! The Nuts and Bolts of OAuth 2.0\nhttps://oauth2simplified.com/course\n\nIf you'd prefer to read a post on this subject, or find related posts that dive deeper into OAuth and OIDC, go to https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc\n\nOkta is a developer API service that stores user accounts for your web apps, mobile apps, and APIs.\n\n* Sign up for Okta for free at https://developer.okta.com/signup/\n* For more info visit us at https://developer.okta.com/\n* Developer Blog: https://developer.okta.com/blog/\n* Follow us on Twitter: https://twitter.com/oktadev\n* Follow us on FB: https://www.facebook.com/oktadevelopers/\n* Follow us on LinkedIn: https://www.linkedin.com/company/oktadev",
+                "description": "OAuth 2.0 and OpenID Connect (OIDC) are internet standards that enable one application to access data from another. Unfortunately, these standards use a lot of jargon and terminology that make them more difficult to understand. The goal of this video is to explain how these standards work using simplified illustrations.\n\nCheck out our new video course! The Nuts and Bolts of OAuth 2.0\nhttps://oauth2simplified.com/course\n\nIf you'd prefer to read a post on this subject, or find related posts that dive deeper into OAuth and OIDC, go to https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc\n\nOkta is a developer API service that stores user accounts for your web apps, mobile apps, and APIs.\n\n* Sign up for Okta for free at https://developer.okta.com/signup/\n* For more info visit us at https://developer.okta.com/\n* Developer Blog: https://developer.okta.com/blog/\n* Sign up for our newsletter! https://a0.to/zeroindex\n* Follow us on Twitter: https://twitter.com/oktadev\n* Follow us on FB: https://www.facebook.com/oktadevelopers/\n* Follow us on LinkedIn: https://www.linkedin.com/company/oktadev",
                 "thumbnails": {
                     "default": {
                         "url": "https://i.ytimg.com/vi/t18YB3xDfXI/default.jpg",
@@ -744,7 +1478,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 14,
+                "position": 28,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "t18YB3xDfXI"
@@ -759,7 +1493,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "mzi4UdPDcqqdWa2vhbA1EX6_Gxw",
+            "etag": "VWPcvHI9CGb8GccfEUsH1FtxPlQ",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS41MzJCQjBCNDIyRkJDN0VD",
             "snippet": {
                 "publishedAt": "2020-12-17T01:44:52Z",
@@ -795,7 +1529,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 15,
+                "position": 29,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "xSDeToCyJjo"
@@ -810,7 +1544,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "i_7bGxLClJahXqMgNcHf4u0wWaI",
+            "etag": "L5CN7wnhPAwIHb39y3pUxtmuJ1Q",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS5DQUNERDQ2NkIzRUQxNTY1",
             "snippet": {
                 "publishedAt": "2020-12-17T01:44:56Z",
@@ -846,7 +1580,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 16,
+                "position": 30,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "PfvSD6MmEmQ"
@@ -861,7 +1595,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "eJ1AeutnDA9Dxsf5WQbx9LW2Cbw",
+            "etag": "YMGkJBFPst1veLKEe7AclLPQSAU",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS4xMkVGQjNCMUM1N0RFNEUx",
             "snippet": {
                 "publishedAt": "2020-12-17T01:44:46Z",
@@ -897,7 +1631,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 17,
+                "position": 31,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "CHzERullHe8"
@@ -912,7 +1646,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "kIB7mvGZsn4kebQJmvTE3eKvs8E",
+            "etag": "srq6JOG9bzXNfgSjx-UIuydGVt8",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS45ODRDNTg0QjA4NkFBNkQy",
             "snippet": {
                 "publishedAt": "2020-12-17T01:46:48Z",
@@ -948,12 +1682,12 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 18,
+                "position": 32,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "vjCF_O6aZIg"
                 },
-                "videoOwnerChannelTitle": "scrt.insomnihack",
+                "videoOwnerChannelTitle": "1ns0mn1h4ck",
                 "videoOwnerChannelId": "UCGdJZb8OWZPrRK8PuEeoZuA"
             },
             "contentDetails": {
@@ -963,7 +1697,7 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "0t3FXPUkJHWwEeWbPqRiUoj4Fos",
+            "etag": "0XB00WFk6gjJmnAr8nN3HCQjCZc",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS45NDk1REZENzhEMzU5MDQz",
             "snippet": {
                 "publishedAt": "2020-12-17T01:45:00Z",
@@ -994,7 +1728,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 19,
+                "position": 33,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "H6MxsFMAoP8"
@@ -1009,13 +1743,13 @@
         },
         {
             "kind": "youtube#playlistItem",
-            "etag": "D6qI6SxWb2CWODrMiasTctwl0gY",
+            "etag": "hNxhjc5ivegn4quS0LrGef1bNLM",
             "id": "UExSeUxuNlRIQTV3UEkxVnMzRnZUaU5hUGo0OGhKZXAzbS5GNjNDRDREMDQxOThCMDQ2",
             "snippet": {
                 "publishedAt": "2020-12-17T01:45:04Z",
                 "channelId": "UCI3Par_DRgPKKwVIthS5JAA",
                 "title": "OAuth 2.0 access tokens explained",
-                "description": "Try it out at https://oauth.com/playground and sign up for a forever-free developer account at https://developer.okta.com/signup/\n\nAaron's book: OAuth 2.0 Simplified https://amzn.to/2S6Uj4e\n\nCheck out our new video course! The Nuts and Bolts of OAuth 2.0\nhttps://oauth2simplified.com/course",
+                "description": "Try it out at https://oauth.com/playground and sign up for a forever-free developer account at https://developer.okta.com/signup/\n\nAaron's book: OAuth 2.0 Simplified https://amzn.to/2S6Uj4e\n\nCheck out our new video course! The Nuts and Bolts of OAuth 2.0\nhttps://oauth2simplified.com/course\n\nSign up for our monthly newsletter! https://a0.to/zeroindex",
                 "thumbnails": {
                     "default": {
                         "url": "https://i.ytimg.com/vi/BNEoKexlmA4/default.jpg",
@@ -1045,7 +1779,7 @@
                 },
                 "channelTitle": "Aaron Parecki",
                 "playlistId": "PLRyLn6THA5wPI1Vs3FvTiNaPj48hJep3m",
-                "position": 20,
+                "position": 34,
                 "resourceId": {
                     "kind": "youtube#video",
                     "videoId": "BNEoKexlmA4"
@@ -1060,7 +1794,7 @@
         }
     ],
     "pageInfo": {
-        "totalResults": 21,
+        "totalResults": 35,
         "resultsPerPage": 50
     }
 }
