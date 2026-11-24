@@ -1,4 +1,4 @@
-<phpunit bootstrap="tests/bootstrap.php">
+<phpunit bootstrap="tests/bootstrap.php" failOnDeprecation="true" failOnNotice="true" failOnWarning="true" failOnPhpunitDeprecation="true" displayDetailsOnTestsThatTriggerDeprecations="true">
   <testsuites>
     <testsuite name="Tests">
       <directory>tests/</directory>

@@ -1,5 +1,5 @@
 <?php
-require_once(__DIR__.'/../../vendor/autoload.php');
+require_once(__DIR__.'/../../includes/xml.php');
 
 // $ietfFolder = '/Users/aaronpk/Code/ietf';
 
@@ -29,8 +29,7 @@ if(isset($status['rfc'])) {
   echo "Fetching $url\n";
 
   $xml = file_get_contents($url);
-  $json = Laminas\Xml2Json\Xml2Json::fromXml($xml, false);
-  $data = json_decode($json, true);
+  $data = xml_to_array($xml);
 
   $authors = [];
   if(isset($data['reference']['front']['author']['@attributes'])) {
@@ -69,8 +68,7 @@ if(isset($status['rfc'])) {
   $version = $match[1];
 
   $xml = file_get_contents($filename);
-  $json = Laminas\Xml2Json\Xml2Json::fromXml($xml, false);
-  $data = json_decode($json, true);
+  $data = xml_to_array($xml);
   */
 
   // Find the latest version
@@ -98,8 +96,7 @@ if(isset($status['rfc'])) {
 
     $xml = preg_replace('/<!ENTITY .+>/', '', $xml);
 
-    $json = Laminas\Xml2Json\Xml2Json::fromXml($xml, false);
-    $data = json_decode($json, true);
+    $data = xml_to_array($xml);
 
     $authors = [];
     if(isset($data['rfc']['front']['author']['@attributes'])) {

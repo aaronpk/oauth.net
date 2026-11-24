@@ -1,13 +1,10 @@
 <?php
-use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\HttpFoundation\Response;
+use PHPUnit\Framework\Attributes\DataProvider;
 use Symfony\Component\Yaml\Yaml;
 
 class CodeTest extends PHPUnit\Framework\TestCase {
 
-  /**
-   * @dataProvider loadCodeYAML
-   */
+  #[DataProvider('loadCodeYAML')]
   public function testFileSyntax($data, $f) {
 
     if($data == null) {
@@ -45,7 +42,7 @@ class CodeTest extends PHPUnit\Framework\TestCase {
     $this->assertStringNotContainsString('pilcrowonpaper/arctic', $contents);
   }
 
-  public function loadCodeYAML()
+  public static function loadCodeYAML()
   {
 
     $files = glob(__DIR__.'/../data/code/*.yml');

@@ -25,7 +25,7 @@ array_shift($lines);
 $data = [];
 
 foreach($lines as $line) {
-  $row = str_getcsv($line);
+  $row = str_getcsv($line, ",", "\"", "\\");
   $row = array_map('remove_b_wrapper', $row);
   if(count($row) == 7) {
     $data[] = [

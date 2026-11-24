@@ -1,12 +1,10 @@
 <?php
-require_once(__DIR__.'/../../vendor/autoload.php');
+require_once(__DIR__.'/../../includes/xml.php');
 
 $feedURL = 'https://datatracker.ietf.org/group/oauth/documents/feed/';
 
 $xml = file_get_contents($feedURL);
-$json = Laminas\Xml2Json\Xml2Json::fromXml($xml, false);
-
-$updates = json_decode($json, true);
+$updates = xml_to_array($xml);
 
 foreach($updates['feed']['entry'] as $entry) {
 

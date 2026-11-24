@@ -7,11 +7,14 @@ The license that the oauth.net site uses places all content added on or after 20
 
 ## Get Started
 
-You can use the built-in PHP webserver to run a development copy of this website.
+You can use the built-in PHP webserver to run a development copy of this website. It needs PHP 8.4 or newer, and runs on PHP 8.6.
 
 ```
+composer install
 php -S 127.0.0.1:8080 -t public router.php
 ```
+
+Run the tests with `composer test`.
 
 ## Contributing
 

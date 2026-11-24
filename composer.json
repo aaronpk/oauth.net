@@ -2,11 +2,20 @@
   "name": "aaronpk/oauth.net",
   "homepage": "https://oauth.net",
   "require": {
-    "symfony/dotenv": "^5.2",
-    "symfony/yaml": "^5.2",
-    "laminas/laminas-xml2json": "^3.2"
+    "php": ">=8.4.1",
+    "ext-dom": "*",
+    "ext-simplexml": "*",
+    "symfony/yaml": "^8.1"
   },
   "require-dev": {
-    "phpunit/phpunit": "^8.0"
+    "phpunit/phpunit": "^13.4"
+  },
+  "config": {
+    "platform": {
+      "php": "8.4.1"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
   }
 }

@@ -1,11 +1,10 @@
 <?php
+use PHPUnit\Framework\Attributes\DataProvider;
 use Symfony\Component\Yaml\Yaml;
 
 class ArticlesTest extends PHPUnit\Framework\TestCase {
 
-  /**
-   * @dataProvider loadArticles
-   */
+  #[DataProvider('loadArticles')]
   public function testArticle($article, $label) {
 
     $this->assertIsArray($article, 'Article must be a mapping: '.$label);
@@ -43,7 +42,7 @@ class ArticlesTest extends PHPUnit\Framework\TestCase {
     $this->assertNotEmpty($articles);
   }
 
-  public function loadArticles() {
+  public static function loadArticles() {
     $articles = Yaml::parseFile(__DIR__.'/../data/articles.yml');
     foreach($articles as $i => $article) {
       yield ($article['title'] ?? 'article #'.$i) => [$article, $article['title'] ?? 'article #'.$i];
