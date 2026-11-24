@@ -85,6 +85,7 @@ $languages = json_decode(file_get_contents(__DIR__.'/../../data/code/languages.j
       <li><a href="https://github.com/zitadel/zitadel">ZITADEL</a></li>   
       <li><a href="https://github.com/malach-it/boruta-server">boruta</a></li>
       <li><a href="https://github.com/logto-io/logto">Logto</a></li>
+      <li><a href="https://nidam.derbyware.com/intro">Nidam</a></li>
     </ul>
 
     <h4 id="commercial">Commercial</h4>
