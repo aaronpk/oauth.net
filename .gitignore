@@ -5,3 +5,4 @@ includes/.*.php
 vendor/
 config/config.php
 data/sponsors/home.php
+data/logs/
